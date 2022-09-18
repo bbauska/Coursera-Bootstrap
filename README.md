@@ -1,5 +1,5 @@
 ---
-title: "**Front-End Web UI Frameworks and Tools: Bootstrap 4**"
+title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
 
 ![](images/image001.png){width="5.0in" height="2.202991032370954in"}
@@ -137,6 +137,7 @@ Each module roughly corresponding to one week of work.
 ```{=html}
 <!-- -->
 ```
+
 a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
     > how you can write JQuery and JavaScript code in order to control
     > your Bootstrap JavaScript component.
@@ -162,7 +163,9 @@ d.  Then, **finally**, we\'ll look at how we can build and deploy our
 
 ### Bootstrap Resources
 
-#### [Bootstrap Site](http://www.getbootstrap.com/) (https://getbootstrap.com/)
+<h3 align="center">
+    <a href="http://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
+    <a href="https://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
 
 ### Coursera Resources
 
