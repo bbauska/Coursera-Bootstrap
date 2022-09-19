@@ -1,7 +1,26 @@
+<h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
+<br/>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- readme.md of coursera-web.bauska.net ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- Coursera logo ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/Coursera-logo.png?raw=true"
+   width="35%"
+   alt="Coursera logo" />
+</p>
 ---
 title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
-![](images/image001.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 01. hong kong university of science and technology logo (01) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+   width="65%"
+   alt="Hong Kong University of Science and Technolog logo." />
+</p>
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
 ------------>
