@@ -2678,14 +2678,22 @@ Strap on your boots, and let\'s get started with Bootstrap.
 
 I\'m sure your fingers are itching to get your hands around Bootstrap.
 
-![](images/image035.png){width="5.0in"
+![](images/image035.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9722222222222223in"}
+------------------->
 
 First step, go to the exercise instructions that follow this exercise in
 your Bootstrap course page on Coursera.
 
-![](images/image036.png){width="5.0in"
+![](images/image036.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9722222222222223in"}
+------------------->
 
 And then in the instructions, you will see a link to this file
 Bootstrap4-starter.zip.
@@ -3147,8 +3155,12 @@ Your obvious question is going to be why consider responsive design?
 To help us understand this, let\'s consider how people access websites
 these days?
 
-![](images/image037.png){width="5.0in"
+![](images/image037.png)
+
+<!-------------------
+{width="5.0in"
 height="1.1180555555555556in"}
+------------------->
 
 Traditionally, when websites were first designed, you could pretty much
 assume that people will be browsing your websites from a computer.
@@ -3159,8 +3171,12 @@ a computer with different screen sizes and screen resolutions.
 How do we render our websites consistently on devices of different
 screen sizes?
 
-![](images/image038.png){width="5.0in"
+![](images/image038.png)
+
+<!-------------------
+{width="5.0in"
 height="1.561431539807524in"}
+------------------->
 
 The one size fits all approach that traditional website designers have
 taken no longer fixed bill.
@@ -3171,8 +3187,12 @@ your website to the size of the screen on which it is being viewed.
 This is where we have to take an approach to adapt to the user\'s view
 port.
 
-![](images/image039.png){width="5.0in"
+![](images/image039.png)
+
+<!-------------------
+{width="5.0in"
 height="2.223290682414698in"}
+------------------->
 
 This has to be built into your website design and development so that it
 will automatically adapt to the viewport of the user\'s device.
@@ -3219,8 +3239,12 @@ SE, and you see how the website has change the way it is being rendered.
 Hopefully, this example has illustrated to you how and why we need
 responsive web design.
 
-![](images/image040.png){width="5.0in"
+![](images/image040.png)
+
+<!-------------------
+{width="5.0in"
 height="2.735042650918635in"}
+------------------->
 
 The second related concept that you will hear is mobile first.
 
@@ -3258,8 +3282,12 @@ There are several concepts that are built in to your frame time web UI
 frameworks that come to the aid when you need to do responsive web
 design.
 
-![](images/image041.png){width="5.0in"
+![](images/image041.png)
+
+<!-------------------
+{width="5.0in"
 height="1.208867016622922in"}
+------------------->
 
 First and foremost is what is called is a Grid system?
 
@@ -3269,14 +3297,22 @@ the next lecture.
 That we\'ll understand exactly how we can leverage that to be able to do
 responsive web design.
 
-![](images/image042.png){width="5.0in"
+![](images/image042.png)
+
+<!-------------------
+{width="5.0in"
 height="1.7852559055118111in"}
+------------------->
 
 The second aspect is fluid images, so that your images that you include
 in your website will automatically adapt itself to the screen size.
 
-![](images/image043.png){width="5.0in"
+![](images/image043.png)
+
+<!-------------------
+{width="5.0in"
 height="2.178418635170604in"}
+------------------->
 
 And the third part is what is called a CSS media queries from your CSS
 code.
@@ -3290,8 +3326,12 @@ Let\'s look at that next.
 
 Media queries are supported in CSS like this.
 
-![](images/image044.png){width="5.0in"
+![](images/image044.png)
+
+<!-------------------
+{width="5.0in"
 height="2.077457349081365in"}
+------------------->
 
 The technology allows you to do a media query to specify the minimum
 width of the screen under which this particular set of CSS classes will
@@ -3306,8 +3346,12 @@ here.
 This is just one example of how you would build a media query in your
 CSS code.
 
-![](images/image045.png){width="5.0in"
+![](images/image045.png)
+
+<!-------------------
+{width="5.0in"
 height="2.839744094488189in"}
+------------------->
 
 Taking a look at Bootstrap\'s CSS code itself, let\'s go in and see how
 media queries are being used by Bootstrap.
@@ -3334,8 +3378,12 @@ kind of device you\'re rendering your website on.
 And correspondingly adjust the CSS classes to fit that particular
 devices screen size.
 
-![](images/image046.png){width="5.0in"
+![](images/image046.png)
+
+<!-------------------
+{width="5.0in"
 height="1.1180555555555556in"}
+------------------->
 
 Then obviously, the next question that is going to come in your mind is
 how do we do this in practice?
@@ -3368,8 +3416,12 @@ I briefly referred to this particular line in the code then.
 
 Let\'s try to understand why we use this in our index.html page.
 
-![](images/image047.png){width="5.0in"
+![](images/image047.png)
+
+<!-------------------
+{width="5.0in"
 height="2.086538713910761in"}
+------------------->
 
 What we are specifying here is that, when our web page is being rendered
 by the browser in a particular device, then, their rendering in the
@@ -3384,8 +3436,12 @@ web page is correctly rendered for that particular screen size.
 This is where the Bootstrap grid system comes to our rescue and enables
 us to design responsive websites.
 
-![](images/image048.png){width="5.0in"
+![](images/image048.png)
+
+<!-------------------
+{width="5.0in"
 height="1.959935476815398in"}
+------------------->
 
 Again, emphasizing this point, Bootstrap grid is designed to be
 responsive.
@@ -3394,8 +3450,12 @@ You have already seen what this means in the previous lecture, and
 mobile first, which we have already discussed in the previous lecture
 and then fluid, automatically adapting to the screen width.
 
-![](images/image049.png){width="5.0in"
+![](images/image049.png)
+
+<!-------------------
+{width="5.0in"
 height="1.959935476815398in"}
+------------------->
 
 The Bootstrap grid takes advantage of the CSS flexbox layout.
 
@@ -3411,8 +3471,12 @@ Earlier Bootstrap had its own grid system which was predating the CSS
 flexbox layout, but the latest version of Bootstrap has made the CSS
 flexbox layout as the standard for the Bootstrap grid.
 
-![](images/image050.png){width="5.0in"
+![](images/image050.png)
+
+<!-------------------
+{width="5.0in"
 height="2.2729702537182854in"}
+------------------->
 
 This flexbox layout can easily handle dynamic content and can adapt the
 containers to the dynamic content, and also can easily adapt to unknown
@@ -3439,8 +3503,12 @@ that are laid out in the same row.
 Let\'s now talk a little more details about the Bootstrap grid and how
 it actually works.
 
-![](images/image051.png){width="5.0in"
+![](images/image051.png)
+
+<!-------------------
+{width="5.0in"
 height="1.0096150481189852in"}
+------------------->
 
 The way the Bootstrap grid works, is by applying a container class to
 the outermost layer.
@@ -3467,8 +3535,12 @@ the size of the screen.
 But the fixed width container, fixes the size of the actual layout
 width.
 
-![](images/image052.png){width="5.0in"
+![](images/image052.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 Inside the container, the content will be laid out in the form of rows,
 so typically what we would do is inside and out of div to which we apply
@@ -3477,8 +3549,12 @@ the row class.
 
 The content itself will be vertically divided into multiple rows.
 
-![](images/image053.png){width="5.0in"
+![](images/image053.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 And once this is divided into rows, within each row, you can then layout
 the content using columns.
@@ -3506,8 +3582,12 @@ How exactly do we layout the content?
 
 We\'ll talk about that in the next few slides.
 
-![](images/image054.png){width="5.0in"
+![](images/image054.png)
+
+<!-------------------
+{width="5.0in"
 height="2.171474190726159in"}
+------------------->
 
 The Bootstrap grid itself, makes available to us five classes to specify
 different screen sizes by default.
@@ -3549,14 +3629,23 @@ How does this work?
 
 We\'ll see that in the next slide.
 
-![](images/image055.png){width="5.0in"
+![](images/image055.png)
+
+<!-------------------
+{width="5.0in"
 height="2.678418635170604in"}
+------------------->
 
 Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
 
-![](images/image056.png){width="5.0in"
+
+![](images/image056.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 We can specify that that content is enclosed inside another div, to
 which we apply column class, like for example, col-sm-5.
@@ -3582,8 +3671,12 @@ five columns.
 
 There are still seven more columns left.
 
-![](images/image057.png){width="5.0in"
+![](images/image057.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 I could take another piece of content and then position it to the right
 of this, by defending another div and then applying column sm-7.
@@ -3597,8 +3690,12 @@ entire 12 column width.
 This is how we can specify and the work with the 12 columns in defining
 the layout of the current tier.
 
-![](images/image058.png){width="5.0in"
+![](images/image058.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 With the use of the CSS flex box layout, Bootstrap also supports what is
 called the Auto-layout Columns.
@@ -3611,8 +3708,12 @@ bootstrap grid will automatically position these contents inside those
 divs, side by side, so, that each one of them gets one third of the
 total width.
 
-![](images/image059.png){width="5.0in"
+![](images/image059.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 Since we have 12 columns here, each of these three will get four columns
 each.
@@ -3620,14 +3721,22 @@ each.
 And this is automatically taken care of by the bootstraps layout
 mechanism.
 
-![](images/image060.png){width="5.0in"
+![](images/image060.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
 
-![](images/image061.png){width="5.0in"
+![](images/image061.png)
+
+<!-------------------
+{width="5.0in"
 height="1.9439107611548556in"}
+------------------->
 
 For example, suppose I specify three column classes, but the middle one
 I specify column sm 6.
@@ -3649,8 +3758,11 @@ In the exercise, we will see various combinations of use of these kind
 of specifications of how many columns each piece of content will occupy
 in color layout.
 
-![](images/image062.png){width="5.0in"
+![](images/image062.png)
+<!-------------------
+{width="5.0in"
 height="2.834935476815398in"}
+------------------->
 
 This table summarizes the way Bootstrap treats the different screen
 grids and correspondingly how you identify these screen grids.
@@ -3747,8 +3859,12 @@ Also, it supports offsets.
 
 We will see the use of offsets also in some examples later.
 
-![](images/image063.png){width="5.0in"
+![](images/image063.png)
+
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 Let\'s look at our first example of how you would apply bootstraps
 column classes, and how they would actually be rendered on different
@@ -3777,8 +3893,12 @@ to extra-large screen sizes.
 
 This is how we would specify content layout for different screen sizes.
 
-![](images/image064.png){width="5.0in"
+![](images/image064.png)
+
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 Bootstrap also provides additional classes called as the Order Hyphen
 Classes which allow you to reorder the content on the screen.
@@ -3802,8 +3922,11 @@ the row.
 
 We will see an example of this also in the exercise.
 
-![](images/image065.png){width="5.0in"
+![](images/image065.png)
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 The next interesting support that Bootstrap Grid brings with the use of
 the Flexbox layout is vertical alignment of content.
@@ -3818,8 +3941,11 @@ of doing vertical alignment.
 If you wanted the content to be vertically-centered, then to the row,
 you would apply the class called \"align items center\".
 
-![](images/image066.png){width="5.0in"
+![](images/image066.png)
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 In this case, whatever content is laid out, will be laid out
 vertically-aligned within that particular row.
@@ -3829,16 +3955,22 @@ the remaining ones will be aligned when it is laid out in that row or if
 you pre-specify the height of the row, then all the content will be
 centered vertically within that particular row there.
 
-![](images/image067.png){width="5.0in"
+![](images/image067.png)
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 Not only that, Bootstrap\'s Grid also supports horizontal alignment of
 content.
 
 Let\'s look at an example.
 
-![](images/image068.png){width="5.0in"
+![](images/image068.png)
+<!-------------------
+{width="5.0in"
 height="2.0544870953630796in"}
+------------------->
 
 If you specify your content like this.
 
@@ -17565,4 +17697,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 3:27pm ---->
+<!--- last updated: 09/19/2022 at 4:54pm ---->
