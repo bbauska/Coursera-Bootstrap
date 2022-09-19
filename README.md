@@ -1,7 +1,6 @@
 ---
 title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
-
 ![](images/image001.png)
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
@@ -182,7 +181,7 @@ d.  Then, **finally**, we\'ll look at how we can build and deploy our
 
 #### [Switching to a Different Session](https://learner.coursera.help/hc/en-us/articles/208279776) 
 
-#### (h[ttps://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph}
+#### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph}
 
 ## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
 
@@ -201,7 +200,14 @@ development. At the end of this lesson, you will be able to:
 
 ## What is Full-Stack Web Development?
 
-## ![](images/image003.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 03. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image003.png?raw=true"
+   alt="Image 3."
+   width="50%" />
+</p>
 
 <!---------
 {width="5.0in" height="2.0571587926509185in"}
@@ -227,7 +233,14 @@ like PHP, Java, ASP.NET, Ruby, Python or NodeJS.
 We often hear people talking about the three tier architecture for Web
 Development.
 
-![](images/image004.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 04. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image004.png?raw=true"
+   alt="Image 4."
+   width="50%" />
+</p>
 
 <!---------
 {width="5.0in"
@@ -243,8 +256,19 @@ user.
 This is usually the UI-related concerns that are dealt with at the
 presentation layer.
 
-![](images/image005.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 05. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png?raw=true"
+   alt="Image 5."
+   width="50%" />
+</p>
+
+<!-----------
+{width="5.0in"
 height="2.0571587926509185in"}
+------------>
 
 The **business logic layer**, on the other hand, is concerned more about
 the data, the data validation, the dynamic content processing, and
@@ -253,7 +277,14 @@ generating the content to be delivered to the user.
 This is backed up behind the scenes with the **data persistence layer or
 the data access layer**.
 
-![](images/image006.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 06. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image006.png?raw=true"
+   alt="Image 6."
+   width="50%" />
+</p>
 
 <!---------
 {width="5.0in"
@@ -267,14 +298,36 @@ API.
 Exploring this further, let us see what is implemented typically in the
 traditional web development in each of these three layers.
 
-![](images/image007.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 07. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image007.png?raw=true"
+   alt="Image 7."
+   width="50%" />
+</p>
+
+<!----------
+{width="5.0in"
 height="2.4770297462817146in"}
+----------->
 
 The Business Logic Layer is usually implemented these days using
 technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 
-![](images/image008.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 08. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image008.png?raw=true"
+   alt="Image 8."
+   width="50%" />
+</p>
+
+<!--------
+{width="5.0in"
 height="2.4770297462817146in"}
+---------->
 
 This Business Logic Layer is interacting behind the scenes with the
 persistent data typically stored in a relational database and accessed
@@ -284,8 +337,19 @@ The Business Logic Layer is also concerned with the rendering of
 information to the front side, typically, in the form of server-side
 rendering these days.
 
-![](images/image009.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 09. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image009.png?raw=true"
+   alt="Image 9."
+   width="50%" />
+</p>
+
+<!----------
+{width="5.0in"
 height="2.4770297462817146in"}
+----------->
 
 The HTML, CSS and JavaScript is generated on the server-side and then
 sent over to the client side in the form of a web page.
@@ -320,8 +384,19 @@ REST API endpoint.
 
 We will cover these technologies as part of this specialization.
 
-![](images/image011.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 11. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image011.png?raw=true"
+   alt="Image 11."
+   width="50%" />
+</p>
+
+<!----
+{width="5.0in"
 height="2.4770297462817146in"}
+----->
 
 As you go through the specialization, you will see that on the
 presentation layer side, we will cover Bootstrap four and Angular or
@@ -407,8 +482,19 @@ the end of the exercises, unless otherwise instructed. You may wish to
 set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
 
-![](images/image012.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 12. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image012.png?raw=true"
+   alt="Image 12."
+   width="50%" />
+</p>
+
+<!---------
+{width="5.0in"
 height="1.5908125546806648in"}
+---------->
 
 ## Exercise (Video): Setting up Git
 
@@ -453,8 +539,19 @@ wider deployment in the real world, these days.
 That node ecosystem is very much tied into Git and that is the reason
 why we need Git for this specialization.
 
-![](images/image013.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 13. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image013.png?raw=true"
+   alt="Image 13."
+   width="50%" />
+</p>
+
+<!---------
+{width="5.0in"
 height="2.0571576990376204in"}
+----------->
 
 Let\'s now move on to a Few hands on exercises, where you will first set
 up Git.
@@ -471,6 +568,14 @@ this specialization.
 
 Let\'s now run through a few quick steps to set up Git on your computer.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------ 14. (xx) -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image014.png?raw=true"
+   alt="Image 14."
+   width="50%" />
+</p>
 ![](images/image014.png){width="5.0in"
 height="2.7622867454068243in"}
 
