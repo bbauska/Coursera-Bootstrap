@@ -4737,7 +4737,9 @@ At the end of this exercise, you will be able to:
     without the bullets. To do this, go to the links in the footer and
     update the ul as follows
 
-**\<ul class=\"list-unstyled\"\> \... \</ul\>**
+```
+<ul class="list-unstyled"> ... </ul>
+```
 
 ### Using Custom CSS classes
 
@@ -4749,46 +4751,33 @@ do this in this part of the exercise.
     *styles.css* in the ***css*** folder. Open this file to edit the
     contents. Add the following CSS code to the file:
 
-> **.row-header{**
->
-> **    margin:0px auto;**
->
-> **    padding:0px;**
->
-> **}**
->
-> ** **
->
-> **.row-content {**
->
-> **    margin:0px auto;**
->
-> **    padding: 50px 0px 50px 0px;**
->
-> **    border-bottom: 1px ridge;**
->
-> **    min-height:400px;**
->
-> **}**
->
-> ** **
->
-> **.footer{**
->
-> **    background-color: #D1C4E9;**
->
-> **    margin:0px auto;**
->
-> **    padding: 20px 0px 20px 0px;**
->
-> **}**
->
-> ** **
+```
+> .row-header{
+>     margin:0px auto;
+>     padding:0px;
+> }
+>  
+> .row-content {
+>     margin:0px auto;
+>     padding: 50px 0px 50px 0px;
+>     border-bottom: 1px ridge;
+>     min-height:400px;
+> }
+>  
+> .footer{
+>     background-color: #D1C4E9;
+>     margin:0px auto;
+>     padding: 20px 0px 20px 0px;
+> }
+>  
+```
 
--   Include the *styles.css* file into the head of the *index.html* file
+-   Include the styles.css file into the head of the index.html file
     as follows:
 
-**    \<link href=\"[css/styles.css]{.underline}\" rel=\"stylesheet\"\>**
+```
+    <link href="[css/styles.css]{.underline}" rel="stylesheet">
+```
 
 -   Then add these classes to the corresponding rows in the *index.html*
     file as follows. See the difference in the *index.html* file in the
@@ -4796,77 +4785,60 @@ do this in this part of the exercise.
     three for the rows in the content, and the last one directly to the
     \<footer\> tag.
 
-> **    \<div class=\"row row-header\"\> \... \</div\>**
->
-> ** **
->
-> **    \<div class=\"row row-content\"\> \... \</div\>**
->
-> ** **
->
-> **    \<div class=\"row row-content\"\> \... \</div\>**
->
-> ** **
->
-> **    \<div class=\"row row-content\"\> \... \</div\>**
->
-> ** **
->
-> **    \<footer class=\"footer\"\> \... \</footer\>**
-
-** **
+```
+>     <div class="row row-header"> ... </div>
+>     <div class="row row-content"> ... </div>
+>     <div class="row row-content"> ... </div>
+>     <div class="row row-content"> ... </div>
+> 
+>     <footer class="footer"> ... </footer>
+```
 
 -   Our next set of customization is to the jumbotron and the address.
     Add the following to *styles.css* file:
 
-> **.jumbotron {**
->
-> **    padding:70px 30px 70px 30px;**
->
-> **    margin:0px auto;**
->
-> **    background: #9575CD ;**
->
-> **    color:floralwhite;**
->
-> **}**
->
-> ** **
->
-> **address{**
->
-> **    font-size:80%;**
->
-> **    margin:0px;**
->
-> **    color:#0f0f0f;**
->
-> **}**
->
-> ** **
+```
+> .jumbotron {
+>     padding:70px 30px 70px 30px;
+>     margin:0px auto;
+>     background: #9575CD ;
+>     color:floralwhite;
+> }
+> address{
+>     font-size:80%;
+>     margin:0px;
+>     color:#0f0f0f;
+> }
+```
 
 ### Vertically Centering the Content
 
 -   In the content section, update all the rows as follows:
 
-**\<div class=\"row row-content align-items-center\"\>**
+```
+**<div class="row row-content align-items-center">
+```
 
 -   In the footer, update the third column div that contains the social
     media links as follows:
-
-**\<div class=\"col-12 col-sm-4 align-self-center\"\>**
+```
+<div class="col-12 col-sm-4 align-self-center">
+```
 
 ### Horizontally Centering the Content
 
 -   Update the copyright paragraph as follows:
 
-> **\<div class=\"row justify-content-center\"\>             **
->
-> **\<div class=\"col-auto\"\>**
+```
+> <div class="row justify-content-center">
+> <div class="col-auto">
+```
 
 -   Update the inner div containing the social media links as follows:
 
-**\<div class=\"text-center\"\>**
+```
+<div class="text-center">
+```
 
 -   After saving all the changes, you can do a Git commit with the
     message \"Bootstrap Grid Part 2\" and push your changes to the
@@ -4882,9 +4854,11 @@ classes.
 
 ### PDFs of Presentations
 
-> **05-Responsive-Design.pdf**
+```
+> 05-Responsive-Design.pdf
 >
-> **05-Bootstrap-Grid.pdf**
+> 05-Bootstrap-Grid.pdf
+```
 
 ### Bootstrap Official Documentation
 
@@ -4944,7 +4918,17 @@ then you can view the page in your browser by typing
 localhost:3000/aboutus.html and your light server build server up the
 aboutus.html page, so this is the only way you can get to view the page.
 
-![](images/image075.png){width="5.0in" height="2.6875in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
+{width="5.0in" height="2.6875in"}
+--------------->
 
 To begin with, the page will look like this, a completely Unstyle page
 which just contains content.
@@ -4953,7 +4937,18 @@ Now your job is to go through three tasks in order to format this page.
 
 Let\'s look at the three tasks in more detail.
 
-![](images/image076.png){width="5.0in" height="2.6875in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 76.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+
+<!-----------------
+{width="5.0in" height="2.6875in"}
+------------------>
 
 Your first task is to apply the Bootstraps CSS and the Javascript
 classes to the aboutus.html page so that this page will be instantly
@@ -4962,7 +4957,18 @@ and JavaScript classes, the header and footer will automatically get
 formatted correctly, because I have simply copied the header in the
 footer from the index.html page into this page
 
-![](images/image077.png){width="5.0in" height="2.6875in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 77.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+
+<!------------------
+{width="5.0in" height="2.6875in"}
+------------------->
 
 and I left all the Bootstrap formatting as such, but the actual content
 of the page is still left unstyled.
@@ -4971,7 +4977,18 @@ now, as the second task, you\'re going to apply the Bootstraps Flexbox
 grid including the Container, the rows and the column classes to this
 content or the page so that you can style it properly.
 
-![](images/image078.png){width="5.0in" height="2.6875in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 78.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image078.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+
+<!---------------------
+{width="5.0in" height="2.6875in"}
+---------------------->
 
 Now, when apply the classes, you\'re going to apply the row and column
 classes to the aboutus to just leave it as such.
@@ -4989,28 +5006,66 @@ in this page.
 
 When you complete the second task, your page will end up being styled
 like this.
-
-![](images/image079.png){width="5.0in" height="2.6875in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 You can see that the aboutus page exists in its own.
 
 Then Our History part, notice that on a small to large screen size, the
 Our History will occupy only half the screen width.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image080.png){width="5.0in" height="2.6875in"}
 
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image081.png){width="5.0in" height="2.6875in"}
 
 This is the second task that you need to complete in your assignment.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image082.png){width="5.0in" height="2.6875in"}
 
 For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
 especially like this,
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image083.png){width="5.0in" height="2.6875in"}
 
@@ -5028,6 +5083,14 @@ extra small screen sizes.
 When you apply the classes to this corporate leadership part, the same
 content will now be laid out without the description, so it will be
 hidden in the extra small screens size.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image084.png){width="5.0in" height="2.6875in"}
 
@@ -5067,6 +5130,14 @@ Git Repository with the Message Assignment One.
 **aboutus.html**
 
 ### Assignment 1 Screenshots
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/image085.png){width="2.0in"
 height="7.825243875765529in"}![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/image086.png){width="4.0in"
@@ -5201,6 +5272,14 @@ And how do you we provide navigation information on your website?
 
 These are the question that we will try to answer In this particular
 lecture.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image087.png){width="5.0in"
 height="2.7804483814523184in"}
@@ -9403,9 +9482,25 @@ You can use the column classes to adjust these things.
 ## Assignment 2: Resources
 
 ### Assignment Screenshots
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QAQDOy2SEeikKwpOWDsZFA_b69afa8d38e22b06cde6e076d3eb1459_screencapture-Assignment2.png?expiry=1641081600000&hmac=jEHWrZT5WgUFXJD7q-NiciA_QS9OR7VFUTRr28mLAIE](images/image088.png){width="5.0in"
 height="8.86311789151356in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 A![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VRO1WC2SEeiISxJZ7npQ3g_e44b2b9a244756bb19ecfd430ad96beb_screencapture-Assignment2-xs.png?expiry=1641081600000&hmac=NBbvO-ysXP-pwcDIwUklpxFfx4-Kh_UIEU2O46muB40](images/image089.png){width="3.100546806649169in"
 height="20.775930664916885in"}
@@ -11757,6 +11852,14 @@ Hope you enjoyed creating this new variation of the index.html page.
 ## Assignment 3: Resources
 
 ### Assignment Screenshots
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png){width="5.0in"
 height="4.461420603674541in"}
@@ -11798,13 +11901,28 @@ And we also learned that Bootstrap\'s JavaScript-based components are
 all enabled using jQuery as the support.
 
 So many of these plugins are written in jQuery.
-
-![](images/image091.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+mages/image091.png){width="5.0in"
 height="1.726496062992126in"}
 
 Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
 been including all the Bootstrap\'s JavaScript plugins into our webpage.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image092.png){width="5.0in"
 height="3.046474190726159in"}
@@ -11815,6 +11933,14 @@ JS-based plugins are implemented.
 
 We saw that Bootstrap\'s JS components ox in the jQuery-based components
 and make it easy for us to make use of them in our webpage.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image093.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11826,6 +11952,14 @@ This is where the data-\* attributes come to our rescue.
 
 You can use the various attributes that we saw in the previous module to
 enable many of our Bootstrap\'s JavaScript-based components.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image094.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11838,9 +11972,18 @@ You can write code using the jQuery syntax and then use that together to
 control your Bootstrap\'s JS components.
 
 We\'re going to explore that in a little more detail in this module.
-
-![](images/image095.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 95.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!------------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------------->
 
 Before we proceed further, let me give you a quick tour of jQuery and
 its syntax so that we understand some of the code that we\'ll write in
@@ -11880,6 +12023,14 @@ Let\'s briefly understand jQuery Syntax.
 Now if you have seen some of the code that we included in the previous
 module, specifically for the tool tip, you remember that there was
 something that started with a dollar sign.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image096.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11930,12 +12081,28 @@ You specify the selector, and then you specify the corresponding action
 to be performed on the element that is selected by these selectors.
 
 Let\'s take a look at Bootstrap jQuery example.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image097.png){width="5.0in"
 height="2.0592946194225723in"}
 
 We\'ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image098.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11953,6 +12120,14 @@ Ready is the action to be taken.
 
 When the document is ready, then execute this function that is specified
 as a parameter for this ready action there.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image099.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11977,6 +12152,14 @@ you want the tooltip to be enabled there.
 This is how we interpret this syntax of this jQuery example here.
 
 Let\'s look at the various ways of specifying selectors.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image100.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -11986,6 +12169,14 @@ and then, within brackets, we specify a selector.
 
 How do we specify selectors, what are the various ways you can specify
 selectors?
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image101.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -12051,6 +12242,14 @@ And a lot more other possibilities.
 
 These are some examples, so you will see me using some of these in the
 examples and the exercise that follows.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image102.png){width="5.0in"
 height="2.0592946194225723in"}
@@ -12076,18 +12275,37 @@ We can even talk about the entire document.
 
 Upon the loading of the document, upon resizing the document, upon
 scrolling or unloading the document, you can respond to those events.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 103.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-![](images/image103.png){width="6.5in"
+<!-------------
+{width="6.5in"
 height="2.6770833333333335in"}
+--------------->
 
 In that case, the jQuery Event Methods that are supported include ready,
 click, dblclick, mousedown, on, and so on.
 
 These are all the event methods that will be executed upon occurrence of
 any of these events there.
-
-![](images/image104.png){width="6.5in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 104.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+<!--------------------
+{width="6.5in"
 height="2.6770833333333335in"}
+--------------------->
 
 Let\'s take an example of the Bootstrap\'s Carousel to see how
 JavaScript code can be written to control the carousel actions.
@@ -12101,9 +12319,19 @@ says data-ride+\"carousel\".
 
 And then we\'ve specified data interval, the interval for the sliding
 action to take place.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 105.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image105.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-![](images/image105.png){width="6.5in"
+<!--------------
+{width="6.5in"
 height="2.6770833333333335in"}
+--------------->
 
 For the carousel you can do things like, for example, you can specify
 JavaScript based controls.
@@ -12130,6 +12358,14 @@ controls.
 
 For example, you can say carousel(\'cycle\'), meaning start cycling the
 items from left to right.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image106.png){width="6.5in"
 height="2.8555555555555556in"}
@@ -12149,6 +12385,14 @@ Similarly, when the JavaScript carousel item is in your webpage, it
 causes various events.
 
 And based on the occurrence of these events, you can respond.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image107.png){width="6.5in"
 height="2.8555555555555556in"}
@@ -12160,6 +12404,14 @@ invoked.
 
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![](images/image108.png)
 <!----------
@@ -12175,8 +12427,15 @@ and then do something inside that function there.
 
 This kind of code can be returned also for responding to the events that
 are caused by your carousel\'s behavior.
-<!--- 109. exercise: bootstrap and jquery --->
-![](images/image109.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 109. exercise: bootstrap and jquery (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image109.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+
 <!----------
 {width="6.5in"
 height="2.8555555555555556in"}
@@ -13829,11 +14088,27 @@ to save your changes with the message assignment four.
 
 ### Screenshots
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 110.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA](images/image110.png)
 <!----------
 {width="5.0in"
 height="4.163497375328084in"}
 ---------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 111.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image111.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/image111.png)
 <!----------
@@ -17105,4 +17380,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 9:42am ---->
+<!--- last updated: 09/19/2022 at 2:44pm ---->
