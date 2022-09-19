@@ -3850,8 +3850,19 @@ And the right one says div class column 3. So in this case, what we are
 specifying is that the left and the rightmost pieces of content will
 occupy three columns each.
 
-![](images/image069.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 69.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+
+<!--------------
+{width="5.0in"
 height="2.0544870953630796in"}
+--------------->
 
 The middle one, when I say, \"column auto\", it means that the number of
 columns that this particular div occupies will be automatically
@@ -3879,8 +3890,18 @@ couple of other options.
 
 Details are in the bootstraps documentation.
 
-![](images/image070.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 70.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
+{width="5.0in"
 height="2.0544870953630796in"}
+--------------->
 
 Bootstrap also allows you to do column offsets.
 
@@ -3888,8 +3909,18 @@ How does this work?
 
 Let\'s look at an example.
 
-![](images/image071.png){width="5.0in"
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 71.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
+{width="5.0in"
 height="2.0544870953630796in"}
+-------------->
 
 In this column offset, we can specify a piece of content, add to that if
 we apply the class as offset hyphen sm hyphen one.
@@ -3899,6 +3930,15 @@ of content should be right-shifted by one column.
 
 When this content is laid out, as you can see, the leftmost one column
 is left blank and the content is shifted right by one column.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
 
 ![](images/image072.png){width="5.0in"
 height="2.0544870953630796in"}
@@ -3915,6 +3955,15 @@ As you can see, using the column size specifications, the vertical and
 horizontal alignment, the offset, the push and the pull, and flex first
 and flex last, we are able to get a lot of control on how we lay out
 contents for different screen widths and different screen sizes.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
 
 ![](images/image073.png){width="5.0in"
 height="2.0544870953630796in"}
@@ -3932,6 +3981,15 @@ column.
 
 Nesting like this, brings you even more flexibility in the way you lay
 out content in your pitch.
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 75.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--------------
 
 ![](images/image074.png){width="5.0in"
 height="1.8327996500437445in"}
@@ -5007,10 +5065,10 @@ in this page.
 When you complete the second task, your page will end up being styled
 like this.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 79.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image079.png?raw=true"
    width="50%"
    alt="." />
 </p>
@@ -5020,54 +5078,62 @@ You can see that the aboutus page exists in its own.
 Then Our History part, notice that on a small to large screen size, the
 Our History will occupy only half the screen width.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 80.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image080.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image080.png){width="5.0in" height="2.6875in"}
+<!-----------
+{width="5.0in" height="2.6875in"}
+----------->
 
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 81.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image081.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image081.png){width="5.0in" height="2.6875in"}
+<!-----------
+{width="5.0in" height="2.6875in"}
+----------->
 
 This is the second task that you need to complete in your assignment.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 82.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image082.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image082.png){width="5.0in" height="2.6875in"}
+<!-----------
+{width="5.0in" height="2.6875in"}
+----------->
 
 For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
 especially like this,
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 83.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image083.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image083.png){width="5.0in" height="2.6875in"}
+<!-----------
+{width="5.0in" height="2.6875in"}
+----------->
 
 you notice that the content is too much in this section.
 
@@ -5084,15 +5150,17 @@ When you apply the classes to this corporate leadership part, the same
 content will now be laid out without the description, so it will be
 hidden in the extra small screens size.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 84.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image084.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image084.png){width="5.0in" height="2.6875in"}
+<!-----------
+{width="5.0in" height="2.6875in"}
+----------->
 
 But when you go to the small to large screen size, the content will
 become visible.
@@ -5131,17 +5199,22 @@ Git Repository with the Message Assignment One.
 
 ### Assignment 1 Screenshots
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 85/86.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image086.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/image085.png){width="2.0in"
-height="7.825243875765529in"}![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/image086.png){width="4.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/image085.png)
+{width="2.0in"
+height="7.825243875765529in"}
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/image086.png)
+<!-----------
+{width="4.0in"
 height="4.4736843832021in"}
+----------->
 
 ### Bootstrap Resources
 
@@ -5273,16 +5346,18 @@ And how do you we provide navigation information on your website?
 These are the question that we will try to answer In this particular
 lecture.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 87.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image087.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image087.png){width="5.0in"
+<!-----------
+{width="5.0in"
 height="2.7804483814523184in"}
+----------->
 
 The first obvious question that comes to your mind is, why do we need to
 have website navigation?
@@ -9483,27 +9558,34 @@ You can use the column classes to adjust these things.
 
 ### Assignment Screenshots
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 88.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image088.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QAQDOy2SEeikKwpOWDsZFA_b69afa8d38e22b06cde6e076d3eb1459_screencapture-Assignment2.png?expiry=1641081600000&hmac=jEHWrZT5WgUFXJD7q-NiciA_QS9OR7VFUTRr28mLAIE](images/image088.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QAQDOy2SEeikKwpOWDsZFA_b69afa8d38e22b06cde6e076d3eb1459_screencapture-Assignment2.png?expiry=1641081600000&hmac=jEHWrZT5WgUFXJD7q-NiciA_QS9OR7VFUTRr28mLAIE](images/image088.png)
+<!-----------
+{width="5.0in"
 height="8.86311789151356in"}
+----------->
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 89.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image089.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-A![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VRO1WC2SEeiISxJZ7npQ3g_e44b2b9a244756bb19ecfd430ad96beb_screencapture-Assignment2-xs.png?expiry=1641081600000&hmac=NBbvO-ysXP-pwcDIwUklpxFfx4-Kh_UIEU2O46muB40](images/image089.png){width="3.100546806649169in"
+A![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VRO1WC2SEeiISxJZ7npQ3g_e44b2b9a244756bb19ecfd430ad96beb_screencapture-Assignment2-xs.png?expiry=1641081600000&hmac=NBbvO-ysXP-pwcDIwUklpxFfx4-Kh_UIEU2O46muB40](images/image089.png)
+<!-----------
+{width="3.100546806649169in"
 height="20.775930664916885in"}
+----------->
 
 ### Bootstrap Resources
 
@@ -12384,16 +12466,18 @@ controls.
 For example, you can say carousel(\'cycle\'), meaning start cycling the
 items from left to right.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 106.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
-   width="50%"
+<img src="./images/image106.png?raw=true"
+   width="65%"
    alt="." />
 </p>
 
-![](images/image106.png){width="6.5in"
+<!-----------
+{width="6.5in"
 height="2.8555555555555556in"}
+----------->
 
 You can say carousel(\'pause\'), to pause the sliding action of the
 carousel.
@@ -12411,16 +12495,18 @@ causes various events.
 
 And based on the occurrence of these events, you can respond.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 107.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
-   width="50%"
+<img src="./images/image107.png?raw=true"
+   width="65%"
    alt="." />
 </p>
 
-![](images/image107.png){width="6.5in"
+<!-----------
+{width="6.5in"
 height="2.8555555555555556in"}
+------------>
 
 For example, you can say slide.bs.carousel.
 
@@ -13059,11 +13145,13 @@ to:
     the carousel is currently cycling or paused. Furthermore we can use
     the button to toggle the carousel cycling behavior:
 
+```
 > **                    \<button class=\"btn btn-danger btn-sm\" id=\"carouselButton\"\>**
 >
 > **                        \<span id=\"carousel-button-icon\" class=\"fa fa-pause\"\>\</span\>**
 >
 > **                    \</button\>**
+```
 
 We are adding a single button inside a button group with the ID
 carouselButton. The buttons will show either as a pause or play button
@@ -13074,6 +13162,7 @@ based on the current behavior of the carousel.
 -   Finally we modify the JavaScript code to control the behavior of the
     carousel and also show the appropriate button:
 
+```
 > **            \$(\"#carouselButton\").click(function(){**
 >
 > **                if (\$(\"#carouselButton\").children(\"span\").hasClass(\'fa-pause\')) {**
@@ -13089,14 +13178,11 @@ based on the current behavior of the carousel.
 > **                else if (\$(\"#carouselButton\").children(\"span\").hasClass(\'fa-play\')){**
 >
 > **                    \$(\"#mycarousel\").carousel(\'cycle\');**
->
 > **                    \$(\"#carouselButton\").children(\"span\").removeClass(\'fa-play\');**
->
 > **                    \$(\"#carouselButton\").children(\"span\").addClass(\'fa-pause\');                    **
->
 > **                }**
->
 > **            });**
+```
 
 -   Do a Git commit with the message \"More Bootstrap JQuery\".
 
@@ -13480,21 +13566,16 @@ of this exercise you will be able to:
 
 -   Add the following Less variables into the file:
 
+```
 > **\@lt-gray: #ddd;**
->
 > **\@background-dark: #512DA8;**
->
 > **\@background-light: #9575CD;**
->
 > **\@background-pale: #D1C4E9;**
->
 > ** **
->
 > **// Height variables**
->
 > **\@carousel-item-height: 300px;**
->
 > ** **
+```
 
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
@@ -13503,100 +13584,61 @@ of these variables while defining the classes.
 
 -   Next we add a mixin into the file as follows:
 
+```
 > **.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {**
->
 > **    margin:0px auto;**
->
 > **    padding: @pad-up-dn @pad-left-right;**
->
 > **}**
->
 > ** **
+```
 
 We will make use of this to define several row classes next.
 
 -   Using the variables and Mixin class that we defined earlier, add the
     following row classes to the file:
 
+```
 > **address{**
->
 > **    font-size:80%;**
->
 > **    margin:0px;**
->
 > **    color:#0f0f0f;**
->
 > **}**
->
 > ** **
->
 > **body{**
->
 > **    padding:50px 0px 0px 0px;**
->
 > **    z-index:0;**
->
 > **}**
->
 > ** **
->
 > **.navbar-dark {**
->
 > **     background-color: @background-dark;**
->
 > **}**
->
 > ** **
->
 > **.tab-content {**
->
 > **    border-left: 1px solid @lt-gray;**
->
 > **    border-right: 1px solid @lt-gray;**
->
 > **    border-bottom: 1px solid @lt-gray;**
->
 > **    color:floralwhite;**
->
 > **}**
->
 > ** **
->
 > **.jumbotron {**
->
 > **    .zero-margin(70px,30px);**
->
 > **    background: @background-light ;**
->
 > **}**
->
 > ** **
->
 > **.footer{**
->
 > **    background-color: @background-pale;**
->
 > **    .zero-margin(20px, 0px);**
->
 > **    min-height:400px;**
->
 > **}**
->
 > ** **
->
 > **    .zero-margin(50px,0px);**
->
 > **    border-bottom: 1px ridge;**
->
 > **}**
->
 > ** **
->
 > **.row-content {**
->
 > **.row-header{**
->
 > **    .zero-margin();**
+```
 
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
@@ -13606,6 +13648,7 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Less, as follows:
 
+```
 > **.carousel {**
 >
 > **    background:@background-dark;**
@@ -13645,15 +13688,18 @@ defining the classes.
 > **    z-index: 1;**
 >
 > **}**
+```
 
 ### Installing and using the lessc Compiler
 
 -   Now we install the node module to support the compilation of the
     Less file. To do this, type the following at the command prompt:
 
+```
 > **     npm install -g less@2.7.2**
 >
 > ** **
+```
 
 This will install the *less* NPM module globally so that it can be used
 by any project. **Note: if you are executing this on a Mac or Linux
@@ -13669,9 +13715,11 @@ we can compile Less files.
 -   Next type the following at the command prompt to compile the Less
     file into a CSS file:
 
+```
 > **     lessc styles.less styles.css**
 >
 > ** **
+```
 
 -   You can now do a Git commit with the message \"Less\".
 
@@ -13825,6 +13873,7 @@ of this exercise you will be able to:
 
 -   Add the following Scss variables into the file:
 
+```
 > **\$lt-gray: #ddd;**
 >
 > **\$background-dark: #512DA8;**
@@ -13840,6 +13889,7 @@ of this exercise you will be able to:
 > **\$carousel-item-height: 300px;**
 >
 > ** **
+```
 
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
@@ -13848,6 +13898,7 @@ of these variables while defining the classes.
 
 -   Next we add a mixin into the file as follows:
 
+```
 > **\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
 >
 > **    margin:0px auto;**
@@ -13857,12 +13908,14 @@ of these variables while defining the classes.
 > **}**
 >
 > ** **
+```
 
 We will make use of this to define several row classes next.
 
 -   Using the variables and Mixin class that we defined earlier, add the
     following row classes to the file:
 
+```
 > **.row-header{**
 >
 > **    @include zero-margin(0px,0px);**
@@ -13942,6 +13995,7 @@ We will make use of this to define several row classes next.
 > **    border-right: 1px solid \$lt-gray;**
 >
 > **    border-bottom: 1px solid \$lt-gray;**
+```
 
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
@@ -13951,6 +14005,7 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
 
+```
 > **.carousel {**
 >
 > **    background:\$background-dark;**
@@ -13990,6 +14045,7 @@ defining the classes.
 > **    z-index: 1;**
 >
 > **}**
+```
 
 ### Installing and using the node-sass module
 
@@ -13997,9 +14053,11 @@ defining the classes.
     Scss file to a CSS file. To do this, type the following at the
     command prompt:
 
+```
 > **     npm install \--save-dev node-sass@4.7.2**
 >
 > ** **
+```
 
 This will install the *node-sass* NPM module into your project and also
 add it as a development dependency in your package.json file.
@@ -14008,12 +14066,16 @@ add it as a development dependency in your package.json file.
     scripts object there. This adds a script to enable the compilation
     of the Scss file into a CSS file:
 
+```
 **    \"scss\": \"node-sass -o css/ css/\"**
+```
 
 -   In order to transform the Scss file to a CSS file, type the
     following at the prompt:
 
+```
 **     npm run scss**
+```
 
 -   You can now do a Git commit with the message \"Sass\".
 
@@ -14440,7 +14502,9 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 -   Then, update the *index.html* file to include the *scripts.js* file
     by adding the following line:
 
+```
 **    \<script src=\"[js/scripts.js]{.underline}\"\>\</script\>**
+```
 
 -   Add the same line to the scripts block in *aboutus.html* and
     *contactus.html*:
@@ -14450,30 +14514,40 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 -   First, we install two NPM packages *onchange* and *parallelshell* as
     follows:
 
+```
 **npm install \--save-dev onchange@3.3.0 parallelshell@3.0.2**
+```
 
 -   Then, add the following two script items to *package.json* if you
     are doing the exercise on a MacOS computer or a Linux computer:
 
+```
 > **    \"watch:scss\": \"onchange \'css/\*.scss\' \-- npm run scss\",**
 >
 > **    \"watch:all\": \"parallelshell \'npm run watch:scss\' \'npm run lite\'\"**
+```
 
 -   **NOTE:** If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
+```
 > **    \"watch:scss\": \"onchange \\\"css/\*.scss\\\" \-- npm run scss\",**
 >
 > **    \"watch:all\": \"parallelshell \\\"npm run watch:scss\\\" \\\"npm run lite\\\"\"**
+```
 
 -   You will also update the start script as follows:
 
+```
 **    \"start\": \"npm run watch:all\",**
+```
 
 -   Then, type the following at the prompt to start watching for changes
     to the SCSS file, compile it to CSS, and run the server:
 
+```
 **npm start**
+```
 
 -   Now, whenever you make any changes to *styles.scss* file, it will
     automatically be compiled to the corresponding css file.
@@ -15006,11 +15080,15 @@ At the end of this exercise, you will be able to:
 -   Install the *rimraf* npm module by typing the following at the
     prompt:
 
+```
 **npm install \--save-dev rimraf@2.6.2**
+```
 
 -   Then, set up the following script:
 
+```
 **    \"clean\": \"rimraf dist\",**
+```
 
 ### Copying Fonts
 
@@ -15018,13 +15096,17 @@ At the end of this exercise, you will be able to:
     distribution folder. To help us do this, install the *copyfiles* NPM
     module globally as follows:
 
+```
 **npm -g install copyfiles@2.0.0**
+```
 
 Remember to use *sudo* on mac and Linux.
 
 -   Then set up the following script:
 
+```
 **    \"copyfonts\": \"copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts\",**
+```
 
 Compressing and Minifying Images
 
@@ -15032,43 +15114,56 @@ Compressing and Minifying Images
     images to reduce the size of the images being used in our project.
     Install the *imagemin-cli* module as follows:
 
+```
 **npm -g install imagemin-cli@3.0.0**
+```
 
 Remember to use *sudo* on mac and Linux. **NOTE:** Some students have
 encountered issues with imagemin-cli not installing its plugins due to
 issues with global permissions on Mac. In that case try
 
+```
 **sudo npm install -g imagemin-cli@3.0.0 \--unsafe-perm=true \--allow-root**
+```
 
 -   Then set up the following script:
 
+```
 **    \"imagemin\": \"imagemin img/\* \--out-dir=\'dist/img\'\",**
+```
 
 ### Preparing the Distribution Folder
 
 -   Open *.gitignore* and update it as follows. We do not want the dist
     folder to be checked into the git repository.
 
+```
 > **node_modules**
 >
 > **dist**
+```
 
 -   Then, install the *usemin-cli, cssmin, uglifyjs* and *htmlmin* NPM
     packages as follows:
 
+```
 > **npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
+```
 
 -   Add the following two scripts to the package.json file:
 
+```
 > **    \"usemin\": \"usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html\",**
 >
 > **    \"build\": \"npm run clean && npm run imagemin && npm run copyfonts && npm run usemin\"**
 >
 > ** **
+```
 
 -   Open *index.html* and surround the css links inclusion code as
     follows:
 
+```
 > **    \<!\-- build:css css/main.css \--\>**
 >
 > **    \<link rel=\"stylesheet\" href=\"[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}\"\>**
@@ -15080,12 +15175,14 @@ issues with global permissions on Mac. In that case try
 > **    \<link href=\"[css/styles.css]{.underline}\" rel=\"stylesheet\"\>**
 >
 > **    \<!\-- endbuild \--\>**
+```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
 
 -   Similarly, open *index.html* and surround the js script inclusion
     code as follows:
 
+```
 > **    \<!\-- build:js js/main.js \--\>**
 >
 > **    \<script src=\"[node_modules/jquery/dist/jquery.slim.min.js]{.underline}\"\>\</script\>**
@@ -15097,6 +15194,7 @@ issues with global permissions on Mac. In that case try
 > **    \<script src=\"[js/scripts.js]{.underline}\"\>\</script\>**
 >
 > **    \<!\-- endbuild \--\>**
+```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
 
@@ -15121,9 +15219,11 @@ deployment using NPM scripts.
 
 ### PDFs of Presentations
 
+```
 > **10-Building-Deployment.pdf**
 >
 > **10-NPM-Scripts.pdf**
+```
 
 ### Additional Resources
 
@@ -15626,7 +15726,9 @@ web project. At the end of this exercise, you will be able to:
 -   At the command prompt, type the following to install Grunt
     command-line interface (CLI):
 
+```
 **npm install -g grunt-cli@1.2.0**
+```
 
 This will install the Grunt CLI globally so that you can use them in all
 projects.
@@ -15634,7 +15736,9 @@ projects.
 -   Next install Grunt to use within your project. To do this, go to the
     *conFusion* folder and type the following at the prompt:
 
+```
 **npm install grunt@1.0.2 \--save-dev**
+```
 
 This will install local per-project Grunt to use within your project.
 
@@ -15647,6 +15751,7 @@ This will install local per-project Grunt to use within your project.
 -   Next, add the following code to Gruntfile.js to set up the file to
     configure Grunt tasks:
 
+```
 > **\'use strict\';**
 >
 > ** **
@@ -15662,6 +15767,7 @@ This will install local per-project Grunt to use within your project.
 > **  });**
 >
 > **};**
+```
 
 This sets up the Grunt module ready for including the grunt tasks inside
 the function above.
@@ -15673,11 +15779,13 @@ the function above.
     Grunt modules that help us with the tasks. Install the following
     modules by typing the following at the prompt:
 
+```
 > **npm install grunt-sass@2.1.0 \--save-dev**
 >
 > **npm install time-grunt@1.4.0 \--save-dev**
 >
 > **npm install jit-grunt@0.10.0 \--save-dev**
+```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The
 time-grunt module generates time statistics about how much time each
@@ -15687,6 +15795,7 @@ downloaded Grunt modules when needed for the tasks.
 -   Now, configure the SASS task in the Gruntfile as follows, by
     including the code inside the function in *Gruntfile.js*:
 
+```
 > **\'use strict\';**
 >
 > ** **
@@ -15732,11 +15841,14 @@ downloaded Grunt modules when needed for the tasks.
 > ** **
 >
 > **};**
+```
 
 -   Now you can run the grunt SASS task by typing the following at the
     prompt:
 
+```
 **grunt css**
+```
 
 ### Watch and Serve Tasks
 
@@ -15745,13 +15857,16 @@ downloaded Grunt modules when needed for the tasks.
     reload the browser when any of the watched files are updated. To do
     this, install the following grunt modules:
 
+```
 > **npm install grunt-contrib-watch@1.0.0 \--save-dev**
 >
 > **npm install grunt-browser-sync@2.2.0 \--save-dev**
+```
 
 -   After this, we will configure the browser-sync and watch tasks by
     adding the following code to the Grunt file:
 
+```
 > **,**
 >
 > **        watch: {**
@@ -15795,10 +15910,13 @@ downloaded Grunt modules when needed for the tasks.
 > **            }**
 >
 > **        }**
+```
 
 -   Then add the following task to the Grunt file:
 
+```
 **    grunt.registerTask(\'default\', \[\'browserSync\', \'watch\'\]);**
+```
 
 -   Now if you type the following at the command prompt, it will start
     the server, and open the web page in your default browser. It will
@@ -16362,15 +16480,18 @@ build your web project.
     distribution folder named dist, and clean up the dist folder when
     needed. To do this, install the following Grunt modules:
 
+```
 > **npm install grunt-contrib-copy@1.0.0 \--save-dev**
 >
 > **npm install grunt-contrib-clean@1.1.0 \--save-dev**
+```
 
 -   You will now add the code to perform the copying of files to the
     dist folder, and cleaning up the dist folder. To do this, add the
     following code to *Gruntfile.js*. This should be added right after
     the configuration of the SASS task.:
 
+```
 > **,**
 >
 > ** **
@@ -16434,6 +16555,7 @@ build your web project.
 > **            }**
 >
 > **        }**
+```
 
 -   Remember to add the comma after the end of the SASS task.
 
@@ -16442,10 +16564,13 @@ build your web project.
 -   Next we install the grunt-contrib-imagemin module and use it to
     process the images. To install this module type at the prompt:
 
+```
 > **npm install grunt-contrib-imagemin@2.0.1 \--save-dev**
+```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
 
+```
 > **,**
 >
 > **        imagemin: {**
@@ -16467,6 +16592,7 @@ build your web project.
 > **            }**
 >
 > **        }**
+```
 
 ### Preparing the Distribution Folder and Files
 
@@ -16475,6 +16601,7 @@ build your web project.
     distribution folder. To do this, install the following Grunt
     modules:
 
+```
 > ** npm install grunt-contrib-concat@1.0.1 \--save-dev**
 >
 > ** npm install grunt-contrib-cssmin@2.2.1 \--save-dev**
@@ -16486,10 +16613,12 @@ build your web project.
 > ** npm install grunt-filerev@2.3.1 \--save-dev**
 >
 > ** npm install grunt-usemin@3.1.1 \--save-dev**
+```
 
 -   Next, update the task configuration within the Gruntfile.js with the
     following additional code to introduce the new tasks:
 
+```
 > **,**
 >
 > ** **
@@ -16569,18 +16698,22 @@ build your web project.
 > **        // Uglify**
 >
 > **        uglify: {**
+```
 
 -   Next, update the jit-grunt configuration as follows, to inform it
     that useminPrepare task depends on the usemin package:
 
+```
 > **require(\'jit-grunt\')(grunt, {**
 >
 > **  useminPrepare: \'grunt-usemin\'**
 >
 > **});**
+```
 
 -   Next, update the Grunt build task as follows:
 
+```
 > **    grunt.registerTask(\'build\', \[**
 >
 > **        \'clean\',**
@@ -16604,6 +16737,7 @@ build your web project.
 > **        \'htmlmin\'**
 >
 > **    \]);**
+```
 
 -   Now if you run Grunt, it will create a dist folder with the files
     structured correctly to be distributed to a server to host your
@@ -16889,7 +17023,9 @@ project. At the end of this exercise, you will be able to:
 -   At the command prompt, type the following to install Gulp
     command-line interface (CLI) globally:
 
+```
 > **     npm install -g gulp-cli@2.0.1**
+```
 
 This will install the Gulp globally so that you can use it in all
 projects.
@@ -16897,7 +17033,9 @@ projects.
 -   Next install Gulp to use within your project. To do this, go to the
     *conFusion* folder and type the following at the prompt:
 
+```
 > **     npm install gulp@3.9.1 \--save-dev**
+```
 
 This will install local per-project Gulp to use within your project.
 
@@ -16906,7 +17044,9 @@ This will install local per-project Gulp to use within your project.
 -   Install all the Gulp plugins that you will need for this exercise.
     To do this, type the following at the command prompt:
 
+```
 > **npm install gulp-sass@3.1.0  browser-sync@2.23.6 \--save-dev**
+```
 
 ### Creating a Gulp File
 
@@ -16919,6 +17059,7 @@ This will install local per-project Gulp to use within your project.
 -   Load in all the Gulp plugins by including the following code in the
     Gulp file:
 
+```
 > **\'use strict\';**
 >
 > ** **
@@ -16928,12 +17069,14 @@ This will install local per-project Gulp to use within your project.
 > **    sass = require(\'gulp-sass\'),**
 >
 > **    browserSync = require(\'browser-sync\');**
+```
 
 ### Adding Gulp Tasks for SASS and Browser-Sync
 
 -   Next, we will add the code for the SASS task, the Browser-Sync task
     and the default task as follows:
 
+```
 > ** **
 >
 > **gulp.task(\'sass\', function () {**
@@ -16997,6 +17140,7 @@ This will install local per-project Gulp to use within your project.
 > **});**
 >
 > ** **
+```
 
 -   Save the Gulp file
 
@@ -17005,7 +17149,9 @@ This will install local per-project Gulp to use within your project.
 -   At the command prompt, if you type *gulp* it will run the default
     task:
 
+```
 > **     gulp**
+```
 
 -   Do a Git commit with the message \"Gulp Part 1\".
 
@@ -17035,6 +17181,7 @@ At the end of this exercise, you will be able to:
     up the distribution folder. To do this we will first install the
     *del* Node module and require it in the Gulp file as follows:
 
+```
 > **npm install del@3.0.0 \--save-dev**
 >
 > **var \...**
@@ -17042,10 +17189,12 @@ At the end of this exercise, you will be able to:
 > **    del = require(\'del\'),**
 >
 > **    \...**
+```
 
 -   Next, we will add the code for the Clean task and the copyfonts task
     as follows:
 
+```
 > **// Clean**
 >
 > **gulp.task(\'clean\', function() {**
@@ -17063,6 +17212,7 @@ At the end of this exercise, you will be able to:
 > **   .pipe(gulp.dest(\'./dist/fonts\'));**
 >
 > **});**
+```
 
 ### Compressing and Minifying Images
 
@@ -17072,14 +17222,17 @@ At the end of this exercise, you will be able to:
 
 **npm install gulp-imagemin@4.1.0 \--save-dev**
 
+```
 > **var \...**
 >
 > **    imagemin = require(\'gulp-imagemin\'),**
 >
 > **    \...**
+```
 
 -   Next, we create the *imagemin* task as follows:
 
+```
 > **// Images**
 >
 > **gulp.task(\'imagemin\', function() {**
@@ -17091,12 +17244,14 @@ At the end of this exercise, you will be able to:
 > **    .pipe(gulp.dest(\'dist/img\'));**
 >
 > **});**
+```
 
 **Preparing the Distribution Folder and Files**
 
 -   We now install the gulp-usemin and other related Gulp plugins and
     require them as follows:
 
+```
 > **npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 \--save-dev**
 >
 > ** **
@@ -17152,6 +17307,7 @@ At the end of this exercise, you will be able to:
 > **    gulp.start(\'copyfonts\',\'imagemin\',\'usemin\');**
 >
 > **});**
+```
 
 -   ### Save the Gulp file
 
@@ -17159,7 +17315,9 @@ At the end of this exercise, you will be able to:
 
 -   ### At the command prompt, if you type *gulp build* it will run the build task:
 
+```
 **     gulp build**
+```
 
 -   ### Do a Git commit with the message \"Gulp Part 2\"
 
@@ -17173,7 +17331,9 @@ development tasks.
 
 ### PDFs of Presentations
 
+```
 **10-Task-Runners.pdf**
+```
 
 ### Grunt Resources
 
