@@ -2,10 +2,16 @@
 title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
 
-![](images/image001.png){width="5.0in" height="2.202991032370954in"}
+![](images/image001.png)
+<!-----------
+{width="5.0in" height="2.202991032370954in"}
+------------>
 
-![](images/image002.png){width="5.0in"
+![](images/image002.png)
+<!----------
+{width="5.0in"
 height="2.0638298337707788in"}
+----------->
 
 (coursera.org)
 
@@ -165,11 +171,12 @@ d.  Then, **finally**, we\'ll look at how we can build and deploy our
 
 <h3 align="center">
     <a href="http://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
-    <a href="https://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
+    <a href="https://bootstrap.com/" target="_blank"></a></h3>
 
 ### Coursera Resources
 
-#### [Coursera Learner Help](https://learner.coursera.help/hc/en-us) 
+<h3 align="center">
+    <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
 
 #### (https://www.coursera.support/s/learner-help-center?language=en_US) {#httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph}
 
@@ -194,7 +201,11 @@ development. At the end of this lesson, you will be able to:
 
 ## What is Full-Stack Web Development?
 
-## ![](images/image003.png){width="5.0in" height="2.0571587926509185in"}
+## ![](images/image003.png)
+
+<!---------
+{width="5.0in" height="2.0571587926509185in"}
+---------->
 
 ## What is Full Stack Web Development?
 
@@ -216,8 +227,12 @@ like PHP, Java, ASP.NET, Ruby, Python or NodeJS.
 We often hear people talking about the three tier architecture for Web
 Development.
 
-![](images/image004.png){width="5.0in"
+![](images/image004.png)
+
+<!---------
+{width="5.0in"
 height="2.0571587926509185in"}
+----------->
 
 In this approach, the entire web application is organized into three
 different layers.
@@ -238,8 +253,12 @@ generating the content to be delivered to the user.
 This is backed up behind the scenes with the **data persistence layer or
 the data access layer**.
 
-![](images/image006.png){width="5.0in"
+![](images/image006.png)
+
+<!---------
+{width="5.0in"
 height="2.0571576990376204in"}
+---------->
 
 This is concerned with how we store and interact with the data,
 typically, in the form of a database and access this data through an
@@ -16880,5 +16899,4 @@ In particular, this section should contain:
 -   Give references to any material / websites / books etc. relevant to
     your project.
 
-### Last updated 9/17/2022 3:08pm
 ...the end
