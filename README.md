@@ -1,3 +1,6 @@
+---
+title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
+---
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
 <!------------------------------------------------------------------------------------------------>
@@ -6,13 +9,10 @@
 <!---------------------------------------- Coursera logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/Coursera-logo.png?raw=true"
+<img src="./images/coursera-logo.png?raw=true"
    width="35%"
    alt="Coursera logo" />
 </p>
----
-title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
----
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -383,8 +383,12 @@ technologies that is used for implementing the business logic and then
 you need a data specialist who will be well-versed in the relational
 database management system.
 
-![](images/image010.png){width="5.0in"
+![](images/image010.png)
+
+<!----------
+{width="5.0in"
 height="2.4770297462817146in"}
+----------->
 
 There is an increasing trend towards using a single language to
 implement the entire stack, this being JavaScript so you could have the
@@ -595,8 +599,10 @@ Let\'s now run through a few quick steps to set up Git on your computer.
    alt="Image 14."
    width="50%" />
 </p>
-![](images/image014.png){width="5.0in"
+<!----------
+{width="5.0in"
 height="2.7622867454068243in"}
+---------->
 
 One easy way of setting up Git on a computer is to go to this site
 called git-scm.com.
@@ -623,8 +629,12 @@ command line tools, that will also set up Git for you.
 On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
 
-![](images/image015.png){width="5.0in"
+![](images/image015.png)
+
+<!----------
+{width="5.0in"
 height="2.7622867454068243in"}
+---------->
 
 You can just go on to the Getting Started link.
 
@@ -636,8 +646,12 @@ to install Git on your specific platform.
 Download the installer and run through the set up to get Git on to your
 computer.
 
-![](images/image016.png){width="5.0in"
+![](images/image016.png)
+
+<!----------
+{width="5.0in"
 height="3.427884951881015in"}
+---------->
 
 Once you install Git on a computer Start up a command window or
 PowerShell if you\'re using a Window machine or start up a terminal
@@ -888,8 +902,11 @@ Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
 folder, I\'m going to create another file name, test.html.
 
-![](images/image017.png){width="5.0in"
+![](images/image017.png)
+<!----------
+{width="5.0in"
 height="3.3701924759405073in"}
+---------->
 
 This is just to show you how git can commit entire folder hierarchy into
 its repository.
@@ -1076,8 +1093,11 @@ With this basic understanding of this few git commands, you\'ll be able
 to proceed forward with understanding and using git in the courses of
 this specialization.
 
-![](images/image018.png){width="5.0in"
+![](images/image018.png)
+<!----------
+{width="5.0in"
 height="2.2222222222222223in"}
+---------->
 
 Now, we have reviewed the git reset for a specific file or git reset in
 general.
@@ -1479,8 +1499,11 @@ clone.
 
 And then, Paste the URL of my Bitbucket repository here.
 
-![](images/image019.png){width="5.0in"
+![](images/image019.png)
+<!----------
+{width="5.0in"
 height="1.1527777777777777in"}
+---------->
 
 Then you would see that that repository will now get cloned into a local
 folder of the same name, git-test.
@@ -1545,8 +1568,12 @@ online repository. At the end of this exercise, you will be able to:
 -   To clone an online repository to your computer, type the following
     at the prompt:
 
-![](images/image020.png){width="5.0in"
+![](images/image020.png)
+
+<!----------
+{width="5.0in"
 height="1.2676279527559056in"}
+---------->
 
 **git clone \<repository URL\>**
 
@@ -1564,8 +1591,11 @@ has seen deployment far beyond the browser.
 Node.js has played a significant role in this shift of JavaScript from
 the browser to the desktop.
 
-![](images/image021.png){width="5.0in"
+![](images/image021.png)
+<!----------
+{width="5.0in"
 height="1.9198720472440944in"}
+---------->
 
 Let\'s now learn a little bit about what Node.js is and what role does
 NPM, the Node Package Manager, play in the context of Node.js. Node.js,
@@ -1590,8 +1620,11 @@ runtime.
 We will look at the server side application of Node.js in detail in the
 last course of this specialization.
 
-![](images/image022.png){width="5.0in"
+![](images/image022.png)
+<!----------
+{width="5.0in"
 height="2.0769225721784776in"}
+---------->
 
 This is the typical architecture of Node.js.
 
@@ -1620,8 +1653,11 @@ of Node.js on the server side.
 How we can develop web server, business logic, all implemented in
 JavaScript on the server side.
 
-![](images/image023.png){width="5.0in"
+![](images/image023.png)
+<!----------
+{width="5.0in"
 height="2.0769225721784776in"}
+---------->
 
 Together with Node you often hear people talking about the Node package
 manager or NPM. When you install Node on your computer NPM automatically
@@ -1648,8 +1684,11 @@ Click on the current version of Node.js.
 
 Click on that to download the installer package for your platform.
 
-![](images/image024.png){width="5.0in"
+![](images/image024.png)
+<!----------
+{width="5.0in"
 height="3.6212609361329835in"}
+---------->
 
 Once you get hold of the installer package, double click on it to start
 installing Node.js.
@@ -1746,8 +1785,11 @@ during the installation steps.**
 
 -   **npm -v**
 
-> ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png){width="5.0in"
+> ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
+<!----------
+{width="5.0in"
 > height="6.3736264216972875in"}
+---------->
 
 ### Conclusions
 
@@ -1779,8 +1821,11 @@ The lite server is something that we\'re going to extensively use in
 this and future courses, to be able to see the changes in real time in a
 browser window as you edit the files of your project.
 
-![](images/image026.png){width="5.0in"
+![](images/image026.png)
+<!----------
+{width="5.0in"
 height="2.0929483814523184in"}
+---------->
 
 As I mentioned, we want to set up the package.json file.
 
@@ -1789,8 +1834,11 @@ What exactly is this package.json file that we\'re going to setup?
 Here, I have some information from the npmjs.org site which specifies
 what exactly is the role of the package.json file.
 
-![](images/image027.png){width="5.0in"
+![](images/image027.png)
+<!----------
+{width="5.0in"
 height="1.9540594925634296in"}
+---------->
 
 The package.json file serves as the documentation on what all other
 packages that your project is dependent upon.
@@ -2400,14 +2448,20 @@ familiar with Bootstrap.
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
 
-![](images/image028.png){width="5.0in"
+![](images/image028.png)
+<!----------
+{width="5.0in"
 height="1.474359142607174in"}
+---------->
 
 Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
 
-![](images/image029.png){width="5.0in"
+![](images/image029.png)
+<!----------
+{width="5.0in"
 height="1.961003937007874in"}
+---------->
 
 Next, so obviously in this lesson we\'re going to ask ourselves, what
 are front-end frameworks?
@@ -2460,8 +2514,11 @@ that you can use for your entire website design.
 
 And enables you to quickly scaffold out a website or the pitch.
 
-![](images/image030.png){width="5.0in"
+![](images/image030.png)
+<!----------
+{width="5.0in"
 height="2.155983158355206in"}
+---------->
 
 If you search for front-end web frameworks, you would find a plethora of
 them out there in the Internet.
@@ -2481,8 +2538,11 @@ The remaining among this list may vary, but you would often find
 Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
 
-![](images/image031.png){width="5.0in"
+![](images/image031.png)
+<!----------
+{width="5.0in"
 height="2.155983158355206in"}
+---------->
 
 The next obvious question is, why would you want to use front-end web UI
 frameworks?
@@ -2555,8 +2615,11 @@ end web UI framework.
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
 
-![](images/image032.png){width="5.0in"
+![](images/image032.png)
+<!----------
+{width="5.0in"
 height="1.5753204286964129in"}
+---------->
 
 If you go to the Bootstrap webpage, you will see that Bootstrap claims
 to be the most popular HTML, CSS, and JavaScript based framework that is
@@ -2565,8 +2628,11 @@ first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 
-![](images/image033.png){width="5.0in"
+![](images/image033.png)
+<!----------
+{width="5.0in"
 height="1.9086537620297463in"}
+---------->
 
 It supports a number of CSS classes that enable you to design radius,
 web components very effectively.
@@ -2581,8 +2647,11 @@ approach.
 
 We will talk more about this in the next lesson.
 
-![](images/image034.png){width="5.0in"
+![](images/image034.png)
+<!----------
+{width="5.0in"
 height="1.9994663167104112in"}
+---------->
 
 Bootstrap originated around 2011.
 
@@ -12092,8 +12161,11 @@ invoked.
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
 
-![](images/image108.png){width="6.5in"
+![](images/image108.png)
+<!----------
+{width="6.5in"
 height="2.8555555555555556in"}
+---------->
 
 Within your code you can specify something like
 \$(\"#myCarousel\").on(\'slide.bs.carousel\'.
@@ -12103,9 +12175,12 @@ and then do something inside that function there.
 
 This kind of code can be returned also for responding to the events that
 are caused by your carousel\'s behavior.
-
-![](images/image109.png){width="6.5in"
+<!--- 109. exercise: bootstrap and jquery --->
+![](images/image109.png)
+<!----------
+{width="6.5in"
 height="2.8555555555555556in"}
+---------->
 
 Having considered some of these examples, we\'ll go on to an exercise
 where we will actually write some JavaScript based code to control our
@@ -13754,11 +13829,17 @@ to save your changes with the message assignment four.
 
 ### Screenshots
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA](images/image110.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA](images/image110.png)
+<!----------
+{width="5.0in"
 height="4.163497375328084in"}
+---------->
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/image111.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/image111.png)
+<!----------
+{width="5.0in"
 height="4.349809711286089in"}
+---------->
 
 ### Bootstrap Documentation
 
@@ -17024,3 +17105,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
+<!--- last updated: 09/19/2022 at 9:42am ---->
