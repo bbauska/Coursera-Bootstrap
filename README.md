@@ -11853,16 +11853,19 @@ Hope you enjoyed creating this new variation of the index.html page.
 
 ### Assignment Screenshots
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 90.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image090.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png)
+<!-------------
+{width="5.0in"
 height="4.461420603674541in"}
+------------->
 
 ### Bootstrap Resources
 
@@ -11902,30 +11905,34 @@ all enabled using jQuery as the support.
 
 So many of these plugins are written in jQuery.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 91.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image091.png?raw=true"
    width="50%"
    alt="." />
 </p>
-mages/image091.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="1.726496062992126in"}
+------------->
 
 Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
 been including all the Bootstrap\'s JavaScript plugins into our webpage.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 92.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image092.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image092.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="3.046474190726159in"}
+------------->
 
 We also saw this graphic in the previous module to help us understand
 the relationship between JavaScript, jQuery, and how the Bootstrap\'s
@@ -11934,16 +11941,18 @@ JS-based plugins are implemented.
 We saw that Bootstrap\'s JS components ox in the jQuery-based components
 and make it easy for us to make use of them in our webpage.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 93.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image093.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image093.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 We also learned that the Bootstrap\'s JavaScript-based components can be
 used in your webpage without writing a single line of JavaScript code.
@@ -11953,16 +11962,18 @@ This is where the data-\* attributes come to our rescue.
 You can use the various attributes that we saw in the previous module to
 enable many of our Bootstrap\'s JavaScript-based components.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 94.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image094.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image094.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 In case you want more flexibility with your JavaScript components, then
 the full flexibility of that JavaScript-based API is available for all
@@ -12024,16 +12035,18 @@ Now if you have seen some of the code that we included in the previous
 module, specifically for the tool tip, you remember that there was
 something that started with a dollar sign.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 96.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image096.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image096.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 The jQuery Syntax is all implemented using the dollar sign.
 
@@ -12082,30 +12095,34 @@ to be performed on the element that is selected by these selectors.
 
 Let\'s take a look at Bootstrap jQuery example.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 97.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image097.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image097.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 We\'ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 98.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image098.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image098.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 When we introduce the tooltip, we specified script and then inside the
 script, we said \$(document).
@@ -12121,16 +12138,18 @@ Ready is the action to be taken.
 When the document is ready, then execute this function that is specified
 as a parameter for this ready action there.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 99.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image099.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image099.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 The function that we saw being used for the tooltip specified it as \$,
 and then within brackets, it said, data-toggle=\" tooltip\".
@@ -12153,16 +12172,18 @@ This is how we interpret this syntax of this jQuery example here.
 
 Let\'s look at the various ways of specifying selectors.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 100.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image100.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image100.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 As we realize from the jQuery statement syntax, we always follow dollar
 and then, within brackets, we specify a selector.
@@ -12170,16 +12191,18 @@ and then, within brackets, we specify a selector.
 How do we specify selectors, what are the various ways you can specify
 selectors?
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 101.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image101.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image101.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 Here are some possibilities.
 
@@ -12243,16 +12266,18 @@ And a lot more other possibilities.
 These are some examples, so you will see me using some of these in the
 examples and the exercise that follows.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 102.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image102.png?raw=true"
    width="50%"
    alt="." />
 </p>
 
-![](images/image102.png){width="5.0in"
+<!-------------
+{width="5.0in"
 height="2.0592946194225723in"}
+------------->
 
 Not only that, you can also specify jQuery events, events based on which
 you respond.
@@ -17380,4 +17405,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 2:44pm ---->
+<!--- last updated: 09/19/2022 at 3:27pm ---->
