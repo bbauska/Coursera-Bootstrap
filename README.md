@@ -171,7 +171,7 @@ b.  We look at the various methods that are supported by the Bootstrap
     > code to control the behavior of these components.
 
 c.  Then we\'ll review CSS pre-processing language is like **LESS** and
-    > **Sass**.
+    Sass**.
 
 d.  Then, **finally**, we\'ll look at how we can build and deploy our
     website using **NPM scripts** or **task runners** like **Grunt**
@@ -487,7 +487,7 @@ computer. At the end of this lesson, you will be able to:
 3.  **Command line shell**: Familiarity with the command-line shell will
     be essential for the exercises. In Windows a cmd window or power
     shell with admin privileges would be needed. On a Mac or in Linux, a
-    terminal window can be used. Please get familiar with the \"sudo\"
+    terminal window can be used. Please get familiar with the "sudo"
     command in OS X and Linux.
 
 4.  **Files required for the exercises**: We will provide additional
@@ -738,17 +738,17 @@ would be able to:
 -   Check to make sure that Git is installed and available on the
     command line, by typing the following at the command prompt:
 
-> **git \--version**
+git \--version**
 
 -   To configure your user name to be used by Git, type the following at
     the prompt:
 
-**git config \--global user.name \"Your Name\"**
+**git config \--global user.name "Your Name"**
 
 -   To configure your email to be used by Git, type the following at the
     prompt:
 
-**git config \--global user.email \<your email address\>**
+**git config \--global user.email <your email address\>**
 
 -   You can check your default Git global configuration, you can type
     the following at the prompt:
@@ -863,7 +863,7 @@ Back at the command prompt, let\'s type **\> git commit**.
 
 And then we can even add a message to our commit.
 
-I\'m going to say **\> git commit -m \"first commit\"** because this is
+I\'m going to say **\> git commit -m "first commit"** because this is
 our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git
@@ -968,7 +968,7 @@ Let\'s add this to the staging area, and then do a third commit.
 Let\'s say, \> git add., git status, now you see that the index.html the
 modified version has been added.
 
-Now we can say **\> git commit**. \"third commit\" and do **\> git log
+Now we can say **\> git commit**. "third commit" and do **\> git log
 \--oneline,** and you see there are three commits in our repository.
 
 Now our repository contains snapshots of three different points, at the
@@ -1145,21 +1145,21 @@ the end of this exercise you will be able to:
 -   Add a file named *index.html* to this folder, and add the following
     HTML code to this file:
 
-\<!DOCTYPE html\>
+<!DOCTYPE html\>
 
-\<html\>
+<html\>
 
-    \<head\>\</head\>
+    <head\></head\>
 
  
 
-    \<body\>
+    <body\>
 
-        \<h1\>This is a Header\</h1\>
+        <h1\>This is a Header</h1\>
 
-    \</body\>
+    </body\>
 
-\</html\>
+</html\>
 
 ### Initializing the folder as a Git repository
 
@@ -1186,7 +1186,7 @@ the end of this exercise you will be able to:
 
 -   ### To commit the current staging area to your Git repository, type:
 
-**git commit -m \"first commit\"**
+**git commit -m "first commit"**
 
 ### Checking the log of Git commits
 
@@ -1196,23 +1196,23 @@ the end of this exercise you will be able to:
 
 -   ### Now, modify the index.html file as follows:
 
-> **\<!DOCTYPE html\>**
+<!DOCTYPE html\>**
 >
-> **\<html\>**
+<html\>**
 >
-> **    \<head\>\</head\>**
+    <head\></head\>**
 >
-> ** **
+ **
 >
-> **    \<body\>**
+    <body\>**
 >
-> **        \<h1\>This is a Header\</h1\>**
+        <h1\>This is a Header</h1\>**
 >
-> **        \<p\>This is a paragraph\</p\>**
+        <p\>This is a paragraph</p\>**
 >
-> **    \</body\>**
+    </body\>**
 >
-> **\</html\>**
+</html\>**
 
 -   Add a sub-folder named **templates** to your **git-test** folder,
     and then add a file named *test.html* to the templates folder. Then
@@ -1225,25 +1225,25 @@ the end of this exercise you will be able to:
 
 -   Now, modify the *index.html* file as follows:
 
-> **\<!DOCTYPE html\>**
+<!DOCTYPE html\>**
 >
-> **\<html\>**
+<html\>**
 >
-> **    \<head\>\</head\>**
+    <head\></head\>**
 >
-> ** **
+ **
 >
-> **    \<body\>**
+    <body\>**
 >
-> **        \<h1\>This is a Header\</h1\>**
+        <h1\>This is a Header</h1\>**
 >
-> **        \<p\>This is a paragraph\</p\>**
+        <p\>This is a paragraph</p\>**
 >
-> **        \<p\>This is a second paragraph\</p\>**
+        <p\>This is a second paragraph</p\>**
 >
-> **    \</body\>**
+    </body\>**
 >
-> **\</html\>**
+</html\>**
 
 -   Now add the modified index.html file to the staging area and then do
     a third commit.
@@ -1254,7 +1254,7 @@ the end of this exercise you will be able to:
     of the second commit using the git log, and then type the following
     at the prompt:
 
-**git checkout \<second commit\'s number\> index.html**
+**git checkout <second commit\'s number\> index.html**
 
 ### Resetting the Git repository
 
@@ -1554,7 +1554,7 @@ online repository. At the end of this exercise, you will be able to:
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
 
-**git remote add origin \<repository URL\>**
+**git remote add origin <repository URL\>**
 
 ### Pushing your commits to the online repository
 
@@ -1575,7 +1575,7 @@ online repository. At the end of this exercise, you will be able to:
 height="1.2676279527559056in"}
 ---------->
 
-**git clone \<repository URL\>**
+**git clone <repository URL\>**
 
 ### Conclusions
 
@@ -2073,16 +2073,16 @@ content.
 
 Right here, in this option called scripts, let\'s add in one more here.
 
-We will say \"start\".
+We will say "start".
 
 Start is a command that NPM supports which enables you to specify a
 bunch of things that will be started.
 
 Later on we will see how we make use of this.
 
-Here I\'m going to say \"npm run lite\". And after that test, I\'m going
-to add in one more entry called \"lite\", which I will configure as
-\"lite-server\", okay?
+Here I\'m going to say "npm run lite". And after that test, I\'m going
+to add in one more entry called "lite", which I will configure as
+"lite-server", okay?
 
 With these changes, let\'s save the package.json file. And then, now our
 project is configured, so that now if you start the lite- server, the
@@ -2213,7 +2213,7 @@ commit.
 
 Let\'s do a git commit.
 
-**git commit -m \"fourth commit\"**.
+**git commit -m "fourth commit"**.
 
 And the files are committed.
 
@@ -2298,49 +2298,30 @@ of this exercise, you will be able to:
 -   Next, open package.json in your editor and modify it as shown below.
     Note the addition of two lines, line 7 and line 9.
 
-> **{**
->
-> **  \"name\": \"git-test\",**
->
-> **  \"version\": \"1.0.0\",**
->
-> **  \"description\": \"This is the Git and Node basic learning project\",**
->
-> **  \"main\": \"index.html\",**
->
-> **  \"scripts\": {**
->
-> **    \"start\": \"npm run lite\",**
->
-> **    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",**
->
-> **    \"lite\": \"lite-server\"**
->
-> **  },**
->
-> **  \"repository\": {**
->
-> **    \"type\": \"git\",**
->
-> **    \"url\": \"git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}\"**
->
-> **  },**
->
-> **  \"author\": \"\",**
->
-> **  \"license\": \"ISC\",**
->
-> **  \"homepage\": \"[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}\",**
->
-> **  \"devDependencies\": {**
->
-> **    \"lite-server\": \"\^2.2.2\"**
->
-> **  }**
->
-> **}**
->
-> ** **
+```
+{**
+  "name": "git-test",**
+  "version": "1.0.0",**
+  "description": "This is the Git and Node basic learning project",**
+  "main": "index.html",**
+  "scripts": {**
+    "start": "npm run lite",**
+    "test": "echo "Error: no test specified" && exit 1",**
+    "lite": "lite-server"**
+  },**
+  "repository": {**
+    "type": "git",**
+    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}"**
+  },**
+  "author": "",**
+  "license": "ISC",**
+  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}",**
+  "devDependencies": {**
+    "lite-server": "\^2.2.2"**
+  }**
+}**
+ **
+```
 
 -   Next, start the development server by typing the following at the
     prompt:
@@ -2755,7 +2736,7 @@ the file.
 Do git init and initialize your git repository.
 
 Then you can check git status, and you would see that these files need
-to be committed, add all the files, git commit -m \"Initial Setup\".
+to be committed, add all the files, git commit -m "Initial Setup".
 
 This is the starting point of your folder at this moment.
 
@@ -2850,17 +2831,17 @@ through what this code snippet is trying to do.
 
 You will notice that I have three meta tags here.
 
-The first one says charset=\"utf-8\".
+The first one says charset="utf-8".
 
 This is the unicode that is going to be used. The second line which says
-meta name=\"viewport\",
+meta name="viewport",
 
 I\'m going to come back and explain this particular line to you in the
 next lesson when we will look at responsive web design.
 
 Now, let me draw your attention to this particular line which says link
-rel=\"stylesheet\", and then href. Note that I am specifying href as
-\"node_modules/bootstrap/dist/css/bootstrap.min.css\".
+rel="stylesheet", and then href. Note that I am specifying href as
+"node_modules/bootstrap/dist/css/bootstrap.min.css".
 
 What I am specifying is that the bootstrap.min.css file, which contains
 the CSS classes corresponding to Bootstrap that we have downloaded using
@@ -3007,7 +2988,7 @@ exercise, you will be able to:
 ### node_modules
 
 -   Now do a commit of your project folder to the Git repository with
-    the message \"Initial Setup\". You will be doing a commit of your
+    the message "Initial Setup". You will be doing a commit of your
     project at the end of each exercise so that you retain the completed
     files of each exercise.
 
@@ -3047,22 +3028,22 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
     you can open the project folder in the editor and then view
     index.html.
 
--   Insert the following code in the *\<head\>* of *index.html* file
+-   Insert the following code in the *<head\>* of *index.html* file
     before the title.
 
-    \<!\-- Required meta tags always come first \--\>
+    <!\-- Required meta tags always come first \--\>
 
-    \<meta charset=\"utf-8\"\>
+    <meta charset="utf-8"\>
 
-    \<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
 
-    \<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\"\>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"\>
 
  
 
-    \<!\-- Bootstrap CSS \--\>
+    <!\-- Bootstrap CSS \--\>
 
-    \<link rel=\"stylesheet\" href=\"node_modules/bootstrap/dist/css/bootstrap.min.css\"\>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>
 
 -   This will include Bootstrap CSS into your web page. Note the subtle
     change in the fonts of the content of the web page. This is the
@@ -3077,15 +3058,15 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
     JQuery Javascript library for its Javascript plugins. Hence the need
     to include JQuery library in the web page.
 
-    \<!\-- jQuery first, then Popper.js, then Bootstrap JS. \--\>
+    <!\-- jQuery first, then Popper.js, then Bootstrap JS. \--\>
 
-    \<script src=\"node_modules/jquery/dist/jquery.slim.min.js\"\>\</script\>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"\></script\>
 
-    \<script src=\"node_modules/popper.js/dist/umd/popper.min.js\"\>\</script\>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"\></script\>
 
-    \<script src=\"node_modules/bootstrap/dist/js/bootstrap.min.js\"\>\</script\>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\></script\>
 
--   Now, do a Git commit with the message \"Intro. to Bootstrap\". You
+-   Now, do a Git commit with the message "Intro. to Bootstrap". You
     may push the commit to your online repository.
 
 ### Conclusion
@@ -3098,9 +3079,9 @@ Bootstrap\'s grid system.
 
 ### PDFs of the Presentations
 
-> **03-Web-UI-Frameworks.pdf**
+03-Web-UI-Frameworks.pdf**
 >
-> **04-Intro-Bootstrap.pdf**
+04-Intro-Bootstrap.pdf**
 
 ### Exercise Resources
 
@@ -3939,7 +3920,7 @@ Bootstrap four, we get the flexibility that CSS Flexbox brings in terms
 of doing vertical alignment.
 
 If you wanted the content to be vertically-centered, then to the row,
-you would apply the class called \"align items center\".
+you would apply the class called "align items center".
 
 ![](images/image066.png)
 <!-------------------
@@ -3996,7 +3977,7 @@ occupy three columns each.
 height="2.0544870953630796in"}
 --------------->
 
-The middle one, when I say, \"column auto\", it means that the number of
+The middle one, when I say, "column auto", it means that the number of
 columns that this particular div occupies will be automatically
 determined by the content that is enclosed inside there.
 
@@ -4529,7 +4510,7 @@ this is first through media queries. We have already added the support
 for media queries in the last lesson, where we added this line to the
 head:
 
-    \<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
 
 The *viewport* meta tag ensures that the screen width is set to the
 device width and the content is rendered with this width in mind.
@@ -4565,10 +4546,10 @@ a row, all adding up to 12 or a multiple thereof.
     to use the container-fluid class to make the content automatically
     to span the full width of the screen. We will discuss further about
     this when we discuss the Bootstrap grid system in the next lecture.
-    Add the container class to the first div right after the \</header\>
+    Add the container class to the first div right after the </header\>
     in the file as follows.
 
-**\<div class=\"container\"\> \...**
+**<div class="container"\> \...**
 
 ### Dividing the content into rows
 
@@ -4577,7 +4558,7 @@ a row, all adding up to 12 or a multiple thereof.
     content. In the next exercise, we will see how we can add other
     classes to the rows.
 
-**\<div class=\"row\"\> \...**
+**<div class="row"\> \...**
 
 ### Creating a Jumbotron
 
@@ -4587,7 +4568,7 @@ a row, all adding up to 12 or a multiple thereof.
     In this case we are using it to highlight the name of the
     restaurant.
 
-**\<header class=\"jumbotron\"\> \... **
+**<header class="jumbotron"\> \... **
 
 -   In the header add a **container** class to the first inner div and a
     row class to the second inner div.
@@ -4604,37 +4585,37 @@ a row, all adding up to 12 or a multiple thereof.
     displaying the restaurant logo in the future. Let us go into the
     jumbotron and define the classes for the inner divs as follows:
 
-> **\<div class=\"col-12 col-sm-6\"\> \... \</div\>**
+<div class="col-12 col-sm-6"\> \... </div\>**
 >
-> ** **
+ **
 >
-> **\<div class=\"col-12 col-sm\"\> \... \</div\>**
+<div class="col-12 col-sm"\> \... </div\>**
 
 -   For the remaining three div rows that contain the content, let us
     define the classes for the inner divs as follows:
 
-**\<div class=\"col-12 col-sm-4 col-md-3\"\> \... \</div\>**
+**<div class="col-12 col-sm-4 col-md-3"\> \... </div\>**
 
 ** **
 
-**    \<div class=\"col col-sm col-md\"\> \... \</div\>**
+**    <div class="col col-sm col-md"\> \... </div\>**
 
 -   For the footer, let us define the classes for the inner divs as
     follows:
 
-**    \<div class=\"col-4 col-sm-2\"\> \... \</div\>**
+**    <div class="col-4 col-sm-2"\> \... </div\>**
 
 ** **
 
-**    \<div class=\"col-7 col-sm-5\"\> \... \</div\>**
+**    <div class="col-7 col-sm-5"\> \... </div\>**
 
 ** **
 
-**    \<div class=\"col-12 col-sm-4\"\> \... \</div\>**
+**    <div class="col-12 col-sm-4"\> \... </div\>**
 
 ** **
 
-**    \<div class=\"col-auto\"\> \... \</div\>**
+**    <div class="col-auto"\> \... </div\>**
 
 Now you can see how the web page has been turned into a mobile-first
 responsive design layout.
@@ -4647,21 +4628,21 @@ responsive design layout.
     can be accomplished by using the .order-sm-last and .order-sm-first
     for the first and the third rows as follows:
 
-**    \<div class=\"col-12 col-sm-4 order-sm-last col-md-3\"\> \... \</div\>**
+**    <div class="col-12 col-sm-4 order-sm-last col-md-3"\> \... </div\>**
 
  
 
-**    \<div class=\"col col-sm order-sm-first col-md\"\> \... \</div\>**
+**    <div class="col col-sm order-sm-first col-md"\> \... </div\>**
 
  
 
--   For the div containing the \<ul\> with the site links, update the
+-   For the div containing the <ul\> with the site links, update the
     class as follows:
 
-**    \<div class=\"col-4 offset-1 col-sm-2\"\>**
+**    <div class="col-4 offset-1 col-sm-2"\>**
 
 -   After saving all the changes, you can do a Git commit with the
-    message \"Bootstrap Grid Part 1\" and push your changes to the
+    message "Bootstrap Grid Part 1" and push your changes to the
     online repository.
 
 ### Conclusion
@@ -4971,9 +4952,9 @@ do this in this part of the exercise.
 
 -   Then add these classes to the corresponding rows in the *index.html*
     file as follows. See the difference in the *index.html* file in the
-    browser. The first one is for the row in the \<header\>, the next
+    browser. The first one is for the row in the <header\>, the next
     three for the rows in the content, and the last one directly to the
-    \<footer\> tag.
+    <footer\> tag.
 
 ```
 >     <div class="row row-header"> ... </div>
@@ -5031,7 +5012,7 @@ do this in this part of the exercise.
 ```
 
 -   After saving all the changes, you can do a Git commit with the
-    message \"Bootstrap Grid Part 2\" and push your changes to the
+    message "Bootstrap Grid Part 2" and push your changes to the
     online repository.
 
 ### Conclusion
@@ -6172,13 +6153,13 @@ items to describe the breadcrumb item.
 Breadcrumb item here, so I include one breadcrumb item and then inside
 there I will use the A tag to define a link back to my Home Page.
 
-I say, \"A\" and then to this A, I give the href as index.HTML and then
+I say, "A" and then to this A, I give the href as index.HTML and then
 include that into my first breadcrumb and then after this, the next one
 that I\'m going to include is another list item and the second list item
 I will apply the class as breadcrumb item and active.
 
 Note the use of the active class here and then inside there I will say
-\"about us\" I don\'t need a link here because I\'m already on the page
+"about us" I don\'t need a link here because I\'m already on the page
 so that doesn\'t need to be included for this list item.
 
 Let\'s save the changes, so you can see how the breadcrumb has been
@@ -6217,8 +6198,8 @@ the Home Page I will go back to my Home Page.
 
 With this we complete this exercise on navbar and breadcrumbs.
 
-This is a good time for you to do a git commit with the message \"navbar
-and breadcrumbs.\"
+This is a good time for you to do a git commit with the message "navbar
+and breadcrumbs."
 
 ## Exercise (Instructions): Navbar and Breadcrumbs
 
@@ -6241,21 +6222,21 @@ exercise, you will be able to:
     the following code to the body just above the header jumbotron.
 
 ```
-> **    \<nav class=\"navbar navbar-dark navbar-expand-sm bg-primary fixed-top\"\>**
-> **        \<div class=\"container\"\>**
-> **           \<a class=\"navbar-brand\" href=\"#\"\>Ristorante Con Fusion\</a\>**
-> **                \<ul class=\"navbar-nav mr-auto\"\>**
-> **                    \<li class=\"nav-item active\"\>\<a class=\"nav-**
-> **link\" href=\"#\"\>Home\</a\>\</li\>**
-> **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
-> **link\" href=\"[./aboutus.html]{.underline}\"\>About\</a\>\</li\>**
-> **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
-> **link\" href=\"#\"\>Menu\</a\>\</li\>**
-> **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
-> **link\" href=\"#\"\>Contact\</a\>\</li\>**
-> **                \</ul\>            **
-> **        \</div\>**
-> **    \</nav\>**
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>**
+        <div class="container"\>**
+           <a class="navbar-brand" href="#"\>Ristorante Con Fusion</a\>**
+                <ul class="navbar-nav mr-auto"\>**
+                    <li class="nav-item active"\><a class="nav-**
+link" href="#"\>Home</a\></li\>**
+                    <li class="nav-item"\><a class="nav-**
+link" href="[./aboutus.html]{.underline}"\>About</a\></li\>**
+                    <li class="nav-item"\><a class="nav-**
+link" href="#"\>Menu</a\></li\>**
+                    <li class="nav-item"\><a class="nav-**
+link" href="#"\>Contact</a\></li\>**
+                </ul\>            **
+        </div\>**
+    </nav\>**
 ```
 
 In the above code, we can see the use of the nav element to specify the
@@ -6264,8 +6245,8 @@ the *navbar* that declares it as a navigation bar, and the *navbar-dark*
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the *\<a
-class=\"navbar-brand\"\>* tag. In addition the inner *ul* is used to
+logo for the website. This is created by the *<a
+class="navbar-brand"\>* tag. In addition the inner *ul* is used to
 specify the items to be put in the navigation bar. This *ul* is styled
 with *navbar-nav* class to specify that the items should be displayed
 inline inside the navigation bar. We also use the container class inside
@@ -6280,9 +6261,9 @@ the navigation bar.
     bar, just below the container div
 
 ```
-> **\<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#Navbar\"\>**
-> **\<span class=\"navbar-toggler-icon\"\>\</span\>**
-> **\</button\>**
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"\>**
+<span class="navbar-toggler-icon"\></span\>**
+</button\>**
 ```
 
 This creates a button with three horizontal lines. For medium to extra
@@ -6294,25 +6275,23 @@ navbar items.
     need to enclose the *ul* within another div as follows:
 
 ```
-> **\<div class=\"collapse navbar-collapse\" id=\"Navbar\"\>**
->
-> **\<ul class=\"navbar-nav mr-auto\"\> \... \</ul\>**
->
-> **\</div\>**
+<div class="collapse navbar-collapse" id="Navbar"\>
+<ul class="navbar-nav mr-auto"\> \... </ul\>
+</div\>
 ```
 
 By doing this, we are specifying that this div with *collapse* and
 *navbar-collapse* classes and with the id N*avbar* will be collapsed on
 small and xs screens, but can be toggled on or off when the toggle
-button is clicked. Note the use of *data-toggle=\"collapse\"
-data-target=\"#Navbar\"* within the button above. This specifies that
+button is clicked. Note the use of *data-toggle="collapse"
+data-target="#Navbar"* within the button above. This specifies that
 the menu items are collapsed on small and xs screens when the toggle
 button is visible. They can be displayed or hidden by clicking the
 toggle button.
 
 -   Copy and paste the entire navbar code also into *aboutus.html* to
-    add the navigation also to that page. Make sure to change the \<li\>
-    corresponding to \"About\" to *active*, and remove the *active*
+    add the navigation also to that page. Make sure to change the <li\>
+    corresponding to "About" to *active*, and remove the *active*
     class from the Home link. Also, update the home link to take you
     back to *index.html*. Update the navbar-brand tag also to take you
     back to *index.html*.
@@ -6327,26 +6306,16 @@ toggle button.
     customisations to the *styles.css* file
 
 ```
-> **body{**
->
-> **    padding:50px 0px 0px 0px;**
->
-> **    z-index:0;**
->
-> **}**
->
-> ** **
->
-> **.navbar-dark {**
->
-> **     background-color: #512DA8;**
->
-> **}**
->
-> ** **
+body{
+    padding:50px 0px 0px 0px;**
+    z-index:0;**
+}
+.navbar-dark {**
+     background-color: #512DA8;**
+}
 ```
 
--   Remember to delete the *bg-primary* class from the \<nav\> element
+-   Remember to delete the *bg-primary* class from the <nav\> element
     in both *index.html* and *aboutus.html.*
 
 -   We are already beginning to see the page format close to the final
@@ -6359,18 +6328,14 @@ toggle button.
     containing the About Us title in *aboutus.html*.
 
 ```
-> **   \<ol class=\"col-12 breadcrumb\"\>**
->
-> **   
-> \<li class=\"breadcrumb-item\"\>\<a href=\"[./index.html]{.underline}\"\>Home\</a\>\</li\>**
->
-> **      \<li class=\"breadcrumb-item active\"\>About Us\</li\>**
->
-> **   \</ol\>**
+   <ol class="col-12 breadcrumb"\>
+      <li class="breadcrumb-item"\><a href="[./index.html]{.underline}"\>Home</a\></li\>
+      <li class="breadcrumb-item active"\>About Us</li\>
+   </ol\>
 ```
 
 -   Save all the changes and commit to your Git repository with a
-    message \"Navbar and Breadcrumbs\".
+    message "Navbar and Breadcrumbs".
 
 ### Conclusions
 
@@ -6577,13 +6542,13 @@ we\'re going to make use of bootstrap social for this.
 Going to the footer of the index.html page, I\'m going to replace the
 telephone with Font Awesome icon.
 
-I would say, \"i\" as I mentioned, you can either use span or I for
+I would say, "i" as I mentioned, you can either use span or I for
 specifying the Font Awesome icons.
 
 Font Awesome website uses I but I\'m showing you two possible ways of
 doing these things.
 
-I say fa fa-tel, I\'m sorry fa-phone and close the \<i\> tag here.
+I say fa fa-tel, I\'m sorry fa-phone and close the <i\> tag here.
 
 And for fax, I\'m going to simply copy this, and then for fax if it is
 fa-fax, and for email it is fa-envelope and save changes.
@@ -6599,7 +6564,7 @@ with the social media buttons.
 To get that done, we\'ll go to the footer and then replace each of these
 with their corresponding icons there.
 
-I would say, i class Font Awesome fa-google-plus and close the \<i\> tag
+I would say, i class Font Awesome fa-google-plus and close the <i\> tag
 there. And then I\'m simply going to copy this and then apply the same
 to the remaining ones.
 
@@ -6676,86 +6641,64 @@ installed, then the font icons are not showing up in their browser.
     classes. Do the same change to aboutus.html file:
 
 ```
-> **\<link rel=\"stylesheet\" href=\"[node_modules/font-awesome/css/font-awesome.min.css]{.underline}\"\>**
->
-> **\<link rel=\"stylesheet\" href=\"[node_modules/bootstrap-social/bootstrap-social.css]{.underline}\"\>**
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">**
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">**
 ```
 
 -   Let us now use some font icons in our web page and decorate it.
     Update the navbar\'s ul list items as follows in index.html:
 
 ```
-> **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-address-card fa-lg\"\>\</span\> Contact\</a\>\</li\>**
->
-> **\<li class=\"nav-item active\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-home fa-lg\"\>\</span\> Home\</a\>\</li\>**
->
-> **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"[./aboutus.html]{.underline}\"\>\<span class=\"fa fa-info fa-lg\"\>\</span\> About\</a\>\</li\>**
->
-> **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-list fa-lg\"\>\</span\> Menu\</a\>\</li\>**
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>**
+<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>**
+<li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>**
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg">\</span> Menu</a></li>**
 ```
 
 -   Similarly update the navbar\'s ul list items as follows in
     aboutus.html:
 
 ```
-> **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"[./index.html]{.underline}\"\>\<span class=\"fa fa-home fa-lg\"\>\</span\> Home\</a\>\</li\>**
->
-> **    \<li class=\"nav-item active\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-info fa-lg\"\>\</span\> About\</a\>\</li\>**
->
-> **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-list fa-lg\"\>\</span\> Menu\</a\>\</li\>**
->
-> **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-address-card fa-lg\"\>\</span\> Contact\</a\>\</li\>**
+    <li class="nav-item">\<a class="nav-link" href="[./index.html]{.underline}">\<span class="fa fa-home fa-lg">\</span> Home\</a>\</li>**
+    <li class="nav-item active">\<a class="nav-link" href="#">\<span class="fa fa-info fa-lg">\</span> About\</a>\</li>**
+    <li class="nav-item">\<a class="nav-link" href="#">\<span class="fa fa-list fa-lg">\</span> Menu\</a>\</li>**
+    <li class="nav-item">\<a class="nav-link" href="#">\<span class="fa fa-address-card fa-lg">\</span> Contact\</a>\</li>**
 ```
 
 -   Next, in both index.html and aboutus.html, go down to the address in
-    the footer of the page and replace the \"Tel.\", \"Fax\" and
-    \"Email\" with the corresponding font awesome based icons as
+    the footer of the page and replace the "Tel.", "Fax" and
+    "Email" with the corresponding font awesome based icons as
     follows:
 
 ```
-> **\<i class=\"fa fa-phone fa-lg\"\>\</i\>: +852 1234 5678\<br\>**
->
-> **\<i class=\"fa fa-fax fa-lg\"\>\</i\>: +852 8765 4321\<br\>**
->
-> **\<i class=\"fa fa-envelope fa-lg\"\>\</i\>: **
->
-> **\<a href=\"[mailto:confusion@food.net]{.underline}\"\>confusion@food.net\</a\>**
+<i class="fa fa-phone fa-lg">\</i>: +852 1234 5678\<br>**
+<i class="fa fa-fax fa-lg">\</i>: +852 8765 4321\<br>**
+<i class="fa fa-envelope fa-lg">\</i>: **
+<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net\</a>**
 ```
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
     social buttons in the footer in both index.html and aboutus.html, by
     replacing the social sites\' links with the following code:
 
-> **\<div class=\"text-center\"\>**
->
-> **\<a class=\"btn btn-social-icon btn-google\" href=\"[http://google.com/+]{.underline}\"\>\<i class=\"fa fa-google-plus\"\>\</i\>\</a\>**
->
-> **\<a class=\"btn btn-social-icon btn-facebook"**
->
-> **href=\"[http://www.facebook.com/profile.php?id=]{.underline}\"\>\<i class=\"fa fa-facebook\"\>\</i\>\</a\>**
->
-> **\<a class=\"btn btn-social-icon btn-linkedin\" **
->
-> **href=\"[http://www.linkedin.com/in/]{.underline}\"\>\<i class=\"fa fa-linkedin\"\>\</i\>\</a\>**
->
-> **\<a class=\"btn btn-social-icon btn-twitter\"**
->
-> **href=\"[http://twitter.com/]{.underline}\"\>\<i class=\"fa fa-twitter\"\>\</i\>\</a\>**
->
-> **\<a class=\"btn btn-social-icon btn-google\" **
->
-> **href=\"[http://youtube.com/]{.underline}\"\>\<i class=\"fa fa-youtube\"\>\</i\>\</a\>**
->
-> **\<a class=\"btn btn-social-icon\" **
->
-> **href=\"[mailto:]{.underline}\"\>\<i class=\"fa fa-envelope-o\"\>\</i\>\</a\>**
->
-> **\</div\>**
->
-> ** **
+```
+<div class="text-center">**
+<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}">\<i class="fa fa-google-plus">\</i>\</a>**
+<a class="btn btn-social-icon btn-facebook"**
+href="[http://www.facebook.com/profile.php?id=]{.underline}">\<i class="fa fa-facebook">\</i>\</a>**
+<a class="btn btn-social-icon btn-linkedin" **
+href="[http://www.linkedin.com/in/]{.underline}">\<i class="fa fa-linkedin">\</i>\</a>**
+<a class="btn btn-social-icon btn-twitter"**
+href="[http://twitter.com/]{.underline}">\<i class="fa fa-twitter">\</i>\</a>**
+<a class="btn btn-social-icon btn-google" **
+href="[http://youtube.com/]{.underline}">\<i class="fa fa-youtube">\</i>\</a>**
+<a class="btn btn-social-icon" **
+href="[mailto:]{.underline}">\<i class="fa fa-envelope-o">\</i>\</a>**
+</div>
+```
 
 -   Save all the changes and commit to your Git repository with the
-    message \"Icon Fonts\".
+    message "Icon Fonts".
 
 ### Conclusions
 
@@ -6765,9 +6708,9 @@ We learnt about using icon fonts in a web project.
 
 ### PDFs of Presentations
 
-> **06-Navigation.pdf**
->
-> **06-Icon Fonts.pdf**
+06-Navigation.pdf
+
+06-Icon Fonts.pdf
 
 ### Official Bootstrap Resources
 
@@ -6925,12 +6868,12 @@ form information being canceled.
 
 A button outside a form could have other ways of providing interaction.
 
-Similarly, the \< a \> tag that we have traditionally associated with
+Similarly, the \< a > tag that we have traditionally associated with
 hyperlinks could also be hijacked to be styled and presented in the form
 of a button.
 
 Here we will see how bootstrap provides classes that can be used to
-format the \<a\> tag into a button to be presented on your website.
+format the \<a> tag into a button to be presented on your website.
 
 We\'ll also look at various form elements, like the input elements,
 select, the button and also the text AD elements, and how we make use of
@@ -7491,7 +7434,7 @@ Since this checkbox should align itself to the right side in the form.
 
 That\'s why I used offset-md-2 here.
 
-And then inside here it says label class=\"form-check-label\".
+And then inside here it says label class="form-check-label".
 
 And then it provides input tag here with type checkbox.
 
@@ -7512,7 +7455,7 @@ position that in your form here.
 
 This here uses form-check-label.
 
-And then in here, you have to have a checkbox, input type=\"checkbox\",
+And then in here, you have to have a checkbox, input type="checkbox",
 and then label itself.
 
 Here you see strong, May we contact you?
@@ -7538,10 +7481,10 @@ Now this is the select option that HTML file forms support.
 
 And look at the class applied to this.
 
-It says class=\"form-control\" to the select. And then you give the
+It says class="form-control" to the select. And then you give the
 options in the select here.
 
-So \<option\>Tel., Email and so on.
+So \<option>Tel., Email and so on.
 
 This is how you specify the options for your select field in your form
 here.
@@ -7575,13 +7518,13 @@ In this case, I\'m going to make use of a text area for providing that.
 
 Let me paste in the code. And then we\'ll review the code here.
 
-This code, as you see says, div class=\"form-group row\" which you
+This code, as you see says, div class="form-group row" which you
 already know what it means.
 
 And then this is label which you already know how it is constructed. And
 down below it, you see a textarea tag being used for the form.
 
-It says, textarea class, with class=\"form-control\", which you have
+It says, textarea class, with class="form-control", which you have
 already seen before. And then id, name and then the number of rows for
 the text area being specified here.
 
@@ -7602,10 +7545,10 @@ After a div, on the text area, I\'m going to paste in the code for the
 Submit button here.
 
 Pasting in the code for the Submit button again, looking at the code,
-you see that this is a div class =\"form-group row\"\>, which you
+you see that this is a div class ="form-group row"\>, which you
 already know from before.
 
-And then this says, div class=\"offset-md-2 col-md-10\"\>.
+And then this says, div class="offset-md-2 col-md-10"\>.
 
 You understand what that is and then, inside this div, you see a button
 being enclosed here. Now since we have seen the construction of a button
@@ -7709,19 +7652,15 @@ Download file
 
 -   We are now going to add content to *contactus.html* file to learn
     more about buttons and button bars. Go to the div where we specify
-    \"Button group goes here\", and replace it with the following code
+    "Button group goes here", and replace it with the following code
     to create a button bar containing three buttons:
 
 ```
-> **                \<div class=\"btn-group\" role=\"group\"\>**
->
-> **                    \<a role=\"button\" class=\"btn btn-primary\" href=\"[tel:+85212345678]{.underline}\"\>\<i class=\"fa fa-phone\"\>\</i\> Call\</a\>**
->
-> **                    \<a role=\"button\" class=\"btn btn-info\"\>\<i class=\"fa fa-skype\"\>\</i\> Skype\</a\>**
->
-> **                    \<a role=\"button\" class=\"btn btn-success\" href=\"[mailto:confusion@food.net]{.underline}\"\>\<i class=\"fa fa-envelope-o\"\>\</i\> Email\</a\>**
->
-> **                \</div\>**
+                \<div class="btn-group" role="group">**
+                    \<a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}">\<i class="fa fa-phone">\</i> Call\</a>**
+                    \<a role="button" class="btn btn-info">\<i class="fa fa-skype">\</i> Skype\</a>**
+                    \<a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}">\<i class="fa fa-envelope-o">\</i> Email\</a>**
+                \</div>**
 ```
 
 Note how we define the button bar using the *btn-group* class, and then
@@ -7731,7 +7670,7 @@ associated with them. So we decided to use the *\<a\>* tag instead of
 the *\<button\>* tag. Note how the *\<a\>* tags have been styled using
 the *btn* class.
 
--   Remember to do a Git commit with the message \"Buttons\"
+-   Remember to do a Git commit with the message "Buttons"
 
 ### Conclusions
 
@@ -7746,7 +7685,7 @@ to our web page and also style these form elements using the Bootstrap
 classes.
 
 Going back to contactus.html page, scroll down until you see this
-comment there called \"Form goes here\".
+comment there called "Form goes here".
 
 We\'re going to replace this with the form in this web page.
 
@@ -7762,7 +7701,7 @@ Inside this form, I\'m going to divide this form into several rows
 there.
 
 To divide your form into rows, you can simply use a div with the
-class=\"form-group\" and then apply the row class to it.
+class="form-group" and then apply the row class to it.
 
 With this, we are going to add in two form groups here.
 
@@ -7873,7 +7812,7 @@ the user to enter the telephone number and the email ID.
 For the telephone number, so here we already have the first name and the
 last name above.
 
-The third one, I\'m going to change this to label for \"telnum\".
+The third one, I\'m going to change this to label for "telnum".
 
 This is from the telephone number and then the classes, I\'m going to
 apply a col-12 class to this saying that this label will be in its own
@@ -7901,7 +7840,7 @@ You could also use it for example, for country code if that\'s what you
 wish to put in the form.
 
 For the area code itself, I\'m going to apply for the div, the
-classes=\"col-5 col-md-3 here\".
+classes="col-5 col-md-3 here".
 
 Notice that for the medium screen, we have two columns occupied by the
 label, three columns occupied by the area code itself and the remaining
@@ -7980,23 +7919,23 @@ the form.
 
 Inside this form group row, let me add in first the checkbox.
 
-To do that, we\'ll add in a div with the class=\"col-md-6\" so you\'ll
+To do that, we\'ll add in a div with the class="col-md-6" so you\'ll
 see that this is going to occupy six columns in the medium to
 extra-large screen size, and then offset-md-2, so this will offset it to
 the right by two columns and then display the checkbox in there.
 
 Now, inside here, to add a checkbox, we\'ll say div with the
-class=\"form-check\" and inside this form-check class we\'ll add in an
-input type=\"checkbox\" and the class=\"form-check-input\" and then let
-me go to the next line and then say name=\"approve\" and the
-id=\"approve\" and the value is an empty string there.
+class="form-check" and inside this form-check class we\'ll add in an
+input type="checkbox" and the class="form-check-input" and then let
+me go to the next line and then say name="approve" and the
+id="approve" and the value is an empty string there.
 
 And to this checkbox, let\'s add a label.
 
-To add a label, we\'ll go and add in label class=\"form-check-label\"
+To add a label, we\'ll go and add in label class="form-check-label"
 and then this label is for this checkbox that we just added.
 
-That\'s why we\'ll say for=\"approve\" so notice that for the checkbox,
+That\'s why we\'ll say for="approve" so notice that for the checkbox,
 we had given the name and the ID as approve so that\'s why here, we\'ll
 be save for the label for approve.
 
@@ -8007,7 +7946,7 @@ And then save the changes and let\'s go and take a look at our form.
 
 Going to the web page, you can now see that we have added in a checkbox
 along with a label here and notice that this label is in bold because of
-the use of the \"strong\" tag there, and we did offset-md-2. So that\'s
+the use of the "strong" tag there, and we did offset-md-2. So that\'s
 why we push this checkbox all the way here.
 
 This doesn\'t have a label here but instead this is pushed right here,
@@ -8016,7 +7955,7 @@ md-6 so six columns here. We are not done with that yet.
 
 I\'m going to add in the next part here, which is a select box there.
 
-I will apply one more div here with the class=\"col-md-3 offset-md-1\"
+I will apply one more div here with the class="col-md-3 offset-md-1"
 here.
 
 And inside this div, I\'m going to define a select.
@@ -8051,7 +7990,7 @@ I\'m too lazy to keep typing in everything all the time.
 
 I tend to do cut and paste wherever feasible, but for this one, the
 label should be feedback and the column form label, and then the actual
-text is, \"Your feedback here.\" So that is the label.
+text is, "Your feedback here." So that is the label.
 
 And then, in here, the second one, I\'m going to format this one.
 Instead of input type, I\'m going to change that to a text area, and
@@ -8086,12 +8025,12 @@ Going back to the form again, create one more row here by using the div
 here with the form group row here, and inside here I\'m going to add in
 a button here.
 
-I would say, div class=\"offset-md-2\" because I want my button to be
+I would say, div class="offset-md-2" because I want my button to be
 positioned right below all those fields that I have here so the left two
 columns are being used for the label.
 
 The submit button doesn\'t need a label so I\'m just going to push it to
-the right here and then I would say \"col-md-10\" so this would occupy
+the right here and then I would say "col-md-10" so this would occupy
 the remaining 10 columns there.
 
 And then inside those div, I\'m going to add in a button there.
@@ -8104,7 +8043,7 @@ This is the submit button for your form there and class.
 Remember button classes, button primary, so this would create a dark
 blue button in your form and then close off the button there, and then
 I\'m going to simply go in and inside the button, I\'ll give the name as
-\"Send Feedback\" and then save the changes.
+"Send Feedback" and then save the changes.
 
 Now, our form is complete.
 
@@ -8113,8 +8052,8 @@ Let\'s take a look at the final version of our form.
 Going to our web page, you can now see the form completed.
 
 All these fields we have seen already, the button at the bottom with the
-wording \"Send Feedback\" and the dark blue-colored button because of
-the use of button \"primary\".
+wording "Send Feedback" and the dark blue-colored button because of
+the use of button "primary".
 
 This completes the form that we wanted to create in our web page.
 
@@ -8142,28 +8081,28 @@ be able to:
 ### Adding a Basic Form
 
 -   We will add a simple form to the page at the location identified by
-    \"Form goes here\". Add the following code to page to create a
+    "Form goes here". Add the following code to page to create a
     simple horizontal form with two fields:
 
 ```
-> **                \<form\>**
-> **                    \<div class=\"form-group row\"\>**
-> **                        \<label for=\"firstname\" class=\"col-md-2 col-form-label\"\>First Name\</label\>**
-> **                        \<div class=\"col-md-10\"\>**
-> **      \<input type=\"text\" class=\"form-
-> control\" id=\"firstname\" name=\"firstname\" placeholder=\"First Name\"\>**
-> **                        \</div\>**
-> **                    \</div\>**
-> **                    \<div class=\"form-group row\"\>**
-> **                        \<label for=\"lastname\" class=\"col-md-2 col-form-label\"\>Last Name\</label\>**
-> **                        \<div class=\"col-md-10\"\>**
-> **                        \<input type=\"text\" class=\"form-
-> control\" id=\"lastname\" name=\"lastname\" placeholder=\"Last Name\"\>**
-> **                        \</div\>**
-> **                    \</div\>**
-> **                \</form\>**
-> ** **
-> ** **
+                \<form>**
+                    \<div class="form-group row">**
+                        \<label for="firstname" class="col-md-2 col-form-label">First Name\</label>**
+                        \<div class="col-md-10">**
+      \<input type="text" class="form-
+> control" id="firstname" name="firstname" placeholder="First Name">**
+                        \</div>**
+                    \</div>**
+                    \<div class="form-group row">**
+                        \<label for="lastname" class="col-md-2 col-form-label">Last Name\</label>**
+                        \<div class="col-md-10">**
+                        \<input type="text" class="form-
+> control" id="lastname" name="lastname" placeholder="Last Name">**
+                        \</div>**
+                    \</div>**
+                \</form>**
+ **
+ **
 ```
 
 This creates a form with two elements in the form. Note that the class
@@ -8173,21 +8112,21 @@ can style the contents using the column classes as appropriate.
 -   Let us add fields to seek user\'s telephone number and email:
 
 ```
-> **\<div class=\"form-group row\"\>**
-> **    \<label for=\"telnum\" class=\"col-12 col-md-2 col-form-label\"\>Contact Tel.\</label\>**
-> **    \<div class=\"col-5 col-md-3\"\>**
-> **    \<input type=\"tel\" class=\"form-control\" id=\"areacode\" name=\"areacode\" placeholder=\"Area code\"\>**
-> **    \</div\>**
-> **    \<div class=\"col-7 col-md-7\"\>**
-> **    \<input type=\"tel\" class=\"form-control\" id=\"telnum\" name=\"telnum\" placeholder=\"Tel. number\"\>**
-> **    \</div\>**
-> **    \</div\>**
-> **    \<div class=\"form-group row\"\>**
-> **    \<label for=\"emailid\" class=\"col-md-2 col-form-label\"\>Email\</label\>**
-> **    \<div class=\"col-md-10\"\>**
-> **    \<input type=\"email\" class=\"form-control\" id=\"emailid\" name=\"emailid\" placeholder=\"Email\"\>**
-> **    \</div\>**
-> **    \</div\>**
+\<div class="form-group row">**
+    \<label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.\</label>**
+    \<div class="col-5 col-md-3">**
+    \<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">**
+    \</div>**
+    \<div class="col-7 col-md-7">**
+    \<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">**
+    \</div>**
+    \</div>**
+    \<div class="form-group row">**
+    \<label for="emailid" class="col-md-2 col-form-label">Email\</label>**
+    \<div class="col-md-10">**
+    \<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">**
+    \</div>**
+    \</div>**
 ```
 
 ### Adding a Checkbox and Select
@@ -8196,23 +8135,23 @@ can style the contents using the column classes as appropriate.
     form. Note the styling of these elements using Bootstrap classes:
 
 ```
-**         \<div class=\"form-group row\"\>**
-**          \<div class=\"col-md-6 offset-md-2\"\>**
-**               \<div class=\"form-check\"\>**
+**         \<div class="form-group row">**
+**          \<div class="col-md-6 offset-md-2">**
+**               \<div class="form-check">**
 **               
-\<input type=\"checkbox\" class=\"form-check-input\" name=\"approve\" id=\"approve\" value=\"\"\>**
-**                  \<label class=\"form-check-label\" for=\"approve\"\>**
-**                  \<strong\>May we contact you?\</strong\>**
-**                  \</label\>**
-**               \</div\>**
-**            \</div\>**
-**            \<div class=\"col-md-3 offset-md-1\"\>**
-**             \<select class=\"form-control\"\>**
-**                \<option\>Tel.\</option\>**
-**                  \<option\>Email\</option\>**
-**                  \</select\>**
-**               \</div\>**
-**            \</div\>**
+\<input type="checkbox" class="form-check-input" name="approve" id="approve" value="">**
+**                  \<label class="form-check-label" for="approve">**
+**                  \<strong>May we contact you?\</strong>**
+**                  \</label>**
+**               \</div>**
+**            \</div>**
+**            \<div class="col-md-3 offset-md-1">**
+**             \<select class="form-control">**
+**                \<option>Tel.\</option>**
+**                  \<option>Email\</option>**
+**                  \</select>**
+**               \</div>**
+**            \</div>**
 ```
 
 ### Adding a textarea
@@ -8221,13 +8160,13 @@ can style the contents using the column classes as appropriate.
     comments as follows:
 
 ```
-> **\<div class=\"form-group row\"\>**
-> **      
-> \<label for=\"feedback\" class=\"col-md-2 col-form-label\"\>Your Feedback\</label\>**
-> **      \<div class=\"col-md-10\"\>**
-> **         \<textarea class=\"form-control\" id=\"feedback\" name=\"feedback\" rows=\"12\"\>\</textarea\>**
-> **      \</div\>**
-> **   \</div\>**
+\<div class="form-group row">**
+      
+> \<label for="feedback" class="col-md-2 col-form-label">Your Feedback\</label>**
+      \<div class="col-md-10">**
+         \<textarea class="form-control" id="feedback" name="feedback" rows="12">\</textarea>**
+      \</div>**
+   \</div>**
 ```
 
 ### Adding the Submit Button
@@ -8235,17 +8174,17 @@ can style the contents using the column classes as appropriate.
 -   Finally, we add the submit button to the form as follows:
 
 ```
-> **     \<div class=\"form-group row\"\>**
-> **        \<div class=\"offset-md-2 col-md-10\"\>**
-> **        
-> \<button type=\"submit\" class=\"btn btn-primary\"\>Send Feedback\</button\>**
-> **        \</div\>**
-> **     \</div\>**
+     \<div class="form-group row">**
+        \<div class="offset-md-2 col-md-10">**
+        
+> \<button type="submit" class="btn btn-primary">Send Feedback\</button>**
+        \</div>**
+     \</div>**
 ```
 
 Note the declaration of the type for the button to *submit*.
 
--   Remember to do a Git commit with the message \"Forms\"
+-   Remember to do a Git commit with the message "Forms"
 
 ### Conclusions
 
@@ -8581,13 +8520,13 @@ page.
 Let\'s now again go back to our aboutus.html page.
 
 And right below the card that we have already added previously, I\'m
-going to add in another div with the class \"col-12\" here.
+going to add in another div with the class "col-12" here.
 
 And then, inside this div, I\'m going to construct another card here to
 display some additional information.
 
-Inside this div, I will construct a card with the class \"card card-body
-bg-light.\"
+Inside this div, I will construct a card with the class "card card-body
+bg-light."
 
 You\'ll see that I am applying both the card and the card-body to the
 same div here.
@@ -8711,57 +8650,57 @@ displaying content. At the end of this exercise, you will be able to:
     columns to the page as follows:
 
 ```
-> **        \<div class=\"row row-content\"\>**
-> **            \<div class=\"col-12 col-sm-9\"\>**
-> **                \<h2\>Facts &amp; Figures\</h2\>**
-> **            \</div\>**
-> **             \<div class=\"col-12 col-sm-3\"\>**
-> **            \</div\>**
-> **       \</div\> **
-> ** **
+        \<div class="row row-content">**
+            \<div class="col-12 col-sm-9">**
+                \<h2>Facts &amp; Figures\</h2>**
+            \</div>**
+             \<div class="col-12 col-sm-3">**
+            \</div>**
+       \</div> **
+ **
 ```
 
 -   Inside the first column of this row, insert the table as follows:
 
 ```
-> **                \<div class=\"table-responsive\"\>**
-> **                    \<table class=\"table table-striped\"\>**
-> **                        \<thead class=\"thead-dark\"\>**
-> **                            \<tr\>**
-> **                                \<th\>&nbsp;\</th\>**
-> **                                \<th\>2013\</th\>**
-> **                                \<th\>2014\</th\>**
-> **                                \<th\>2015\</th\>**
-> **                            \</tr\>**
-> **                        \</thead\>**
-> **                        \<tbody\>**
-> **                            \<tr\>**
-> **                                \<th\>Employees\</th\>**
-> **                                \<td\>15\</td\>**
-> **                                \<td\>30\</td\>**
-> **                                \<td\>40\</td\>**
-> **                            \</tr\>**
-> **                            \<tr\>**
-> **                                \<th\>Guests Served\</th\>**
-> **                                \<td\>15000\</td\>**
-> **                                \<td\>45000\</td\>**
-> **                                \<td\>100,000\</td\>**
-> **                            \</tr\>**
-> **                            \<tr\>**
-> **                                \<th\>Special Events\</th\>**
-> **                                \<td\>3\</td\>**
-> **                                \<td\>20\</td\>**
-> **                                \<td\>45\</td\>**
-> **                            \</tr\>**
-> **                            \<tr\>**
-> **                                \<th\>Annual Turnover\</th\>**
-> **                                \<td\>\$251,325\</td\>**
-> **                                \<td\>\$1,250,375\</td\>**
-> **                                \<td\>\~\$3,000,000\</td\>**
-> **                            \</tr\>**
-> **                        \</tbody\>**
-> **                    \</table\>**
-> **                \</div\>**
+                \<div class="table-responsive">**
+                    \<table class="table table-striped">**
+                        \<thead class="thead-dark">**
+                            \<tr>**
+                                \<th>&nbsp;\</th>**
+                                \<th>2013\</th>**
+                                \<th>2014\</th>**
+                                \<th>2015\</th>**
+                            \</tr>**
+                        \</thead>**
+                        \<tbody>**
+                            \<tr>**
+                                \<th>Employees\</th>**
+                                \<td>15\</td>**
+                                \<td>30\</td>**
+                                \<td>40\</td>**
+                            \</tr>**
+                            \<tr>**
+                                \<th>Guests Served\</th>**
+                                \<td>15000\</td>**
+                                \<td>45000\</td>**
+                                \<td>100,000\</td>**
+                            \</tr>**
+                            \<tr>**
+                                \<th>Special Events\</th>**
+                                \<td>3\</td>**
+                                \<td>20\</td>**
+                                \<td>45\</td>**
+                            \</tr>**
+                            \<tr>**
+                                \<th>Annual Turnover\</th>**
+                                \<td>\$251,325\</td>**
+                                \<td>\$1,250,375\</td>**
+                                \<td>\~\$3,000,000\</td>**
+                            \</tr>**
+                        \</tbody>**
+                    \</table>**
+                \</div>**
 ```
 
 Note the use of *table-responsive* class to create a responsive table,
@@ -8775,51 +8714,40 @@ table.
     col-sm-6 to it and then adding the card:
 
 ```
-> **            \<div class=\"col-12 col-sm-6\"\>**
-> **                \<div class=\"card\"\>**
-> **                    \<h3 class=\"card-header bg-primary text-white\"\>Facts At a Glance\</h3\>**
-> **                    \<div class=\"card-body\"\>**
-> **                        \<dl class=\"row\"\>**
-> **                            \<dt class=\"col-6\"\>Started\</dt\>**
-> **                            \<dd class=\"col-6\"\>3 Feb. 2013\</dd\>**
-> **                            \<dt class=\"col-6\"\>Major Stake Holder\</dt\>**
-> **                            \<dd class=\"col-6\"\>HK Fine Foods Inc.\</dd\>**
-> **                            \<dt class=\"col-6\"\>Last Year\'s Turnover\</dt\>**
-> **                            \<dd class=\"col-6\"\>\$1,250,375\</dd\>**
-> **                            \<dt class=\"col-6\"\>Employees\</dt\>**
-> **                            \<dd class=\"col-6\"\>40\</dd\>**
-> **                        \</dl\>**
-> **                    \</div\>**
-> **                \</div\>**
-> **            \</div\>**
+            \<div class="col-12 col-sm-6">**
+                \<div class="card">**
+                    \<h3 class="card-header bg-primary text-white">Facts At a Glance\</h3>**
+                    \<div class="card-body">**
+                        \<dl class="row">**
+                            \<dt class="col-6">Started\</dt>**
+                            \<dd class="col-6">3 Feb. 2013\</dd>**
+                            \<dt class="col-6">Major Stake Holder\</dt>**
+                            \<dd class="col-6">HK Fine Foods Inc.\</dd>**
+                            \<dt class="col-6">Last Year\'s Turnover\</dt>**
+                            \<dd class="col-6">\$1,250,375\</dd>**
+                            \<dt class="col-6">Employees\</dt>**
+                            \<dd class="col-6">40\</dd>**
+                        \</dl>**
+                    \</div>**
+                \</div>**
+            \</div>**
 
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
 
 ```
-            \<div class=\"col-12\"\>
-
-                \<div class=\"card card-body bg-light\"\>
-
-                    \<blockquote class=\"blockquote\"\>
-
-                        \<p class=\"mb-0\"\>You better cut the pizza in four pieces because
-
-                            I\'m not hungry enough to eat six.\</p\>
-
-                        \<footer class=\"blockquote-footer\"\>Yogi Berra,
-
-                            \<cite title=\"Source Title\"\>The Wit and Wisdom of Yogi Berra,
-
-                            P. Pepe, Diversion Books, 2014\</cite\>
-
-                        \</footer\>
-
-                    \</blockquote\>
-
-                \</div\>
-
-            \</div\>
+            \<div class="col-12">
+                \<div class="card card-body bg-light">
+                    \<blockquote class="blockquote">
+                        \<p class="mb-0">You better cut the pizza in four pieces because
+                            I\'m not hungry enough to eat six.\</p>
+                        \<footer class="blockquote-footer">Yogi Berra,
+                            \<cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+                            P. Pepe, Diversion Books, 2014\</cite>
+                        \</footer>
+                    \</blockquote>
+                \</div>
+            \</div>
 ```
 
 Note the use of the *\<blockquote\>* tag to create a block quote in the
@@ -8827,7 +8755,7 @@ card. We can use a *\<footer\>* inside the block quote to specify the
 attribution of the quote to its origin.
 
 -   Remember to commit the changes to your Git repository with the
-    message \"Tables and Cards\"
+    message "Tables and Cards"
 
 ### Conclusions
 
@@ -8841,9 +8769,9 @@ content.
 ### PDFs of Presentations
 
 ```
-> **08-Bootstrap-Tables.pdf**
+08-Bootstrap-Tables.pdf**
 >
-> **08-Bootstrap-Cards.pdf**
+08-Bootstrap-Cards.pdf**
 ```
 
 ### Bootstrap Classes
@@ -8881,7 +8809,7 @@ Computer science professors are an exception.
 At this stage, you are probably expecting me to say this, but that\'s
 not what I\'m going to say.
 
-I\'m going to say that, \"A picture is worth \$12 on iStockPhoto.com.
+I\'m going to say that, "A picture is worth \$12 on iStockPhoto.com.
 
 Bootstrap provides extensive support for including images and various
 kinds of media in your websites and your web pages.
@@ -9184,9 +9112,9 @@ At the end of this exercise you will be able to:
     \<div\> column with the following code:
 
 ```
-> **     \<div class=\"col-12 col-sm align-self-center\"\>**
-> **          \<img src=\"[img/logo.png]{.underline}\" class=\"img-fluid\"\>**
-> **      \</div\>**
+     \<div class="col-12 col-sm align-self-center">**
+          \<img src="[img/logo.png]{.underline}" class="img-fluid">**
+      \</div>**
 ```
 
 You will immediately notice the restaurant logo being displayed in the
@@ -9194,10 +9122,10 @@ jumbotron.
 
 -   Next, we will add the logo to the navbar where we display the
     restaurant brand. Go to the navbar and replace the code there for
-    the \<a\> tag with the \"navbar-brand\"            
+    the \<a\> tag with the "navbar-brand"            
 
 ```
-**\<a class=\"navbar-brand mr-auto\" href=\"#\"\>\<img src=\"[img/logo.png]{.underline}\" height=\"30\" width=\"41\"\>\</a\>**
+**\<a class="navbar-brand mr-auto" href="#">\<img src="[img/logo.png]{.underline}" height="30" width="41">\</a>**
 **Note the inclusion of the logo in the navbar.**
 ```
 
@@ -9214,18 +9142,18 @@ jumbotron.
     code:
 
 ```
-> **                \<div class=\"media\"\>**
-> **                    \<img class=\"d-flex mr-3 img-thumbnail align-self-center\"**
-> **                            src=\"[img/uthappizza.png]{.underline}\" alt=\"Uthappizza\"\>**
-> **                    \<div class=\"media-body\"\>**
-> **                        \<h2 class=\"mt-0\"\>Uthappizza\</h2\>**
-> **                        \<p class=\"d-none d-sm-block\"\>A unique combination of Indian Uthappam (pancake) and**
-> **                            Italian pizza, topped with Cerignola olives, ripe vine**
-> **                            cherry tomatoes, Vidalia onion, Guntur chillies and**
-> **                            Buffalo Paneer.\</p\>**
-> **                    \</div\>**
-> **                \</div\>**
-> ** **
+                \<div class="media">**
+                    \<img class="d-flex mr-3 img-thumbnail align-self-center"**
+                            src="[img/uthappizza.png]{.underline}" alt="Uthappizza">**
+                    \<div class="media-body">**
+                        \<h2 class="mt-0">Uthappizza\</h2>**
+                        \<p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and**
+                            Italian pizza, topped with Cerignola olives, ripe vine**
+                            cherry tomatoes, Vidalia onion, Guntur chillies and**
+                            Buffalo Paneer.\</p>**
+                    \</div>**
+                \</div>**
+ **
 ```
 
 Note the use of the *media* class and the related Bootstrap classes to
@@ -9236,22 +9164,22 @@ style the content.
     following content:
 
 ```
-> **                \<div class=\"media\"\>**
-> **                    \<img class=\"d-flex mr-3 img-thumbnail align-self-center\"**
-> **                            src=\"[img/alberto.png]{.underline}\" alt=\"Alberto Somayya\"\>**
-> **                    \<div class=\"media-body\"\>**
-> **                        \<h2 class=\"mt-0\"\>Alberto Somayya\</h2\>**
-> **                        \<h4\>Executive Chef\</h4\>**
-> **                        \<p class=\"d-none d-sm-block\"\>Award winning three-star Michelin chef with wide**
-> **                            International experience having worked closely with**
-> **                            whos-who in the culinary world, he specializes in**
-> **                            creating mouthwatering Indo-Italian fusion experiences.**
-> **                            \</p\>**
-> **                    \</div\>**
-> **                \</div\>**
-> **                **
+                \<div class="media">**
+                    \<img class="d-flex mr-3 img-thumbnail align-self-center"**
+                            src="[img/alberto.png]{.underline}" alt="Alberto Somayya">**
+                    \<div class="media-body">**
+                        \<h2 class="mt-0">Alberto Somayya\</h2>**
+                        \<h4>Executive Chef\</h4>**
+                        \<p class="d-none d-sm-block">Award winning three-star Michelin chef with wide**
+                            International experience having worked closely with**
+                            whos-who in the culinary world, he specializes in**
+                            creating mouthwatering Indo-Italian fusion experiences.**
+                            \</p>**
+                    \</div>**
+                \</div>**
+                **
 
--   Finally, do a Git commit with a message \"Images and Media\".
+-   Finally, do a Git commit with a message "Images and Media".
 
 **Conclusions**
 
@@ -9270,7 +9198,7 @@ media object to style and display content.
 
 **Img.zip**
 
-(download this to conFusion, unzip it to create an \"img\" folder there)
+(download this to conFusion, unzip it to create an "img" folder there)
 
 ### Bootstrap Resources
 
@@ -9451,18 +9379,18 @@ alerting users. At the end of this exercise, you will be able to:
     *\<h2\>* containing the name of the dish:
 
 ```
-> **\<span class=\"badge badge-danger\"\>HOT\</span\>**
+<span class="badge badge-danger">HOT</span>
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
     tag in the web page. Add the following code to the *\<h2\>* tag:
 
 ```
-> **\<span class=\"badge badge-pill badge-secondary\"\>\$4.99\</span\>**
+<span class="badge badge-pill badge-secondary">$4.99</span>
 ```
 
 -   Remember to commit the changes to the Git repository with message
-    \"Alerting Users\".
+    "Alerting Users".
 
 ### Conclusions
 
@@ -9521,7 +9449,7 @@ And the second piece of information is date, and the third piece of
 information is time.
 
 The date and time are going to be supported by two input fields here and
-then we have a submit button here named \"reserve\" with the button
+then we have a submit button here named "reserve" with the button
 being in blue color.
 
 Remember all these different details here and this is in a card. Now,
@@ -9547,7 +9475,7 @@ other ones where the image appears on the left side.
 
 And it has to be centered vertically here.
 
-Also, note that you need to include a badge here with the word \"new.\"
+Also, note that you need to include a badge here with the word "new."
 
 And so we have seen this already in the exercise before so this should
 not be very difficult to achieve.
@@ -10291,24 +10219,24 @@ content. At the end of this exercise you will be able to:
     following code to set up the tabbed navigation:
 
 ```
-> **                \<ul class=\"nav nav-tabs\"\>**
-> **                    \<li class=\"nav-item\"\>**
-> **                      \<a class=\"nav-link active\" href=\"#peter\"**
-> **                        role=\"tab\" data-toggle=\"tab\"\>Peter Pan, CEO\</a\>**
-> **                    \</li\>**
-> **                    \<li class=\"nav-item\"\>**
-> **                      \<a class=\"nav-link\" href=\"#danny\" role=\"tab\"**
-> **                        data-toggle=\"tab\"\>Danny Witherspoon, CFO\</a\>**
-> **                    \</li\>**
-> **                    \<li class=\"nav-item\"\>**
-> **                      \<a class=\"nav-link\" href=\"#agumbe\"role=\"tab\"**
-> **                        data-toggle=\"tab\"\>Agumbe Tang, CTO\</a\>**
-> **                    \</li\>**
-> **                    \<li class=\"nav-item\"\>**
-> **                      \<a class=\"nav-link\" href=\"#alberto\" role=\"tab\"**
-> **                        data-toggle=\"tab\"\>Alberto Somayya, Exec. Chef\</a\>**
-> **                    \</li\>**
-> **                \</ul\>**
+                \<ul class="nav nav-tabs">**
+                    \<li class="nav-item">**
+                      \<a class="nav-link active" href="#peter"**
+                        role="tab" data-toggle="tab">Peter Pan, CEO\</a>**
+                    \</li>**
+                    \<li class="nav-item">**
+                      \<a class="nav-link" href="#danny" role="tab"**
+                        data-toggle="tab">Danny Witherspoon, CFO\</a>**
+                    \</li>**
+                    \<li class="nav-item">**
+                      \<a class="nav-link" href="#agumbe"role="tab"**
+                        data-toggle="tab">Agumbe Tang, CTO\</a>**
+                    \</li>**
+                    \<li class="nav-item">**
+                      \<a class="nav-link" href="#alberto" role="tab"**
+                        data-toggle="tab">Alberto Somayya, Exec. Chef\</a>**
+                    \</li>**
+                \</ul>**
 ```
 
 Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes
@@ -10329,21 +10257,19 @@ navigation that we just set up.
     specified below:
 
 ```
-> **                \<div class=\"tab-content\"\>**
-> ** **
-> **                    \...**
-> **    **
-> **                \</div\>**
+                \<div class="tab-content">**
+                    \...**
+                \</div>**
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-> **                    \<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"peter\"\>**
-> **                        \<h3\>Peter Pan \<small\>Chief Epicurious Officer\</small\>\</h3\>**
-> **                        \<p\> \... \</p\>**
-> **                    \</div\>**
+                    \<div role="tabpanel" class="tab-pane fade show active" id="peter">**
+                        \<h3>Peter Pan \<small>Chief Epicurious Officer\</small>\</h3>**
+                        \<p> \... \</p>**
+                    \</div>**
 ```
 
 Note the use of the *tab-pane, fade, show,* and *active* classes and
@@ -10362,19 +10288,19 @@ with *peter* as the id. This is the same id used as the *href* in the
     *mystyles.css* file as follows:
 
 ```
-> **.tab-content {**
-> **    border-left: 1px solid #ddd;**
-> **    border-right: 1px solid #ddd;**
-> **    border-bottom: 1px solid #ddd;**
-> **    padding: 10px;**
-> **}**
+.tab-content {**
+    border-left: 1px solid #ddd;**
+    border-right: 1px solid #ddd;**
+    border-bottom: 1px solid #ddd;**
+    padding: 10px;**
+}**
 ```
 
 This modification adds a 1px border to the tab content which joins with
 the upper border introduced by the tab navigation element to give a
 clean tab like appearance.
 
--   Finally do a Git commit with the message \"Tabs\".
+-   Finally do a Git commit with the message "Tabs".
 
 ### Conclusions
 
@@ -10573,14 +10499,14 @@ classes there to enclose this content.
 Now, going into the actual content here, I\'m going to start applying
 the card class here with the div there.
 
-We\'ll say, \"div class card\" and then close the div there and then
+We\'ll say, "div class card" and then close the div there and then
 this content goes into the div there.
 
 Now, in here, we are going to go in and create a div with the class
-\"card header.\" I\'m going to show you for one of them and then we are
+"card header." I\'m going to show you for one of them and then we are
 going to repeat this process for the remaining three also.
 
-We\'ll say, \"card header roll tab\" and then \"id peterhead.\" I\'m
+We\'ll say, "card header roll tab" and then "id peterhead." I\'m
 going to take this h3 from down below here, cut it out and then paste it
 into the card panel.
 
@@ -10593,8 +10519,8 @@ Now, to this h3, I\'m going to apply a class called mb-0.
 This is mb-0 here.
 
 Now, this name itself, I\'m going to enclose this inside and an a, so I
-will go to the next line and then say, \"a data toggle\" and the data
-toggle will say, \"collapse.\"
+will go to the next line and then say, "a data toggle" and the data
+toggle will say, "collapse."
 
 Now, you see that you\'re using the collapse plugin.
 
@@ -10617,7 +10543,7 @@ So this would be a collapse plugin which will be useful for our
 accordion and also I will remove this active class for this and the id
 will be left as peter for this.
 
-And then you\'ll say, \"data parent\" and you would specify accordion.
+And then you\'ll say, "data parent" and you would specify accordion.
 
 You see why we gave the id of accordion to the div that encloses all
 these content.
@@ -10714,9 +10640,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-> **                \<div id=\"accordion\"\>**
-> **                   . . .**
-> **                \</div\>**
+                \<div id="accordion">**
+                   . . .**
+                \</div>**
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10724,20 +10650,20 @@ in a web page. At the end of this exercise, you will be able to:
     Use the structure of the code as shown below:
 
 ```
-> **                    \<div class=\"card\"\>**
-> **                        \<div class=\"card-header\" role=\"tab\" id=\"peterhead\"\>**
-> **                        \<h3 class=\"mb-0\"\>**
-> **                            \<a data-toggle=\"collapse\" data-target=\"#peter\"\>**
-> **                            Peter Pan \<small\>Chief Epicurious Officer\</small\>**
-> **                            \</a\>**
-> **                        \</h3\>**
-> **                        \</div\>**
-> **                        \<div class=\"collapse show\" id=\"peter\" data-parent=\"#accordion\"\>**
-> **                            \<div class=\"card-body\"\>**
-> **                                \<p class=\"d-none d-sm-block\"\>. . .\</p\>**
-> **                            \</div\>**
-> **                        \</div\>**
-> **                    \</div\>**
+                    \<div class="card">**
+                        \<div class="card-header" role="tab" id="peterhead">**
+                        \<h3 class="mb-0">**
+                            \<a data-toggle="collapse" data-target="#peter">**
+                            Peter Pan \<small>Chief Epicurious Officer\</small>**
+                            \</a>**
+                        \</h3>**
+                        \</div>**
+                        \<div class="collapse show" id="peter" data-parent="#accordion">**
+                            \<div class="card-body">**
+                                \<p class="d-none d-sm-block">. . .\</p>**
+                            \</div>**
+                        \</div>**
+                    \</div>**
 ```
 
 -   For the remaining three leaders, use the same structure as above,
@@ -10745,52 +10671,52 @@ in a web page. At the end of this exercise, you will be able to:
     structure below:
 
 ```
-> **                    \<div class=\"card\"\>**
-> **                            \<div class=\"card-header\" role=\"tab\" id=\"dannyhead\"\>**
-> **                            \<h3 class=\"mb-0\"\>**
-> **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#danny\"\>**
-> **                                Dhanasekaran Witherspoon \<small\>Chief Food Officer\</small\>**
-> **                                \</a\>**
-> **                            \</h3\>**
-> **                        \</div\>**
-> **                        \<div class=\"collapse\" id=\"danny\" data-parent=\"#accordion\"\>**
-> **                            \<div class=\"card-body\"\>**
-> **                                \<p class=\"d-none d-sm-block\"\>. . .\</em\>\</p\>**
-> **                            \</div\>**
-> **                        \</div\>**
-> **                    \</div\>**
-> **                    \<div class=\"card\"\>**
-> **                            \<div class=\"card-header\" role=\"tab\" id=\"agumbehead\"\>**
-> **                            \<h3 class=\"mb-0\"\>**
-> **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#agumbe\"\>**
-> **                                Agumbe Tang \<small\>Chief Taste Officer\</small\>**
-> **                                \</a\>**
-> **                            \</h3\>**
-> **                        \</div\>**
-> **                        \<div class=\"collapse\" id=\"agumbe\" data-parent=\"#accordion\"\>**
-> **                            \<div class=\"card-body\"\>**
-> **                                \<p class=\"d-none d-sm-block\"\>. . .\</p\>**
-> **                            \</div\>**
-> **                        \</div\>**
-> **                    \</div\>**
-> **                    \<div class=\"card\"\>**
-> **                            \<div class=\"card-header\" role=\"tab\" id=\"albertohead\"\>**
-> **                            \<h3 class=\"mb-0\"\>**
-> **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#alberto\"\>**
-> **                                Alberto Somayya \<small\>Executive Chef\</small\>**
-> **                                \</a\>**
-> **                            \</h3\>**
-> **                        \</div\>**
-> **                        \<div class=\"collapse\" id=\"alberto\" data-parent=\"#accordion\"\>**
-> **                            \<div class=\"card-body\"\>**
-> **                                \<p class=\"d-none d-sm-block\"\>. . .\</em\>\</p\>**
-> **                            \</div\>**
+                    \<div class="card">**
+                            \<div class="card-header" role="tab" id="dannyhead">**
+                            \<h3 class="mb-0">**
+                                \<a class="collapsed" data-toggle="collapse" data-target="#danny">**
+                                Dhanasekaran Witherspoon \<small>Chief Food Officer\</small>**
+                                \</a>**
+                            \</h3>**
+                        \</div>**
+                        \<div class="collapse" id="danny" data-parent="#accordion">**
+                            \<div class="card-body">**
+                                \<p class="d-none d-sm-block">. . .\</em>\</p>**
+                            \</div>**
+                        \</div>**
+                    \</div>**
+                    \<div class="card">**
+                            \<div class="card-header" role="tab" id="agumbehead">**
+                            \<h3 class="mb-0">**
+                                \<a class="collapsed" data-toggle="collapse" data-target="#agumbe">**
+                                Agumbe Tang \<small>Chief Taste Officer\</small>**
+                                \</a>**
+                            \</h3>**
+                        \</div>**
+                        \<div class="collapse" id="agumbe" data-parent="#accordion">**
+                            \<div class="card-body">**
+                                \<p class="d-none d-sm-block">. . .\</p>**
+                            \</div>**
+                        \</div>**
+                    \</div>**
+                    \<div class="card">**
+                            \<div class="card-header" role="tab" id="albertohead">**
+                            \<h3 class="mb-0">**
+                                \<a class="collapsed" data-toggle="collapse" data-target="#alberto">**
+                                Alberto Somayya \<small>Executive Chef\</small>**
+                                \</a>**
+                            \</h3>**
+                        \</div>**
+                        \<div class="collapse" id="alberto" data-parent="#accordion">**
+                            \<div class="card-body">**
+                                \<p class="d-none d-sm-block">. . .\</em>\</p>**
+                            \</div>**
 ```
 
 -   After completing the update, check the behavior of the accordion on
     the web page.
 
--   Finally do a Git commit with the message \"Accordion\".
+-   Finally do a Git commit with the message "Accordion".
 
 ### Conclusions
 
@@ -10975,7 +10901,7 @@ the next line, I will give the attribute of title.
 
 This is where the contents of the tooltip will be enclosed.
 
-We will say \"or call us at\".
+We will say "or call us at".
 
 You can see that I am using HTML to format the contents of the tooltip
 there.
@@ -11046,7 +10972,7 @@ in the code for the modal there.
 To create a modal, I will start off by saying div ID login modal.
 
 We give an ID to this modal so that it can be triggered from the navbar
-link and then class as \"modal fade\".
+link and then class as "modal fade".
 
 So you see that the class is modal and fade means that when the modal is
 brought onto the screen, it\'ll fade onto the screen and the role is as
@@ -11247,29 +11173,29 @@ exercise, you will be able to:
 ### Adding a Tooltip
 
 -   Let us now switch to the *index.html* page. We will now add a
-    tooltip to this page. The tooltip will be added to the \"Reserve
-    Table\" button that is in the jumbotron. We will update the *\<a\>*
+    tooltip to this page. The tooltip will be added to the "Reserve
+    Table" button that is in the jumbotron. We will update the *\<a\>*
     tag for the button as follows:
 
-> **                    \<a role=\"button\" class=\"btn btn-block nav-link btn-warning\"**
->
-> **                        data-toggle=\"tooltip\" data-html=\"true\"  title=\"Or Call us at  \<br\>\<strong\>+852 12345678\</strong\>\"**
->
-> **                        data-placement=\"bottom\" href=\"[#reserveform]{.underline}\"\>Reserve Table\</a\>**
+```
+                    <a role="button" class="btn btn-block nav-link btn-warning"
+                        data-toggle="tooltip" data-html="true"  title="Or Call us at  \<br>\<strong>+852 12345678\</strong>"
+                        data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
+```
 
 As you can see from the code, we add a *data-toggle*, *data-placement*
-and a *title* attribute to the \<a\> tag in order to introduce a
+and a *title* attribute to the <a\> tag in order to introduce a
 tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code
     to the bottom of the page as follows:
 
 ```
-> **    \<script\>**
-> **        \$(document).ready(function(){**
-> **            \$(\'\[data-toggle=\"tooltip\"\]\').tooltip();**
-> **        });**
-> **    \</script\>**
+    <script>
+        $(document).ready(function(){
+            \$(\'\[data-toggle="tooltip"\]\').tooltip();
+        });
+    </script>
 ```
 
 This script is added right after the line that imports the
@@ -11282,42 +11208,42 @@ bootstrap.min.js file.
     of the page.
 
 ```
-> **    \<div id=\"loginModal\" class=\"modal fade\" role=\"dialog\"\>**
-> **        \<div class=\"modal-dialog modal-lg\" role=\"content\"\>**
-> **            \<!\-- Modal content\--\>**
-> **            \<div class=\"modal-content\"\>**
-> **                \<div class=\"modal-header\"\>**
-> **                    \<h4 class=\"modal-title\"\>Login \</h4\>**
-> **                    \<button type=\"button\" class=\"close\" data-dismiss=\"modal\"\>&times;\</button\>**
-> **                \</div\>**
-> **                \<div class=\"modal-body\"\>**
-> **                    \<form\>**
-> **                        \<div class=\"form-row\"\>**
-> **                            \<div class=\"form-group col-sm-4\"\>**
-> **                                    \<label class=\"sr-only\" for=\"exampleInputEmail3\"\>Email address\</label\>**
-> **                                    \<input type=\"email\" class=\"form-control form-control-sm mr-1\" id=\"exampleInputEmail3\" placeholder=\"Enter email\"\>**
-> **                            \</div\>**
-> **                            \<div class=\"form-group col-sm-4\"\>**
-> **                                \<label class=\"sr-only\" for=\"exampleInputPassword3\"\>Password\</label\>**
-> **                                \<input type=\"password\" class=\"form-control form-control-sm mr-1\" id=\"exampleInputPassword3\" placeholder=\"Password\"\>**
-> **                            \</div\>**
-> **                            \<div class=\"col-sm-auto\"\>**
-> **                                \<div class=\"form-check\"\>**
-> **                                    \<input class=\"form-check-input\" type=\"checkbox\"\>**
-> **                                    \<label class=\"form-check-label\"\> Remember me**
-> **                                    \</label\>**
-> **                                \</div\>**
-> **                            \</div\>**
-> **                        \</div\>**
-> **                        \<div class=\"form-row\"\>**
-> **                            \<button type=\"button\" class=\"btn btn-secondary btn-sm ml-auto\" data-dismiss=\"modal\"\>Cancel\</button\>**
-> **                            \<button type=\"submit\" class=\"btn btn-primary btn-sm ml-1\"\>Sign in\</button\>        **
-> **                        \</div\>**
-> **                    \</form\>**
-> **                \</div\>**
-> **            \</div\>**
-> **        \</div\>**
-> **    \</div\>**
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!\-- Modal content\-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 ```
 
 -   Next we introduce another link on the right side of the navbar in
@@ -11325,18 +11251,18 @@ bootstrap.min.js file.
     following code in the navbar after the \</ul\>:
 
 ```
-> **                \<span class=\"navbar-text\"\>**
-> **                    \<a data-toggle=\"modal\" data-target=\"#loginModal\"\>**
-> **                    \<span class=\"fa fa-sign-in\"\>\</span\> Login\</a\>**
-> **                \</span\>**
+                <span class="navbar-text"\>**
+                    <a data-toggle="modal" data-target="#loginModal"\>**
+                    <span class="fa fa-sign-in"\></span\> Login</a\>**
+                </span\>**
 ```
 
 We are introducing another link to the right of the navbar using the
 *navbar-text*. This contains a link with an *\<a\>* tag with the
-*data-toggle=\"modal\"* and *data-target=\"#loginModal\"* attributes.
+*data-toggle="modal"* and *data-target="#loginModal"* attributes.
 
--   Save all the changes and do a Git commit with the message \"Tooltip
-    and Modal\".
+-   Save all the changes and do a Git commit with the message "Tooltip
+    and Modal".
 
 ### Conclusions
 
@@ -11641,15 +11567,15 @@ able to:
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
 
-**       \<div class=\"row row-content\"\>**
+**       <div class="row row-content"\>**
 
-**           \<div class=\"col\"\>**
+**           <div class="col"\>**
 
 ** **
 
-**            \</div\>**
+**            </div\>**
 
-**       \</div\>**
+**       </div\>**
 
 ** **
 
@@ -11661,9 +11587,9 @@ able to:
     just added as follows:
 
 ```
-> **            \<div id=\"mycarousel\" class=\"carousel slide\" data-ride=\"carousel\"\>**
-> ** **
-> **            \</div\>**
+            <div id="mycarousel" class="carousel slide" data-ride="carousel"\>**
+ **
+            </div\>**
 ```
 
 ### Adding Carousel Content
@@ -11671,22 +11597,22 @@ able to:
 -   Next add the content inside the carousel as follows:
 
 ```
-> **                    \<div class=\"carousel-inner\" role=\"listbox\"\>**
-> **                        \<div class=\"carousel-item active\"\>**
-> **                            \<img class=\"d-block img-fluid\"**
-> **                                src=\"[img/uthappizza.png]{.underline}\" alt=\"Uthappizza\"\>**
-> **                            \<div class=\"carousel-caption d-none d-md-block\"\>**
-> **                                \<h2\>Uthappizza \<span class=\"badge badge-danger\"\>HOT\</span\> \<span class=\"badge badge-pill badge-default\"\>\$4.99\</span\>\</h2\>**
-> **                                . . .**
-> **                            \</div\>**
-> **                        \</div\>**
-> **                        \<div class=\"carousel-item\"\>**
-> **                                . . .**
-> **                        \</div\>**
-> **                        \<div class=\"carousel-item\"\>**
-> **                                . . .**
-> **                        \</div\>**
-> **                    \</div\>**
+                    <div class="carousel-inner" role="listbox"\>**
+                        <div class="carousel-item active"\>**
+                            <img class="d-block img-fluid"**
+                                src="[img/uthappizza.png]{.underline}" alt="Uthappizza"\>**
+                            <div class="carousel-caption d-none d-md-block"\>**
+                                <h2\>Uthappizza <span class="badge badge-danger"\>HOT</span\> <span class="badge badge-pill badge-default"\>\$4.99</span\></h2\>**
+                                . . .**
+                            </div\>**
+                        </div\>**
+                        <div class="carousel-item"\>**
+                                . . .**
+                        </div\>**
+                        <div class="carousel-item"\>**
+                                . . .**
+                        </div\>**
+                    </div\>**
 ```
 
 Note that the first item has been set up partially. Fill in the
@@ -11697,20 +11623,20 @@ remaining parts from the content rows below.
 -   Add the following CSS classes to the *styles.css* file:
 
 ```
-> **.carousel {**
-> **    background:#512DA8;**
-> **}**
-> ** **
-> **.carousel-item {**
-> **  height: 300px;**
-> **}**
-> ** **
-> **.carousel-item img {**
-> **    position: absolute;**
-> **    top: 0;**
-> **    left: 0;**
-> **    min-height: 300px;**
-> **}**
+.carousel {**
+    background:#512DA8;**
+}**
+ **
+.carousel-item {**
+  height: 300px;**
+}**
+ **
+.carousel-item img {**
+    position: absolute;**
+    top: 0;**
+    left: 0;**
+    min-height: 300px;**
+}**
 ```
 
 ### Adding Carousel Controls
@@ -11721,11 +11647,11 @@ remaining parts from the content rows below.
     indicators that enable us to select a specific slide:
 
 ```
-> **                    \<ol class=\"carousel-indicators\"\>**
-> **                        \<li data-target=\"#mycarousel\" data-slide-to=\"0\" class=\"active\"\>\</li\>**
-> **                        \<li data-target=\"#mycarousel\" data-slide-to=\"1\"\>\</li\>**
-> **                        \<li data-target=\"#mycarousel\" data-slide-to=\"2\"\>\</li\>**
-> **                    \</ol\>**
+                    <ol class="carousel-indicators"\>**
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"\></li\>**
+                        <li data-target="#mycarousel" data-slide-to="1"\></li\>**
+                        <li data-target="#mycarousel" data-slide-to="2"\></li\>**
+                    </ol\>**
 ```
 
 -   Then, add the left and right controls to the carousel that enable us
@@ -11733,15 +11659,15 @@ remaining parts from the content rows below.
     bottom of the carousel div:
 
 ```
-> **                    \<a class=\"carousel-control-prev\" href=\"[#mycarousel]{.underline}\" role=\"button\" data-slide=\"prev\"\>**
-> **                        \<span class=\"carousel-control-prev-icon\"\>\</span\>**
-> **                    \</a\>**
-> **                    \<a class=\"carousel-control-next\" href=\"[#mycarousel]{.underline}\" role=\"button\" data-slide=\"next\"\>**
-> **                        \<span class=\"carousel-control-next-icon\"\>\</span\>**
-> **                    \</a\>**
+                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"\>**
+                        <span class="carousel-control-prev-icon"\></span\>**
+                    </a\>**
+                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"\>**
+                        <span class="carousel-control-next-icon"\></span\>**
+                    </a\>**
 ```
 
--   Do a Git commit with the message \"Carousel\".
+-   Do a Git commit with the message "Carousel".
 
 ### Conclusions
 
@@ -12043,7 +11969,7 @@ Now that you select an HTML element, what kind of an action you want to
 be performed on that element, so that is the third part that you will
 see.
 
-As an example you can specify a jQuery statement like \$(\"p\") within
+As an example you can specify a jQuery statement like \$("p") within
 codes, and then .hide.
 
 In this case what it implies is that, select all those HTML elements
@@ -12126,10 +12052,10 @@ height="2.0592946194225723in"}
 ------------->
 
 The function that we saw being used for the tooltip specified it as \$,
-and then within brackets, it said, data-toggle=\" tooltip\".
+and then within brackets, it said, data-toggle=" tooltip".
 
 Now here we are specifying that select those elements for which there is
-an attribute with data-toggle=\"tooltip\".
+an attribute with data-toggle="tooltip".
 
 And then for those elements that match this criteria,perform this action
 called enable tooltips for those elements.
@@ -12225,7 +12151,7 @@ You can see within square brackets href, and include it in the quotation
 so which means that all those HTML elements for which href attribute has
 been applied.
 
-Similarly, you can say data-toggle=\"tooltip\", which essentially saves
+Similarly, you can say data-toggle="tooltip", which essentially saves
 all those elements for which the data-toggle tooltip attribute has been
 applied.
 
@@ -12312,9 +12238,9 @@ JavaScript code can be written to control the carousel actions.
 For a carousel, you saw already from the previous module, index size. We
 used all these attributes.
 
-We used the attribute data-slide=\"prev\|next\", or we said
+We used the attribute data-slide="prev\|next", or we said
 data-slide-to and then specified the specific slide number, where it
-says data-ride+\"carousel\".
+says data-ride+"carousel".
 
 And then we\'ve specified data interval, the interval for the sliding
 action to take place.
@@ -12423,7 +12349,7 @@ height="2.8555555555555556in"}
 ---------->
 
 Within your code you can specify something like
-\$(\"#myCarousel\").on(\'slide.bs.carousel\'.
+\$("#myCarousel").on(\'slide.bs.carousel\'.
 
 Meaning that when that slide action starts, then invoke this function,
 and then do something inside that function there.
@@ -13038,11 +12964,9 @@ to:
     the button to toggle the carousel cycling behavior:
 
 ```
-> **                    \<button class=\"btn btn-danger btn-sm\" id=\"carouselButton\"\>**
->
-> **                        \<span id=\"carousel-button-icon\" class=\"fa fa-pause\"\>\</span\>**
->
-> **                    \</button\>**
+                    <button class="btn btn-danger btn-sm" id="carouselButton"\>**
+                        <span id="carousel-button-icon" class="fa fa-pause"\></span\>**
+                    </button\>**
 ```
 
 We are adding a single button inside a button group with the ID
@@ -13055,28 +12979,21 @@ based on the current behavior of the carousel.
     carousel and also show the appropriate button:
 
 ```
-> **            \$(\"#carouselButton\").click(function(){**
->
-> **                if (\$(\"#carouselButton\").children(\"span\").hasClass(\'fa-pause\')) {**
->
-> **                    \$(\"#mycarousel\").carousel(\'pause\');**
->
-> **                    \$(\"#carouselButton\").children(\"span\").removeClass(\'fa-pause\');**
->
-> **                    \$(\"#carouselButton\").children(\"span\").addClass(\'fa-play\');**
->
-> **                }**
->
-> **                else if (\$(\"#carouselButton\").children(\"span\").hasClass(\'fa-play\')){**
->
-> **                    \$(\"#mycarousel\").carousel(\'cycle\');**
-> **                    \$(\"#carouselButton\").children(\"span\").removeClass(\'fa-play\');**
-> **                    \$(\"#carouselButton\").children(\"span\").addClass(\'fa-pause\');                    **
-> **                }**
-> **            });**
+            \$("#carouselButton").click(function(){**
+                if (\$("#carouselButton").children("span").hasClass(\'fa-pause\')) {**
+                    \$("#mycarousel").carousel(\'pause\');**
+                    \$("#carouselButton").children("span").removeClass(\'fa-pause\');**
+                    \$("#carouselButton").children("span").addClass(\'fa-play\');**
+                }**
+                else if (\$("#carouselButton").children("span").hasClass(\'fa-play\')){**
+                    \$("#mycarousel").carousel(\'cycle\');**
+                    \$("#carouselButton").children("span").removeClass(\'fa-play\');**
+                    \$("#carouselButton").children("span").addClass(\'fa-pause\');                    **
+                }**
+            });**
 ```
 
--   Do a Git commit with the message \"More Bootstrap JQuery\".
+-   Do a Git commit with the message "More Bootstrap JQuery".
 
 ### Conclusions
 
@@ -13459,14 +13376,14 @@ of this exercise you will be able to:
 -   Add the following Less variables into the file:
 
 ```
-> **\@lt-gray: #ddd;**
-> **\@background-dark: #512DA8;**
-> **\@background-light: #9575CD;**
-> **\@background-pale: #D1C4E9;**
-> ** **
-> **// Height variables**
-> **\@carousel-item-height: 300px;**
-> ** **
+\@lt-gray: #ddd;**
+\@background-dark: #512DA8;**
+\@background-light: #9575CD;**
+\@background-pale: #D1C4E9;**
+ **
+// Height variables**
+\@carousel-item-height: 300px;**
+ **
 ```
 
 We have just added a few color and a height variable. We will make use
@@ -13477,11 +13394,11 @@ of these variables while defining the classes.
 -   Next we add a mixin into the file as follows:
 
 ```
-> **.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {**
-> **    margin:0px auto;**
-> **    padding: @pad-up-dn @pad-left-right;**
-> **}**
-> ** **
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {**
+    margin:0px auto;**
+    padding: @pad-up-dn @pad-left-right;**
+}**
+ **
 ```
 
 We will make use of this to define several row classes next.
@@ -13490,46 +13407,46 @@ We will make use of this to define several row classes next.
     following row classes to the file:
 
 ```
-> **address{**
-> **    font-size:80%;**
-> **    margin:0px;**
-> **    color:#0f0f0f;**
-> **}**
-> ** **
-> **body{**
-> **    padding:50px 0px 0px 0px;**
-> **    z-index:0;**
-> **}**
-> ** **
-> **.navbar-dark {**
-> **     background-color: @background-dark;**
-> **}**
-> ** **
-> **.tab-content {**
-> **    border-left: 1px solid @lt-gray;**
-> **    border-right: 1px solid @lt-gray;**
-> **    border-bottom: 1px solid @lt-gray;**
-> **    color:floralwhite;**
-> **}**
-> ** **
-> **.jumbotron {**
-> **    .zero-margin(70px,30px);**
-> **    background: @background-light ;**
-> **}**
-> ** **
-> **.footer{**
-> **    background-color: @background-pale;**
-> **    .zero-margin(20px, 0px);**
-> **    min-height:400px;**
-> **}**
-> ** **
-> **    .zero-margin(50px,0px);**
-> **    border-bottom: 1px ridge;**
-> **}**
-> ** **
-> **.row-content {**
-> **.row-header{**
-> **    .zero-margin();**
+address{**
+    font-size:80%;**
+    margin:0px;**
+    color:#0f0f0f;**
+}**
+ **
+body{**
+    padding:50px 0px 0px 0px;**
+    z-index:0;**
+}**
+ **
+.navbar-dark {**
+     background-color: @background-dark;**
+}**
+ **
+.tab-content {**
+    border-left: 1px solid @lt-gray;**
+    border-right: 1px solid @lt-gray;**
+    border-bottom: 1px solid @lt-gray;**
+    color:floralwhite;**
+}**
+ **
+.jumbotron {**
+    .zero-margin(70px,30px);**
+    background: @background-light ;**
+}**
+ **
+.footer{**
+    background-color: @background-pale;**
+    .zero-margin(20px, 0px);**
+    min-height:400px;**
+}**
+ **
+    .zero-margin(50px,0px);**
+    border-bottom: 1px ridge;**
+}**
+ **
+.row-content {**
+.row-header{**
+    .zero-margin();**
 ```
 
 Note the use of the variables and the mixin with various parameters in
@@ -13541,26 +13458,26 @@ defining the classes.
     classes in Less, as follows:
 
 ```
-> **.carousel {**
-> **    background:@background-dark;**
-> ** **
-> **    .carousel-item {**
-> **        height: @carousel-item-height;**
-> **        img {**
-> **            position: absolute;**
-> **            top: 0;**
-> **            left: 0;**
-> **            min-height: 300px;**
-> **        }**
-> **    }**
-> **}**
-> ** **
-> **#carouselButton {**
-> **    right:0px;**
-> **    position: absolute;**
-> **    bottom: 0px;**
-> **    z-index: 1;**
-> **}**
+.carousel {**
+    background:@background-dark;**
+ **
+    .carousel-item {**
+        height: @carousel-item-height;**
+        img {**
+            position: absolute;**
+            top: 0;**
+            left: 0;**
+            min-height: 300px;**
+        }**
+    }**
+}**
+ **
+#carouselButton {**
+    right:0px;**
+    position: absolute;**
+    bottom: 0px;**
+    z-index: 1;**
+}**
 ```
 
 ### Installing and using the lessc Compiler
@@ -13569,13 +13486,13 @@ defining the classes.
     Less file. To do this, type the following at the command prompt:
 
 ```
-> **     npm install -g less@2.7.2**
-> ** **
+     npm install -g less@2.7.2**
+ **
 ```
 
 This will install the *less* NPM module globally so that it can be used
 by any project. **Note: if you are executing this on a Mac or Linux
-machine, you may need to add \"sudo\" to the beginning of this
+machine, you may need to add "sudo" to the beginning of this
 command**. This will make available the *lessc* compiler for us so that
 we can compile Less files.
 
@@ -13588,11 +13505,11 @@ we can compile Less files.
     file into a CSS file:
 
 ```
-> **     lessc styles.less styles.css**
-> ** **
+     lessc styles.less styles.css**
+ **
 ```
 
--   You can now do a Git commit with the message \"Less\".
+-   You can now do a Git commit with the message "Less".
 
 ### Conclusions
 
@@ -13708,11 +13625,11 @@ is designed using the Sass preprocessor.
 
 If you look at how this is converted from Sass and how you can do your
 own customization using the Bootstrap Sass code you can go into the
-documentation, and then you would see under \"Options\" you will have
+documentation, and then you would see under "Options" you will have
 some customization options being defined here.
 
 Various customization options you can see that these variables are all
-defined using the Sass syntax here, and also under \"Build tools\",
+defined using the Sass syntax here, and also under "Build tools",
 it\'ll explain to you how you can do your own customization of
 Bootstrap.
 
@@ -13745,14 +13662,14 @@ of this exercise you will be able to:
 -   Add the following Scss variables into the file:
 
 ```
-> **\$lt-gray: #ddd;**
-> **\$background-dark: #512DA8;**
-> **\$background-light: #9575CD;**
-> **\$background-pale: #D1C4E9;**
-> ** **
-> **// Height variables**
-> **\$carousel-item-height: 300px;**
-> ** **
+\$lt-gray: #ddd;**
+\$background-dark: #512DA8;**
+\$background-light: #9575CD;**
+\$background-pale: #D1C4E9;**
+ **
+// Height variables**
+\$carousel-item-height: 300px;**
+ **
 ```
 
 We have just added a few color and a height variable. We will make use
@@ -13763,11 +13680,11 @@ of these variables while defining the classes.
 -   Next we add a mixin into the file as follows:
 
 ```
-> **\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
-> **    margin:0px auto;**
-> **    padding: \$pad-up-dn \$pad-left-right;**
-> **}**
-> ** **
+\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
+    margin:0px auto;**
+    padding: \$pad-up-dn \$pad-left-right;**
+}**
+ **
 ```
 
 We will make use of this to define several row classes next.
@@ -13776,47 +13693,47 @@ We will make use of this to define several row classes next.
     following row classes to the file:
 
 ```
-> **.row-header{**
-> **    @include zero-margin(0px,0px);**
-> **}**
-> ** **
-> **.row-content {**
-> **    @include zero-margin(50px,0px);**
-> **    border-bottom: 1px ridge;**
-> **    min-height:400px;**
-> **}**
-> ** **
-> **.footer{**
-> **    background-color: \$background-pale;**
-> **    @include zero-margin(20px, 0px);**
-> **}**
-> ** **
-> **.jumbotron {**
-> **    @include zero-margin(70px,30px);**
-> **    background: \$background-light ;**
-> **    color:floralwhite;**
-> **}**
-> ** **
-> **address{**
-> **    font-size:80%;**
-> **    margin:0px;**
-> **    color:#0f0f0f;**
-> **}**
-> ** **
-> **body{**
-> **    padding:50px 0px 0px 0px;**
-> **    z-index:0;**
-> **}**
-> ** **
-> **.navbar-dark {**
-> **     background-color: \$background-dark;**
+.row-header{**
+    @include zero-margin(0px,0px);**
+}**
+ **
+.row-content {**
+    @include zero-margin(50px,0px);**
+    border-bottom: 1px ridge;**
+    min-height:400px;**
+}**
+ **
+.footer{**
+    background-color: \$background-pale;**
+    @include zero-margin(20px, 0px);**
+}**
+ **
+.jumbotron {**
+    @include zero-margin(70px,30px);**
+    background: \$background-light ;**
+    color:floralwhite;**
+}**
+ **
+address{**
+    font-size:80%;**
+    margin:0px;**
+    color:#0f0f0f;**
+}**
+ **
+body{**
+    padding:50px 0px 0px 0px;**
+    z-index:0;**
+}**
+ **
+.navbar-dark {**
+     background-color: \$background-dark;**
 >
-> **}**
-> ** **
-> **.tab-content {**
-> **    border-left: 1px solid \$lt-gray;**
-> **    border-right: 1px solid \$lt-gray;**
-> **    border-bottom: 1px solid \$lt-gray;**
+}**
+ **
+.tab-content {**
+    border-left: 1px solid \$lt-gray;**
+    border-right: 1px solid \$lt-gray;**
+    border-bottom: 1px solid \$lt-gray;**
 ```
 
 Note the use of the variables and the mixin with various parameters in
@@ -13828,26 +13745,26 @@ defining the classes.
     classes in Scss, as follows:
 
 ```
-> **.carousel {**
-> **    background:\$background-dark;**
-> ** **
-> **    .carousel-item {**
-> **        height: \$carousel-item-height;**
-> **        img {**
-> **            position: absolute;**
-> **            top: 0;**
-> **            left: 0;**
-> **            min-height: 300px;**
-> **        }**
-> **    }**
-> **}**
-> ** **
-> **#carouselButton {**
-> **    right:0px;**
-> **    position: absolute;**
-> **    bottom: 0px;**
-> **    z-index: 1;**
-> **}**
+.carousel {**
+    background:\$background-dark;**
+ **
+    .carousel-item {**
+        height: \$carousel-item-height;**
+        img {**
+            position: absolute;**
+            top: 0;**
+            left: 0;**
+            min-height: 300px;**
+        }**
+    }**
+}**
+ **
+#carouselButton {**
+    right:0px;**
+    position: absolute;**
+    bottom: 0px;**
+    z-index: 1;**
+}**
 ```
 
 ### Installing and using the node-sass module
@@ -13857,8 +13774,8 @@ defining the classes.
     command prompt:
 
 ```
-> **     npm install \--save-dev node-sass@4.7.2**
-> ** **
+     npm install \--save-dev node-sass@4.7.2**
+ **
 ```
 
 This will install the *node-sass* NPM module into your project and also
@@ -13869,7 +13786,7 @@ add it as a development dependency in your package.json file.
     of the Scss file into a CSS file:
 
 ```
-**    \"scss\": \"node-sass -o css/ css/\"**
+**    "scss": "node-sass -o css/ css/"**
 ```
 
 -   In order to transform the Scss file to a CSS file, type the
@@ -13879,7 +13796,7 @@ add it as a development dependency in your package.json file.
 **     npm run scss**
 ```
 
--   You can now do a Git commit with the message \"Sass\".
+-   You can now do a Git commit with the message "Sass".
 
 ### Conclusions
 
@@ -14305,7 +14222,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-**    \<script src=\"[js/scripts.js]{.underline}\"\>\</script\>**
+**    <script src="[js/scripts.js]{.underline}"\></script\>**
 ```
 
 -   Add the same line to the scripts block in *aboutus.html* and
@@ -14324,23 +14241,23 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     are doing the exercise on a MacOS computer or a Linux computer:
 
 ```
-> **    \"watch:scss\": \"onchange \'css/\*.scss\' \-- npm run scss\",**
-> **    \"watch:all\": \"parallelshell \'npm run watch:scss\' \'npm run lite\'\"**
+    "watch:scss": "onchange \'css/\*.scss\' \-- npm run scss",**
+    "watch:all": "parallelshell \'npm run watch:scss\' \'npm run lite\'"**
 ```
 
 -   **NOTE:** If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
 ```
-> **    \"watch:scss\": \"onchange \\\"css/\*.scss\\\" \-- npm run scss\",**
+    "watch:scss": "onchange \"css/\*.scss\" \-- npm run scss",**
 >
-> **    \"watch:all\": \"parallelshell \\\"npm run watch:scss\\\" \\\"npm run lite\\\"\"**
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""**
 ```
 
 -   You will also update the start script as follows:
 
 ```
-**    \"start\": \"npm run watch:all\",**
+**    "start": "npm run watch:all",**
 ```
 
 -   Then, type the following at the prompt to start watching for changes
@@ -14353,7 +14270,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 -   Now, whenever you make any changes to *styles.scss* file, it will
     automatically be compiled to the corresponding css file.
 
--   Do a Git Commit with the message \"NPM Scripts Part 1\".
+-   Do a Git Commit with the message "NPM Scripts Part 1".
 
 ### Conclusions
 
@@ -14888,7 +14805,7 @@ At the end of this exercise, you will be able to:
 -   Then, set up the following script:
 
 ```
-**    \"clean\": \"rimraf dist\",**
+**    "clean": "rimraf dist",**
 ```
 
 ### Copying Fonts
@@ -14906,7 +14823,7 @@ Remember to use *sudo* on mac and Linux.
 -   Then set up the following script:
 
 ```
-**    \"copyfonts\": \"copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts\",**
+**    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",**
 ```
 
 Compressing and Minifying Images
@@ -14930,7 +14847,7 @@ issues with global permissions on Mac. In that case try
 -   Then set up the following script:
 
 ```
-**    \"imagemin\": \"imagemin img/\* \--out-dir=\'dist/img\'\",**
+**    "imagemin": "imagemin img/\* \--out-dir=\'dist/img\'",**
 ```
 
 ### Preparing the Distribution Folder
@@ -14939,35 +14856,35 @@ issues with global permissions on Mac. In that case try
     folder to be checked into the git repository.
 
 ```
-> **node_modules**
-> **dist**
+node_modules**
+dist**
 ```
 
 -   Then, install the *usemin-cli, cssmin, uglifyjs* and *htmlmin* NPM
     packages as follows:
 
 ```
-> **npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
+npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
 ```
 
 -   Add the following two scripts to the package.json file:
 
 ```
-> **    \"usemin\": \"usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html\",**
-> **    \"build\": \"npm run clean && npm run imagemin && npm run copyfonts && npm run usemin\"**
-> ** **
+    "usemin": "usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html",**
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"**
+ **
 ```
 
 -   Open *index.html* and surround the css links inclusion code as
     follows:
 
 ```
-> **    \<!\-- build:css css/main.css \--\>**
-> **    \<link rel=\"stylesheet\" href=\"[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}\"\>**
-> **    \<link rel=\"stylesheet\" href=\"[node_modules/font-awesome/css/font-awesome.min.css]{.underline}\"\>**
-> **    \<link rel=\"stylesheet\" href=\"[node_modules/bootstrap-social/bootstrap-social.css]{.underline}\"\>**
-> **    \<link href=\"[css/styles.css]{.underline}\" rel=\"stylesheet\"\>**
-> **    \<!\-- endbuild \--\>**
+    <!\-- build:css css/main.css \--\>**
+    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"\>**
+    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"\>**
+    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"\>**
+    <link href="[css/styles.css]{.underline}" rel="stylesheet"\>**
+    <!\-- endbuild \--\>**
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -14976,12 +14893,12 @@ issues with global permissions on Mac. In that case try
     code as follows:
 
 ```
-> **    \<!\-- build:js js/main.js \--\>**
-> **    \<script src=\"[node_modules/jquery/dist/jquery.slim.min.js]{.underline}\"\>\</script\>**
-> **    \<script src=\"[node_modules/popper.js/dist/umd/popper.min.js]{.underline}\"\>\</script\>**
-> **    \<script src=\"[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}\"\>\</script\>**
-> **    \<script src=\"[js/scripts.js]{.underline}\"\>\</script\>**
-> **    \<!\-- endbuild \--\>**
+    <!\-- build:js js/main.js \--\>**
+    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"\></script\>**
+    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"\></script\>**
+    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"\></script\>**
+    <script src="[js/scripts.js]{.underline}"\></script\>**
+    <!\-- endbuild \--\>**
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -14998,7 +14915,7 @@ issues with global permissions on Mac. In that case try
     contents of this folder to a web server that hosts your website.
 
 -   After verifying that the dist folder is built correctly, you can now
-    do a git commit with the message \"NPM Scripts Part 2\"
+    do a git commit with the message "NPM Scripts Part 2"
 
 ### Conclusions
 
@@ -15010,8 +14927,8 @@ deployment using NPM scripts.
 ### PDFs of Presentations
 
 ```
-> **10-Building-Deployment.pdf**
-> **10-NPM-Scripts.pdf**
+10-Building-Deployment.pdf**
+10-NPM-Scripts.pdf**
 ```
 
 ### Additional Resources
@@ -15295,11 +15212,11 @@ With this, we complete the configuraton of the SASS task here.
 
 Once we complete configuring the SASS task, if you really wish to
 execute the SASS task, then down below you would configure the SASS task
-by saying \"grunt.registerTask\", and then I will call this task CSS,
-and then I will, in scribe brackets, say \"SASS.\"
+by saying "grunt.registerTask", and then I will call this task CSS,
+and then I will, in scribe brackets, say "SASS."
 
 Now, to understand the syntax here, this as you can see it says
-\"grunt.registerTask\" and this task\'s name is CSS.
+"grunt.registerTask" and this task\'s name is CSS.
 
 And what does this task involve? This task involves executing the SASS
 task which has already been configured here.
@@ -15315,10 +15232,10 @@ With this, let\'s save the changes.
 Let me show you this particular task in action.
 
 If you configure the task with the name CSS there, then add the prompt,
-you can type \"grunt.CSS\" and then it will execute the task of
+you can type "grunt.CSS" and then it will execute the task of
 converting the sass code to CSS code.
 
-Going to your command prompt, at the prompt, type in \"grunt.CSS\" and
+Going to your command prompt, at the prompt, type in "grunt.CSS" and
 you\'ll see the SASS task executing and then converting styles.sess file
 to styles.CSS file.
 
@@ -15541,21 +15458,21 @@ This will install local per-project Grunt to use within your project.
     configure Grunt tasks:
 
 ```
-> **\'use strict\';**
+\'use strict\';**
 >
-> ** **
+ **
 >
-> **module.exports = function (grunt) {**
+module.exports = function (grunt) {**
 >
-> **  // Define the configuration for all the tasks**
+  // Define the configuration for all the tasks**
 >
-> **  grunt.initConfig({**
+  grunt.initConfig({**
 >
-> ** **
+ **
 >
-> **  });**
+  });**
 >
-> **};**
+};**
 ```
 
 This sets up the Grunt module ready for including the grunt tasks inside
@@ -15569,11 +15486,11 @@ the function above.
     modules by typing the following at the prompt:
 
 ```
-> **npm install grunt-sass@2.1.0 \--save-dev**
+npm install grunt-sass@2.1.0 \--save-dev**
 >
-> **npm install time-grunt@1.4.0 \--save-dev**
+npm install time-grunt@1.4.0 \--save-dev**
 >
-> **npm install jit-grunt@0.10.0 \--save-dev**
+npm install jit-grunt@0.10.0 \--save-dev**
 ```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The
@@ -15585,28 +15502,28 @@ downloaded Grunt modules when needed for the tasks.
     including the code inside the function in *Gruntfile.js*:
 
 ```
-> **\'use strict\';**
-> **module.exports = function (grunt) {**
-> **    // Time how long tasks take. Can help when optimizing build times**
-> **    require(\'time-grunt\')(grunt);**
-> ** **
-> **    // Automatically load required Grunt tasks**
-> **    require(\'jit-grunt\')(grunt);**
-> ** **
-> **    // Define the configuration for all the tasks**
-> **    grunt.initConfig({**
-> **        sass: {**
-> **            dist: {**
-> **                files: {**
-> **                    \'css/styles.css\': \'css/styles.scss\'**
-> **                }**
-> **            }**
-> **        }**
-> **    });**
-> ** **
-> **    grunt.registerTask(\'css\', \[\'sass\'\]);**
-> ** **
-> **};**
+\'use strict\';**
+module.exports = function (grunt) {**
+    // Time how long tasks take. Can help when optimizing build times**
+    require(\'time-grunt\')(grunt);**
+ **
+    // Automatically load required Grunt tasks**
+    require(\'jit-grunt\')(grunt);**
+ **
+    // Define the configuration for all the tasks**
+    grunt.initConfig({**
+        sass: {**
+            dist: {**
+                files: {**
+                    \'css/styles.css\': \'css/styles.scss\'**
+                }**
+            }**
+        }**
+    });**
+ **
+    grunt.registerTask(\'css\', \[\'sass\'\]);**
+ **
+};**
 ```
 
 -   Now you can run the grunt SASS task by typing the following at the
@@ -15624,36 +15541,36 @@ downloaded Grunt modules when needed for the tasks.
     this, install the following grunt modules:
 
 ```
-> **npm install grunt-contrib-watch@1.0.0 \--save-dev**
-> **npm install grunt-browser-sync@2.2.0 \--save-dev**
+npm install grunt-contrib-watch@1.0.0 \--save-dev**
+npm install grunt-browser-sync@2.2.0 \--save-dev**
 ```
 
 -   After this, we will configure the browser-sync and watch tasks by
     adding the following code to the Grunt file:
 
 ```
-> **,**
-> **        watch: {**
-> **            files: \'css/\*.scss\',**
-> **            tasks: \[\'sass\'\]**
-> **        },**
-> **        browserSync: {**
-> **            dev: {**
-> **                bsFiles: {**
-> **                    src : \[**
-> **                        \'css/\*.css\',**
-> **                        \'\*.html\',**
-> **                        \'js/\*.js\'**
-> **                    \]**
-> **                },**
-> **                options: {**
-> **                    watchTask: true,**
-> **                    server: {**
-> **                        baseDir: \"./\"**
-> **                    }**
-> **                }**
-> **            }**
-> **        }**
+,**
+        watch: {**
+            files: \'css/\*.scss\',**
+            tasks: \[\'sass\'\]**
+        },**
+        browserSync: {**
+            dev: {**
+                bsFiles: {**
+                    src : \[**
+                        \'css/\*.css\',**
+                        \'\*.html\',**
+                        \'js/\*.js\'**
+                    \]**
+                },**
+                options: {**
+                    watchTask: true,**
+                    server: {**
+                        baseDir: "./"**
+                    }**
+                }**
+            }**
+        }**
 ```
 
 -   Then add the following task to the Grunt file:
@@ -15670,7 +15587,7 @@ downloaded Grunt modules when needed for the tasks.
 
 **grunt**
 
--   Do a Git commit with the message \"Grunt Part 1\".
+-   Do a Git commit with the message "Grunt Part 1".
 
 ### Conclusions
 
@@ -16047,102 +15964,102 @@ update.
 
 The files that have been copied to the distribution folder.
 
-And the last one is \"dist/index.html.\"
+And the last one is "dist/index.html."
 
 These are the three files that it is supposed to process, and then some
 options for this here.
 
-The options I will specify \"assetsDirs.\"
+The options I will specify "assetsDirs."
 
 This is where all the assets that I\'m using exist.
 
 The CSS and the JavaScript files exist.
 
-I\'ll specify \"dist/css\" and \"dist/js.\" With this, you have
-completed configuring the \"usemin\" task. Next, we configure the
-\"htmlmin\" task.
+I\'ll specify "dist/css" and "dist/js." With this, you have
+completed configuring the "usemin" task. Next, we configure the
+"htmlmin" task.
 
-For the \"htmlmin\" task, we specified the target which is \"dist\", the
-distribution folder, and the \"htmlmin\" to be performed on all the HTML
+For the "htmlmin" task, we specified the target which is "dist", the
+distribution folder, and the "htmlmin" to be performed on all the HTML
 files that are in that distribution folder.
 
 The options that we specify for this state that, we\'ll say,
-\"collapsedWhitespace: True\" meaning that all the white space in the
+"collapsedWhitespace: True" meaning that all the white space in the
 HTML files would all be collapsed, such that the \[inaudible\] contain
 only the minimum HTML code there.
 
 The modification essentially removes all the extraneous characters from
-the \"htmlmin\" files.
+the "htmlmin" files.
 
 Now, we also specify that dictionary of files, those files that need to
 be configured.
 
 This is specified as destination, colon, source.
 
-We specify \"dist/index.html\" : \"dist/index.html\", meaning that the
-\"index.html\" in the distribution folder will be \[inaudible\] and then
-put back into the \"index.html\" file, also in the distribution folder.
+We specify "dist/index.html" : "dist/index.html", meaning that the
+"index.html" in the distribution folder will be \[inaudible\] and then
+put back into the "index.html" file, also in the distribution folder.
 
-Similarly, the \"contactus.html\" specified there and then the
-\"aboutus.html\" also specified as shown in that list of files.
+Similarly, the "contactus.html" specified there and then the
+"aboutus.html" also specified as shown in that list of files.
 
-The reason why we perform \"htmlmin\" after we finish \"usemin\" is
-because \"usemin\" will replace all the scripts with the main \".js\"
+The reason why we perform "htmlmin" after we finish "usemin" is
+because "usemin" will replace all the scripts with the main ".js"
 file and also all that CSS code concatenated and combined and replaced
-with the main \".css\" file.
+with the main ".css" file.
 
-The \"htmlmin\" will be performed on the resulting HTML files after
-\"usemin\" has completed its work.
+The "htmlmin" will be performed on the resulting HTML files after
+"usemin" has completed its work.
 
 This is how this works in Grunt.
 
-The Grunt \"htmlmin\" has to be applied after the \"usemin\" has
+The Grunt "htmlmin" has to be applied after the "usemin" has
 completed its work.
 
 Once all these are configured, then one little step that I need to do is
-to go back up here, and then where we specify for the \"jit-grunt\", we
-need to specify that this \"jit-grunt\", you recall that we introduced
-something called the \"useminPrepare\" \[inaudible\] so you need to
-inform the \"jit-grunt\" saying that the \"useminPrepare\" configuration
-that we introduced is going to be handled by that \"grunt-usemin\"
+to go back up here, and then where we specify for the "jit-grunt", we
+need to specify that this "jit-grunt", you recall that we introduced
+something called the "useminPrepare" \[inaudible\] so you need to
+inform the "jit-grunt" saying that the "useminPrepare" configuration
+that we introduced is going to be handled by that "grunt-usemin"
 plugin itself.
 
-I need to explicitly specify, otherwise \"jit-grunt\" is going to look
-around for a \"useminPrepare\" Grunt plugin.
+I need to explicitly specify, otherwise "jit-grunt" is going to look
+around for a "useminPrepare" Grunt plugin.
 
-To specify to that, I would say \"useminPrepare\" and say
-\"grunt-usemin\", essentially informing \"jit-grunt\" saying the
-\"useminPrepare\" is going to be handled by the \"grunt-usemin\" plugin
+To specify to that, I would say "useminPrepare" and say
+"grunt-usemin", essentially informing "jit-grunt" saying the
+"useminPrepare" is going to be handled by the "grunt-usemin" plugin
 there.
 
-Finally, let\'s reconfigure the \"build\" task at the bottom.
+Finally, let\'s reconfigure the "build" task at the bottom.
 
-Going down to that \"build\" task after \"imagemin.\"
+Going down to that "build" task after "imagemin."
 
-We did \"clean\", \"copy\", \"imagemin\", then the next task that I
-should execute is \"useminPrepare\" and then after \"useminPrepare\"
-execute \"contact,\" then I execute \"cssmin\", then I execute
-\"uglify.\"
+We did "clean", "copy", "imagemin", then the next task that I
+should execute is "useminPrepare" and then after "useminPrepare"
+execute "contact," then I execute "cssmin", then I execute
+"uglify."
 
 You see that we have to do them in a certain set of steps.
 
-Once the \"cssmin\" and \"uglify\" run, then the main \".css\" and the
-main \".js\" files would be created.
+Once the "cssmin" and "uglify" run, then the main ".css" and the
+main ".js" files would be created.
 
-At this point, I\'m going to run the \"filerev\" and then finally I run
-the \"usemin\" task.
+At this point, I\'m going to run the "filerev" and then finally I run
+the "usemin" task.
 
-You see the secrets: \"clean\", \"copy\", \"imagemin\",
-\"useminPrepare\", \"concat\", \"cssmin\", \"uglify.\" At this point,
-the \".css\" and \".js\" files, the main \".css\" and main \".js\" files
+You see the secrets: "clean", "copy", "imagemin",
+"useminPrepare", "concat", "cssmin", "uglify." At this point,
+the ".css" and ".js" files, the main ".css" and main ".js" files
 are ready.
 
-I can do the \"filerev\" on them and then finally run the \"usemin.\"
+I can do the "filerev" on them and then finally run the "usemin."
 
-But this, let\'s save the changes and then go and see how the \"build\"
+But this, let\'s save the changes and then go and see how the "build"
 task actually prepares the distribution.
 
-Going to our terminal, at the prompt I type \"grunt build\" and then
+Going to our terminal, at the prompt I type "grunt build" and then
 wait for all the tasks to be executed.
 
 You would see that it\'ll run through all the set of tasks, and then
@@ -16153,46 +16070,46 @@ If you want to go back and look at the sequence of the tasks that have
 been completed, you can just scroll back and see what it does.
 
 It first cleans up, then it copies the HTML files, then it copies the
-font files, then it does the \"imagemin\" task, then it does the
-\"useminPrepare\", then it does the \"concat\", then it does the
-\"cssmin\", both the distribution and generated, and then it does the
-\"uglify\", then \"uglify\" task, then it runs the \"filerev\" and then
-finally the \"usemin\" task.
+font files, then it does the "imagemin" task, then it does the
+"useminPrepare", then it does the "concat", then it does the
+"cssmin", both the distribution and generated, and then it does the
+"uglify", then "uglify" task, then it runs the "filerev" and then
+finally the "usemin" task.
 
 And then our distribution folder should now be ready.
 
 Going to our editor, you now see that the distribution folder has been
 prepared.
 
-Let\'s specifically look at the main \".css\" and main \".js\" files.
+Let\'s specifically look at the main ".css" and main ".js" files.
 
 Note the names of these files.
 
 Notice that after main, there is a dot and then there is a 20-character
-hash that has been added by \"filerev\" here.
+hash that has been added by "filerev" here.
 
 What happens is if I prepare a new distribution folder, every time I
 prepare the new distribution folder, this hash changes, which means that
 every single time I deploy a new version of my website, if any browsers
 have previously viewed my web site then their cache entries, where they
-might have cached the main \".css\" and main \".js\" has become
-invalidated because we have a new version of the main \".css\" and main
-\".js\".
+might have cached the main ".css" and main ".js" has become
+invalidated because we have a new version of the main ".css" and main
+".js".
 
 The browser will re-download these things. I didn\'t show the
-\"filerev\" with the NPM scripts, but I just added it in here just to
+"filerev" with the NPM scripts, but I just added it in here just to
 show you how it is done with the Grunt.
 
 With this, we complete this exercise. Let\'s take a quick look at the
 site in our browser.
 
 Going to your browser, you can see that I am now loading in
-\"dist/index.html\".
+"dist/index.html".
 
 This is from the distribution folder, so I\'m checking out and it looks
 just fine.
 
-The \"aboutus.html\" also looks just fine, just like before.
+The "aboutus.html" also looks just fine, just like before.
 
 And the contact page also looks well prepared for deployment.
 
@@ -16201,7 +16118,7 @@ With this, we complete this exercise.
 After all the grunting, I\'m sure you need to catch your breath.
 
 Before you do that, make sure to do a good comment with the message
-\"Grunt Part two.\"
+"Grunt Part two."
 
 ## Exercise (Instructions): Grunt Part 2
 
@@ -16225,9 +16142,9 @@ build your web project.
     needed. To do this, install the following Grunt modules:
 
 ```
-> **npm install grunt-contrib-copy@1.0.0 \--save-dev**
+npm install grunt-contrib-copy@1.0.0 \--save-dev**
 >
-> **npm install grunt-contrib-clean@1.1.0 \--save-dev**
+npm install grunt-contrib-clean@1.1.0 \--save-dev**
 ```
 
 -   You will now add the code to perform the copying of files to the
@@ -16236,38 +16153,38 @@ build your web project.
     the configuration of the SASS task.:
 
 ```
-> **,**
-> ** **
-> **        copy: {**
-> **            html: {**
-> **                files: \[**
-> **                {**
-> **                    //for html**
-> **                    expand: true,**
-> **                    dot: true,**
-> **                    cwd: \'./\',**
-> **                    src: \[\'\*.html\'\],**
-> **                    dest: \'dist\'**
-> **                }\]                **
-> **            },**
-> **            fonts: {**
-> **                files: \[**
-> **                {**
-> **                    //for font-awesome**
-> **                    expand: true,**
-> **                    dot: true,**
-> **                    cwd: \'node_modules/font-awesome\',**
-> **                    src: \[\'fonts/\*.\*\'\],**
-> **                    dest: \'dist\'**
-> **                }\]**
-> **            }**
-> **        },**
-> ** **
-> **        clean: {**
-> **            build: {**
-> **                src: \[ \'dist/\'\]**
-> **            }**
-> **        }**
+,**
+ **
+        copy: {**
+            html: {**
+                files: \[**
+                {**
+                    //for html**
+                    expand: true,**
+                    dot: true,**
+                    cwd: \'./\',**
+                    src: \[\'\*.html\'\],**
+                    dest: \'dist\'**
+                }\]                **
+            },**
+            fonts: {**
+                files: \[**
+                {**
+                    //for font-awesome**
+                    expand: true,**
+                    dot: true,**
+                    cwd: \'node_modules/font-awesome\',**
+                    src: \[\'fonts/\*.\*\'\],**
+                    dest: \'dist\'**
+                }\]**
+            }**
+        },**
+ **
+        clean: {**
+            build: {**
+                src: \[ \'dist/\'\]**
+            }**
+        }**
 ```
 
 -   Remember to add the comma after the end of the SASS task.
@@ -16278,24 +16195,24 @@ build your web project.
     process the images. To install this module type at the prompt:
 
 ```
-> **npm install grunt-contrib-imagemin@2.0.1 \--save-dev**
+npm install grunt-contrib-imagemin@2.0.1 \--save-dev**
 ```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
 
 ```
-> **,**
+,**
 >
-> **        imagemin: {**
-> **            dynamic: {**
-> **                files: \[{**
-> **                    expand: true,                  // Enable dynamic expansion**
-> **                    cwd: \'./\',                   // Src matches are relative to this path**
-> **                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match**
-> **                    dest: \'dist/\'                  // Destination path prefix**
-> **                }\]**
-> **            }**
-> **        }**
+        imagemin: {**
+            dynamic: {**
+                files: \[{**
+                    expand: true,                  // Enable dynamic expansion**
+                    cwd: \'./\',                   // Src matches are relative to this path**
+                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match**
+                    dest: \'dist/\'                  // Destination path prefix**
+                }\]**
+            }**
+        }**
 ```
 
 ### Preparing the Distribution Folder and Files
@@ -16306,82 +16223,82 @@ build your web project.
     modules:
 
 ```
-> ** npm install grunt-contrib-concat@1.0.1 \--save-dev**
-> ** npm install grunt-contrib-cssmin@2.2.1 \--save-dev**
-> ** npm install grunt-contrib-htmlmin@2.4.0 \--save-dev**
-> ** npm install grunt-contrib-uglify@3.3.0 \--save-dev**
-> ** npm install grunt-filerev@2.3.1 \--save-dev**
-> ** npm install grunt-usemin@3.1.1 \--save-dev**
+ npm install grunt-contrib-concat@1.0.1 \--save-dev**
+ npm install grunt-contrib-cssmin@2.2.1 \--save-dev**
+ npm install grunt-contrib-htmlmin@2.4.0 \--save-dev**
+ npm install grunt-contrib-uglify@3.3.0 \--save-dev**
+ npm install grunt-filerev@2.3.1 \--save-dev**
+ npm install grunt-usemin@3.1.1 \--save-dev**
 ```
 
 -   Next, update the task configuration within the Gruntfile.js with the
     following additional code to introduce the new tasks:
 
 ```
-> **,**
-> ** **
-> **        useminPrepare: {**
-> **            foo: {**
-> **                dest: \'dist\',**
-> **                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]**
-> **            },**
-> **            options: {**
-> **                flow: {**
-> **                    steps: {**
-> **                        css: \[\'cssmin\'\],**
-> **                        js:\[\'uglify\'\]**
-> **                    },**
-> **                    post: {**
-> **                        css: \[{**
-> **                            name: \'cssmin\',**
-> **                            createConfig: function (context, block) {**
-> **                            var generated = context.options.generated;**
-> **                                generated.options = {**
-> **                                    keepSpecialComments: 0, rebase: false**
-> **                                };**
-> **                            }       **
-> **                        }\]**
-> **                    }**
-> **                }**
-> **            }**
-> **        },**
-> ** **
-> **        // Concat**
-> **        concat: {**
-> **            options: {**
-> **                separator: \';\'**
-> **            },**
-> **            // dist configuration is provided by useminPrepare**
-> **            dist: {}**
-> **        },**
-> **        // Uglify**
-> **        uglify: {**
+,**
+ **
+        useminPrepare: {**
+            foo: {**
+                dest: \'dist\',**
+                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]**
+            },**
+            options: {**
+                flow: {**
+                    steps: {**
+                        css: \[\'cssmin\'\],**
+                        js:\[\'uglify\'\]**
+                    },**
+                    post: {**
+                        css: \[{**
+                            name: \'cssmin\',**
+                            createConfig: function (context, block) {**
+                            var generated = context.options.generated;**
+                                generated.options = {**
+                                    keepSpecialComments: 0, rebase: false**
+                                };**
+                            }       **
+                        }\]**
+                    }**
+                }**
+            }**
+        },**
+ **
+        // Concat**
+        concat: {**
+            options: {**
+                separator: \';\'**
+            },**
+            // dist configuration is provided by useminPrepare**
+            dist: {}**
+        },**
+        // Uglify**
+        uglify: {**
 ```
 
 -   Next, update the jit-grunt configuration as follows, to inform it
     that useminPrepare task depends on the usemin package:
 
 ```
-> **require(\'jit-grunt\')(grunt, {**
-> **  useminPrepare: \'grunt-usemin\'**
-> **});**
+require(\'jit-grunt\')(grunt, {**
+  useminPrepare: \'grunt-usemin\'**
+});**
 ```
 
 -   Next, update the Grunt build task as follows:
 
 ```
-> **    grunt.registerTask(\'build\', \[**
-> **        \'clean\',**
-> **        \'copy\',**
-> **        \'imagemin\',**
-> **        \'useminPrepare\',**
-> **        \'concat\',**
-> **        \'cssmin\',**
-> **        \'uglify\',**
-> **        \'filerev\',**
-> **        \'usemin\',**
-> **        \'htmlmin\'**
-> **    \]);**
+    grunt.registerTask(\'build\', \[**
+        \'clean\',**
+        \'copy\',**
+        \'imagemin\',**
+        \'useminPrepare\',**
+        \'concat\',**
+        \'cssmin\',**
+        \'uglify\',**
+        \'filerev\',**
+        \'usemin\',**
+        \'htmlmin\'**
+    \]);**
 ```
 
 -   Now if you run Grunt, it will create a dist folder with the files
@@ -16389,7 +16306,7 @@ build your web project.
     website. To do this, type the following at the prompt:
 
 ```
-> **grunt build**
+grunt build**
 ```
 
 ### Conclusions
@@ -16671,7 +16588,7 @@ project. At the end of this exercise, you will be able to:
     command-line interface (CLI) globally:
 
 ```
-> **     npm install -g gulp-cli@2.0.1**
+     npm install -g gulp-cli@2.0.1**
 ```
 
 This will install the Gulp globally so that you can use it in all
@@ -16681,7 +16598,7 @@ projects.
     *conFusion* folder and type the following at the prompt:
 
 ```
-> **     npm install gulp@3.9.1 \--save-dev**
+     npm install gulp@3.9.1 \--save-dev**
 ```
 
 This will install local per-project Gulp to use within your project.
@@ -16692,7 +16609,7 @@ This will install local per-project Gulp to use within your project.
     To do this, type the following at the command prompt:
 
 ```
-> **npm install gulp-sass@3.1.0  browser-sync@2.23.6 \--save-dev**
+npm install gulp-sass@3.1.0  browser-sync@2.23.6 \--save-dev**
 ```
 
 ### Creating a Gulp File
@@ -16707,14 +16624,10 @@ This will install local per-project Gulp to use within your project.
     Gulp file:
 
 ```
-> **\'use strict\';**
->
-> ** **
->
-> **var gulp = require(\'gulp\'),**
->
-> **    sass = require(\'gulp-sass\'),**
->
+\'use strict\';**
+ **
+var gulp = require(\'gulp\'),**
+    sass = require(\'gulp-sass\'),**
 > **    browserSync = require(\'browser-sync\');**
 ```
 
@@ -16745,7 +16658,7 @@ This will install local per-project Gulp to use within your project.
 > ** **
 > **   browserSync.init(files, {**
 > **      server: {**
-> **         baseDir: \"./\"**
+> **         baseDir: "./"**
 > **      }**
 > **   });**
 > ** **
@@ -16769,7 +16682,7 @@ This will install local per-project Gulp to use within your project.
 > **     gulp**
 ```
 
--   Do a Git commit with the message \"Gulp Part 1\".
+-   Do a Git commit with the message "Gulp Part 1".
 
 ### Conclusions
 
@@ -16896,7 +16809,7 @@ At the end of this exercise, you will be able to:
 **     gulp build**
 ```
 
--   ### Do a Git commit with the message \"Gulp Part 2\"
+-   ### Do a Git commit with the message "Gulp Part 2"
 
 ### Conclusions
 
