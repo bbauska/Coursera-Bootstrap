@@ -30,8 +30,7 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 {width="5.0in"
 height="2.0638298337707788in"}
 ----------->
-
-(coursera.org)
+<p align="center" width="100%">(coursera.org)</p>
 
 ## Course Overview
 
@@ -158,13 +157,9 @@ Each module roughly corresponding to one week of work.
 4.  The ***last (fourth)*** module deals with **Bootstrap** and the
     **JQuery** and various **dev tools**.
 
-```{=html}
-<!-- -->
-```
-
 a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
-    > how you can write JQuery and JavaScript code in order to control
-    > your Bootstrap JavaScript component.
+    how you can write JQuery and JavaScript code in order to control
+    your Bootstrap JavaScript component.
 
 b.  We look at the various methods that are supported by the Bootstrap
     > JavaScript components, which can be leveraged to write JavaScript
@@ -196,11 +191,12 @@ Bootstrap web UI framework.
 <h3 align="left">
     <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
 
-#### (https://www.coursera.support/s/learner-help-center?language=en_US) {#httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph}
+<h3 align="left">
+<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph</a>
 
-#### [Switching to a Different Session](https://learner.coursera.help/hc/en-us/articles/208279776) 
+<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a>
 
-#### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph}
+### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph}
 
 ## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
 
@@ -225,7 +221,7 @@ development. At the end of this lesson, you will be able to:
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="Three-Tier Architecture."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!---------
@@ -258,7 +254,7 @@ Development.
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
    alt="Image 4."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!---------
@@ -281,7 +277,7 @@ presentation layer.
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
    alt="Image 5."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!-----------
@@ -302,7 +298,7 @@ the data access layer**.
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
    alt="Image 6."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!---------
@@ -323,7 +319,7 @@ traditional web development in each of these three layers.
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
    alt="Image 7."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!----------
@@ -340,7 +336,7 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
    alt="Image 8."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!--------
@@ -362,7 +358,7 @@ rendering these days.
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
    alt="Image 9."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!----------
@@ -413,7 +409,7 @@ We will cover these technologies as part of this specialization.
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true"
    alt="Image 11."
-   width="50%" />
+   width="75%" />
 </p>
 
 <!----
@@ -743,21 +739,21 @@ would be able to:
     command line, by typing the following at the command prompt:
 
 ```
-git \--version
+git --version
 ```
 
 -   To configure your user name to be used by Git, type the following at
     the prompt:
 
 ```
-git config \--global user.name "Your Name"
+git config --global user.name "Your Name"
 ```
 
 -   To configure your email to be used by Git, type the following at the
     prompt:
 
 ```
-git config \--global user.email <your email address\>
+git config --global user.email <your email address\>
 ```
 
 -   You can check your default Git global configuration, you can type
@@ -1157,21 +1153,15 @@ the end of this exercise you will be able to:
 -   Add a file named *index.html* to this folder, and add the following
     HTML code to this file:
 
-<!DOCTYPE html\>
-
-<html\>
-
-    <head\></head\>
-
- 
-
-    <body\>
-
-        <h1\>This is a Header</h1\>
-
-    </body\>
-
-</html\>
+```
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>This is a Header</h1>
+    </body>
+</html>
+```
 
 ### Initializing the folder as a Git repository
 
@@ -1208,23 +1198,16 @@ the end of this exercise you will be able to:
 
 -   ### Now, modify the index.html file as follows:
 
-<!DOCTYPE html\>**
->
-<html\>**
->
-    <head\></head\>**
->
- **
->
-    <body\>**
->
-        <h1\>This is a Header</h1\>**
->
-        <p\>This is a paragraph</p\>**
->
-    </body\>**
->
-</html\>**
+```
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph</p>
+    </body>
+</html>
+```
 
 -   Add a sub-folder named **templates** to your **git-test** folder,
     and then add a file named *test.html* to the templates folder. Then
@@ -1237,25 +1220,17 @@ the end of this exercise you will be able to:
 
 -   Now, modify the *index.html* file as follows:
 
-<!DOCTYPE html\>**
->
-<html\>**
->
-    <head\></head\>**
->
- **
->
-    <body\>**
->
-        <h1\>This is a Header</h1\>**
->
-        <p\>This is a paragraph</p\>**
->
-        <p\>This is a second paragraph</p\>**
->
-    </body\>**
->
-</html\>**
+```
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph</p>
+        <p>This is a second paragraph</p>
+    </body>
+</html>
+```
 
 -   Now add the modified index.html file to the staging area and then do
     a third commit.
