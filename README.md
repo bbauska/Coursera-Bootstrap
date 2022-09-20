@@ -434,7 +434,7 @@ implemented using MongoDB.
 
 ## PDFs of Presentations
 
-**00-FSWD-BigPicture.pdf -- 6 slides.**
+> 00-FSWD-BigPicture.pdf -- 6 slides.
 
 ## Useful Links
 
@@ -671,13 +671,17 @@ of this information.
 To do that, at the prompt type **git config \--global user.name**
 "Username", and then you can type in your user name.
 
-**git config --global user.Email brianbauska@gmail.com**
+```
+git config --global user.Email brianbauska@gmail.com
+```
 
 The other parameter that I\'m going to configure is my email.
 
 And to insure that this information has been configured, we can type
 
-**git config \-\--list**.
+```
+git config \-\--list.
+```
 
 And it will list out a bunch of configurations that we have. Done.
 
@@ -738,22 +742,30 @@ would be able to:
 -   Check to make sure that Git is installed and available on the
     command line, by typing the following at the command prompt:
 
-git \--version**
+```
+git \--version
+```
 
 -   To configure your user name to be used by Git, type the following at
     the prompt:
 
-**git config \--global user.name "Your Name"**
+```
+git config \--global user.name "Your Name"
+```
 
 -   To configure your email to be used by Git, type the following at the
     prompt:
 
-**git config \--global user.email <your email address\>**
+```
+git config \--global user.email <your email address\>
+```
 
 -   You can check your default Git global configuration, you can type
     the following at the prompt:
 
-**git config \--list**
+```
+git config --list
+```
 
 ### Conclusions
 
@@ -2355,13 +2367,10 @@ package and start a development server.
 
 ### PDFs of Presentations
 
--   **01-Git.pdf**
-
--   **01-Git-Exercises.pdf**
-
--   **02-NodeJS.pdf**
-
--   **02-Exercises-Node-NPM.pdf**
+-   01-Git.pdf
+-   01-Git-Exercises.pdf
+-   02-NodeJS.pdf
+-   02-Exercises-Node-NPM.pdf
 
 ### Additional Resources (Git)
 
@@ -3079,15 +3088,14 @@ Bootstrap\'s grid system.
 
 ### PDFs of the Presentations
 
-03-Web-UI-Frameworks.pdf**
->
-04-Intro-Bootstrap.pdf**
+> 03-Web-UI-Frameworks.pdf
+> 04-Intro-Bootstrap.pdf
 
 ### Exercise Resources
 
 -   (required for the exercise)
 
-**Bootstrap4-starter.zip**
+> Bootstrap4-starter.zip
 
 ### Bootstrap Official Resources
 
@@ -4102,10 +4110,13 @@ out content in your pitch.
    width="50%"
    alt="." />
 </p>
-<!--------------
 
-![](images/image074.png){width="5.0in"
+![](images/image074.png)
+
+<!--------
+{width="5.0in"
 height="1.8327996500437445in"}
+------------->
 
 With all the discussion about the Bootstrap Grid System and how the
 Bootstrap Grid supports various ways of laying out content, we\'re going
@@ -4510,7 +4521,9 @@ this is first through media queries. We have already added the support
 for media queries in the last lesson, where we added this line to the
 head:
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
+```
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+```
 
 The *viewport* meta tag ensures that the screen width is set to the
 device width and the content is rendered with this width in mind.
@@ -4549,7 +4562,9 @@ a row, all adding up to 12 or a multiple thereof.
     Add the container class to the first div right after the </header\>
     in the file as follows.
 
-**<div class="container"\> \...**
+```
+<div class="container"> ...
+```
 
 ### Dividing the content into rows
 
@@ -4558,7 +4573,9 @@ a row, all adding up to 12 or a multiple thereof.
     content. In the next exercise, we will see how we can add other
     classes to the rows.
 
-**<div class="row"\> \...**
+``
+<div class="row"> ...
+```
 
 ### Creating a Jumbotron
 
@@ -4568,7 +4585,9 @@ a row, all adding up to 12 or a multiple thereof.
     In this case we are using it to highlight the name of the
     restaurant.
 
-**<header class="jumbotron"\> \... **
+```
+<header class="jumbotron"> ...
+```
 
 -   In the header add a **container** class to the first inner div and a
     row class to the second inner div.
@@ -4585,37 +4604,28 @@ a row, all adding up to 12 or a multiple thereof.
     displaying the restaurant logo in the future. Let us go into the
     jumbotron and define the classes for the inner divs as follows:
 
-<div class="col-12 col-sm-6"\> \... </div\>**
->
- **
->
-<div class="col-12 col-sm"\> \... </div\>**
+```
+<div class="col-12 col-sm-6"> ... </div>
+<div class="col-12 col-sm"> ... </div>
+```
 
 -   For the remaining three div rows that contain the content, let us
     define the classes for the inner divs as follows:
 
-**<div class="col-12 col-sm-4 col-md-3"\> \... </div\>**
-
-** **
-
-**    <div class="col col-sm col-md"\> \... </div\>**
+```
+<div class="col-12 col-sm-4 col-md-3"> ... </div>
+<div class="col col-sm col-md"> ... </div>
+```
 
 -   For the footer, let us define the classes for the inner divs as
     follows:
 
-**    <div class="col-4 col-sm-2"\> \... </div\>**
-
-** **
-
-**    <div class="col-7 col-sm-5"\> \... </div\>**
-
-** **
-
-**    <div class="col-12 col-sm-4"\> \... </div\>**
-
-** **
-
-**    <div class="col-auto"\> \... </div\>**
+```
+    <div class="col-4 col-sm-2"> ... </div>
+    <div class="col-7 col-sm-5"> ... </div>
+    <div class="col-12 col-sm-4"> ... </div>
+    <div class="col-auto"> ... </div>
+```
 
 Now you can see how the web page has been turned into a mobile-first
 responsive design layout.
@@ -4628,18 +4638,17 @@ responsive design layout.
     can be accomplished by using the .order-sm-last and .order-sm-first
     for the first and the third rows as follows:
 
-**    <div class="col-12 col-sm-4 order-sm-last col-md-3"\> \... </div\>**
-
- 
-
-**    <div class="col col-sm order-sm-first col-md"\> \... </div\>**
-
- 
+```
+    <div class="col-12 col-sm-4 order-sm-last col-md-3"\> \... </div\>
+    <div class="col col-sm order-sm-first col-md"\> \... </div\>
+```
 
 -   For the div containing the <ul\> with the site links, update the
     class as follows:
 
-**    <div class="col-4 offset-1 col-sm-2"\>**
+```
+    <div class="col-4 offset-1 col-sm-2">
+```
 
 -   After saving all the changes, you can do a Git commit with the
     message "Bootstrap Grid Part 1" and push your changes to the
@@ -5025,11 +5034,8 @@ classes.
 
 ### PDFs of Presentations
 
-```
 > 05-Responsive-Design.pdf
->
 > 05-Bootstrap-Grid.pdf
-```
 
 ### Bootstrap Official Documentation
 
@@ -6708,9 +6714,8 @@ We learnt about using icon fonts in a web project.
 
 ### PDFs of Presentations
 
-06-Navigation.pdf
-
-06-Icon Fonts.pdf
+> 06-Navigation.pdf
+> 06-Icon Fonts.pdf</b>
 
 ### Official Bootstrap Resources
 
@@ -8085,24 +8090,22 @@ be able to:
     simple horizontal form with two fields:
 
 ```
-                \<form>**
-                    \<div class="form-group row">**
-                        \<label for="firstname" class="col-md-2 col-form-label">First Name\</label>**
-                        \<div class="col-md-10">**
-      \<input type="text" class="form-
-> control" id="firstname" name="firstname" placeholder="First Name">**
-                        \</div>**
-                    \</div>**
-                    \<div class="form-group row">**
-                        \<label for="lastname" class="col-md-2 col-form-label">Last Name\</label>**
-                        \<div class="col-md-10">**
-                        \<input type="text" class="form-
-> control" id="lastname" name="lastname" placeholder="Last Name">**
-                        \</div>**
-                    \</div>**
-                \</form>**
- **
- **
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+      <input type="text" class="form-
+ control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                        <input type="text" class="form-
+ control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                </form>
 ```
 
 This creates a form with two elements in the form. Note that the class
@@ -8112,21 +8115,21 @@ can style the contents using the column classes as appropriate.
 -   Let us add fields to seek user\'s telephone number and email:
 
 ```
-\<div class="form-group row">**
-    \<label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.\</label>**
-    \<div class="col-5 col-md-3">**
-    \<input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">**
-    \</div>**
-    \<div class="col-7 col-md-7">**
-    \<input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">**
-    \</div>**
-    \</div>**
-    \<div class="form-group row">**
-    \<label for="emailid" class="col-md-2 col-form-label">Email\</label>**
-    \<div class="col-md-10">**
-    \<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">**
-    \</div>**
-    \</div>**
+<div class="form-group row">
+    <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+    <div class="col-5 col-md-3">
+    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+    </div>
+    <div class="col-7 col-md-7">
+    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label for="emailid" class="col-md-2 col-form-label">Email\</label>
+    <div class="col-md-10">
+    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+    </div>
+    </div>
 ```
 
 ### Adding a Checkbox and Select
@@ -8135,23 +8138,23 @@ can style the contents using the column classes as appropriate.
     form. Note the styling of these elements using Bootstrap classes:
 
 ```
-**         \<div class="form-group row">**
-**          \<div class="col-md-6 offset-md-2">**
-**               \<div class="form-check">**
-**               
-\<input type="checkbox" class="form-check-input" name="approve" id="approve" value="">**
-**                  \<label class="form-check-label" for="approve">**
-**                  \<strong>May we contact you?\</strong>**
-**                  \</label>**
-**               \</div>**
-**            \</div>**
-**            \<div class="col-md-3 offset-md-1">**
-**             \<select class="form-control">**
-**                \<option>Tel.\</option>**
-**                  \<option>Email\</option>**
-**                  \</select>**
-**               \</div>**
-**            \</div>**
+         <div class="form-group row">
+          <div class="col-md-6 offset-md-2">
+               <div class="form-check">
+               
+<input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                  <label class="form-check-label" for="approve">
+                  <strong>May we contact you?</strong>
+                  </label>
+               </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+             <select class="form-control">
+                <option>Tel.</option>
+                  <option>Email</option>
+                  </select>
+               </div>
+            </div>
 ```
 
 ### Adding a textarea
@@ -8160,13 +8163,12 @@ can style the contents using the column classes as appropriate.
     comments as follows:
 
 ```
-\<div class="form-group row">**
-      
-> \<label for="feedback" class="col-md-2 col-form-label">Your Feedback\</label>**
-      \<div class="col-md-10">**
-         \<textarea class="form-control" id="feedback" name="feedback" rows="12">\</textarea>**
-      \</div>**
-   \</div>**
+<div class="form-group row">
+<label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+      <div class="col-md-10">
+         <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+      </div>
+   </div>
 ```
 
 ### Adding the Submit Button
@@ -8174,12 +8176,11 @@ can style the contents using the column classes as appropriate.
 -   Finally, we add the submit button to the form as follows:
 
 ```
-     \<div class="form-group row">**
-        \<div class="offset-md-2 col-md-10">**
-        
-> \<button type="submit" class="btn btn-primary">Send Feedback\</button>**
-        \</div>**
-     \</div>**
+     <div class="form-group row">
+        <div class="offset-md-2 col-md-10">
+<button type="submit" class="btn btn-primary">Send Feedback</button>
+        </div>
+     </div>
 ```
 
 Note the declaration of the type for the button to *submit*.
@@ -8195,7 +8196,7 @@ classes.
 
 ### PDFs of Presentations
 
-**07-User-Input.pdf**
+> 07-User-Input.pdf
 
 ### Exercise Resources
 
@@ -8650,57 +8651,56 @@ displaying content. At the end of this exercise, you will be able to:
     columns to the page as follows:
 
 ```
-        \<div class="row row-content">**
-            \<div class="col-12 col-sm-9">**
-                \<h2>Facts &amp; Figures\</h2>**
-            \</div>**
-             \<div class="col-12 col-sm-3">**
-            \</div>**
-       \</div> **
- **
+        <div class="row row-content">
+            <div class="col-12 col-sm-9">
+                <h2>Facts &amp; Figures</h2>
+            </div>
+             <div class="col-12 col-sm-3">
+            </div>
+       </div>
 ```
 
 -   Inside the first column of this row, insert the table as follows:
 
 ```
-                \<div class="table-responsive">**
-                    \<table class="table table-striped">**
-                        \<thead class="thead-dark">**
-                            \<tr>**
-                                \<th>&nbsp;\</th>**
-                                \<th>2013\</th>**
-                                \<th>2014\</th>**
-                                \<th>2015\</th>**
-                            \</tr>**
-                        \</thead>**
-                        \<tbody>**
-                            \<tr>**
-                                \<th>Employees\</th>**
-                                \<td>15\</td>**
-                                \<td>30\</td>**
-                                \<td>40\</td>**
-                            \</tr>**
-                            \<tr>**
-                                \<th>Guests Served\</th>**
-                                \<td>15000\</td>**
-                                \<td>45000\</td>**
-                                \<td>100,000\</td>**
-                            \</tr>**
-                            \<tr>**
-                                \<th>Special Events\</th>**
-                                \<td>3\</td>**
-                                \<td>20\</td>**
-                                \<td>45\</td>**
-                            \</tr>**
-                            \<tr>**
-                                \<th>Annual Turnover\</th>**
-                                \<td>\$251,325\</td>**
-                                \<td>\$1,250,375\</td>**
-                                \<td>\~\$3,000,000\</td>**
-                            \</tr>**
-                        \</tbody>**
-                    \</table>**
-                \</div>**
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>2013</th>
+                                <th>2014</th>
+                                <th>2015</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Employees</th>
+                                <td>15</td>
+                                <td>30</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>Guests Served\</th>
+                                <td>15000</td>
+                                <td>45000</td>
+                                <td>100,000</td>
+                            </tr>
+                            <tr>
+                                <th>Special Events\</th>
+                                <td>3</td>
+                                <td>20</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <th>Annual Turnover</th>
+                                <td>$251,325</td>
+                                <td>$1,250,375</td>
+                                <td>~$3,000,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 ```
 
 Note the use of *table-responsive* class to create a responsive table,
@@ -8714,40 +8714,41 @@ table.
     col-sm-6 to it and then adding the card:
 
 ```
-            \<div class="col-12 col-sm-6">**
-                \<div class="card">**
-                    \<h3 class="card-header bg-primary text-white">Facts At a Glance\</h3>**
-                    \<div class="card-body">**
-                        \<dl class="row">**
-                            \<dt class="col-6">Started\</dt>**
-                            \<dd class="col-6">3 Feb. 2013\</dd>**
-                            \<dt class="col-6">Major Stake Holder\</dt>**
-                            \<dd class="col-6">HK Fine Foods Inc.\</dd>**
-                            \<dt class="col-6">Last Year\'s Turnover\</dt>**
-                            \<dd class="col-6">\$1,250,375\</dd>**
-                            \<dt class="col-6">Employees\</dt>**
-                            \<dd class="col-6">40\</dd>**
-                        \</dl>**
-                    \</div>**
-                \</div>**
-            \</div>**
+            <div class="col-12 col-sm-6">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                            <dt class="col-6">Major Stake Holder</dt>
+                            <dd class="col-6">HK Fine Foods Inc.</dd>
+                            <dt class="col-6">Last Year's Turnover</dt>
+                            <dd class="col-6">$1,250,375</dd>
+                            <dt class="col-6">Employees</dt>
+                            <dd class="col-6">40</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+```
 
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
 
 ```
-            \<div class="col-12">
-                \<div class="card card-body bg-light">
-                    \<blockquote class="blockquote">
-                        \<p class="mb-0">You better cut the pizza in four pieces because
-                            I\'m not hungry enough to eat six.\</p>
-                        \<footer class="blockquote-footer">Yogi Berra,
-                            \<cite title="Source Title">The Wit and Wisdom of Yogi Berra,
-                            P. Pepe, Diversion Books, 2014\</cite>
-                        \</footer>
-                    \</blockquote>
-                \</div>
-            \</div>
+            <div class="col-12">
+                <div class="card card-body bg-light">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">You better cut the pizza in four pieces because
+                            I'm not hungry enough to eat six.</p>
+                        <footer class="blockquote-footer">Yogi Berra,
+                            <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+                            P. Pepe, Diversion Books, 2014</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
 ```
 
 Note the use of the *\<blockquote\>* tag to create a block quote in the
@@ -8768,11 +8769,8 @@ content.
 
 ### PDFs of Presentations
 
-```
-08-Bootstrap-Tables.pdf**
->
-08-Bootstrap-Cards.pdf**
-```
+> 08-Bootstrap-Tables.pdf
+> 08-Bootstrap-Cards.pdf
 
 ### Bootstrap Classes
 
@@ -9112,9 +9110,9 @@ At the end of this exercise you will be able to:
     \<div\> column with the following code:
 
 ```
-     \<div class="col-12 col-sm align-self-center">**
-          \<img src="[img/logo.png]{.underline}" class="img-fluid">**
-      \</div>**
+     <div class="col-12 col-sm align-self-center">
+          <img src="[img/logo.png]{.underline}" class="img-fluid">
+     </div>
 ```
 
 You will immediately notice the restaurant logo being displayed in the
@@ -9125,8 +9123,8 @@ jumbotron.
     the \<a\> tag with the "navbar-brand"            
 
 ```
-**\<a class="navbar-brand mr-auto" href="#">\<img src="[img/logo.png]{.underline}" height="30" width="41">\</a>**
-**Note the inclusion of the logo in the navbar.**
+<a class="navbar-brand mr-auto" href="#"><img src="[img/logo.png]{.underline}" height="30" width="41"></a>
+Note the inclusion of the logo in the navbar.
 ```
 
 -   Repeat the above two steps for the *aboutus.html* and the
@@ -9142,18 +9140,17 @@ jumbotron.
     code:
 
 ```
-                \<div class="media">**
-                    \<img class="d-flex mr-3 img-thumbnail align-self-center"**
-                            src="[img/uthappizza.png]{.underline}" alt="Uthappizza">**
-                    \<div class="media-body">**
-                        \<h2 class="mt-0">Uthappizza\</h2>**
-                        \<p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and**
-                            Italian pizza, topped with Cerignola olives, ripe vine**
-                            cherry tomatoes, Vidalia onion, Guntur chillies and**
-                            Buffalo Paneer.\</p>**
-                    \</div>**
-                \</div>**
- **
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza</h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                            Italian pizza, topped with Cerignola olives, ripe vine
+                            cherry tomatoes, Vidalia onion, Guntur chillies and
+                            Buffalo Paneer.</p>
+                    </div>
+                </div>
 ```
 
 Note the use of the *media* class and the related Bootstrap classes to
@@ -9164,20 +9161,20 @@ style the content.
     following content:
 
 ```
-                \<div class="media">**
-                    \<img class="d-flex mr-3 img-thumbnail align-self-center"**
-                            src="[img/alberto.png]{.underline}" alt="Alberto Somayya">**
-                    \<div class="media-body">**
-                        \<h2 class="mt-0">Alberto Somayya\</h2>**
-                        \<h4>Executive Chef\</h4>**
-                        \<p class="d-none d-sm-block">Award winning three-star Michelin chef with wide**
-                            International experience having worked closely with**
-                            whos-who in the culinary world, he specializes in**
-                            creating mouthwatering Indo-Italian fusion experiences.**
-                            \</p>**
-                    \</div>**
-                \</div>**
-                **
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya\</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                            International experience having worked closely with
+                            whos-who in the culinary world, he specializes in
+                            creating mouthwatering Indo-Italian fusion experiences.
+                            </p>
+                    </div>
+                </div>
+```
 
 -   Finally, do a Git commit with a message "Images and Media".
 
@@ -9192,7 +9189,7 @@ media object to style and display content.
 
 ### PDFs of Presentations
 
-**08-Images-Media.pdf**
+> 08-Images-Media.pdf
 
 **Exercise Resources**
 
@@ -9400,7 +9397,7 @@ In this short exercise, we learnt how to add badges to our web page.
 
 ### PDFs of Presentations
 
-**08-Alerting-Users.pdf**
+> 08-Alerting-Users.pdf
 
 Bootstrap Resources
 
@@ -9865,7 +9862,7 @@ functionality to your JavaScript-based Bootstrap components.
 
 ### PDFs of Presentations
 
-**08-Bootstrap_JS.pdf**
+> 08-Bootstrap_JS.pdf
 
 **Bootstrap Resources**
 
@@ -10312,7 +10309,7 @@ in a page.
 
 ### PDFs of Presentations
 
-**08-Tabs-Pills-Navigation.pdf**
+> 08-Tabs-Pills-Navigation.pdf
 
 ### Bootstrap Resources
 
@@ -10640,9 +10637,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-                \<div id="accordion">**
-                   . . .**
-                \</div>**
+                <div id="accordion">
+                   . . .
+                </div>
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10650,20 +10647,20 @@ in a web page. At the end of this exercise, you will be able to:
     Use the structure of the code as shown below:
 
 ```
-                    \<div class="card">**
-                        \<div class="card-header" role="tab" id="peterhead">**
-                        \<h3 class="mb-0">**
-                            \<a data-toggle="collapse" data-target="#peter">**
-                            Peter Pan \<small>Chief Epicurious Officer\</small>**
-                            \</a>**
-                        \</h3>**
-                        \</div>**
-                        \<div class="collapse show" id="peter" data-parent="#accordion">**
-                            \<div class="card-body">**
-                                \<p class="d-none d-sm-block">. . .\</p>**
-                            \</div>**
-                        \</div>**
-                    \</div>**
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#peter">
+                            Peter Pan <small>Chief Epicurious Officer</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="peter" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">. . .</p>
+                            </div>
+                        </div>
+                    </div>
 ```
 
 -   For the remaining three leaders, use the same structure as above,
@@ -10671,46 +10668,46 @@ in a web page. At the end of this exercise, you will be able to:
     structure below:
 
 ```
-                    \<div class="card">**
-                            \<div class="card-header" role="tab" id="dannyhead">**
-                            \<h3 class="mb-0">**
-                                \<a class="collapsed" data-toggle="collapse" data-target="#danny">**
-                                Dhanasekaran Witherspoon \<small>Chief Food Officer\</small>**
-                                \</a>**
-                            \</h3>**
-                        \</div>**
-                        \<div class="collapse" id="danny" data-parent="#accordion">**
-                            \<div class="card-body">**
-                                \<p class="d-none d-sm-block">. . .\</em>\</p>**
-                            \</div>**
-                        \</div>**
-                    \</div>**
-                    \<div class="card">**
-                            \<div class="card-header" role="tab" id="agumbehead">**
-                            \<h3 class="mb-0">**
-                                \<a class="collapsed" data-toggle="collapse" data-target="#agumbe">**
-                                Agumbe Tang \<small>Chief Taste Officer\</small>**
-                                \</a>**
-                            \</h3>**
-                        \</div>**
-                        \<div class="collapse" id="agumbe" data-parent="#accordion">**
-                            \<div class="card-body">**
-                                \<p class="d-none d-sm-block">. . .\</p>**
-                            \</div>**
-                        \</div>**
-                    \</div>**
-                    \<div class="card">**
-                            \<div class="card-header" role="tab" id="albertohead">**
-                            \<h3 class="mb-0">**
-                                \<a class="collapsed" data-toggle="collapse" data-target="#alberto">**
-                                Alberto Somayya \<small>Executive Chef\</small>**
-                                \</a>**
-                            \</h3>**
-                        \</div>**
-                        \<div class="collapse" id="alberto" data-parent="#accordion">**
-                            \<div class="card-body">**
-                                \<p class="d-none d-sm-block">. . .\</em>\</p>**
-                            \</div>**
+                    <div class="card">
+                            <div class="card-header" role="tab" id="dannyhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#danny">
+                                Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="danny" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">. . .</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" role="tab" id="agumbehead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+                                Agumbe Tang <small>Chief Taste Officer</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="agumbe" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">. . .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" role="tab" id="albertohead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+                                Alberto Somayya <small>Executive Chef</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="alberto" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">. . .</em></p>
+                            </div>
 ```
 
 -   After completing the update, check the behavior of the accordion on
@@ -10727,7 +10724,7 @@ together with the card component.
 
 ### PDFs of Presentations
 
-**09-Collapse.pdf**
+> 09-Collapse.pdf
 
 **Bootstrap Resources**
 
@@ -11273,7 +11270,7 @@ revealing content for the user upon clicking on a button or a link.
 
 ### PDFs of Presentations
 
-**09-Tooltips-Popovers-Modals.pdf**
+> 09-Tooltips-Popovers-Modals.pdf*
 
 ### Bootstrap Resources
 
@@ -11591,7 +11588,7 @@ able to:
                             <img class="d-block img-fluid"
                                 src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">\$4.99</span></h2>
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
                                 . . .
                             </div>
                         </div>
@@ -11648,12 +11645,12 @@ remaining parts from the content rows below.
     bottom of the carousel div:
 
 ```
-                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"\>
-                        <span class="carousel-control-prev-icon"\></span\>
-                    </a\>
-                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"\>
-                        <span class="carousel-control-next-icon"\></span\>
-                    </a\>
+                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
 ```
 
 -   Do a Git commit with the message "Carousel".
@@ -11669,7 +11666,7 @@ We also learnt about introducing manual controls to the carousel.
 
 ### PDFs of Presentations
 
-**09-Carousel.pdf**
+> 09-Carousel.pdf
 
 Open file
 
@@ -12953,9 +12950,9 @@ to:
     the button to toggle the carousel cycling behavior:
 
 ```
-                    <button class="btn btn-danger btn-sm" id="carouselButton"\>
-                        <span id="carousel-button-icon" class="fa fa-pause"\></span\>
-                    </button\>
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
 ```
 
 We are adding a single button inside a button group with the ID
@@ -12968,16 +12965,16 @@ based on the current behavior of the carousel.
     carousel and also show the appropriate button:
 
 ```
-            \$("#carouselButton").click(function(){
-                if (\$("#carouselButton").children("span").hasClass(\'fa-pause\')) {
-                    \$("#mycarousel").carousel(\'pause\');
-                    \$("#carouselButton").children("span").removeClass(\'fa-pause\');
-                    \$("#carouselButton").children("span").addClass(\'fa-play\');
+            $("#carouselButton").click(function(){
+                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                    $("#mycarousel").carousel('pause');
+                    $("#carouselButton").children("span").removeClass('fa-pause');
+                    $("#carouselButton").children("span").addClass('fa-play');
                 }
-                else if (\$("#carouselButton").children("span").hasClass(\'fa-play\')){
-                    \$("#mycarousel").carousel(\'cycle\');
-                    \$("#carouselButton").children("span").removeClass(\'fa-play\');
-                    \$("#carouselButton").children("span").addClass(\'fa-pause\');                    
+                else if ($("#carouselButton").children("span").hasClass('fa-play')){
+                    $("#mycarousel").carousel('cycle');
+                    $("#carouselButton").children("span").removeClass('fa-play');
+                    $("#carouselButton").children("span").addClass('fa-pause');
                 }
             });
 ```
@@ -12994,7 +12991,7 @@ the behavior of a Bootstrap JS component.
 
 ### PDFs of Presentations
 
-**09-Bootstrap-JQuery.pdf**
+> 09-Bootstrap-JQuery.pdf
 
 ### Bootstrap Resources
 
@@ -13793,7 +13790,7 @@ generating the CSS file by compiling the Scss code.
 
 ### PDFs of Presentations
 
-**10-CSS-Preprocessors.pdf**
+> 10-CSS-Preprocessors.pdf
 
 ### Less and Sass Resources
 
@@ -14911,10 +14908,8 @@ deployment using NPM scripts.
 
 ### PDFs of Presentations
 
-```
-10-Building-Deployment.pdf
-10-NPM-Scripts.pdf
-```
+> 10-Building-Deployment.pdf
+> 10-NPM-Scripts.pdf
 
 ### Additional Resources
 
@@ -16125,8 +16120,8 @@ build your web project.
     needed. To do this, install the following Grunt modules:
 
 ```
-npm install grunt-contrib-copy@1.0.0 \--save-dev
-npm install grunt-contrib-clean@1.1.0 \--save-dev
+npm install grunt-contrib-copy@1.0.0 --save-dev
+npm install grunt-contrib-clean@1.1.0 --save-dev
 ```
 
 -   You will now add the code to perform the copying of files to the
@@ -16177,14 +16172,13 @@ npm install grunt-contrib-clean@1.1.0 \--save-dev
     process the images. To install this module type at the prompt:
 
 ```
-npm install grunt-contrib-imagemin@2.0.1 \--save-dev
+npm install grunt-contrib-imagemin@2.0.1 --save-dev
 ```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
 
 ```
 ,
->
         imagemin: {
             dynamic: {
                 files: \[{
@@ -16205,12 +16199,12 @@ npm install grunt-contrib-imagemin@2.0.1 \--save-dev
     modules:
 
 ```
- npm install grunt-contrib-concat@1.0.1 \--save-dev
- npm install grunt-contrib-cssmin@2.2.1 \--save-dev
- npm install grunt-contrib-htmlmin@2.4.0 \--save-dev
- npm install grunt-contrib-uglify@3.3.0 \--save-dev
- npm install grunt-filerev@2.3.1 \--save-dev
- npm install grunt-usemin@3.1.1 \--save-dev
+ npm install grunt-contrib-concat@1.0.1 --save-dev
+ npm install grunt-contrib-cssmin@2.2.1 --save-dev
+ npm install grunt-contrib-htmlmin@2.4.0 --save-dev
+ npm install grunt-contrib-uglify@3.3.0 --save-dev
+ npm install grunt-filerev@2.3.1 --save-dev
+ npm install grunt-usemin@3.1.1 --save-dev
 ```
 
 -   Next, update the task configuration within the Gruntfile.js with the
@@ -16218,7 +16212,6 @@ npm install grunt-contrib-imagemin@2.0.1 \--save-dev
 
 ```
 ,
- 
         useminPrepare: {
             foo: {
                 dest: \'dist\',
@@ -16261,26 +16254,26 @@ npm install grunt-contrib-imagemin@2.0.1 \--save-dev
     that useminPrepare task depends on the usemin package:
 
 ```
-require(\'jit-grunt\')(grunt, {
-  useminPrepare: \'grunt-usemin\'
+require('jit-grunt')(grunt, {
+  useminPrepare: 'grunt-usemin'
 });
 ```
 
 -   Next, update the Grunt build task as follows:
 
 ```
-    grunt.registerTask(\'build\', \[
-        \'clean\',
-        \'copy\',
-        \'imagemin\',
-        \'useminPrepare\',
-        \'concat\',
-        \'cssmin\',
-        \'uglify\',
-        \'filerev\',
-        \'usemin\',
-        \'htmlmin\'
-    \]);
+    grunt.registerTask('build', [
+        'clean',
+        'copy',
+        'imagemin',
+        'useminPrepare',
+        'concat',
+        'cssmin',
+        'uglify',
+        'filerev',
+        'usemin',
+        'htmlmin'
+    ]);
 ```
 
 -   Now if you run Grunt, it will create a dist folder with the files
@@ -16606,11 +16599,10 @@ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
     Gulp file:
 
 ```
-\'use strict\';
- 
-var gulp = require(\'gulp\'),
-    sass = require(\'gulp-sass\'),
->     browserSync = require(\'browser-sync\');
+'use strict';
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync');
 ```
 
 ### Adding Gulp Tasks for SASS and Browser-Sync
@@ -16630,24 +16622,21 @@ var gulp = require(\'gulp\'),
 > });
 >  
 > gulp.task(\'browser-sync\', function () {
->    var files = \[
->       \'./\*.html\',
->       \'./css/\*.css\',
->       \'./img/\*.{png,jpg,gif}\',
->       \'./js/\*.js\'
->    \];
->  
+>    var files = [
+>       './*.html',
+>       './css/*.css',
+>       './img/*.{png,jpg,gif}',
+>       './js/*.js'
+>    ];
 >    browserSync.init(files, {
 >       server: {
 >          baseDir: "./"
 >       }
 >    });
->  
 > });
->  
 > // Default task
-> gulp.task(\'default\', \[\'browser-sync\'\], function() {
->     gulp.start(\'sass:watch\');
+> gulp.task('default', ['browser-sync'], function() {
+>     gulp.start('sass:watch');
 > });
 >  
 ```
@@ -16692,10 +16681,10 @@ At the end of this exercise, you will be able to:
     *del* Node module and require it in the Gulp file as follows:
 
 ```
-> npm install del@3.0.0 \--save-dev
-> var \...
->     del = require(\'del\'),
->     \...
+> npm install del@3.0.0 --save-dev
+> var ...
+>     del = require('del'),
+>     ...
 ```
 
 -   Next, we will add the code for the Clean task and the copyfonts task
@@ -16703,13 +16692,13 @@ At the end of this exercise, you will be able to:
 
 ```
 > // Clean
-> gulp.task(\'clean\', function() {
->     return del(\[\'dist\'\]);
+> gulp.task('clean', function() {
+>     return del(['dist']);
 > });
 >  
-> gulp.task(\'copyfonts\', function() {
->    gulp.src(\'./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*\')
->    .pipe(gulp.dest(\'./dist/fonts\'));
+> gulp.task('copyfonts', function() {
+>    gulp.src('./node_modules/font-awesome/fonts//.{ttf,woff,eof,svg}')
+>    .pipe(gulp.dest('./dist/fonts'));
 > });
 ```
 
@@ -16720,23 +16709,23 @@ At the end of this exercise, you will be able to:
     follows:
 
 ```
-npm install gulp-imagemin@4.1.0 \--save-dev
+npm install gulp-imagemin@4.1.0 --save-dev
 ```
 
 ```
-> var \...
->     imagemin = require(\'gulp-imagemin\'),
->     \...
+> var ...
+>     imagemin = require('gulp-imagemin'),
+>     ...
 ```
 
 -   Next, we create the *imagemin* task as follows:
 
 ```
 > // Images
-> gulp.task(\'imagemin\', function() {
->   return gulp.src(\'img/\*.{png,jpg,gif}\')
+> gulp.task('imagemin', function() {
+>   return gulp.src('img/*.{png,jpg,gif}')
 >     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
->     .pipe(gulp.dest(\'dist/img\'));
+>     .pipe(gulp.dest('dist/img'));
 > });
 ```
 
@@ -16746,15 +16735,15 @@ npm install gulp-imagemin@4.1.0 \--save-dev
     require them as follows:
 
 ```
-> npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 \--save-dev
+> npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
 >  
-> var \...
->     uglify = require(\'gulp-uglify\'),
->     usemin = require(\'gulp-usemin\'),
->     rev = require(\'gulp-rev\'),
->     cleanCss = require(\'gulp-clean-css\'),
->     flatmap = require(\'gulp-flatmap\'),
->     htmlmin = require(\'gulp-htmlmin\');
+> var ...
+>     uglify = require('gulp-uglify'),
+>     usemin = require('gulp-usemin'),
+>     rev = require('gulp-rev'),
+>     cleanCss = require('gulp-clean-css'),
+>     flatmap = require('gulp-flatmap'),
+>     htmlmin = require('gulp-htmlmin');
 ```
 
 -   We configure the usemin and the build task as follows:
@@ -16765,11 +16754,11 @@ npm install gulp-imagemin@4.1.0 \--save-dev
 >   .pipe(flatmap(function(stream, file){
 >       return stream
 >         .pipe(usemin({
->             css: \[ rev() \],
->             html: \[ function() { return htmlmin({ collapseWhitespace: true })} \],
->             js: \[ uglify(), rev() \],
->             inlinejs: \[ uglify() \],
->             inlinecss: \[ cleanCss(), \'concat\' \]
+>             css: [ rev() \],
+>             html: [ function() { return htmlmin({ collapseWhitespace: true })} \],
+>             js: [ uglify(), rev() \],
+>             inlinejs: [ uglify() \],
+>             inlinecss: [ cleanCss(), \'concat\' \]
 >         }))
 >     }))
 >     .pipe(gulp.dest(\'dist/\'));
@@ -16802,9 +16791,7 @@ development tasks.
 
 ### PDFs of Presentations
 
-```
-10-Task-Runners.pdf
-```
+> 10-Task-Runners.pdf
 
 ### Grunt Resources
 
@@ -17036,4 +17023,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 5:39pm ---->
+<!--- last updated: 09/19/2022 at 7:26pm ---->
