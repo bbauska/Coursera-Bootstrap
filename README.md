@@ -174,26 +174,26 @@ c.  Then we\'ll review CSS pre-processing language is like **LESS** and
     > **Sass**.
 
 d.  Then, **finally**, we\'ll look at how we can build and deploy our
-    > website using **NPM scripts** or **task runners** like **Grunt**
-    > and **Gulp**.
+    website using **NPM scripts** or **task runners** like **Grunt**
+    and **Gulp**.
 
-> This should take you all the way to the final assignment in this
-> course. I hope you will have a lot of fun doing the various parts of
-> this course and also enjoy the exercises that you\'ll encounter at
-> each stage that enable you to better understand various aspects of the
-> Bootstrap web UI framework.
+This should take you all the way to the final assignment in this
+course. I hope you will have a lot of fun doing the various parts of
+this course and also enjoy the exercises that you\'ll encounter at
+each stage that enable you to better understand various aspects of the
+Bootstrap web UI framework.
 
 ## Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources
 
 ### Bootstrap Resources
 
-<h3 align="center">
+<h3 align="left">
     <a href="http://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
     <a href="https://bootstrap.com/" target="_blank"></a></h3>
 
 ### Coursera Resources
 
-<h3 align="center">
+<h3 align="left">
     <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
 
 #### (https://www.coursera.support/s/learner-help-center?language=en_US) {#httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph}
@@ -220,11 +220,11 @@ development. At the end of this lesson, you will be able to:
 ## What is Full-Stack Web Development?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 03. (xx) -------------------------------------------->
+<!------------------ 03. three-tier architecture - presentation layer (xx) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
-   alt="Image 3."
+   alt="Three-Tier Architecture."
    width="50%" />
 </p>
 
@@ -253,7 +253,7 @@ We often hear people talking about the three tier architecture for Web
 Development.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 04. (xx) -------------------------------------------->
+<!---------------------- 04. three-tier architecture - business layer (xx) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
@@ -276,7 +276,7 @@ This is usually the UI-related concerns that are dealt with at the
 presentation layer.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 05. (xx) -------------------------------------------->
+<!------------------ 05. three-tier architecture - data access layer (xx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
@@ -297,7 +297,7 @@ This is backed up behind the scenes with the **data persistence layer or
 the data access layer**.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 06. (xx) -------------------------------------------->
+<!---------------------------- 06. traditional web development (xx) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
@@ -6240,35 +6240,23 @@ exercise, you will be able to:
     provides links to the other pages on the website. Start by adding
     the following code to the body just above the header jumbotron.
 
+```
 > **    \<nav class=\"navbar navbar-dark navbar-expand-sm bg-primary fixed-top\"\>**
->
 > **        \<div class=\"container\"\>**
->
 > **           \<a class=\"navbar-brand\" href=\"#\"\>Ristorante Con Fusion\</a\>**
->
 > **                \<ul class=\"navbar-nav mr-auto\"\>**
->
 > **                    \<li class=\"nav-item active\"\>\<a class=\"nav-**
->
 > **link\" href=\"#\"\>Home\</a\>\</li\>**
->
 > **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
->
 > **link\" href=\"[./aboutus.html]{.underline}\"\>About\</a\>\</li\>**
->
 > **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
->
 > **link\" href=\"#\"\>Menu\</a\>\</li\>**
->
 > **                    \<li class=\"nav-item\"\>\<a class=\"nav-**
->
 > **link\" href=\"#\"\>Contact\</a\>\</li\>**
->
 > **                \</ul\>            **
->
 > **        \</div\>**
->
 > **    \</nav\>**
+```
 
 In the above code, we can see the use of the nav element to specify the
 navigation information for the website. This nav element is styled by
@@ -6291,11 +6279,11 @@ the navigation bar.
     This can be achieved by adding the following code to the navigation
     bar, just below the container div
 
+```
 > **\<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#Navbar\"\>**
->
 > **\<span class=\"navbar-toggler-icon\"\>\</span\>**
->
 > **\</button\>**
+```
 
 This creates a button with three horizontal lines. For medium to extra
 large screens, this button is hidden. For small and extra small screens,
@@ -6305,11 +6293,13 @@ navbar items.
 -   To hide the items from the navigation bar for the small screens, we
     need to enclose the *ul* within another div as follows:
 
+```
 > **\<div class=\"collapse navbar-collapse\" id=\"Navbar\"\>**
 >
 > **\<ul class=\"navbar-nav mr-auto\"\> \... \</ul\>**
 >
 > **\</div\>**
+```
 
 By doing this, we are specifying that this div with *collapse* and
 *navbar-collapse* classes and with the id N*avbar* will be collapsed on
@@ -6336,6 +6326,7 @@ toggle button.
     under the navigation bar. We accomplish these by adding these CSS
     customisations to the *styles.css* file
 
+```
 > **body{**
 >
 > **    padding:50px 0px 0px 0px;**
@@ -6353,6 +6344,7 @@ toggle button.
 > **}**
 >
 > ** **
+```
 
 -   Remember to delete the *bg-primary* class from the \<nav\> element
     in both *index.html* and *aboutus.html.*
@@ -6366,6 +6358,7 @@ toggle button.
     and breadcrumb-item classes to add the following to the row
     containing the About Us title in *aboutus.html*.
 
+```
 > **   \<ol class=\"col-12 breadcrumb\"\>**
 >
 > **   
@@ -6374,6 +6367,7 @@ toggle button.
 > **      \<li class=\"breadcrumb-item active\"\>About Us\</li\>**
 >
 > **   \</ol\>**
+```
 
 -   Save all the changes and commit to your Git repository with a
     message \"Navbar and Breadcrumbs\".
@@ -6663,27 +6657,34 @@ installed, then the font icons are not showing up in their browser.
     this icon font. You can get Font Awesome using npm by typing the
     following at the prompt:
 
+```
 **npm install font-awesome@4.7.0 \--save**
+```
 
 -   Another module that we install is Bootstrap Social that enables the
     addition of Social buttons to our site. You can find more
     information about it at <https://lipis.github.io/bootstrap-social/>.
     To install it using npm, type the following at the prompt:
 
+```
 **npm install bootstrap-social@5.1.1 \--save**
+```
 
 -   We now need to include the CSS files for font awesome and
     bootstrap-social in the index.html file. Add the following code to
     the head of the file after the links for importing Bootstrap CSS
     classes. Do the same change to aboutus.html file:
 
+```
 > **\<link rel=\"stylesheet\" href=\"[node_modules/font-awesome/css/font-awesome.min.css]{.underline}\"\>**
 >
 > **\<link rel=\"stylesheet\" href=\"[node_modules/bootstrap-social/bootstrap-social.css]{.underline}\"\>**
+```
 
 -   Let us now use some font icons in our web page and decorate it.
     Update the navbar\'s ul list items as follows in index.html:
 
+```
 > **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-address-card fa-lg\"\>\</span\> Contact\</a\>\</li\>**
 >
 > **\<li class=\"nav-item active\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-home fa-lg\"\>\</span\> Home\</a\>\</li\>**
@@ -6691,10 +6692,12 @@ installed, then the font icons are not showing up in their browser.
 > **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"[./aboutus.html]{.underline}\"\>\<span class=\"fa fa-info fa-lg\"\>\</span\> About\</a\>\</li\>**
 >
 > **\<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-list fa-lg\"\>\</span\> Menu\</a\>\</li\>**
+```
 
 -   Similarly update the navbar\'s ul list items as follows in
     aboutus.html:
 
+```
 > **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"[./index.html]{.underline}\"\>\<span class=\"fa fa-home fa-lg\"\>\</span\> Home\</a\>\</li\>**
 >
 > **    \<li class=\"nav-item active\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-info fa-lg\"\>\</span\> About\</a\>\</li\>**
@@ -6702,12 +6705,14 @@ installed, then the font icons are not showing up in their browser.
 > **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-list fa-lg\"\>\</span\> Menu\</a\>\</li\>**
 >
 > **    \<li class=\"nav-item\"\>\<a class=\"nav-link\" href=\"#\"\>\<span class=\"fa fa-address-card fa-lg\"\>\</span\> Contact\</a\>\</li\>**
+```
 
 -   Next, in both index.html and aboutus.html, go down to the address in
     the footer of the page and replace the \"Tel.\", \"Fax\" and
     \"Email\" with the corresponding font awesome based icons as
     follows:
 
+```
 > **\<i class=\"fa fa-phone fa-lg\"\>\</i\>: +852 1234 5678\<br\>**
 >
 > **\<i class=\"fa fa-fax fa-lg\"\>\</i\>: +852 8765 4321\<br\>**
@@ -6715,8 +6720,7 @@ installed, then the font icons are not showing up in their browser.
 > **\<i class=\"fa fa-envelope fa-lg\"\>\</i\>: **
 >
 > **\<a href=\"[mailto:confusion@food.net]{.underline}\"\>confusion@food.net\</a\>**
-
- 
+```
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
     social buttons in the footer in both index.html and aboutus.html, by
@@ -7708,6 +7712,7 @@ Download file
     \"Button group goes here\", and replace it with the following code
     to create a button bar containing three buttons:
 
+```
 > **                \<div class=\"btn-group\" role=\"group\"\>**
 >
 > **                    \<a role=\"button\" class=\"btn btn-primary\" href=\"[tel:+85212345678]{.underline}\"\>\<i class=\"fa fa-phone\"\>\</i\> Call\</a\>**
@@ -7717,6 +7722,7 @@ Download file
 > **                    \<a role=\"button\" class=\"btn btn-success\" href=\"[mailto:confusion@food.net]{.underline}\"\>\<i class=\"fa fa-envelope-o\"\>\</i\> Email\</a\>**
 >
 > **                \</div\>**
+```
 
 Note how we define the button bar using the *btn-group* class, and then
 add the three buttons using the *\<a\>* tag. In this case, the three
@@ -8139,39 +8145,26 @@ be able to:
     \"Form goes here\". Add the following code to page to create a
     simple horizontal form with two fields:
 
+```
 > **                \<form\>**
->
 > **                    \<div class=\"form-group row\"\>**
->
 > **                        \<label for=\"firstname\" class=\"col-md-2 col-form-label\"\>First Name\</label\>**
->
 > **                        \<div class=\"col-md-10\"\>**
->
 > **      \<input type=\"text\" class=\"form-
 > control\" id=\"firstname\" name=\"firstname\" placeholder=\"First Name\"\>**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
->
 > **                    \<div class=\"form-group row\"\>**
->
 > **                        \<label for=\"lastname\" class=\"col-md-2 col-form-label\"\>Last Name\</label\>**
->
 > **                        \<div class=\"col-md-10\"\>**
->
 > **                        \<input type=\"text\" class=\"form-
 > control\" id=\"lastname\" name=\"lastname\" placeholder=\"Last Name\"\>**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
->
 > **                \</form\>**
->
 > ** **
->
 > ** **
+```
 
 This creates a form with two elements in the form. Note that the class
 *row* in the form enables us to use the Bootstrap grid system. Hence we
@@ -8179,106 +8172,76 @@ can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user\'s telephone number and email:
 
+```
 > **\<div class=\"form-group row\"\>**
->
 > **    \<label for=\"telnum\" class=\"col-12 col-md-2 col-form-label\"\>Contact Tel.\</label\>**
->
 > **    \<div class=\"col-5 col-md-3\"\>**
->
 > **    \<input type=\"tel\" class=\"form-control\" id=\"areacode\" name=\"areacode\" placeholder=\"Area code\"\>**
->
 > **    \</div\>**
->
 > **    \<div class=\"col-7 col-md-7\"\>**
->
 > **    \<input type=\"tel\" class=\"form-control\" id=\"telnum\" name=\"telnum\" placeholder=\"Tel. number\"\>**
->
 > **    \</div\>**
->
 > **    \</div\>**
->
 > **    \<div class=\"form-group row\"\>**
->
 > **    \<label for=\"emailid\" class=\"col-md-2 col-form-label\"\>Email\</label\>**
->
 > **    \<div class=\"col-md-10\"\>**
->
 > **    \<input type=\"email\" class=\"form-control\" id=\"emailid\" name=\"emailid\" placeholder=\"Email\"\>**
->
 > **    \</div\>**
->
 > **    \</div\>**
+```
 
 ### Adding a Checkbox and Select
 
 -   We now see the addition of a checkbox and a select element to the
     form. Note the styling of these elements using Bootstrap classes:
 
+```
 **         \<div class=\"form-group row\"\>**
-
 **          \<div class=\"col-md-6 offset-md-2\"\>**
-
 **               \<div class=\"form-check\"\>**
-
 **               
 \<input type=\"checkbox\" class=\"form-check-input\" name=\"approve\" id=\"approve\" value=\"\"\>**
-
 **                  \<label class=\"form-check-label\" for=\"approve\"\>**
-
 **                  \<strong\>May we contact you?\</strong\>**
-
 **                  \</label\>**
-
 **               \</div\>**
-
 **            \</div\>**
-
 **            \<div class=\"col-md-3 offset-md-1\"\>**
-
 **             \<select class=\"form-control\"\>**
-
 **                \<option\>Tel.\</option\>**
-
 **                  \<option\>Email\</option\>**
-
 **                  \</select\>**
-
 **               \</div\>**
-
 **            \</div\>**
+```
 
 ### Adding a textarea
 
 -   Next we add a textarea for the users to submit their feedback
     comments as follows:
 
+```
 > **\<div class=\"form-group row\"\>**
->
 > **      
 > \<label for=\"feedback\" class=\"col-md-2 col-form-label\"\>Your Feedback\</label\>**
->
 > **      \<div class=\"col-md-10\"\>**
->
 > **         \<textarea class=\"form-control\" id=\"feedback\" name=\"feedback\" rows=\"12\"\>\</textarea\>**
->
 > **      \</div\>**
->
 > **   \</div\>**
+```
 
 ### Adding the Submit Button
 
 -   Finally, we add the submit button to the form as follows:
 
+```
 > **     \<div class=\"form-group row\"\>**
->
 > **        \<div class=\"offset-md-2 col-md-10\"\>**
->
 > **        
 > \<button type=\"submit\" class=\"btn btn-primary\"\>Send Feedback\</button\>**
->
 > **        \</div\>**
->
 > **     \</div\>**
+```
 
 Note the declaration of the type for the button to *submit*.
 
@@ -8747,99 +8710,59 @@ displaying content. At the end of this exercise, you will be able to:
     Leadership row in the page. We first start by adding a row and
     columns to the page as follows:
 
+```
 > **        \<div class=\"row row-content\"\>**
->
 > **            \<div class=\"col-12 col-sm-9\"\>**
->
 > **                \<h2\>Facts &amp; Figures\</h2\>**
->
 > **            \</div\>**
->
 > **             \<div class=\"col-12 col-sm-3\"\>**
->
 > **            \</div\>**
->
 > **       \</div\> **
->
 > ** **
+```
 
 -   Inside the first column of this row, insert the table as follows:
 
+```
 > **                \<div class=\"table-responsive\"\>**
->
 > **                    \<table class=\"table table-striped\"\>**
->
 > **                        \<thead class=\"thead-dark\"\>**
->
 > **                            \<tr\>**
->
 > **                                \<th\>&nbsp;\</th\>**
->
 > **                                \<th\>2013\</th\>**
->
 > **                                \<th\>2014\</th\>**
->
 > **                                \<th\>2015\</th\>**
->
 > **                            \</tr\>**
->
 > **                        \</thead\>**
->
 > **                        \<tbody\>**
->
 > **                            \<tr\>**
->
 > **                                \<th\>Employees\</th\>**
->
 > **                                \<td\>15\</td\>**
->
 > **                                \<td\>30\</td\>**
->
 > **                                \<td\>40\</td\>**
->
 > **                            \</tr\>**
->
 > **                            \<tr\>**
->
 > **                                \<th\>Guests Served\</th\>**
->
 > **                                \<td\>15000\</td\>**
->
 > **                                \<td\>45000\</td\>**
->
 > **                                \<td\>100,000\</td\>**
->
 > **                            \</tr\>**
->
 > **                            \<tr\>**
->
 > **                                \<th\>Special Events\</th\>**
->
 > **                                \<td\>3\</td\>**
->
 > **                                \<td\>20\</td\>**
->
 > **                                \<td\>45\</td\>**
->
 > **                            \</tr\>**
->
 > **                            \<tr\>**
->
 > **                                \<th\>Annual Turnover\</th\>**
->
 > **                                \<td\>\$251,325\</td\>**
->
 > **                                \<td\>\$1,250,375\</td\>**
->
 > **                                \<td\>\~\$3,000,000\</td\>**
->
 > **                            \</tr\>**
->
 > **                        \</tbody\>**
->
 > **                    \</table\>**
->
 > **                \</div\>**
+```
 
 Note the use of *table-responsive* class to create a responsive table,
 and the *table-striped* and *thead-inverse* classes for styling the
@@ -8851,43 +8774,29 @@ table.
     follows, updating the div first by adding the classes col-12
     col-sm-6 to it and then adding the card:
 
+```
 > **            \<div class=\"col-12 col-sm-6\"\>**
->
 > **                \<div class=\"card\"\>**
->
 > **                    \<h3 class=\"card-header bg-primary text-white\"\>Facts At a Glance\</h3\>**
->
 > **                    \<div class=\"card-body\"\>**
->
 > **                        \<dl class=\"row\"\>**
->
 > **                            \<dt class=\"col-6\"\>Started\</dt\>**
->
 > **                            \<dd class=\"col-6\"\>3 Feb. 2013\</dd\>**
->
 > **                            \<dt class=\"col-6\"\>Major Stake Holder\</dt\>**
->
 > **                            \<dd class=\"col-6\"\>HK Fine Foods Inc.\</dd\>**
->
 > **                            \<dt class=\"col-6\"\>Last Year\'s Turnover\</dt\>**
->
 > **                            \<dd class=\"col-6\"\>\$1,250,375\</dd\>**
->
 > **                            \<dt class=\"col-6\"\>Employees\</dt\>**
->
 > **                            \<dd class=\"col-6\"\>40\</dd\>**
->
 > **                        \</dl\>**
->
 > **                    \</div\>**
->
 > **                \</div\>**
->
 > **            \</div\>**
 
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
 
+```
             \<div class=\"col-12\"\>
 
                 \<div class=\"card card-body bg-light\"\>
@@ -8911,6 +8820,7 @@ table.
                 \</div\>
 
             \</div\>
+```
 
 Note the use of the *\<blockquote\>* tag to create a block quote in the
 card. We can use a *\<footer\>* inside the block quote to specify the
@@ -8930,9 +8840,11 @@ content.
 
 ### PDFs of Presentations
 
+```
 > **08-Bootstrap-Tables.pdf**
 >
 > **08-Bootstrap-Cards.pdf**
+```
 
 ### Bootstrap Classes
 
@@ -9271,11 +9183,11 @@ At the end of this exercise you will be able to:
     go to the header row inside the jumbotron and replace the second
     \<div\> column with the following code:
 
+```
 > **     \<div class=\"col-12 col-sm align-self-center\"\>**
->
 > **          \<img src=\"[img/logo.png]{.underline}\" class=\"img-fluid\"\>**
->
 > **      \</div\>**
+```
 
 You will immediately notice the restaurant logo being displayed in the
 jumbotron.
@@ -9284,11 +9196,10 @@ jumbotron.
     restaurant brand. Go to the navbar and replace the code there for
     the \<a\> tag with the \"navbar-brand\"            
 
+```
 **\<a class=\"navbar-brand mr-auto\" href=\"#\"\>\<img src=\"[img/logo.png]{.underline}\" height=\"30\" width=\"41\"\>\</a\>**
-
-**            **
-
 **Note the inclusion of the logo in the navbar.**
+```
 
 -   Repeat the above two steps for the *aboutus.html* and the
     *contactus.html* page also to update their navbars and jumbotrons.
@@ -9302,29 +9213,20 @@ jumbotron.
     column containing the description of Uthappizza with the following
     code:
 
+```
 > **                \<div class=\"media\"\>**
->
 > **                    \<img class=\"d-flex mr-3 img-thumbnail align-self-center\"**
->
 > **                            src=\"[img/uthappizza.png]{.underline}\" alt=\"Uthappizza\"\>**
->
 > **                    \<div class=\"media-body\"\>**
->
 > **                        \<h2 class=\"mt-0\"\>Uthappizza\</h2\>**
->
 > **                        \<p class=\"d-none d-sm-block\"\>A unique combination of Indian Uthappam (pancake) and**
->
 > **                            Italian pizza, topped with Cerignola olives, ripe vine**
->
 > **                            cherry tomatoes, Vidalia onion, Guntur chillies and**
->
 > **                            Buffalo Paneer.\</p\>**
->
 > **                    \</div\>**
->
 > **                \</div\>**
->
 > ** **
+```
 
 Note the use of the *media* class and the related Bootstrap classes to
 style the content.
@@ -9333,32 +9235,20 @@ style the content.
     second column containing the description about Alberto with the
     following content:
 
+```
 > **                \<div class=\"media\"\>**
->
 > **                    \<img class=\"d-flex mr-3 img-thumbnail align-self-center\"**
->
 > **                            src=\"[img/alberto.png]{.underline}\" alt=\"Alberto Somayya\"\>**
->
 > **                    \<div class=\"media-body\"\>**
->
 > **                        \<h2 class=\"mt-0\"\>Alberto Somayya\</h2\>**
->
 > **                        \<h4\>Executive Chef\</h4\>**
->
 > **                        \<p class=\"d-none d-sm-block\"\>Award winning three-star Michelin chef with wide**
->
 > **                            International experience having worked closely with**
->
 > **                            whos-who in the culinary world, he specializes in**
->
 > **                            creating mouthwatering Indo-Italian fusion experiences.**
->
 > **                            \</p\>**
->
 > **                    \</div\>**
->
 > **                \</div\>**
->
 > **                **
 
 -   Finally, do a Git commit with a message \"Images and Media\".
@@ -9560,12 +9450,16 @@ alerting users. At the end of this exercise, you will be able to:
     the first content row. To do this, add the following code inside the
     *\<h2\>* containing the name of the dish:
 
+```
 > **\<span class=\"badge badge-danger\"\>HOT\</span\>**
+```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
     tag in the web page. Add the following code to the *\<h2\>* tag:
 
+```
 > **\<span class=\"badge badge-pill badge-secondary\"\>\$4.99\</span\>**
+```
 
 -   Remember to commit the changes to the Git repository with message
     \"Alerting Users\".
@@ -10396,41 +10290,26 @@ content. At the end of this exercise you will be able to:
 -   Right after the Corporate Leadership heading, introduce the
     following code to set up the tabbed navigation:
 
+```
 > **                \<ul class=\"nav nav-tabs\"\>**
->
 > **                    \<li class=\"nav-item\"\>**
->
 > **                      \<a class=\"nav-link active\" href=\"#peter\"**
->
 > **                        role=\"tab\" data-toggle=\"tab\"\>Peter Pan, CEO\</a\>**
->
 > **                    \</li\>**
->
 > **                    \<li class=\"nav-item\"\>**
->
 > **                      \<a class=\"nav-link\" href=\"#danny\" role=\"tab\"**
->
 > **                        data-toggle=\"tab\"\>Danny Witherspoon, CFO\</a\>**
->
 > **                    \</li\>**
->
 > **                    \<li class=\"nav-item\"\>**
->
 > **                      \<a class=\"nav-link\" href=\"#agumbe\"role=\"tab\"**
->
 > **                        data-toggle=\"tab\"\>Agumbe Tang, CTO\</a\>**
->
 > **                    \</li\>**
->
 > **                    \<li class=\"nav-item\"\>**
->
 > **                      \<a class=\"nav-link\" href=\"#alberto\" role=\"tab\"**
->
 > **                        data-toggle=\"tab\"\>Alberto Somayya, Exec. Chef\</a\>**
->
 > **                    \</li\>**
->
 > **                \</ul\>**
+```
 
 Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes
 to set up the tab navigation. Each list item within the list acts as the
@@ -10449,26 +10328,23 @@ navigation that we just set up.
     entire content into a div element with the class tab-content as
     specified below:
 
+```
 > **                \<div class=\"tab-content\"\>**
->
 > ** **
->
 > **                    \...**
->
 > **    **
->
 > **                \</div\>**
+```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
+```
 > **                    \<div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"peter\"\>**
->
 > **                        \<h3\>Peter Pan \<small\>Chief Epicurious Officer\</small\>\</h3\>**
->
 > **                        \<p\> \... \</p\>**
->
 > **                    \</div\>**
+```
 
 Note the use of the *tab-pane, fade, show,* and *active* classes and
 with *peter* as the id. This is the same id used as the *href* in the
@@ -10485,17 +10361,14 @@ with *peter* as the id. This is the same id used as the *href* in the
 -   We now modify the CSS styles for the tab-content class in the
     *mystyles.css* file as follows:
 
+```
 > **.tab-content {**
->
 > **    border-left: 1px solid #ddd;**
->
 > **    border-right: 1px solid #ddd;**
->
 > **    border-bottom: 1px solid #ddd;**
->
 > **    padding: 10px;**
->
 > **}**
+```
 
 This modification adds a 1px border to the tab content which joins with
 the upper border introduced by the tab navigation element to give a
@@ -10840,127 +10713,79 @@ in a web page. At the end of this exercise, you will be able to:
 -   Then the turn the *tab-content* div into a *accordion* div. Use the
     code structure as shown below:
 
+```
 > **                \<div id=\"accordion\"\>**
->
 > **                   . . .**
->
 > **                \</div\>**
+```
 
 -   Then, convert the first tab-pane into a card such that the name
     appears as a card heading, and the \<p\> will be in the card body.
     Use the structure of the code as shown below:
 
+```
 > **                    \<div class=\"card\"\>**
->
 > **                        \<div class=\"card-header\" role=\"tab\" id=\"peterhead\"\>**
->
 > **                        \<h3 class=\"mb-0\"\>**
->
 > **                            \<a data-toggle=\"collapse\" data-target=\"#peter\"\>**
->
 > **                            Peter Pan \<small\>Chief Epicurious Officer\</small\>**
->
 > **                            \</a\>**
->
 > **                        \</h3\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"collapse show\" id=\"peter\" data-parent=\"#accordion\"\>**
->
 > **                            \<div class=\"card-body\"\>**
->
 > **                                \<p class=\"d-none d-sm-block\"\>. . .\</p\>**
->
 > **                            \</div\>**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
+```
 
 -   For the remaining three leaders, use the same structure as above,
     with the appropriate ids set up for the cards, as shown in the code
     structure below:
 
+```
 > **                    \<div class=\"card\"\>**
->
 > **                            \<div class=\"card-header\" role=\"tab\" id=\"dannyhead\"\>**
->
 > **                            \<h3 class=\"mb-0\"\>**
->
 > **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#danny\"\>**
->
 > **                                Dhanasekaran Witherspoon \<small\>Chief Food Officer\</small\>**
->
 > **                                \</a\>**
->
 > **                            \</h3\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"collapse\" id=\"danny\" data-parent=\"#accordion\"\>**
->
 > **                            \<div class=\"card-body\"\>**
->
 > **                                \<p class=\"d-none d-sm-block\"\>. . .\</em\>\</p\>**
->
 > **                            \</div\>**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
->
 > **                    \<div class=\"card\"\>**
->
 > **                            \<div class=\"card-header\" role=\"tab\" id=\"agumbehead\"\>**
->
 > **                            \<h3 class=\"mb-0\"\>**
->
 > **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#agumbe\"\>**
->
 > **                                Agumbe Tang \<small\>Chief Taste Officer\</small\>**
->
 > **                                \</a\>**
->
 > **                            \</h3\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"collapse\" id=\"agumbe\" data-parent=\"#accordion\"\>**
->
 > **                            \<div class=\"card-body\"\>**
->
 > **                                \<p class=\"d-none d-sm-block\"\>. . .\</p\>**
->
 > **                            \</div\>**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
->
 > **                    \<div class=\"card\"\>**
->
 > **                            \<div class=\"card-header\" role=\"tab\" id=\"albertohead\"\>**
->
 > **                            \<h3 class=\"mb-0\"\>**
->
 > **                                \<a class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#alberto\"\>**
->
 > **                                Alberto Somayya \<small\>Executive Chef\</small\>**
->
 > **                                \</a\>**
->
 > **                            \</h3\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"collapse\" id=\"alberto\" data-parent=\"#accordion\"\>**
->
 > **                            \<div class=\"card-body\"\>**
->
 > **                                \<p class=\"d-none d-sm-block\"\>. . .\</em\>\</p\>**
->
 > **                            \</div\>**
+```
 
 -   After completing the update, check the behavior of the accordion on
     the web page.
@@ -11439,15 +11264,13 @@ tooltip.
 -   The tooltip needs to be activated by adding a small Javascript code
     to the bottom of the page as follows:
 
+```
 > **    \<script\>**
->
 > **        \$(document).ready(function(){**
->
 > **            \$(\'\[data-toggle=\"tooltip\"\]\').tooltip();**
->
 > **        });**
->
 > **    \</script\>**
+```
 
 This script is added right after the line that imports the
 bootstrap.min.js file.
@@ -11458,89 +11281,55 @@ bootstrap.min.js file.
     the modal, add the following code right after the navbar at the top
     of the page.
 
+```
 > **    \<div id=\"loginModal\" class=\"modal fade\" role=\"dialog\"\>**
->
 > **        \<div class=\"modal-dialog modal-lg\" role=\"content\"\>**
->
 > **            \<!\-- Modal content\--\>**
->
 > **            \<div class=\"modal-content\"\>**
->
 > **                \<div class=\"modal-header\"\>**
->
 > **                    \<h4 class=\"modal-title\"\>Login \</h4\>**
->
 > **                    \<button type=\"button\" class=\"close\" data-dismiss=\"modal\"\>&times;\</button\>**
->
 > **                \</div\>**
->
 > **                \<div class=\"modal-body\"\>**
->
 > **                    \<form\>**
->
 > **                        \<div class=\"form-row\"\>**
->
 > **                            \<div class=\"form-group col-sm-4\"\>**
->
 > **                                    \<label class=\"sr-only\" for=\"exampleInputEmail3\"\>Email address\</label\>**
->
 > **                                    \<input type=\"email\" class=\"form-control form-control-sm mr-1\" id=\"exampleInputEmail3\" placeholder=\"Enter email\"\>**
->
 > **                            \</div\>**
->
 > **                            \<div class=\"form-group col-sm-4\"\>**
->
 > **                                \<label class=\"sr-only\" for=\"exampleInputPassword3\"\>Password\</label\>**
->
 > **                                \<input type=\"password\" class=\"form-control form-control-sm mr-1\" id=\"exampleInputPassword3\" placeholder=\"Password\"\>**
->
 > **                            \</div\>**
->
 > **                            \<div class=\"col-sm-auto\"\>**
->
 > **                                \<div class=\"form-check\"\>**
->
 > **                                    \<input class=\"form-check-input\" type=\"checkbox\"\>**
->
 > **                                    \<label class=\"form-check-label\"\> Remember me**
->
 > **                                    \</label\>**
->
 > **                                \</div\>**
->
 > **                            \</div\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"form-row\"\>**
->
 > **                            \<button type=\"button\" class=\"btn btn-secondary btn-sm ml-auto\" data-dismiss=\"modal\"\>Cancel\</button\>**
->
 > **                            \<button type=\"submit\" class=\"btn btn-primary btn-sm ml-1\"\>Sign in\</button\>        **
->
 > **                        \</div\>**
->
 > **                    \</form\>**
->
 > **                \</div\>**
->
 > **            \</div\>**
->
 > **        \</div\>**
->
 > **    \</div\>**
+```
 
 -   Next we introduce another link on the right side of the navbar in
     order to trigger the display of the modal. To do this, add the
     following code in the navbar after the \</ul\>:
 
+```
 > **                \<span class=\"navbar-text\"\>**
->
 > **                    \<a data-toggle=\"modal\" data-target=\"#loginModal\"\>**
->
 > **                    \<span class=\"fa fa-sign-in\"\>\</span\> Login\</a\>**
->
 > **                \</span\>**
+```
 
 We are introducing another link to the right of the navbar using the
 *navbar-text*. This contains a link with an *\<a\>* tag with the
@@ -11871,47 +11660,34 @@ able to:
 -   Next, add the basic carousel div inside the content row that you
     just added as follows:
 
+```
 > **            \<div id=\"mycarousel\" class=\"carousel slide\" data-ride=\"carousel\"\>**
->
 > ** **
->
 > **            \</div\>**
+```
 
 ### Adding Carousel Content
 
 -   Next add the content inside the carousel as follows:
 
+```
 > **                    \<div class=\"carousel-inner\" role=\"listbox\"\>**
->
 > **                        \<div class=\"carousel-item active\"\>**
->
 > **                            \<img class=\"d-block img-fluid\"**
->
 > **                                src=\"[img/uthappizza.png]{.underline}\" alt=\"Uthappizza\"\>**
->
 > **                            \<div class=\"carousel-caption d-none d-md-block\"\>**
->
 > **                                \<h2\>Uthappizza \<span class=\"badge badge-danger\"\>HOT\</span\> \<span class=\"badge badge-pill badge-default\"\>\$4.99\</span\>\</h2\>**
->
 > **                                . . .**
->
 > **                            \</div\>**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"carousel-item\"\>**
->
 > **                                . . .**
->
 > **                        \</div\>**
->
 > **                        \<div class=\"carousel-item\"\>**
->
 > **                                . . .**
->
 > **                        \</div\>**
->
 > **                    \</div\>**
+```
 
 Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.
@@ -11920,33 +11696,22 @@ remaining parts from the content rows below.
 
 -   Add the following CSS classes to the *styles.css* file:
 
+```
 > **.carousel {**
->
 > **    background:#512DA8;**
->
 > **}**
->
 > ** **
->
 > **.carousel-item {**
->
 > **  height: 300px;**
->
 > **}**
->
 > ** **
->
 > **.carousel-item img {**
->
 > **    position: absolute;**
->
 > **    top: 0;**
->
 > **    left: 0;**
->
 > **    min-height: 300px;**
->
 > **}**
+```
 
 ### Adding Carousel Controls
 
@@ -11955,31 +11720,26 @@ remaining parts from the content rows below.
     after the carousel items in the div of the carousel to add slide
     indicators that enable us to select a specific slide:
 
+```
 > **                    \<ol class=\"carousel-indicators\"\>**
->
 > **                        \<li data-target=\"#mycarousel\" data-slide-to=\"0\" class=\"active\"\>\</li\>**
->
 > **                        \<li data-target=\"#mycarousel\" data-slide-to=\"1\"\>\</li\>**
->
 > **                        \<li data-target=\"#mycarousel\" data-slide-to=\"2\"\>\</li\>**
->
 > **                    \</ol\>**
+```
 
 -   Then, add the left and right controls to the carousel that enable us
     to move to the previous and next slide manually. Add this to the
     bottom of the carousel div:
 
+```
 > **                    \<a class=\"carousel-control-prev\" href=\"[#mycarousel]{.underline}\" role=\"button\" data-slide=\"prev\"\>**
->
 > **                        \<span class=\"carousel-control-prev-icon\"\>\</span\>**
->
 > **                    \</a\>**
->
 > **                    \<a class=\"carousel-control-next\" href=\"[#mycarousel]{.underline}\" role=\"button\" data-slide=\"next\"\>**
->
 > **                        \<span class=\"carousel-control-next-icon\"\>\</span\>**
->
 > **                    \</a\>**
+```
 
 -   Do a Git commit with the message \"Carousel\".
 
@@ -13782,43 +13542,24 @@ defining the classes.
 
 ```
 > **.carousel {**
->
 > **    background:@background-dark;**
->
 > ** **
->
 > **    .carousel-item {**
->
 > **        height: @carousel-item-height;**
->
 > **        img {**
->
 > **            position: absolute;**
->
 > **            top: 0;**
->
 > **            left: 0;**
->
 > **            min-height: 300px;**
->
 > **        }**
->
 > **    }**
->
 > **}**
->
 > ** **
->
 > **#carouselButton {**
->
 > **    right:0px;**
->
 > **    position: absolute;**
->
 > **    bottom: 0px;**
->
 > **    z-index: 1;**
->
 > **}**
 ```
 
@@ -13829,7 +13570,6 @@ defining the classes.
 
 ```
 > **     npm install -g less@2.7.2**
->
 > ** **
 ```
 
@@ -13849,7 +13589,6 @@ we can compile Less files.
 
 ```
 > **     lessc styles.less styles.css**
->
 > ** **
 ```
 
@@ -14007,19 +13746,12 @@ of this exercise you will be able to:
 
 ```
 > **\$lt-gray: #ddd;**
->
 > **\$background-dark: #512DA8;**
->
 > **\$background-light: #9575CD;**
->
 > **\$background-pale: #D1C4E9;**
->
 > ** **
->
 > **// Height variables**
->
 > **\$carousel-item-height: 300px;**
->
 > ** **
 ```
 
@@ -14032,13 +13764,9 @@ of these variables while defining the classes.
 
 ```
 > **\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
->
 > **    margin:0px auto;**
->
 > **    padding: \$pad-up-dn \$pad-left-right;**
->
 > **}**
->
 > ** **
 ```
 
@@ -14049,83 +13777,45 @@ We will make use of this to define several row classes next.
 
 ```
 > **.row-header{**
->
 > **    @include zero-margin(0px,0px);**
->
 > **}**
->
 > ** **
->
 > **.row-content {**
->
 > **    @include zero-margin(50px,0px);**
->
 > **    border-bottom: 1px ridge;**
->
 > **    min-height:400px;**
->
 > **}**
->
 > ** **
->
 > **.footer{**
->
 > **    background-color: \$background-pale;**
->
 > **    @include zero-margin(20px, 0px);**
->
 > **}**
->
 > ** **
->
 > **.jumbotron {**
->
 > **    @include zero-margin(70px,30px);**
->
 > **    background: \$background-light ;**
->
 > **    color:floralwhite;**
->
 > **}**
->
 > ** **
->
 > **address{**
->
 > **    font-size:80%;**
->
 > **    margin:0px;**
->
 > **    color:#0f0f0f;**
->
 > **}**
->
 > ** **
->
 > **body{**
->
 > **    padding:50px 0px 0px 0px;**
->
 > **    z-index:0;**
->
 > **}**
->
 > ** **
->
 > **.navbar-dark {**
->
 > **     background-color: \$background-dark;**
 >
 > **}**
->
 > ** **
->
 > **.tab-content {**
->
 > **    border-left: 1px solid \$lt-gray;**
->
 > **    border-right: 1px solid \$lt-gray;**
->
 > **    border-bottom: 1px solid \$lt-gray;**
 ```
 
@@ -14139,43 +13829,24 @@ defining the classes.
 
 ```
 > **.carousel {**
->
 > **    background:\$background-dark;**
->
 > ** **
->
 > **    .carousel-item {**
->
 > **        height: \$carousel-item-height;**
->
 > **        img {**
->
 > **            position: absolute;**
->
 > **            top: 0;**
->
 > **            left: 0;**
->
 > **            min-height: 300px;**
->
 > **        }**
->
 > **    }**
->
 > **}**
->
 > ** **
->
 > **#carouselButton {**
->
 > **    right:0px;**
->
 > **    position: absolute;**
->
 > **    bottom: 0px;**
->
 > **    z-index: 1;**
->
 > **}**
 ```
 
@@ -14187,7 +13858,6 @@ defining the classes.
 
 ```
 > **     npm install \--save-dev node-sass@4.7.2**
->
 > ** **
 ```
 
@@ -14655,7 +14325,6 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 
 ```
 > **    \"watch:scss\": \"onchange \'css/\*.scss\' \-- npm run scss\",**
->
 > **    \"watch:all\": \"parallelshell \'npm run watch:scss\' \'npm run lite\'\"**
 ```
 
@@ -15271,7 +14940,6 @@ issues with global permissions on Mac. In that case try
 
 ```
 > **node_modules**
->
 > **dist**
 ```
 
@@ -15286,9 +14954,7 @@ issues with global permissions on Mac. In that case try
 
 ```
 > **    \"usemin\": \"usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html\",**
->
 > **    \"build\": \"npm run clean && npm run imagemin && npm run copyfonts && npm run usemin\"**
->
 > ** **
 ```
 
@@ -15297,15 +14963,10 @@ issues with global permissions on Mac. In that case try
 
 ```
 > **    \<!\-- build:css css/main.css \--\>**
->
 > **    \<link rel=\"stylesheet\" href=\"[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}\"\>**
->
 > **    \<link rel=\"stylesheet\" href=\"[node_modules/font-awesome/css/font-awesome.min.css]{.underline}\"\>**
->
 > **    \<link rel=\"stylesheet\" href=\"[node_modules/bootstrap-social/bootstrap-social.css]{.underline}\"\>**
->
 > **    \<link href=\"[css/styles.css]{.underline}\" rel=\"stylesheet\"\>**
->
 > **    \<!\-- endbuild \--\>**
 ```
 
@@ -15316,15 +14977,10 @@ issues with global permissions on Mac. In that case try
 
 ```
 > **    \<!\-- build:js js/main.js \--\>**
->
 > **    \<script src=\"[node_modules/jquery/dist/jquery.slim.min.js]{.underline}\"\>\</script\>**
->
 > **    \<script src=\"[node_modules/popper.js/dist/umd/popper.min.js]{.underline}\"\>\</script\>**
->
 > **    \<script src=\"[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}\"\>\</script\>**
->
 > **    \<script src=\"[js/scripts.js]{.underline}\"\>\</script\>**
->
 > **    \<!\-- endbuild \--\>**
 ```
 
@@ -15333,7 +14989,9 @@ issues with global permissions on Mac. In that case try
 -   To build the distribution folder, you can type the following at the
     prompt:
 
+```
 **npm run build**
+```
 
 -   This will build the *dist* folder containing the files that are a
     self-contained version of your project. You can now copy the
@@ -15353,7 +15011,6 @@ deployment using NPM scripts.
 
 ```
 > **10-Building-Deployment.pdf**
->
 > **10-NPM-Scripts.pdf**
 ```
 
@@ -15929,49 +15586,26 @@ downloaded Grunt modules when needed for the tasks.
 
 ```
 > **\'use strict\';**
->
-> ** **
->
 > **module.exports = function (grunt) {**
->
 > **    // Time how long tasks take. Can help when optimizing build times**
->
 > **    require(\'time-grunt\')(grunt);**
->
 > ** **
->
 > **    // Automatically load required Grunt tasks**
->
 > **    require(\'jit-grunt\')(grunt);**
->
 > ** **
->
 > **    // Define the configuration for all the tasks**
->
 > **    grunt.initConfig({**
->
 > **        sass: {**
->
 > **            dist: {**
->
 > **                files: {**
->
 > **                    \'css/styles.css\': \'css/styles.scss\'**
->
 > **                }**
->
 > **            }**
->
 > **        }**
->
 > **    });**
->
 > ** **
->
 > **    grunt.registerTask(\'css\', \[\'sass\'\]);**
->
 > ** **
->
 > **};**
 ```
 
@@ -15991,7 +15625,6 @@ downloaded Grunt modules when needed for the tasks.
 
 ```
 > **npm install grunt-contrib-watch@1.0.0 \--save-dev**
->
 > **npm install grunt-browser-sync@2.2.0 \--save-dev**
 ```
 
@@ -16000,47 +15633,26 @@ downloaded Grunt modules when needed for the tasks.
 
 ```
 > **,**
->
 > **        watch: {**
->
 > **            files: \'css/\*.scss\',**
->
 > **            tasks: \[\'sass\'\]**
->
 > **        },**
->
 > **        browserSync: {**
->
 > **            dev: {**
->
 > **                bsFiles: {**
->
 > **                    src : \[**
->
 > **                        \'css/\*.css\',**
->
 > **                        \'\*.html\',**
->
 > **                        \'js/\*.js\'**
->
 > **                    \]**
->
 > **                },**
->
 > **                options: {**
->
 > **                    watchTask: true,**
->
 > **                    server: {**
->
 > **                        baseDir: \"./\"**
->
 > **                    }**
->
 > **                }**
->
 > **            }**
->
 > **        }**
 ```
 
@@ -16625,67 +16237,36 @@ build your web project.
 
 ```
 > **,**
->
 > ** **
->
 > **        copy: {**
->
 > **            html: {**
->
 > **                files: \[**
->
 > **                {**
->
 > **                    //for html**
->
 > **                    expand: true,**
->
 > **                    dot: true,**
->
 > **                    cwd: \'./\',**
->
 > **                    src: \[\'\*.html\'\],**
->
 > **                    dest: \'dist\'**
->
 > **                }\]                **
->
 > **            },**
->
 > **            fonts: {**
->
 > **                files: \[**
->
 > **                {**
->
 > **                    //for font-awesome**
->
 > **                    expand: true,**
->
 > **                    dot: true,**
->
 > **                    cwd: \'node_modules/font-awesome\',**
->
 > **                    src: \[\'fonts/\*.\*\'\],**
->
 > **                    dest: \'dist\'**
->
 > **                }\]**
->
 > **            }**
->
 > **        },**
->
 > ** **
->
 > **        clean: {**
->
 > **            build: {**
->
 > **                src: \[ \'dist/\'\]**
->
 > **            }**
->
 > **        }**
 ```
 
@@ -16706,23 +16287,14 @@ build your web project.
 > **,**
 >
 > **        imagemin: {**
->
 > **            dynamic: {**
->
 > **                files: \[{**
->
 > **                    expand: true,                  // Enable dynamic expansion**
->
 > **                    cwd: \'./\',                   // Src matches are relative to this path**
->
 > **                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match**
->
 > **                    dest: \'dist/\'                  // Destination path prefix**
->
 > **                }\]**
->
 > **            }**
->
 > **        }**
 ```
 
@@ -16735,15 +16307,10 @@ build your web project.
 
 ```
 > ** npm install grunt-contrib-concat@1.0.1 \--save-dev**
->
 > ** npm install grunt-contrib-cssmin@2.2.1 \--save-dev**
->
 > ** npm install grunt-contrib-htmlmin@2.4.0 \--save-dev**
->
 > ** npm install grunt-contrib-uglify@3.3.0 \--save-dev**
->
 > ** npm install grunt-filerev@2.3.1 \--save-dev**
->
 > ** npm install grunt-usemin@3.1.1 \--save-dev**
 ```
 
@@ -16752,83 +16319,42 @@ build your web project.
 
 ```
 > **,**
->
 > ** **
->
 > **        useminPrepare: {**
->
 > **            foo: {**
->
 > **                dest: \'dist\',**
->
 > **                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]**
->
 > **            },**
->
 > **            options: {**
->
 > **                flow: {**
->
 > **                    steps: {**
->
 > **                        css: \[\'cssmin\'\],**
->
 > **                        js:\[\'uglify\'\]**
->
 > **                    },**
->
 > **                    post: {**
->
 > **                        css: \[{**
->
 > **                            name: \'cssmin\',**
->
 > **                            createConfig: function (context, block) {**
->
 > **                            var generated = context.options.generated;**
->
 > **                                generated.options = {**
->
 > **                                    keepSpecialComments: 0, rebase: false**
->
 > **                                };**
->
 > **                            }       **
->
 > **                        }\]**
->
 > **                    }**
->
 > **                }**
->
 > **            }**
->
 > **        },**
->
 > ** **
->
 > **        // Concat**
->
 > **        concat: {**
->
 > **            options: {**
->
 > **                separator: \';\'**
->
 > **            },**
->
-> **  **
->
 > **            // dist configuration is provided by useminPrepare**
->
 > **            dist: {}**
->
 > **        },**
->
-> ** **
->
 > **        // Uglify**
->
 > **        uglify: {**
 ```
 
@@ -16837,9 +16363,7 @@ build your web project.
 
 ```
 > **require(\'jit-grunt\')(grunt, {**
->
 > **  useminPrepare: \'grunt-usemin\'**
->
 > **});**
 ```
 
@@ -16847,27 +16371,16 @@ build your web project.
 
 ```
 > **    grunt.registerTask(\'build\', \[**
->
 > **        \'clean\',**
->
 > **        \'copy\',**
->
 > **        \'imagemin\',**
->
 > **        \'useminPrepare\',**
->
 > **        \'concat\',**
->
 > **        \'cssmin\',**
->
 > **        \'uglify\',**
->
 > **        \'filerev\',**
->
 > **        \'usemin\',**
->
 > **        \'htmlmin\'**
->
 > **    \]);**
 ```
 
@@ -16875,7 +16388,9 @@ build your web project.
     structured correctly to be distributed to a server to host your
     website. To do this, type the following at the prompt:
 
+```
 > **grunt build**
+```
 
 ### Conclusions
 
@@ -17210,67 +16725,36 @@ This will install local per-project Gulp to use within your project.
 
 ```
 > ** **
->
 > **gulp.task(\'sass\', function () {**
->
 > **  return gulp.src(\'./css/\*.scss\')**
->
 > **    .pipe(sass().on(\'error\', sass.logError))**
->
 > **    .pipe(gulp.dest(\'./css\'));**
->
 > **});**
->
 > ** **
->
 > **gulp.task(\'sass:watch\', function () {**
->
 > **  gulp.watch(\'./css/\*.scss\', \[\'sass\'\]);**
->
 > **});**
->
 > ** **
->
 > **gulp.task(\'browser-sync\', function () {**
->
 > **   var files = \[**
->
 > **      \'./\*.html\',**
->
 > **      \'./css/\*.css\',**
->
 > **      \'./img/\*.{png,jpg,gif}\',**
->
 > **      \'./js/\*.js\'**
->
 > **   \];**
->
 > ** **
->
 > **   browserSync.init(files, {**
->
 > **      server: {**
->
 > **         baseDir: \"./\"**
->
 > **      }**
->
 > **   });**
->
 > ** **
->
 > **});**
->
 > ** **
->
 > **// Default task**
->
 > **gulp.task(\'default\', \[\'browser-sync\'\], function() {**
->
 > **    gulp.start(\'sass:watch\');**
->
 > **});**
->
 > ** **
 ```
 
@@ -17315,11 +16799,8 @@ At the end of this exercise, you will be able to:
 
 ```
 > **npm install del@3.0.0 \--save-dev**
->
 > **var \...**
->
 > **    del = require(\'del\'),**
->
 > **    \...**
 ```
 
@@ -17328,21 +16809,13 @@ At the end of this exercise, you will be able to:
 
 ```
 > **// Clean**
->
 > **gulp.task(\'clean\', function() {**
->
 > **    return del(\[\'dist\'\]);**
->
 > **});**
->
 > ** **
->
 > **gulp.task(\'copyfonts\', function() {**
->
 > **   gulp.src(\'./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*\')**
->
 > **   .pipe(gulp.dest(\'./dist/fonts\'));**
->
 > **});**
 ```
 
@@ -17352,13 +16825,13 @@ At the end of this exercise, you will be able to:
     *imagemin* task. To do this we install the plugin and require it as
     follows:
 
+```
 **npm install gulp-imagemin@4.1.0 \--save-dev**
+```
 
 ```
 > **var \...**
->
 > **    imagemin = require(\'gulp-imagemin\'),**
->
 > **    \...**
 ```
 
@@ -17366,15 +16839,10 @@ At the end of this exercise, you will be able to:
 
 ```
 > **// Images**
->
 > **gulp.task(\'imagemin\', function() {**
->
 > **  return gulp.src(\'img/\*.{png,jpg,gif}\')**
->
 > **    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))**
->
 > **    .pipe(gulp.dest(\'dist/img\'));**
->
 > **});**
 ```
 
@@ -17385,59 +16853,36 @@ At the end of this exercise, you will be able to:
 
 ```
 > **npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 \--save-dev**
->
 > ** **
->
 > **var \...**
->
 > **    uglify = require(\'gulp-uglify\'),**
->
 > **    usemin = require(\'gulp-usemin\'),**
->
 > **    rev = require(\'gulp-rev\'),**
->
 > **    cleanCss = require(\'gulp-clean-css\'),**
->
 > **    flatmap = require(\'gulp-flatmap\'),**
->
 > **    htmlmin = require(\'gulp-htmlmin\');**
+```
 
 -   We configure the usemin and the build task as follows:
 
+```
 > **gulp.task(\'usemin\', function() {**
->
 > **  return gulp.src(\'./\*.html\')**
->
 > **  .pipe(flatmap(function(stream, file){**
->
 > **      return stream**
->
 > **        .pipe(usemin({**
->
 > **            css: \[ rev() \],**
->
 > **            html: \[ function() { return htmlmin({ collapseWhitespace: true })} \],**
->
 > **            js: \[ uglify(), rev() \],**
->
 > **            inlinejs: \[ uglify() \],**
->
 > **            inlinecss: \[ cleanCss(), \'concat\' \]**
->
 > **        }))**
->
 > **    }))**
->
 > **    .pipe(gulp.dest(\'dist/\'));**
->
 > **});**
->
 > ** **
->
 > **gulp.task(\'build\',\[\'clean\'\], function() {**
->
 > **    gulp.start(\'copyfonts\',\'imagemin\',\'usemin\');**
->
 > **});**
 ```
 
@@ -17697,4 +17142,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 4:54pm ---->
+<!--- last updated: 09/19/2022 at 5:39pm ---->
