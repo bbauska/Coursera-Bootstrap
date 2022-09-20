@@ -3905,8 +3905,14 @@ of doing vertical alignment.
 
 If you wanted the content to be vertically-centered, then to the row,
 you would apply the class called "align items center".
-
-![](images/image066.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 66.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -3919,8 +3925,14 @@ The content which occupies the largest height will be the one to which
 the remaining ones will be aligned when it is laid out in that row or if
 you pre-specify the height of the row, then all the content will be
 centered vertically within that particular row there.
-
-![](images/image067.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 67.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -3930,8 +3942,14 @@ Not only that, Bootstrap\'s Grid also supports horizontal alignment of
 content.
 
 Let\'s look at an example.
-
-![](images/image068.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------- 68.  (xx) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -3955,7 +3973,6 @@ occupy three columns each.
    width="50%"
    alt="." />
 </p>
-
 <!--------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4028,18 +4045,17 @@ of content should be right-shifted by one column.
 When this content is laid out, as you can see, the leftmost one column
 is left blank and the content is shifted right by one column.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 72.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image072.png?raw=true"
    width="50%"
    alt="." />
 </p>
 <!--------------
-
 ![](images/image072.png){width="5.0in"
 height="2.0544870953630796in"}
-
+---------------->
 And you can lay out the remaining content on the right side.
 
 sum total, you can see that the two divs will occupy 11 columns but one
@@ -4053,17 +4069,17 @@ horizontal alignment, the offset, the push and the pull, and flex first
 and flex last, we are able to get a lot of control on how we lay out
 contents for different screen widths and different screen sizes.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 73.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image073.png?raw=true"
    width="50%"
    alt="." />
 </p>
 <!--------------
-
 ![](images/image073.png){width="5.0in"
 height="2.0544870953630796in"}
+-------------->
 
 Bootstrap goes even further by allowing you to nest content inside divs.
 
@@ -4079,20 +4095,18 @@ column.
 Nesting like this, brings you even more flexibility in the way you lay
 out content in your pitch.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 74.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image074.png?raw=true"
    width="50%"
    alt="." />
 </p>
-
+<!---------------
 ![](images/image074.png)
-
-<!--------
 {width="5.0in"
 height="1.8327996500437445in"}
-------------->
+---------------->
 
 With all the discussion about the Bootstrap Grid System and how the
 Bootstrap Grid supports various ways of laying out content, we\'re going
@@ -5098,7 +5112,6 @@ Let\'s look at the three tasks in more detail.
    width="50%"
    alt="." />
 </p>
-
 <!-----------------
 {width="5.0in" height="2.6875in"}
 ------------------>
@@ -5118,7 +5131,6 @@ footer from the index.html page into this page
    width="50%"
    alt="." />
 </p>
-
 <!------------------
 {width="5.0in" height="2.6875in"}
 ------------------->
@@ -5138,7 +5150,6 @@ content or the page so that you can style it properly.
    width="50%"
    alt="." />
 </p>
-
 <!---------------------
 {width="5.0in" height="2.6875in"}
 ---------------------->
@@ -5209,7 +5220,6 @@ This is the second task that you need to complete in your assignment.
    width="50%"
    alt="." />
 </p>
-
 <!-----------
 {width="5.0in" height="2.6875in"}
 ----------->
@@ -5225,7 +5235,6 @@ especially like this,
    width="50%"
    alt="." />
 </p>
-
 <!-----------
 {width="5.0in" height="2.6875in"}
 ----------->
@@ -5252,7 +5261,6 @@ hidden in the extra small screens size.
    width="50%"
    alt="." />
 </p>
-
 <!-----------
 {width="5.0in" height="2.6875in"}
 ----------->
@@ -5297,14 +5305,21 @@ Git Repository with the Message Assignment One.
 <!---------------- 85/86.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
-   width="50%"
+<img src="./images/image085.png?raw=true"
+   width="20%"
    alt="." />
 </p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4](images/image085.png)
+<!------------
 {width="2.0in"
 height="7.825243875765529in"}
+------------->
+<p align="center" width="100%">
+<img src="./images/image086.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4](images/image086.png)
 <!-----------
 {width="4.0in"
@@ -5448,7 +5463,6 @@ lecture.
    width="50%"
    alt="." />
 </p>
-
 <!-----------
 {width="5.0in"
 height="2.7804483814523184in"}
@@ -8745,7 +8759,7 @@ content.
 
 ### PDFs of Presentations
 
-> 08-Bootstrap-Tables.pdf
+> [Boostrap-Tables](./pdf-files/08-Bootstrap-Tables.pdf)
 > 08-Bootstrap-Cards.pdf
 
 ### Bootstrap Classes
@@ -12296,16 +12310,15 @@ invoked.
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!---------------- 108.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
-   width="50%"
+<img src="./images/image108.png?raw=true"
+   width="65%"
    alt="." />
 </p>
-
-![](images/image108.png)
 <!----------
+![](images/image108.png)
 {width="6.5in"
 height="2.8555555555555556in"}
 ---------->
@@ -12326,7 +12339,6 @@ are caused by your carousel\'s behavior.
    width="65%"
    alt="." />
 </p>
-
 <!----------
 {width="6.5in"
 height="2.8555555555555556in"}
@@ -13873,8 +13885,10 @@ height="4.163497375328084in"}
    alt="." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4](images/image111.png)
+<a href="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4">Image 111 picture</a>
+
 <!----------
+![(images/image111.png)
 {width="5.0in"
 height="4.349809711286089in"}
 ---------->
@@ -16997,4 +17011,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/19/2022 at 7:26pm ---->
+<!--- last updated: 09/20/2022 at 10:19am ---->
