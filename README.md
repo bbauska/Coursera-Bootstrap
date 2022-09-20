@@ -193,9 +193,9 @@ Bootstrap web UI framework.
     <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
 
 <h3 align="left">
-<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph</a>
+<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph target="_blank"</a>
 
-<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a>
+<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776" target="_blank">Switching to a Different Session</a>
 
 ### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph}
 
@@ -3028,7 +3028,7 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
 
     <!\-- Bootstrap CSS \--\>
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"\>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" target="_blank">
 
 -   This will include Bootstrap CSS into your web page. Note the subtle
     change in the fonts of the content of the web page. This is the
@@ -6221,14 +6221,10 @@ exercise, you will be able to:
         <div class="container"\>
            <a class="navbar-brand" href="#"\>Ristorante Con Fusion</a\>
                 <ul class="navbar-nav mr-auto"\>
-                    <li class="nav-item active"\><a class="nav-
-link" href="#"\>Home</a\></li\>
-                    <li class="nav-item"\><a class="nav-
-link" href="[./aboutus.html]{.underline}"\>About</a\></li\>
-                    <li class="nav-item"\><a class="nav-
-link" href="#"\>Menu</a\></li\>
-                    <li class="nav-item"\><a class="nav-
-link" href="#"\>Contact</a\></li\>
+                    <li class="nav-item active"\><a class="nav-link" href="#"\>Home</a\></li\>
+                    <li class="nav-item"\><a class="nav-link" href="[./aboutus.html]{.underline}"\>About</a\></li\>
+                    <li class="nav-item"\><a class="nav-link" href="#"\>Menu</a\></li\>
+                    <li class="nav-item"\><a class="nav-link" href="#"\>Contact</a\></li\>
                 </ul\>            
         </div\>
     </nav\>
@@ -7625,7 +7621,7 @@ will be able to:
 
 ### Exercise Resources
 
-<b>contactus.html<b>ZIP File
+<b>contactus.html</b>ZIP File
 
 Download file
 
@@ -10205,24 +10201,24 @@ content. At the end of this exercise you will be able to:
     following code to set up the tabbed navigation:
 
 ```
-                \<ul class="nav nav-tabs">
-                    \<li class="nav-item">
-                      \<a class="nav-link active" href="#peter"
-                        role="tab" data-toggle="tab">Peter Pan, CEO\</a>
-                    \</li>
-                    \<li class="nav-item">
-                      \<a class="nav-link" href="#danny" role="tab"
-                        data-toggle="tab">Danny Witherspoon, CFO\</a>
-                    \</li>
-                    \<li class="nav-item">
-                      \<a class="nav-link" href="#agumbe"role="tab"
-                        data-toggle="tab">Agumbe Tang, CTO\</a>
-                    \</li>
-                    \<li class="nav-item">
-                      \<a class="nav-link" href="#alberto" role="tab"
-                        data-toggle="tab">Alberto Somayya, Exec. Chef\</a>
-                    \</li>
-                \</ul>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#peter"
+        role="tab" data-toggle="tab">Peter Pan, CEO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#danny" role="tab"
+        data-toggle="tab">Danny Witherspoon, CFO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#agumbe"role="tab"
+        data-toggle="tab">Agumbe Tang, CTO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#alberto" role="tab"
+        data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+    </li>
+</ul>
 ```
 
 Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes
@@ -10243,19 +10239,19 @@ navigation that we just set up.
     specified below:
 
 ```
-                \<div class="tab-content">
-                    \...
-                \</div>
+<div class="tab-content">
+    ...
+</div>
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-                    \<div role="tabpanel" class="tab-pane fade show active" id="peter">
-                        \<h3>Peter Pan \<small>Chief Epicurious Officer\</small>\</h3>
-                        \<p> \... \</p>
-                    \</div>
+<div role="tabpanel" class="tab-pane fade show active" id="peter">
+    <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+    <p> ... </p>
+</div>
 ```
 
 Note the use of the *tab-pane, fade, show,* and *active* classes and
@@ -10638,18 +10634,18 @@ in a web page. At the end of this exercise, you will be able to:
 ```
 <div class="card">
     <div class="card-header" role="tab" id="peterhead">
-                        <h3 class="mb-0">
-                            <a data-toggle="collapse" data-target="#peter">
-                            Peter Pan <small>Chief Epicurious Officer</small>
-                            </a>
-                        </h3>
-                        </div>
-                        <div class="collapse show" id="peter" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">. . .</p>
-                            </div>
-                        </div>
-                    </div>
+    <h3 class="mb-0">
+       <a data-toggle="collapse" data-target="#peter">
+          Peter Pan <small>Chief Epicurious Officer</small>
+       </a>
+    </h3>
+    </div>
+    <div class="collapse show" id="peter" data-parent="#accordion">
+       <div class="card-body">
+          <p class="d-none d-sm-block">. . .</p>
+       </div>
+    </div>
+</div>
 ```
 
 -   For the remaining three leaders, use the same structure as above,
@@ -10657,46 +10653,46 @@ in a web page. At the end of this exercise, you will be able to:
     structure below:
 
 ```
-                    <div class="card">
-                            <div class="card-header" role="tab" id="dannyhead">
-                            <h3 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" data-target="#danny">
-                                Dhanasekaran Witherspoon <small>Chief Food Officer</small>
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="collapse" id="danny" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">. . .</em></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                            <div class="card-header" role="tab" id="agumbehead">
-                            <h3 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
-                                Agumbe Tang <small>Chief Taste Officer</small>
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="collapse" id="agumbe" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">. . .</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                            <div class="card-header" role="tab" id="albertohead">
-                            <h3 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" data-target="#alberto">
-                                Alberto Somayya <small>Executive Chef</small>
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="collapse" id="alberto" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">. . .</em></p>
-                            </div>
+<div class="card">
+<div class="card-header" role="tab" id="dannyhead">
+   <h3 class="mb-0">
+   <a class="collapsed" data-toggle="collapse" data-target="#danny">
+      Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+   </a>
+   </h3>
+</div>
+<div class="collapse" id="danny" data-parent="#accordion">
+   <div class="card-body">
+      <p class="d-none d-sm-block">. . .</em></p>
+   </div>
+</div>
+</div>
+<div class="card">
+   <div class="card-header" role="tab" id="agumbehead">
+   <h3 class="mb-0">
+      <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+         Agumbe Tang <small>Chief Taste Officer</small>
+      </a>
+   </h3>
+   </div>
+   <div class="collapse" id="agumbe" data-parent="#accordion">
+      <d iv class="card-body">
+      <p class="d-none d-sm-block">. . .</p>
+   </div>
+   </div>
+   </div>
+   <div class="card">
+      <div class="card-header" role="tab" id="albertohead">
+      <h3 class="mb-0">
+         <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+         Alberto Somayya <small>Executive Chef</small>
+         </a>
+      </h3>
+      </div>
+      <div class="collapse" id="alberto" data-parent="#accordion">
+      <div class="card-body">
+      <p class="d-none d-sm-block">. . .</em></p>
+</div>
 ```
 
 -   After completing the update, check the behavior of the accordion on
@@ -17010,4 +17006,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 11:38am ---->
+<!--- last updated: 09/20/2022 at 1:02pm ---->
