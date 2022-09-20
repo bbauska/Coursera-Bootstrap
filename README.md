@@ -1776,7 +1776,7 @@ during the installation steps.</b>
 > ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
 <!----------
 {width="5.0in"
-> height="6.3736264216972875in"}
+height="6.3736264216972875in"}
 ---------->
 
 ### Conclusions
@@ -2272,13 +2272,13 @@ of this exercise, you will be able to:
 -   This should create a *package.json* file in your <b>git-test</b>
     folder.
 
-**Installing an NPM Module**
+<b>Installing an NPM Module</b>
 
 -   Install an NPM module, lite-server, that allows you to run a Node.js
     based development web server and serve up your project files. To do
     this, type the following at the prompt:
 
-**npm install lite-server \--save-dev**
+<b>npm install lite-server \--save-dev</b>
 
 -   You can check out more documentation on lite-server
     [here](https://github.com/johnpapa/lite-server).
@@ -2287,34 +2287,34 @@ of this exercise, you will be able to:
     Note the addition of two lines, line 7 and line 9.
 
 ```
-{**
-  "name": "git-test",**
-  "version": "1.0.0",**
-  "description": "This is the Git and Node basic learning project",**
-  "main": "index.html",**
-  "scripts": {**
-    "start": "npm run lite",**
-    "test": "echo "Error: no test specified" && exit 1",**
-    "lite": "lite-server"**
-  },**
-  "repository": {**
-    "type": "git",**
-    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}"**
-  },**
-  "author": "",**
-  "license": "ISC",**
-  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}",**
-  "devDependencies": {**
-    "lite-server": "\^2.2.2"**
-  }**
-}**
- **
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is the Git and Node basic learning project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo "Error: no test specified" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}",
+  "devDependencies": {
+    "lite-server": "\^2.2.2"
+  }
+}
+ 
 ```
 
 -   Next, start the development server by typing the following at the
     prompt:
 
-**npm start**
+<b>npm start</b>
 
 -   This should open your *index.html* page in your default browser.
 
@@ -2325,10 +2325,10 @@ of this exercise, you will be able to:
 ### Setting up .gitignore
 
 -   Next, create a file in your project directory named *.gitignore*
-    (**Note**: the name starts with a period)Then, add the following to
+    (<b>Note</b>: the name starts with a period)Then, add the following to
     the .gitignore file
 
-**node_modules**
+<b>node_modules</b>
 
 -   Then do a git commit and push the changes to the online repository.
     You will note that the node_modules folder will not be added to the
@@ -2397,7 +2397,7 @@ At the end of this lesson, you will be able to:
 
 -   Become familiar with the basic features of Bootstrap
 
-**Note**: For those of you who are already familiar with Bootstrap 3,
+<b>Note</b>: For those of you who are already familiar with Bootstrap 3,
 [[here]{.underline}](http://getbootstrap.com/docs/4.0/migration/) is an
 overview from the Bootstrap 4 documentation on the major changes in
 Bootstrap 4 compared to Bootstrap 3.
@@ -2933,9 +2933,9 @@ Bootstrap classes to design our web pages.
 
 ### Exercise Resources
 
-**Bootstrap4-starter.zip**
+<b>Bootstrap4-starter.zip</b>
 
-**Objectives and Outcomes**
+<b>Objectives and Outcomes</b>
 
 This exercise introduces the first set of steps to set up your web page
 to make use of Bootstrap classes and components. At the end of this
@@ -2947,7 +2947,7 @@ exercise, you will be able to:
 
 -   Include the Bootstrap CSS and JS classes into a web page
 
-### **Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.**
+### <b>Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.</b>
 
 ### Setting up the Project Folder
 
@@ -3003,7 +3003,7 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
     page, and learn Bootstrap features, classes and components along the
     way.
 
--   Start your lite-server by typing **npm start** at the prompt. The
+-   Start your lite-server by typing <b>npm start</b> at the prompt. The
     *index.html* file should now be loaded into your default browser.
 
 ### Getting your Web page Bootstrap ready
@@ -4512,7 +4512,7 @@ for media queries in the last lesson, where we added this line to the
 head:
 
 ```
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
 
 The *viewport* meta tag ensures that the screen width is set to the
@@ -4579,12 +4579,12 @@ a row, all adding up to 12 or a multiple thereof.
 <header class="jumbotron"> ...
 ```
 
--   In the header add a **container** class to the first inner div and a
+-   In the header add a <b>container</b> class to the first inner div and a
     row class to the second inner div.
 
 ### Creating a footer
 
--   Finally, in the footer add a **container** class to the first inner
+-   Finally, in the footer add a <b>container</b> class to the first inner
     div and a row class to the second inner div.
 
 ### Applying column classes within each row
@@ -4611,10 +4611,10 @@ a row, all adding up to 12 or a multiple thereof.
     follows:
 
 ```
-    <div class="col-4 col-sm-2"> ... </div>
-    <div class="col-7 col-sm-5"> ... </div>
-    <div class="col-12 col-sm-4"> ... </div>
-    <div class="col-auto"> ... </div>
+<div class="col-4 col-sm-2"> ... </div>
+<div class="col-7 col-sm-5"> ... </div>
+<div class="col-12 col-sm-4"> ... </div>
+<div class="col-auto"> ... </div>
 ```
 
 Now you can see how the web page has been turned into a mobile-first
@@ -4629,15 +4629,15 @@ responsive design layout.
     for the first and the third rows as follows:
 
 ```
-    <div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
-    <div class="col col-sm order-sm-first col-md"> ... </div>
+<div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
+<div class="col col-sm order-sm-first col-md"> ... </div>
 ```
 
 -   For the div containing the <ul\> with the site links, update the
     class as follows:
 
 ```
-    <div class="col-4 offset-1 col-sm-2">
+<div class="col-4 offset-1 col-sm-2">
 ```
 
 -   After saving all the changes, you can do a Git commit with the
@@ -4922,31 +4922,30 @@ do this in this part of the exercise.
     contents. Add the following CSS code to the file:
 
 ```
-> .row-header{
->     margin:0px auto;
->     padding:0px;
-> }
->  
-> .row-content {
->     margin:0px auto;
->     padding: 50px 0px 50px 0px;
->     border-bottom: 1px ridge;
->     min-height:400px;
-> }
->  
-> .footer{
->     background-color: #D1C4E9;
->     margin:0px auto;
->     padding: 20px 0px 20px 0px;
-> }
->  
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+ 
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+ 
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
 ```
 
 -   Include the styles.css file into the head of the index.html file
     as follows:
 
 ```
-    <link href="[css/styles.css]{.underline}" rel="stylesheet">
+<link href="[css/styles.css]{.underline}" rel="stylesheet">
 ```
 
 -   Then add these classes to the corresponding rows in the *index.html*
@@ -4956,29 +4955,29 @@ do this in this part of the exercise.
     <footer\> tag.
 
 ```
->     <div class="row row-header"> ... </div>
->     <div class="row row-content"> ... </div>
->     <div class="row row-content"> ... </div>
->     <div class="row row-content"> ... </div>
-> 
->     <footer class="footer"> ... </footer>
+<div class="row row-header"> ... </div>
+<div class="row row-content"> ... </div>
+<div class="row row-content"> ... </div>
+<div class="row row-content"> ... </div>
+
+<footer class="footer"> ... </footer>
 ```
 
 -   Our next set of customization is to the jumbotron and the address.
     Add the following to *styles.css* file:
 
 ```
-> .jumbotron {
->     padding:70px 30px 70px 30px;
->     margin:0px auto;
->     background: #9575CD ;
->     color:floralwhite;
-> }
-> address{
->     font-size:80%;
->     margin:0px;
->     color:#0f0f0f;
-> }
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
 ```
 
 ### Vertically Centering the Content
@@ -4986,7 +4985,7 @@ do this in this part of the exercise.
 -   In the content section, update all the rows as follows:
 
 ```
-**<div class="row row-content align-items-center">
+<div class="row row-content align-items-center">
 ```
 
 -   In the footer, update the third column div that contains the social
@@ -5000,8 +4999,8 @@ do this in this part of the exercise.
 -   Update the copyright paragraph as follows:
 
 ```
-> <div class="row justify-content-center">
-> <div class="col-auto">
+<div class="row justify-content-center">
+<div class="col-auto">
 ```
 
 -   Update the inner div containing the social media links as follows:
@@ -5294,11 +5293,11 @@ After you complete your assignment, in case you\'re saving your changes
 to a Git Repository, please don\'t forget to commit the changes to your
 Git Repository with the Message Assignment One.
 
-**Assignment 1 Resources**
+<b>Assignment 1 Resources</b>
 
 ### Assignment 1 Starter Files
 
-**aboutus.html**
+<b>aboutus.html</b>
 
 ### Assignment 1 Screenshots
 <!------------------------------------------------------------------------------------------------>
@@ -6218,21 +6217,21 @@ exercise, you will be able to:
     the following code to the body just above the header jumbotron.
 
 ```
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>**
-        <div class="container"\>**
-           <a class="navbar-brand" href="#"\>Ristorante Con Fusion</a\>**
-                <ul class="navbar-nav mr-auto"\>**
-                    <li class="nav-item active"\><a class="nav-**
-link" href="#"\>Home</a\></li\>**
-                    <li class="nav-item"\><a class="nav-**
-link" href="[./aboutus.html]{.underline}"\>About</a\></li\>**
-                    <li class="nav-item"\><a class="nav-**
-link" href="#"\>Menu</a\></li\>**
-                    <li class="nav-item"\><a class="nav-**
-link" href="#"\>Contact</a\></li\>**
-                </ul\>            **
-        </div\>**
-    </nav\>**
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>
+        <div class="container"\>
+           <a class="navbar-brand" href="#"\>Ristorante Con Fusion</a\>
+                <ul class="navbar-nav mr-auto"\>
+                    <li class="nav-item active"\><a class="nav-
+link" href="#"\>Home</a\></li\>
+                    <li class="nav-item"\><a class="nav-
+link" href="[./aboutus.html]{.underline}"\>About</a\></li\>
+                    <li class="nav-item"\><a class="nav-
+link" href="#"\>Menu</a\></li\>
+                    <li class="nav-item"\><a class="nav-
+link" href="#"\>Contact</a\></li\>
+                </ul\>            
+        </div\>
+    </nav\>
 ```
 
 In the above code, we can see the use of the nav element to specify the
@@ -6257,9 +6256,9 @@ the navigation bar.
     bar, just below the container div
 
 ```
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"\>**
-<span class="navbar-toggler-icon"\></span\>**
-</button\>**
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"\>
+<span class="navbar-toggler-icon"\></span\>
+</button\>
 ```
 
 This creates a button with three horizontal lines. For medium to extra
@@ -6303,11 +6302,11 @@ toggle button.
 
 ```
 body{
-    padding:50px 0px 0px 0px;**
-    z-index:0;**
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
-.navbar-dark {**
-     background-color: #512DA8;**
+.navbar-dark {
+     background-color: #512DA8;
 }
 ```
 
@@ -6637,28 +6636,28 @@ npm install bootstrap-social@5.1.1 --save
     classes. Do the same change to aboutus.html file:
 
 ```
-<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">**
-<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">**
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
 ```
 
 -   Let us now use some font icons in our web page and decorate it.
     Update the navbar's ul list items as follows in index.html:
 
 ```
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>**
-<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>**
-<li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>**
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>**
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+<li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
 ```
 
 -   Similarly update the navbar\'s ul list items as follows in
     aboutus.html:
 
 ```
-    <li class="nav-item"><a class="nav-link" href="[./index.html]{.underline}"><span class="fa fa-home fa-lg"></span> Home</a></li>**
-    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>**
-    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>**
-    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>**
+    <li class="nav-item"><a class="nav-link" href="[./index.html]{.underline}"><span class="fa fa-home fa-lg"></span> Home</a></li>
+    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
 ```
 
 -   Next, in both index.html and aboutus.html, go down to the address in
@@ -6667,10 +6666,10 @@ npm install bootstrap-social@5.1.1 --save
     follows:
 
 ```
-<i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>**
-<i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>**
-<i class="fa fa-envelope fa-lg"></i>: **
-<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net</a>**
+<i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+<i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+<i class="fa fa-envelope fa-lg"></i>: 
+<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net</a>
 ```
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
@@ -6678,18 +6677,18 @@ npm install bootstrap-social@5.1.1 --save
     replacing the social sites\' links with the following code:
 
 ```
-<div class="text-center">**
-<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>**
-<a class="btn btn-social-icon btn-facebook"**
-href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>**
-<a class="btn btn-social-icon btn-linkedin" **
-href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>**
-<a class="btn btn-social-icon btn-twitter"**
-href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>**
-<a class="btn btn-social-icon btn-google" **
-href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>**
-<a class="btn btn-social-icon" **
-href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>**
+<div class="text-center">
+<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>
+<a class="btn btn-social-icon btn-facebook"
+href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>
+<a class="btn btn-social-icon btn-linkedin" 
+href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>
+<a class="btn btn-social-icon btn-twitter"
+href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>
+<a class="btn btn-social-icon btn-google" 
+href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>
+<a class="btn btn-social-icon" 
+href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 </div>
 ```
 
@@ -7626,7 +7625,7 @@ will be able to:
 
 ### Exercise Resources
 
-**contactus.html**ZIP File
+<b>contactus.html<b>ZIP File
 
 Download file
 
@@ -7651,11 +7650,11 @@ Download file
     to create a button bar containing three buttons:
 
 ```
-                <div class="btn-group" role="group">**
-                    <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>**
-                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>**
-                    <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>**
-                </div>**
+<div class="btn-group" role="group">
+    <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>
+    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+    <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>
+</div>
 ```
 
 Note how we define the button bar using the *btn-group* class, and then
@@ -7665,7 +7664,7 @@ associated with them. So we decided to use the *\<a\>* tag instead of
 the *\<button\>* tag. Note how the *\<a\>* tags have been styled using
 the *btn* class.
 
--   Remember to do a Git commit with the message "Buttons"
+-   Remember to do a Git commit with the message "Buttons".
 
 ### Conclusions
 
@@ -8190,7 +8189,7 @@ classes.
 
 ### Exercise Resources
 
-**contactus.html**
+<b>contactus.html</b>
 
 ### Bootstrap Resources
 
@@ -9083,7 +9082,7 @@ At the end of this exercise you will be able to:
 
 ### Exercise Resources
 
-**Img.zip**
+<b>Img.zip</b>
 
 ### Set up for the Exercise
 
@@ -9168,7 +9167,7 @@ style the content.
 
 -   Finally, do a Git commit with a message "Images and Media".
 
-**Conclusions**
+<b>Conclusions</b>
 
 In this exercise, we learnt about the Bootstrap classes to support
 images and media in a web page. We saw how we can include responsive
@@ -9181,9 +9180,9 @@ media object to style and display content.
 
 > 08-Images-Media.pdf
 
-**Exercise Resources**
+<b>Exercise Resources</b>
 
-**Img.zip**
+<b>Img.zip</b>
 
 (download this to conFusion, unzip it to create an "img" folder there)
 
@@ -9636,43 +9635,43 @@ At the end of this lesson, you should be able to:
 
 ### Wireframing, Mockups and UI Design
 
--   [Wireframe.cc](https://wireframe.cc/)
+-   [Wireframe.cc](https://wireframe.cc/ target="_blank")
 
--   [Moqups.com](https://moqups.com/)
+-   [Moqups.com](https://moqups.com/ target="_blank")
 
--   [Axure](http://www.axure.com/)
+-   [Axure](http://www.axure.com/ target="_blank")
 
--   [proto.io](https://proto.io/)
+-   [proto.io](https://proto.io/ target="_blank")
 
--   [framerjs.com](http://framerjs.com/)
+-   [framerjs.com](http://framerjs.com/ target="_blank")
 
 -   [The 20 best wireframe
-    tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302)
+    tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302 target="_blank")
 
--   [Web Design Inspirations](http://www.webdesign-inspiration.com/)
+-   [Web Design Inspirations](http://www.webdesign-inspiration.com/ target="_blank")
 
 -   [Adobe Experience
-    Design](http://www.adobe.com/products/experience-design.html)
+    Design](http://www.adobe.com/products/experience-design.html target="_blank")
 
 -   [Free Bootstrap Wireframing Set for
-    PowerPoint](https://onextrapixel.com/free-bootstrap-wireframing-set-for-powerpoint/)
+    PowerPoint](https://onextrapixel.com/free-bootstrap-wireframing-set-for-powerpoint/ target="_blank")
 
 ### UI Templates
 
--   [Bootstrap Expo](http://expo.getbootstrap.com/)
+-   [Bootstrap Expo](http://expo.getbootstrap.com/ target="_blank")
 
--   [Ionic Showcase](http://showcase.ionicframework.com/)
+-   [Ionic Showcase](http://showcase.ionicframework.com/ target="_blank")
 
 ### Information Architecture
 
 -   [A visual vocabulary for describing information architecture and
-    interaction design](http://www.jjg.net/ia/visvocab/)
+    interaction design](http://www.jjg.net/ia/visvocab/ target="_blank")
 
--   [The Elements of User Experience](http://www.jjg.net/elements/)
+-   [The Elements of User Experience](http://www.jjg.net/elements/ target="_blank")
 
 -   [The Elements of User Experience: User-Centered Design for the Web
     and Beyond (2nd Edition) (Voices That
-    Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764)
+    Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764 target="_blank")
 
 ## Bootstrap JavaScript Components: Objectives and Outcomes
 
@@ -9854,16 +9853,16 @@ functionality to your JavaScript-based Bootstrap components.
 
 > 08-Bootstrap_JS.pdf
 
-**Bootstrap Resources**
+<b>Bootstrap Resources</b>
 
 -   [Bootstrap and
-    JavaScript](http://getbootstrap.com/docs/4.0/getting-started/javascript/)
+    JavaScript](http://getbootstrap.com/docs/4.0/getting-started/javascript/ target="_blank")
 
 -   [Bootstrap JS Data
-    Attributes](http://getbootstrap.com/docs/4.0/getting-started/javascript/#data-attributes)
+    Attributes](http://getbootstrap.com/docs/4.0/getting-started/javascript/#data-attributes target="_blank")
 
 -   [Bootstrap Programmatic
-    API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api)
+    API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api target="_blank")
 
 ## Tabs and Tabbed Navigation: Objectives and Outcomes
 
@@ -10206,24 +10205,24 @@ content. At the end of this exercise you will be able to:
     following code to set up the tabbed navigation:
 
 ```
-                \<ul class="nav nav-tabs">**
-                    \<li class="nav-item">**
-                      \<a class="nav-link active" href="#peter"**
-                        role="tab" data-toggle="tab">Peter Pan, CEO\</a>**
-                    \</li>**
-                    \<li class="nav-item">**
-                      \<a class="nav-link" href="#danny" role="tab"**
-                        data-toggle="tab">Danny Witherspoon, CFO\</a>**
-                    \</li>**
-                    \<li class="nav-item">**
-                      \<a class="nav-link" href="#agumbe"role="tab"**
-                        data-toggle="tab">Agumbe Tang, CTO\</a>**
-                    \</li>**
-                    \<li class="nav-item">**
-                      \<a class="nav-link" href="#alberto" role="tab"**
-                        data-toggle="tab">Alberto Somayya, Exec. Chef\</a>**
-                    \</li>**
-                \</ul>**
+                \<ul class="nav nav-tabs">
+                    \<li class="nav-item">
+                      \<a class="nav-link active" href="#peter"
+                        role="tab" data-toggle="tab">Peter Pan, CEO\</a>
+                    \</li>
+                    \<li class="nav-item">
+                      \<a class="nav-link" href="#danny" role="tab"
+                        data-toggle="tab">Danny Witherspoon, CFO\</a>
+                    \</li>
+                    \<li class="nav-item">
+                      \<a class="nav-link" href="#agumbe"role="tab"
+                        data-toggle="tab">Agumbe Tang, CTO\</a>
+                    \</li>
+                    \<li class="nav-item">
+                      \<a class="nav-link" href="#alberto" role="tab"
+                        data-toggle="tab">Alberto Somayya, Exec. Chef\</a>
+                    \</li>
+                \</ul>
 ```
 
 Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes
@@ -10244,19 +10243,19 @@ navigation that we just set up.
     specified below:
 
 ```
-                \<div class="tab-content">**
-                    \...**
-                \</div>**
+                \<div class="tab-content">
+                    \...
+                \</div>
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-                    \<div role="tabpanel" class="tab-pane fade show active" id="peter">**
-                        \<h3>Peter Pan \<small>Chief Epicurious Officer\</small>\</h3>**
-                        \<p> \... \</p>**
-                    \</div>**
+                    \<div role="tabpanel" class="tab-pane fade show active" id="peter">
+                        \<h3>Peter Pan \<small>Chief Epicurious Officer\</small>\</h3>
+                        \<p> \... \</p>
+                    \</div>
 ```
 
 Note the use of the *tab-pane, fade, show,* and *active* classes and
@@ -10275,12 +10274,12 @@ with *peter* as the id. This is the same id used as the *href* in the
     *mystyles.css* file as follows:
 
 ```
-.tab-content {**
-    border-left: 1px solid #ddd;**
-    border-right: 1px solid #ddd;**
-    border-bottom: 1px solid #ddd;**
-    padding: 10px;**
-}**
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 ```
 
 This modification adds a 1px border to the tab content which joins with
@@ -10627,9 +10626,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-                <div id="accordion">
-                   . . .
-                </div>
+<div id="accordion">
+    . . .
+</div>
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10637,8 +10636,8 @@ in a web page. At the end of this exercise, you will be able to:
     Use the structure of the code as shown below:
 
 ```
-                    <div class="card">
-                        <div class="card-header" role="tab" id="peterhead">
+<div class="card">
+    <div class="card-header" role="tab" id="peterhead">
                         <h3 class="mb-0">
                             <a data-toggle="collapse" data-target="#peter">
                             Peter Pan <small>Chief Epicurious Officer</small>
@@ -10716,13 +10715,13 @@ together with the card component.
 
 > 09-Collapse.pdf
 
-**Bootstrap Resources**
+<b>Bootstrap Resources</b>
 
 -   [Bootstrap
-    Collapse](http://getbootstrap.com/docs/4.0/components/collapse/)
+    Collapse](http://getbootstrap.com/docs/4.0/components/collapse/ target="_blank")
 
 -   [Bootstrap Accordion
-    Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example)
+    Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example target="_blank")
 
 ## Revealing Content: Objectives and Outcomes
 
@@ -11165,9 +11164,9 @@ exercise, you will be able to:
     tag for the button as follows:
 
 ```
-                    <a role="button" class="btn btn-block nav-link btn-warning"
-                        data-toggle="tooltip" data-html="true"  title="Or Call us at  \<br>\<strong>+852 12345678\</strong>"
-                        data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
+<a role="button" class="btn btn-block nav-link btn-warning"
+   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+   data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
 ```
 
 As you can see from the code, we add a *data-toggle*, *data-placement*
@@ -11178,11 +11177,11 @@ tooltip.
     to the bottom of the page as follows:
 
 ```
-    <script>
-        $(document).ready(function(){
-            \$(\'\[data-toggle="tooltip"\]\').tooltip();
-        });
-    </script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 ```
 
 This script is added right after the line that imports the
@@ -11195,42 +11194,42 @@ bootstrap.min.js file.
     of the page.
 
 ```
-    <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg" role="content">
-            <!\-- Modal content\-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Login </h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-                            </div>
-                            <div class="col-sm-auto">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me
-                                    </label>
-                                </div>
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="content">
+        <!\-- Modal content\-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Login </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                        </div>
+                        <div class="col-sm-auto">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label"> Remember me
+                                </label>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 ```
 
 -   Next we introduce another link on the right side of the navbar in
@@ -11238,10 +11237,10 @@ bootstrap.min.js file.
     following code in the navbar after the \</ul\>:
 
 ```
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
-                </span>
+<span class="navbar-text">
+  <a data-toggle="modal" data-target="#loginModal">
+  <span class="fa fa-sign-in"></span> Login</a>
+</span>
 ```
 
 We are introducing another link to the right of the navbar using the
@@ -11265,13 +11264,13 @@ revealing content for the user upon clicking on a button or a link.
 ### Bootstrap Resources
 
 -   [Bootstrap
-    Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/)
+    Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/ target="_blank")
 
 -   [Bootstrap
-    Popovers](http://getbootstrap.com/docs/4.0/components/popovers/)
+    Popovers](http://getbootstrap.com/docs/4.0/components/popovers/ target="_blank")
 
 -   [Bootstrap
-    Modals](http://getbootstrap.com/docs/4.0/components/modal/)
+    Modals](http://getbootstrap.com/docs/4.0/components/modal/ target="_blank")
 
 ## Carousel: Objectives and Outcomes
 
@@ -13462,9 +13461,9 @@ defining the classes.
 ```
 
 This will install the *less* NPM module globally so that it can be used
-by any project. **Note: if you are executing this on a Mac or Linux
+by any project. <b>Note: if you are executing this on a Mac or Linux
 machine, you may need to add "sudo" to the beginning of this
-command**. This will make available the *lessc* compiler for us so that
+command</b>. This will make available the *lessc* compiler for us so that
 we can compile Less files.
 
 -   Next, go to the CSS folder on your machine and rename the
@@ -13800,7 +13799,7 @@ We come to the final assignment of this course. In this fourth
 assignment, you\'re going to work with bootstraps, JQuery support and
 also a little bit of Sass. This assignment consists of four tasks.
 
-Your **first** task would be to remove all that data-attributes from
+Your <b>first</b> task would be to remove all that data-attributes from
 both the login link here and the reserve of tables here.
 
 Now, in this assignment, we are going to trigger the models using
@@ -13809,7 +13808,7 @@ JavaScript code.
 To do that, we\'ll first remove the data-attributes, both from the
 reserve model and the login model as our first task in this assignment.
 
-Your **second** task is to add appropriate JavaScript code by using the
+Your <b>second</b> task is to add appropriate JavaScript code by using the
 models methods, JavaScript methods that are available, such that when
 the reserve table pattern is clicked, then the corresponding reserve
 model will be displayed as seen here.
@@ -13817,7 +13816,7 @@ model will be displayed as seen here.
 We see that this showing and hiding of the model is triggered completely
 using the JavaScript methods of that model.
 
-Your **third** task would be to, again, insert appropriate code into the
+Your <b>third</b> task would be to, again, insert appropriate code into the
 script such that when you click on the login link here, the login model
 will be displayed.
 
@@ -14216,7 +14215,7 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
 ```
 
--   **NOTE:** If you are doing the exercise on a Windows computer,
+-   <b>NOTE:</b> If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
 ```
@@ -14806,7 +14805,7 @@ Compressing and Minifying Images
 npm -g install imagemin-cli@3.0.0
 ```
 
-Remember to use *sudo* on mac and Linux. **NOTE:** Some students have
+Remember to use *sudo* on mac and Linux. <b>NOTE:</b> Some students have
 encountered issues with imagemin-cli not installing its plugins due to
 issues with global permissions on Mac. In that case try
 
@@ -14877,7 +14876,7 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
     prompt:
 
 ```
-**npm run build**
+npm run build
 ```
 
 -   This will build the *dist* folder containing the files that are a
@@ -15551,7 +15550,7 @@ npm install grunt-browser-sync@2.2.0 --save-dev
     any of them, it will compile the scss file into css file and load
     the updated page into the browser (livereload)
 
-**grunt**
+<b>grunt</b>
 
 -   Do a Git commit with the message "Grunt Part 1".
 
@@ -16096,7 +16095,7 @@ runner.
 You will configure the Grunt file with a set of additional tasks to
 build your web project.
 
-**At the end of this exercise, you will be able to:**
+<b>At the end of this exercise, you will be able to:</b>
 
 -   Configure a Grunt file with a set of tasks to build your web project
     from a source.
@@ -16545,7 +16544,7 @@ project. At the end of this exercise, you will be able to:
 -   Configure a Gulp file with a set of tasks to build a web project
     from a source, and serve the built project using a server.
 
-**Installing Gulp**
+<b>Installing Gulp</b>
 
 -   At the command prompt, type the following to install Gulp
     command-line interface (CLI) globally:
@@ -16599,34 +16598,34 @@ var gulp = require('gulp'),
     and the default task as follows:
 
 ```
-> gulp.task('sass', function () {
->   return gulp.src('./css/*.scss')
->     .pipe(sass().on('error', sass.logError))
->     .pipe(gulp.dest('./css'));
-> });
->  
-> gulp.task('sass:watch', function () {
->   gulp.watch('./css/*.scss', ['sass']);
-> });
->  
-> gulp.task('browser-sync', function () {
->    var files = [
->       './*.html',
->       './css/*.css',
->       './img/*.{png,jpg,gif}',
->       './js/*.js'
->    ];
->    browserSync.init(files, {
->       server: {
->          baseDir: "./"
->       }
->    });
-> });
-> // Default task
-> gulp.task('default', ['browser-sync'], function() {
->     gulp.start('sass:watch');
-> });
->  
+gulp.task('sass', function () {
+  return gulp.src('./css/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+});
+ 
+gulp.task('sass:watch', function () {
+  gulp.watch('./css/*.scss', ['sass']);
+});
+ 
+gulp.task('browser-sync', function () {
+   var files = [
+      './*.html',
+      './css/*.css',
+      './img/*.{png,jpg,gif}',
+      './js/*.js'
+   ];
+   browserSync.init(files, {
+      server: {
+         baseDir: "./"
+      }
+   });
+});
+// Default task
+gulp.task('default', ['browser-sync'], function() {
+    gulp.start('sass:watch');
+});
+ 
 ```
 
 -   Save the Gulp file
@@ -16669,25 +16668,25 @@ At the end of this exercise, you will be able to:
     *del* Node module and require it in the Gulp file as follows:
 
 ```
-> npm install del@3.0.0 --save-dev
-> var ...
->     del = require('del'),
->     ...
+npm install del@3.0.0 --save-dev
+var ...
+    del = require('del'),
+    ...
 ```
 
 -   Next, we will add the code for the Clean task and the copyfonts task
     as follows:
 
 ```
-> // Clean
-> gulp.task('clean', function() {
->     return del(['dist']);
-> });
->  
-> gulp.task('copyfonts', function() {
->    gulp.src('./node_modules/font-awesome/fonts//.{ttf,woff,eof,svg}')
->    .pipe(gulp.dest('./dist/fonts'));
-> });
+// Clean
+gulp.task('clean', function() {
+    return del(['dist']);
+});
+ 
+gulp.task('copyfonts', function() {
+   gulp.src('./node_modules/font-awesome/fonts//.{ttf,woff,eof,svg}')
+   .pipe(gulp.dest('./dist/fonts'));
+});
 ```
 
 ### Compressing and Minifying Images
@@ -16701,60 +16700,60 @@ npm install gulp-imagemin@4.1.0 --save-dev
 ```
 
 ```
-> var ...
->     imagemin = require('gulp-imagemin'),
->     ...
+var ...
+    imagemin = require('gulp-imagemin'),
+    ...
 ```
 
 -   Next, we create the *imagemin* task as follows:
 
 ```
-> // Images
-> gulp.task('imagemin', function() {
->   return gulp.src('img/*.{png,jpg,gif}')
->     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
->     .pipe(gulp.dest('dist/img'));
-> });
+// Images
+gulp.task('imagemin', function() {
+  return gulp.src('img/*.{png,jpg,gif}')
+    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+    .pipe(gulp.dest('dist/img'));
+});
 ```
 
-**Preparing the Distribution Folder and Files**
+<b>Preparing the Distribution Folder and Files</b>
 
 -   We now install the gulp-usemin and other related Gulp plugins and
     require them as follows:
 
 ```
-> npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
->  
-> var ...
->     uglify = require('gulp-uglify'),
->     usemin = require('gulp-usemin'),
->     rev = require('gulp-rev'),
->     cleanCss = require('gulp-clean-css'),
->     flatmap = require('gulp-flatmap'),
->     htmlmin = require('gulp-htmlmin');
+npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
+ 
+var ...
+    uglify = require('gulp-uglify'),
+    usemin = require('gulp-usemin'),
+    rev = require('gulp-rev'),
+    cleanCss = require('gulp-clean-css'),
+    flatmap = require('gulp-flatmap'),
+    htmlmin = require('gulp-htmlmin');
 ```
 
 -   We configure the usemin and the build task as follows:
 
 ```
-> gulp.task('usemin', function() {
->   return gulp.src('./*.html')
->   .pipe(flatmap(function(stream, file){
->       return stream
->         .pipe(usemin({
->             css: [ rev() ],
->             html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
->             js: [ uglify(), rev() ],
->             inlinejs: [ uglify() ],
->             inlinecss: [ cleanCss(), 'concat' ]
->         }))
->     }))
->     .pipe(gulp.dest('dist/'));
-> });
->  
-> gulp.task('build',['clean'], function() {
->     gulp.start('copyfonts','imagemin','usemin');
-> });
+gulp.task('usemin', function() {
+  return gulp.src('./*.html')
+  .pipe(flatmap(function(stream, file){
+      return stream
+        .pipe(usemin({
+            css: [ rev() ],
+            html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+            js: [ uglify(), rev() ],
+            inlinejs: [ uglify() ],
+            inlinecss: [ cleanCss(), 'concat' ]
+        }))
+    }))
+    .pipe(gulp.dest('dist/'));
+});
+ 
+gulp.task('build',['clean'], function() {
+    gulp.start('copyfonts','imagemin','usemin');
+});
 ```
 
 -   ### Save the Gulp file
@@ -17011,4 +17010,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 10:19am ---->
+<!--- last updated: 09/20/2022 at 11:38am ---->
