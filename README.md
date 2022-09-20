@@ -11251,10 +11251,10 @@ bootstrap.min.js file.
     following code in the navbar after the \</ul\>:
 
 ```
-                <span class="navbar-text"\>**
-                    <a data-toggle="modal" data-target="#loginModal"\>**
-                    <span class="fa fa-sign-in"\></span\> Login</a\>**
-                </span\>**
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
 ```
 
 We are introducing another link to the right of the navbar using the
@@ -11555,9 +11555,6 @@ able to:
 
 -   Configure various aspects of the carousel
 
-```{=html}
-<!-- -->
-```
 -   Add controls to the carousel to manually control it
 
 ### Adding a row for the carousel
@@ -11567,19 +11564,12 @@ able to:
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
 
-**       <div class="row row-content"\>**
-
-**           <div class="col"\>**
-
-** **
-
-**            </div\>**
-
-**       </div\>**
-
-** **
-
-** **
+```
+       <div class="row row-content">
+           <div class="col">
+            </div>
+       </div>
+```
 
 ### Adding a Carousel
 
@@ -11587,9 +11577,8 @@ able to:
     just added as follows:
 
 ```
-            <div id="mycarousel" class="carousel slide" data-ride="carousel"\>**
- **
-            </div\>**
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            </div>
 ```
 
 ### Adding Carousel Content
@@ -11597,22 +11586,22 @@ able to:
 -   Next add the content inside the carousel as follows:
 
 ```
-                    <div class="carousel-inner" role="listbox"\>**
-                        <div class="carousel-item active"\>**
-                            <img class="d-block img-fluid"**
-                                src="[img/uthappizza.png]{.underline}" alt="Uthappizza"\>**
-                            <div class="carousel-caption d-none d-md-block"\>**
-                                <h2\>Uthappizza <span class="badge badge-danger"\>HOT</span\> <span class="badge badge-pill badge-default"\>\$4.99</span\></h2\>**
-                                . . .**
-                            </div\>**
-                        </div\>**
-                        <div class="carousel-item"\>**
-                                . . .**
-                        </div\>**
-                        <div class="carousel-item"\>**
-                                . . .**
-                        </div\>**
-                    </div\>**
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid"
+                                src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">\$4.99</span></h2>
+                                . . .
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                                . . .
+                        </div>
+                        <div class="carousel-item">
+                                . . .
+                        </div>
+                    </div>
 ```
 
 Note that the first item has been set up partially. Fill in the
@@ -11623,20 +11612,20 @@ remaining parts from the content rows below.
 -   Add the following CSS classes to the *styles.css* file:
 
 ```
-.carousel {**
-    background:#512DA8;**
-}**
- **
-.carousel-item {**
-  height: 300px;**
-}**
- **
-.carousel-item img {**
-    position: absolute;**
-    top: 0;**
-    left: 0;**
-    min-height: 300px;**
-}**
+.carousel {
+    background:#512DA8;
+}
+ 
+.carousel-item {
+  height: 300px;
+}
+ 
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
 ```
 
 ### Adding Carousel Controls
@@ -11647,11 +11636,11 @@ remaining parts from the content rows below.
     indicators that enable us to select a specific slide:
 
 ```
-                    <ol class="carousel-indicators"\>**
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"\></li\>**
-                        <li data-target="#mycarousel" data-slide-to="1"\></li\>**
-                        <li data-target="#mycarousel" data-slide-to="2"\></li\>**
-                    </ol\>**
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
 ```
 
 -   Then, add the left and right controls to the carousel that enable us
@@ -11659,12 +11648,12 @@ remaining parts from the content rows below.
     bottom of the carousel div:
 
 ```
-                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"\>**
-                        <span class="carousel-control-prev-icon"\></span\>**
-                    </a\>**
-                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"\>**
-                        <span class="carousel-control-next-icon"\></span\>**
-                    </a\>**
+                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"\>
+                        <span class="carousel-control-prev-icon"\></span\>
+                    </a\>
+                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"\>
+                        <span class="carousel-control-next-icon"\></span\>
+                    </a\>
 ```
 
 -   Do a Git commit with the message "Carousel".
@@ -12964,9 +12953,9 @@ to:
     the button to toggle the carousel cycling behavior:
 
 ```
-                    <button class="btn btn-danger btn-sm" id="carouselButton"\>**
-                        <span id="carousel-button-icon" class="fa fa-pause"\></span\>**
-                    </button\>**
+                    <button class="btn btn-danger btn-sm" id="carouselButton"\>
+                        <span id="carousel-button-icon" class="fa fa-pause"\></span\>
+                    </button\>
 ```
 
 We are adding a single button inside a button group with the ID
@@ -12979,18 +12968,18 @@ based on the current behavior of the carousel.
     carousel and also show the appropriate button:
 
 ```
-            \$("#carouselButton").click(function(){**
-                if (\$("#carouselButton").children("span").hasClass(\'fa-pause\')) {**
-                    \$("#mycarousel").carousel(\'pause\');**
-                    \$("#carouselButton").children("span").removeClass(\'fa-pause\');**
-                    \$("#carouselButton").children("span").addClass(\'fa-play\');**
-                }**
-                else if (\$("#carouselButton").children("span").hasClass(\'fa-play\')){**
-                    \$("#mycarousel").carousel(\'cycle\');**
-                    \$("#carouselButton").children("span").removeClass(\'fa-play\');**
-                    \$("#carouselButton").children("span").addClass(\'fa-pause\');                    **
-                }**
-            });**
+            \$("#carouselButton").click(function(){
+                if (\$("#carouselButton").children("span").hasClass(\'fa-pause\')) {
+                    \$("#mycarousel").carousel(\'pause\');
+                    \$("#carouselButton").children("span").removeClass(\'fa-pause\');
+                    \$("#carouselButton").children("span").addClass(\'fa-play\');
+                }
+                else if (\$("#carouselButton").children("span").hasClass(\'fa-play\')){
+                    \$("#mycarousel").carousel(\'cycle\');
+                    \$("#carouselButton").children("span").removeClass(\'fa-play\');
+                    \$("#carouselButton").children("span").addClass(\'fa-pause\');                    
+                }
+            });
 ```
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
@@ -13376,14 +13365,12 @@ of this exercise you will be able to:
 -   Add the following Less variables into the file:
 
 ```
-\@lt-gray: #ddd;**
-\@background-dark: #512DA8;**
-\@background-light: #9575CD;**
-\@background-pale: #D1C4E9;**
- **
-// Height variables**
-\@carousel-item-height: 300px;**
- **
+@lt-gray: #ddd;
+@background-dark: #512DA8;
+@background-light: #9575CD;
+@background-pale: #D1C4E9;
+// Height variables
+@carousel-item-height: 300px;
 ```
 
 We have just added a few color and a height variable. We will make use
@@ -13394,11 +13381,10 @@ of these variables while defining the classes.
 -   Next we add a mixin into the file as follows:
 
 ```
-.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {**
-    margin:0px auto;**
-    padding: @pad-up-dn @pad-left-right;**
-}**
- **
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+    margin:0px auto;
+    padding: @pad-up-dn @pad-left-right;
+}
 ```
 
 We will make use of this to define several row classes next.
@@ -13407,46 +13393,46 @@ We will make use of this to define several row classes next.
     following row classes to the file:
 
 ```
-address{**
-    font-size:80%;**
-    margin:0px;**
-    color:#0f0f0f;**
-}**
- **
-body{**
-    padding:50px 0px 0px 0px;**
-    z-index:0;**
-}**
- **
-.navbar-dark {**
-     background-color: @background-dark;**
-}**
- **
-.tab-content {**
-    border-left: 1px solid @lt-gray;**
-    border-right: 1px solid @lt-gray;**
-    border-bottom: 1px solid @lt-gray;**
-    color:floralwhite;**
-}**
- **
-.jumbotron {**
-    .zero-margin(70px,30px);**
-    background: @background-light ;**
-}**
- **
-.footer{**
-    background-color: @background-pale;**
-    .zero-margin(20px, 0px);**
-    min-height:400px;**
-}**
- **
-    .zero-margin(50px,0px);**
-    border-bottom: 1px ridge;**
-}**
- **
-.row-content {**
-.row-header{**
-    .zero-margin();**
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+ 
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+ 
+.navbar-dark {
+     background-color: @background-dark;
+}
+ 
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    color:floralwhite;
+}
+ 
+.jumbotron {
+    .zero-margin(70px,30px);
+    background: @background-light ;
+}
+ 
+.footer{
+    background-color: @background-pale;
+    .zero-margin(20px, 0px);
+    min-height:400px;
+}
+ 
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+}
+ 
+.row-content {
+.row-header{
+    .zero-margin();
 ```
 
 Note the use of the variables and the mixin with various parameters in
@@ -13458,26 +13444,26 @@ defining the classes.
     classes in Less, as follows:
 
 ```
-.carousel {**
-    background:@background-dark;**
- **
-    .carousel-item {**
-        height: @carousel-item-height;**
-        img {**
-            position: absolute;**
-            top: 0;**
-            left: 0;**
-            min-height: 300px;**
-        }**
-    }**
-}**
- **
-#carouselButton {**
-    right:0px;**
-    position: absolute;**
-    bottom: 0px;**
-    z-index: 1;**
-}**
+.carousel {
+    background:@background-dark;
+ 
+    .carousel-item {
+        height: @carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
+    }
+}
+ 
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 ```
 
 ### Installing and using the lessc Compiler
@@ -13486,8 +13472,8 @@ defining the classes.
     Less file. To do this, type the following at the command prompt:
 
 ```
-     npm install -g less@2.7.2**
- **
+     npm install -g less@2.7.2
+ 
 ```
 
 This will install the *less* NPM module globally so that it can be used
@@ -13505,8 +13491,8 @@ we can compile Less files.
     file into a CSS file:
 
 ```
-     lessc styles.less styles.css**
- **
+     lessc styles.less styles.css
+ 
 ```
 
 -   You can now do a Git commit with the message "Less".
@@ -13662,14 +13648,14 @@ of this exercise you will be able to:
 -   Add the following Scss variables into the file:
 
 ```
-\$lt-gray: #ddd;**
-\$background-dark: #512DA8;**
-\$background-light: #9575CD;**
-\$background-pale: #D1C4E9;**
- **
-// Height variables**
-\$carousel-item-height: 300px;**
- **
+\$lt-gray: #ddd;
+\$background-dark: #512DA8;
+\$background-light: #9575CD;
+\$background-pale: #D1C4E9;
+ 
+// Height variables
+\$carousel-item-height: 300px;
+ 
 ```
 
 We have just added a few color and a height variable. We will make use
@@ -13680,11 +13666,11 @@ of these variables while defining the classes.
 -   Next we add a mixin into the file as follows:
 
 ```
-\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {**
-    margin:0px auto;**
-    padding: \$pad-up-dn \$pad-left-right;**
-}**
- **
+\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {
+    margin:0px auto;
+    padding: \$pad-up-dn \$pad-left-right;
+}
+ 
 ```
 
 We will make use of this to define several row classes next.
@@ -13693,47 +13679,47 @@ We will make use of this to define several row classes next.
     following row classes to the file:
 
 ```
-.row-header{**
-    @include zero-margin(0px,0px);**
-}**
- **
-.row-content {**
-    @include zero-margin(50px,0px);**
-    border-bottom: 1px ridge;**
-    min-height:400px;**
-}**
- **
-.footer{**
-    background-color: \$background-pale;**
-    @include zero-margin(20px, 0px);**
-}**
- **
-.jumbotron {**
-    @include zero-margin(70px,30px);**
-    background: \$background-light ;**
-    color:floralwhite;**
-}**
- **
-address{**
-    font-size:80%;**
-    margin:0px;**
-    color:#0f0f0f;**
-}**
- **
-body{**
-    padding:50px 0px 0px 0px;**
-    z-index:0;**
-}**
- **
-.navbar-dark {**
-     background-color: \$background-dark;**
+.row-header{
+    @include zero-margin(0px,0px);
+}
+ 
+.row-content {
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+ 
+.footer{
+    background-color: \$background-pale;
+    @include zero-margin(20px, 0px);
+}
+ 
+.jumbotron {
+    @include zero-margin(70px,30px);
+    background: \$background-light ;
+    color:floralwhite;
+}
+ 
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+ 
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+ 
+.navbar-dark {
+     background-color: \$background-dark;
 >
-}**
- **
-.tab-content {**
-    border-left: 1px solid \$lt-gray;**
-    border-right: 1px solid \$lt-gray;**
-    border-bottom: 1px solid \$lt-gray;**
+}
+ 
+.tab-content {
+    border-left: 1px solid \$lt-gray;
+    border-right: 1px solid \$lt-gray;
+    border-bottom: 1px solid \$lt-gray;
 ```
 
 Note the use of the variables and the mixin with various parameters in
@@ -13745,26 +13731,26 @@ defining the classes.
     classes in Scss, as follows:
 
 ```
-.carousel {**
-    background:\$background-dark;**
- **
-    .carousel-item {**
-        height: \$carousel-item-height;**
-        img {**
-            position: absolute;**
-            top: 0;**
-            left: 0;**
-            min-height: 300px;**
-        }**
-    }**
-}**
- **
-#carouselButton {**
-    right:0px;**
-    position: absolute;**
-    bottom: 0px;**
-    z-index: 1;**
-}**
+.carousel {
+    background:\$background-dark;
+ 
+    .carousel-item {
+        height: \$carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
+    }
+}
+ 
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 ```
 
 ### Installing and using the node-sass module
@@ -13774,8 +13760,8 @@ defining the classes.
     command prompt:
 
 ```
-     npm install \--save-dev node-sass@4.7.2**
- **
+     npm install \--save-dev node-sass@4.7.2
+ 
 ```
 
 This will install the *node-sass* NPM module into your project and also
@@ -13786,14 +13772,14 @@ add it as a development dependency in your package.json file.
     of the Scss file into a CSS file:
 
 ```
-**    "scss": "node-sass -o css/ css/"**
+    "scss": "node-sass -o css/ css/"
 ```
 
 -   In order to transform the Scss file to a CSS file, type the
     following at the prompt:
 
 ```
-**     npm run scss**
+     npm run scss
 ```
 
 -   You can now do a Git commit with the message "Sass".
@@ -14222,7 +14208,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-**    <script src="[js/scripts.js]{.underline}"\></script\>**
+    <script src="[js/scripts.js]{.underline}"\></script\>
 ```
 
 -   Add the same line to the scripts block in *aboutus.html* and
@@ -14234,37 +14220,36 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     follows:
 
 ```
-**npm install \--save-dev onchange@3.3.0 parallelshell@3.0.2**
+npm install \--save-dev onchange@3.3.0 parallelshell@3.0.2
 ```
 
 -   Then, add the following two script items to *package.json* if you
     are doing the exercise on a MacOS computer or a Linux computer:
 
 ```
-    "watch:scss": "onchange \'css/\*.scss\' \-- npm run scss",**
-    "watch:all": "parallelshell \'npm run watch:scss\' \'npm run lite\'"**
+    "watch:scss": "onchange \'css/\*.scss\' \-- npm run scss",
+    "watch:all": "parallelshell \'npm run watch:scss\' \'npm run lite\'"
 ```
 
 -   **NOTE:** If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
 ```
-    "watch:scss": "onchange \"css/\*.scss\" \-- npm run scss",**
->
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""**
+    "watch:scss": "onchange \"css/\*.scss\" \-- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
 ```
 
 -   You will also update the start script as follows:
 
 ```
-**    "start": "npm run watch:all",**
+    "start": "npm run watch:all",
 ```
 
 -   Then, type the following at the prompt to start watching for changes
     to the SCSS file, compile it to CSS, and run the server:
 
 ```
-**npm start**
+npm start
 ```
 
 -   Now, whenever you make any changes to *styles.scss* file, it will
@@ -14799,13 +14784,13 @@ At the end of this exercise, you will be able to:
     prompt:
 
 ```
-**npm install \--save-dev rimraf@2.6.2**
+npm install \--save-dev rimraf@2.6.2
 ```
 
 -   Then, set up the following script:
 
 ```
-**    "clean": "rimraf dist",**
+    "clean": "rimraf dist",
 ```
 
 ### Copying Fonts
@@ -14815,7 +14800,7 @@ At the end of this exercise, you will be able to:
     module globally as follows:
 
 ```
-**npm -g install copyfiles@2.0.0**
+npm -g install copyfiles@2.0.0
 ```
 
 Remember to use *sudo* on mac and Linux.
@@ -14823,7 +14808,7 @@ Remember to use *sudo* on mac and Linux.
 -   Then set up the following script:
 
 ```
-**    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",**
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",
 ```
 
 Compressing and Minifying Images
@@ -14833,7 +14818,7 @@ Compressing and Minifying Images
     Install the *imagemin-cli* module as follows:
 
 ```
-**npm -g install imagemin-cli@3.0.0**
+npm -g install imagemin-cli@3.0.0
 ```
 
 Remember to use *sudo* on mac and Linux. **NOTE:** Some students have
@@ -14841,13 +14826,13 @@ encountered issues with imagemin-cli not installing its plugins due to
 issues with global permissions on Mac. In that case try
 
 ```
-**sudo npm install -g imagemin-cli@3.0.0 \--unsafe-perm=true \--allow-root**
+sudo npm install -g imagemin-cli@3.0.0 \--unsafe-perm=true \--allow-root
 ```
 
 -   Then set up the following script:
 
 ```
-**    "imagemin": "imagemin img/\* \--out-dir=\'dist/img\'",**
+    "imagemin": "imagemin img/\* \--out-dir=\'dist/img\'",
 ```
 
 ### Preparing the Distribution Folder
@@ -14856,35 +14841,35 @@ issues with global permissions on Mac. In that case try
     folder to be checked into the git repository.
 
 ```
-node_modules**
-dist**
+node_modules
+dist
 ```
 
 -   Then, install the *usemin-cli, cssmin, uglifyjs* and *htmlmin* NPM
     packages as follows:
 
 ```
-npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7**
+npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 ```
 
 -   Add the following two scripts to the package.json file:
 
 ```
-    "usemin": "usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html",**
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"**
- **
+    "usemin": "usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+ 
 ```
 
 -   Open *index.html* and surround the css links inclusion code as
     follows:
 
 ```
-    <!\-- build:css css/main.css \--\>**
-    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"\>**
-    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"\>**
-    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"\>**
-    <link href="[css/styles.css]{.underline}" rel="stylesheet"\>**
-    <!\-- endbuild \--\>**
+    <!\-- build:css css/main.css \--\>
+    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"\>
+    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"\>
+    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"\>
+    <link href="[css/styles.css]{.underline}" rel="stylesheet"\>
+    <!\-- endbuild \--\>
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -14893,12 +14878,12 @@ npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 html
     code as follows:
 
 ```
-    <!\-- build:js js/main.js \--\>**
-    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"\></script\>**
-    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"\></script\>**
-    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"\></script\>**
-    <script src="[js/scripts.js]{.underline}"\></script\>**
-    <!\-- endbuild \--\>**
+    <!\-- build:js js/main.js \--\>
+    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"\></script\>
+    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"\></script\>
+    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"\></script\>
+    <script src="[js/scripts.js]{.underline}"\></script\>
+    <!\-- endbuild \--\>
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -14927,8 +14912,8 @@ deployment using NPM scripts.
 ### PDFs of Presentations
 
 ```
-10-Building-Deployment.pdf**
-10-NPM-Scripts.pdf**
+10-Building-Deployment.pdf
+10-NPM-Scripts.pdf
 ```
 
 ### Additional Resources
@@ -15433,7 +15418,7 @@ web project. At the end of this exercise, you will be able to:
     command-line interface (CLI):
 
 ```
-**npm install -g grunt-cli@1.2.0**
+npm install -g grunt-cli@1.2.0
 ```
 
 This will install the Grunt CLI globally so that you can use them in all
@@ -15443,7 +15428,7 @@ projects.
     *conFusion* folder and type the following at the prompt:
 
 ```
-**npm install grunt@1.0.2 \--save-dev**
+npm install grunt@1.0.2 \--save-dev
 ```
 
 This will install local per-project Grunt to use within your project.
@@ -15458,21 +15443,21 @@ This will install local per-project Grunt to use within your project.
     configure Grunt tasks:
 
 ```
-\'use strict\';**
+\'use strict\';
 >
- **
+ 
 >
-module.exports = function (grunt) {**
+module.exports = function (grunt) {
 >
-  // Define the configuration for all the tasks**
+  // Define the configuration for all the tasks
 >
-  grunt.initConfig({**
+  grunt.initConfig({
 >
- **
+ 
 >
-  });**
+  });
 >
-};**
+};
 ```
 
 This sets up the Grunt module ready for including the grunt tasks inside
@@ -15486,11 +15471,9 @@ the function above.
     modules by typing the following at the prompt:
 
 ```
-npm install grunt-sass@2.1.0 \--save-dev**
->
-npm install time-grunt@1.4.0 \--save-dev**
->
-npm install jit-grunt@0.10.0 \--save-dev**
+npm install grunt-sass@2.1.0 \--save-dev
+npm install time-grunt@1.4.0 \--save-dev
+npm install jit-grunt@0.10.0 \--save-dev
 ```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The
@@ -15502,35 +15485,35 @@ downloaded Grunt modules when needed for the tasks.
     including the code inside the function in *Gruntfile.js*:
 
 ```
-\'use strict\';**
-module.exports = function (grunt) {**
-    // Time how long tasks take. Can help when optimizing build times**
-    require(\'time-grunt\')(grunt);**
- **
-    // Automatically load required Grunt tasks**
-    require(\'jit-grunt\')(grunt);**
- **
-    // Define the configuration for all the tasks**
-    grunt.initConfig({**
-        sass: {**
-            dist: {**
-                files: {**
-                    \'css/styles.css\': \'css/styles.scss\'**
-                }**
-            }**
-        }**
-    });**
- **
-    grunt.registerTask(\'css\', \[\'sass\'\]);**
- **
-};**
+\'use strict\';
+module.exports = function (grunt) {
+    // Time how long tasks take. Can help when optimizing build times
+    require(\'time-grunt\')(grunt);
+ 
+    // Automatically load required Grunt tasks
+    require(\'jit-grunt\')(grunt);
+ 
+    // Define the configuration for all the tasks
+    grunt.initConfig({
+        sass: {
+            dist: {
+                files: {
+                    \'css/styles.css\': \'css/styles.scss\'
+                }
+            }
+        }
+    });
+ 
+    grunt.registerTask(\'css\', \[\'sass\'\]);
+ 
+};
 ```
 
 -   Now you can run the grunt SASS task by typing the following at the
     prompt:
 
 ```
-**grunt css**
+grunt css
 ```
 
 ### Watch and Serve Tasks
@@ -15541,42 +15524,42 @@ module.exports = function (grunt) {**
     this, install the following grunt modules:
 
 ```
-npm install grunt-contrib-watch@1.0.0 \--save-dev**
-npm install grunt-browser-sync@2.2.0 \--save-dev**
+npm install grunt-contrib-watch@1.0.0 \--save-dev
+npm install grunt-browser-sync@2.2.0 \--save-dev
 ```
 
 -   After this, we will configure the browser-sync and watch tasks by
     adding the following code to the Grunt file:
 
 ```
-,**
-        watch: {**
-            files: \'css/\*.scss\',**
-            tasks: \[\'sass\'\]**
-        },**
-        browserSync: {**
-            dev: {**
-                bsFiles: {**
-                    src : \[**
-                        \'css/\*.css\',**
-                        \'\*.html\',**
-                        \'js/\*.js\'**
-                    \]**
-                },**
-                options: {**
-                    watchTask: true,**
-                    server: {**
-                        baseDir: "./"**
-                    }**
-                }**
-            }**
-        }**
+,
+        watch: {
+            files: \'css/\*.scss\',
+            tasks: \[\'sass\'\]
+        },
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src : \[
+                        \'css/\*.css\',
+                        \'\*.html\',
+                        \'js/\*.js\'
+                    \]
+                },
+                options: {
+                    watchTask: true,
+                    server: {
+                        baseDir: "./"
+                    }
+                }
+            }
+        }
 ```
 
 -   Then add the following task to the Grunt file:
 
 ```
-**    grunt.registerTask(\'default\', \[\'browserSync\', \'watch\'\]);**
+    grunt.registerTask(\'default\', \[\'browserSync\', \'watch\'\]);
 ```
 
 -   Now if you type the following at the command prompt, it will start
@@ -16142,9 +16125,8 @@ build your web project.
     needed. To do this, install the following Grunt modules:
 
 ```
-npm install grunt-contrib-copy@1.0.0 \--save-dev**
->
-npm install grunt-contrib-clean@1.1.0 \--save-dev**
+npm install grunt-contrib-copy@1.0.0 \--save-dev
+npm install grunt-contrib-clean@1.1.0 \--save-dev
 ```
 
 -   You will now add the code to perform the copying of files to the
@@ -16153,38 +16135,38 @@ npm install grunt-contrib-clean@1.1.0 \--save-dev**
     the configuration of the SASS task.:
 
 ```
-,**
- **
-        copy: {**
-            html: {**
-                files: \[**
-                {**
-                    //for html**
-                    expand: true,**
-                    dot: true,**
-                    cwd: \'./\',**
-                    src: \[\'\*.html\'\],**
-                    dest: \'dist\'**
-                }\]                **
-            },**
-            fonts: {**
-                files: \[**
-                {**
-                    //for font-awesome**
-                    expand: true,**
-                    dot: true,**
-                    cwd: \'node_modules/font-awesome\',**
-                    src: \[\'fonts/\*.\*\'\],**
-                    dest: \'dist\'**
-                }\]**
-            }**
-        },**
- **
-        clean: {**
-            build: {**
-                src: \[ \'dist/\'\]**
-            }**
-        }**
+,
+ 
+        copy: {
+            html: {
+                files: \[
+                {
+                    //for html
+                    expand: true,
+                    dot: true,
+                    cwd: \'./\',
+                    src: \[\'\*.html\'\],
+                    dest: \'dist\'
+                }\]                
+            },
+            fonts: {
+                files: \[
+                {
+                    //for font-awesome
+                    expand: true,
+                    dot: true,
+                    cwd: \'node_modules/font-awesome\',
+                    src: \[\'fonts/\*.\*\'\],
+                    dest: \'dist\'
+                }\]
+            }
+        },
+ 
+        clean: {
+            build: {
+                src: \[ \'dist/\'\]
+            }
+        }
 ```
 
 -   Remember to add the comma after the end of the SASS task.
@@ -16195,24 +16177,24 @@ npm install grunt-contrib-clean@1.1.0 \--save-dev**
     process the images. To install this module type at the prompt:
 
 ```
-npm install grunt-contrib-imagemin@2.0.1 \--save-dev**
+npm install grunt-contrib-imagemin@2.0.1 \--save-dev
 ```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
 
 ```
-,**
+,
 >
-        imagemin: {**
-            dynamic: {**
-                files: \[{**
-                    expand: true,                  // Enable dynamic expansion**
-                    cwd: \'./\',                   // Src matches are relative to this path**
-                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match**
-                    dest: \'dist/\'                  // Destination path prefix**
-                }\]**
-            }**
-        }**
+        imagemin: {
+            dynamic: {
+                files: \[{
+                    expand: true,                  // Enable dynamic expansion
+                    cwd: \'./\',                   // Src matches are relative to this path
+                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match
+                    dest: \'dist/\'                  // Destination path prefix
+                }\]
+            }
+        }
 ```
 
 ### Preparing the Distribution Folder and Files
@@ -16223,82 +16205,82 @@ npm install grunt-contrib-imagemin@2.0.1 \--save-dev**
     modules:
 
 ```
- npm install grunt-contrib-concat@1.0.1 \--save-dev**
- npm install grunt-contrib-cssmin@2.2.1 \--save-dev**
- npm install grunt-contrib-htmlmin@2.4.0 \--save-dev**
- npm install grunt-contrib-uglify@3.3.0 \--save-dev**
- npm install grunt-filerev@2.3.1 \--save-dev**
- npm install grunt-usemin@3.1.1 \--save-dev**
+ npm install grunt-contrib-concat@1.0.1 \--save-dev
+ npm install grunt-contrib-cssmin@2.2.1 \--save-dev
+ npm install grunt-contrib-htmlmin@2.4.0 \--save-dev
+ npm install grunt-contrib-uglify@3.3.0 \--save-dev
+ npm install grunt-filerev@2.3.1 \--save-dev
+ npm install grunt-usemin@3.1.1 \--save-dev
 ```
 
 -   Next, update the task configuration within the Gruntfile.js with the
     following additional code to introduce the new tasks:
 
 ```
-,**
- **
-        useminPrepare: {**
-            foo: {**
-                dest: \'dist\',**
-                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]**
-            },**
-            options: {**
-                flow: {**
-                    steps: {**
-                        css: \[\'cssmin\'\],**
-                        js:\[\'uglify\'\]**
-                    },**
-                    post: {**
-                        css: \[{**
-                            name: \'cssmin\',**
-                            createConfig: function (context, block) {**
-                            var generated = context.options.generated;**
-                                generated.options = {**
-                                    keepSpecialComments: 0, rebase: false**
-                                };**
-                            }       **
-                        }\]**
-                    }**
-                }**
-            }**
-        },**
- **
-        // Concat**
-        concat: {**
-            options: {**
-                separator: \';\'**
-            },**
-            // dist configuration is provided by useminPrepare**
-            dist: {}**
-        },**
-        // Uglify**
-        uglify: {**
+,
+ 
+        useminPrepare: {
+            foo: {
+                dest: \'dist\',
+                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]
+            },
+            options: {
+                flow: {
+                    steps: {
+                        css: \[\'cssmin\'\],
+                        js:\[\'uglify\'\]
+                    },
+                    post: {
+                        css: \[{
+                            name: \'cssmin\',
+                            createConfig: function (context, block) {
+                            var generated = context.options.generated;
+                                generated.options = {
+                                    keepSpecialComments: 0, rebase: false
+                                };
+                            }       
+                        }\]
+                    }
+                }
+            }
+        },
+ 
+        // Concat
+        concat: {
+            options: {
+                separator: \';\'
+            },
+            // dist configuration is provided by useminPrepare
+            dist: {}
+        },
+        // Uglify
+        uglify: {
 ```
 
 -   Next, update the jit-grunt configuration as follows, to inform it
     that useminPrepare task depends on the usemin package:
 
 ```
-require(\'jit-grunt\')(grunt, {**
-  useminPrepare: \'grunt-usemin\'**
-});**
+require(\'jit-grunt\')(grunt, {
+  useminPrepare: \'grunt-usemin\'
+});
 ```
 
 -   Next, update the Grunt build task as follows:
 
 ```
-    grunt.registerTask(\'build\', \[**
-        \'clean\',**
-        \'copy\',**
-        \'imagemin\',**
-        \'useminPrepare\',**
-        \'concat\',**
-        \'cssmin\',**
-        \'uglify\',**
-        \'filerev\',**
-        \'usemin\',**
-        \'htmlmin\'**
-    \]);**
+    grunt.registerTask(\'build\', \[
+        \'clean\',
+        \'copy\',
+        \'imagemin\',
+        \'useminPrepare\',
+        \'concat\',
+        \'cssmin\',
+        \'uglify\',
+        \'filerev\',
+        \'usemin\',
+        \'htmlmin\'
+    \]);
 ```
 
 -   Now if you run Grunt, it will create a dist folder with the files
@@ -16306,7 +16288,7 @@ require(\'jit-grunt\')(grunt, {**
     website. To do this, type the following at the prompt:
 
 ```
-grunt build**
+grunt build
 ```
 
 ### Conclusions
@@ -16588,7 +16570,7 @@ project. At the end of this exercise, you will be able to:
     command-line interface (CLI) globally:
 
 ```
-     npm install -g gulp-cli@2.0.1**
+     npm install -g gulp-cli@2.0.1
 ```
 
 This will install the Gulp globally so that you can use it in all
@@ -16598,7 +16580,7 @@ projects.
     *conFusion* folder and type the following at the prompt:
 
 ```
-     npm install gulp@3.9.1 \--save-dev**
+     npm install gulp@3.9.1 --save-dev
 ```
 
 This will install local per-project Gulp to use within your project.
@@ -16609,7 +16591,7 @@ This will install local per-project Gulp to use within your project.
     To do this, type the following at the command prompt:
 
 ```
-npm install gulp-sass@3.1.0  browser-sync@2.23.6 \--save-dev**
+npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 ```
 
 ### Creating a Gulp File
@@ -16624,11 +16606,11 @@ npm install gulp-sass@3.1.0  browser-sync@2.23.6 \--save-dev**
     Gulp file:
 
 ```
-\'use strict\';**
- **
-var gulp = require(\'gulp\'),**
-    sass = require(\'gulp-sass\'),**
-> **    browserSync = require(\'browser-sync\');**
+\'use strict\';
+ 
+var gulp = require(\'gulp\'),
+    sass = require(\'gulp-sass\'),
+>     browserSync = require(\'browser-sync\');
 ```
 
 ### Adding Gulp Tasks for SASS and Browser-Sync
@@ -16637,38 +16619,37 @@ var gulp = require(\'gulp\'),**
     and the default task as follows:
 
 ```
-> ** **
-> **gulp.task(\'sass\', function () {**
-> **  return gulp.src(\'./css/\*.scss\')**
-> **    .pipe(sass().on(\'error\', sass.logError))**
-> **    .pipe(gulp.dest(\'./css\'));**
-> **});**
-> ** **
-> **gulp.task(\'sass:watch\', function () {**
-> **  gulp.watch(\'./css/\*.scss\', \[\'sass\'\]);**
-> **});**
-> ** **
-> **gulp.task(\'browser-sync\', function () {**
-> **   var files = \[**
-> **      \'./\*.html\',**
-> **      \'./css/\*.css\',**
-> **      \'./img/\*.{png,jpg,gif}\',**
-> **      \'./js/\*.js\'**
-> **   \];**
-> ** **
-> **   browserSync.init(files, {**
-> **      server: {**
-> **         baseDir: "./"**
-> **      }**
-> **   });**
-> ** **
-> **});**
-> ** **
-> **// Default task**
-> **gulp.task(\'default\', \[\'browser-sync\'\], function() {**
-> **    gulp.start(\'sass:watch\');**
-> **});**
-> ** **
+> gulp.task(\'sass\', function () {
+>   return gulp.src(\'./css/\*.scss\')
+>     .pipe(sass().on(\'error\', sass.logError))
+>     .pipe(gulp.dest(\'./css\'));
+> });
+>  
+> gulp.task(\'sass:watch\', function () {
+>   gulp.watch(\'./css/\*.scss\', \[\'sass\'\]);
+> });
+>  
+> gulp.task(\'browser-sync\', function () {
+>    var files = \[
+>       \'./\*.html\',
+>       \'./css/\*.css\',
+>       \'./img/\*.{png,jpg,gif}\',
+>       \'./js/\*.js\'
+>    \];
+>  
+>    browserSync.init(files, {
+>       server: {
+>          baseDir: "./"
+>       }
+>    });
+>  
+> });
+>  
+> // Default task
+> gulp.task(\'default\', \[\'browser-sync\'\], function() {
+>     gulp.start(\'sass:watch\');
+> });
+>  
 ```
 
 -   Save the Gulp file
@@ -16679,7 +16660,7 @@ var gulp = require(\'gulp\'),**
     task:
 
 ```
-> **     gulp**
+>      gulp
 ```
 
 -   Do a Git commit with the message "Gulp Part 1".
@@ -16711,25 +16692,25 @@ At the end of this exercise, you will be able to:
     *del* Node module and require it in the Gulp file as follows:
 
 ```
-> **npm install del@3.0.0 \--save-dev**
-> **var \...**
-> **    del = require(\'del\'),**
-> **    \...**
+> npm install del@3.0.0 \--save-dev
+> var \...
+>     del = require(\'del\'),
+>     \...
 ```
 
 -   Next, we will add the code for the Clean task and the copyfonts task
     as follows:
 
 ```
-> **// Clean**
-> **gulp.task(\'clean\', function() {**
-> **    return del(\[\'dist\'\]);**
-> **});**
-> ** **
-> **gulp.task(\'copyfonts\', function() {**
-> **   gulp.src(\'./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*\')**
-> **   .pipe(gulp.dest(\'./dist/fonts\'));**
-> **});**
+> // Clean
+> gulp.task(\'clean\', function() {
+>     return del(\[\'dist\'\]);
+> });
+>  
+> gulp.task(\'copyfonts\', function() {
+>    gulp.src(\'./node_modules/font-awesome/fonts/\*\*/\*.{ttf,woff,eof,svg}\*\')
+>    .pipe(gulp.dest(\'./dist/fonts\'));
+> });
 ```
 
 ### Compressing and Minifying Images
@@ -16739,24 +16720,24 @@ At the end of this exercise, you will be able to:
     follows:
 
 ```
-**npm install gulp-imagemin@4.1.0 \--save-dev**
+npm install gulp-imagemin@4.1.0 \--save-dev
 ```
 
 ```
-> **var \...**
-> **    imagemin = require(\'gulp-imagemin\'),**
-> **    \...**
+> var \...
+>     imagemin = require(\'gulp-imagemin\'),
+>     \...
 ```
 
 -   Next, we create the *imagemin* task as follows:
 
 ```
-> **// Images**
-> **gulp.task(\'imagemin\', function() {**
-> **  return gulp.src(\'img/\*.{png,jpg,gif}\')**
-> **    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))**
-> **    .pipe(gulp.dest(\'dist/img\'));**
-> **});**
+> // Images
+> gulp.task(\'imagemin\', function() {
+>   return gulp.src(\'img/\*.{png,jpg,gif}\')
+>     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+>     .pipe(gulp.dest(\'dist/img\'));
+> });
 ```
 
 **Preparing the Distribution Folder and Files**
@@ -16765,38 +16746,38 @@ At the end of this exercise, you will be able to:
     require them as follows:
 
 ```
-> **npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 \--save-dev**
-> ** **
-> **var \...**
-> **    uglify = require(\'gulp-uglify\'),**
-> **    usemin = require(\'gulp-usemin\'),**
-> **    rev = require(\'gulp-rev\'),**
-> **    cleanCss = require(\'gulp-clean-css\'),**
-> **    flatmap = require(\'gulp-flatmap\'),**
-> **    htmlmin = require(\'gulp-htmlmin\');**
+> npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 \--save-dev
+>  
+> var \...
+>     uglify = require(\'gulp-uglify\'),
+>     usemin = require(\'gulp-usemin\'),
+>     rev = require(\'gulp-rev\'),
+>     cleanCss = require(\'gulp-clean-css\'),
+>     flatmap = require(\'gulp-flatmap\'),
+>     htmlmin = require(\'gulp-htmlmin\');
 ```
 
 -   We configure the usemin and the build task as follows:
 
 ```
-> **gulp.task(\'usemin\', function() {**
-> **  return gulp.src(\'./\*.html\')**
-> **  .pipe(flatmap(function(stream, file){**
-> **      return stream**
-> **        .pipe(usemin({**
-> **            css: \[ rev() \],**
-> **            html: \[ function() { return htmlmin({ collapseWhitespace: true })} \],**
-> **            js: \[ uglify(), rev() \],**
-> **            inlinejs: \[ uglify() \],**
-> **            inlinecss: \[ cleanCss(), \'concat\' \]**
-> **        }))**
-> **    }))**
-> **    .pipe(gulp.dest(\'dist/\'));**
-> **});**
-> ** **
-> **gulp.task(\'build\',\[\'clean\'\], function() {**
-> **    gulp.start(\'copyfonts\',\'imagemin\',\'usemin\');**
-> **});**
+> gulp.task(\'usemin\', function() {
+>   return gulp.src(\'./\*.html\')
+>   .pipe(flatmap(function(stream, file){
+>       return stream
+>         .pipe(usemin({
+>             css: \[ rev() \],
+>             html: \[ function() { return htmlmin({ collapseWhitespace: true })} \],
+>             js: \[ uglify(), rev() \],
+>             inlinejs: \[ uglify() \],
+>             inlinecss: \[ cleanCss(), \'concat\' \]
+>         }))
+>     }))
+>     .pipe(gulp.dest(\'dist/\'));
+> });
+>  
+> gulp.task(\'build\',\[\'clean\'\], function() {
+>     gulp.start(\'copyfonts\',\'imagemin\',\'usemin\');
+> });
 ```
 
 -   ### Save the Gulp file
@@ -16806,7 +16787,7 @@ At the end of this exercise, you will be able to:
 -   ### At the command prompt, if you type *gulp build* it will run the build task:
 
 ```
-**     gulp build**
+     gulp build
 ```
 
 -   ### Do a Git commit with the message "Gulp Part 2"
@@ -16822,7 +16803,7 @@ development tasks.
 ### PDFs of Presentations
 
 ```
-**10-Task-Runners.pdf**
+10-Task-Runners.pdf
 ```
 
 ### Grunt Resources
@@ -16981,7 +16962,7 @@ specialization.
 
 ### PDFs of Presentations
 
-**11-Conclusion.pdf**
+11-Conclusion.pdf
 
 ## Project Implementation: Objectives and Outcomes
 
