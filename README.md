@@ -4573,7 +4573,7 @@ a row, all adding up to 12 or a multiple thereof.
     content. In the next exercise, we will see how we can add other
     classes to the rows.
 
-``
+```
 <div class="row"> ...
 ```
 
@@ -4639,8 +4639,8 @@ responsive design layout.
     for the first and the third rows as follows:
 
 ```
-    <div class="col-12 col-sm-4 order-sm-last col-md-3"\> \... </div\>
-    <div class="col col-sm order-sm-first col-md"\> \... </div\>
+    <div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
+    <div class="col col-sm order-sm-first col-md"> ... </div>
 ```
 
 -   For the div containing the <ul\> with the site links, update the
