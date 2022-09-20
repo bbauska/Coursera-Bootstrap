@@ -1,6 +1,7 @@
 ---
 title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
+
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
 <!------------------------------------------------------------------------------------------------>
@@ -32,14 +33,14 @@ height="2.0638298337707788in"}
 ----------->
 <p align="center" width="100%">(coursera.org)</p>
 
-## Course Overview
+### Course Overview
 
 Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
 I\'m glad you decided to join this course to learn about the most
 popular front end Web UI Framework: Bootstrap.
 
-We\'ll look at various aspects of **Bootstrap**. Through several
+We\'ll look at various aspects of <b>Bootstrap</b>. Through several
 examples, you will learn by doing exercises as part of this course.
 
 Let\'s look at some details next. Before you begin this course, please
@@ -62,7 +63,7 @@ In this Specialization, we are not looking at this aspect of web
 development.
 
 Instead, we are looking at that second aspect, which is the
-**development, building, and deployment of websites and web pages**,
+<b>development, building, and deployment of websites and web pages</b>,
 using technologies like the front end web UI frameworks like Bootstrap,
 maybe JavaScript framework like Angular or a Library like React and
 hybrid mobile frameworks to design mobile applications and also
@@ -87,7 +88,7 @@ In particular, if you\'re looking at how this course is positioned in
 the general context of full stack web development, in this course, we
 are dealing with front end web UI development.
 
-In particular, the **UI Framework Bootstrap 4**.
+In particular, the <b>UI Framework Bootstrap 4</b>.
 
 -   We\'ll be looking at the remaining aspects of full stack web
     development in the rest of this specialization.
@@ -106,23 +107,23 @@ In particular, the **UI Framework Bootstrap 4**.
 -   We\'ll learn a lot of web tools that are based on the command line
     and the Node.js ecosystem.
 
--   We\'ll briefly review **Git**, add **Node.js** and look at Noje.js
-    based tools including task runners like **Grunt** and **Gulp**.
+-   We\'ll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js
+    based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.
 
 This course, itself, is structured into four modules.
 
 Each module roughly corresponding to one week of work.
 
-1.  In the ***first*** module, we\'ll get the big picture view of full
+1.  In the <b><i>first</i></b> module, we\'ll get the big picture view of full
     stack web development, then you\'ll get a quick introduction to
-    ***Git*** and ***Node.js**.*
+    <b><i>Git</i></b> and <b><i>Node.js</i>.</b>
 
-    a.  Then we\'ll introduce you to the ***Bootstrap*** and then review
-        the ***Bootstrap Grid*** system.
+    a.  Then we\'ll introduce you to the <b><i>Bootstrap</i></b> and then review
+        the <b><i>Bootstrap Grid</i></b> system.
 
     b.  That will lead you up to the first assignment in this course.
 
-2.  The ***second*** module deals with **Bootstrap CSS** components.
+2.  The <b><i>second</i></b> module deals with <b>Bootstrap CSS</b> components.
 
     a.  We\'ll look at the design of the Bootstrap navigation bar and
         how we can make use of it to support navigation.
@@ -138,7 +139,7 @@ Each module roughly corresponding to one week of work.
 
     e.  This should lead you up to your second assignment.
 
-3.  The ***third*** module deals with **Bootstrap JavaScript**
+3.  The <b><i>third</i></b> module deals with <b>Bootstrap JavaScript</b>
     components.
 
     a.  We\'ll look at the big picture view of how Bootstrap JavaScript
@@ -154,8 +155,8 @@ Each module roughly corresponding to one week of work.
 
     d.  This will lead you up to the third assignment in this course.
 
-4.  The ***last (fourth)*** module deals with **Bootstrap** and the
-    **JQuery** and various **dev tools**.
+4.  The <b><i>last (fourth)</i></b> module deals with <b>Bootstrap</b> and the
+    <b>JQuery</b> and various <b>dev tools</b>.
 
 a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
     how you can write JQuery and JavaScript code in order to control
@@ -165,12 +166,12 @@ b.  We look at the various methods that are supported by the Bootstrap
     > JavaScript components, which can be leveraged to write JavaScript
     > code to control the behavior of these components.
 
-c.  Then we\'ll review CSS pre-processing language is like **LESS** and
-    Sass**.
+c.  Then we\'ll review CSS pre-processing language is like <b>LESS</b> and
+    <b>Sass</b>.
 
-d.  Then, **finally**, we\'ll look at how we can build and deploy our
-    website using **NPM scripts** or **task runners** like **Grunt**
-    and **Gulp**.
+d.  Then, <b>finally</b>, we\'ll look at how we can build and deploy our
+    website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b>
+    and <b>Gulp</b>.
 
 This should take you all the way to the final assignment in this
 course. I hope you will have a lot of fun doing the various parts of
@@ -265,7 +266,7 @@ height="2.0571587926509185in"}
 In this approach, the entire web application is organized into three
 different layers.
 
-The **presentation layer**, which is concerned with delivering to the
+The <b>presentation layer</b>, which is concerned with delivering to the
 user.
 
 This is usually the UI-related concerns that are dealt with at the
@@ -285,12 +286,12 @@ presentation layer.
 height="2.0571587926509185in"}
 ------------>
 
-The **business logic layer**, on the other hand, is concerned more about
+The <b>business logic layer</b>, on the other hand, is concerned more about
 the data, the data validation, the dynamic content processing, and
 generating the content to be delivered to the user.
 
-This is backed up behind the scenes with the **data persistence layer or
-the data access layer**.
+This is backed up behind the scenes with the <b>data persistence layer or
+the data access layer</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 06. traditional web development (xx) ------------------------------>
@@ -464,14 +465,14 @@ computer. At the end of this lesson, you will be able to:
 
 ### Software Requirements
 
-1.  **Text editor of your choice**: Any text editor that you are already
+1.  <b>Text editor of your choice</b>: Any text editor that you are already
     familiar with can be used for editing the project files. I will be
     using Visual Studio Code (<https://code.visualstudio.com/>) as the
     editor of choice in this specialization. You may also consider other
     editors such as Brackets (<http://brackets.io/>), Sublime Text
     (<http://www.sublimetext.com/)>, or Atom (<https://atom.io/>).
 
-2.  **Browser of your choice**: You may use your preferred browser. I
+2.  <b>Browser of your choice</b>: You may use your preferred browser. I
     will be using Chrome as the browser in all the exercises. All the
     exercises and assignments in this course have been tested using
     Chrome v. 46. Please note that not all browsers may support all the
@@ -480,18 +481,18 @@ computer. At the end of this lesson, you will be able to:
     browser for the exercises and assignments in this course so that any
     problems are minimized.
 
-3.  **Command line shell**: Familiarity with the command-line shell will
+3.  <b>Command line shell</b>: Familiarity with the command-line shell will
     be essential for the exercises. In Windows a cmd window or power
     shell with admin privileges would be needed. On a Mac or in Linux, a
     terminal window can be used. Please get familiar with the "sudo"
     command in OS X and Linux.
 
-4.  **Files required for the exercises**: We will provide additional
+4.  <b>Files required for the exercises</b>: We will provide additional
     starter files for the exercises wherever needed. Links to download
-    the files will be provided inline in the **exercise instructions**
+    the files will be provided inline in the <b>exercise instructions</b>
     that follow each exercise video. Please download the files provided
     there, if any, before beginning the exercise. The links are also
-    available through the **Additional Resources** of the specific
+    available through the <b>Additional Resources</b> of the specific
     lesson.
 
 Note: Please remember to retain the folders and all the files that you
@@ -652,7 +653,7 @@ height="3.427884951881015in"}
 Once you install Git on a computer Start up a command window or
 PowerShell if you\'re using a Window machine or start up a terminal
 window if you\'re using a Mac or Linux machine and then at the prompt
-type in **git \--version** to check what version of git is installed on
+type in <b>git \--version</b> to check what version of git is installed on
 your computer.
 
 On my machine I have this current version of git installed and that is
@@ -664,7 +665,7 @@ global identity parameters, the username and email address.
 Whenever Git does any comments as you will learn later, it will make use
 of this information.
 
-To do that, at the prompt type **git config \--global user.name**
+To do that, at the prompt type <b>git config \--global user.name</b>
 "Username", and then you can type in your user name.
 
 ```
@@ -731,7 +732,7 @@ would be able to:
 
 -   You can choose any of the methods that is most convenient for you.
 
-**Some Global Configuration for Git**
+<b>Some Global Configuration for Git</b>
 
 -   Open a cmd window or terminal on your computer.
 
@@ -796,7 +797,7 @@ To do that at the command line type git init.
 
 Now, this folder has been initialized to be a git repository.
 
-This is our first git command that we have learnt, **git init**.
+This is our first git command that we have learnt, <b>git init</b>.
 
 This initializes the current folder as a git repository and when it
 initializes the folder, it will mark that folder as a master.
@@ -813,7 +814,7 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we\'re going to look at is **git status**.
+The next command that we\'re going to look at is <b>git status</b>.
 
 If you type git status in the command line, it\'ll tell you the current
 status of the folder.
@@ -836,7 +837,7 @@ now not been added to our git repository.
 
 Let\'s go ahead and add that file to the git repository.
 
-To do that, we say, **\> git add,** and you can simply say dot, which
+To do that, we say, <b>\> git add,</b> and you can simply say dot, which
 means that all the files in the current directory will be added to what
 is called as the staging area of my git repository.
 
@@ -847,14 +848,14 @@ And it says, changes to be committed there and then shows the file name
 and then so that means that this file is now ready to be committed to my
 git repository.
 
-The next command that we saw was **\> git add**.
+The next command that we saw was <b>\> git add</b>.
 
 By using git add you can add file or folders to that staging area.
 
 Once you add it to the staging area, then you can commit that snapshot
 of our folder status to our git repository.
 
-That means that when you do the **\> git commit**, what this command
+That means that when you do the <b>\> git commit</b>, what this command
 will do is commit the current state of our folders into our git
 repositories.
 
@@ -867,11 +868,11 @@ will now be changed to the first commit to the git repository.
 
 Let\'s go ahead and do that.
 
-Back at the command prompt, let\'s type **\> git commit**.
+Back at the command prompt, let\'s type <b>\> git commit</b>.
 
 And then we can even add a message to our commit.
 
-I\'m going to say **\> git commit -m "first commit"** because this is
+I\'m going to say <b>\> git commit -m "first commit"</b> because this is
 our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git
@@ -885,7 +886,7 @@ What it means is that the current state of my working directory or
 working folder has been committed to the git repository, so a snapshot
 has been committed to my git repository.
 
-Now, I can type the next command called **\> git log \--oneline**, and
+Now, I can type the next command called <b>\> git log \--oneline</b>, and
 see that it shows a number there, an eight digit number there, and then
 also it shows the message that we put into our commit saying first
 commit.
@@ -893,10 +894,10 @@ commit.
 That is the log of all the commits that have been put into my git
 repository.
 
-Going back to our next git command, we saw that **\> git log
-\--oneline** will show us a brief log of all the commits.
+Going back to our next git command, we saw that <b>\> git log
+\--oneline</b> will show us a brief log of all the commits.
 
-If you simply type **git log** display a lot more detailed information
+If you simply type <b>git log</b> display a lot more detailed information
 about all the commits.
 
 But this is sufficient enough for obtaining information that we require.
@@ -925,7 +926,7 @@ index.html into my test.html, and save the changes.
 Going back to the command line, let\'s now check out the status of our
 git repository and this folder.
 
-Type in **\> git status**, shows that the index status html file that we
+Type in <b>\> git status</b>, shows that the index status html file that we
 have already handed earlier to the repository has now been modified, so
 there is a newer version of the index.html file.
 
@@ -933,7 +934,7 @@ Also, it shows that there are some untracked files in this folder called
 templates.
 
 Let\'s add all these changes to the staging the area, so again, type
-**\> git add.**
+<b>\> git add.</b>
 
 And then all these files will be added to the staging area.
 
@@ -943,7 +944,7 @@ You now see that changes that have been added to the staging area.
 
 All these files have been added to the staging area.
 
-Let\'s do one more commit, so I would say **\> git commit -m**, second
+Let\'s do one more commit, so I would say <b>\> git commit -m</b>, second
 commit and then let\'s check out the log. If you check out the log,
 you\'ll now see that there are two commits in my git repository, the
 first and the second commit.
@@ -976,8 +977,8 @@ Let\'s add this to the staging area, and then do a third commit.
 Let\'s say, \> git add., git status, now you see that the index.html the
 modified version has been added.
 
-Now we can say **\> git commit**. "third commit" and do **\> git log
-\--oneline,** and you see there are three commits in our repository.
+Now we can say <b>\> git commit</b>. "third commit" and do <b>\> git log
+\--oneline,</b> and you see there are three commits in our repository.
 
 Now our repository contains snapshots of three different points, at the
 end of the first commit, at the end of the second commit, and at the end
@@ -997,8 +998,8 @@ notice that it has an h1 and two ps.
 
 Let\'s now look at the next git command.
 
-The next git command that we are going to learn about is **\> git
-checkout.**
+The next git command that we are going to learn about is <b>\> git
+checkout.</b>
 
 This checkout command allows us to check out a file from a previous
 commit in our git repository.
@@ -1017,7 +1018,7 @@ the third commit, I made changes to my index.html file.
 Suppose I want to revert back to the index.html file from my second
 commit.
 
-Then, I can simply say, **git checkout 900cfcf**.
+Then, I can simply say, <b>git checkout 900cfcf</b>.
 
 That is commit identify the number that identifies the particular
 commit, and then I can say index.html, and what you would notice is
@@ -1071,7 +1072,7 @@ particular file corresponding to the previous comment.
 Let me just restore that index.html back to what it was at the end of
 the third commit.
 
-To do that, I could simply say **git checkout \-- index.html** and then,
+To do that, I could simply say <b>git checkout \-- index.html</b> and then,
 if I do git status, it shows that my directory is clean.
 
 And basically my directory has been restored to the state at the end of
@@ -1146,7 +1147,7 @@ the end of this exercise you will be able to:
 ## Basic Git Commands
 
 -   At a convenient location on your computer, create a folder named
-    **git-test**.
+    <b>git-test</b>.
 
 -   Open this git-test folder in your favorite editor.
 
@@ -1169,32 +1170,32 @@ the end of this exercise you will be able to:
     following at the prompt to initialize the folder as a Git
     repository:
 
-**git init**
+<b>git init</b>
 
 ### Checking your Git repository status
 
 -   Type the following at the prompt to check your Git repository\'s
     status:
 
-**git status**
+<b>git status</b>
 
 ### Adding files to the staging area
 
 -   To add files to the staging area of your Git repository, type:
 
-**git add .**
+<b>git add .</b>
 
 ### Commiting to the Git repository
 
 -   ### To commit the current staging area to your Git repository, type:
 
-**git commit -m "first commit"**
+<b>git commit -m "first commit"</b>
 
 ### Checking the log of Git commits
 
 -   ### To check the log of the commits to your Git repository, type
 
-**git log \--oneline**
+<b>git log \--oneline</b>
 
 -   ### Now, modify the index.html file as follows:
 
@@ -1209,7 +1210,7 @@ the end of this exercise you will be able to:
 </html>
 ```
 
--   Add a sub-folder named **templates** to your **git-test** folder,
+-   Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder,
     and then add a file named *test.html* to the templates folder. Then
     set the contents of this file to be the same as the *index.html*
     file above.
@@ -1241,18 +1242,18 @@ the end of this exercise you will be able to:
     of the second commit using the git log, and then type the following
     at the prompt:
 
-**git checkout <second commit\'s number\> index.html**
+<b>git checkout <second commit\'s number\> index.html</b>
 
 ### Resetting the Git repository
 
 -   To discard the effect of the previous operation and restore
     index.html to its state at the end of the third commit, type:
 
-**git reset HEAD index.html**
+<b>git reset HEAD index.html</b>
 
 -   Then type the following at the prompt:
 
-**git checkout \-- index.html**
+<b>git checkout \-- index.html</b>
 
 -   You can also use *git reset* to reset the staging area to the last
     commit without disturbing the working directory.
@@ -1531,7 +1532,7 @@ online repository. At the end of this exercise, you will be able to:
     ([https://bitbucket.org](https://bitbucket.org/)) or GitHub
     ([https://github.com](https://github.com/)).
 
--   Then set up an online Git repository named **git-test**. Note the
+-   Then set up an online Git repository named <b>git-test</b>. Note the
     URL of your online Git repository. Note that private repositories on
     GitHub requires a paid account, and is not available for free
     accounts.
@@ -1541,14 +1542,14 @@ online repository. At the end of this exercise, you will be able to:
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
 
-**git remote add origin <repository URL\>**
+<b>git remote add origin <repository URL\></b>
 
 ### Pushing your commits to the online repository
 
 -   At the prompt, type the following to push the commits to the online
     repository:
 
-**git push -u origin master**
+<b>git push -u origin master</b>
 
 ### Cloning an online repository
 
@@ -1562,7 +1563,7 @@ online repository. At the end of this exercise, you will be able to:
 height="1.2676279527559056in"}
 ---------->
 
-**git clone <repository URL\>**
+<b>git clone <repository URL\></b>
 
 ### Conclusions
 
@@ -1695,9 +1696,9 @@ And once the installation is complete, let\'s go ahead and verify that
 Node.js has been installed correctly.
 
 Open up a terminal window or a command window and add the prompt, type
-**node-v** to check the version of node installed.
+<b>node-v</b> to check the version of node installed.
 
-Similarly, check **npm-v** to check the version of NPM installed. I am
+Similarly, check <b>npm-v</b> to check the version of NPM installed. I am
 starting with these versions of node and NPM, and the subsequent
 exercises will be based on these.
 
@@ -1712,9 +1713,9 @@ Let\'s go ahead and make use of Node.js in the next exercise.
 
 ## Exercise (Instructions): Setting up Node.js and NPM
 
-**Note: Make sure you have installed Git on your machine before you
+<b>Note: Make sure you have installed Git on your machine before you
 install Node.js. Please complete the previous Git installation exercise
-before proceeding with this exercise.**
+before proceeding with this exercise.</b>
 
 ### Objectives and Outcomes
 
@@ -1752,25 +1753,25 @@ At the end of this exercise, you will be able to:
     stable version. You should to install the LTS version. I will use
     this version in the course.)
 
-**Note: On Windows machines, you may need to configure your PATH
+<b>Note: On Windows machines, you may need to configure your PATH
 environmental variable in case you forgot to turn on the add to PATH
-during the installation steps.**
+during the installation steps.</b>
 
 ### Verifying the Node Installation
 
 -   Open a terminal window on your machine. If you are using a Windows
-    machine, open a cmd window or PowerShell window with **admin**
+    machine, open a cmd window or PowerShell window with <b>admin</b>
     privileges.
 
 -   To ensure that your NodeJS setup is working correctly, type the
-    following at the command prompt to check for the version of **Node**
-    and **NPM**
+    following at the command prompt to check for the version of <b>Node</b>
+    and <b>NPM</b>
 
--   **node -v**
+-   <b>node -v</b>
 
--   **      **
+-   <b>      </b>
 
--   **npm -v**
+-   <b>npm -v</b>
 
 > ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
 <!----------
@@ -2200,7 +2201,7 @@ commit.
 
 Let\'s do a git commit.
 
-**git commit -m "fourth commit"**.
+<b>git commit -m "fourth commit"</b>.
 
 And the files are committed.
 
@@ -2260,15 +2261,15 @@ of this exercise, you will be able to:
 
 ### Initializing package.json
 
--   At the command prompt in your **git-test** folder, type
+-   At the command prompt in your <b>git-test</b> folder, type
 
-**npm init**
+<b>npm init</b>
 
 -   Follow along the prompts and answer the questions as follows: accept
     the default values for most of the entries, except set the entry
     point to index.html
 
--   This should create a *package.json* file in your **git-test**
+-   This should create a *package.json* file in your <b>git-test</b>
     folder.
 
 **Installing an NPM Module**
@@ -2951,11 +2952,11 @@ exercise, you will be able to:
 ### Setting up the Project Folder
 
 -   Go to a convenient folder location on your computer and download the
-    ***Bootstrap4-starter.zip*** file using the link provided at the top
+    <b><i>Bootstrap4-starter.zip</i></b> file using the link provided at the top
     of this page.
 
--   Unzip the file to see a folder named ***Bootstrap4*** and a
-    sub-folder under it named ***conFusion*** created. Move to the
+-   Unzip the file to see a folder named <b><i>Bootstrap4</i></b> and a
+    sub-folder under it named <b><i>conFusion</i></b> created. Move to the
     *conFusion* folder.
 
 -   Open a cmd window/terminal and move to the conFusion folder.
@@ -4902,8 +4903,8 @@ We can define our own custom CSS classes in a separate CSS file, and
 also customize some of the built-in CSS classes. We will now attempt to
 do this in this part of the exercise.
 
--   Create a folder named ***css***. Then create a file named
-    *styles.css* in the ***css*** folder. Open this file to edit the
+-   Create a folder named <b><i>css</i></b>. Then create a file named
+    *styles.css* in the <b><i>css</i></b> folder. Open this file to edit the
     contents. Add the following CSS code to the file:
 
 ```
@@ -6604,7 +6605,7 @@ installed, then the font icons are not showing up in their browser.
     following at the prompt:
 
 ```
-**npm install font-awesome@4.7.0 \--save**
+npm install font-awesome@4.7.0 --save
 ```
 
 -   Another module that we install is Bootstrap Social that enables the
@@ -6613,7 +6614,7 @@ installed, then the font icons are not showing up in their browser.
     To install it using npm, type the following at the prompt:
 
 ```
-**npm install bootstrap-social@5.1.1 \--save**
+npm install bootstrap-social@5.1.1 --save
 ```
 
 -   We now need to include the CSS files for font awesome and
@@ -6627,23 +6628,23 @@ installed, then the font icons are not showing up in their browser.
 ```
 
 -   Let us now use some font icons in our web page and decorate it.
-    Update the navbar\'s ul list items as follows in index.html:
+    Update the navbar's ul list items as follows in index.html:
 
 ```
 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>**
 <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>**
 <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>**
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg">\</span> Menu</a></li>**
+<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>**
 ```
 
 -   Similarly update the navbar\'s ul list items as follows in
     aboutus.html:
 
 ```
-    <li class="nav-item">\<a class="nav-link" href="[./index.html]{.underline}">\<span class="fa fa-home fa-lg">\</span> Home\</a>\</li>**
-    <li class="nav-item active">\<a class="nav-link" href="#">\<span class="fa fa-info fa-lg">\</span> About\</a>\</li>**
-    <li class="nav-item">\<a class="nav-link" href="#">\<span class="fa fa-list fa-lg">\</span> Menu\</a>\</li>**
-    <li class="nav-item">\<a class="nav-link" href="#">\<span class="fa fa-address-card fa-lg">\</span> Contact\</a>\</li>**
+    <li class="nav-item"><a class="nav-link" href="[./index.html]{.underline}"><span class="fa fa-home fa-lg"></span> Home</a></li>**
+    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>**
+    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>**
+    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>**
 ```
 
 -   Next, in both index.html and aboutus.html, go down to the address in
@@ -6652,10 +6653,10 @@ installed, then the font icons are not showing up in their browser.
     follows:
 
 ```
-<i class="fa fa-phone fa-lg">\</i>: +852 1234 5678\<br>**
-<i class="fa fa-fax fa-lg">\</i>: +852 8765 4321\<br>**
-<i class="fa fa-envelope fa-lg">\</i>: **
-<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net\</a>**
+<i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>**
+<i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>**
+<i class="fa fa-envelope fa-lg"></i>: **
+<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net</a>**
 ```
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
@@ -6664,17 +6665,17 @@ installed, then the font icons are not showing up in their browser.
 
 ```
 <div class="text-center">**
-<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}">\<i class="fa fa-google-plus">\</i>\</a>**
+<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>**
 <a class="btn btn-social-icon btn-facebook"**
-href="[http://www.facebook.com/profile.php?id=]{.underline}">\<i class="fa fa-facebook">\</i>\</a>**
+href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>**
 <a class="btn btn-social-icon btn-linkedin" **
-href="[http://www.linkedin.com/in/]{.underline}">\<i class="fa fa-linkedin">\</i>\</a>**
+href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>**
 <a class="btn btn-social-icon btn-twitter"**
-href="[http://twitter.com/]{.underline}">\<i class="fa fa-twitter">\</i>\</a>**
+href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>**
 <a class="btn btn-social-icon btn-google" **
-href="[http://youtube.com/]{.underline}">\<i class="fa fa-youtube">\</i>\</a>**
+href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>**
 <a class="btn btn-social-icon" **
-href="[mailto:]{.underline}">\<i class="fa fa-envelope-o">\</i>\</a>**
+href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>**
 </div>
 ```
 
@@ -7618,7 +7619,7 @@ Download file
 ### Set up for the Exercise
 
 -   Download the *contactus.html.zip* file given above, unzip it and
-    move the *contactus.html* to the ***conFusion*** folder. This file
+    move the *contactus.html* to the <b><i>conFusion</i></b> folder. This file
     is already pre-formatted with some content.
 
 -   Set up the links in the navigation bars for all the three pages,
@@ -7636,11 +7637,11 @@ Download file
     to create a button bar containing three buttons:
 
 ```
-                \<div class="btn-group" role="group">**
-                    \<a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}">\<i class="fa fa-phone">\</i> Call\</a>**
-                    \<a role="button" class="btn btn-info">\<i class="fa fa-skype">\</i> Skype\</a>**
-                    \<a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}">\<i class="fa fa-envelope-o">\</i> Email\</a>**
-                \</div>**
+                <div class="btn-group" role="group">**
+                    <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>**
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>**
+                    <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>**
+                </div>**
 ```
 
 Note how we define the button bar using the *btn-group* class, and then
@@ -8100,7 +8101,7 @@ can style the contents using the column classes as appropriate.
     </div>
     </div>
     <div class="form-group row">
-    <label for="emailid" class="col-md-2 col-form-label">Email\</label>
+    <label for="emailid" class="col-md-2 col-form-label">Email</label>
     <div class="col-md-10">
     <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
     </div>
@@ -8656,13 +8657,13 @@ displaying content. At the end of this exercise, you will be able to:
                                 <td>40</td>
                             </tr>
                             <tr>
-                                <th>Guests Served\</th>
+                                <th>Guests Served</th>
                                 <td>15000</td>
                                 <td>45000</td>
                                 <td>100,000</td>
                             </tr>
                             <tr>
-                                <th>Special Events\</th>
+                                <th>Special Events</th>
                                 <td>3</td>
                                 <td>20</td>
                                 <td>45</td>
@@ -9140,7 +9141,7 @@ style the content.
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
                     <div class="media-body">
-                        <h2 class="mt-0">Alberto Somayya\</h2>
+                        <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
                         <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
                             International experience having worked closely with
@@ -13620,14 +13621,13 @@ of this exercise you will be able to:
 -   Add the following Scss variables into the file:
 
 ```
-\$lt-gray: #ddd;
-\$background-dark: #512DA8;
-\$background-light: #9575CD;
-\$background-pale: #D1C4E9;
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
  
 // Height variables
-\$carousel-item-height: 300px;
- 
+$carousel-item-height: 300px;
 ```
 
 We have just added a few color and a height variable. We will make use
@@ -13642,7 +13642,6 @@ of these variables while defining the classes.
     margin:0px auto;
     padding: \$pad-up-dn \$pad-left-right;
 }
- 
 ```
 
 We will make use of this to define several row classes next.
@@ -13662,13 +13661,13 @@ We will make use of this to define several row classes next.
 }
  
 .footer{
-    background-color: \$background-pale;
+    background-color: $background-pale;
     @include zero-margin(20px, 0px);
 }
  
 .jumbotron {
     @include zero-margin(70px,30px);
-    background: \$background-light ;
+    background: $background-light ;
     color:floralwhite;
 }
  
@@ -13684,14 +13683,14 @@ body{
 }
  
 .navbar-dark {
-     background-color: \$background-dark;
+     background-color: $background-dark;
 >
 }
  
 .tab-content {
-    border-left: 1px solid \$lt-gray;
-    border-right: 1px solid \$lt-gray;
-    border-bottom: 1px solid \$lt-gray;
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
 ```
 
 Note the use of the variables and the mixin with various parameters in
@@ -13704,10 +13703,10 @@ defining the classes.
 
 ```
 .carousel {
-    background:\$background-dark;
+    background:$background-dark;
  
     .carousel-item {
-        height: \$carousel-item-height;
+        height: $carousel-item-height;
         img {
             position: absolute;
             top: 0;
@@ -13732,7 +13731,7 @@ defining the classes.
     command prompt:
 
 ```
-     npm install \--save-dev node-sass@4.7.2
+     npm install --save-dev node-sass@4.7.2
  
 ```
 
@@ -14180,7 +14179,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-    <script src="[js/scripts.js]{.underline}"\></script\>
+    <script src="[js/scripts.js]{.underline}"></script>
 ```
 
 -   Add the same line to the scripts block in *aboutus.html* and
@@ -14192,23 +14191,23 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     follows:
 
 ```
-npm install \--save-dev onchange@3.3.0 parallelshell@3.0.2
+npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 ```
 
 -   Then, add the following two script items to *package.json* if you
     are doing the exercise on a MacOS computer or a Linux computer:
 
 ```
-    "watch:scss": "onchange \'css/\*.scss\' \-- npm run scss",
-    "watch:all": "parallelshell \'npm run watch:scss\' \'npm run lite\'"
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
 ```
 
 -   **NOTE:** If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
 ```
-    "watch:scss": "onchange \"css/\*.scss\" \-- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:scss": "onchange "css/*.scss" -- npm run scss",
+    "watch:all": "parallelshell "npm run watch:scss" "npm run lite""
 ```
 
 -   You will also update the start script as follows:
@@ -14798,13 +14797,13 @@ encountered issues with imagemin-cli not installing its plugins due to
 issues with global permissions on Mac. In that case try
 
 ```
-sudo npm install -g imagemin-cli@3.0.0 \--unsafe-perm=true \--allow-root
+sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
 ```
 
 -   Then set up the following script:
 
 ```
-    "imagemin": "imagemin img/\* \--out-dir=\'dist/img\'",
+    "imagemin": "imagemin img/* --out-dir='dist/img'",
 ```
 
 ### Preparing the Distribution Folder
@@ -14821,13 +14820,13 @@ dist
     packages as follows:
 
 ```
-npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 ```
 
 -   Add the following two scripts to the package.json file:
 
 ```
-    "usemin": "usemin contactus.html -d dist \--htmlmin -o dist/contactus.html && usemin aboutus.html -d dist \--htmlmin -o dist/aboutus.html && usemin index.html -d dist \--htmlmin -o dist/index.html",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
  
 ```
@@ -14836,12 +14835,12 @@ npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 html
     follows:
 
 ```
-    <!\-- build:css css/main.css \--\>
-    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"\>
-    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"\>
-    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"\>
-    <link href="[css/styles.css]{.underline}" rel="stylesheet"\>
-    <!\-- endbuild \--\>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}">
+    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
+    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
+    <link href="[css/styles.css]{.underline}" rel="stylesheet">
+    <!-- endbuild -->
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -14850,12 +14849,12 @@ npm install \--save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 html
     code as follows:
 
 ```
-    <!\-- build:js js/main.js \--\>
-    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"\></script\>
-    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"\></script\>
-    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"\></script\>
-    <script src="[js/scripts.js]{.underline}"\></script\>
-    <!\-- endbuild \--\>
+    <!-- build:js js/main.js -->
+    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"></script>
+    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"></script>
+    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"></script>
+    <script src="[js/scripts.js]{.underline}"></script>
+    <!-- endbuild -->
 ```
 
 -   Do the same change in *aboutus.html* and *contactus.html*
@@ -15398,7 +15397,7 @@ projects.
     *conFusion* folder and type the following at the prompt:
 
 ```
-npm install grunt@1.0.2 \--save-dev
+npm install grunt@1.0.2 --save-dev
 ```
 
 This will install local per-project Grunt to use within your project.
@@ -15413,7 +15412,7 @@ This will install local per-project Grunt to use within your project.
     configure Grunt tasks:
 
 ```
-\'use strict\';
+'use strict';
 >
  
 >
@@ -15441,9 +15440,9 @@ the function above.
     modules by typing the following at the prompt:
 
 ```
-npm install grunt-sass@2.1.0 \--save-dev
-npm install time-grunt@1.4.0 \--save-dev
-npm install jit-grunt@0.10.0 \--save-dev
+npm install grunt-sass@2.1.0 --save-dev
+npm install time-grunt@1.4.0 --save-dev
+npm install jit-grunt@0.10.0 --save-dev
 ```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The
@@ -15455,26 +15454,26 @@ downloaded Grunt modules when needed for the tasks.
     including the code inside the function in *Gruntfile.js*:
 
 ```
-\'use strict\';
+'use strict';
 module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
-    require(\'time-grunt\')(grunt);
+    require('time-grunt')(grunt);
  
     // Automatically load required Grunt tasks
-    require(\'jit-grunt\')(grunt);
+    require('jit-grunt')(grunt);
  
     // Define the configuration for all the tasks
     grunt.initConfig({
         sass: {
             dist: {
                 files: {
-                    \'css/styles.css\': \'css/styles.scss\'
+                    'css/styles.css': 'css/styles.scss'
                 }
             }
         }
     });
  
-    grunt.registerTask(\'css\', \[\'sass\'\]);
+    grunt.registerTask('css', ['sass']);
  
 };
 ```
@@ -15494,8 +15493,8 @@ grunt css
     this, install the following grunt modules:
 
 ```
-npm install grunt-contrib-watch@1.0.0 \--save-dev
-npm install grunt-browser-sync@2.2.0 \--save-dev
+npm install grunt-contrib-watch@1.0.0 --save-dev
+npm install grunt-browser-sync@2.2.0 --save-dev
 ```
 
 -   After this, we will configure the browser-sync and watch tasks by
@@ -15504,17 +15503,17 @@ npm install grunt-browser-sync@2.2.0 \--save-dev
 ```
 ,
         watch: {
-            files: \'css/\*.scss\',
-            tasks: \[\'sass\'\]
+            files: 'css/*.scss',
+            tasks: ['sass']
         },
         browserSync: {
             dev: {
                 bsFiles: {
-                    src : \[
-                        \'css/\*.css\',
-                        \'\*.html\',
-                        \'js/\*.js\'
-                    \]
+                    src : [
+                        'css/*.css',
+                        '*.html',
+                        'js/*.js'
+                    ]
                 },
                 options: {
                     watchTask: true,
@@ -15529,7 +15528,7 @@ npm install grunt-browser-sync@2.2.0 \--save-dev
 -   Then add the following task to the Grunt file:
 
 ```
-    grunt.registerTask(\'default\', \[\'browserSync\', \'watch\'\]);
+    grunt.registerTask('default', ['browserSync', 'watch']);
 ```
 
 -   Now if you type the following at the command prompt, it will start
@@ -16109,32 +16108,32 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
  
         copy: {
             html: {
-                files: \[
+                files: [
                 {
                     //for html
                     expand: true,
                     dot: true,
-                    cwd: \'./\',
-                    src: \[\'\*.html\'\],
-                    dest: \'dist\'
-                }\]                
+                    cwd: './',
+                    src: ['*.html'],
+                    dest: 'dist'
+                }]                
             },
             fonts: {
-                files: \[
+                files: [
                 {
                     //for font-awesome
                     expand: true,
                     dot: true,
-                    cwd: \'node_modules/font-awesome\',
-                    src: \[\'fonts/\*.\*\'\],
-                    dest: \'dist\'
-                }\]
+                    cwd: 'node_modules/font-awesome',
+                    src: ['fonts/*.*'],
+                    dest: 'dist'
+                }]
             }
         },
  
         clean: {
             build: {
-                src: \[ \'dist/\'\]
+                src: [ 'dist/']
             }
         }
 ```
@@ -16156,12 +16155,12 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 ,
         imagemin: {
             dynamic: {
-                files: \[{
+                files: [{
                     expand: true,                  // Enable dynamic expansion
-                    cwd: \'./\',                   // Src matches are relative to this path
-                    src: \[\'img/\*.{png,jpg,gif}\'\],   // Actual patterns to match
-                    dest: \'dist/\'                  // Destination path prefix
-                }\]
+                    cwd: './',                   // Src matches are relative to this path
+                    src: ['img/*.{png,jpg,gif}'],   // Actual patterns to match
+                    dest: 'dist/'                  // Destination path prefix
+                }]
             }
         }
 ```
@@ -16189,25 +16188,25 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 ,
         useminPrepare: {
             foo: {
-                dest: \'dist\',
-                src: \[\'contactus.html\',\'aboutus.html\',\'index.html\'\]
+                dest: 'dist',
+                src: ['contactus.html','aboutus.html','index.html']
             },
             options: {
                 flow: {
                     steps: {
-                        css: \[\'cssmin\'\],
-                        js:\[\'uglify\'\]
+                        css: ['cssmin'],
+                        js:['uglify']
                     },
                     post: {
-                        css: \[{
-                            name: \'cssmin\',
+                        css: [{
+                            name: 'cssmin',
                             createConfig: function (context, block) {
                             var generated = context.options.generated;
                                 generated.options = {
                                     keepSpecialComments: 0, rebase: false
                                 };
                             }       
-                        }\]
+                        }]
                     }
                 }
             }
@@ -16216,7 +16215,7 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
         // Concat
         concat: {
             options: {
-                separator: \';\'
+                separator: ';\'
             },
             // dist configuration is provided by useminPrepare
             dist: {}
@@ -16586,17 +16585,17 @@ var gulp = require('gulp'),
     and the default task as follows:
 
 ```
-> gulp.task(\'sass\', function () {
->   return gulp.src(\'./css/\*.scss\')
->     .pipe(sass().on(\'error\', sass.logError))
->     .pipe(gulp.dest(\'./css\'));
+> gulp.task('sass', function () {
+>   return gulp.src('./css/*.scss')
+>     .pipe(sass().on('error', sass.logError))
+>     .pipe(gulp.dest('./css'));
 > });
 >  
-> gulp.task(\'sass:watch\', function () {
->   gulp.watch(\'./css/\*.scss\', \[\'sass\'\]);
+> gulp.task('sass:watch', function () {
+>   gulp.watch('./css/*.scss', ['sass']);
 > });
 >  
-> gulp.task(\'browser-sync\', function () {
+> gulp.task('browser-sync', function () {
 >    var files = [
 >       './*.html',
 >       './css/*.css',
@@ -16724,23 +16723,23 @@ npm install gulp-imagemin@4.1.0 --save-dev
 -   We configure the usemin and the build task as follows:
 
 ```
-> gulp.task(\'usemin\', function() {
->   return gulp.src(\'./\*.html\')
+> gulp.task('usemin', function() {
+>   return gulp.src('./*.html')
 >   .pipe(flatmap(function(stream, file){
 >       return stream
 >         .pipe(usemin({
->             css: [ rev() \],
->             html: [ function() { return htmlmin({ collapseWhitespace: true })} \],
->             js: [ uglify(), rev() \],
->             inlinejs: [ uglify() \],
->             inlinecss: [ cleanCss(), \'concat\' \]
+>             css: [ rev() ],
+>             html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+>             js: [ uglify(), rev() ],
+>             inlinejs: [ uglify() ],
+>             inlinecss: [ cleanCss(), 'concat' ]
 >         }))
 >     }))
->     .pipe(gulp.dest(\'dist/\'));
+>     .pipe(gulp.dest('dist/'));
 > });
 >  
-> gulp.task(\'build\',\[\'clean\'\], function() {
->     gulp.start(\'copyfonts\',\'imagemin\',\'usemin\');
+> gulp.task('build',['clean'], function() {
+>     gulp.start('copyfonts','imagemin','usemin');
 > });
 ```
 
