@@ -198,7 +198,7 @@ Bootstrap web UI framework.
 <h3 align="left">
 <a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph :target="_blank"</a>
 
-<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776" target="_blank">Switching to a Different Session</a>
+<h3 align="left"><target="_blank><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a>
 
 ### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph :target="_blank"}
 
