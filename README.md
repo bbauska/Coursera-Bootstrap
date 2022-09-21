@@ -25,8 +25,11 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
 ------------>
-
-![](images/image002.png)
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+   width="50%"
+   alt="image 2." />
+</p>
 <!----------
 {width="5.0in"
 height="2.0638298337707788in"}
@@ -17004,4 +17007,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 6:03pm ---->
+<!--- last updated: 09/20/2022 at 6:45pm ---->
