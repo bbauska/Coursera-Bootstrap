@@ -1,5 +1,5 @@
 ---
-title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
+Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
 <!--------------------------
 [link](URL){:target="_blank"}
@@ -17,7 +17,7 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/coursera-logo.png?raw=true"
    width="35%"
-   alt="Coursera logo" />
+   alt="Coursera logo." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
@@ -25,7 +25,7 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
    width="65%"
-   alt="Hong Kong University of Science and Technolog logo." />
+   alt="Hong Kong University of Science and Technology logo." />
 </p>
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
@@ -33,7 +33,7 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
    width="50%"
-   alt="image 2." />
+   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
 <!----------
 {width="5.0in"
@@ -163,23 +163,23 @@ Each module roughly corresponding to one week of work.
 
     d.  This will lead you up to the third assignment in this course.
 
-4.  The <b><i>last (fourth)</i></b> module deals with <b>Bootstrap</b> and the
+4.  The <b><i>fourth (and last)</i></b> module deals with <b>Bootstrap</b> and the
     <b>JQuery</b> and various <b>dev tools</b>.
 
-a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
-    how you can write JQuery and JavaScript code in order to control
-    your Bootstrap JavaScript component.
+	a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
+		how you can write JQuery and JavaScript code in order to control
+		your Bootstrap JavaScript component.
 
-b.  We look at the various methods that are supported by the Bootstrap
-    > JavaScript components, which can be leveraged to write JavaScript
-    > code to control the behavior of these components.
+	b.  We look at the various methods that are supported by the Bootstrap
+		> JavaScript components, which can be leveraged to write JavaScript
+		> code to control the behavior of these components.
 
-c.  Then we\'ll review CSS pre-processing language is like <b>LESS</b> and
-    <b>Sass</b>.
+	c.  Then we\'ll review CSS pre-processing language is like <b>LESS</b> and
+		<b>Sass</b>.
 
-d.  Then, <b>finally</b>, we\'ll look at how we can build and deploy our
-    website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b>
-    and <b>Gulp</b>.
+	d.  Then, <b>finally</b>, we\'ll look at how we can build and deploy our
+		website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b>
+		and <b>Gulp</b>.
 
 This should take you all the way to the final assignment in this
 course. I hope you will have a lot of fun doing the various parts of
@@ -198,14 +198,14 @@ Bootstrap web UI framework.
 ### Coursera Resources
 
 <h3 align="left">
-    <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
+   <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a></h3>
 
 <h3 align="left">
-<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph target="_blank"></a>
+   <a href="(https://www.coursera.support/s/learner-help-center?language=en_US)></a></h3>
 
-<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776"><target="_blank">Switching to a Different Session</a>
+<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a></h3>
 
-### [https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph :target="_blank"}
+### [https://www.coursera)
 
 ## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
 
@@ -434,24 +434,24 @@ implemented using MongoDB.
 
 ### PDFs of Presentations
 
-> [00-FSWD-BigPicture.pdf -- 6 slides]
-(https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf)
+> 00-FSWD-BigPicture.pdf -- 6 slides
+https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf
 
 ### Useful Links
 
--   [What is a Full Stack developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) [target="_blank"]
+-   [What is a Full Stack developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/)
 
 -   [Wait, Wait... What is a Full Stack Web Developer After
-    All?](http://edward-designer.com/web/full-stack-web-developer/) [target="_blank"]
+    All?](http://edward-designer.com/web/full-stack-web-developer/)
 
 -   [The Myth of the Full Stack
-    Developer](http://andyshora.com/full-stack-developers.html) [target="_blank"]
+    Developer](http://andyshora.com/full-stack-developers.html)
 
 -   [Multi-tier
-    Architecture](https://en.wikipedia.org/wiki/Multitier_architecture) [target="_blank"]
+    Architecture](https://en.wikipedia.org/wiki/Multitier_architecture)
 
 -   [What is the 3-Tier
-    Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html) [target="_blank"]
+    Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html)
 
 ## Setting up Your Development Environment: Git and Node: Objectives and Outcomes
 
@@ -470,10 +470,10 @@ computer. At the end of this lesson, you will be able to:
 
 1.  <b>Text editor of your choice</b>: Any text editor that you are already
     familiar with can be used for editing the project files. I will be
-    using Visual Studio Code (<https://code.visualstudio.com/ target="_blank">) as the
+    using Visual Studio Code (<https://code.visualstudio.com/>) as the
     editor of choice in this specialization. You may also consider other
     editors such as Brackets (<http://brackets.io/>), Sublime Text
-    (<http://www.sublimetext.com/ target="_blank")>, or Atom (<https://atom.io/ target="_blank">).
+    (<http://www.sublimetext.com/)>, or Atom (<https://atom.io/>).
 
 2.  <b>Browser of your choice</b>: You may use your preferred browser. I
     will be using Chrome as the browser in all the exercises. All the
