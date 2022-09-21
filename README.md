@@ -434,12 +434,12 @@ implemented using MongoDB.
 ### Useful Links
 
 -   [What is a Full Stack
-    developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) (:target="_blank")
+    developer?]("http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank")
 
--   [Wait, Wait... What is a Full-stack Web Developer After
+-   [Wait, Wait... What is a Full Stack Web Developer After
     All?](http://edward-designer.com/web/full-stack-web-developer/ target="_blank")
 
--   [The Myth of the Full-stack
+-   [The Myth of the Full Stack
     Developer](http://andyshora.com/full-stack-developers.html target="_blank")
 
 -   [Multi-tier
