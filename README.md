@@ -29,17 +29,21 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 </p>
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
+------------>
+
 <!------------------------------------------------------------------------------------------------>
-<!-------------------  -------------------->
+<!-------------------- 02. front end and back end tools and technology (01) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
    width="50%"
    alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
+<!----------
 {width="5.0in"
 height="2.0638298337707788in"}
 ----------->
+
 <h6 align="center" width="100%">(coursera.org)</h6>
 
 <h3>Course Overview</h3>
@@ -654,7 +658,7 @@ Download the installer and run through the set up to get Git on to your
 computer.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 14. command or powershell: more git (15) ------------------------>
+<!-------------------------- 14. command or powershell: more git (15) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
@@ -1626,8 +1630,8 @@ the browser to the desktop.
 <!--------------------------------- 19. what is node.js? (33) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image018.png?raw=true"
-   alt="."
+<img src="/images/image019.png?raw=true"
+   alt="What is Node.js?"
    width="50%" />
 </p>
 <!----------
@@ -1909,7 +1913,7 @@ what exactly is the role of the package.json file.
 <!----------------------------- 25. initializing package.json (39) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image026.png?raw=true"
+<img src="/images/image025.png?raw=true"
    alt="Initializing package.json."
    width="50%" />
 </p>
@@ -2505,7 +2509,7 @@ Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 26.  (xx) --------------------------------->
+<!----------------------- 26. front-end web ui frameworks: overview (50) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true"
@@ -2521,11 +2525,11 @@ Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 27.  (xx) --------------------------------->
+<!------------------------- 27. what are front-end ui frameworks? (51) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image027.png?raw=true"
-   alt="."
+   alt="What are Front-End UI Frameworks?"
    width="50%" />
 </p>
 <!----------
@@ -2585,7 +2589,7 @@ that you can use for your entire website design.
 And enables you to quickly scaffold out a website or the pitch.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 28.  (xx) --------------------------------->
+<!-------------------------- 28. popular front-end ui frameworks (52) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
@@ -2616,11 +2620,11 @@ Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 29.  (xx) --------------------------------->
+<!-------------------------- 29. why front-end web ui frameworks? (53) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
-   alt="."
+   alt="Why Front-End Web UI Frameworks?"
    width="50%" />
 </p>
 <!----------
@@ -2700,11 +2704,11 @@ Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 30.  (xx) --------------------------------->
+<!--------------------------------- 30. bootstrap overview (54) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
-   alt="."
+   alt="Bootstrap overview."
    width="50%" />
 </p>
 <!----------
@@ -2720,11 +2724,11 @@ first websites.
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 31.  (xx) --------------------------------->
+<!------------------------------- 31. more bootstrap overview (55) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image031.png?raw=true"
-   alt="."
+   alt="More Bootatrap."
    width="50%" />
 </p>
 <!----------
@@ -2746,11 +2750,11 @@ approach.
 We will talk more about this in the next lesson.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 32.  (xx) --------------------------------->
+<!---------------------------------- 32. bootstrap history (55) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image032.png?raw=true"
-   alt="."
+   alt="Bootstrap history."
    width="50%" />
 </p>
 <!----------
@@ -2784,11 +2788,11 @@ Strap on your boots, and let\'s get started with Bootstrap.
 I\'m sure your fingers are itching to get your hands around Bootstrap.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 33.  (xx) --------------------------------->
+<!--------------------------- 33. setting up the project folder (56) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image033.png?raw=true"
-   alt="."
+   alt="Setting up the project folder."
    width="50%" />
 </p>
 <!-------------------
@@ -2800,11 +2804,11 @@ First step, go to the exercise instructions that follow this exercise in
 your Bootstrap course page on Coursera.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 34.  (xx) --------------------------------->
+<!--------------------------------- 34. bootstrap exercise (57) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image034.png?raw=true"
-   alt="."
+   alt="Getting started with bootstrap 4."
    width="50%" />
 </p>
 <!-------------------
@@ -3272,11 +3276,11 @@ To help us understand this, let\'s consider how people access websites
 these days?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 35.  (xx) --------------------------------->
+<!-------------------------------- 35. why responsive design (65) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image035.png?raw=true"
-   alt="."
+   alt="Why responsive design?"
    width="50%" />
 </p>
 <!-------------------
@@ -3294,11 +3298,11 @@ How do we render our websites consistently on devices of different
 screen sizes?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 36.  (xx) --------------------------------->
+<!-------------------------------- 36. why responsive design #2 (66) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image036.png?raw=true"
-   alt="."
+   alt="Why responsive design, #2."
    width="50%" />
 </p>
 <!-------------------
@@ -3316,11 +3320,11 @@ This is where we have to take an approach to adapt to the user\'s view
 port.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 37.  (xx) --------------------------------->
+<!------------------------------ 37. why responsive design #3 (66) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image037.png?raw=true"
-   alt="."
+   alt="Why responsive design, #3."
    width="50%" />
 </p>
 <!-------------------
@@ -3374,11 +3378,11 @@ Hopefully, this example has illustrated to you how and why we need
 responsive web design.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 38.  (xx) --------------------------------->
+<!--------------------------------- 39. mobile first design (67) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image038.png?raw=true"
-   alt="."
+   alt="Mobile first design."
    width="50%" />
 </p>
 <!-------------------
@@ -3422,8 +3426,14 @@ There are several concepts that are built in to your frame time web UI
 frameworks that come to the aid when you need to do responsive web
 design.
 
-![](images/image041.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 40. foundation for responsive design (68) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image040.png?raw=true"
+   alt="Foundation for responsive design."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.208867016622922in"}
@@ -3437,9 +3447,15 @@ the next lecture.
 That we\'ll understand exactly how we can leverage that to be able to do
 responsive web design.
 
-![](images/image042.png)
-
-<!-------------------
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 41. foundation for responsive design #2 (69) ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image041.png?raw=true"
+   alt="Foundation for responsive design #2."
+   width="50%" />
+</p>
+!-------------------
 {width="5.0in"
 height="1.7852559055118111in"}
 ------------------->
@@ -3447,8 +3463,14 @@ height="1.7852559055118111in"}
 The second aspect is fluid images, so that your images that you include
 in your website will automatically adapt itself to the screen size.
 
-![](images/image043.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 42. foundation for responsive design #3 (69) ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image042.png?raw=true"
+   alt="Foundation for responsive design #3."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.178418635170604in"}
@@ -3466,8 +3488,14 @@ Let\'s look at that next.
 
 Media queries are supported in CSS like this.
 
-![](images/image044.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 43. media queries (70) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image043.png?raw=true"
+   alt="Media queries."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.077457349081365in"}
@@ -3486,8 +3514,14 @@ here.
 This is just one example of how you would build a media query in your
 CSS code.
 
-![](images/image045.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 44. how to build a media query in your CSS code (70) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image044.png?raw=true"
+   alt="How to build a media query in your CSS code."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.839744094488189in"}
@@ -3517,9 +3551,14 @@ kind of device you\'re rendering your website on.
 
 And correspondingly adjust the CSS classes to fit that particular
 devices screen size.
-
-![](images/image046.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 45. how do we do this? (71) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image045.png?raw=true"
+   alt="How do we do this?"
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.1180555555555556in"}
@@ -3556,8 +3595,14 @@ I briefly referred to this particular line in the code then.
 
 Let\'s try to understand why we use this in our index.html page.
 
-![](images/image047.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- 46. viewport (72) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image046.png?raw=true"
+   alt="Viewport."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.086538713910761in"}
@@ -3576,8 +3621,14 @@ web page is correctly rendered for that particular screen size.
 This is where the Bootstrap grid system comes to our rescue and enables
 us to design responsive websites.
 
-![](images/image048.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 47. bootstrap grid (72) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image047.png?raw=true"
+   alt="Bootstrap grid."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.959935476815398in"}
@@ -3590,8 +3641,14 @@ You have already seen what this means in the previous lecture, and
 mobile first, which we have already discussed in the previous lecture
 and then fluid, automatically adapting to the screen width.
 
-![](images/image049.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 48. css flexbox (73) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image048.png?raw=true"
+   alt="CSS Flexbox."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.959935476815398in"}
@@ -3611,8 +3668,14 @@ Earlier Bootstrap had its own grid system which was predating the CSS
 flexbox layout, but the latest version of Bootstrap has made the CSS
 flexbox layout as the standard for the Bootstrap grid.
 
-![](images/image050.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 49. why flexbox for bootstrap? (73) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image049.png?raw=true"
+   alt="Why flexbox for bootstrap?"
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.2729702537182854in"}
@@ -3643,8 +3706,14 @@ that are laid out in the same row.
 Let\'s now talk a little more details about the Bootstrap grid and how
 it actually works.
 
-![](images/image051.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 50. bootstrap grid (74) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image050.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.0096150481189852in"}
@@ -3675,8 +3744,14 @@ the size of the screen.
 But the fixed width container, fixes the size of the actual layout
 width.
 
-![](images/image052.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 51. bootstrap grid #2 (75) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image051.png?raw=true"
+   alt="Bootstrap grid #2."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3689,8 +3764,14 @@ the row class.
 
 The content itself will be vertically divided into multiple rows.
 
-![](images/image053.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 52. bootstrap grid #3 (75) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image052.png?raw=true"
+   alt="Bootstrap grid #3."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3722,8 +3803,14 @@ How exactly do we layout the content?
 
 We\'ll talk about that in the next few slides.
 
-![](images/image054.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 53. how to layout the grid (76) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image053.png?raw=true"
+   alt="How to layout the grid."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.171474190726159in"}
@@ -3769,8 +3856,15 @@ How does this work?
 
 We\'ll see that in the next slide.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 54. auto-layout columns (77) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image054.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image055.png)
-
 <!-------------------
 {width="5.0in"
 height="2.678418635170604in"}
@@ -3779,9 +3873,15 @@ height="2.678418635170604in"}
 Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
 
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 55.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image056.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3811,8 +3911,15 @@ five columns.
 
 There are still seven more columns left.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image057.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3830,8 +3937,15 @@ entire 12 column width.
 This is how we can specify and the work with the 12 columns in defining
 the layout of the current tier.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image058.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3848,8 +3962,15 @@ bootstrap grid will automatically position these contents inside those
 divs, side by side, so, that each one of them gets one third of the
 total width.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image059.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3861,8 +3982,15 @@ each.
 And this is automatically taken care of by the bootstraps layout
 mechanism.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image060.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3871,8 +3999,15 @@ height="1.9439107611548556in"}
 Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image061.png)
-
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3898,6 +4033,14 @@ In the exercise, we will see various combinations of use of these kind
 of specifications of how many columns each piece of content will occupy
 in color layout.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image062.png)
 <!-------------------
 {width="5.0in"
@@ -3999,8 +4142,15 @@ Also, it supports offsets.
 
 We will see the use of offsets also in some examples later.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image063.png)
-
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4033,8 +4183,15 @@ to extra-large screen sizes.
 
 This is how we would specify content layout for different screen sizes.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image064.png)
-
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4062,6 +4219,14 @@ the row.
 
 We will see an example of this also in the exercise.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 ![](images/image065.png)
 <!-------------------
 {width="5.0in"
@@ -17181,4 +17346,14 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 6:45pm ---->
+<!--- last updated: 09/21/2022 at 1:45pm 
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
+---->
