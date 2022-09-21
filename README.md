@@ -39,10 +39,10 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 {width="5.0in"
 height="2.0638298337707788in"}
 ----------->
-<p align="center" width="100%">(coursera.org)</p>
+<h6 align="center" width="100%">(coursera.org)</h6>
 
-### Course Overview
-
+<h3>Course Overview</h3>
+<p>
 Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
 I\'m glad you decided to join this course to learn about the most
@@ -186,16 +186,16 @@ course. I hope you will have a lot of fun doing the various parts of
 this course and also enjoy the exercises that you\'ll encounter at
 each stage that enable you to better understand various aspects of the
 Bootstrap web UI framework.
+</p>
+<h2>Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources</h2>
 
-## Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources
-
-### Bootstrap Resources
+<h2>Bootstrap Resources</h2>
 
 <h3 align="left">
     <a href="http://bootstrap.com/">Bootstrap Site</a></h3>
-    <a href="https://bootstrap.com/" target="_blank"></a></h3>
+    <a href="https://bootstrap.com/">s Bootstrap Site</a></h3>
 
-### Coursera Resources
+<h2>Coursera Resources</h2>
 
 <h3 align="left">
    <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a></h3>
@@ -205,13 +205,15 @@ Bootstrap web UI framework.
 
 <h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a></h3>
 
-### [https://www.coursera)
+<h3><a href="https://www.coursera">Coursera</a></h3>
 
-## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
+<h2>Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)</h2>
 
 This lesson gives you a big picture view of the Full Stack Web
 Development. The lecture gives you an overview of full stack web
-development. At the end of this lesson, you will be able to:
+development. 
+
+<h3>At the end of this lesson, you will be able to:</h3>
 
 -   Understand what is meant by full stack in the context of web
     development
@@ -222,8 +224,7 @@ development. At the end of this lesson, you will be able to:
 -   Understand the position of this course in the context of this
     specialization.
 
-## What is Full-Stack Web Development?
-
+<h2>What is Full-Stack Web Development?</h2>
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 03. three-tier architecture - presentation layer (xx) ----------------------->
 <!------------------------------------------------------------------------------------------------>
