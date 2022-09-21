@@ -29,13 +29,14 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 </p>
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------  -------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
    width="50%"
    alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
-<!----------
 {width="5.0in"
 height="2.0638298337707788in"}
 ----------->
@@ -226,7 +227,7 @@ development.
 
 <h2>What is Full-Stack Web Development?</h2>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 02. front end and back end (xx) ----------------------------------->
+<!---------------------------- 02. front end and back end (05) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
@@ -236,8 +237,6 @@ development.
 <!---------
 {width="5.0in" height="2.0571587926509185in"}
 ---------->
-
-## What is Full Stack Web Development?
 
 Let me clarify to you a few terms so that we started a common
 understanding of full stack web development as applied in this special
@@ -258,7 +257,7 @@ We often hear people talking about the three tier architecture for Web
 Development.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 03. three-tier architecture - presentation layer (xx) --------------------->
+<!-------------------- 03. three-tier architecture - presentation layer (05) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
@@ -280,7 +279,7 @@ This is usually the UI-related concerns that are dealt with at the
 presentation layer.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 04. three-tier architecture - business logic layer (xx) ----------------------->
+<!---------------- 04. three-tier architecture - business logic layer (06) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
@@ -300,7 +299,7 @@ This is backed up behind the scenes with the <b>data persistence layer or
 the data access layer</b>.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 05. three-tier architecture - data access (xx) ------------------------->
+<!----------------------- 05. three-tier architecture - data access (06) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
@@ -320,11 +319,11 @@ Exploring this further, let us see what is implemented typically in the
 traditional web development in each of these three layers.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 06. (xx) -------------------------------------------->
+<!------------------------- 06. data layer: database and api (07) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
-   alt="Image 6."
+   alt="Data Access Layer: Databsse and API."
    width="50%" />
 </p>
 <!----------
@@ -336,11 +335,11 @@ The Business Logic Layer is usually implemented these days using
 technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 07. (xx) -------------------------------------------->
+<!------------------- 07. business logic layer: ruby, python, java, c++ & php (07) --------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
-   alt="Image 7."
+   alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
    width="50%" />
 </p>
 <!--------
@@ -357,11 +356,11 @@ information to the front side, typically, in the form of server-side
 rendering these days.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 08. (xx) -------------------------------------------->
+<!-------------------- 08. traditional web development: html, css & js (08) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
-   alt="Image 8."
+   alt="Traditional Web Development: HTML, CSS & JS."
    width="50%" />
 </p>
 <!----------
@@ -382,9 +381,12 @@ technologies that is used for implementing the business logic and then
 you need a data specialist who will be well-versed in the relational
 database management system.
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 09. full stack javascript development (08) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
-   alt="Image 9."
+   alt="Full stack javascript development."
    width="50%" />
 </p>
 <!----------
@@ -410,11 +412,11 @@ REST API endpoint.
 We will cover these technologies as part of this specialization.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 10. (xx) -------------------------------------------->
+<!------------- 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true"
-   alt="Image 10."
+   alt="full stack web dev: bootstrap 4 and angular or reactfull."
    width="50%" />
 </p>
 <!----
@@ -507,11 +509,11 @@ set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 10a. (xx) -------------------------------------------->
+<!------------------------------ 10a. online git repository (11) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image010a.png?raw=true"
-   alt="Image 10a."
+   alt="Online Git repository."
    width="50%" />
 </p>
 <!---------
@@ -563,11 +565,11 @@ That node ecosystem is very much tied into Git and that is the reason
 why we need Git for this specialization.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 11. (xx) -------------------------------------------->
+<!---------------------------------------- 11. git (12) ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true"
-   alt="Image 11."
+   alt="Git."
    width="50%" />
 </p>
 <!---------
@@ -591,11 +593,11 @@ this specialization.
 Let\'s now run through a few quick steps to set up Git on your computer.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 12. (xx) -------------------------------------------->
+<!------------------------------------ 12. git-scm.com (13) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true"
-   alt="Image 12."
+   alt="Git-scm.com."
    width="50%" />
 </p>
 <!----------
@@ -628,9 +630,12 @@ command line tools, that will also set up Git for you.
 On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 13. getting started: about version control (14) ------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true"
-   alt="Image 13."
+   alt="Getting started: About version control."
    width="50%" />
 </p>
 <!----------
@@ -648,6 +653,9 @@ to install Git on your specific platform.
 Download the installer and run through the set up to get Git on to your
 computer.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 14. command or powershell: more git (15) ------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
    alt="Image 14."
@@ -919,7 +927,14 @@ Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
 folder, I\'m going to create another file name, test.html.
 
-![](images/image017.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 15. basic git commands (20) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image015.png?raw=true"
+   alt="Basic Git commands."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="3.3701924759405073in"}
@@ -1110,7 +1125,14 @@ With this basic understanding of this few git commands, you\'ll be able
 to proceed forward with understanding and using git in the courses of
 this specialization.
 
-![](images/image016.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- 16. git reset (24) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image016.png?raw=true"
+   alt="Git reset."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.2222222222222223in"}
@@ -1495,7 +1517,14 @@ clone.
 
 And then, Paste the URL of my Bitbucket repository here.
 
-![](images/image017.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 17. git-test (31) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image017.png?raw=true"
+   alt="Git-test."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.1527777777777777in"}
@@ -1564,7 +1593,14 @@ online repository. At the end of this exercise, you will be able to:
 -   To clone an online repository to your computer, type the following
     at the prompt:
 
-![](images/image018.png)
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 18. git-test (31) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image018.png?raw=true"
+   alt="Git-test."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.2676279527559056in"}
@@ -1586,7 +1622,14 @@ has seen deployment far beyond the browser.
 Node.js has played a significant role in this shift of JavaScript from
 the browser to the desktop.
 
-![](images/image019.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 19. what is node.js? (33) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image018.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.9198720472440944in"}
@@ -1615,7 +1658,14 @@ runtime.
 We will look at the server side application of Node.js in detail in the
 last course of this specialization.
 
-![](images/image022.png)
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 20. node architecture (33) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image020.png?raw=true"
+   alt="Node Architecture."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.0769225721784776in"}
@@ -1648,7 +1698,14 @@ of Node.js on the server side.
 How we can develop web server, business logic, all implemented in
 JavaScript on the server side.
 
-![](images/image023.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 21. node package manager (33) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image021.png?raw=true"
+   alt="Node Package Manager."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.0769225721784776in"}
@@ -1679,7 +1736,14 @@ Click on the current version of Node.js.
 
 Click on that to download the installer package for your platform.
 
-![](images/image024.png)
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 22. install node.js (35) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image022.png?raw=true"
+   alt="Install node.js."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="3.6212609361329835in"}
@@ -1777,6 +1841,14 @@ during the installation steps.</b>
 -   <b>node -v</b>
 
 -   <b>npm -v</b>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 23. install node.js (38) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image023.png?raw=true"
+   alt="Install node.js."
+   width="50%" />
+</p>
 
 > ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0 target="_blank"](images/image025.png)
 <!----------
@@ -1813,8 +1885,14 @@ file, or any other files in our get test folder.
 The lite server is something that we\'re going to extensively use in
 this and future courses, to be able to see the changes in real time in a
 browser window as you edit the files of your project.
-
-![](images/image026.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 24. install package.json (39) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image024.png?raw=true"
+   alt="Install package.json."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.0929483814523184in"}
@@ -1827,7 +1905,14 @@ What exactly is this package.json file that we\'re going to setup?
 Here, I have some information from the npmjs.org site which specifies
 what exactly is the role of the package.json file.
 
-![](images/image027.png)
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 25. initializing package.json (39) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image026.png?raw=true"
+   alt="Initializing package.json."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.9540594925634296in"}
@@ -2419,7 +2504,14 @@ familiar with Bootstrap.
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
 
-![](images/image028.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 26.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image026.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.474359142607174in"}
@@ -2428,7 +2520,14 @@ height="1.474359142607174in"}
 Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
 
-![](images/image029.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 27.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image027.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.961003937007874in"}
@@ -2485,7 +2584,14 @@ that you can use for your entire website design.
 
 And enables you to quickly scaffold out a website or the pitch.
 
-![](images/image030.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 28.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image028.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.155983158355206in"}
@@ -2509,7 +2615,14 @@ The remaining among this list may vary, but you would often find
 Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
 
-![](images/image031.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 29.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image029.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.155983158355206in"}
@@ -2586,7 +2699,14 @@ end web UI framework.
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
 
-![](images/image032.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 30.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image030.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.5753204286964129in"}
@@ -2599,7 +2719,14 @@ first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 
-![](images/image033.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 31.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image031.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.9086537620297463in"}
@@ -2618,7 +2745,14 @@ approach.
 
 We will talk more about this in the next lesson.
 
-![](images/image034.png)
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 32.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image032.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="1.9994663167104112in"}
@@ -2649,8 +2783,14 @@ Strap on your boots, and let\'s get started with Bootstrap.
 
 I\'m sure your fingers are itching to get your hands around Bootstrap.
 
-![](images/image035.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 33.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image033.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.9722222222222223in"}
@@ -2659,8 +2799,14 @@ height="1.9722222222222223in"}
 First step, go to the exercise instructions that follow this exercise in
 your Bootstrap course page on Coursera.
 
-![](images/image036.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 34.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image034.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.9722222222222223in"}
@@ -3125,8 +3271,14 @@ Your obvious question is going to be why consider responsive design?
 To help us understand this, let\'s consider how people access websites
 these days?
 
-![](images/image037.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 35.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image035.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.1180555555555556in"}
@@ -3141,8 +3293,14 @@ a computer with different screen sizes and screen resolutions.
 How do we render our websites consistently on devices of different
 screen sizes?
 
-![](images/image038.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 36.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image036.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="1.561431539807524in"}
@@ -3157,8 +3315,14 @@ your website to the size of the screen on which it is being viewed.
 This is where we have to take an approach to adapt to the user\'s view
 port.
 
-![](images/image039.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 37.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image037.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.223290682414698in"}
@@ -3209,8 +3373,14 @@ SE, and you see how the website has change the way it is being rendered.
 Hopefully, this example has illustrated to you how and why we need
 responsive web design.
 
-![](images/image040.png)
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 38.  (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image038.png?raw=true"
+   alt="."
+   width="50%" />
+</p>
 <!-------------------
 {width="5.0in"
 height="2.735042650918635in"}
@@ -17011,4 +17181,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 10:46pm ---->
+<!--- last updated: 09/20/2022 at 6:45pm ---->
