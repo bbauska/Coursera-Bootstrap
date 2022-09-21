@@ -4,6 +4,7 @@ title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--------------------------
 [link](URL){:target="_blank"}
 [Hello, world!](http://example.com/){target="_blank"}
+[Go to this page](http://somelink.com/?target=_blank)
 --------------------------->
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
@@ -191,7 +192,7 @@ Bootstrap web UI framework.
 ### Bootstrap Resources
 
 <h3 align="left">
-    <a href="http://bootstrap.com/" target="_blank">Bootstrap Site</a></h3>
+    <a href="http://bootstrap.com/">Bootstrap Site</a></h3>
     <a href="https://bootstrap.com/" target="_blank"></a></h3>
 
 ### Coursera Resources
@@ -204,7 +205,7 @@ Bootstrap web UI framework.
 
 <h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776"><target="_blank">Switching to a Different Session</a>
 
-### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph :target="_blank"}
+### [https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph :target="_blank"}
 
 ## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
 
@@ -433,24 +434,24 @@ implemented using MongoDB.
 
 ### PDFs of Presentations
 
-> 00-FSWD-BigPicture.pdf -- 6 slides.
+> [00-FSWD-BigPicture.pdf -- 6 slides]
+(https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf)
 
 ### Useful Links
 
--   [What is a Full Stack
-    developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) {target="_blank"}
+-   [What is a Full Stack developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) [target="_blank"]
 
 -   [Wait, Wait... What is a Full Stack Web Developer After
-    All?](http://edward-designer.com/web/full-stack-web-developer/ target="_blank")
+    All?](http://edward-designer.com/web/full-stack-web-developer/) [target="_blank"]
 
 -   [The Myth of the Full Stack
-    Developer](http://andyshora.com/full-stack-developers.html target="_blank")
+    Developer](http://andyshora.com/full-stack-developers.html) [target="_blank"]
 
 -   [Multi-tier
-    Architecture](https://en.wikipedia.org/wiki/Multitier_architecture target="_blank")
+    Architecture](https://en.wikipedia.org/wiki/Multitier_architecture) [target="_blank"]
 
 -   [What is the 3-Tier
-    Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html target="_blank")
+    Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html) [target="_blank"]
 
 ## Setting up Your Development Environment: Git and Node: Objectives and Outcomes
 
