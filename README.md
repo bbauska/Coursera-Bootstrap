@@ -226,11 +226,11 @@ development.
 
 <h2>What is Full-Stack Web Development?</h2>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 03. three-tier architecture - presentation layer (xx) ----------------------->
+<!---------------------------- 02. front end and back end (xx) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image003.png?raw=true"
-   alt="Three-Tier Architecture."
+<img src="/images/image002.png?raw=true"
+   alt="Front-end and back-end."
    width="50%" />
 </p>
 <!---------
@@ -258,11 +258,11 @@ We often hear people talking about the three tier architecture for Web
 Development.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 04. three-tier architecture - business layer (xx) ----------------------->
+<!-------------------- 03. three-tier architecture - presentation layer (xx) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image004.png?raw=true"
-   alt="Image 4."
+<img src="/images/image003.png?raw=true"
+   alt="Three-tier architecture: presentation."
    width="50%" />
 </p>
 <!---------
@@ -280,11 +280,11 @@ This is usually the UI-related concerns that are dealt with at the
 presentation layer.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 05. three-tier architecture - data access layer (xx) ------------------------>
+<!---------------- 04. three-tier architecture - business logic layer (xx) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image005.png?raw=true"
-   alt="Image 5."
+<img src="/images/image004.png?raw=true"
+   alt="Three-tier architecture: business logic."
    width="50%" />
 </p>
 <!-----------
@@ -300,11 +300,11 @@ This is backed up behind the scenes with the <b>data persistence layer or
 the data access layer</b>.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 06. traditional web development (xx) ------------------------------>
+<!----------------------- 05. three-tier architecture - data access (xx) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image006.png?raw=true"
-   alt="Image 6."
+<img src="/images/image005.png?raw=true"
+   alt="Three-tier architecture: data access."
    width="50%" />
 </p>
 <!---------
@@ -320,11 +320,11 @@ Exploring this further, let us see what is implemented typically in the
 traditional web development in each of these three layers.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 07. (xx) -------------------------------------------->
+<!------------------------------------------ 06. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image007.png?raw=true"
-   alt="Image 7."
+<img src="/images/image006.png?raw=true"
+   alt="Image 6."
    width="50%" />
 </p>
 <!----------
@@ -336,11 +336,11 @@ The Business Logic Layer is usually implemented these days using
 technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 08. (xx) -------------------------------------------->
+<!------------------------------------------ 07. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image008.png?raw=true"
-   alt="Image 8."
+<img src="/images/image007.png?raw=true"
+   alt="Image 7."
    width="50%" />
 </p>
 <!--------
@@ -357,11 +357,11 @@ information to the front side, typically, in the form of server-side
 rendering these days.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 09. (xx) -------------------------------------------->
+<!------------------------------------------ 08. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image009.png?raw=true"
-   alt="Image 9."
+<img src="/images/image008.png?raw=true"
+   alt="Image 8."
    width="50%" />
 </p>
 <!----------
@@ -383,8 +383,8 @@ you need a data specialist who will be well-versed in the relational
 database management system.
 
 <p align="center" width="100%">
-<img src="/images/image010.png?raw=true"
-   alt="Image 10."
+<img src="/images/image009.png?raw=true"
+   alt="Image 9."
    width="50%" />
 </p>
 <!----------
@@ -410,11 +410,11 @@ REST API endpoint.
 We will cover these technologies as part of this specialization.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 11. (xx) -------------------------------------------->
+<!------------------------------------------ 10. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image011.png?raw=true"
-   alt="Image 11."
+<img src="/images/image010.png?raw=true"
+   alt="Image 10."
    width="50%" />
 </p>
 <!----
@@ -507,11 +507,11 @@ set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 12. (xx) -------------------------------------------->
+<!------------------------------------------ 10a. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image012.png?raw=true"
-   alt="Image 12."
+<img src="/images/image010a.png?raw=true"
+   alt="Image 10a."
    width="50%" />
 </p>
 <!---------
@@ -563,11 +563,11 @@ That node ecosystem is very much tied into Git and that is the reason
 why we need Git for this specialization.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 13. (xx) -------------------------------------------->
+<!------------------------------------------ 11. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image013.png?raw=true"
-   alt="Image 13."
+<img src="/images/image011.png?raw=true"
+   alt="Image 11."
    width="50%" />
 </p>
 <!---------
@@ -591,11 +591,11 @@ this specialization.
 Let\'s now run through a few quick steps to set up Git on your computer.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------ 14. (xx) -------------------------------------------->
+<!------------------------------------------ 12. (xx) -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image014.png?raw=true"
-   alt="Image 14."
+<img src="/images/image012.png?raw=true"
+   alt="Image 12."
    width="50%" />
 </p>
 <!----------
@@ -629,8 +629,8 @@ On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
 
 <p align="center" width="100%">
-<img src="/images/image015.png?raw=true"
-   alt="Image 15."
+<img src="/images/image013.png?raw=true"
+   alt="Image 13."
    width="50%" />
 </p>
 <!----------
@@ -649,8 +649,8 @@ Download the installer and run through the set up to get Git on to your
 computer.
 
 <p align="center" width="100%">
-<img src="/images/image016.png?raw=true"
-   alt="Image 16."
+<img src="/images/image014.png?raw=true"
+   alt="Image 14."
    width="50%" />
 </p>
 <!----------
@@ -1110,7 +1110,7 @@ With this basic understanding of this few git commands, you\'ll be able
 to proceed forward with understanding and using git in the courses of
 this specialization.
 
-![](images/image018.png)
+![](images/image016.png)
 <!----------
 {width="5.0in"
 height="2.2222222222222223in"}
@@ -1495,7 +1495,7 @@ clone.
 
 And then, Paste the URL of my Bitbucket repository here.
 
-![](images/image019.png)
+![](images/image017.png)
 <!----------
 {width="5.0in"
 height="1.1527777777777777in"}
@@ -1564,8 +1564,7 @@ online repository. At the end of this exercise, you will be able to:
 -   To clone an online repository to your computer, type the following
     at the prompt:
 
-![](images/image020.png)
-
+![](images/image018.png)
 <!----------
 {width="5.0in"
 height="1.2676279527559056in"}
@@ -1587,7 +1586,7 @@ has seen deployment far beyond the browser.
 Node.js has played a significant role in this shift of JavaScript from
 the browser to the desktop.
 
-![](images/image021.png)
+![](images/image019.png)
 <!----------
 {width="5.0in"
 height="1.9198720472440944in"}
@@ -17012,4 +17011,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/20/2022 at 6:45pm ---->
+<!--- last updated: 09/20/2022 at 10:46pm ---->
