@@ -196,11 +196,11 @@ Bootstrap web UI framework.
     <a href="https://learner.coursera.help/hc/en-us" target="_blank">Coursera Learner Help</a></h3>
 
 <h3 align="left">
-<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph target="_blank"</a>
+<a href="https://www.coursera.support/s/learner-help-center?language=en_US #httpswww.coursera.supportslearner-help-centerlanguageen_us .list-paragraph :target="_blank"</a>
 
 <h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776" target="_blank">Switching to a Different Session</a>
 
-### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph target="_blank"}
+### (https://www.coursera.support/s/page-not-f](ttps://www.coursera.support/s/page-not-f)ound?sourceUrl=https%3A%2F%2Flearner.coursera.help%2Fhc%2Fen-us%2Farticles%2F208279776&language=en_US) {#httpswww.coursera.supportspage-not-foundsourceurlhttps3a2f2flearner.coursera.help2fhc2fen-us2farticles2f208279776languageen_us .list-paragraph :target="_blank"}
 
 ## Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)
 
@@ -225,9 +225,8 @@ development. At the end of this lesson, you will be able to:
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="Three-Tier Architecture."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!---------
 {width="5.0in" height="2.0571587926509185in"}
 ---------->
@@ -258,9 +257,8 @@ Development.
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
    alt="Image 4."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!---------
 {width="5.0in"
 height="2.0571587926509185in"}
@@ -281,9 +279,8 @@ presentation layer.
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
    alt="Image 5."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!-----------
 {width="5.0in"
 height="2.0571587926509185in"}
@@ -302,9 +299,8 @@ the data access layer</b>.
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
    alt="Image 6."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!---------
 {width="5.0in"
 height="2.0571576990376204in"}
@@ -323,9 +319,8 @@ traditional web development in each of these three layers.
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
    alt="Image 7."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -340,9 +335,8 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
    alt="Image 8."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!--------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -362,9 +356,8 @@ rendering these days.
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
    alt="Image 9."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -383,8 +376,11 @@ technologies that is used for implementing the business logic and then
 you need a data specialist who will be well-versed in the relational
 database management system.
 
-![](images/image010.png)
-
+<p align="center" width="100%">
+<img src="/images/image010.png?raw=true"
+   alt="Image 10."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -413,9 +409,8 @@ We will cover these technologies as part of this specialization.
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true"
    alt="Image 11."
-   width="75%" />
+   width="50%" />
 </p>
-
 <!----
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -430,16 +425,16 @@ implementing the Business Logic Layer.
 We will also consider back end as a service and then the data support
 implemented using MongoDB.
 
-## Full Stack Web Development: Additional Resources
+### Full Stack Web Development: Additional Resources
 
-## PDFs of Presentations
+### PDFs of Presentations
 
 > 00-FSWD-BigPicture.pdf -- 6 slides.
 
-## Useful Links
+### Useful Links
 
 -   [What is a Full Stack
-    developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/ target="_blank")
+    developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) (:target="_blank")
 
 -   [Wait, Wait... What is a Full-stack Web Developer After
     All?](http://edward-designer.com/web/full-stack-web-developer/ target="_blank")
@@ -513,7 +508,6 @@ the repository at the end of each exercise.
    alt="Image 12."
    width="50%" />
 </p>
-
 <!---------
 {width="5.0in"
 height="1.5908125546806648in"}
@@ -570,7 +564,6 @@ why we need Git for this specialization.
    alt="Image 13."
    width="50%" />
 </p>
-
 <!---------
 {width="5.0in"
 height="2.0571576990376204in"}
@@ -629,8 +622,11 @@ command line tools, that will also set up Git for you.
 On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
 
-![](images/image015.png)
-
+<p align="center" width="100%">
+<img src="/images/image015.png?raw=true"
+   alt="Image 15."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="2.7622867454068243in"}
@@ -646,8 +642,11 @@ to install Git on your specific platform.
 Download the installer and run through the set up to get Git on to your
 computer.
 
-![](images/image016.png)
-
+<p align="center" width="100%">
+<img src="/images/image016.png?raw=true"
+   alt="Image 16."
+   width="50%" />
+</p>
 <!----------
 {width="5.0in"
 height="3.427884951881015in"}
