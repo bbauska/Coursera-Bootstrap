@@ -1,6 +1,10 @@
 ---
 title: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
+<!--------------------------
+[link](URL){:target="_blank"}
+[Hello, world!](http://example.com/){target="_blank"}
+--------------------------->
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
@@ -434,7 +438,7 @@ implemented using MongoDB.
 ### Useful Links
 
 -   [What is a Full Stack
-    developer?]("http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank")
+    developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) {target="_blank"}
 
 -   [Wait, Wait... What is a Full Stack Web Developer After
     All?](http://edward-designer.com/web/full-stack-web-developer/ target="_blank")
