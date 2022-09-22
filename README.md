@@ -9503,11 +9503,11 @@ media object to style and display content.
 
 ### PDFs of Presentations
 
-> 08-Images-Media.pdf
+<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf</a>
 
 <b>Exercise Resources</b>
 
-<b>Img.zip</b>
+<a href="https://github.com/bbauska/Coursera-web/blob/main/img.zip">Img.zip</a>
 
 (download this to conFusion, unzip it to create an "img" folder there)
 
@@ -9515,8 +9515,7 @@ media object to style and display content.
 
 -   <ins><a href="http://getbootstrap.com/docs/4.0/content/images/">Bootstrap Image Classes</a></ins>
 
--   [Bootstrap Media Object
-    Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
+-   <a href="http://getbootstrap.com/docs/4.0/layout/media-object/">Bootstrap Media Object Classes</a>
 
 ### Alerting Users: Objectives and Outcomes
 
