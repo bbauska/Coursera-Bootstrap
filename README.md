@@ -8,6 +8,29 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 > :memo: **Memo or Note:**
 $ npm i bootstrap@5.2.1
 --------------------------->
+🐱‍👤 View this course in full now - without ads - on Net Ninja Pro:
+https://netninja.dev/p/bootstrap-5-cr...
+
+🐱‍💻 Access the course files on GitHub:
+https://github.com/iamshaunjp/bootstr...
+
+🐱‍💻 HTML & CSS Crash Course:
+https://www.youtube.com/watch?v=hu-q2...
+
+🐱‍💻 Node.js Crash Course:
+https://www.youtube.com/playlist?list...
+
+🐱‍💻 SASS Crash Course:
+https://www.youtube.com/watch?v=St5B7...
+
+🐱‍💻 VS Code - https://code.visualstudio.com/
+🐱‍💻 Bootstrap 5 Docs - https://getbootstrap.com/docs/5.0/get...
+
+🐱‍💻  Social Links:
+Facebook - https://www.facebook.com/thenetninjauk
+Twitter - https://twitter.com/thenetninjauk
+Instagram - https://www.instagram.com/thenetninja/
+
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
@@ -9040,41 +9063,41 @@ table.
     col-sm-6 to it and then adding the card:
 
 ```
-            <div class="col-12 col-sm-6">
-                <div class="card">
-                    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
-                    <div class="card-body">
-                        <dl class="row">
-                            <dt class="col-6">Started</dt>
-                            <dd class="col-6">3 Feb. 2013</dd>
-                            <dt class="col-6">Major Stake Holder</dt>
-                            <dd class="col-6">HK Fine Foods Inc.</dd>
-                            <dt class="col-6">Last Year's Turnover</dt>
-                            <dd class="col-6">$1,250,375</dd>
-                            <dt class="col-6">Employees</dt>
-                            <dd class="col-6">40</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
+<div class="col-12 col-sm-6">
+   <div class="card">
+   <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+      <div class="card-body">
+         <dl class="row">
+            <dt class="col-6">Started</dt>
+            <dd class="col-6">3 Feb. 2013</dd>
+            <dt class="col-6">Major Stake Holder</dt>
+            <dd class="col-6">HK Fine Foods Inc.</dd>
+            <dt class="col-6">Last Year's Turnover</dt>
+            <dd class="col-6">$1,250,375</dd>
+            <dt class="col-6">Employees</dt>
+            <dd class="col-6">40</dd>
+         </dl>
+      </div>
+   </div>
+</div>
 ```
 
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
 
 ```
-            <div class="col-12">
-                <div class="card card-body bg-light">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">You better cut the pizza in four pieces because
-                            I'm not hungry enough to eat six.</p>
-                        <footer class="blockquote-footer">Yogi Berra,
-                            <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
-                            P. Pepe, Diversion Books, 2014</cite>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
+<div class="col-12">
+   <div class="card card-body bg-light">
+      <blockquote class="blockquote">
+         <p class="mb-0">You better cut the pizza in four pieces because
+            I'm not hungry enough to eat six.</p>
+            <footer class="blockquote-footer">Yogi Berra,
+               <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+               P. Pepe, Diversion Books, 2014</cite>
+            </footer>
+      </blockquote>
+   </div>
+</div>
 ```
 
 Note the use of the <i>\<blockquote\></i> tag to create a block quote in the
@@ -9436,9 +9459,9 @@ At the end of this exercise you will be able to:
     \<div\> column with the following code:
 
 ```
-     <div class="col-12 col-sm align-self-center">
-          <img src="[img/logo.png]{.underline}" class="img-fluid">
-     </div>
+<div class="col-12 col-sm align-self-center">
+   <img src="[img/logo.png]{.underline}" class="img-fluid">
+</div>
 ```
 
 You will immediately notice the restaurant logo being displayed in the
@@ -9466,17 +9489,17 @@ Note the inclusion of the logo in the navbar.
     code:
 
 ```
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-                    <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
-                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                            Italian pizza, topped with Cerignola olives, ripe vine
-                            cherry tomatoes, Vidalia onion, Guntur chillies and
-                            Buffalo Paneer.</p>
-                    </div>
-                </div>
+<div class="media">
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+   <div class="media-body">
+   <h2 class="mt-0">Uthappizza</h2>
+   <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+      Italian pizza, topped with Cerignola olives, ripe vine
+      cherry tomatoes, Vidalia onion, Guntur chillies and
+      Buffalo Paneer.</p>
+   </div>
+</div>
 ```
 
 Note the use of the <i>media</i> class and the related Bootstrap classes to
@@ -9487,19 +9510,19 @@ style the content.
     following content:
 
 ```
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
-                    <div class="media-body">
-                        <h2 class="mt-0">Alberto Somayya</h2>
-                        <h4>Executive Chef</h4>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                            International experience having worked closely with
-                            whos-who in the culinary world, he specializes in
-                            creating mouthwatering Indo-Italian fusion experiences.
-                            </p>
-                    </div>
-                </div>
+<div class="media">
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
+   <div class="media-body">
+      <h2 class="mt-0">Alberto Somayya</h2>
+      <h4>Executive Chef</h4>
+      <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+         International experience having worked closely with
+         whos-who in the culinary world, he specializes in
+         creating mouthwatering Indo-Italian fusion experiences.
+      </p>
+   </div>
+</div>
 ```
 
 -   Finally, do a Git commit with a message "Images and Media".
@@ -11884,10 +11907,10 @@ able to:
     columns as follows:
 
 ```
-       <div class="row row-content">
-           <div class="col">
-            </div>
-       </div>
+<div class="row row-content">
+   <div class="col">
+   </div>
+</div>
 ```
 
 ### Adding a Carousel
@@ -11896,8 +11919,8 @@ able to:
     just added as follows:
 
 ```
-            <div id="mycarousel" class="carousel slide" data-ride="carousel">
-            </div>
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+</div>
 ```
 
 ### Adding Carousel Content
@@ -11905,22 +11928,22 @@ able to:
 -   Next add the content inside the carousel as follows:
 
 ```
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img class="d-block img-fluid"
-                                src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
-                                . . .
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                                . . .
-                        </div>
-                        <div class="carousel-item">
-                                . . .
-                        </div>
-                    </div>
+<div class="carousel-inner" role="listbox">
+   <div class="carousel-item active">
+      <img class="d-block img-fluid"
+         src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+      <div class="carousel-caption d-none d-md-block">
+         <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+         . . .
+      </div>
+   </div>
+   <div class="carousel-item">
+   . . .
+   </div>
+   <div class="carousel-item">
+   . . .
+   </div>
+</div>
 ```
 
 Note that the first item has been set up partially. Fill in the
@@ -13261,9 +13284,9 @@ to:
     the button to toggle the carousel cycling behavior:
 
 ```
-                    <button class="btn btn-danger btn-sm" id="carouselButton">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                    </button>
+<button class="btn btn-danger btn-sm" id="carouselButton">
+   <span id="carousel-button-icon" class="fa fa-pause"></span>
+</button>
 ```
 
 We are adding a single button inside a button group with the ID
@@ -13276,18 +13299,18 @@ based on the current behavior of the carousel.
     carousel and also show the appropriate button:
 
 ```
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
+$("#carouselButton").click(function(){
+   if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+      $("#mycarousel").carousel('pause');
+      $("#carouselButton").children("span").removeClass('fa-pause');
+      $("#carouselButton").children("span").addClass('fa-play');
+   }
+   else if ($("#carouselButton").children("span").hasClass('fa-play')){
+      $("#mycarousel").carousel('cycle');
+      $("#carouselButton").children("span").removeClass('fa-play');
+      $("#carouselButton").children("span").addClass('fa-pause');
+   }
+});
 ```
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
@@ -13780,8 +13803,7 @@ defining the classes.
     Less file. To do this, type the following at the command prompt:
 
 ```
-     npm install -g less@2.7.2
- 
+npm install -g less@2.7.2
 ```
 
 This will install the <i>less</i> NPM module globally so that it can be used
@@ -13799,8 +13821,7 @@ we can compile Less files.
     file into a CSS file:
 
 ```
-     lessc styles.less styles.css
- 
+lessc styles.less styles.css
 ```
 
 -   You can now do a Git commit with the message "Less".
@@ -13973,9 +13994,9 @@ of these variables while defining the classes.
 -   Next we add a mixin into the file as follows:
 
 ```
-\@mixin zero-margin(\$pad-up-dn, \$pad-left-right) {
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
     margin:0px auto;
-    padding: \$pad-up-dn \$pad-left-right;
+    padding: $pad-up-dn $pad-left-right;
 }
 ```
 
@@ -14511,7 +14532,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-    <script src="[js/scripts.js]{.underline}"></script>
+<script src="[js/scripts.js]{.underline}"></script>
 ```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
@@ -14530,22 +14551,22 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
     are doing the exercise on a MacOS computer or a Linux computer:
 
 ```
-    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+"watch:scss": "onchange 'css/*.scss' -- npm run scss",
+"watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
 ```
 
 -   <b>NOTE:</b> If you are doing the exercise on a Windows computer,
     please use the following two script items instead of the above:
 
 ```
-    "watch:scss": "onchange "css/*.scss" -- npm run scss",
-    "watch:all": "parallelshell "npm run watch:scss" "npm run lite""
+"watch:scss": "onchange "css/*.scss" -- npm run scss",
+"watch:all": "parallelshell "npm run watch:scss" "npm run lite""
 ```
 
 -   You will also update the start script as follows:
 
 ```
-    "start": "npm run watch:all",
+"start": "npm run watch:all",
 ```
 
 -   Then, type the following at the prompt to start watching for changes
@@ -15087,13 +15108,13 @@ At the end of this exercise, you will be able to:
     prompt:
 
 ```
-npm install \--save-dev rimraf@2.6.2
+npm install --save-dev rimraf@2.6.2
 ```
 
 -   Then, set up the following script:
 
 ```
-    "clean": "rimraf dist",
+"clean": "rimraf dist",
 ```
 
 ### Copying Fonts
@@ -15111,7 +15132,7 @@ Remember to use <i>sudo</i> on mac and Linux.
 -   Then set up the following script:
 
 ```
-    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",
+"copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
 ```
 
 Compressing and Minifying Images
@@ -15135,7 +15156,7 @@ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
 -   Then set up the following script:
 
 ```
-    "imagemin": "imagemin img/</i> --out-dir='dist/img'",
+"imagemin": "imagemin img/</i> --out-dir='dist/img'",
 ```
 
 ### Preparing the Distribution Folder
@@ -15158,21 +15179,20 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 -   Add the following two scripts to the package.json file:
 
 ```
-    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
- 
+"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+"build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
 ```
 
 -   Open <i>index.html</i> and surround the css links inclusion code as
     follows:
 
 ```
-    <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}">
-    <link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
-    <link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
-    <link href="[css/styles.css]{.underline}" rel="stylesheet">
-    <!-- endbuild -->
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}">
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
+<link href="[css/styles.css]{.underline}" rel="stylesheet">
+<!-- endbuild -->
 ```
 
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
@@ -15181,12 +15201,12 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
     code as follows:
 
 ```
-    <!-- build:js js/main.js -->
-    <script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"></script>
-    <script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"></script>
-    <script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"></script>
-    <script src="[js/scripts.js]{.underline}"></script>
-    <!-- endbuild -->
+<!-- build:js js/main.js -->
+<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"></script>
+<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"></script>
+<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"></script>
+<script src="[js/scripts.js]{.underline}"></script>
+<!-- endbuild -->
 ```
 
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
@@ -15851,7 +15871,7 @@ npm install grunt-browser-sync@2.2.0 --save-dev
 -   Then add the following task to the Grunt file:
 
 ```
-    grunt.registerTask('default', ['browserSync', 'watch']);
+grunt.registerTask('default', ['browserSync', 'watch']);
 ```
 
 -   Now if you type the following at the command prompt, it will start
@@ -16559,18 +16579,18 @@ require('jit-grunt')(grunt, {
 -   Next, update the Grunt build task as follows:
 
 ```
-    grunt.registerTask('build', [
-        'clean',
-        'copy',
-        'imagemin',
-        'useminPrepare',
-        'concat',
-        'cssmin',
-        'uglify',
-        'filerev',
-        'usemin',
-        'htmlmin'
-    ]);
+grunt.registerTask('build', [
+    'clean',
+    'copy',
+    'imagemin',
+    'useminPrepare',
+    'concat',
+    'cssmin',
+    'uglify',
+    'filerev',
+    'usemin',
+    'htmlmin'
+]);
 ```
 
 -   Now if you run Grunt, it will create a dist folder with the files
@@ -16860,7 +16880,7 @@ project. At the end of this exercise, you will be able to:
     command-line interface (CLI) globally:
 
 ```
-     npm install -g gulp-cli@2.0.1
+npm install -g gulp-cli@2.0.1
 ```
 
 This will install the Gulp globally so that you can use it in all
@@ -16870,7 +16890,7 @@ projects.
     <i>conFusion</i> folder and type the following at the prompt:
 
 ```
-     npm install gulp@3.9.1 --save-dev
+npm install gulp@3.9.1 --save-dev
 ```
 
 This will install local per-project Gulp to use within your project.
@@ -16946,7 +16966,7 @@ gulp.task('default', ['browser-sync'], function() {
     task:
 
 ```
->      gulp
+> gulp
 ```
 
 -   Do a Git commit with the message "Gulp Part 1".
@@ -17073,7 +17093,7 @@ gulp.task('build',['clean'], function() {
 -   ### At the command prompt, if you type <i>gulp build</i> it will run the build task:
 
 ```
-     gulp build
+gulp build
 ```
 
 -   ### Do a Git commit with the message "Gulp Part 2"
@@ -17247,6 +17267,7 @@ specialization.
 ### PDFs of Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf</a>
+
 <!- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf ->
 
 ### Project Implementation: Objectives and Outcomes
@@ -17321,4 +17342,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 2:55pm ---->
+<!--- last updated: 09/22/2022 at 3:48pm ---->
