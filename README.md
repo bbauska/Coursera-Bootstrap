@@ -5,6 +5,7 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 [link](URL){:target="_blank"}
 [Hello, world!](http://example.com/){target="_blank"}
 [Go to this page](http://somelink.com/?target=_blank)
+> :memo: **Memo or Note:**
 --------------------------->
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
@@ -198,6 +199,7 @@ Bootstrap web UI framework.
 
 <h3 align="left">
     <a href="http://bootstrap.com/">Bootstrap Site (http)</a>
+	<br/>
     <a href="https://bootstrap.com/">Bootstrap Site (https)</a>
 </h3>
 
@@ -205,13 +207,17 @@ Bootstrap web UI framework.
 
 <h3 align="left">
    <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a>
-   <a href="(https://www.coursera.support/s/learner-help-center?language=en_US)></a>
-<br/>
+   <br/>
    <a href="https://www.onlinelearning.net/coursera/">Switching to a Different Session</a>
+   <br/>
+   <a href="https://www.coursera.org">Explore Coursera</a>
 </h3>
+
+<!-----------
    https://learner.coursera.help/hc/en-us/articles/208279776">
+------------>
+
 <!--- https://www.coursera.support/s/global-search/switch%20session?language=en_US --->
-<h3><a href="https://www.coursera.org">Coursera</a></h3>
 
 <h2>Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)</h2>
 
@@ -442,8 +448,7 @@ implemented using MongoDB.
 
 ### PDFs of Presentations
 
-> 00-FSWD-BigPicture.pdf -- 6 slides
-https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf -- 6 slides</a>
 
 ### Useful Links
 
@@ -1543,7 +1548,7 @@ And then, Paste the URL of my Bitbucket repository here.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true"
-   alt="Git-test."
+   alt="git-test."
    width="50%" />
 </p>
 <!----------
@@ -1599,14 +1604,18 @@ online repository. At the end of this exercise, you will be able to:
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<b>git remote add origin <repository URL></b>
+```
+git remote add origin <repository URL>
+```
 
 ### Pushing your commits to the online repository
 
 -   At the prompt, type the following to push the commits to the online
     repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<b>git push -u origin master</b>
+```
+git push -u origin master
+```
 
 ### Cloning an online repository
 
@@ -1618,7 +1627,7 @@ online repository. At the end of this exercise, you will be able to:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image018.png?raw=true"
-   alt="Git-test."
+   alt="git-test."
    width="50%" />
 </p>
 <!----------
@@ -1626,8 +1635,8 @@ online repository. At the end of this exercise, you will be able to:
 height="1.2676279527559056in"}
 ---------->
 
-```git
-&nbsp;&nbsp;&nbsp;&nbsp;<b>git clone <repository URL\></b>
+```
+	git clone <repository URL>
 ```
 
 ### Conclusions
@@ -2133,7 +2142,7 @@ The link is provided in your exercise instructions and additional
 resources are part of this lesson.
 
 Once you have completed that, then head over to the. Editor where you
-have the folder, Git-Test folder, opened and then view the contents o
+have the folder, git-test folder, opened and then view the contents o
 the package.json file.
 
 You would see that the package.json file contains exactly the
@@ -2455,10 +2464,10 @@ package and start a development server.
 
 ### PDFs of Presentations
 
--   01-Git.pdf
--   01-Git-Exercises.pdf
--   02-NodeJS.pdf
--   02-Exercises-Node-NPM.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf</a>
 
 ### Additional Resources (Git)
 
