@@ -15,12 +15,9 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!---------------------------------------- Coursera logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<figure>
 <img src="./images/coursera-logo.png?raw=true"
    width="35%"
    alt="Coursera logo." />
-   <figcaption>Coursera logo</figcaption>
-</figure>
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
@@ -200,20 +197,21 @@ Bootstrap web UI framework.
 <h2>Bootstrap Resources</h2>
 
 <h3 align="left">
-    <a href="http://bootstrap.com/">Bootstrap Site</a></h3>
-    <a href="https://bootstrap.com/">s Bootstrap Site</a></h3>
+    <a href="http://bootstrap.com/">Bootstrap Site (http)</a>
+    <a href="https://bootstrap.com/">Bootstrap Site (https)</a>
+</h3>
 
 <h2>Coursera Resources</h2>
 
 <h3 align="left">
-   <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a></h3>
-
-<h3 align="left">
-   <a href="(https://www.coursera.support/s/learner-help-center?language=en_US)></a></h3>
-
-<h3 align="left"><a href="https://learner.coursera.help/hc/en-us/articles/208279776">Switching to a Different Session</a></h3>
-
-<h3><a href="https://www.coursera">Coursera</a></h3>
+   <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a>
+   <a href="(https://www.coursera.support/s/learner-help-center?language=en_US)></a>
+<br/>
+   <a href="https://www.onlinelearning.net/coursera/">Switching to a Different Session</a>
+</h3>
+   https://learner.coursera.help/hc/en-us/articles/208279776">
+<!--- https://www.coursera.support/s/global-search/switch%20session?language=en_US --->
+<h3><a href="https://www.coursera.org">Coursera</a></h3>
 
 <h2>Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)</h2>
 
@@ -1591,7 +1589,7 @@ online repository. At the end of this exercise, you will be able to:
 -   Sign up for an account either at (<a href="https://bitbucket.org](https://bitbucket.org/" target="_blank">Bitbucket</a>
      or <a href="https://github.com/">GitHub</a>).
 
--   Then set up an online Git repository named <font color="dark green"><b>git-test</b></font>. Note the
+-   Then set up an online Git repository named <font color="red"><b>git-test</b></font>. Note the
     URL of your online Git repository. Note that private repositories on
     GitHub requires a paid account, and is not available for free
     accounts.
@@ -1601,14 +1599,14 @@ online repository. At the end of this exercise, you will be able to:
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
 
-<b>git remote add origin <repository URL\></b>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git remote add origin <repository URL></b></font>
 
 ### Pushing your commits to the online repository
 
 -   At the prompt, type the following to push the commits to the online
     repository:
 
-<b>git push -u origin master</b>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git push -u origin master</b></font>
 
 ### Cloning an online repository
 
@@ -1628,7 +1626,7 @@ online repository. At the end of this exercise, you will be able to:
 height="1.2676279527559056in"}
 ---------->
 
-<b>git clone <repository URL\></b>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git clone <repository URL\></b></font>
 
 ### Conclusions
 
@@ -2509,8 +2507,8 @@ At the end of this lesson, you will be able to:
 
 -   Become familiar with the basic features of Bootstrap.
 
-<b>Note</b>: For those of you who are already familiar with Bootstrap 3,
-[[here]{.underline}(."_blank")](http://getbootstrap.com/docs/4.0/migration/) is an
+<b>Note</b>: For those of you who are already familiar with Bootstrap 3, 
+<a href="http://getbootstrap.com/docs/4.0/migration/"><ins>here</ins></a> is an
 overview from the Bootstrap 4 documentation on the major changes in
 Bootstrap 4 compared to Bootstrap 3.
 
@@ -17311,4 +17309,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 12:08pm ---->
+<!--- last updated: 09/22/2022 at 1:10pm ---->
