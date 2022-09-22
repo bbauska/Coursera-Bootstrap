@@ -460,7 +460,7 @@ https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.p
 -   [What is the 3-Tier
     Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html)
 
-## Setting up Your Development Environment: Git and Node: Objectives and Outcomes
+### Setting up Your Development Environment: Git and Node: Objectives and Outcomes
 
 At the end of this lesson you should have set up Git and Node.js on your
 computer. At the end of this lesson, you will be able to:
@@ -471,7 +471,7 @@ computer. At the end of this lesson, you will be able to:
 
 -   Use Node-based modules to perform basic operations.
 
-## Setting up your Development Environment
+### Setting up your Development Environment
 
 ### Software Requirements
 
@@ -525,7 +525,7 @@ the repository at the end of each exercise.
 height="1.5908125546806648in"}
 ---------->
 
-## Exercise (Video): Setting up Git
+### Exercise (Video): Setting up Git
 
 Git is a very popular version control system for software.
 
@@ -697,7 +697,7 @@ The other parameter that I\'m going to configure is my email.
 And to insure that this information has been configured, we can type
 
 ```
-git config \-\--list.
+git config --list.
 ```
 
 And it will list out a bunch of configurations that we have. Done.
@@ -714,7 +714,7 @@ With this, we have completed the setup git for use on our computer.
 Once you get git on your computer it is time to go and learn git bit by
 bit.
 
-## Exercise (Instructions): Setting up Git
+### Exercise (Instructions): Setting up Git
 
 ### Objectives and Outcomes
 
@@ -733,14 +733,14 @@ would be able to:
 ### Downloading and Installing Git
 
 -   To install Git on your computer, go to
-    <https://git-scm.com/downloads target="_blank"> to download the Git installer for
-    your specific computing platform.
+    <a href-"https://git-scm.com/downloads" target="_blank"> to download the Git installer for
+    your specific computing platform.</a>
 
 -   Then, follow the installation steps as you install Git using the
     installer.
 
 -   You can find more details about installing Git at
-    <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git target="_blank">.
+    <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">.</a>
     This document lists several ways of installing Git on various
     platforms.
 
@@ -789,7 +789,7 @@ git config --list
 At the end of this exercise you should have Git available on the
 command-line of your computer.
 
-## Exercise (Video): Basic Git Commands
+### Exercise (Video): Basic Git Commands
 
 Let us now explore some basic Git commands that are very useful for us
 in this specialization.
@@ -817,7 +817,7 @@ To do that at the command line type git init.
 
 Now, this folder has been initialized to be a git repository.
 
-This is our first git command that we have learnt, <b>git init</b>.
+This is our first git command that we have learnt, <b> \> git init</b>.
 
 This initializes the current folder as a git repository and when it
 initializes the folder, it will mark that folder as a master.
@@ -834,7 +834,7 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we\'re going to look at is <b>git status</b>.
+The next command that we\'re going to look at is <b> \> git status</b>.
 
 If you type git status in the command line, it\'ll tell you the current
 status of the folder.
@@ -861,7 +861,7 @@ To do that, we say, <b>\> git add,</b> and you can simply say dot, which
 means that all the files in the current directory will be added to what
 is called as the staging area of my git repository.
 
-Now, if I again type \> git status, you will see that the file
+Now, if I again type <b>\> git status</b>, you will see that the file
 index.html is marked in green.
 
 And it says, changes to be committed there and then shows the file name
@@ -1167,7 +1167,7 @@ the courses of this specialization.
 
 At the end of this exercise, did you Git it?
 
-## Exercise (Instructions): Basic Git Commands
+### Exercise (Instructions): Basic Git Commands
 
 ### Objectives and Outcomes
 
@@ -1178,7 +1178,7 @@ the end of this exercise you will be able to:
 
 -   Perform basic Git operations on your Git repository
 
-## Basic Git Commands
+### Basic Git Commands
 
 -   At a convenient location on your computer, create a folder named
     <b>git-test</b>.
@@ -1298,7 +1298,7 @@ At the end of this exercise you should have learnt some basic Git
 commands. Experiment with these commands until you fully understand how
 to use Git.
 
-## Exercise (Video): Online Git Repositories
+### Exercise (Video): Online Git Repositories
 
 Online Git repositories enable you to store a copy of your Git
 repository online.
@@ -1552,7 +1552,7 @@ With this, we complete this exercise on using online Git repositories.
 
 So did you finally Git it?
 
-## Exercise (Instructions): Online Git Repositories
+### Exercise (Instructions): Online Git Repositories
 
 ### Objectives and Outcomes
 
@@ -1618,7 +1618,7 @@ In this exercise you have learnt to set up an online Git repository,
 synchronize your local repository with the remote repository, and clone
 an online repository.
 
-## Node.js and NPM
+### Node.js and NPM
 
 JavaScript which was designed as a scripting language for the browser
 has seen deployment far beyond the browser.
@@ -1729,7 +1729,7 @@ called package.json which is the manifest file for this Node module.
 We will look at how we can use the package.json file in more detail in
 the subsequent exercises.
 
-## Exercise (Video): Setting up Node.js and NPM
+### Exercise (Video): Setting up Node.js and NPM
 
 In your browser, head over to nodejs.org and as you browse down, you\'ll
 see the download buttons for Node.js for your specific platform.
@@ -1786,7 +1786,7 @@ With this, we complete the installation of Node.js.
 
 Let\'s go ahead and make use of Node.js in the next exercise.
 
-## Exercise (Instructions): Setting up Node.js and NPM
+### Exercise (Instructions): Setting up Node.js and NPM
 
 <b>Note: Make sure you have installed Git on your machine before you
 install Node.js. Please complete the previous Git installation exercise
@@ -1867,7 +1867,7 @@ At the end of this exercise, your machine is now ready with the Node
 installed for further development. We will examine web development tools
 next.
 
-## Exercise (Video): Basics of Node.js and NPM
+### Exercise (Video): Basics of Node.js and NPM
 
 Now that you have Node.js on your computer, you\'re obviously wanting to
 immediately start using it.
@@ -2342,7 +2342,7 @@ go through the courses of this specialization.
 
 This is just a start.
 
-## Exercise (Instructions): Basics of Node.js and NPM
+### Exercise (Instructions): Basics of Node.js and NPM
 
 ### Objectives and Outcomes
 
@@ -2434,7 +2434,7 @@ of this exercise, you will be able to:
 In this exercise you learnt to set up package.json, install a npm
 package and start a development server.
 
-## Setting up your Development Environment: Git and Node: Additional Resources
+### Setting up your Development Environment: Git and Node: Additional Resources
 
 ### PDFs of Presentations
 
@@ -2473,7 +2473,7 @@ package and start a development server.
 
 -   [lite-server](https://github.com/johnpapa/lite-server target="_blank")
 
-## Introduction to Bootstrap: Objectives and Outcomes
+### Introduction to Bootstrap: Objectives and Outcomes
 
 In this lesson, you will be given a quick overview of front-end UI
 frameworks, and an introduction to Bootstrap.
@@ -2504,7 +2504,7 @@ including removing some components and introducing new components.
 This course covers Bootstrap 4 with the assumption that you are not
 familiar with Bootstrap.
 
-## Front-end Web UI Frameworks
+### Front-end Web UI Frameworks
 
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
@@ -2699,7 +2699,7 @@ With this understanding of front-end web UI frameworks, let\'s now
 proceed forward to learn more about Bootstrap, the most popular front
 end web UI framework.
 
-## Introduction to Bootstrap
+### Introduction to Bootstrap
 
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
@@ -2782,7 +2782,7 @@ with Bootstrap 3.3.7 in the earlier Bootstrap course.
 Now, it\'s time to move on to our first exercise where we will get our
 hands dirty with Bootstrap.
 
-## Exercise (Video): Getting Started with Bootstrap
+### Exercise (Video): Getting Started with Bootstrap
 
 Strap on your boots, and let\'s get started with Bootstrap.
 
@@ -3085,7 +3085,7 @@ how we can configure Bootstrap to be used in our web project.
 As we proceed to the next few exercises, we\'re going to employee the
 Bootstrap classes to design our web pages.
 
-## Exercise (Instructions): Getting Started with Bootstrap
+### Exercise (Instructions): Getting Started with Bootstrap
 
 ### Exercise Resources
 
@@ -3216,7 +3216,7 @@ We have now understood how to set up a web project to use Bootstrap. In
 the next lecture, we will explore further on responsive design and
 Bootstrap\'s grid system.
 
-## Introduction to Bootstrap: Additional Resources
+### Introduction to Bootstrap: Additional Resources
 
 ### PDFs of the Presentations
 
@@ -3247,7 +3247,7 @@ Bootstrap\'s grid system.
 -   [The 5 Most Popular Front-end Frameworks
     Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/ target="_blank")
 
-## Responsive Design and Bootstrap Grid System: Objectives and Outcomes
+### Responsive Design and Bootstrap Grid System: Objectives and Outcomes
 
 In this lesson, you will be given an overview of responsive web design
 and an introduction to the Bootstrap grid system. The exercises will
@@ -3263,7 +3263,7 @@ At the end of this lesson, you will be able to:
 
 -   Add your own custom CSS classes to a Bootstrap based web project
 
-## Responsive Design
+### Responsive Design
 
 These days in web development world, we often hear people mentioning the
 terms responsive design and mobile first approach.
@@ -3574,7 +3574,7 @@ framework like Bootstrap, things become very straightforward.
 We will learn more about this in the next lecture and the exercise that
 follows.
 
-## Bootstrap Grid System
+### Bootstrap Grid System
 
 In the previous lecture, we learnt about responsive design.
 
@@ -4446,7 +4446,7 @@ to do the layout of the content inside or index.html page.
 
 We will also use some custom CSS classes.
 
-## Exercise (Video): Responsive Design and Bootstrap Grid System Part 1
+### Exercise (Video): Responsive Design and Bootstrap Grid System Part 1
 
 In the previous lectures, we have learnt about responsive design and the
 bootstrap grid system.
@@ -4815,7 +4815,7 @@ Obviously, there is still room for improvement.
 This may be a good time for you to do a git comment with the message
 Bootstrap Grid Part One.
 
-## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
+### Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
 
 ### Objectives and Outcomes
 
@@ -4978,7 +4978,7 @@ responsive design layout.
 In this exercise, we reviewed responsive design and the Bootstrap grid
 system.
 
-## Exercise (Video): Responsive Design and Bootstrap Grid System Part 2
+### Exercise (Video): Responsive Design and Bootstrap Grid System Part 2
 
 We\'ll continue with the bootstrap grid exercise that we started out in
 the previous exercise.
@@ -5213,7 +5213,7 @@ vertically in our rows.
 This is a good time for you to do a good comment with the message,
 Bootstrap grid, part two.
 
-## Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
+### Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
 
 ### Objectives and Outcomes
 
@@ -5348,7 +5348,7 @@ In this exercise, we continued our review of responsive design and the
 Bootstrap grid system. We also learnt how to customize using our own CSS
 classes.
 
-## Responsive Design and Bootstrap Grid System: Additional Resources
+### Responsive Design and Bootstrap Grid System: Additional Resources
 
 ### PDFs of Presentations
 
@@ -5394,7 +5394,7 @@ classes.
     Design](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design target="_blank")
     (an updated guide to responsive design)
 
-## Assignment 1 Requirements (Video)
+### Assignment 1 Requirements (Video)
 
 It is time for your first assignment in this course.
 
@@ -5664,7 +5664,7 @@ height="4.4736843832021in"}
 -   [Full Page Screen
     Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl target="_blank").
 
-## Ideation: Objectives and Outcomes (week 2)
+### Ideation: Objectives and Outcomes (week 2)
 
 The first step in your journey towards the implementation of the
 Capstone project begins with an idea.
@@ -5697,7 +5697,7 @@ At the end of this step you should be able to:
 -   Identify other projects that might have similar features and would
     act as exemplars for your project
 
-## Ideation Report Template
+### Ideation Report Template
 
 ### Project Title
 
@@ -5731,7 +5731,7 @@ At the end of this step you should be able to:
 -   Give the links to the websites relevant to your idea, that you
     listed in the section above.
 
-## Ideation: Additional Resources
+### Ideation: Additional Resources
 
 ### General Resources
 
@@ -5744,7 +5744,7 @@ At the end of this step you should be able to:
 
 -   [Free Code Camp](https://www.freecodecamp.com/ target="_blank")
 
-## Navigation and Navigation Bar: Objectives and Outcomes (week 2)
+### Navigation and Navigation Bar: Objectives and Outcomes (week 2)
 
 In this lesson, you will be given an overview of navigation design and
 the importance of providing appropriate navigation support within your
@@ -5770,7 +5770,7 @@ At the end of this lesson, you will be able to:
 -   Use icon fonts for decorating your website with meaningful graphical
     elements
 
-## Navigation and Navigation Bar
+### Navigation and Navigation Bar
 
 Let\'s now talk about navigation.
 
@@ -5966,7 +5966,7 @@ SchrollSpy, and Affix.
 We\'ll look at some of these in a bit more detail as we go through the
 various lessons in the modules that follow this particular lesson.
 
-## Exercise (Video): Navbar and Breadcrumbs
+### Exercise (Video): Navbar and Breadcrumbs
 
 We just completed a discussion on the importance of providing navigation
 in your website.
@@ -6522,7 +6522,7 @@ With this we complete this exercise on navbar and breadcrumbs.
 This is a good time for you to do a git commit with the message "navbar
 and breadcrumbs."
 
-## Exercise (Instructions): Navbar and Breadcrumbs
+### Exercise (Instructions): Navbar and Breadcrumbs
 
 ### Objectives and Outcomes
 
@@ -6658,7 +6658,7 @@ body{
 In this exercise you learnt about adding a navigation bar and
 breadcrumbs to your website.
 
-## Icon Fonts
+### Icon Fonts
 
 Let us now talk about icon fonts.
 
@@ -6747,7 +6747,7 @@ bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
 use of it in the exercise.
 
-## Exercise (Video): Icon Fonts
+### Exercise (Video): Icon Fonts
 
 Let\'s now move on to our next exercise, where we will learn more about
 Icon fonts.
@@ -6917,7 +6917,7 @@ also.
 Now that you\'ve completed this exercise, this may be a good time to do
 a good commit with the message, icon fonts.
 
-## Exercise (Instructions): Icon Fonts
+### Exercise (Instructions): Icon Fonts
 
 ### Objectives and Outcomes
 
@@ -7020,7 +7020,7 @@ href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 
 We learnt about using icon fonts in a web project.
 
-## Navigation and Navigation Bar: Additional Resources
+### Navigation and Navigation Bar: Additional Resources
 
 ### PDFs of Presentations
 
@@ -7106,7 +7106,7 @@ We learnt about using icon fonts in a web project.
 -   [Using SVGs](http://gomakethings.com/using-svgs/ target="_blank") (alternative to
     icon fonts)
 
-## User Input: Buttons and Forms: Objectives and Outcomes
+### User Input: Buttons and Forms: Objectives and Outcomes
 
 In this lesson we review the support for user input through the use of
 buttons and forms in a web page. We review Bootstrap button classes and
@@ -7117,7 +7117,7 @@ Forms classes. At the end of this lesson you will be able to:
 
 -   Create and style forms on a web page using Bootstrap form classes
 
-## User Input
+### User Input
 
 Gone are the days when websites were purely used for delivering
 information to the users.
@@ -7200,7 +7200,7 @@ bootstrap support for styling buttons, and also look at how various form
 elements can be enhanced using bootstrap classes to present classic
 Bootstrap forms.
 
-## Exercise (Video): Buttons
+### Exercise (Video): Buttons
 
 In this exercise, we\'re going to look at Bootstrap\'s support for
 buttons and forms.
@@ -7926,7 +7926,7 @@ committed to my git repository. With this, we complete this exercise.
 Here we have learned how we include buttons and form elements into our
 Bootstrap design pitch.
 
-## Exercise (Instructions): Buttons
+### Exercise (Instructions): Buttons
 
 # Exercise: Buttons
 
@@ -7988,7 +7988,7 @@ the <i>btn</i> class.
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-## Exercise (Video): Forms
+### Exercise (Video): Forms
 
 Now that we have seen how to add buttons to our web page.
 
@@ -8377,7 +8377,7 @@ your second assignment.
 
 This is a good time for you to do a good comment with the message forms.
 
-## Exercise (Instructions): Forms
+### Exercise (Instructions): Forms
 
 # Exercise: Forms
 
@@ -8499,7 +8499,7 @@ Note the declaration of the type for the button to <i>submit</i>.
 We have learnt how to add a form and style the form using Bootstrap form
 classes.
 
-## User Input: Additional Resources
+### User Input: Additional Resources
 
 ### PDFs of Presentations
 
@@ -8530,7 +8530,7 @@ classes.
     Element](https://css-tricks.com/use-button-element/ target="_blank") (The
     multifaceted button element)
 
-## Displaying Content: Tables and Cards: Objectives and Outcomes
+### Displaying Content: Tables and Cards: Objectives and Outcomes
 
 In this lesson we will be reviewing the support for tables in Bootstrap.
 In addition we will look at a versatile component called card that
@@ -8542,7 +8542,7 @@ you will be able to:
 
 -   Display content using a card on a web page.
 
-## Bootstrap Tables and Cards
+### Bootstrap Tables and Cards
 
 Let\'s briefly discuss about bootstrap tables.
 
@@ -8623,7 +8623,7 @@ Card is a very important company that can be effectively used for
 displaying content. It\'s time to move on to the next exercise where we
 will use tables and cards to display some content in our web page.
 
-## Exercise (Video): Displaying Content: Tables and Cards
+### Exercise (Video): Displaying Content: Tables and Cards
 
 Our next exercise looks at ways of displaying content on our web page.
 
@@ -8931,7 +8931,7 @@ displaying content in our web page.
 Now that we have completed this exercise, it\'s a good time to do a git
 commit.
 
-## Exercise (Instructions): Displaying Content: Tables and Cards
+### Exercise (Instructions): Displaying Content: Tables and Cards
 
 ### Objectives and Outcomes
 
@@ -9072,7 +9072,7 @@ Bootstrap table classes. Thereafter, we added two cards to the web page.
 We also saw the use of the description list and the block quote in the
 content.
 
-## Displaying Content: Additional Resources
+### Displaying Content: Additional Resources
 
 ### PDFs of Presentations
 
@@ -9088,7 +9088,7 @@ content.
 -   [Bootstrap
     Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes target="_blank")
 
-## Images and Media: Objectives and Outcomes
+### Images and Media: Objectives and Outcomes
 
 In this lesson we will look at the use of images and media on websites.
 In particular we will review the Bootstrap classes to support the
@@ -9104,7 +9104,7 @@ able to:
 
 -   Use thumbnails and media components using Bootstrap classes
 
-## Images and Media
+### Images and Media
 
 No self-respect webpage designers, would today design webpages without
 including some form of images or media on their websites.
@@ -9206,7 +9206,7 @@ the webpage or the website that we have been working on.
 We\'ll make some changes to the index.html page by including some images
 and content using the media object.
 
-## Exercise (Video): Images and Media
+### Exercise (Video): Images and Media
 
 Time to move onto the next exercise.
 
@@ -9385,7 +9385,7 @@ use of images and media object in our web page.
 This is a good time, again, to do a good comment, with the message,
 images and media.
 
-## Exercise (Instructions): Images and Media
+### Exercise (Instructions): Images and Media
 
 ### Objectives and Outcomes
 
@@ -9492,7 +9492,7 @@ images and media in a web page. We saw how we can include responsive
 images on a web page. In addition, we saw the use of images within a
 media object to style and display content.
 
-## Images and Media: Additional Resources
+### Images and Media: Additional Resources
 
 ### PDFs of Presentations
 
@@ -9512,7 +9512,7 @@ media object to style and display content.
 -   [Bootstrap Media Object
     Classes](http://getbootstrap.com/docs/4.0/layout/media-object/ target="_blank")
 
-## Alerting Users: Objectives and Outcomes
+### Alerting Users: Objectives and Outcomes
 
 In this lesson we examine various ways of delivering alert information
 to users. We examine labels, badges, alerts and progress bars. At the
@@ -9525,7 +9525,7 @@ end of this lesson, you will be able to:
 -   Appreciate the use of progress bars and controlling the state of the
     progress bars.
 
-## Alerting Users
+### Alerting Users
 
 You may have several reasons for drawing the attention of visitors to
 certain parts of your website or maybe you want to alert the users about
@@ -9632,7 +9632,7 @@ Now that we have looked at various ways of alerting users, let\'s do a
 simple exercise next and use badges in our web page to draw the
 attention of users.
 
-## Exercise (Video): Alerting Users
+### Exercise (Video): Alerting Users
 
 In this short exercise, we\'re going to make use of badges to add badges
 to our web page, so that we can highlight some information for our
@@ -9666,7 +9666,7 @@ This completes this exercise.
 This is a good time to see if the changes to your good repository, with
 the message alerting users.
 
-## Exercise (Instructions): Alerting Users
+### Exercise (Instructions): Alerting Users
 
 ### Objectives and Outcomes
 
@@ -9700,7 +9700,7 @@ alerting users. At the end of this exercise, you will be able to:
 
 In this short exercise, we learnt how to add badges to our web page.
 
-## Alerting Users: Additional Resources
+### Alerting Users: Additional Resources
 
 ### PDFs of Presentations
 
@@ -9717,7 +9717,7 @@ Bootstrap Resources
 -   [Bootstrap
     Progress](http://getbootstrap.com/docs/4.0/components/progress/ target="_blank")
 
-## Assignment 2: Bootstrap CSS Components (week 2)
+### Assignment 2: Bootstrap CSS Components (week 2)
 
 It\'s time to move on to the second assignment in this course.
 
@@ -9812,7 +9812,7 @@ The wordings here can occupy the remaining half of the scripts.
 
 You can use the column classes to adjust these things.
 
-## Assignment 2: Resources
+### Assignment 2: Resources
 
 ### Assignment Screenshots
 <!------------------------------------------------------------------------------------------------>
@@ -9883,7 +9883,7 @@ height="20.775930664916885in"}
 -   [Bootstrap
     Progress](http://getbootstrap.com/docs/4.0/components/progress/ target="_blank")
 
-## UI Design and Prototyping: Objectives and Outcomes
+### UI Design and Prototyping: Objectives and Outcomes
 
 Now that you are more clear about your project idea, it\'s time to
 conceive how your project is going to look like for the end-users.
@@ -9914,7 +9914,7 @@ At the end of this lesson, you should be able to:
 -   Construct a prototype to enable understanding the flow of your
     application
 
-## UI Design and Prototyping Report Template
+### UI Design and Prototyping Report Template
 
 ### Project Title
 
@@ -9947,7 +9947,7 @@ At the end of this lesson, you should be able to:
 
 -   Provide any references relevant to the report.
 
-## UI Design and Prototyping: Additional Resources
+### UI Design and Prototyping: Additional Resources
 
 ### Wireframing, Mockups and UI Design
 
@@ -9989,7 +9989,7 @@ At the end of this lesson, you should be able to:
     and Beyond (2nd Edition) (Voices That
     Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764 target="_blank")
 
-## Bootstrap JavaScript Components: Objectives and Outcomes
+### Bootstrap JavaScript Components: Objectives and Outcomes
 
 In this module, we will be learning about Bootstrap\'s JavaScript
 components.
@@ -10010,7 +10010,7 @@ At the end of this module, you will be able to:
     to control the JS components without writing a single line of JS
     code
 
-## Bootstrap JavaScript Components (week 3)
+### Bootstrap JavaScript Components (week 3)
 
 In the previous module, we examined the number of Bootstrap components
 that are purely based around CSS.
@@ -10163,7 +10163,7 @@ We will defer this to the next module, where we will examine how you can
 write simple JavaScript code based upon the JQuery syntax to add more
 functionality to your JavaScript-based Bootstrap components.
 
-## Bootstrap JavaScript Components: Additional Resources
+### Bootstrap JavaScript Components: Additional Resources
 
 ### PDFs of Presentations
 
@@ -10180,7 +10180,7 @@ functionality to your JavaScript-based Bootstrap components.
 -   [Bootstrap Programmatic
     API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api target="_blank")
 
-## Tabs and Tabbed Navigation: Objectives and Outcomes
+### Tabs and Tabbed Navigation: Objectives and Outcomes
 
 In this lesson, we examine tabs and tabbed navigation. Tabs require
 Javascript support to be enabled for navigating the content. At the end
@@ -10191,7 +10191,7 @@ of this lesson you will be able to:
 -   Use tab panes to organize the content and navigate the content using
     tabbed navigation
 
-## Tabs, Pills and Tabbed Navigation
+### Tabs, Pills and Tabbed Navigation
 
 In the previous lesson I referred to the nav class that is used in
 Bootstrap for creating navigation structures.
@@ -10262,7 +10262,7 @@ That is what we\'re going to explore in the exercise next.
 We will use tabbed navigation and then use tab content and tab panes to
 organize the actual content that will be displayed in our web page.
 
-## Exercise (Video): Tabs
+### Exercise (Video): Tabs
 
 In this exercise, we\'re going to explore Bootstrap\'s tab-based
 navigation, Bootstrap\'s support for tabs, and how tabs can be used to
@@ -10495,7 +10495,7 @@ content.
 This is also a good time for you to do a Git Comment with the message
 tabs.
 
-## Exercise (Instructions): Tabs
+### Exercise (Instructions): Tabs
 
 ### Objectives and Outcomes
 
@@ -10610,7 +10610,7 @@ In this exercise we learnt the use of tabbed navigation, tab content and
 tab panes and their use in organizing and navigating within the content
 in a page.
 
-## Tabs and Tabbed Navigation: Additional Resources
+### Tabs and Tabbed Navigation: Additional Resources
 
 ### PDFs of Presentations
 
@@ -10629,7 +10629,7 @@ in a page.
 -   [Bootstrap Tabs Javascript
     Behavior](http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior target="_blank")
 
-## Hide and Seek: Objectives and Outcomes
+### Hide and Seek: Objectives and Outcomes
 
 In this lesson we learn about the collapse javascript plugin that allows
 us to hide and reveal content. In particular we explore its use in
@@ -10639,7 +10639,7 @@ creating an accordion. At the end of this lesson, you will be able to:
 
 -   Construct the accordion using cards
 
-## Collapse and Accordion
+### Collapse and Accordion
 
 Let\'s now talk about a very useful plugin in Bootstrap called as the
 Collapse.
@@ -10754,7 +10754,7 @@ Although, of course, the Coursera page actually doesn\'t use Bootstrap.
 We\'ll move to the next exercise where we will see how we construct the
 Accordion for showing our corporate leadership information.
 
-## Exercise (Video): Accordion
+### Exercise (Video): Accordion
 
 Accordions are one of those annoying instruments that some of you may
 have seen already.
@@ -10922,7 +10922,7 @@ With this, we complete this exercise.
 This is a good time for you to do a git commit with the message
 accordion..
 
-## Exercise (Instructions): Accordion
+### Exercise (Instructions): Accordion
 
 ### Objectives and Outcomes
 
@@ -11025,7 +11025,7 @@ in a web page. At the end of this exercise, you will be able to:
 In this exercise we constructed the accordion using the collapse plugin
 together with the card component.
 
-## Hide and Seek: Additional Resources
+### Hide and Seek: Additional Resources
 
 ### PDFs of Presentations
 
@@ -11039,7 +11039,7 @@ together with the card component.
 -   [Bootstrap Accordion
     Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example target="_blank")
 
-## Revealing Content: Objectives and Outcomes
+### Revealing Content: Objectives and Outcomes
 
 In this lesson we look at several ways of presenting information to
 users by overlaying the information on top of the page. In particular,
@@ -11053,7 +11053,7 @@ will be able to:
 
 -   Reveal and hide modals when the user clicks on a link or button
 
-## Tooltips, Popovers and Modals
+### Tooltips, Popovers and Modals
 
 Let us now try to understand several mechanisms to enable us to display
 information to the users overlaying the content of your web page.
@@ -11171,7 +11171,7 @@ index.html page.
 We\'ll also create a modal that allows the user to type in information
 for logging in into our web page.
 
-## Exercise (Video): Tooltips and Modals
+### Exercise (Video): Tooltips and Modals
 
 In the lecture before, we saw several ways of revealing content to the
 users.
@@ -11459,7 +11459,7 @@ use of models to display content.
 This is a good time for you to do a git-commint with the message tool
 tips and models.
 
-## Exercise (Instructions): Tooltips and Modals
+### Exercise (Instructions): Tooltips and Modals
 
 ### Objectives and Outcomes
 
@@ -11571,7 +11571,7 @@ We are introducing another link to the right of the navbar using the
 In this exercise we explored tooltips and modals as two ways of
 revealing content for the user upon clicking on a button or a link.
 
-## Revealing Content: Additional Resources
+### Revealing Content: Additional Resources
 
 ### PDFs of Presentations
 
@@ -11588,7 +11588,7 @@ revealing content for the user upon clicking on a button or a link.
 -   [Bootstrap
     Modals](http://getbootstrap.com/docs/4.0/components/modal/ target="_blank")
 
-## Carousel: Objectives and Outcomes
+### Carousel: Objectives and Outcomes
 
 In this lesson we will examine the use of the Carousel component in our
 web page. We will examine the configuration of the various aspects of
@@ -11600,7 +11600,7 @@ the carousel. At the end of this lesson you will be able to:
 
 -   Add controls to the carousel to manually control it
 
-## Carousel
+### Carousel
 
 Let\'s take a look at yet another interesting component in bootstrap,
 called as the bootstrap carousel.
@@ -11641,7 +11641,7 @@ That is what we\'re going to examine in this next exercise, where we
 will add a carousel to our web page, the index.html page and then create
 the manual controls for it.
 
-## Exercise (Video): Carousel
+### Exercise (Video): Carousel
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -11844,7 +11844,7 @@ This completes this exercise.
 This is a good time for you to do a git-commit with the message
 carousel.
 
-## Exercise (Instructions): Carousel
+### Exercise (Instructions): Carousel
 
 ### Objectives and Outcomes
 
@@ -11967,7 +11967,7 @@ it to a web page.
 
 We also learnt about introducing manual controls to the carousel.
 
-## Carousel: Additional Resources
+### Carousel: Additional Resources
 
 ### PDFs of Presentations
 
@@ -11980,7 +11980,7 @@ Open file
 -   [Bootstrap
     Carousel](http://getbootstrap.com/docs/4.0/components/carousel/ target="_blank")
 
-## Assignment 3: Bootstrap JavaScript Components
+### Assignment 3: Bootstrap JavaScript Components
 
 We have reached the end of the third module of this course.
 
@@ -12040,7 +12040,7 @@ That is your third task in this assignment.
 
 Hope you enjoyed creating this new variation of the index.html page.
 
-## Assignment 3: Resources
+### Assignment 3: Resources
 
 ### Assignment Screenshots
 <!------------------------------------------------------------------------------------------------>
@@ -12069,7 +12069,7 @@ height="4.461420603674541in"}
 -   [Bootstrap
     Forms](http://getbootstrap.com/docs/4.0/components/forms/ target="_blank")
 
-## Bootstrap and JQuery: Objectives and Outcomes (week 4)
+### Bootstrap and JQuery: Objectives and Outcomes (week 4)
 
 In this lesson we examine the use of Bootstrap, JQuery and JavaScript
 together to control Bootstrap JS components. Many of the Bootstrap\'s JS
@@ -12083,7 +12083,7 @@ behavior. At the end of this lesson, you will be able to:
     component methods and JQuery methods for controlling Bootstrap JS
     components
 
-## Bootstrap and JQuery
+### Bootstrap and JQuery
 
 Let us now spend some time trying to understand how Bootstrap and jQuery
 work together to support the Bootstrap\'s JavaScript components.
@@ -12660,7 +12660,7 @@ which will be used to control the sliding action of the carousel.
 Which means that we can pause and resume the sliding action of our
 carousel. And we\'ll activate these buttons from JavaScript.
 
-## Exercise (Video): Bootstrap and JQuery (9)
+### Exercise (Video): Bootstrap and JQuery (9)
 
 Many of the Bootstrap\'s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -12845,7 +12845,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-## Exercise (Instructions): Bootstrap and JQuery
+### Exercise (Instructions): Bootstrap and JQuery
 
 Many of the Bootstrap\'s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -13027,7 +13027,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-## Exercise (Video): More Bootstrap and JQuery
+### Exercise (Video): More Bootstrap and JQuery
 
 In the previous exercise, we saw how we can leverage the
 JavaScript-based controls that are provided for the Bootstrap JavaScript
@@ -13221,7 +13221,7 @@ as pertinent in this particular case.
 With this, we complete this exercise. It\'s time for you to do a Git
 commit with the message more Bootstrap and jQuery.
 
-## Exercise (Instructions): More Bootstrap and JQuery
+### Exercise (Instructions): More Bootstrap and JQuery
 
 ### Objectives and Outcomes
 
@@ -13281,7 +13281,7 @@ In this exercise we learnt more about Bootstrap\'s JS component methods
 and how they can be used together with JQuery and JavaScript to control
 the behavior of a Bootstrap JS component.
 
-## Bootstrap and JQuery: Additional Resources
+### Bootstrap and JQuery: Additional Resources
 
 ### PDFs of Presentations
 
@@ -13298,7 +13298,7 @@ the behavior of a Bootstrap JS component.
 
 -   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp target="_blank")
 
-## CSS Preprocessors: Objectives and Outcomes
+### CSS Preprocessors: Objectives and Outcomes
 
 In this lesson we explore CSS preprocessors, Less and Sass. We learn the
 salient features of both the processors and see how we can generate CSS
@@ -13309,7 +13309,7 @@ to:
 
 -   Compile the Less and Sass code into the corresponding CSS classes
 
-## CSS Preprocessors: Less and Sass
+### CSS Preprocessors: Less and Sass
 
 This particular lesson deals with CSS preprocessors, in particular Less
 and Sass.
@@ -13508,7 +13508,7 @@ First, we\'ll do an exercise based upon Less.
 
 Then we\'ll follow that up with an exercise based on Sass.
 
-## Exercise: Less
+### Exercise: Less
 
 It\'s time to move on to the next exercise, called Exercise: Less.
 
@@ -13635,7 +13635,7 @@ automatically convert that into the corresponding CSS code.
 At this point, you may wish to save the changes to your Git repository
 with the message Exercise: Less.
 
-## Exercise (Instructions): Less
+### Exercise (Instructions): Less
 
 ### Objectives and Outcomes
 
@@ -13793,7 +13793,7 @@ we can compile Less files.
 In this exercise you learnt to write Less code and then automatically
 generating the CSS file by compiling the Less code.
 
-## Exercise: Scss
+### Exercise: Scss
 
 We\'ll now move on to the next exercise, where we will use SCSS syntax
 to define our SCSS classes and automatically convert them into their
@@ -13918,7 +13918,7 @@ This completes our exercise.
 This may be a good time for you to do a good commit with the message
 exercise SCSS.
 
-## Exercise (Instructions): Scss
+### Exercise (Instructions): Scss
 
 ### Objectives and Outcomes
 
@@ -14077,7 +14077,7 @@ npm run scss
 In this exercise you learnt to write Scss code and then automatically
 generating the CSS file by compiling the Scss code.
 
-## CSS Preprocessors: Additional Resources
+### CSS Preprocessors: Additional Resources
 
 ### PDFs of Presentations
 
@@ -14099,7 +14099,7 @@ generating the CSS file by compiling the Scss code.
 
 -   [Node-sass NPM package](https://www.npmjs.com/package/node-sass target="_blank")
 
-## Assignment 4: Bootstrap, JQuery and Sass
+### Assignment 4: Bootstrap, JQuery and Sass
 
 We come to the final assignment of this course. In this fourth
 assignment, you\'re going to work with bootstraps, JQuery support and
@@ -14164,7 +14164,7 @@ background pale color is applied to the body of your model.
 And upon completing this assignment, you may wish to do a good comment
 to save your changes with the message assignment four.
 
-## Assignment 4: Additional Resources
+### Assignment 4: Additional Resources
 
 ### Screenshots
 
@@ -14201,7 +14201,7 @@ height="4.349809711286089in"}
 -   [Modal
     Methods](http://getbootstrap.com/docs/4.0/components/modal/#methods target="_blank")
 
-## Building and Deployment: Objectives and Outcomes
+### Building and Deployment: Objectives and Outcomes
 
 In this lesson you will learn about building and deploying your web
 project.
@@ -14214,7 +14214,7 @@ At the end of this lesson, you will be able to:
 
 -   Prepare your project for being hosted on a web server
 
-## Building and Deployment
+### Building and Deployment
 
 So far, we have been concentrating on designing and implementing our
 website, be it HTML, CSS, or JavaScript code.
@@ -14405,7 +14405,7 @@ task.
 We\'ll look at some of these through examples in the next exercise and
 also the next lesson where we will look at task runners.
 
-## NPM Scripts
+### NPM Scripts
 
 As a first approach to automating our tasks, let\'s look at the example
 of using NPM scripts. Indeed, we had already started using NPM scripts
@@ -14469,7 +14469,7 @@ scripts in the package.json file, and then execute the scripts,
 sometimes automatically or sometimes manually invoke the scripts in
 order to do the building and deployment of our website.
 
-## Exercise (Instructions): NPM Scripts Part 1
+### Exercise (Instructions): NPM Scripts Part 1
 
 ### Objectives and Outcomes
 
@@ -14548,7 +14548,7 @@ npm start
 In this exercise, you learnt how to set up a watch task to watch for
 changes to a file and automatically run tasks upon detecting changes.
 
-## Exercise (Video): NPM Scripts Part 2
+### Exercise (Video): NPM Scripts Part 2
 
 We\'ll now continue our journey with NPM scripts in this next exercise.
 
@@ -15041,7 +15041,7 @@ build and deploy our website.
 This may be a good time for you to do a Get Comment with message NPM
 Scripts, Part 2.
 
-## Exercise (Instructions): NPM Scripts Part 2
+### Exercise (Instructions): NPM Scripts Part 2
 
 ### Objectives and Outcomes
 
@@ -15193,7 +15193,7 @@ npm run build
 In this exercise, you learnt the various steps to build the project for
 deployment using NPM scripts.
 
-## Building and Deployment: NPM Scripts: Additional Resources
+### Building and Deployment: NPM Scripts: Additional Resources
 
 ### PDFs of Presentations
 
@@ -15230,7 +15230,7 @@ deployment using NPM scripts.
 
 -   [htmlmin](https://github.com/jserme/htmlmin target="_blank")
 
-## Building and Deployment: Task Runners
+### Building and Deployment: Task Runners
 
 In this lesson you will learn about JavaScript based Task runners, Grunt
 and Gulp. You will learn to automate your web development tasks using
@@ -15240,7 +15240,7 @@ these tools. At the end of this lesson, you will be able to:
 
 -   Define Gulp tasks in code to automate the web development using Gulp
 
-## Task Runners
+### Task Runners
 
 As we understood from the previous lesson building and deployment of
 websites involves a lot of steps. And we looked at the use of
@@ -15334,7 +15334,7 @@ the npm scripts in the previous lesson and the exercise.
 By showing you the Grunt and the Gulp way of doing the same sort of
 tasks in the exercises that follow this lecture.
 
-## Exercise (Video): Grunt Part 1
+### Exercise (Video): Grunt Part 1
 
 Time to start Grunting. In this and the next exercise we\'re going to
 repeat the same kind of setup as we did with the NPM scripts.
@@ -15682,7 +15682,7 @@ With this, we complete our grunt part one exercise.
 This is a good time to save your files, to the Git Repository with the
 message Grunt part one.
 
-## Exercise (Instructions): Grunt Part 1
+### Exercise (Instructions): Grunt Part 1
 
 ### Objectives and Outcomes
 
@@ -15854,7 +15854,7 @@ perform several tasks.
 
 You were able to start a server with livereload to serve the web page.
 
-## Exercise (Video): Grunt Part 2
+### Exercise (Video): Grunt Part 2
 
 Let\'s continue our grunting.
 
@@ -16378,7 +16378,7 @@ After all the grunting, I\'m sure you need to catch your breath.
 Before you do that, make sure to do a good comment with the message
 "Grunt Part two."
 
-## Exercise (Instructions): Grunt Part 2
+### Exercise (Instructions): Grunt Part 2
 
 ### Objectives and Outcomes
 
@@ -16570,7 +16570,7 @@ In this exercise you have learnt how to configure a Grunt file to
 perform several tasks. You were able to build a distribution folder for
 your web project.
 
-## Exercise (Video): Gulp Part 1
+### Exercise (Video): Gulp Part 1
 
 Now that we have granted enough, it\'s time to Gulp.
 
@@ -16823,7 +16823,7 @@ In the second part, we will prepare the distribution folder.
 This is a good time for you to do a git-commit with the message Gulp
 part 1.
 
-## Exercise (Instructions): Gulp Part 1
+### Exercise (Instructions): Gulp Part 1
 
 ### Objectives and Outcomes
 
@@ -16940,7 +16940,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-## Exercise (Video): Gulp Part 2
+### Exercise (Video): Gulp Part 2
 
 ### Objectives and Outcomes
 
@@ -17067,7 +17067,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-## Building and Deployment: Task Runners: Additional Resources
+### Building and Deployment: Task Runners: Additional Resources
 
 ### PDFs of Presentations
 
@@ -17175,7 +17175,7 @@ development tasks.
 -   [Why I Left Gulp and Grunt for npm
     Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8 target="_blank")
 
-## Front-End Web UI Frameworks: Bootstrap 4: Conclusions
+### Front-End Web UI Frameworks: Bootstrap 4: Conclusions
 
 As we come to the conclusion of this course, it\'s time to look back and
 reflect about what we\'ve covered in this course so far.
@@ -17225,13 +17225,13 @@ I hope you enjoyed going through this course.
 And I hope I\'ll see you back again in the next course of the
 specialization.
 
-## Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions
+### Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions
 
 ### PDFs of Presentations
 
 11-Conclusion.pdf
 
-## Project Implementation: Objectives and Outcomes
+### Project Implementation: Objectives and Outcomes
 
 This is the final stretch before you complete your project.
 
@@ -17261,7 +17261,7 @@ At the end of this lesson, you will be able to:
 
 -   Understand the design and development process through the practice.
 
-## Final Report Template
+### Final Report Template
 
 ### Project Title
 
