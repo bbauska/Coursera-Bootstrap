@@ -449,7 +449,8 @@ implemented using MongoDB.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/>
+
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a>
 
 ### Useful Links
@@ -1638,7 +1639,7 @@ height="1.2676279527559056in"}
 ---------->
 
 ```
-	git clone <repository URL>
+git clone <repository URL>
 ```
 
 ### Conclusions
@@ -8418,22 +8419,20 @@ be able to:
     simple horizontal form with two fields:
 
 ```
-                <form>
-                    <div class="form-group row">
-                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-      <input type="text" class="form-
- control" id="firstname" name="firstname" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                        <input type="text" class="form-
- control" id="lastname" name="lastname" placeholder="Last Name">
-                        </div>
-                    </div>
-                </form>
+<form>
+   <div class="form-group row">
+      <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+      <div class="col-md-10">
+         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+      </div>
+   </div>
+   <div class="form-group row">
+      <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+      <div class="col-md-10">
+         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+      </div>
+   </div>
+</form>
 ```
 
 This creates a form with two elements in the form. Note that the class
@@ -8444,20 +8443,20 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-    <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-    <div class="col-5 col-md-3">
-    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-    </div>
-    <div class="col-7 col-md-7">
-    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-    </div>
-    </div>
-    <div class="form-group row">
-    <label for="emailid" class="col-md-2 col-form-label">Email</label>
-    <div class="col-md-10">
-    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-    </div>
-    </div>
+   <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+   <div class="col-5 col-md-3">
+      <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+   </div>
+   <div class="col-7 col-md-7">
+      <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+   </div>
+</div>
+<div class="form-group row">
+   <label for="emailid" class="col-md-2 col-form-label">Email</label>
+   <div class="col-md-10">
+      <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+   </div>
+</div>
 ```
 
 ### Adding a Checkbox and Select
@@ -8466,23 +8465,22 @@ can style the contents using the column classes as appropriate.
     form. Note the styling of these elements using Bootstrap classes:
 
 ```
-         <div class="form-group row">
-          <div class="col-md-6 offset-md-2">
-               <div class="form-check">
-               
-<input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                  <label class="form-check-label" for="approve">
-                  <strong>May we contact you?</strong>
-                  </label>
-               </div>
-            </div>
-            <div class="col-md-3 offset-md-1">
-             <select class="form-control">
-                <option>Tel.</option>
-                  <option>Email</option>
-                  </select>
-               </div>
-            </div>
+<div class="form-group row">
+   <div class="col-md-6 offset-md-2">
+      <div class="form-check">
+         <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+         <label class="form-check-label" for="approve">
+            <strong>May we contact you?</strong>
+         </label>
+      </div>
+   </div>
+   <div class="col-md-3 offset-md-1">
+      <select class="form-control">
+         <option>Tel.</option>
+         <option>Email</option>
+      </select>
+   </div>
+</div>
 ```
 
 ### Adding a textarea
@@ -8492,11 +8490,11 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-<label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+   <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
       <div class="col-md-10">
          <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
       </div>
-   </div>
+</div>
 ```
 
 ### Adding the Submit Button
@@ -8504,11 +8502,11 @@ can style the contents using the column classes as appropriate.
 -   Finally, we add the submit button to the form as follows:
 
 ```
-     <div class="form-group row">
-        <div class="offset-md-2 col-md-10">
-<button type="submit" class="btn btn-primary">Send Feedback</button>
-        </div>
-     </div>
+<div class="form-group row">
+   <div class="offset-md-2 col-md-10">
+      <button type="submit" class="btn btn-primary">Send Feedback</button>
+   </div>
+</div>
 ```
 
 Note the declaration of the type for the button to <i>submit</i>.
@@ -8979,56 +8977,56 @@ displaying content. At the end of this exercise, you will be able to:
     columns to the page as follows:
 
 ```
-        <div class="row row-content">
-            <div class="col-12 col-sm-9">
-                <h2>Facts &amp; Figures</h2>
-            </div>
-             <div class="col-12 col-sm-3">
-            </div>
-       </div>
+<div class="row row-content">
+   <div class="col-12 col-sm-9">
+      <h2>Facts &amp; Figures</h2>
+   </div>
+   <div class="col-12 col-sm-3">
+   </div>
+</div>
 ```
 
 -   Inside the first column of this row, insert the table as follows:
 
 ```
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th>&nbsp;</th>
-                                <th>2013</th>
-                                <th>2014</th>
-                                <th>2015</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Employees</th>
-                                <td>15</td>
-                                <td>30</td>
-                                <td>40</td>
-                            </tr>
-                            <tr>
-                                <th>Guests Served</th>
-                                <td>15000</td>
-                                <td>45000</td>
-                                <td>100,000</td>
-                            </tr>
-                            <tr>
-                                <th>Special Events</th>
-                                <td>3</td>
-                                <td>20</td>
-                                <td>45</td>
-                            </tr>
-                            <tr>
-                                <th>Annual Turnover</th>
-                                <td>$251,325</td>
-                                <td>$1,250,375</td>
-                                <td>~$3,000,000</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+<div class="table-responsive">
+   <table class="table table-striped">
+      <thead class="thead-dark">
+         <tr>
+            <th>&nbsp;</th>
+            <th>2013</th>
+            <th>2014</th>
+            <th>2015</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th>Employees</th>
+            <td>15</td>
+            <td>30</td>
+            <td>40</td>
+         </tr>
+         <tr>
+            <th>Guests Served</th>
+            <td>15000</td>
+            <td>45000</td>
+            <td>100,000</td>
+         </tr>
+         <tr>
+            <th>Special Events</th>
+            <td>3</td>
+            <td>20</td>
+            <td>45</td>
+            </tr>
+         <tr>
+            <th>Annual Turnover</th>
+            <td>$251,325</td>
+            <td>$1,250,375</td>
+            <td>~$3,000,000</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
 ```
 
 Note the use of <i>table-responsive</i> class to create a responsive table,
@@ -17323,4 +17321,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 12:08pm ---->
+<!--- last updated: 09/22/2022 at 2:55pm ---->
