@@ -15,9 +15,12 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!---------------------------------------- Coursera logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
+<figure>
 <img src="./images/coursera-logo.png?raw=true"
    width="35%"
    alt="Coursera logo." />
+   <figcaption>Coursera logo</figcaption>
+</figure>
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
@@ -477,10 +480,10 @@ computer. At the end of this lesson, you will be able to:
 
 1.  <b>Text editor of your choice</b>: Any text editor that you are already
     familiar with can be used for editing the project files. I will be
-    using Visual Studio Code (<https://code.visualstudio.com/>) as the
+    using <a href="https://code.visualstudio.com/">Visual Studio Code</a> as the
     editor of choice in this specialization. You may also consider other
-    editors such as Brackets (<http://brackets.io/>), Sublime Text
-    (<http://www.sublimetext.com/)>, or Atom (<https://atom.io/>).
+    editors such as <a href="http://brackets.io/">Brackets</a>, 
+	<a href="http://www.sublimetext.com/">Sublime Text</a>, or <a href="https://atom.io/">Atom</a>.
 
 2.  <b>Browser of your choice</b>: You may use your preferred browser. I
     will be using Chrome as the browser in all the exercises. All the
@@ -733,14 +736,14 @@ would be able to:
 ### Downloading and Installing Git
 
 -   To install Git on your computer, go to
-    <a href-"https://git-scm.com/downloads"> to download the Git installer for
-    your specific computing platform.</a>
+    <a href="https://git-scm.com/downloads">here</a> to download the Git installer for
+    your specific computing platform.
 
 -   Then, follow the installation steps as you install Git using the
     installer.
 
 -   You can find more details about installing Git at
-    <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">.</a>
+    <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git-scm.com</a>.
     This document lists several ways of installing Git on various
     platforms.
 
@@ -1585,11 +1588,10 @@ online repository. At the end of this exercise, you will be able to:
 
 ### Setting up an Online Git repository
 
--   Sign up for an account either at Bitbucket
-    ([https://bitbucket.org](https://bitbucket.org/)) or GitHub
-    ([https://github.com](https://github.com/)).
+-   Sign up for an account either at (<a href="https://bitbucket.org](https://bitbucket.org/" target="_blank">Bitbucket</a>
+     or <a href="https://github.com/">GitHub</a>).
 
--   Then set up an online Git repository named <b>git-test</b>. Note the
+-   Then set up an online Git repository named <font color="dark green"><b>git-test</b></font>. Note the
     URL of your online Git repository. Note that private repositories on
     GitHub requires a paid account, and is not available for free
     accounts.
