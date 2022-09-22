@@ -3862,10 +3862,9 @@ We\'ll see that in the next slide.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image054.png?raw=true"
-   alt="."
+   alt="Auto-layout columns."
    width="50%" />
 </p>
-![](images/image055.png)
 <!-------------------
 {width="5.0in"
 height="2.678418635170604in"}
@@ -3875,14 +3874,13 @@ Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 55.  (xx) --------------------------------->
+<!----------------------------------- 55. bootstrap grid (78) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image055.png?raw=true"
+   alt="Bootstrap grid."
    width="50%" />
 </p>
-![](images/image056.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3913,14 +3911,13 @@ five columns.
 There are still seven more columns left.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!---------------------------------- 56. bootstrap grid #2 (78) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image056.png?raw=true"
+   alt="Bootstrap grid #2."
    width="50%" />
 </p>
-![](images/image057.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3939,14 +3936,13 @@ This is how we can specify and the work with the 12 columns in defining
 the layout of the current tier.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!--------------------------------- 57. auto-layout columns (79) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image057.png?raw=true"
+   alt="Auto-layout columns."
    width="50%" />
 </p>
-![](images/image058.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3964,14 +3960,13 @@ divs, side by side, so, that each one of them gets one third of the
 total width.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------- 58. auto-layout columns #2 (79) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image058.png?raw=true"
+   alt="Auto-layout columns #2."
    width="50%" />
 </p>
-![](images/image059.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -3984,14 +3979,13 @@ And this is automatically taken care of by the bootstraps layout
 mechanism.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------- 59. auto-layout columns #3 (80) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image059.png?raw=true"
+   alt="Auto-layout columns #3."
    width="50%" />
 </p>
-![](images/image060.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -4001,14 +3995,13 @@ Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------- 60. auto-layout columns #4 (80) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image060.png?raw=true"
+   alt="Auto-layout columns #4."
    width="50%" />
 </p>
-![](images/image061.png)
 <!-------------------
 {width="5.0in"
 height="1.9439107611548556in"}
@@ -4035,14 +4028,13 @@ of specifications of how many columns each piece of content will occupy
 in color layout.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!------------------------------- 61. bootstrap grid details (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image061.png?raw=true"
+   alt="Bootstrap grid details."
    width="50%" />
 </p>
-![](images/image062.png)
 <!-------------------
 {width="5.0in"
 height="2.834935476815398in"}
@@ -4144,14 +4136,13 @@ Also, it supports offsets.
 We will see the use of offsets also in some examples later.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!-------------------------------- 62. using column classes (83) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image062.png?raw=true"
+   alt="Using column classes."
    width="50%" />
 </p>
-![](images/image063.png)
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4185,14 +4176,13 @@ to extra-large screen sizes.
 This is how we would specify content layout for different screen sizes.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!--------------------------------- 63. reordering content (84) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image063.png?raw=true"
+   alt="Reordering content."
    width="50%" />
 </p>
-![](images/image064.png)
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4221,14 +4211,13 @@ the row.
 We will see an example of this also in the exercise.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
+<!--------------------------------- 64. vertical alignment (84) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
+<img src="/images/image064.png?raw=true"
+   alt="Vertical alignment."
    width="50%" />
 </p>
-![](images/image065.png)
 <!-------------------
 {width="5.0in"
 height="2.0544870953630796in"}
@@ -4247,12 +4236,12 @@ of doing vertical alignment.
 If you wanted the content to be vertically-centered, then to the row,
 you would apply the class called "align items center".
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 66.  (xx) ------------------>
+<!------------------------------- 65. vertical alignment #2 (85) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image066.png?raw=true"
+<img src="./images/image065.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Vertical alignment #2." />
 </p>
 <!-------------------
 {width="5.0in"
@@ -4267,12 +4256,12 @@ the remaining ones will be aligned when it is laid out in that row or if
 you pre-specify the height of the row, then all the content will be
 centered vertically within that particular row there.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 67.  (xx) ------------------>
+<!-------------------------------- 66. horizontal alignment (86) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image066.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Horizontal alignment." />
 </p>
 <!-------------------
 {width="5.0in"
@@ -4284,12 +4273,12 @@ content.
 
 Let\'s look at an example.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 68.  (xx) ------------------>
+<!------------------------------ 67. horizontal alignment #2 (86) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image068.png?raw=true"
+<img src="./images/image067.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Horizontal alignment #2." />
 </p>
 <!-------------------
 {width="5.0in"
@@ -4307,12 +4296,12 @@ specifying is that the left and the rightmost pieces of content will
 occupy three columns each.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 69.  (xx) ------------------>
+<!------------------------------ 68. horizontal alignment #3 (87) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image069.png?raw=true"
+<img src="./images/image068.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Horizontal alignment #3." />
 </p>
 <!--------------
 {width="5.0in"
@@ -4346,12 +4335,12 @@ couple of other options.
 Details are in the bootstraps documentation.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 70.  (xx) ------------------>
+<!----------------------------------- 69. column offsets (88) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image070.png?raw=true"
+<img src="./images/image069.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Column offsets." />
 </p>
 <!--------------
 {width="5.0in"
@@ -4365,12 +4354,12 @@ How does this work?
 Let\'s look at an example.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 71.  (xx) ------------------>
+<!--------------------------------- 70. column offsets #2 (88) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
+<img src="./images/image070.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Column offsets #2." />
 </p>
 <!--------------
 {width="5.0in"
@@ -4386,15 +4375,15 @@ of content should be right-shifted by one column.
 When this content is laid out, as you can see, the leftmost one column
 is left blank and the content is shifted right by one column.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 72.  (xx) ------------------>
+<!--------------------------------- 71. column offsets #3 (89) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image072.png?raw=true"
+<img src="./images/image071.png?raw=true"
    width="50%"
-   alt="." />
+   alt="column offsets #3." />
 </p>
 <!--------------
-![](images/image072.png){width="5.0in"
+{width="5.0in"
 height="2.0544870953630796in"}
 ---------------->
 And you can lay out the remaining content on the right side.
@@ -4410,15 +4399,15 @@ horizontal alignment, the offset, the push and the pull, and flex first
 and flex last, we are able to get a lot of control on how we lay out
 contents for different screen widths and different screen sizes.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 73.  (xx) ------------------>
+<!---------------------------------- 72. nesting offsets (89) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image073.png?raw=true"
+<img src="./images/image072.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Nesting offsets." />
 </p>
 <!--------------
-![](images/image073.png){width="5.0in"
+{width="5.0in"
 height="2.0544870953630796in"}
 -------------->
 
@@ -4436,15 +4425,14 @@ column.
 Nesting like this, brings you even more flexibility in the way you lay
 out content in your pitch.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 74.  (xx) ------------------>
+<!---------------- 73. exercise: responsive design & bootstrap grid system (90) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image074.png?raw=true"
+<img src="./images/image073.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Exercise: responsive design & bootstrap grid system." />
 </p>
 <!---------------
-![](images/image074.png)
 {width="5.0in"
 height="1.8327996500437445in"}
 ---------------->
@@ -5426,12 +5414,12 @@ localhost:3000/aboutus.html and your light server build server up the
 aboutus.html page, so this is the only way you can get to view the page.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 75.  (xx) ------------------>
+<!----------------------------------- 74. aboutus.html (108) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image074.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Aboutus.html." />
 </p>
 <!--------------
 {width="5.0in" height="2.6875in"}
@@ -5445,12 +5433,12 @@ Now your job is to go through three tasks in order to format this page.
 Let\'s look at the three tasks in more detail.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 76.  (xx) ------------------>
+<!------------------------------------ 75. first task (108) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
+<img src="./images/image075.png?raw=true"
    width="50%"
-   alt="." />
+   alt="First task." />
 </p>
 <!-----------------
 {width="5.0in" height="2.6875in"}
@@ -5464,12 +5452,12 @@ formatted correctly, because I have simply copied the header in the
 footer from the index.html page into this page
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 77.  (xx) ------------------>
+<!----------------------------------- 76. second task (109) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image076.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Second task." />
 </p>
 <!------------------
 {width="5.0in" height="2.6875in"}
@@ -5478,17 +5466,17 @@ footer from the index.html page into this page
 and I left all the Bootstrap formatting as such, but the actual content
 of the page is still left unstyled.
 
-now, as the second task, you\'re going to apply the Bootstraps Flexbox
+Now, as the second task, you\'re going to apply the Bootstraps Flexbox
 grid including the Container, the rows and the column classes to this
 content or the page so that you can style it properly.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 78.  (xx) ------------------>
+<!------------------------------------ 77. third task (110) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image077.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Third task." />
 </p>
 <!---------------------
 {width="5.0in" height="2.6875in"}
@@ -5511,12 +5499,12 @@ in this page.
 When you complete the second task, your page will end up being styled
 like this.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 79.  (xx) ------------------>
+<!-------------------------------------- 78. aboutus (111) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image078.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Aboutus and history." />
 </p>
 
 You can see that the aboutus page exists in its own.
@@ -5524,12 +5512,12 @@ You can see that the aboutus page exists in its own.
 Then Our History part, notice that on a small to large screen size, the
 Our History will occupy only half the screen width.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 80.  (xx) ------------------>
+<!----------------------------------- 79. our history (111) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image079.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Our history." />
 </p>
 
 <!-----------
@@ -5539,12 +5527,12 @@ Our History will occupy only half the screen width.
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 81.  (xx) ------------------>
+<!------------------------------ 81. ristorante con fusion (112) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Ristorante con Fusion." />
 </p>
 
 <!-----------
@@ -5553,12 +5541,12 @@ this case.
 
 This is the second task that you need to complete in your assignment.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 82.  (xx) ------------------>
+<!-------------------------------------- 82. task 3 (112) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Task 3." />
 </p>
 <!-----------
 {width="5.0in" height="2.6875in"}
@@ -5568,12 +5556,12 @@ For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
 especially like this,
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 83.  (xx) ------------------>
+<!------------------------------- 83. corporate leadership (113) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Corporate leadership." />
 </p>
 <!-----------
 {width="5.0in" height="2.6875in"}
@@ -5594,12 +5582,12 @@ When you apply the classes to this corporate leadership part, the same
 content will now be laid out without the description, so it will be
 hidden in the extra small screens size.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 84.  (xx) ------------------>
+<!------------------------------ 84. corporate leadership #2 (114) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image084.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Corporate leadership #2." />
 </p>
 <!-----------
 {width="5.0in" height="2.6875in"}
@@ -5642,15 +5630,13 @@ Git Repository with the Message Assignment One.
 
 ### Assignment 1 Screenshots
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 85/86.  (xx) ------------------>
+<!------------------------------- 85/86. assignment 1 (116/117) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image085.png?raw=true"
    width="20%"
-   alt="." />
+   alt="Assignment 1." />
 </p>
-
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IoGtNroHEea4MxKdJPaTxA_10b9e8de168aedab61940260a6bbb192_aboutus-xs.png?expiry=1641081600000&hmac=K6Yubq4NLbsGAkzzv15OVrnc1VpRiQ0K6kIBL81rWX4 target="_blank"](images/image085.png)
 <!------------
 {width="2.0in"
 height="7.825243875765529in"}
@@ -5658,9 +5644,8 @@ height="7.825243875765529in"}
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Assignment #1, continued." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/SdsvZ7oGEea3qApInhZCFg_1d61edae91ffbf43b334970572db6ed4_aboutus.png?expiry=1641081600000&hmac=etGdDRQU218Wg7qr88PG4A3to7IM1rHi79ck-J9Wgl4 target="_blank"](images/image086.png)
 <!-----------
 {width="4.0in"
 height="4.4736843832021in"}
@@ -5796,12 +5781,12 @@ And how do you we provide navigation information on your website?
 These are the question that we will try to answer In this particular
 lecture.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 87.  (xx) ------------------>
+<!------------------------------ 87. why website navigation? (120) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Why website navigation?" />
 </p>
 <!-----------
 {width="5.0in"
@@ -9831,30 +9816,28 @@ You can use the column classes to adjust these things.
 
 ### Assignment Screenshots
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 88.  (xx) ------------------>
+<!----------------------------------- 88. assignment 2 (195) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image088.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Assignment 2." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QAQDOy2SEeikKwpOWDsZFA_b69afa8d38e22b06cde6e076d3eb1459_screencapture-Assignment2.png?expiry=1641081600000&hmac=jEHWrZT5WgUFXJD7q-NiciA_QS9OR7VFUTRr28mLAIE target="_blank"](images/image088.png)
 <!-----------
 {width="5.0in"
 height="8.86311789151356in"}
 ----------->
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 89.  (xx) ------------------>
+<!------------------------------ 89. assignment 2, continued (196) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Assignment 2, continued." />
 </p>
 
-A![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VRO1WC2SEeiISxJZ7npQ3g_e44b2b9a244756bb19ecfd430ad96beb_screencapture-Assignment2-xs.png?expiry=1641081600000&hmac=NBbvO-ysXP-pwcDIwUklpxFfx4-Kh_UIEU2O46muB40 target="_blank"](images/image089.png)
 <!-----------
 {width="3.100546806649169in"
 height="20.775930664916885in"}
@@ -12113,12 +12096,12 @@ all enabled using jQuery as the support.
 
 So many of these plugins are written in jQuery.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 91.  (xx) ------------------>
+<!----------------------------- 91. bootstrap and javascript (238) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap and javascript." />
 </p>
 <!-------------
 {width="5.0in"
@@ -12129,12 +12112,12 @@ Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
 been including all the Bootstrap\'s JavaScript plugins into our webpage.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 92.  (xx) ------------------>
+<!------------------------ 92. bootstrap and javascript components (239) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap and javascript components." />
 </p>
 
 <!-------------
@@ -12149,12 +12132,12 @@ JS-based plugins are implemented.
 We saw that Bootstrap\'s JS components ox in the jQuery-based components
 and make it easy for us to make use of them in our webpage.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 93.  (xx) ------------------>
+<!------------------------------ 93. bootstrap js components (239) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap JS components." />
 </p>
 
 <!-------------
@@ -12170,12 +12153,12 @@ This is where the data-\ attributes come to our rescue.
 You can use the various attributes that we saw in the previous module to
 enable many of our Bootstrap\'s JavaScript-based components.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 94.  (xx) ------------------>
+<!---------------------------- 94. bootstrap js components #2 (240) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap JS components #2." />
 </p>
 
 <!-------------
@@ -12192,12 +12175,12 @@ control your Bootstrap\'s JS components.
 
 We\'re going to explore that in a little more detail in this module.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 95.  (xx) ------------------>
+<!-------------------------------------- 95. jquery (240) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery." />
 </p>
 <!------------------
 {width="5.0in"
@@ -12243,14 +12226,13 @@ Now if you have seen some of the code that we included in the previous
 module, specifically for the tool tip, you remember that there was
 something that started with a dollar sign.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 96.  (xx) ------------------>
+<!----------------------------------- 96. jquery syntax (241) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery syntax." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12303,12 +12285,12 @@ to be performed on the element that is selected by these selectors.
 
 Let\'s take a look at Bootstrap jQuery example.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 97.  (xx) ------------------>
+<!----------------------------------- 97. jquery syntax #2 (242) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery syntax #2." />
 </p>
 
 <!-------------
@@ -12319,14 +12301,13 @@ height="2.0592946194225723in"}
 We\'ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 98.  (xx) ------------------>
+<!----------------------------- 98. bootstrap jquery example (243) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap JQuery example, cont'd." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12346,14 +12327,13 @@ Ready is the action to be taken.
 When the document is ready, then execute this function that is specified
 as a parameter for this ready action there.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 99.  (xx) ------------------>
+<!--------------------------- 99. bootstrrap jquery example #2 (243) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
    width="50%"
    alt="." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12380,12 +12360,12 @@ This is how we interpret this syntax of this jQuery example here.
 
 Let\'s look at the various ways of specifying selectors.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 100.  (xx) ------------------>
+<!------------------------------- 100. jquery syntax, again (244) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery syntax, again." />
 </p>
 
 <!-------------
@@ -12399,14 +12379,13 @@ and then, within brackets, we specify a selector.
 How do we specify selectors, what are the various ways you can specify
 selectors?
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 101.  (xx) ------------------>
+<!--------------------------------- 101. jquery selectors (244) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery selectors." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12474,14 +12453,13 @@ And a lot more other possibilities.
 These are some examples, so you will see me using some of these in the
 examples and the exercise that follows.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 102.  (xx) ------------------>
+<!---------------------------------- 102. jquery events (246) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
    width="50%"
-   alt="." />
+   alt="JQuery events." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12509,12 +12487,12 @@ We can even talk about the entire document.
 Upon the loading of the document, upon resizing the document, upon
 scrolling or unloading the document, you can respond to those events.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 103.  (xx) ------------------>
+<!-------------------------------- 103. jquery events #2 (247) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
    width="65%"
-   alt="." />
+   alt="JQuery events #2." />
 </p>
 
 <!-------------
@@ -12528,12 +12506,12 @@ click, dblclick, mousedown, on, and so on.
 These are all the event methods that will be executed upon occurrence of
 any of these events there.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 104.  (xx) ------------------>
+<!---------------- 104. example: bootstrap carousel (247) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example: Bootstrap carousel." />
 </p>
 <!--------------------
 {width="6.5in"
@@ -12553,14 +12531,13 @@ says data-ride+"carousel".
 And then we\'ve specified data interval, the interval for the sliding
 action to take place.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 105.  (xx) ------------------>
+<!-------------------------------- 105. example: carousel (248) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example: Carousel." />
 </p>
-
 <!--------------
 {width="6.5in"
 height="2.6770833333333335in"}
@@ -12592,14 +12569,13 @@ controls.
 For example, you can say carousel(\'cycle\'), meaning start cycling the
 items from left to right.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 106.  (xx) ------------------>
+<!------------------------------- 106. example: carousel #2 (249) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image106.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example: Carousel #2." />
 </p>
-
 <!-----------
 {width="6.5in"
 height="2.8555555555555556in"}
@@ -12621,14 +12597,13 @@ causes various events.
 
 And based on the occurrence of these events, you can respond.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 107.  (xx) ------------------>
+<!------------------------------- 107. example: carousel #3 (249) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image107.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example: Carousel #3." />
 </p>
-
 <!-----------
 {width="6.5in"
 height="2.8555555555555556in"}
@@ -12642,15 +12617,14 @@ invoked.
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 108.  (xx) ------------------>
+<!------------------------------- 108. example: carousel #4 (250) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example: Carousel #4." />
 </p>
 <!----------
-![](images/image108.png)
 {width="6.5in"
 height="2.8555555555555556in"}
 ---------->
@@ -12664,7 +12638,7 @@ and then do something inside that function there.
 This kind of code can be returned also for responding to the events that
 are caused by your carousel\'s behavior.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 109. exercise: bootstrap and jquery (xx) ------------------>
+<!-------------------------- 109. exercise: bootstrap and jquery (250) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image109.png?raw=true"
@@ -14075,8 +14049,7 @@ defining the classes.
     command prompt:
 
 ```
-     npm install --save-dev node-sass@4.7.2
- 
+npm install --save-dev node-sass@4.7.2
 ```
 
 This will install the <i>node-sass</i> NPM module into your project and also
@@ -14087,14 +14060,14 @@ add it as a development dependency in your package.json file.
     of the Scss file into a CSS file:
 
 ```
-    "scss": "node-sass -o css/ css/"
+"scss": "node-sass -o css/ css/"
 ```
 
 -   In order to transform the Scss file to a CSS file, type the
     following at the prompt:
 
 ```
-     npm run scss
+npm run scss
 ```
 
 -   You can now do a Git commit with the message "Sass".
@@ -14196,31 +14169,27 @@ to save your changes with the message assignment four.
 ### Screenshots
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 110.  (xx) ------------------>
+<!---------------------------------- 110. reserve a table (279) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Reserve a table." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA target="_blank"](images/image110.png)
 <!----------
 {width="5.0in"
 height="4.163497375328084in"}
 ---------->
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 111.  (xx) ------------------>
+<!-------------------------------------- 111. login (279) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image111.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Login." />
 </p>
 
-<a href="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4" target="_blank">Image 111 picture</a>
-
 <!----------
-![(images/image111.png)
 {width="5.0in"
 height="4.349809711286089in"}
 ---------->
@@ -15759,19 +15728,10 @@ This will install local per-project Grunt to use within your project.
 
 ```
 'use strict';
->
- 
->
 module.exports = function (grunt) {
->
   // Define the configuration for all the tasks
->
   grunt.initConfig({
->
- 
->
   });
->
 };
 ```
 
@@ -17343,7 +17303,7 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/21/2022 at 5:16pm 
+<!--- last updated: 09/21/2022 at 7:18pm 
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- ##.  (xx) --------------------------------->
