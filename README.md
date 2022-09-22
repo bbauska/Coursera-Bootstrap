@@ -733,14 +733,14 @@ would be able to:
 ### Downloading and Installing Git
 
 -   To install Git on your computer, go to
-    <a href-"https://git-scm.com/downloads" target="_blank"> to download the Git installer for
+    <a href-"https://git-scm.com/downloads"> to download the Git installer for
     your specific computing platform.</a>
 
 -   Then, follow the installation steps as you install Git using the
     installer.
 
 -   You can find more details about installing Git at
-    <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">.</a>
+    <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">.</a>
     This document lists several ways of installing Git on various
     platforms.
 
@@ -1570,8 +1570,8 @@ online repository. At the end of this exercise, you will be able to:
 ### Setting up an Online Git repository
 
 -   Sign up for an account either at Bitbucket
-    ([https://bitbucket.org](https://bitbucket.org/ target="_blank")) or GitHub
-    ([https://github.com](https://github.com/ target="_blank")).
+    ([https://bitbucket.org](https://bitbucket.org/)) or GitHub
+    ([https://github.com](https://github.com/)).
 
 -   Then set up an online Git repository named <b>git-test</b>. Note the
     URL of your online Git repository. Note that private repositories on
@@ -1799,7 +1799,7 @@ popular Javascript based server framework, and node package manager
 (NPM) on your machine.
 
 To learn more about NodeJS, you can visit
-[https://nodejs.org](https://nodejs.org/ target="_blank").
+[https://nodejs.org](https://nodejs.org/).
 
 For this course, you just need to install Node.js on your machine and
 make use of it for running some front-end tools.
@@ -1817,7 +1817,7 @@ At the end of this exercise, you will be able to:
 ### Installing Node
 
 -   To install Node on your machine, go to
-    [https://nodejs.org](https://nodejs.org/ target="_blank") and click on the Download
+    [https://nodejs.org](https://nodejs.org/) and click on the Download
     button. Depending on your computer\'s platform (Windows, MacOS or
     Linux), the appropriate installation package is downloaded.
 
@@ -1854,7 +1854,7 @@ during the installation steps.</b>
    width="50%" />
 </p>
 <!---------------
-> ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0 target="_blank"](images/image025.png)
+> ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
 ---------------->
 <!----------
 {width="5.0in"
@@ -2376,7 +2376,7 @@ of this exercise, you will be able to:
 <b>npm install lite-server \--save-dev</b>
 
 -   You can check out more documentation on lite-server
-    [here](https://github.com/johnpapa/lite-server target="_blank").
+    [here](https://github.com/johnpapa/lite-server).
 
 -   Next, open package.json in your editor and modify it as shown below.
     Note the addition of two lines, line 7 and line 9.
@@ -2394,11 +2394,11 @@ of this exercise, you will be able to:
   },
   "repository": {
     "type": "git",
-    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git target="_blank"]{.underline}"
+    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme target="_blank"]{.underline}",
+  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}",
   "devDependencies": {
     "lite-server": "\^2.2.2"
   }
@@ -2444,33 +2444,33 @@ package and start a development server.
 
 ### Additional Resources (Git)
 
--   Git site [http://git-scm.com](http://git-scm.com/ target="_blank").
+-   Git site [http://git-scm.com](http://git-scm.com/).
 
 -   [Installing
-    Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git target="_blank")
+    Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     chapter from Pro Git
 
--   [Git reference manual](https://git-scm.com/docs target="_blank")
+-   [Git reference manual](https://git-scm.com/docs)
 
 -   Quick reference guides: [GitHub Cheat
-    Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf target="_blank")
+    Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
     (PDF) \| [Visual Git Cheat
-    Sheet](http://ndpsoftware.com/git-cheatsheet.html target="_blank") (SVG \| PNG)
+    Sheet](http://ndpsoftware.com/git-cheatsheet.html) (SVG \| PNG)
 
 -   [Atlassian comprehensive Git
-    tutorial](https://www.atlassian.com/git/tutorials/ target="_blank")
+    tutorial](https://www.atlassian.com/git/tutorials/)
 
 ### Additional Resources (Node.js and NPM)
 
--   [Nodejs.org](https://nodejs.org/ target="_blank")
+-   [Nodejs.org](https://nodejs.org/)
 
--   [Npmjs.com](https://www.npmjs.com/ target="_blank")
+-   [Npmjs.com](https://www.npmjs.com/)
 
--   [Node API Documentation](https://nodejs.org/api/ target="_blank")
+-   [Node API Documentation](https://nodejs.org/api/)
 
--   [NPM Documentation](https://docs.npmjs.com/ target="_blank")
+-   [NPM Documentation](https://docs.npmjs.com/)
 
--   [lite-server](https://github.com/johnpapa/lite-server target="_blank")
+-   [lite-server](https://github.com/johnpapa/lite-server)
 
 ### Introduction to Bootstrap: Objectives and Outcomes
 
@@ -2483,16 +2483,16 @@ your web project.
 At the end of this lesson, you will be able to:
 
 -   Identify the purpose of using front-end UI frameworks in web design
-    and development
+    and development.
 
--   Set up a project with Bootstrap support
+-   Set up a project with Bootstrap support.
 
--   Configure a web project to use Bootstrap
+-   Configure a web project to use Bootstrap.
 
--   Become familiar with the basic features of Bootstrap
+-   Become familiar with the basic features of Bootstrap.
 
 <b>Note</b>: For those of you who are already familiar with Bootstrap 3,
-[[here]{.underline}](http://getbootstrap.com/docs/4.0/migration/ target="_blank") is an
+[[here]{.underline}](http://getbootstrap.com/docs/4.0/migration/) is an
 overview from the Bootstrap 4 documentation on the major changes in
 Bootstrap 4 compared to Bootstrap 3.
 
@@ -3183,7 +3183,7 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
 
     <!\-- Bootstrap CSS \--\>
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" target="_blank">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 -   This will include Bootstrap CSS into your web page. Note the subtle
     change in the fonts of the content of the web page. This is the
@@ -3230,21 +3230,21 @@ Bootstrap\'s grid system.
 
 ### Bootstrap Official Resources
 
--   [Bootstrap 4 Home Page](http://getbootstrap.com/ target="_blank")
+-   [Bootstrap 4 Home Page](http://getbootstrap.com/)
 
 -   [Bootstrap
-    typography](http://getbootstrap.com/docs/4.0/content/typography/ target="_blank")
+    typography](http://getbootstrap.com/docs/4.0/content/typography/)
 
 -   [Migrating from Bootstrap 3 to Bootstrap
-    4](http://getbootstrap.com/docs/4.0/migration/ target="_blank")
+    4](http://getbootstrap.com/docs/4.0/migration/)
 
 ### Front-end Web UI Frameworks
 
 -   [Top 10 Front-End Frameworks of
-    2018](https://www.keycdn.com/blog/front-end-frameworks/ target="_blank")
+    2018](https://www.keycdn.com/blog/front-end-frameworks/)
 
 -   [The 5 Most Popular Front-end Frameworks
-    Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/ target="_blank")
+    Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/)
 
 ### Responsive Design and Bootstrap Grid System: Objectives and Outcomes
 
@@ -5356,40 +5356,40 @@ classes.
 ### Bootstrap Official Documentation
 
 -   [Bootstrap Grid
-    System](http://getbootstrap.com/docs/4.0/layout/grid/ target="_blank")
+    System](http://getbootstrap.com/docs/4.0/layout/grid/)
 
 ### Responsive Design and Bootstrap Grid Resources
 
 -   [CSS Flexible Box Layout Module Level
-    1](https://www.w3.org/TR/css-flexbox/ target="_blank") (W3C Documentation)
+    1](https://www.w3.org/TR/css-flexbox/) (W3C Documentation)
 
 -   [A Complete Guide to
-    Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ target="_blank")
+    Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 -   [A Visual Guide to CSS3 Flexbox
-    Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties target="_blank")
+    Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 
 -   [The Bootstrap 4 Grid: What\'s
-    New?](http://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/ target="_blank")
+    New?](http://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/)
 
 -   [How the Bootstrap Grid Really
-    Works](http://blog.codeply.com/2016/04/06/how-the-bootstrap-grid-really-works/ target="_blank")
+    Works](http://blog.codeply.com/2016/04/06/how-the-bootstrap-grid-really-works/)
 
 -   [The Subtle Magic Behind Why the Bootstrap 3 Grid
-    Works](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works target="_blank")
+    Works](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
     (a detailed explanation of why the Bootstrap grid system works the
     way it does, a delight to read!)
 
 -   [What The Heck Is Responsive Web
-    Design?](http://johnpolacek.github.io/scrolldeck.js/decks/responsive/ target="_blank")
+    Design?](http://johnpolacek.github.io/scrolldeck.js/decks/responsive/)
     (a short presentation that introduces responsive web design)
 
 -   [Beginner's Guide to Responsive Web
-    Design](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design target="_blank")
+    Design](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design)
     (simple introduction to responsive web design)
 
 -   [The 2014 Guide to Responsive Web
-    Design](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design target="_blank")
+    Design](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design)
     (an updated guide to responsive design)
 
 ### Assignment 1 Requirements (Video)
@@ -5651,16 +5651,16 @@ height="4.4736843832021in"}
 
 ### Bootstrap Resources
 
--   [Bootstrap grid](http://getbootstrap.com/docs/4.0/layout/grid/ target="_blank")
+-   [Bootstrap grid](http://getbootstrap.com/docs/4.0/layout/grid/)
 
 -   [Bootstrap display
-    utilities](http://getbootstrap.com/docs/4.0/utilities/display/ target="_blank")
+    utilities](http://getbootstrap.com/docs/4.0/utilities/display/)
     (documentation here about the d-none and d-sm-block classes)
 
 ### Chrome extension
 
 -   [Full Page Screen
-    Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl target="_blank").
+    Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl).
 
 ### Ideation: Objectives and Outcomes (week 2)
 
@@ -5734,13 +5734,13 @@ At the end of this step you should be able to:
 ### General Resources
 
 -   [Ideation (creative
-    process)](https://en.wikipedia.org/wiki/Ideation_(creative_process) target="_blank")
+    process)](https://en.wikipedia.org/wiki/Ideation_(creative_process))
 
 ### Volunteer your Services
 
--   [VolunteerMatch.org](http://www.volunteermatch.org/ target="_blank")
+-   [VolunteerMatch.org](http://www.volunteermatch.org/)
 
--   [Free Code Camp](https://www.freecodecamp.com/ target="_blank")
+-   [Free Code Camp](https://www.freecodecamp.com/)
 
 ### Navigation and Navigation Bar: Objectives and Outcomes (week 2)
 
