@@ -6,6 +6,7 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 [Hello, world!](http://example.com/){target="_blank"}
 [Go to this page](http://somelink.com/?target=_blank)
 > :memo: **Memo or Note:**
+$ npm i bootstrap@5.2.1
 --------------------------->
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
@@ -448,7 +449,8 @@ implemented using MongoDB.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf -- 6 slides</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a>
 
 ### Useful Links
 
@@ -2464,14 +2466,14 @@ package and start a development server.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf (12 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf (5 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a>
 
 ### Additional Resources (Git)
 
--   Git site [http://git-scm.com](http://git-scm.com/).
+-   Git site [git site scm](http://git-scm.com/).
 
 -   [Installing
     Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -2507,7 +2509,7 @@ frameworks, and an introduction to Bootstrap.
 The exercises will introduce you to getting started with Bootstrap for
 your web project.
 
-At the end of this lesson, you will be able to:
+<h4>At the end of this lesson, you will be able to:</h4>
 
 -   Identify the purpose of using front-end UI frameworks in web design
     and development.
@@ -3240,8 +3242,8 @@ Bootstrap\'s grid system.
 
 ### PDFs of the Presentations
 
-> 03-Web-UI-Frameworks.pdf
-> 04-Intro-Bootstrap.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a>
+> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a>
 
 ### Exercise Resources
 
@@ -5370,8 +5372,9 @@ classes.
 
 ### PDFs of Presentations
 
-> 05-Responsive-Design.pdf
-> 05-Bootstrap-Grid.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-2.pdf">05-Responsive-Design-Bootstrap-Grid-part-2.pdf (17 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a>
 
 ### Bootstrap Official Documentation
 
@@ -7042,8 +7045,8 @@ We learnt about using icon fonts in a web project.
 
 ### PDFs of Presentations
 
-> 06-Navigation.pdf
-> 06-Icon Fonts.pdf</b>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a>
+> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a>
 
 ### Official Bootstrap Resources
 
@@ -8521,7 +8524,7 @@ classes.
 
 ### PDFs of Presentations
 
-> 07-User-Input.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/07-User-Input.pdf">07-User-Input.pdf (5 slides)</a>
 
 ### Exercise Resources
 
@@ -9094,8 +9097,8 @@ content.
 
 ### PDFs of Presentations
 
-> [Boostrap-Tables](./pdf-files/08-Bootstrap-Tables.pdf)
-> 08-Bootstrap-Cards.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a>
 
 ### Bootstrap Classes
 
@@ -9514,7 +9517,7 @@ media object to style and display content.
 
 ### PDFs of Presentations
 
-<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf (8 slides)</a>
 
 <b>Exercise Resources</b>
 
@@ -9720,7 +9723,7 @@ In this short exercise, we learnt how to add badges to our web page.
 
 ### PDFs of Presentations
 
-> 08-Alerting-Users.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Alerting-Users.pdf">08-Alerting-Users.pdf (8 slides)</a>
 
 Bootstrap Resources
 
@@ -10183,7 +10186,7 @@ functionality to your JavaScript-based Bootstrap components.
 
 ### PDFs of Presentations
 
-> 08-Bootstrap_JS.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-JS.pdf">08-Bootstrap_JS.pdf (7 slides)</a>
 
 <b>Bootstrap Resources</b>
 
@@ -10630,7 +10633,7 @@ in a page.
 
 ### PDFs of Presentations
 
-> 08-Tabs-Pills-Navigation.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Tabs-Pills-Navigation.pdf">08-Tabs-Pills-Navigation.pdf (3 slides)</a>
 
 ### Bootstrap Resources
 
@@ -11045,7 +11048,7 @@ together with the card component.
 
 ### PDFs of Presentations
 
-> 09-Collapse.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Collapse.pdf">09-Collapse.pdf (3 slides)</a>
 
 <b>Bootstrap Resources</b>
 
@@ -11591,7 +11594,7 @@ revealing content for the user upon clicking on a button or a link.
 
 ### PDFs of Presentations
 
-> 09-Tooltips-Popovers-Modals.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Tooltips-Popovers-Modals.pdf">09-Tooltips-Popovers-Modals.pdf (4 slides)</a>
 
 ### Bootstrap Resources
 
@@ -11987,7 +11990,7 @@ We also learnt about introducing manual controls to the carousel.
 
 ### PDFs of Presentations
 
-> 09-Carousel.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Carousel.pdf">09-Carousel.pdf (3 slides)</a>
 
 Open file
 
@@ -13301,7 +13304,7 @@ the behavior of a Bootstrap JS component.
 
 ### PDFs of Presentations
 
-> 09-Bootstrap-JQuery.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Bootstrap-JQuery.pdf">09-Bootstrap-JQuery.pdf (14 slides)</a>
 
 ### Bootstrap Resources
 
@@ -14097,7 +14100,7 @@ generating the CSS file by compiling the Scss code.
 
 ### PDFs of Presentations
 
-> 10-CSS-Preprocessors.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-CSS-Preprocessors.pdf">10-CSS-Preprocessors.pdf (11 slides)</a>
 
 ### Less and Sass Resources
 
@@ -15213,8 +15216,8 @@ deployment using NPM scripts.
 
 ### PDFs of Presentations
 
-> 10-Building-Deployment.pdf
-> 10-NPM-Scripts.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a>
 
 ### Additional Resources
 
@@ -17087,7 +17090,7 @@ development tasks.
 
 ### PDFs of Presentations
 
-> 10-Task-Runners.pdf
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Task-Runners.pdf">10-Task-Runners.pdf (7 slides)</a>
 
 ### Grunt Resources
 
@@ -17245,8 +17248,8 @@ specialization.
 
 ### PDFs of Presentations
 
-[11-Conclusion.pdf]
-(https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf)
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf</a>
+<!- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf ->
 
 ### Project Implementation: Objectives and Outcomes
 
