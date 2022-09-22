@@ -6941,7 +6941,7 @@ installed, then the font icons are not showing up in their browser.
 ### Using Icon Fonts and Other CSS classes
 
 -   One of the most popular icon font toolkit is Font Awesome. Go to its
-    website <http://fontawesome.io/ target="_blank"> to check out more details about
+    website <http://fontawesome.io/> to check out more details about
     this icon font. You can get Font Awesome using npm by typing the
     following at the prompt:
 
@@ -6951,7 +6951,7 @@ npm install font-awesome@4.7.0 --save
 
 -   Another module that we install is Bootstrap Social that enables the
     addition of Social buttons to our site. You can find more
-    information about it at <https://lipis.github.io/bootstrap-social/ target="_blank">.
+    information about it at <https://lipis.github.io/bootstrap-social/>.
     To install it using npm, type the following at the prompt:
 
 ```
@@ -7006,15 +7006,15 @@ npm install bootstrap-social@5.1.1 --save
 
 ```
 <div class="text-center">
-<a class="btn btn-social-icon btn-google" href="[http://google.com/+ target="_blank"]{.underline}"><i class="fa fa-google-plus"></i></a>
+<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>
 <a class="btn btn-social-icon btn-facebook"
-href="[http://www.facebook.com/profile.php?id= target="_blank"]{.underline}"><i class="fa fa-facebook"></i></a>
+href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>
 <a class="btn btn-social-icon btn-linkedin" 
-href="[http://www.linkedin.com/in/ target="_blank"]{.underline}"><i class="fa fa-linkedin"></i></a>
+href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>
 <a class="btn btn-social-icon btn-twitter"
-href="[http://twitter.com/ target="_blank"]{.underline}"><i class="fa fa-twitter"></i></a>
+href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>
 <a class="btn btn-social-icon btn-google" 
-href="[http://youtube.com/ target="_blank"]{.underline}"><i class="fa fa-youtube"></i></a>
+href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>
 <a class="btn btn-social-icon" 
 href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 </div>
@@ -7036,81 +7036,81 @@ We learnt about using icon fonts in a web project.
 
 ### Official Bootstrap Resources
 
--   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/ target="_blank")
+-   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
 
--   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/ target="_blank")
+-   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/)
 
 ### General
 
 -   [Accessible Rich Internet Applications
-    (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA target="_blank")
+    (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
     (Accessibility support and screen reader support)
 
 ### Information Architecture
 
 -   [Information Architecture 101: Techniques and Best
-    Practices](http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/ target="_blank")
+    Practices](http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/)
     (Quick introduction to Information architecture with respect to
     website design)
 
 -   [Web Site Information Architecture
-    models](http://webdesignfromscratch.com/website-architecture/ia-models/ target="_blank")
+    models](http://webdesignfromscratch.com/website-architecture/ia-models/)
     (Another good resource on information architecture)
 
 -   [What is information
-    architecture?](http://www.steptwo.com.au/papers/kmc_whatisinfoarch/ target="_blank")
+    architecture?](http://www.steptwo.com.au/papers/kmc_whatisinfoarch/)
     (Good definition and explanation about the topic)
 
 -   [Information Architecture
-    Tutorial](http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/ target="_blank")
+    Tutorial](http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/)
     (Comprehensive look from a website design perspective)
 
 ### Navigation Bar Design
 
 -   [Designing A Winning Navigation Menu: Ideas and
-    Inspirations](http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/ target="_blank")
+    Inspirations](http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/)
     (Good suggestions on how to design navigation for a website)
 
 -   [Are You Making These Common Website Navigation
-    Mistakes?](https://blog.kissmetrics.com/common-website-navigation-mistakes/ target="_blank")
+    Mistakes?](https://blog.kissmetrics.com/common-website-navigation-mistakes/)
     (Worth reading at least to learn what not to do)
 
 -   [3 Reasons We Should Stop Using Navigation
-    Bars](http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/ target="_blank")
+    Bars](http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/)
     (A provocative view on navigation bars)
 
 ### Breadcrumbs
 
 -   [Breadcrumb Navigation Examined: Best Practices &
-    Examples](http://www.hongkiat.com/blog/breadcrumb-navigation-examined-best-practices-examples/ target="_blank")
+    Examples](http://www.hongkiat.com/blog/breadcrumb-navigation-examined-best-practices-examples/)
     (Great suggestions on using breadcrumbs for navigation)
 
 -   [Breadcrumb Navigation: A Guide On Types, Benefits And Best
-    Practices](http://blog.woorank.com/2014/11/breadcrumb-navigation-guide/ target="_blank")
+    Practices](http://blog.woorank.com/2014/11/breadcrumb-navigation-guide/)
     (Another great resource on types and usage of breadcrumbs)
 
 ### Icon Fonts
 
 -   [Why And How To Use Icon
-    Fonts](http://vanseodesign.com/web-design/icon-fonts/ target="_blank") (a good
+    Fonts](http://vanseodesign.com/web-design/icon-fonts/) (a good
     overview of icon fonts)
 
--   [Icon Fonts are Awesome](https://css-tricks.com/examples/IconFont/ target="_blank")
+-   [Icon Fonts are Awesome](https://css-tricks.com/examples/IconFont/)
     (another good introduction to icon fonts)
 
--   [Font Awesome](http://fontawesome.io/ target="_blank") (one of the most popular icon
+-   [Font Awesome](http://fontawesome.io/) (one of the most popular icon
     fonts)
 
--   [Get started with FontAwesome](http://fontawesome.io/get-started/ target="_blank")
+-   [Get started with FontAwesome](http://fontawesome.io/get-started/)
     (good official help)
 
--   [Bootstrap-Social](http://lipis.github.io/bootstrap-social/ target="_blank")
+-   [Bootstrap-Social](http://lipis.github.io/bootstrap-social/)
 
 -   [The Final Nail in the Icon Fonts
-    Coffin?](http://www.sitepoint.com/final-nail-icon-fonts-coffin/ target="_blank") (a
+    Coffin?](http://www.sitepoint.com/final-nail-icon-fonts-coffin/) (a
     controversial opinion piece on icon fonts)
 
--   [Using SVGs](http://gomakethings.com/using-svgs/ target="_blank") (alternative to
+-   [Using SVGs](http://gomakethings.com/using-svgs/) (alternative to
     icon fonts)
 
 ### User Input: Buttons and Forms: Objectives and Outcomes
@@ -8519,22 +8519,22 @@ classes.
 ### Bootstrap Resources
 
 -   [Bootstrap
-    Buttons](http://getbootstrap.com/docs/4.0/components/buttons/ target="_blank")
+    Buttons](http://getbootstrap.com/docs/4.0/components/buttons/)
 
 -   [Bootstrap Button
-    Groups](http://getbootstrap.com/docs/4.0/components/button-group/ target="_blank")
+    Groups](http://getbootstrap.com/docs/4.0/components/button-group/)
 
 -   [Bootstrap
-    Forms](http://getbootstrap.com/docs/4.0/components/forms/ target="_blank")
+    Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
 ### Other Useful Resources
 
 -   [The Difference Between Anchors, Inputs and
-    Buttons](http://davidwalsh.name/html5-buttons target="_blank") (Semantic differences
+    Buttons](http://davidwalsh.name/html5-buttons) (Semantic differences
     in the usage)
 
 -   [When To Use The Button
-    Element](https://css-tricks.com/use-button-element/ target="_blank") (The
+    Element](https://css-tricks.com/use-button-element/) (The
     multifaceted button element)
 
 ### Displaying Content: Tables and Cards: Objectives and Outcomes
@@ -9088,12 +9088,12 @@ content.
 
 ### Bootstrap Classes
 
--   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/ target="_blank")
+-   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/)
 
--   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/ target="_blank")
+-   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/)
 
 -   [Bootstrap
-    Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes target="_blank")
+    Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
 ### Images and Media: Objectives and Outcomes
 
@@ -9514,10 +9514,10 @@ media object to style and display content.
 ### Bootstrap Resources
 
 -   [Bootstrap Image
-    Classes](http://getbootstrap.com/docs/4.0/content/images/ target="_blank")
+    Classes](http://getbootstrap.com/docs/4.0/content/images/)
 
 -   [Bootstrap Media Object
-    Classes](http://getbootstrap.com/docs/4.0/layout/media-object/ target="_blank")
+    Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
 
 ### Alerting Users: Objectives and Outcomes
 
@@ -9716,13 +9716,13 @@ In this short exercise, we learnt how to add badges to our web page.
 Bootstrap Resources
 
 -   [Bootstrap
-    Badge](http://getbootstrap.com/docs/4.0/components/badge/ target="_blank")
+    Badge](http://getbootstrap.com/docs/4.0/components/badge/)
 
 -   [Bootstrap
-    Alerts](http://getbootstrap.com/docs/4.0/components/alerts/ target="_blank")
+    Alerts](http://getbootstrap.com/docs/4.0/components/alerts/)
 
 -   [Bootstrap
-    Progress](http://getbootstrap.com/docs/4.0/components/progress/ target="_blank")
+    Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
 ### Assignment 2: Bootstrap CSS Components (week 2)
 
@@ -9852,43 +9852,43 @@ height="20.775930664916885in"}
 
 ### Bootstrap Resources
 
--   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/ target="_blank")
+-   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
 
--   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/ target="_blank")
+-   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/)
 
 -   [Bootstrap
-    Buttons](http://getbootstrap.com/docs/4.0/components/buttons/ target="_blank")
+    Buttons](http://getbootstrap.com/docs/4.0/components/buttons/)
 
 -   [Bootstrap Button
-    Groups](http://getbootstrap.com/docs/4.0/components/button-group/ target="_blank")
+    Groups](http://getbootstrap.com/docs/4.0/components/button-group/)
 
 -   [Bootstrap
-    Forms](http://getbootstrap.com/docs/4.0/components/forms/ target="_blank")
+    Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
--   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/ target="_blank")
+-   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/)
 
--   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/ target="_blank")
+-   [Bootstrap Card](http://getbootstrap.com/docs/4.0/components/card/)
 
 -   [Bootstrap
-    Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes target="_blank")
+    Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
 -   [Bootstrap Image
-    Classes](http://getbootstrap.com/docs/4.0/content/images/ target="_blank")
+    Classes](http://getbootstrap.com/docs/4.0/content/images/)
 
 -   [Bootstrap Media Object
-    Classes](http://getbootstrap.com/docs/4.0/layout/media-object/ target="_blank")
+    Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
 
 -   [Bootstrap Responsive
-    Helpers](http://v4-alpha.getbootstrap.com/utilities/responsive-helpers/ target="_blank")
+    Helpers](http://v4-alpha.getbootstrap.com/utilities/responsive-helpers/)
 
 -   [Bootstrap
-    Badges](http://getbootstrap.com/docs/4.0/components/badge/ target="_blank")
+    Badges](http://getbootstrap.com/docs/4.0/components/badge/)
 
 -   [Bootstrap
-    Alerts](http://getbootstrap.com/docs/4.0/components/alerts/ target="_blank")
+    Alerts](http://getbootstrap.com/docs/4.0/components/alerts/)
 
 -   [Bootstrap
-    Progress](http://getbootstrap.com/docs/4.0/components/progress/ target="_blank")
+    Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
 ### UI Design and Prototyping: Objectives and Outcomes
 
@@ -9958,43 +9958,43 @@ At the end of this lesson, you should be able to:
 
 ### Wireframing, Mockups and UI Design
 
--   [Wireframe.cc](https://wireframe.cc/ target="_blank")
+-   [Wireframe.cc](https://wireframe.cc/)
 
--   [Moqups.com](https://moqups.com/ target="_blank")
+-   [Moqups.com](https://moqups.com/)
 
--   [Axure](http://www.axure.com/ target="_blank")
+-   [Axure](http://www.axure.com/)
 
--   [proto.io](https://proto.io/ target="_blank")
+-   [proto.io](https://proto.io/)
 
--   [framerjs.com](http://framerjs.com/ target="_blank")
+-   [framerjs.com](http://framerjs.com/)
 
 -   [The 20 best wireframe
-    tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302 target="_blank")
+    tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302)
 
--   [Web Design Inspirations](http://www.webdesign-inspiration.com/ target="_blank")
+-   [Web Design Inspirations](http://www.webdesign-inspiration.com/)
 
 -   [Adobe Experience
-    Design](http://www.adobe.com/products/experience-design.html target="_blank")
+    Design](http://www.adobe.com/products/experience-design.html)
 
 -   [Free Bootstrap Wireframing Set for
-    PowerPoint](https://onextrapixel.com/free-bootstrap-wireframing-set-for-powerpoint/ target="_blank")
+    PowerPoint](https://onextrapixel.com/free-bootstrap-wireframing-set-for-powerpoint/)
 
 ### UI Templates
 
--   [Bootstrap Expo](http://expo.getbootstrap.com/ target="_blank")
+-   [Bootstrap Expo](http://expo.getbootstrap.com/)
 
--   [Ionic Showcase](http://showcase.ionicframework.com/ target="_blank")
+-   [Ionic Showcase](http://showcase.ionicframework.com/)
 
 ### Information Architecture
 
 -   [A visual vocabulary for describing information architecture and
-    interaction design](http://www.jjg.net/ia/visvocab/ target="_blank")
+    interaction design](http://www.jjg.net/ia/visvocab/)
 
--   [The Elements of User Experience](http://www.jjg.net/elements/ target="_blank")
+-   [The Elements of User Experience](http://www.jjg.net/elements/)
 
 -   [The Elements of User Experience: User-Centered Design for the Web
     and Beyond (2nd Edition) (Voices That
-    Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764 target="_blank")
+    Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764)
 
 ### Bootstrap JavaScript Components: Objectives and Outcomes
 
@@ -10179,13 +10179,13 @@ functionality to your JavaScript-based Bootstrap components.
 <b>Bootstrap Resources</b>
 
 -   [Bootstrap and
-    JavaScript](http://getbootstrap.com/docs/4.0/getting-started/javascript/ target="_blank")
+    JavaScript](http://getbootstrap.com/docs/4.0/getting-started/javascript/)
 
 -   [Bootstrap JS Data
-    Attributes](http://getbootstrap.com/docs/4.0/getting-started/javascript/#data-attributes target="_blank")
+    Attributes](http://getbootstrap.com/docs/4.0/getting-started/javascript/#data-attributes)
 
 -   [Bootstrap Programmatic
-    API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api target="_blank")
+    API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api)
 
 ### Tabs and Tabbed Navigation: Objectives and Outcomes
 
@@ -10625,16 +10625,16 @@ in a page.
 
 ### Bootstrap Resources
 
--   [Bootstrap Navs](http://getbootstrap.com/docs/4.0/components/navs/ target="_blank")
+-   [Bootstrap Navs](http://getbootstrap.com/docs/4.0/components/navs/)
 
 -   [Bootstrap
-    Tabs](http://getbootstrap.com/docs/4.0/components/navs/#tabs target="_blank")
+    Tabs](http://getbootstrap.com/docs/4.0/components/navs/#tabs)
 
 -   [Bootstrap
-    Pills](http://getbootstrap.com/docs/4.0/components/navs/#pills target="_blank")
+    Pills](http://getbootstrap.com/docs/4.0/components/navs/#pills)
 
 -   [Bootstrap Tabs Javascript
-    Behavior](http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior target="_blank")
+    Behavior](http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior)
 
 ### Hide and Seek: Objectives and Outcomes
 
@@ -11041,10 +11041,10 @@ together with the card component.
 <b>Bootstrap Resources</b>
 
 -   [Bootstrap
-    Collapse](http://getbootstrap.com/docs/4.0/components/collapse/ target="_blank")
+    Collapse](http://getbootstrap.com/docs/4.0/components/collapse/)
 
 -   [Bootstrap Accordion
-    Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example target="_blank")
+    Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example)
 
 ### Revealing Content: Objectives and Outcomes
 
@@ -11587,13 +11587,13 @@ revealing content for the user upon clicking on a button or a link.
 ### Bootstrap Resources
 
 -   [Bootstrap
-    Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/ target="_blank")
+    Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/)
 
 -   [Bootstrap
-    Popovers](http://getbootstrap.com/docs/4.0/components/popovers/ target="_blank")
+    Popovers](http://getbootstrap.com/docs/4.0/components/popovers/)
 
 -   [Bootstrap
-    Modals](http://getbootstrap.com/docs/4.0/components/modal/ target="_blank")
+    Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
 ### Carousel: Objectives and Outcomes
 
@@ -11945,11 +11945,11 @@ remaining parts from the content rows below.
     indicators that enable us to select a specific slide:
 
 ```
-                    <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1"></li>
-                        <li data-target="#mycarousel" data-slide-to="2"></li>
-                    </ol>
+<ol class="carousel-indicators">
+   <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+   <li data-target="#mycarousel" data-slide-to="1"></li>
+   <li data-target="#mycarousel" data-slide-to="2"></li>
+</ol>
 ```
 
 -   Then, add the left and right controls to the carousel that enable us
@@ -11957,12 +11957,12 @@ remaining parts from the content rows below.
     bottom of the carousel div:
 
 ```
-                    <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
+<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+   </a>
+<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
+   <span class="carousel-control-next-icon"></span>
+   </a>
 ```
 
 -   Do a Git commit with the message "Carousel".
@@ -11985,7 +11985,7 @@ Open file
 ### Bootstrap Resources
 
 -   [Bootstrap
-    Carousel](http://getbootstrap.com/docs/4.0/components/carousel/ target="_blank")
+    Carousel](http://getbootstrap.com/docs/4.0/components/carousel/)
 
 ### Assignment 3: Bootstrap JavaScript Components
 
@@ -12059,7 +12059,7 @@ Hope you enjoyed creating this new variation of the index.html page.
    alt="." />
 </p>
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4 target="_blank"](images/image090.png)
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png)
 <!-------------
 {width="5.0in"
 height="4.461420603674541in"}
@@ -12068,13 +12068,13 @@ height="4.461420603674541in"}
 ### Bootstrap Resources
 
 -   [Bootstrap Buttons
-    Checkbox/Radio](http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons target="_blank")
+    Checkbox/Radio](http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons)
 
 -   [Bootstrap
-    Modals](http://getbootstrap.com/docs/4.0/components/modal/ target="_blank")
+    Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
 -   [Bootstrap
-    Forms](http://getbootstrap.com/docs/4.0/components/forms/ target="_blank")
+    Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
 ### Bootstrap and JQuery: Objectives and Outcomes (week 4)
 
@@ -13297,13 +13297,13 @@ the behavior of a Bootstrap JS component.
 ### Bootstrap Resources
 
 -   [Bootstrap Carousel
-    Methods](http://getbootstrap.com/docs/4.0/components/carousel/#methods target="_blank")
+    Methods](http://getbootstrap.com/docs/4.0/components/carousel/#methods)
 
 ### JQuery
 
--   [JQuery](http://jquery.com/ target="_blank")
+-   [JQuery](http://jquery.com/)
 
--   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp target="_blank")
+-   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp)
 
 ### CSS Preprocessors: Objectives and Outcomes
 
@@ -14092,19 +14092,19 @@ generating the CSS file by compiling the Scss code.
 
 ### Less and Sass Resources
 
--   [Less Getting Started](http://lesscss.org/ target="_blank")
+-   [Less Getting Started](http://lesscss.org/)
 
--   [Sass Basics](http://sass-lang.com/guide target="_blank")
+-   [Sass Basics](http://sass-lang.com/guide)
 
 -   [Getting Started with Less
-    Tutorial](https://scotch.io/tutorials/getting-started-with-less target="_blank")
+    Tutorial](https://scotch.io/tutorials/getting-started-with-less)
 
 -   [Getting Started with Sass
-    Tutorial](https://scotch.io/tutorials/getting-started-with-sass target="_blank")
+    Tutorial](https://scotch.io/tutorials/getting-started-with-sass)
 
--   [Less NPM package](https://www.npmjs.com/package/less target="_blank")
+-   [Less NPM package](https://www.npmjs.com/package/less)
 
--   [Node-sass NPM package](https://www.npmjs.com/package/node-sass target="_blank")
+-   [Node-sass NPM package](https://www.npmjs.com/package/node-sass)
 
 ### Assignment 4: Bootstrap, JQuery and Sass
 
@@ -14203,10 +14203,10 @@ height="4.349809711286089in"}
 
 ### Bootstrap Documentation
 
--   [Modals](http://getbootstrap.com/docs/4.0/components/modal/ target="_blank")
+-   [Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
 -   [Modal
-    Methods](http://getbootstrap.com/docs/4.0/components/modal/#methods target="_blank")
+    Methods](http://getbootstrap.com/docs/4.0/components/modal/#methods)
 
 ### Building and Deployment: Objectives and Outcomes
 
@@ -15209,33 +15209,33 @@ deployment using NPM scripts.
 
 ### Additional Resources
 
--   [Why npm Scripts?](https://css-tricks.com/why-npm-scripts/ target="_blank")
+-   [Why npm Scripts?](https://css-tricks.com/why-npm-scripts/)
 
 -   [How to Use npm as a Build
-    Tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/ target="_blank")
+    Tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 
 -   [The Command Line for Web
-    Design](https://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777 target="_blank")
+    Design](https://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
 
 ### NPM Modules
 
--   [onchange](https://github.com/Qard/onchange target="_blank")
+-   [onchange](https://github.com/Qard/onchange)
 
--   [parallelshell](https://github.com/keithamus/parallelshell target="_blank")
+-   [parallelshell](https://github.com/keithamus/parallelshell)
 
--   [rimraf](https://github.com/isaacs/rimraf target="_blank")
+-   [rimraf](https://github.com/isaacs/rimraf)
 
--   [copyfiles](https://github.com/calvinmetcalf/copyfiles target="_blank")
+-   [copyfiles](https://github.com/calvinmetcalf/copyfiles)
 
--   [imagemin-cli](https://github.com/imagemin/imagemin-cli target="_blank")
+-   [imagemin-cli](https://github.com/imagemin/imagemin-cli)
 
--   [usemin-cli](https://github.com/nelsyeung/usemin-cli target="_blank")
+-   [usemin-cli](https://github.com/nelsyeung/usemin-cli)
 
--   [cssmin](https://github.com/jbleuzen/node-cssmin target="_blank")
+-   [cssmin](https://github.com/jbleuzen/node-cssmin)
 
--   [uglifyjs](https://github.com/mishoo/UglifyJS target="_blank")
+-   [uglifyjs](https://github.com/mishoo/UglifyJS)
 
--   [htmlmin](https://github.com/jserme/htmlmin target="_blank")
+-   [htmlmin](https://github.com/jserme/htmlmin)
 
 ### Building and Deployment: Task Runners
 
@@ -17082,105 +17082,105 @@ development tasks.
 
 ### Grunt Resources
 
--   [Grunt](http://gruntjs.com/ target="_blank")
+-   [Grunt](http://gruntjs.com/)
 
 -   [Writing an Awesome Build Script with
-    Grunt](http://www.sitepoint.com/writing-awesome-build-script-grunt/ target="_blank")
+    Grunt](http://www.sitepoint.com/writing-awesome-build-script-grunt/)
 
--   [Clean Grunt](http://anders.janmyr.com/2014/01/clean-grunt.html target="_blank")
+-   [Clean Grunt](http://anders.janmyr.com/2014/01/clean-grunt.html)
 
 -   [File
-    Globbing](http://gruntjs.com/configuring-tasks#globbing-patterns target="_blank")
+    Globbing](http://gruntjs.com/configuring-tasks#globbing-patterns)
 
 -   [The Command Line for Web Design: Automation With
-    Grunt](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454 target="_blank")
+    Grunt](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454)
 
 ### Grunt Plugins
 
--   [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint target="_blank")
+-   [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
--   [jshint-stylish](https://github.com/sindresorhus/jshint-stylish target="_blank")
+-   [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
 
--   [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy target="_blank")
+-   [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
 
--   [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean target="_blank")
+-   [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
 
--   [grunt-usemin](https://github.com/yeoman/grunt-usemin target="_blank")
+-   [grunt-usemin](https://github.com/yeoman/grunt-usemin)
 
--   [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat target="_blank")
+-   [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
 
--   [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin target="_blank")
+-   [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
 
--   [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin target="_blank")
+-   [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin)
 
--   [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify target="_blank")
+-   [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 
--   [grunt-filerev](https://github.com/yeoman/grunt-filerev target="_blank")
+-   [grunt-filerev](https://github.com/yeoman/grunt-filerev)
 
 ### Gulp Resources
 
--   [Gulp](http://gulpjs.com/ target="_blank")
+-   [Gulp](http://gulpjs.com/)
 
 -   [An Introduction to
-    Gulp.js](http://www.sitepoint.com/introduction-gulp-js/ target="_blank")
+    Gulp.js](http://www.sitepoint.com/introduction-gulp-js/)
 
 -   [Getting started with
-    gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/ target="_blank")
+    gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
 
 -   [Building with
-    Gulp](http://www.smashingmagazine.com/2014/06/building-with-gulp/ target="_blank")
+    Gulp](http://www.smashingmagazine.com/2014/06/building-with-gulp/)
 
 -   [The Command Line for Web Design: Automation with
-    Gulp](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-gulp--cms-23642 target="_blank")
+    Gulp](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-gulp--cms-23642)
 
 ### Gulp Plugins
 
--   [gulp](https://github.com/gulpjs/gulp target="_blank")
+-   [gulp](https://github.com/gulpjs/gulp)
 
--   [gulp-sass](https://github.com/dlmanning/gulp-sass target="_blank")
+-   [gulp-sass](https://github.com/dlmanning/gulp-sass)
 
--   [browser-sync](https://github.com/BrowserSync/browser-sync target="_blank")
+-   [browser-sync](https://github.com/BrowserSync/browser-sync)
 
--   [del](https://github.com/sindresorhus/del target="_blank")
+-   [del](https://github.com/sindresorhus/del)
 
--   [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin target="_blank")
+-   [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
 
--   [gulp-uglify](https://github.com/terinjokes/gulp-uglify target="_blank")
+-   [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
 
--   [gulp-usemin](https://github.com/zont/gulp-usemin target="_blank")
+-   [gulp-usemin](https://github.com/zont/gulp-usemin)
 
--   [gulp-rev](https://github.com/sindresorhus/gulp-rev target="_blank")
+-   [gulp-rev](https://github.com/sindresorhus/gulp-rev)
 
--   [gulp-clean-css](https://github.com/scniro/gulp-clean-css target="_blank")
+-   [gulp-clean-css](https://github.com/scniro/gulp-clean-css)
 
--   [gulp-flatmap](https://github.com/mariusGundersen/gulp-flatMap target="_blank")
+-   [gulp-flatmap](https://github.com/mariusGundersen/gulp-flatMap)
 
--   [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin target="_blank")
+-   [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 
 ### Tasks
 
--   [Minification](https://en.wikipedia.org/wiki/Minification_(programming) target="_blank")
+-   [Minification](https://en.wikipedia.org/wiki/Minification_(programming))
 
--   [UglifyJS](http://lisperator.net/uglifyjs/ target="_blank")
+-   [UglifyJS](http://lisperator.net/uglifyjs/)
 
--   [JSHint](http://jshint.com/ target="_blank")
+-   [JSHint](http://jshint.com/)
 
 ### General Resources
 
 -   [Node, Grunt, Bower and Yeoman - A Modern web dev\'s
-    Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/ target="_blank")
+    Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
 
 -   [The Advantages of Using Task
-    Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/ target="_blank")
+    Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/)
 
 -   [Gulp vs Grunt. Why one? Why the
-    Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4 target="_blank")
+    Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
 
 -   [Why we should stop using Grunt &
-    Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/ target="_blank")
+    Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
 
 -   [Why I Left Gulp and Grunt for npm
-    Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8 target="_blank")
+    Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)
 
 ### Front-End Web UI Frameworks: Bootstrap 4: Conclusions
 
