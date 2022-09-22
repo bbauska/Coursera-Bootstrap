@@ -9998,7 +9998,7 @@ These components have two parts, the CSS classes, and the JavaScript
 support. In this module we will learn about using the JS components
 without writing any JavaScript Code.
 
-This is possible using the data-\<i> attributes that Bootstrap provides
+This is possible using the data-\* attributes that Bootstrap provides
 for us to control the components.
 
 At the end of this module, you will be able to:
@@ -11575,7 +11575,7 @@ revealing content for the user upon clicking on a button or a link.
 
 ### PDFs of Presentations
 
-> 09-Tooltips-Popovers-Modals.pdf<i>
+> 09-Tooltips-Popovers-Modals.pdf
 
 ### Bootstrap Resources
 
@@ -15094,7 +15094,7 @@ Remember to use <i>sudo</i> on mac and Linux.
 -   Then set up the following script:
 
 ```
-    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\<i> dist/fonts",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",
 ```
 
 Compressing and Minifying Images
@@ -16632,7 +16632,7 @@ then let\'s set up a task name \'sass\', and then for this task, we\'ll
 set this up as a function, and this is how the code is prepared.
 
 Gulp Tasks Sass function and in here, we are setting up the Gulp Tasks,
-so we\'ll type return gulp.src(\'./css/\<i>.scss\')
+so we\'ll type return gulp.src(\'./css/\*.scss\')
 
 As we learnt, Gulp is a tool-based around code over configuration.
 
@@ -17303,14 +17303,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/21/2022 at 7:18pm 
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------------- ##.  (xx) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image.png?raw=true"
-   alt="."
-   width="50%" />
-</p>
----->
+<!--- last updated: 09/21/2022 at 7:18pm ---->
