@@ -2403,7 +2403,6 @@ of this exercise, you will be able to:
     "lite-server": "\^2.2.2"
   }
 }
- 
 ```
 
 -   Next, start the development server by typing the following at the
@@ -4864,7 +4863,7 @@ We would like our website to have the content stacked on extra small
 devices, but become horizontal within each row for smaller devices and
 beyond.
 
-Towards this goal, we will make use of the classes <i>.col-\, .col-sm-\</i>,
+Towards this goal, we will make use of the classes <i>.col-\, .col-sm-\,
 col-md-\</i>, and <i>.col-lg-\</i> for defining the layouts for the various
 device sizes.
 
@@ -5255,14 +5254,12 @@ do this in this part of the exercise.
     margin:0px auto;
     padding:0px;
 }
- 
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height:400px;
 }
- 
 .footer{
     background-color: #D1C4E9;
     margin:0px auto;
@@ -5319,6 +5316,7 @@ address{
 
 -   In the footer, update the third column div that contains the social
     media links as follows:
+
 ```
 <div class="col-12 col-sm-4 align-self-center">
 ```
@@ -6965,20 +6963,20 @@ npm install bootstrap-social@5.1.1 --save
     Update the navbar's ul list items as follows in index.html:
 
 ```
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-<li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-<li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>
-<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}"><span class="fa fa-info fa-lg"></span> About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
 ```
 
 -   Similarly update the navbar\'s ul list items as follows in
     aboutus.html:
 
 ```
-    <li class="nav-item"><a class="nav-link" href="[./index.html]{.underline}"><span class="fa fa-home fa-lg"></span> Home</a></li>
-    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
-    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+  <li class="nav-item"><a class="nav-link" href="[./index.html]{.underline}"><span class="fa fa-home fa-lg"></span> Home</a></li>
+  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
 ```
 
 -   Next, in both index.html and aboutus.html, go down to the address in
@@ -6987,10 +6985,10 @@ npm install bootstrap-social@5.1.1 --save
     follows:
 
 ```
-<i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-<i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-<i class="fa fa-envelope fa-lg"></i>: 
-<a href="[mailto:confusion@food.net]{.underline}">confusion@food.net</a>
+  <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+  <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+  <i class="fa fa-envelope fa-lg"></i>: 
+  <a href="[mailto:confusion@food.net]{.underline}">confusion@food.net</a>
 ```
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
@@ -17303,4 +17301,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/21/2022 at 7:18pm ---->
+<!--- last updated: 09/21/2022 at 8:00pm ---->
