@@ -7,7 +7,6 @@ Coursera-web: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 [Go to this page](http://somelink.com/?target=_blank)
 > :memo: **Memo or Note:**
 $ npm i bootstrap@5.2.1
---------------------------->
 🐱‍👤 View this course in full now - without ads - on Net Ninja Pro:
 https://netninja.dev/p/bootstrap-5-cr...
 
@@ -30,6 +29,7 @@ https://www.youtube.com/watch?v=St5B7...
 Facebook - https://www.facebook.com/thenetninjauk
 Twitter - https://twitter.com/thenetninjauk
 Instagram - https://www.instagram.com/thenetninja/
+--------------------------->
 
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
@@ -474,7 +474,7 @@ implemented using MongoDB.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a><br/>
 
 ### Useful Links
 
@@ -2490,10 +2490,13 @@ package and start a development server.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf (12 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf (5 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf (12 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf (5 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a><br/>
 
 ### Additional Resources (Git)
 
@@ -3266,8 +3269,9 @@ Bootstrap\'s grid system.
 
 ### PDFs of the Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a>
-> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/>
+
+> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/>
 
 ### Exercise Resources
 
@@ -5396,9 +5400,11 @@ classes.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-2.pdf">05-Responsive-Design-Bootstrap-Grid-part-2.pdf (17 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-2.pdf">05-Responsive-Design-Bootstrap-Grid-part-2.pdf (17 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a><br/>
 
 ### Bootstrap Official Documentation
 
@@ -7069,8 +7075,9 @@ We learnt about using icon fonts in a web project.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a>
-> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a><br/>
+
+> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/>
 
 ### Official Bootstrap Resources
 
@@ -9118,8 +9125,9 @@ content.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a><br/>
 
 ### Bootstrap Classes
 
@@ -15234,8 +15242,9 @@ deployment using NPM scripts.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a>
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a><br/>
+
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a><br/>
 
 ### Additional Resources
 
