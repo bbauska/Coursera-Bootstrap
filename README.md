@@ -1895,9 +1895,12 @@ during the installation steps.</b>
     following at the command prompt to check for the version of <b>Node</b>
     and <b>NPM</b>
 
--   <b>node -v</b>
-<br/>
--   <b>npm -v</b>
+```
+node -v
+
+npm -v
+```
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 23. install node.js (38) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3198,9 +3201,11 @@ exercise, you will be able to:
     shown below since Bootstrap 4 depends on these two. At the prompt,
     type the following to fetch Bootstrap files to your project folder:
 
-npm install bootstrap@4.0.0 \--save
+```
+npm install bootstrap@4.0.0 --save
 
-npm install jquery@3.3.1 popper.js@1.12.9 \--save
+npm install jquery@3.3.1 popper.js@1.12.9 --save
+```
 
 -   This will fetch the Bootstrap files and store is in your
     node_modules folder in a bootstrap folder. The bootstrap-\>dist
@@ -3271,7 +3276,7 @@ Bootstrap\'s grid system.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/>
 
-> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/>
 
 ### Exercise Resources
 
@@ -3282,6 +3287,8 @@ Bootstrap\'s grid system.
 ### Bootstrap Official Resources
 
 -   [Bootstrap 4 Home Page](http://getbootstrap.com/)
+
+-   [Bootstrap 5 What's New?](https://blog.getbootstrap.com/2022/07/19/bootstrap-5-2-0/)
 
 -   [Bootstrap
     typography](http://getbootstrap.com/docs/4.0/content/typography/)
@@ -6594,17 +6601,17 @@ exercise, you will be able to:
     the following code to the body just above the header jumbotron.
 
 ```
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"\>
-        <div class="container"\>
-           <a class="navbar-brand" href="#"\>Ristorante Con Fusion</a\>
-                <ul class="navbar-nav mr-auto"\>
-                    <li class="nav-item active"\><a class="nav-link" href="#"\>Home</a\></li\>
-                    <li class="nav-item"\><a class="nav-link" href="[./aboutus.html]{.underline}"\>About</a\></li\>
-                    <li class="nav-item"\><a class="nav-link" href="#"\>Menu</a\></li\>
-                    <li class="nav-item"\><a class="nav-link" href="#"\>Contact</a\></li\>
-                </ul\>            
-        </div\>
-    </nav\>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+           <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>            
+        </div>
+    </nav>
 ```
 
 In the above code, we can see the use of the nav element to specify the
@@ -6628,9 +6635,9 @@ the navigation bar.
     bar, just below the container div
 
 ```
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"\>
-<span class="navbar-toggler-icon"\></span\>
-</button\>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+<span class="navbar-toggler-icon"></span>
+</button>
 ```
 
 This creates a button with three horizontal lines. For medium to extra
@@ -6642,9 +6649,9 @@ navbar items.
     need to enclose the <i>ul</i> within another div as follows:
 
 ```
-<div class="collapse navbar-collapse" id="Navbar"\>
-<ul class="navbar-nav mr-auto"\> \... </ul\>
-</div\>
+<div class="collapse navbar-collapse" id="Navbar">
+<ul class="navbar-nav mr-auto"> ... </ul>
+</div>
 ```
 
 By doing this, we are specifying that this div with <i>collapse</i> and
@@ -6695,10 +6702,10 @@ body{
     containing the About Us title in <i>aboutus.html</i>.
 
 ```
-   <ol class="col-12 breadcrumb"\>
-      <li class="breadcrumb-item"\><a href="[./index.html]{.underline}"\>Home</a\></li\>
-      <li class="breadcrumb-item active"\>About Us</li\>
-   </ol\>
+   <ol class="col-12 breadcrumb">
+      <li class="breadcrumb-item"><a href="[./index.html]{.underline}">Home</a></li>
+      <li class="breadcrumb-item active">About Us</li>
+   </ol>
 ```
 
 -   Save all the changes and commit to your Git repository with a
@@ -7077,7 +7084,7 @@ We learnt about using icon fonts in a web project.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a><br/>
 
-> <a href-"https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/>
 
 ### Official Bootstrap Resources
 
@@ -16975,7 +16982,7 @@ gulp.task('default', ['browser-sync'], function() {
     task:
 
 ```
-> gulp
+gulp
 ```
 
 -   Do a Git commit with the message "Gulp Part 1".
@@ -17275,7 +17282,7 @@ specialization.
 
 ### PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf</a>
+> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
 
 <!- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf ->
 
