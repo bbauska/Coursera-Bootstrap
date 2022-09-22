@@ -7263,78 +7263,50 @@ Bootstrap forms.
 
 In this exercise, we\'re going to look at Bootstrap\'s support for
 buttons and forms.
-
 We\'re going to include a few buttons and button group in our webpage.
-
 And we also look at designing forms and styling the forms using
 Bootstrap classes.
-
 To get you started, go to the instructions page and download the
 contactus.html.zip file that we have provided there.
-
 Right click on that, and then save this link into your conFusion folder.
-
 As, contactus.html.zip file.
-
 Once the zip file is downloaded, unzip the file to get contactus.html
 page.
-
 Then you can delete the zip file.
-
 Once you\'ve unzipped the file and get contactus.html page, you would
 notice that when you load this page in your browser using
 localhost:3000/contactus.html, then you would see that this page is
 already pre-formatted with some content.
-
 You can notice that you already have the navigation bar there.
-
 We have the jumbotron already formatted for us. And you would notice
 that I have the breadcrumbs and the contact us heading here formatted.
-
 Then you will see some additional information, the address here.
-
 You will notice that the footer is already formatted.
-
 But you will notice two things here, you\'ll notice that there is a line
 here that says button groups go here and then one more line here that
 says form goes here.
-
 We\'re going to replace these two with a button group and a form.
-
 And along the way, learn Bootstrap\'s support for buttons and forms.
-
 Before we proceed forward, now that we have three pages in our website,
 it is a good idea for us to link them up together, both in the
 navigation bar and in the links in the footer.
-
 Let\'s modify those two so that we can navigate between these three
 pages easily.
-
 Going to the contactus.html page, you will notice that in the navigation
 bar, I already have the links to index.html set up correctly.
-
 And you would notice that at the bottom here you have the contact link
 here.
-
 But the link corresponding to the about has not been configured
 properly.
-
 Go to this link here and then update that to aboutus.html.
-
 The contact us link can be left alone as such.
-
 And then save the changes.
-
 Now similarly, go to the footer of this page.
-
 And you will notice that in the footer we have these three links here.
-
 And this may be a good point to replace the links with the links to the
 corresponding pages.
-
 I\'ll say, index.html, aboutus.html, and, contactus.html. And save the
 changes.
-
 Similarly, go to index.html, and then in index.html also, the contact us
 link has not been set up.
 
@@ -7627,18 +7599,22 @@ And then look at the classes that are applied to the label class, col-md-2.
 
 Meaning that for medium to extra-large screens, this particular element is going to occupy 2 columns of the space.
 
-And then note the other one. It says, col-form-label. 
+And then note the other one. It says, col-form-label.
 The col-form-label essentially specifies that this label should be positioned to be aligned with the other element that forms part of this form group.
 
-In this case, the input box. 
-And so this also means that the label be lined up in the middle, horizontally with the input box. 
-So that is the reason why we use the col-form-label class. 
-If you don\'t apply this, then your label will be aligned to the top of your input box. 
+In this case, the input box.
+
+This also means that the label be lined up in the middle, horizontally with the input box.
+That is why we use the col-form-label class. 
+If you don\'t apply this, then your label will be aligned to the top of your input box.
 Which your form will not look that great on medium to extra-large screen sizes.
-Now, on the left side, of course, because this browser window is squashed, so it is showing the view in a small or extra small screen size here. So that\'s why you see the label stacking up on top of the input box here. So this is the label that specify. 
+
+Now, on the left side, of course, because this browser window is squashed, so it is showing the view in a small or extra small screen size here.
+That\'s why you see the label stacking up on top of the input box here.
+This is the label that specify.
 
 If you have a label that you want to assign to an element, that is how you\'re going to assign the label.
-Down below here, you see a div class col-md-10. 
+Down below here, you see a div class col-md-10.
 This occupies the remaining 10 of the 12 columns. 
 Two columns that are occupied by the label. 
 And the remaining ten columns occupied by this, but is enclosed inside the div.
@@ -17358,4 +17334,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 3:48pm ---->
+<!--- last updated: 09/22/2022 at 4:57pm ---->
