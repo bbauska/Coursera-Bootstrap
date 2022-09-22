@@ -266,7 +266,7 @@ Development.
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="Three-tier architecture: presentation."
-   width="50%" />
+   width="75%" />
 </p>
 <!---------
 {width="5.0in"
@@ -288,7 +288,7 @@ presentation layer.
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
    alt="Three-tier architecture: business logic."
-   width="50%" />
+   width="75%" />
 </p>
 <!-----------
 {width="5.0in"
@@ -308,7 +308,7 @@ the data access layer</b>.
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
    alt="Three-tier architecture: data access."
-   width="50%" />
+   width="75%" />
 </p>
 <!---------
 {width="5.0in"
@@ -328,7 +328,7 @@ traditional web development in each of these three layers.
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
    alt="Data Access Layer: Databsse and API."
-   width="50%" />
+   width="75%" />
 </p>
 <!----------
 {width="5.0in"
@@ -344,7 +344,7 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
    alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
-   width="50%" />
+   width="75%" />
 </p>
 <!--------
 {width="5.0in"
@@ -365,7 +365,7 @@ rendering these days.
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
    alt="Traditional Web Development: HTML, CSS & JS."
-   width="50%" />
+   width="75%" />
 </p>
 <!----------
 {width="5.0in"
@@ -391,7 +391,7 @@ database management system.
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
    alt="Full stack javascript development."
-   width="50%" />
+   width="75%" />
 </p>
 <!----------
 {width="5.0in"
@@ -421,7 +421,7 @@ We will cover these technologies as part of this specialization.
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true"
    alt="full stack web dev: bootstrap 4 and angular or reactfull."
-   width="50%" />
+   width="75%" />
 </p>
 <!----
 {width="5.0in"
@@ -2508,7 +2508,7 @@ At the end of this lesson, you will be able to:
 -   Become familiar with the basic features of Bootstrap.
 
 <b>Note</b>: For those of you who are already familiar with Bootstrap 3,
-[[here]{.underline}](http://getbootstrap.com/docs/4.0/migration/) is an
+[[here]{.underline}(."_blank")](http://getbootstrap.com/docs/4.0/migration/) is an
 overview from the Bootstrap 4 documentation on the major changes in
 Bootstrap 4 compared to Bootstrap 3.
 
@@ -9513,8 +9513,7 @@ media object to style and display content.
 
 ### Bootstrap Resources
 
--   [Bootstrap Image
-    Classes](http://getbootstrap.com/docs/4.0/content/images/)
+-   <ins><a href="http://getbootstrap.com/docs/4.0/content/images/">Bootstrap Image Classes</a></ins>
 
 -   [Bootstrap Media Object
     Classes](http://getbootstrap.com/docs/4.0/layout/media-object/)
@@ -17311,4 +17310,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/21/2022 at 8:00pm ---->
+<!--- last updated: 09/22/2022 at 12:08pm ---->
