@@ -1589,7 +1589,7 @@ online repository. At the end of this exercise, you will be able to:
 -   Sign up for an account either at (<a href="https://bitbucket.org](https://bitbucket.org/" target="_blank">Bitbucket</a>
      or <a href="https://github.com/">GitHub</a>).
 
--   Then set up an online Git repository named <font color="red"><b>git-test</b></font>. Note the
+-   Then set up an online Git repository named <ins><b>git-test</b></ins>. Note the
     URL of your online Git repository. Note that private repositories on
     GitHub requires a paid account, and is not available for free
     accounts.
@@ -1599,14 +1599,14 @@ online repository. At the end of this exercise, you will be able to:
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git remote add origin <repository URL></b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>git remote add origin <repository URL></b>
 
 ### Pushing your commits to the online repository
 
 -   At the prompt, type the following to push the commits to the online
     repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git push -u origin master</b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>git push -u origin master</b>
 
 ### Cloning an online repository
 
@@ -1626,7 +1626,9 @@ online repository. At the end of this exercise, you will be able to:
 height="1.2676279527559056in"}
 ---------->
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"><b>git clone <repository URL\></b></font>
+```git
+&nbsp;&nbsp;&nbsp;&nbsp;<b>git clone <repository URL\></b>
+```
 
 ### Conclusions
 
@@ -17309,4 +17311,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 1:10pm ---->
+<!--- last updated: 09/22/2022 at 12:08pm ---->
