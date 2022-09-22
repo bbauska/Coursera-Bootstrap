@@ -17236,7 +17236,8 @@ specialization.
 
 ### PDFs of Presentations
 
-11-Conclusion.pdf
+[11-Conclusion.pdf]
+(https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf)
 
 ### Project Implementation: Objectives and Outcomes
 
@@ -17274,7 +17275,7 @@ At the end of this lesson, you will be able to:
 
 ### 1. Introduction
 
--   ### Briefly describe the salient features of your project.
+-   Briefly describe the salient features of your project.
 
 ### 2. Design and Implementation
 
