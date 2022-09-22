@@ -1185,7 +1185,7 @@ the end of this exercise you will be able to:
 
 -   Open this git-test folder in your favorite editor.
 
--   Add a file named *index.html* to this folder, and add the following
+-   Add a file named <i>index.html</i> to this folder, and add the following
     HTML code to this file:
 
 ```
@@ -1245,15 +1245,15 @@ the end of this exercise you will be able to:
 ```
 
 -   Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder,
-    and then add a file named *test.html* to the templates folder. Then
-    set the contents of this file to be the same as the *index.html*
+    and then add a file named <i>test.html</i> to the templates folder. Then
+    set the contents of this file to be the same as the <i>index.html</i>
     file above.
 
 -   Then check the status and add all the files to the staging area.
 
 -   Then do the second commit to your repository
 
--   Now, modify the *index.html* file as follows:
+-   Now, modify the <i>index.html</i> file as follows:
 
 ```
 <!DOCTYPE html>
@@ -1289,7 +1289,7 @@ the end of this exercise you will be able to:
 
 <b>git checkout \-- index.html</b>
 
--   You can also use *git reset* to reset the staging area to the last
+-   You can also use <i>git reset</i> to reset the staging area to the last
     commit without disturbing the working directory.
 
 ### Conclusions
@@ -1843,7 +1843,7 @@ during the installation steps.</b>
     and <b>NPM</b>
 
 -   <b>node -v</b>
-
+<br/>
 -   <b>npm -v</b>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 23. install node.js (38) ------------------------------------>
@@ -1853,8 +1853,9 @@ during the installation steps.</b>
    alt="Install node.js."
    width="50%" />
 </p>
-
+<!---------------
 > ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0 target="_blank"](images/image025.png)
+---------------->
 <!----------
 {width="5.0in"
 height="6.3736264216972875in"}
@@ -2363,7 +2364,7 @@ of this exercise, you will be able to:
     the default values for most of the entries, except set the entry
     point to index.html
 
--   This should create a *package.json* file in your <b>git-test</b>
+-   This should create a <i>package.json</i> file in your <b>git-test</b>
     folder.
 
 <b>Installing an NPM Module</b>
@@ -2410,15 +2411,15 @@ of this exercise, you will be able to:
 
 <b>npm start</b>
 
--   This should open your *index.html* page in your default browser.
+-   This should open your <i>index.html</i> page in your default browser.
 
--   If you now open the *index.html* page in an editor and make changes
+-   If you now open the <i>index.html</i> page in an editor and make changes
     and save, the browser should immediately refresh to reflect the
     changes.
 
 ### Setting up .gitignore
 
--   Next, create a file in your project directory named *.gitignore*
+-   Next, create a file in your project directory named <i>.gitignore</i>
     (<b>Note</b>: the name starts with a period)Then, add the following to
     the .gitignore file
 
@@ -3112,7 +3113,7 @@ exercise, you will be able to:
 
 -   Unzip the file to see a folder named <b><i>Bootstrap4</i></b> and a
     sub-folder under it named <b><i>conFusion</i></b> created. Move to the
-    *conFusion* folder.
+    <i>conFusion</i> folder.
 
 -   Open a cmd window/terminal and move to the conFusion folder.
 
@@ -3152,23 +3153,23 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
     within your project.
 
 -   Open your project folder in your editor, and then open the
-    index.html file in the *conFusion* folder. This is your starting web
+    index.html file in the <i>conFusion</i> folder. This is your starting web
     page for the project. We have already created the web page with some
     content to get you started. We will use Bootstrap to style this web
     page, and learn Bootstrap features, classes and components along the
     way.
 
 -   Start your lite-server by typing <b>npm start</b> at the prompt. The
-    *index.html* file should now be loaded into your default browser.
+    <i>index.html</i> file should now be loaded into your default browser.
 
 ### Getting your Web page Bootstrap ready
 
--   Open the *index.html* file in your favourite text editor. If you are
+-   Open the <i>index.html</i> file in your favourite text editor. If you are
     using Visual Studio Code, Brackets, Sublime Text or similar editors,
     you can open the project folder in the editor and then view
     index.html.
 
--   Insert the following code in the *<head\>* of *index.html* file
+-   Insert the following code in the <i><head\></i> of <i>index.html</i> file
     before the title.
 
     <!\-- Required meta tags always come first \--\>
@@ -4838,8 +4839,8 @@ At the end of this exercise, you will be able to:
 
 -   Reordering content using push, pull and offset classes
 
-Note: In this exercise we will continue to update the *index.html* file
-in the *conFusion* folder that we created and edited in the previous
+Note: In this exercise we will continue to update the <i>index.html</i> file
+in the <i>conFusion</i> folder that we created and edited in the previous
 lecture.
 
 ### Bootstrap Grid System and Responsive Design
@@ -4855,7 +4856,7 @@ head:
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
 
-The *viewport* meta tag ensures that the screen width is set to the
+The <i>viewport</i> meta tag ensures that the screen width is set to the
 device width and the content is rendered with this width in mind.
 
 This brings us to the second issue, designing the websites to be
@@ -4875,8 +4876,8 @@ We would like our website to have the content stacked on extra small
 devices, but become horizontal within each row for smaller devices and
 beyond.
 
-Towards this goal, we will make use of the classes .col-\*, .col-sm-\*,
-col-md-\*, and .col-lg-\* for defining the layouts for the various
+Towards this goal, we will make use of the classes <i>.col-\, .col-sm-\</i>,
+col-md-\</i>, and <i>.col-lg-\</i> for defining the layouts for the various
 device sizes.
 
 We can specify how many columns each piece of content will occupy within
@@ -4898,7 +4899,7 @@ a row, all adding up to 12 or a multiple thereof.
 
 ### Dividing the content into rows
 
--   Let us now add the class *row* to the first-level inner *div*
+-   Let us now add the class <i>row</i> to the first-level inner <i>div</i>
     elements inside the container. This organizes the page into rows of
     content. In the next exercise, we will see how we can add other
     classes to the rows.
@@ -5243,7 +5244,7 @@ At the end of this exercise, you will be able to:
 
 -   You can use several list styles to display lists in different
     formats. In this exercise, we will use the unordered list style
-    *list-unstyled* to display the links at the bottom of the page
+    <i>list-unstyled</i> to display the links at the bottom of the page
     without the bullets. To do this, go to the links in the footer and
     update the ul as follows
 
@@ -5258,7 +5259,7 @@ also customize some of the built-in CSS classes. We will now attempt to
 do this in this part of the exercise.
 
 -   Create a folder named <b><i>css</i></b>. Then create a file named
-    *styles.css* in the <b><i>css</i></b> folder. Open this file to edit the
+    <i>styles.css</i> in the <b><i>css</i></b> folder. Open this file to edit the
     contents. Add the following CSS code to the file:
 
 ```
@@ -5288,8 +5289,8 @@ do this in this part of the exercise.
 <link href="[css/styles.css]{.underline}" rel="stylesheet">
 ```
 
--   Then add these classes to the corresponding rows in the *index.html*
-    file as follows. See the difference in the *index.html* file in the
+-   Then add these classes to the corresponding rows in the <i>index.html</i>
+    file as follows. See the difference in the <i>index.html</i> file in the
     browser. The first one is for the row in the <header\>, the next
     three for the rows in the content, and the last one directly to the
     <footer\> tag.
@@ -5304,7 +5305,7 @@ do this in this part of the exercise.
 ```
 
 -   Our next set of customization is to the jumbotron and the address.
-    Add the following to *styles.css* file:
+    Add the following to <i>styles.css</i> file:
 
 ```
 .jumbotron {
@@ -6572,14 +6573,13 @@ exercise, you will be able to:
 
 In the above code, we can see the use of the nav element to specify the
 navigation information for the website. This nav element is styled by
-the *navbar* that declares it as a navigation bar, and the *navbar-dark*
+the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i>
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the *<a
-class="navbar-brand"\>* tag. In addition the inner *ul* is used to
-specify the items to be put in the navigation bar. This *ul* is styled
-with *navbar-nav* class to specify that the items should be displayed
+logo for the website. This is created by the <i><a class="navbar-brand"\></i> tag. In addition the inner <i>ul</i> is used to
+specify the items to be put in the navigation bar. This <i>ul</i> is styled
+with <i>navbar-nav</i> class to specify that the items should be displayed
 inline inside the navigation bar. We also use the container class inside
 the navigation bar.
 
@@ -6603,7 +6603,7 @@ this button becomes visible. This button will act as the toggle for the
 navbar items.
 
 -   To hide the items from the navigation bar for the small screens, we
-    need to enclose the *ul* within another div as follows:
+    need to enclose the <i>ul</i> within another div as follows:
 
 ```
 <div class="collapse navbar-collapse" id="Navbar"\>
@@ -6611,21 +6611,21 @@ navbar items.
 </div\>
 ```
 
-By doing this, we are specifying that this div with *collapse* and
-*navbar-collapse* classes and with the id N*avbar* will be collapsed on
+By doing this, we are specifying that this div with <i>collapse</i> and
+<i>navbar-collapse</i> classes and with the id N<i>avbar</i> will be collapsed on
 small and xs screens, but can be toggled on or off when the toggle
-button is clicked. Note the use of *data-toggle="collapse"
-data-target="#Navbar"* within the button above. This specifies that
+button is clicked. Note the use of <i>data-toggle="collapse"
+data-target="#Navbar"</i> within the button above. This specifies that
 the menu items are collapsed on small and xs screens when the toggle
 button is visible. They can be displayed or hidden by clicking the
 toggle button.
 
--   Copy and paste the entire navbar code also into *aboutus.html* to
+-   Copy and paste the entire navbar code also into <i>aboutus.html</i> to
     add the navigation also to that page. Make sure to change the <li\>
-    corresponding to "About" to *active*, and remove the *active*
+    corresponding to "About" to <i>active</i>, and remove the <i>active</i>
     class from the Home link. Also, update the home link to take you
-    back to *index.html*. Update the navbar-brand tag also to take you
-    back to *index.html*.
+    back to <i>index.html</i>. Update the navbar-brand tag also to take you
+    back to <i>index.html</i>.
 
 ### Modifications to the CSS styles
 
@@ -6634,7 +6634,7 @@ toggle button.
     fixed navigation bar, we should give the body of the page an upper
     margin of 50px, so that the top 50px of the page does not get hidden
     under the navigation bar. We accomplish these by adding these CSS
-    customisations to the *styles.css* file
+    customisations to the <i>styles.css</i> file
 
 ```
 body{
@@ -6646,8 +6646,8 @@ body{
 }
 ```
 
--   Remember to delete the *bg-primary* class from the <nav\> element
-    in both *index.html* and *aboutus.html.*
+-   Remember to delete the <i>bg-primary</i> class from the <nav\> element
+    in both <i>index.html</i> and <i>aboutus.html.</i>
 
 -   We are already beginning to see the page format close to the final
     format for this module.
@@ -6656,7 +6656,7 @@ body{
 
 -   To add breadcrumbs to our pages, we take the help of the breadcrumb
     and breadcrumb-item classes to add the following to the row
-    containing the About Us title in *aboutus.html*.
+    containing the About Us title in <i>aboutus.html</i>.
 
 ```
    <ol class="col-12 breadcrumb"\>
@@ -7579,97 +7579,94 @@ Which is the input box that follows right below that.
 
 We\'re going to look at that in a short while.
 
-And then look at the classes that are applied to the label class,
-col-md-2.
+And then look at the classes that are applied to the label class, col-md-2.
 
-Meaning that for medium to extra-large screens, this particular element
-is going to occupy 2 columns of the space.
+Meaning that for medium to extra-large screens, this particular element is going to occupy 2 columns of the space.
 
-And then note the other one. It says, col-form-label. The col-form-label
-essentially specifies that this label should be positioned to be aligned
-with the other element that forms part of this form group.
+And then note the other one. It says, col-form-label. 
+The col-form-label essentially specifies that this label should be positioned to be aligned with the other element that forms part of this form group.
 
-In this case, the input box. And so this also means that the label be
-lined up in the middle, horizontally with the input box. So that is the
-reason why we use the col-form-label class. If you don\'t apply this,
-then your label will be aligned to the top of your input box. Which your
-form will not look that great on medium to extra-large screen sizes.
-Now, on the left side, of course, because this browser window is
-squashed, so it is showing the view in a small or extra small screen
-size here. So that\'s why you see the label stacking up on top of the
-input box here. So this is the label that specify. So if you have a
-label that you want to assign to an element, so that is how you\'re
-going to assign the label. Down below here, you see a div class
-col-md-10. So this occupies the remaining 10 of the 12 columns. So two
-columns that are occupied by the label. And the remaining ten columns
-occupied by this, but is enclosed inside the div. And inside this div,
-you see that there is an input tag element there with the type text. So
-which means that this input box accepts text input. And the class, look
-at the class here. It says form-control. This is important to apply to
-the input box here. So form-control, and id firstname. And the name
-which is firstname. Then placeholder First Name. So the placeholder is
-what appears inside the box as a placeholder for the input box. So all
-these attributes are assigned. So more importantly, note the use of the
-form-control class being applied to input type. So this is how you
-structure these two elements in your form. For small screen sizes and
-below, it stacks the two things. But for medium to extra large, you saw
-that it is positioning them horizontally side by side. The same thing
-applies to the lastname code also. It\'ll be very similar to how the
-firstname is structured. So I would like you to spend a little bit of
-time taking a look at this code also. So that you see, based upon your
-understanding of this, how this is also formatted. The next kind of
-formal event that we will add in is an input group element. Let me add
-in the code. We\'ll look at what the form turns out to be.
+In this case, the input box. 
+And so this also means that the label be lined up in the middle, horizontally with the input box. 
+So that is the reason why we use the col-form-label class. 
+If you don\'t apply this, then your label will be aligned to the top of your input box. 
+Which your form will not look that great on medium to extra-large screen sizes.
+Now, on the left side, of course, because this browser window is squashed, so it is showing the view in a small or extra small screen size here. So that\'s why you see the label stacking up on top of the input box here. So this is the label that specify. 
 
-And then we\'ll go back and examine the code. So right here, after the
-second div, after the lastname field, I\'m going to include the code for
-the next element here. And then let\'s save the changes. And then,
-immediately, you would see a couple of more things added into your form.
-You see a telephone number field added here. This, from the look of it,
-you see that this is very similar to that. So I\'m not going to explain
-the code for this. This should be very straightforward for you to
-understand. And then this email field also should be very
-straightforward for you to understand. Because this looks very similar
-to the lastname. Except that for this, the input field, the type will be
-set to email. So that the built in form
+If you have a label that you want to assign to an element, that is how you\'re going to assign the label.
+Down below here, you see a div class col-md-10. 
+This occupies the remaining 10 of the 12 columns. 
+Two columns that are occupied by the label. 
+And the remaining ten columns occupied by this, but is enclosed inside the div.
+And inside this div, you see that there is an input tag element there with the type text. 
+Which means that this input box accepts text input. 
+And the class, look at the class here. It says form-control. 
+This is important to apply to the input box here. So form-control, and id firstname. 
+And the name which is firstname. 
+Then placeholder First Name. 
+The placeholder is what appears inside the box as a placeholder for the input box. 
+All these attributes are assigned. 
+More importantly, note the use of the form-control class being applied to input type. 
+This is how you structure these two elements in your form. 
+For small screen sizes and below, it stacks the two things. 
+But for medium to extra large, you saw that it is positioning them horizontally side by side. 
+The same thing applies to the lastname code also. 
+It\'ll be very similar to how the firstname is structured. 
+I would like you to spend a little bit of time taking a look at this code also. 
+So that you see, based upon your understanding of this, how this is also formatted. 
 
-checking capabilities of your browser automatically kicks in. So that
-when you type in something that doesn\'t look like an email, then it\'ll
-complain appropriately. So let\'s examine this particular part of the
-form here. Note that in this case, we are adding in left parenthesis and
-the right parenthesis to this particular input box. So how do you add in
-things into your box like this? Taking a look at the code here in your
-editor, you see that you still have the form-group row which you already
-understand. And down below here, you have input type form element id
-telnum, and so on, which also should be very clear to you. So I don\'t
-think I need to explain that part to you. Notice how I am using the
-Bootstrap\'s grid column classes to each of these. So the label is given
-col-md-2. And then the telephone number one is given col-xs-7 col-sm-6
-and col-md-7 here. So that way, the telephone number, this element is
-properly positioned. But, in particular, let\'s pay attention to this
-part. So this one here is inside of this div. So inside this div, notice
-the class given to it. The class says input-group. So essentially
-meaning that whatever is inside this div will be treated as a group of
-elements here.
+The next kind of formal event that we will add in is an input group element. 
+Let me add in the code. 
+We\'ll look at what the form turns out to be.
 
-That\'s why the class given is input-group. Now, for adding in something
-like this, you will use a class called as input-group-addon. And then
-notice that I am using a div to hold that item. I can use anything here,
-but a div comes in handy here. So I say div class input-group-addon. And
-then the closing div type inside, where, notice that I have the left
-parenthesis. So this is what allows you to add in some extra appendage
-to your input box here. Similarly, the one below here is also an
-input-group-addon right parenthesis. So that is what adds the other
-right parenthesis here. Now, between these two, of course, you have the
-input type. The input with the type tel and class form-control, id,
-name, placeholder, everything in place here. So this is nothing but the
-area code part. So if you use this input-group together with
-input-group-addons like this on either side. Those things will be added
-in to your input element like this. That provides you with a nice way of
-designing Your form with some added in.
+And then we\'ll go back and examine the code.
+Right here, after the second div, after the lastname field, I\'m going to include the code for
+the next element here.
+Then let\'s save the changes.
+Then, immediately, you would see a couple of more things added into your form.
+You see a telephone number field added here.
+This, from the look of it, you see that this is very similar to that.
+I\'m not going to explain the code for this. 
+This should be very straightforward for you to understand. 
+And then this email field also should be very straightforward for you to understand. 
+Because this looks very similar to the lastname.
+Except that for this, the input field, the type will be set to email.
+That the built in form checking capabilities of your browser automatically kicks in. 
+So that when you type in something that doesn\'t look like an email, then it\'ll
+complain appropriately. 
+Let\'s examine this particular part of the form here. 
+Note that in this case, we are adding in left parenthesis and the right parenthesis to this particular input box.
+How do you add in things into your box like this?
+Taking a look at the code here in your editor, you see that you still have the form-group row which you already understand.
+And down below here, you have input type form element id telnum, and so on, which also should be very clear to you.
 
-For example, if you have a field that is accepting money as the input,
-you could simply add a dollar sign to the left hand side to indicate to
+I don\'t think I need to explain that part to you.
+Notice how I am using the Bootstrap\'s grid column classes to each of these.
+The label is given col-md-2. 
+And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here.
+That way, the telephone number, this element is properly positioned. 
+But, in particular, let\'s pay attention to this part.
+This one here is inside of this div. So inside this div, notice the class given to it. 
+The class says input-group. 
+Essentially meaning that whatever is inside this div will be treated as a group of elements here.
+
+That\'s why the class given is input-group. 
+Now, for adding in something like this, you will use a class called as input-group-addon. 
+And then notice that I am using a div to hold that item. 
+I can use anything here, but a div comes in handy here. 
+So I say div class input-group-addon. 
+And then the closing div type inside, where, notice that I have the left parenthesis.
+So this is what allows you to add in some extra appendage to your input box here. 
+Similarly, the one below here is also an input-group-addon right parenthesis. 
+So that is what adds the other right parenthesis here. 
+Now, between these two, of course, you have the input type. 
+The input with the type tel and class form-control, id, name, placeholder, everything in place here. 
+This is nothing but the area code part.
+If you use this input-group together with input-group-addons like this on either side.
+Those things will be added in to your input element like this.
+That provides you with a nice way of designing Your form with some added in.
+
+For example, if you have a field that is accepting money as the input, you could simply add a dollar sign to the left hand side to indicate to
 the user that that is a field that takes currency value at the moment.
 
 Right now in this case, this field takes in an area code.
@@ -7967,12 +7964,12 @@ Download file
 
 ### Set up for the Exercise
 
--   Download the *contactus.html.zip* file given above, unzip it and
-    move the *contactus.html* to the <b><i>conFusion</i></b> folder. This file
+-   Download the <i>contactus.html.zip</i> file given above, unzip it and
+    move the <i>contactus.html</i> to the <b><i>conFusion</i></b> folder. This file
     is already pre-formatted with some content.
 
 -   Set up the links in the navigation bars for all the three pages,
-    *index.html, aboutus.html* and *contactus.html* so that we can
+    <i>index.html, aboutus.html</i> and <i>contactus.html</i> so that we can
     navigate from one to the other with ease.
 
 -   Also set up the links in the footer correctly to point to the
@@ -7980,7 +7977,7 @@ Download file
 
 ### Adding a Button Bar
 
--   We are now going to add content to *contactus.html* file to learn
+-   We are now going to add content to <i>contactus.html</i> file to learn
     more about buttons and button bars. Go to the div where we specify
     "Button group goes here", and replace it with the following code
     to create a button bar containing three buttons:
@@ -7993,12 +7990,12 @@ Download file
 </div>
 ```
 
-Note how we define the button bar using the *btn-group* class, and then
-add the three buttons using the *\<a\>* tag. In this case, the three
-buttons are hyperlinks that cause an action and have an *href*
-associated with them. So we decided to use the *\<a\>* tag instead of
-the *\<button\>* tag. Note how the *\<a\>* tags have been styled using
-the *btn* class.
+Note how we define the button bar using the <i>btn-group</i> class, and then
+add the three buttons using the <i>\<a\></i> tag. In this case, the three
+buttons are hyperlinks that cause an action and have an <i>href</i>
+associated with them. So we decided to use the <i>\<a\></i> tag instead of
+the <i>\<button\></i> tag. Note how the <i>\<a\></i> tags have been styled using
+the <i>btn</i> class.
 
 -   Remember to do a Git commit with the message "Buttons".
 
@@ -8434,7 +8431,7 @@ be able to:
 ```
 
 This creates a form with two elements in the form. Note that the class
-*row* in the form enables us to use the Bootstrap grid system. Hence we
+<i>row</i> in the form enables us to use the Bootstrap grid system. Hence we
 can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user\'s telephone number and email:
@@ -8508,7 +8505,7 @@ can style the contents using the column classes as appropriate.
      </div>
 ```
 
-Note the declaration of the type for the button to *submit*.
+Note the declaration of the type for the button to <i>submit</i>.
 
 -   Remember to do a Git commit with the message "Forms"
 
@@ -8964,10 +8961,10 @@ displaying content. At the end of this exercise, you will be able to:
 
 ### Set up for the Exercise
 
--   In this exercise we will be modifying the *aboutus.html* page to add
+-   In this exercise we will be modifying the <i>aboutus.html</i> page to add
     a table, a card with some content and a card with a quotation.
 
--   Let us get started by opening *aboutus.html* page in a text editor.
+-   Let us get started by opening <i>aboutus.html</i> page in a text editor.
 
 ### Bootstrap Tables
 
@@ -9028,8 +9025,8 @@ displaying content. At the end of this exercise, you will be able to:
                 </div>
 ```
 
-Note the use of *table-responsive* class to create a responsive table,
-and the *table-striped* and *thead-inverse* classes for styling the
+Note the use of <i>table-responsive</i> class to create a responsive table,
+and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the
 table.
 
 ### Bootstrap Cards
@@ -9076,8 +9073,8 @@ table.
             </div>
 ```
 
-Note the use of the *\<blockquote\>* tag to create a block quote in the
-card. We can use a *\<footer\>* inside the block quote to specify the
+Note the use of the <i>\<blockquote\></i> tag to create a block quote in the
+card. We can use a <i>\<footer\></i> inside the block quote to specify the
 attribution of the quote to its origin.
 
 -   Remember to commit the changes to your Git repository with the
@@ -9423,9 +9420,9 @@ At the end of this exercise you will be able to:
 ### Set up for the Exercise
 
 -   Download the img.zip file that we provide above and unzip it in the
-    *conFusion* folder. This should create a folder named *img* there.
+    <i>conFusion</i> folder. This should create a folder named <i>img</i> there.
 
--   We will now update the *index.html* file to include images and media
+-   We will now update the <i>index.html</i> file to include images and media
     objects on the web page.
 
 ### Adding the Restaurant Logo
@@ -9452,8 +9449,8 @@ jumbotron.
 Note the inclusion of the logo in the navbar.
 ```
 
--   Repeat the above two steps for the *aboutus.html* and the
-    *contactus.html* page also to update their navbars and jumbotrons.
+-   Repeat the above two steps for the <i>aboutus.html</i> and the
+    <i>contactus.html</i> page also to update their navbars and jumbotrons.
 
 ### Adding Media Objects
 
@@ -9478,7 +9475,7 @@ Note the inclusion of the logo in the navbar.
                 </div>
 ```
 
-Note the use of the *media* class and the related Bootstrap classes to
+Note the use of the <i>media</i> class and the related Bootstrap classes to
 style the content.
 
 -   Next, we will go to the third row and replace the contents of the
@@ -9695,17 +9692,17 @@ alerting users. At the end of this exercise, you will be able to:
 
 ### Adding Badges
 
--   We will continue to edit the *index.html* file. In this file, we
-    will add a badge *HOT* next to the name of the dish Uthappizza in
+-   We will continue to edit the <i>index.html</i> file. In this file, we
+    will add a badge <i>HOT</i> next to the name of the dish Uthappizza in
     the first content row. To do this, add the following code inside the
-    *\<h2\>* containing the name of the dish:
+    <i>\<h2\></i> containing the name of the dish:
 
 ```
 <span class="badge badge-danger">HOT</span>
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
-    tag in the web page. Add the following code to the *\<h2\>* tag:
+    tag in the web page. Add the following code to the <i>\<h2\></i> tag:
 
 ```
 <span class="badge badge-pill badge-secondary">$4.99</span>
@@ -10018,7 +10015,7 @@ These components have two parts, the CSS classes, and the JavaScript
 support. In this module we will learn about using the JS components
 without writing any JavaScript Code.
 
-This is possible using the data-\* attributes that Bootstrap provides
+This is possible using the data-\<i> attributes that Bootstrap provides
 for us to control the components.
 
 At the end of this module, you will be able to:
@@ -10026,7 +10023,7 @@ At the end of this module, you will be able to:
 -   Understand the various Bootstrap components that require JavaScript
     support in order to function
 
--   Use the data-\* attributes that Bootstrap\'s JS API provides for you
+-   Use the data-\</i> attributes that Bootstrap\'s JS API provides for you
     to control the JS components without writing a single line of JS
     code
 
@@ -10533,7 +10530,7 @@ content. At the end of this exercise you will be able to:
 
 ### Adding Tab Navigation Elements
 
--   Open the *aboutus.html* page and move to the second content row
+-   Open the <i>aboutus.html</i> page and move to the second content row
     containing the details of the corporate leadership of the
     restaurant.
 
@@ -10561,13 +10558,13 @@ content. At the end of this exercise you will be able to:
 </ul>
 ```
 
-Note the use of the *\<ul\>* tag with the *nav* and *nav-tabs* classes
+Note the use of the <i>\<ul\></i> tag with the <i>nav</i> and <i>nav-tabs</i> classes
 to set up the tab navigation. Each list item within the list acts as the
-tab element. Within each list item, note that we set up the *\<a\>* tags
-with the *href* pointing to the *id* of the tab pane of content to be
-introduced later. Also note that the *\<a\>* tag contains the
-*data-toggle=tab* attribute. The first list element\'s *\<a\>* tag
-contains the class *active*. This tab will be the open tab when we view
+tab element. Within each list item, note that we set up the <i>\<a\></i> tags
+with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be
+introduced later. Also note that the <i>\<a\></i> tag contains the
+<i>data-toggle=tab</i> attribute. The first list element\'s <i>\<a\></i> tag
+contains the class <i>active</i>. This tab will be the open tab when we view
 the web page. We can switch to the other tabs using the tabbed
 navigation that we just set up.
 
@@ -10594,20 +10591,20 @@ navigation that we just set up.
 </div>
 ```
 
-Note the use of the *tab-pane, fade, show,* and *active* classes and
-with *peter* as the id. This is the same id used as the *href* in the
-*\<a\>* link in the navigation.
+Note the use of the <i>tab-pane, fade, show,</i> and <i>active</i> classes and
+with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
+<i>\<a\></i> link in the navigation.
 
 -   The remaining content is also similarly enclosed inside appropriate
     divs with the correct ids and the classes specified as above. Only
-    the first tab pane will have the *show* and *active* classes
+    the first tab pane will have the <i>show</i> and <i>active</i> classes
     specified to indicate that the content should be visible on the web
     page by default.
 
 ### Modifying the tab-content CSS
 
 -   We now modify the CSS styles for the tab-content class in the
-    *mystyles.css* file as follows:
+    <i>mystyles.css</i> file as follows:
 
 ```
 .tab-content {
@@ -10958,7 +10955,7 @@ in a web page. At the end of this exercise, you will be able to:
 -   First delete the \<ul\> class that was introduced for the tabbed
     navigation.
 
--   Then the turn the *tab-content* div into a *accordion* div. Use the
+-   Then the turn the <i>tab-content</i> div into a <i>accordion</i> div. Use the
     code structure as shown below:
 
 ```
@@ -11494,9 +11491,9 @@ exercise, you will be able to:
 
 ### Adding a Tooltip
 
--   Let us now switch to the *index.html* page. We will now add a
+-   Let us now switch to the <i>index.html</i> page. We will now add a
     tooltip to this page. The tooltip will be added to the "Reserve
-    Table" button that is in the jumbotron. We will update the *\<a\>*
+    Table" button that is in the jumbotron. We will update the <i>\<a\></i>
     tag for the button as follows:
 
 ```
@@ -11505,8 +11502,8 @@ exercise, you will be able to:
    data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
 ```
 
-As you can see from the code, we add a *data-toggle*, *data-placement*
-and a *title* attribute to the <a\> tag in order to introduce a
+As you can see from the code, we add a <i>data-toggle</i>, <i>data-placement</i>
+and a <i>title</i> attribute to the <a\> tag in order to introduce a
 tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code
@@ -11580,8 +11577,8 @@ bootstrap.min.js file.
 ```
 
 We are introducing another link to the right of the navbar using the
-*navbar-text*. This contains a link with an *\<a\>* tag with the
-*data-toggle="modal"* and *data-target="#loginModal"* attributes.
+<i>navbar-text</i>. This contains a link with an <i>\<a\></i> tag with the
+<i>data-toggle="modal"</i> and <i>data-target="#loginModal"</i> attributes.
 
 -   Save all the changes and do a Git commit with the message "Tooltip
     and Modal".
@@ -11595,7 +11592,7 @@ revealing content for the user upon clicking on a button or a link.
 
 ### PDFs of Presentations
 
-> 09-Tooltips-Popovers-Modals.pdf*
+> 09-Tooltips-Popovers-Modals.pdf<i>
 
 ### Bootstrap Resources
 
@@ -11881,7 +11878,7 @@ able to:
 
 ### Adding a row for the carousel
 
--   The carousel will be added to the *index.html* page. In this page,
+-   The carousel will be added to the <i>index.html</i> page. In this page,
     go to the top of the container div that contains the content of the
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
@@ -11931,7 +11928,7 @@ remaining parts from the content rows below.
 
 ### Adding CSS Classes
 
--   Add the following CSS classes to the *styles.css* file:
+-   Add the following CSS classes to the <i>styles.css</i> file:
 
 ```
 .carousel {
@@ -12168,7 +12165,7 @@ height="2.0592946194225723in"}
 We also learned that the Bootstrap\'s JavaScript-based components can be
 used in your webpage without writing a single line of JavaScript code.
 
-This is where the data-\* attributes come to our rescue.
+This is where the data-\ attributes come to our rescue.
 
 You can use the various attributes that we saw in the previous module to
 enable many of our Bootstrap\'s JavaScript-based components.
@@ -13678,8 +13675,8 @@ of this exercise you will be able to:
 
 ### Adding Less Variables
 
--   Open the *conFusion* project in a text editor of your choice. In the
-    css folder, create a file named *styles.less*. We will add the Less
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the
+    css folder, create a file named <i>styles.less</i>. We will add the Less
     code into this file.
 
 -   Add the following Less variables into the file:
@@ -13796,16 +13793,16 @@ defining the classes.
  
 ```
 
-This will install the *less* NPM module globally so that it can be used
+This will install the <i>less</i> NPM module globally so that it can be used
 by any project. <b>Note: if you are executing this on a Mac or Linux
 machine, you may need to add "sudo" to the beginning of this
-command</b>. This will make available the *lessc* compiler for us so that
+command</b>. This will make available the <i>lessc</i> compiler for us so that
 we can compile Less files.
 
 -   Next, go to the CSS folder on your machine and rename the
-    *styles.css* file that you have there as *styles-old.css*. This is
+    <i>styles.css</i> file that you have there as <i>styles-old.css</i>. This is
     to save the CSS file that we have been using so far. We will be
-    creating a new *styles.css* file by compiling the Less file.
+    creating a new <i>styles.css</i> file by compiling the Less file.
 
 -   Next type the following at the command prompt to compile the Less
     file into a CSS file:
@@ -13961,8 +13958,8 @@ of this exercise you will be able to:
 
 ### Adding Scss Variables
 
--   Open the *conFusion* project in a text editor of your choice. In the
-    css folder, create a file named *styles.scss*. We will add the Scss
+-   Open the <i>conFusion</i> project in a text editor of your choice. In the
+    css folder, create a file named <i>styles.scss</i>. We will add the Scss
     code into this file.
 
 -   Add the following Scss variables into the file:
@@ -14082,7 +14079,7 @@ defining the classes.
  
 ```
 
-This will install the *node-sass* NPM module into your project and also
+This will install the <i>node-sass</i> NPM module into your project and also
 add it as a development dependency in your package.json file.
 
 -   Next open your package.json file and add the following line into the
@@ -14508,42 +14505,42 @@ order to do the building and deployment of our website.
 ### Objectives and Outcomes
 
 In this exercise, you will learn to set up NPM scripts by modifying the
-*package.json* file. At the end of this exercise, you will be able to:
+<i>package.json</i> file. At the end of this exercise, you will be able to:
 
--   Watch for changes to the *styles.scss* file and automatically
+-   Watch for changes to the <i>styles.scss</i> file and automatically
     compile it to the css file.
 
 -   Run multiple NPM scripts in parallel using parallelshell NPM module.
 
 ### Moving JS to Script file
 
--   Create a folder named *js* and in that folder create a file named
-    *scripts.js*.
+-   Create a folder named <i>js</i> and in that folder create a file named
+    <i>scripts.js</i>.
 
--   Open *index.html* and from this file cut out all the JQuery script
-    that we added to it and move the code to the *scripts.js* file that
+-   Open <i>index.html</i> and from this file cut out all the JQuery script
+    that we added to it and move the code to the <i>scripts.js</i> file that
     we created above.
 
--   Then, update the *index.html* file to include the *scripts.js* file
+-   Then, update the <i>index.html</i> file to include the <i>scripts.js</i> file
     by adding the following line:
 
 ```
     <script src="[js/scripts.js]{.underline}"></script>
 ```
 
--   Add the same line to the scripts block in *aboutus.html* and
-    *contactus.html*:
+-   Add the same line to the scripts block in <i>aboutus.html</i> and
+    <i>contactus.html</i>:
 
 ### Watching for Changes and Parallelshell
 
--   First, we install two NPM packages *onchange* and *parallelshell* as
+-   First, we install two NPM packages <i>onchange</i> and <i>parallelshell</i> as
     follows:
 
 ```
 npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 ```
 
--   Then, add the following two script items to *package.json* if you
+-   Then, add the following two script items to <i>package.json</i> if you
     are doing the exercise on a MacOS computer or a Linux computer:
 
 ```
@@ -14572,7 +14569,7 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 npm start
 ```
 
--   Now, whenever you make any changes to *styles.scss* file, it will
+-   Now, whenever you make any changes to <i>styles.scss</i> file, it will
     automatically be compiled to the corresponding css file.
 
 -   Do a Git Commit with the message "NPM Scripts Part 1".
@@ -15100,7 +15097,7 @@ At the end of this exercise, you will be able to:
 
 ### Cleaning up a Distribution Folder
 
--   Install the *rimraf* npm module by typing the following at the
+-   Install the <i>rimraf</i> npm module by typing the following at the
     prompt:
 
 ```
@@ -15116,32 +15113,32 @@ npm install \--save-dev rimraf@2.6.2
 ### Copying Fonts
 
 -   Your project uses font-awesome fonts. These need to be copied to the
-    distribution folder. To help us do this, install the *copyfiles* NPM
+    distribution folder. To help us do this, install the <i>copyfiles</i> NPM
     module globally as follows:
 
 ```
 npm -g install copyfiles@2.0.0
 ```
 
-Remember to use *sudo* on mac and Linux.
+Remember to use <i>sudo</i> on mac and Linux.
 
 -   Then set up the following script:
 
 ```
-    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\* dist/fonts",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/\<i> dist/fonts",
 ```
 
 Compressing and Minifying Images
 
--   We use the *imagemin-cli* NPM module to help us to compress our
+-   We use the <i>imagemin-cli</i> NPM module to help us to compress our
     images to reduce the size of the images being used in our project.
-    Install the *imagemin-cli* module as follows:
+    Install the <i>imagemin-cli</i> module as follows:
 
 ```
 npm -g install imagemin-cli@3.0.0
 ```
 
-Remember to use *sudo* on mac and Linux. <b>NOTE:</b> Some students have
+Remember to use <i>sudo</i> on mac and Linux. <b>NOTE:</b> Some students have
 encountered issues with imagemin-cli not installing its plugins due to
 issues with global permissions on Mac. In that case try
 
@@ -15152,12 +15149,12 @@ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
 -   Then set up the following script:
 
 ```
-    "imagemin": "imagemin img/* --out-dir='dist/img'",
+    "imagemin": "imagemin img/</i> --out-dir='dist/img'",
 ```
 
 ### Preparing the Distribution Folder
 
--   Open *.gitignore* and update it as follows. We do not want the dist
+-   Open <i>.gitignore</i> and update it as follows. We do not want the dist
     folder to be checked into the git repository.
 
 ```
@@ -15165,7 +15162,7 @@ node_modules
 dist
 ```
 
--   Then, install the *usemin-cli, cssmin, uglifyjs* and *htmlmin* NPM
+-   Then, install the <i>usemin-cli, cssmin, uglifyjs</i> and <i>htmlmin</i> NPM
     packages as follows:
 
 ```
@@ -15180,7 +15177,7 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
  
 ```
 
--   Open *index.html* and surround the css links inclusion code as
+-   Open <i>index.html</i> and surround the css links inclusion code as
     follows:
 
 ```
@@ -15192,9 +15189,9 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
     <!-- endbuild -->
 ```
 
--   Do the same change in *aboutus.html* and *contactus.html*
+-   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 
--   Similarly, open *index.html* and surround the js script inclusion
+-   Similarly, open <i>index.html</i> and surround the js script inclusion
     code as follows:
 
 ```
@@ -15206,7 +15203,7 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
     <!-- endbuild -->
 ```
 
--   Do the same change in *aboutus.html* and *contactus.html*
+-   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 
 -   To build the distribution folder, you can type the following at the
     prompt:
@@ -15215,7 +15212,7 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 npm run build
 ```
 
--   This will build the *dist* folder containing the files that are a
+-   This will build the <i>dist</i> folder containing the files that are a
     self-contained version of your project. You can now copy the
     contents of this folder to a web server that hosts your website.
 
@@ -15743,7 +15740,7 @@ This will install the Grunt CLI globally so that you can use them in all
 projects.
 
 -   Next install Grunt to use within your project. To do this, go to the
-    *conFusion* folder and type the following at the prompt:
+    <i>conFusion</i> folder and type the following at the prompt:
 
 ```
 npm install grunt@1.0.2 --save-dev
@@ -15755,7 +15752,7 @@ This will install local per-project Grunt to use within your project.
 
 -   Next you need to create a Grunt file containing the configuration
     for all the tasks to be run when you use Grunt. To do this, create a
-    file named *Gruntfile.js* in the *conFusion* folder.
+    file named <i>Gruntfile.js</i> in the <i>conFusion</i> folder.
 
 -   Next, add the following code to Gruntfile.js to set up the file to
     configure Grunt tasks:
@@ -15800,7 +15797,7 @@ task consumes, and jit-grunt enables us to include the necessary
 downloaded Grunt modules when needed for the tasks.
 
 -   Now, configure the SASS task in the Gruntfile as follows, by
-    including the code inside the function in *Gruntfile.js*:
+    including the code inside the function in <i>Gruntfile.js</i>:
 
 ```
 'use strict';
@@ -16449,7 +16446,7 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 -   You will now add the code to perform the copying of files to the
     dist folder, and cleaning up the dist folder. To do this, add the
-    following code to *Gruntfile.js*. This should be added right after
+    following code to <i>Gruntfile.js</i>. This should be added right after
     the configuration of the SASS task.:
 
 ```
@@ -16516,8 +16513,8 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 
 ### Preparing the Distribution Folder and Files
 
--   We are now going to use the Grunt *usemin* module together with
-    *concat*, *cssmin*, *uglify* and *filerev* to prepare the
+-   We are now going to use the Grunt <i>usemin</i> module together with
+    <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the
     distribution folder. To do this, install the following Grunt
     modules:
 
@@ -16675,7 +16672,7 @@ then let\'s set up a task name \'sass\', and then for this task, we\'ll
 set this up as a function, and this is how the code is prepared.
 
 Gulp Tasks Sass function and in here, we are setting up the Gulp Tasks,
-so we\'ll type return gulp.src(\'./css/\*.scss\')
+so we\'ll type return gulp.src(\'./css/\<i>.scss\')
 
 As we learnt, Gulp is a tool-based around code over configuration.
 
@@ -16893,7 +16890,7 @@ This will install the Gulp globally so that you can use it in all
 projects.
 
 -   Next install Gulp to use within your project. To do this, go to the
-    *conFusion* folder and type the following at the prompt:
+    <i>conFusion</i> folder and type the following at the prompt:
 
 ```
      npm install gulp@3.9.1 --save-dev
@@ -16913,8 +16910,8 @@ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 ### Creating a Gulp File
 
 -   Next you need to create a Gulp file containing the tasks to be run
-    when you use Gulp. To do this, create a file named *gulpfile.js* in
-    the *conFusion* folder.
+    when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in
+    the <i>conFusion</i> folder.
 
 ### Loading Gulp Plugins
 
@@ -16968,7 +16965,7 @@ gulp.task('default', ['browser-sync'], function() {
 
 ### Running the Gulp Tasks
 
--   At the command prompt, if you type *gulp* it will run the default
+-   At the command prompt, if you type <i>gulp</i> it will run the default
     task:
 
 ```
@@ -17001,7 +16998,7 @@ At the end of this exercise, you will be able to:
 
 -   We will now create the tasks for copying the font files and cleaning
     up the distribution folder. To do this we will first install the
-    *del* Node module and require it in the Gulp file as follows:
+    <i>del</i> Node module and require it in the Gulp file as follows:
 
 ```
 npm install del@3.0.0 --save-dev
@@ -17027,8 +17024,8 @@ gulp.task('copyfonts', function() {
 
 ### Compressing and Minifying Images
 
--   We will now install the *gulp-imagemin* plugin and configure the
-    *imagemin* task. To do this we install the plugin and require it as
+-   We will now install the <i>gulp-imagemin</i> plugin and configure the
+    <i>imagemin</i> task. To do this we install the plugin and require it as
     follows:
 
 ```
@@ -17041,7 +17038,7 @@ var ...
     ...
 ```
 
--   Next, we create the *imagemin* task as follows:
+-   Next, we create the <i>imagemin</i> task as follows:
 
 ```
 // Images
@@ -17096,7 +17093,7 @@ gulp.task('build',['clean'], function() {
 
 ### Running the Gulp Tasks
 
--   ### At the command prompt, if you type *gulp build* it will run the build task:
+-   ### At the command prompt, if you type <i>gulp build</i> it will run the build task:
 
 ```
      gulp build
@@ -17346,7 +17343,7 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/21/2022 at 1:45pm 
+<!--- last updated: 09/21/2022 at 5:16pm 
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- ##.  (xx) --------------------------------->
