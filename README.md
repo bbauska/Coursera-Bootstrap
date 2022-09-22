@@ -752,7 +752,7 @@ would be able to:
 
 -   You can choose any of the methods that is most convenient for you.
 
-<b>Some Global Configuration for Git</b>
+### Some Global Configuration for Git
 
 -   Open a cmd window or terminal on your computer.
 
@@ -1204,32 +1204,42 @@ the end of this exercise you will be able to:
     following at the prompt to initialize the folder as a Git
     repository:
 
-<b>git init</b>
+```
+git init
+```
 
 ### Checking your Git repository status
 
 -   Type the following at the prompt to check your Git repository\'s
     status:
 
-<b>git status</b>
+```
+git status
+```
 
 ### Adding files to the staging area
 
 -   To add files to the staging area of your Git repository, type:
 
-<b>git add .</b>
+```
+git add .
+```
 
 ### Commiting to the Git repository
 
 -   ### To commit the current staging area to your Git repository, type:
 
-<b>git commit -m "first commit"</b>
+```
+git commit -m "first commit"
+```
 
 ### Checking the log of Git commits
 
--   ### To check the log of the commits to your Git repository, type
+-   ### To check the log of the commits to your Git repository, type:
 
-<b>git log \--oneline</b>
+```
+git log --oneline
+```
 
 -   ### Now, modify the index.html file as follows:
 
@@ -1276,18 +1286,24 @@ the end of this exercise you will be able to:
     of the second commit using the git log, and then type the following
     at the prompt:
 
-<b>git checkout <second commit\'s number\> index.html</b>
+```
+git checkout <second commit's number> index.html
+```
 
 ### Resetting the Git repository
 
 -   To discard the effect of the previous operation and restore
     index.html to its state at the end of the third commit, type:
 
-<b>git reset HEAD index.html</b>
+```
+git reset HEAD index.html
+```
 
 -   Then type the following at the prompt:
 
-<b>git checkout \-- index.html</b>
+```
+git checkout -- index.html
+```
 
 -   You can also use <i>git reset</i> to reset the staging area to the last
     commit without disturbing the working directory.
@@ -3171,19 +3187,14 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
 -   Insert the following code in the <i><head\></i> of <i>index.html</i> file
     before the title.
 
-    <!\-- Required meta tags always come first \--\>
-
-    <meta charset="utf-8"\>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"\>
-
-    <meta http-equiv="x-ua-compatible" content="ie=edge"\>
-
- 
-
-    <!\-- Bootstrap CSS \--\>
-
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+```
+<!-- Required meta tags always come first -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+```
 
 -   This will include Bootstrap CSS into your web page. Note the subtle
     change in the fonts of the content of the web page. This is the
@@ -3198,13 +3209,12 @@ npm install jquery@3.3.1 popper.js@1.12.9 \--save
     JQuery Javascript library for its Javascript plugins. Hence the need
     to include JQuery library in the web page.
 
-    <!\-- jQuery first, then Popper.js, then Bootstrap JS. \--\>
-
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"\></script\>
-
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"\></script\>
-
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"\></script\>
+```
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+```
 
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You
     may push the commit to your online repository.
@@ -3455,7 +3465,7 @@ responsive web design.
    alt="Foundation for responsive design #2."
    width="50%" />
 </p>
-!-------------------
+<!-------------------
 {width="5.0in"
 height="1.7852559055118111in"}
 ------------------->
@@ -4834,10 +4844,9 @@ lecture.
 
 Bootstrap is designed to be mobile first, meaning that the classes are
 designed such that we can begin by targeting mobile device screens first
-and then work upwards to larger screen sizes. The starting point for
-this is first through media queries. We have already added the support
-for media queries in the last lesson, where we added this line to the
-head:
+and then work upwards to larger screen sizes.
+The starting point for this is first through media queries.
+We have already added the support for media queries in the last lesson, where we added this line to the head:
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -4864,7 +4873,7 @@ devices, but become horizontal within each row for smaller devices and
 beyond.
 
 Towards this goal, we will make use of the classes <i>.col-\, .col-sm-\,
-col-md-\</i>, and <i>.col-lg-\</i> for defining the layouts for the various
+col-md-</i>, and <i>.col-lg-</i> for defining the layouts for the various
 device sizes.
 
 We can specify how many columns each piece of content will occupy within
