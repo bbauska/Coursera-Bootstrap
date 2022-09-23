@@ -12170,7 +12170,6 @@ and make it easy for us to make use of them in our webpage.
    width="50%"
    alt="Bootstrap JS components." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
@@ -12191,7 +12190,6 @@ enable many of our Bootstrap\'s JavaScript-based components.
    width="50%"
    alt="Bootstrap JS components #2." />
 </p>
-
 <!-------------
 {width="5.0in"
 height="2.0592946194225723in"}
