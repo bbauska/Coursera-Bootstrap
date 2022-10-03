@@ -31,7 +31,6 @@ Twitter - https://twitter.com/thenetninjauk
 Instagram - https://www.instagram.com/thenetninja/
 --------------------------->
 
-
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
 <!------------------------------------------------------------------------------------------------>
@@ -468,15 +467,15 @@ implementing the Business Logic Layer.
 We will also consider back end as a service and then the data support
 implemented using MongoDB.
 
-### Full Stack Web Development: Additional Resources
+<h4>Full Stack Web Development: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a><br/>
 
-### Useful Links
+<h4>Useful Links</h4>
 
 -   [What is a Full Stack developer?](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/)
 
@@ -492,7 +491,7 @@ implemented using MongoDB.
 -   [What is the 3-Tier
     Architecture?](http://www.tonymarston.net/php-mysql/3-tier-architecture.html)
 
-### Setting up Your Development Environment: Git and Node: Objectives and Outcomes
+<h4>Setting up Your Development Environment: Git and Node: Objectives and Outcomes</h4>
 
 At the end of this lesson you should have set up Git and Node.js on your
 computer. At the end of this lesson, you will be able to:
@@ -503,9 +502,9 @@ computer. At the end of this lesson, you will be able to:
 
 -   Use Node-based modules to perform basic operations.
 
-### Setting up your Development Environment
+<h4>Setting up your Development Environment</h4>
 
-### Software Requirements
+<h4>Software Requirements</h4>
 
 1.  <b>Text editor of your choice</b>: Any text editor that you are already
     familiar with can be used for editing the project files. I will be
@@ -557,7 +556,7 @@ the repository at the end of each exercise.
 height="1.5908125546806648in"}
 ---------->
 
-### Exercise (Video): Setting up Git
+<h4>Exercise (Video): Setting up Git</h4>
 
 Git is a very popular version control system for software.
 
@@ -634,7 +633,7 @@ Let\'s now run through a few quick steps to set up Git on your computer.
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true"
    alt="Git-scm.com."
-   width="50%" />
+   width="85%" />
 </p>
 <!----------
 {width="5.0in"
@@ -672,7 +671,7 @@ notice that there is a book here called Pro Git.
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true"
    alt="Getting started: About version control."
-   width="50%" />
+   width="85%" />
 </p>
 <!----------
 {width="5.0in"
@@ -694,8 +693,8 @@ computer.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
-   alt="Image 14."
-   width="50%" />
+   alt="Git: download installer & run setup."
+   width="85%" />
 </p>
 <!----------
 {width="5.0in"
@@ -746,9 +745,9 @@ With this, we have completed the setup git for use on our computer.
 Once you get git on your computer it is time to go and learn git bit by
 bit.
 
-### Exercise (Instructions): Setting up Git
+<h4>Exercise (Instructions): Setting up Git</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to install Git on your computer. Git is
 required for using all the remaining Node.js and Node based tools that
@@ -762,7 +761,7 @@ would be able to:
 
 -   Set up some of the basic global configuration for Git
 
-### Downloading and Installing Git
+<h4>Downloading and Installing Git</h4>
 
 -   To install Git on your computer, go to
     <a href="https://git-scm.com/downloads">here</a> to download the Git installer for
@@ -784,7 +783,7 @@ would be able to:
 
 -   You can choose any of the methods that is most convenient for you.
 
-### Some Global Configuration for Git
+<h4>Some Global Configuration for Git</h4>
 
 -   Open a cmd window or terminal on your computer.
 
@@ -816,12 +815,12 @@ git config --global user.email <your email address\>
 git config --list
 ```
 
-### Conclusions
+<h4>Conclusions</h4>
 
 At the end of this exercise you should have Git available on the
 command-line of your computer.
 
-### Exercise (Video): Basic Git Commands
+<h4>Exercise (Video): Basic Git Commands</h4>
 
 Let us now explore some basic Git commands that are very useful for us
 in this specialization.
@@ -1199,9 +1198,9 @@ the courses of this specialization.
 
 At the end of this exercise, did you Git it?
 
-### Exercise (Instructions): Basic Git Commands
+<h4>Exercise (Instructions): Basic Git Commands</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will get familiar with some basic Git commands. At
 the end of this exercise you will be able to:
@@ -1210,7 +1209,7 @@ the end of this exercise you will be able to:
 
 -   Perform basic Git operations on your Git repository
 
-### Basic Git Commands
+<h4>Basic Git Commands</h4>
 
 -   At a convenient location on your computer, create a folder named
     <b>git-test</b>.
@@ -1230,7 +1229,7 @@ the end of this exercise you will be able to:
 </html>
 ```
 
-### Initializing the folder as a Git repository
+<h4>Initializing the folder as a Git repository</h4>
 
 -   Go to the git-test folder in your cmd window/terminal and type the
     following at the prompt to initialize the folder as a Git
@@ -1240,7 +1239,7 @@ the end of this exercise you will be able to:
 git init
 ```
 
-### Checking your Git repository status
+<h4>Checking your Git repository status</h4>
 
 -   Type the following at the prompt to check your Git repository\'s
     status:
@@ -1249,7 +1248,7 @@ git init
 git status
 ```
 
-### Adding files to the staging area
+<h4>Adding files to the staging area</h4>
 
 -   To add files to the staging area of your Git repository, type:
 
@@ -1257,23 +1256,23 @@ git status
 git add .
 ```
 
-### Commiting to the Git repository
+<h4>Commiting to the Git repository</h4>
 
--   ### To commit the current staging area to your Git repository, type:
+-   To commit the current staging area to your Git repository, type:
 
 ```
 git commit -m "first commit"
 ```
 
-### Checking the log of Git commits
+<h4>Checking the log of Git commits</h4>
 
--   ### To check the log of the commits to your Git repository, type:
+-   To check the log of the commits to your Git repository, type:
 
 ```
 git log --oneline
 ```
 
--   ### Now, modify the index.html file as follows:
+-   <h4>Now, modify the index.html file as follows:</h4>
 
 ```
 <!DOCTYPE html>
@@ -1312,7 +1311,7 @@ git log --oneline
 -   Now add the modified index.html file to the staging area and then do
     a third commit.
 
-### Checking out a file from an earlier commit
+<h4>Checking out a file from an earlier commit</h4>
 
 -   To check out the index.html from the second commit, find the number
     of the second commit using the git log, and then type the following
@@ -1322,7 +1321,7 @@ git log --oneline
 git checkout <second commit's number> index.html
 ```
 
-### Resetting the Git repository
+<h4>Resetting the Git repository</h4>
 
 -   To discard the effect of the previous operation and restore
     index.html to its state at the end of the third commit, type:
@@ -1340,13 +1339,13 @@ git checkout -- index.html
 -   You can also use <i>git reset</i> to reset the staging area to the last
     commit without disturbing the working directory.
 
-### Conclusions
+<h4>Conclusions</h4>
 
 At the end of this exercise you should have learnt some basic Git
 commands. Experiment with these commands until you fully understand how
 to use Git.
 
-### Exercise (Video): Online Git Repositories
+<h4>Exercise (Video): Online Git Repositories</h4>
 
 Online Git repositories enable you to store a copy of your Git
 repository online.
@@ -1600,9 +1599,9 @@ With this, we complete this exercise on using online Git repositories.
 
 So did you finally Git it?
 
-### Exercise (Instructions): Online Git Repositories
+<h4>Exercise (Instructions): Online Git Repositories</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn about how to set up and use an online
 Git repository and synchronize your local Git repository with your
@@ -1615,7 +1614,7 @@ online repository. At the end of this exercise, you will be able to:
 
 -   Clone an online Git repository to your computer
 
-### Setting up an Online Git repository
+<h4>Setting up an Online Git repository</h4>
 
 -   Sign up for an account either at (<a href="https://bitbucket.org](https://bitbucket.org/" target="_blank">Bitbucket</a>
      or <a href="https://github.com/">GitHub</a>).
@@ -1625,7 +1624,7 @@ online repository. At the end of this exercise, you will be able to:
     GitHub requires a paid account, and is not available for free
     accounts.
 
-### Set the local Git repository to set its remote origin
+<h4>Set the local Git repository to set its remote origin</h4>
 
 -   At the prompt, type the following to set up your local repository to
     link to your online Git repository:
@@ -1634,7 +1633,7 @@ online repository. At the end of this exercise, you will be able to:
 git remote add origin <repository URL>
 ```
 
-### Pushing your commits to the online repository
+<h4>Pushing your commits to the online repository</h4>
 
 -   At the prompt, type the following to push the commits to the online
     repository:
@@ -1643,7 +1642,7 @@ git remote add origin <repository URL>
 git push -u origin master
 ```
 
-### Cloning an online repository
+<h4>Cloning an online repository</h4>
 
 -   To clone an online repository to your computer, type the following
     at the prompt:
@@ -1665,13 +1664,13 @@ height="1.2676279527559056in"}
 git clone <repository URL>
 ```
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you have learnt to set up an online Git repository,
 synchronize your local repository with the remote repository, and clone
 an online repository.
 
-### Node.js and NPM
+<h4>Node.js and NPM</h4>
 
 JavaScript which was designed as a scripting language for the browser
 has seen deployment far beyond the browser.
@@ -1782,7 +1781,7 @@ called package.json which is the manifest file for this Node module.
 We will look at how we can use the package.json file in more detail in
 the subsequent exercises.
 
-### Exercise (Video): Setting up Node.js and NPM
+<h4>Exercise (Video): Setting up Node.js and NPM</h4>
 
 In your browser, head over to nodejs.org and as you browse down, you\'ll
 see the download buttons for Node.js for your specific platform.
@@ -1839,13 +1838,13 @@ With this, we complete the installation of Node.js.
 
 Let\'s go ahead and make use of Node.js in the next exercise.
 
-### Exercise (Instructions): Setting up Node.js and NPM
+<h4>Exercise (Instructions): Setting up Node.js and NPM</h4>
 
 <b>Note: Make sure you have installed Git on your machine before you
 install Node.js. Please complete the previous Git installation exercise
 before proceeding with this exercise.</b>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to set up the Node.js environment, a
 popular Javascript based server framework, and node package manager
@@ -1867,7 +1866,7 @@ At the end of this exercise, you will be able to:
 -   Verify that the installation was successful and your machine is
     ready for using Node.js and NPM.
 
-### Installing Node
+<h4>Installing Node
 
 -   To install Node on your machine, go to
     [https://nodejs.org](https://nodejs.org/) and click on the Download
@@ -1885,7 +1884,7 @@ At the end of this exercise, you will be able to:
 environmental variable in case you forgot to turn on the add to PATH
 during the installation steps.</b>
 
-### Verifying the Node Installation
+<h4>Verifying the Node Installation
 
 -   Open a terminal window on your machine. If you are using a Windows
     machine, open a cmd window or PowerShell window with <b>admin</b>
@@ -1917,13 +1916,13 @@ npm -v
 height="6.3736264216972875in"}
 ---------->
 
-### Conclusions
+<h4>Conclusions
 
 At the end of this exercise, your machine is now ready with the Node
 installed for further development. We will examine web development tools
 next.
 
-### Exercise (Video): Basics of Node.js and NPM
+<h4>Exercise (Video): Basics of Node.js and NPM
 
 Now that you have Node.js on your computer, you\'re obviously wanting to
 immediately start using it.
@@ -2398,9 +2397,9 @@ go through the courses of this specialization.
 
 This is just a start.
 
-### Exercise (Instructions): Basics of Node.js and NPM
+<h4>Exercise (Instructions): Basics of Node.js and NPM
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 In this exercise you will learn the basics of Node and NPM. At the end
 of this exercise, you will be able to:
@@ -2410,7 +2409,7 @@ of this exercise, you will be able to:
 
 -   Install a NPM module and make use of it within your project
 
-### Initializing package.json
+<h4>Initializing package.json
 
 -   At the command prompt in your <b>git-test</b> folder, type
 
@@ -2472,7 +2471,7 @@ of this exercise, you will be able to:
     and save, the browser should immediately refresh to reflect the
     changes.
 
-### Setting up .gitignore
+<h4>Setting up .gitignore
 
 -   Next, create a file in your project directory named <i>.gitignore</i>
     (<b>Note</b>: the name starts with a period)Then, add the following to
@@ -2484,14 +2483,14 @@ of this exercise, you will be able to:
     You will note that the node_modules folder will not be added to the
     commit, and will not be uploaded to the repository.
 
-### Conclusions
+<h4>Conclusions
 
 In this exercise you learnt to set up package.json, install a npm
 package and start a development server.
 
-### Setting up your Development Environment: Git and Node: Additional Resources
+<h4>Setting up your Development Environment: Git and Node: Additional Resources
 
-### PDFs of Presentations
+<h4>PDFs of Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a><br/>
 
@@ -2501,7 +2500,7 @@ package and start a development server.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a><br/>
 
-### Additional Resources (Git)
+<h4>Additional Resources (Git)
 
 -   Git site [git site scm](http://git-scm.com/).
 
@@ -2519,7 +2518,7 @@ package and start a development server.
 -   [Atlassian comprehensive Git
     tutorial](https://www.atlassian.com/git/tutorials/)
 
-### Additional Resources (Node.js and NPM)
+<h4>Additional Resources (Node.js and NPM)
 
 -   [Nodejs.org](https://nodejs.org/)
 
@@ -2531,7 +2530,7 @@ package and start a development server.
 
 -   [lite-server](https://github.com/johnpapa/lite-server)
 
-### Introduction to Bootstrap: Objectives and Outcomes
+<h4>Introduction to Bootstrap: Objectives and Outcomes
 
 In this lesson, you will be given a quick overview of front-end UI
 frameworks, and an introduction to Bootstrap.
@@ -2562,7 +2561,7 @@ including removing some components and introducing new components.
 This course covers Bootstrap 4 with the assumption that you are not
 familiar with Bootstrap.
 
-### Front-end Web UI Frameworks
+<h4>Front-end Web UI Frameworks
 
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
@@ -2757,7 +2756,7 @@ With this understanding of front-end web UI frameworks, let\'s now
 proceed forward to learn more about Bootstrap, the most popular front
 end web UI framework.
 
-### Introduction to Bootstrap
+<h4>Introduction to Bootstrap
 
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
@@ -2840,7 +2839,7 @@ with Bootstrap 3.3.7 in the earlier Bootstrap course.
 Now, it\'s time to move on to our first exercise where we will get our
 hands dirty with Bootstrap.
 
-### Exercise (Video): Getting Started with Bootstrap
+<h4>Exercise (Video): Getting Started with Bootstrap
 
 Strap on your boots, and let\'s get started with Bootstrap.
 
@@ -3143,9 +3142,9 @@ how we can configure Bootstrap to be used in our web project.
 As we proceed to the next few exercises, we\'re going to employee the
 Bootstrap classes to design our web pages.
 
-### Exercise (Instructions): Getting Started with Bootstrap
+<h4>Exercise (Instructions): Getting Started with Bootstrap
 
-### Exercise Resources
+<h4>Exercise Resources
 
 <b>Bootstrap4-starter.zip</b>
 
@@ -3161,9 +3160,9 @@ exercise, you will be able to:
 
 -   Include the Bootstrap CSS and JS classes into a web page
 
-### <b>Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.</b>
+<h4><b>Note: Please remember to retain the folder and all the files that you create in this exercise. Further exercises will build upon the files that you create in this exercise. DO NOT DELETE the files at the end of the exercise.</b>
 
-### Setting up the Project Folder
+<h4>Setting up the Project Folder
 
 -   Go to a convenient folder location on your computer and download the
     <b><i>Bootstrap4-starter.zip</i></b> file using the link provided at the top
@@ -3177,14 +3176,14 @@ exercise, you will be able to:
 
 -   At the prompt type
 
-### npm install
+<h4>npm install
 
 -   This will install the lite-server node module to your project.
 
 -   Next, initialize a Git repository in the project folder, and then
     set up a .gitignore file with the contents as shown below:
 
-### node_modules
+<h4>node_modules
 
 -   Now do a commit of your project folder to the Git repository with
     the message "Initial Setup". You will be doing a commit of your
@@ -3194,7 +3193,7 @@ exercise, you will be able to:
 -   Set up an online Git repository and synchronize your project folder
     with the online repository.
 
-### Downloading Bootstrap
+<h4>Downloading Bootstrap
 
 -   You will use npm to fetch the Bootstrap files for use within your
     project. Thereafter you need to install JQuery and Popper.js as
@@ -3222,7 +3221,7 @@ npm install jquery@3.3.1 popper.js@1.12.9 --save
 -   Start your lite-server by typing <b>npm start</b> at the prompt. The
     <i>index.html</i> file should now be loaded into your default browser.
 
-### Getting your Web page Bootstrap ready
+<h4>Getting your Web page Bootstrap ready
 
 -   Open the <i>index.html</i> file in your favourite text editor. If you are
     using Visual Studio Code, Brackets, Sublime Text or similar editors,
@@ -3264,27 +3263,27 @@ npm install jquery@3.3.1 popper.js@1.12.9 --save
 -   Now, do a Git commit with the message "Intro. to Bootstrap". You
     may push the commit to your online repository.
 
-### Conclusion
+<h4>Conclusion
 
 We have now understood how to set up a web project to use Bootstrap. In
 the next lecture, we will explore further on responsive design and
 Bootstrap\'s grid system.
 
-### Introduction to Bootstrap: Additional Resources
+<h4>Introduction to Bootstrap: Additional Resources
 
-### PDFs of the Presentations
+<h4>PDFs of the Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/>
 
-### Exercise Resources
+<h4>Exercise Resources
 
 -   (required for the exercise)
 
 > Bootstrap4-starter.zip
 
-### Bootstrap Official Resources
+<h4>Bootstrap Official Resources
 
 -   [Bootstrap 4 Home Page](http://getbootstrap.com/)
 
@@ -3296,7 +3295,7 @@ Bootstrap\'s grid system.
 -   [Migrating from Bootstrap 3 to Bootstrap
     4](http://getbootstrap.com/docs/4.0/migration/)
 
-### Front-end Web UI Frameworks
+<h4>Front-end Web UI Frameworks
 
 -   [Top 10 Front-End Frameworks of
     2018](https://www.keycdn.com/blog/front-end-frameworks/)
@@ -3304,7 +3303,7 @@ Bootstrap\'s grid system.
 -   [The 5 Most Popular Front-end Frameworks
     Compared](https://www.sitepoint.com/most-popular-frontend-frameworks-compared/)
 
-### Responsive Design and Bootstrap Grid System: Objectives and Outcomes
+<h4>Responsive Design and Bootstrap Grid System: Objectives and Outcomes
 
 In this lesson, you will be given an overview of responsive web design
 and an introduction to the Bootstrap grid system. The exercises will
@@ -3320,7 +3319,7 @@ At the end of this lesson, you will be able to:
 
 -   Add your own custom CSS classes to a Bootstrap based web project
 
-### Responsive Design
+<h4>Responsive Design
 
 These days in web development world, we often hear people mentioning the
 terms responsive design and mobile first approach.
@@ -3631,7 +3630,7 @@ framework like Bootstrap, things become very straightforward.
 We will learn more about this in the next lecture and the exercise that
 follows.
 
-### Bootstrap Grid System
+<h4>Bootstrap Grid System
 
 In the previous lecture, we learnt about responsive design.
 
@@ -4503,7 +4502,7 @@ to do the layout of the content inside or index.html page.
 
 We will also use some custom CSS classes.
 
-### Exercise (Video): Responsive Design and Bootstrap Grid System Part 1
+<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 1
 
 In the previous lectures, we have learnt about responsive design and the
 bootstrap grid system.
@@ -4872,9 +4871,9 @@ Obviously, there is still room for improvement.
 This may be a good time for you to do a git comment with the message
 Bootstrap Grid Part One.
 
-### Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
+<h4>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 This exercise introduces you to responsive design and Bootstrap support
 for mobile first responsive design through the use of the grid system.
@@ -4888,7 +4887,7 @@ Note: In this exercise we will continue to update the <i>index.html</i> file
 in the <i>conFusion</i> folder that we created and edited in the previous
 lecture.
 
-### Bootstrap Grid System and Responsive Design
+<h4>Bootstrap Grid System and Responsive Design
 
 Bootstrap is designed to be mobile first, meaning that the classes are
 designed such that we can begin by targeting mobile device screens first
@@ -4927,7 +4926,7 @@ device sizes.
 We can specify how many columns each piece of content will occupy within
 a row, all adding up to 12 or a multiple thereof.
 
-### Using a Container class
+<h4>Using a Container class
 
 -   We use the container class to keep content within a fixed width on
     the screen, determined by the size of the screen. The alternative is
@@ -4941,7 +4940,7 @@ a row, all adding up to 12 or a multiple thereof.
 <div class="container"> ...
 ```
 
-### Dividing the content into rows
+<h4>Dividing the content into rows
 
 -   Let us now add the class <i>row</i> to the first-level inner <i>div</i>
     elements inside the container. This organizes the page into rows of
@@ -4952,7 +4951,7 @@ a row, all adding up to 12 or a multiple thereof.
 <div class="row"> ...
 ```
 
-### Creating a Jumbotron
+<h4>Creating a Jumbotron
 
 -   Let us add the class jumbotron to the header class as shown below.
     This turns the header element into a Bootstrap component named
@@ -4967,12 +4966,12 @@ a row, all adding up to 12 or a multiple thereof.
 -   In the header add a <b>container</b> class to the first inner div and a
     row class to the second inner div.
 
-### Creating a footer
+<h4>Creating a footer
 
 -   Finally, in the footer add a <b>container</b> class to the first inner
     div and a row class to the second inner div.
 
-### Applying column classes within each row
+<h4>Applying column classes within each row
 
 -   In the header row, we will display the restaurant name and the
     description to occupy 6 columns, while we will leave six columns for
@@ -5005,7 +5004,7 @@ a row, all adding up to 12 or a multiple thereof.
 Now you can see how the web page has been turned into a mobile-first
 responsive design layout.
 
-### Using Order and Offset with column layout classes
+<h4>Using Order and Offset with column layout classes
 
 -   In the content rows, we would like to have the title and description
     to alternate so that it gives an interesting look to the web page.
@@ -5029,12 +5028,12 @@ responsive design layout.
     message "Bootstrap Grid Part 1" and push your changes to the
     online repository.
 
-### Conclusion
+<h4>Conclusion
 
 In this exercise, we reviewed responsive design and the Bootstrap grid
 system.
 
-### Exercise (Video): Responsive Design and Bootstrap Grid System Part 2
+<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2
 
 We\'ll continue with the bootstrap grid exercise that we started out in
 the previous exercise.
@@ -5269,9 +5268,9 @@ vertically in our rows.
 This is a good time for you to do a good comment with the message,
 Bootstrap grid, part two.
 
-### Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
+<h4>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 2
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 This exercise continues the examination of responsive design and
 Bootstrap support for mobile first responsive design through the use of
@@ -5284,7 +5283,7 @@ At the end of this exercise, you will be able to:
 
 -   Centering the content both vertically and horizontally within a row
 
-### List styles
+<h4>List styles
 
 -   You can use several list styles to display lists in different
     formats. In this exercise, we will use the unordered list style
@@ -5296,7 +5295,7 @@ At the end of this exercise, you will be able to:
 <ul class="list-unstyled"> ... </ul>
 ```
 
-### Using Custom CSS classes
+<h4>Using Custom CSS classes
 
 We can define our own custom CSS classes in a separate CSS file, and
 also customize some of the built-in CSS classes. We will now attempt to
@@ -5363,7 +5362,7 @@ address{
 }
 ```
 
-### Vertically Centering the Content
+<h4>Vertically Centering the Content
 
 -   In the content section, update all the rows as follows:
 
@@ -5378,7 +5377,7 @@ address{
 <div class="col-12 col-sm-4 align-self-center">
 ```
 
-### Horizontally Centering the Content
+<h4>Horizontally Centering the Content
 
 -   Update the copyright paragraph as follows:
 
@@ -5397,15 +5396,15 @@ address{
     message "Bootstrap Grid Part 2" and push your changes to the
     online repository.
 
-### Conclusion
+<h4>Conclusion
 
 In this exercise, we continued our review of responsive design and the
 Bootstrap grid system. We also learnt how to customize using our own CSS
 classes.
 
-### Responsive Design and Bootstrap Grid System: Additional Resources
+<h4>Responsive Design and Bootstrap Grid System: Additional Resources
 
-### PDFs of Presentations
+<h4>PDFs of Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a><br/>
 
@@ -5413,12 +5412,12 @@ classes.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a><br/>
 
-### Bootstrap Official Documentation
+<h4>Bootstrap Official Documentation
 
 -   [Bootstrap Grid
     System](http://getbootstrap.com/docs/4.0/layout/grid/)
 
-### Responsive Design and Bootstrap Grid Resources
+<h4>Responsive Design and Bootstrap Grid Resources
 
 -   [CSS Flexible Box Layout Module Level
     1](https://www.w3.org/TR/css-flexbox/) (W3C Documentation)
@@ -5452,7 +5451,7 @@ classes.
     Design](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design)
     (an updated guide to responsive design)
 
-### Assignment 1 Requirements (Video)
+<h4>Assignment 1 Requirements (Video)
 
 It is time for your first assignment in this course.
 
@@ -5682,11 +5681,11 @@ Git Repository with the Message Assignment One.
 
 <b>Assignment 1 Resources</b>
 
-### Assignment 1 Starter Files
+<h4>Assignment 1 Starter Files
 
 <b>aboutus.html</b>
 
-### Assignment 1 Screenshots
+<h4>Assignment 1 Screenshots
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 85/86. assignment 1 (116/117) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5709,7 +5708,7 @@ height="7.825243875765529in"}
 height="4.4736843832021in"}
 ----------->
 
-### Bootstrap Resources
+<h4>Bootstrap Resources
 
 -   [Bootstrap grid](http://getbootstrap.com/docs/4.0/layout/grid/)
 
@@ -5717,12 +5716,12 @@ height="4.4736843832021in"}
     utilities](http://getbootstrap.com/docs/4.0/utilities/display/)
     (documentation here about the d-none and d-sm-block classes)
 
-### Chrome extension
+<h4>Chrome extension
 
 -   [Full Page Screen
     Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl).
 
-### Ideation: Objectives and Outcomes (week 2)
+<h4>Ideation: Objectives and Outcomes (week 2)
 
 The first step in your journey towards the implementation of the
 Capstone project begins with an idea.
@@ -5755,11 +5754,11 @@ At the end of this step you should be able to:
 -   Identify other projects that might have similar features and would
     act as exemplars for your project
 
-### Ideation Report Template
+<h4>Ideation Report Template
 
-### Project Title
+<h4>Project Title
 
-### 1. Introduction
+<h4>1. Introduction
 
 -   A brief introduction to your website idea. State the goals of the
     project.
@@ -5767,13 +5766,13 @@ At the end of this step you should be able to:
 -   The values / benefits (tangible and intangible) this application can
     bring to a company/organization/end-user.
 
-### 2. Expected List of Features
+<h4>2. Expected List of Features
 
 -   A brief list of features that you expect your website to support.
 
 -   Brief justifications for including these features.
 
-### 3. Market Survey
+<h4>3. Market Survey
 
 -   Do a survey of the Web to find about five web sites that might have
     similar ideas as yours.
@@ -5781,7 +5780,7 @@ At the end of this step you should be able to:
 -   Briefly compare the features of these applications with your
     application idea.
 
-### 4. References
+<h4>4. References
 
 -   Give references to any material / websites / books etc. relevant to
     your application idea
@@ -5789,20 +5788,20 @@ At the end of this step you should be able to:
 -   Give the links to the websites relevant to your idea, that you
     listed in the section above.
 
-### Ideation: Additional Resources
+<h4>Ideation: Additional Resources
 
-### General Resources
+<h4>General Resources
 
 -   [Ideation (creative
     process)](https://en.wikipedia.org/wiki/Ideation_(creative_process))
 
-### Volunteer your Services
+<h4>Volunteer your Services
 
 -   [VolunteerMatch.org](http://www.volunteermatch.org/)
 
 -   [Free Code Camp](https://www.freecodecamp.com/)
 
-### Navigation and Navigation Bar: Objectives and Outcomes (week 2)
+<h4>Navigation and Navigation Bar: Objectives and Outcomes (week 2)
 
 In this lesson, you will be given an overview of navigation design and
 the importance of providing appropriate navigation support within your
@@ -5828,7 +5827,7 @@ At the end of this lesson, you will be able to:
 -   Use icon fonts for decorating your website with meaningful graphical
     elements
 
-### Navigation and Navigation Bar
+<h4>Navigation and Navigation Bar
 
 Let\'s now talk about navigation.
 
@@ -6024,7 +6023,7 @@ SchrollSpy, and Affix.
 We\'ll look at some of these in a bit more detail as we go through the
 various lessons in the modules that follow this particular lesson.
 
-### Exercise (Video): Navbar and Breadcrumbs
+<h4>Exercise (Video): Navbar and Breadcrumbs
 
 We just completed a discussion on the importance of providing navigation
 in your website.
@@ -6580,9 +6579,9 @@ With this we complete this exercise on navbar and breadcrumbs.
 This is a good time for you to do a git commit with the message "navbar
 and breadcrumbs."
 
-### Exercise (Instructions): Navbar and Breadcrumbs
+<h4>Exercise (Instructions): Navbar and Breadcrumbs
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 In this exercise, we will examine the navigation support that we can
 build into a web page using the Navbar in Bootstrap. At the end of this
@@ -6594,7 +6593,7 @@ exercise, you will be able to:
 
 -   Include additional CSS classes into your project
 
-### Create a basic navigation bar
+<h4>Create a basic navigation bar
 
 -   We will now add a simple navigation bar to the web page so that it
     provides links to the other pages on the website. Start by adding
@@ -6626,7 +6625,7 @@ with <i>navbar-nav</i> class to specify that the items should be displayed
 inline inside the navigation bar. We also use the container class inside
 the navigation bar.
 
-### Creating a responsive navigation bar
+<h4>Creating a responsive navigation bar
 
 -   We would like the navigation bar elements to collapse for shorter
     screens, to be replaced by a toggle button so that the items can be
@@ -6670,7 +6669,7 @@ toggle button.
     back to <i>index.html</i>. Update the navbar-brand tag also to take you
     back to <i>index.html</i>.
 
-### Modifications to the CSS styles
+<h4>Modifications to the CSS styles
 
 -   We would like to have the navigation bar displayed in darker purple
     color, instead of the current color. In addition, when we use the
@@ -6695,7 +6694,7 @@ body{
 -   We are already beginning to see the page format close to the final
     format for this module.
 
-### Adding Breadcrumbs
+<h4>Adding Breadcrumbs
 
 -   To add breadcrumbs to our pages, we take the help of the breadcrumb
     and breadcrumb-item classes to add the following to the row
@@ -6711,12 +6710,12 @@ body{
 -   Save all the changes and commit to your Git repository with a
     message "Navbar and Breadcrumbs".
 
-### Conclusions
+<h4>Conclusions
 
 In this exercise you learnt about adding a navigation bar and
 breadcrumbs to your website.
 
-### Icon Fonts
+<h4>Icon Fonts
 
 Let us now talk about icon fonts.
 
@@ -6805,7 +6804,7 @@ bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
 use of it in the exercise.
 
-### Exercise (Video): Icon Fonts
+<h4>Exercise (Video): Icon Fonts
 
 Let\'s now move on to our next exercise, where we will learn more about
 Icon fonts.
@@ -6975,9 +6974,9 @@ also.
 Now that you\'ve completed this exercise, this may be a good time to do
 a good commit with the message, icon fonts.
 
-### Exercise (Instructions): Icon Fonts
+<h4>Exercise (Instructions): Icon Fonts
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 In this exercise, we will learn the use of icons in web page design
 using Font Awesome icons, and bootstrap-social icons. At the end of this
@@ -6989,7 +6988,7 @@ exercise, you will be able to:
 Note: Some people have pointed out that if they have AdBlocker
 installed, then the font icons are not showing up in their browser.
 
-### Using Icon Fonts and Other CSS classes
+<h4>Using Icon Fonts and Other CSS classes
 
 -   One of the most popular icon font toolkit is Font Awesome. Go to its
     website <http://fontawesome.io/> to check out more details about
@@ -7074,31 +7073,31 @@ href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 -   Save all the changes and commit to your Git repository with the
     message "Icon Fonts".
 
-### Conclusions
+<h4>Conclusions
 
 We learnt about using icon fonts in a web project.
 
-### Navigation and Navigation Bar: Additional Resources
+<h4>Navigation and Navigation Bar: Additional Resources
 
-### PDFs of Presentations
+<h4>PDFs of Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a><br/>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/>
 
-### Official Bootstrap Resources
+<h4>Official Bootstrap Resources
 
 -   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
 
 -   [Breadcrumbs](http://getbootstrap.com/docs/4.0/components/breadcrumb/)
 
-### General
+<h4>General
 
 -   [Accessible Rich Internet Applications
     (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
     (Accessibility support and screen reader support)
 
-### Information Architecture
+<h4>Information Architecture
 
 -   [Information Architecture 101: Techniques and Best
     Practices](http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/)
@@ -7117,7 +7116,7 @@ We learnt about using icon fonts in a web project.
     Tutorial](http://www.webmonkey.com/2010/02/Information_Architecture_Tutorial/)
     (Comprehensive look from a website design perspective)
 
-### Navigation Bar Design
+<h4>Navigation Bar Design
 
 -   [Designing A Winning Navigation Menu: Ideas and
     Inspirations](http://www.hongkiat.com/blog/navigation-design-ideas-inspiration/)
@@ -7131,7 +7130,7 @@ We learnt about using icon fonts in a web project.
     Bars](http://www.webdesignerdepot.com/2014/01/3-reasons-we-should-stop-using-navigation-bars/)
     (A provocative view on navigation bars)
 
-### Breadcrumbs
+<h4>Breadcrumbs
 
 -   [Breadcrumb Navigation Examined: Best Practices &
     Examples](http://www.hongkiat.com/blog/breadcrumb-navigation-examined-best-practices-examples/)
@@ -7141,7 +7140,7 @@ We learnt about using icon fonts in a web project.
     Practices](http://blog.woorank.com/2014/11/breadcrumb-navigation-guide/)
     (Another great resource on types and usage of breadcrumbs)
 
-### Icon Fonts
+<h4>Icon Fonts
 
 -   [Why And How To Use Icon
     Fonts](http://vanseodesign.com/web-design/icon-fonts/) (a good
@@ -7165,7 +7164,7 @@ We learnt about using icon fonts in a web project.
 -   [Using SVGs](http://gomakethings.com/using-svgs/) (alternative to
     icon fonts)
 
-### User Input: Buttons and Forms: Objectives and Outcomes
+<h4>User Input: Buttons and Forms: Objectives and Outcomes
 
 In this lesson we review the support for user input through the use of
 buttons and forms in a web page. We review Bootstrap button classes and
@@ -7176,7 +7175,7 @@ Forms classes. At the end of this lesson you will be able to:
 
 -   Create and style forms on a web page using Bootstrap form classes
 
-### User Input
+<h4>User Input
 
 Gone are the days when websites were purely used for delivering
 information to the users.
@@ -7259,7 +7258,7 @@ bootstrap support for styling buttons, and also look at how various form
 elements can be enhanced using bootstrap classes to present classic
 Bootstrap forms.
 
-### Exercise (Video): Buttons
+<h4>Exercise (Video): Buttons
 
 In this exercise, we\'re going to look at Bootstrap\'s support for
 buttons and forms.
@@ -7961,11 +7960,11 @@ committed to my git repository. With this, we complete this exercise.
 Here we have learned how we include buttons and form elements into our
 Bootstrap design pitch.
 
-### Exercise (Instructions): Buttons
+<h4>Exercise (Instructions): Buttons
 
 # Exercise: Buttons
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 In this exercise, we will examine user input for a website through the
 use of Buttons support in Bootstrap. At the end of this exercise, you
@@ -7976,13 +7975,13 @@ will be able to:
 
 -   Use a Button Group to group together related buttons.
 
-### Exercise Resources
+<h4>Exercise Resources
 
 <b>contactus.html</b>ZIP File
 
 Download file
 
-### Set up for the Exercise
+<h4>Set up for the Exercise
 
 -   Download the <i>contactus.html.zip</i> file given above, unzip it and
     move the <i>contactus.html</i> to the <b><i>conFusion</i></b> folder. This file
@@ -7995,7 +7994,7 @@ Download file
 -   Also set up the links in the footer correctly to point to the
     appropriate pages.
 
-### Adding a Button Bar
+<h4>Adding a Button Bar
 
 -   We are now going to add content to <i>contactus.html</i> file to learn
     more about buttons and button bars. Go to the div where we specify
@@ -8019,11 +8018,11 @@ the <i>btn</i> class.
 
 -   Remember to do a Git commit with the message "Buttons".
 
-### Conclusions
+<h4>Conclusions
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-### Exercise (Video): Forms
+<h4>Exercise (Video): Forms
 
 Now that we have seen how to add buttons to our web page.
 
@@ -8412,11 +8411,11 @@ your second assignment.
 
 This is a good time for you to do a good comment with the message forms.
 
-### Exercise (Instructions): Forms
+<h4>Exercise (Instructions): Forms
 
 # Exercise: Forms
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes
 
 In this exercise, we will examine user input for a website through the
 use of Forms support in Bootstrap. At the end of this exercise, you will
@@ -8425,7 +8424,7 @@ be able to:
 -   Design a form using various form elements and style the form using
     Bootstrap form classes
 
-### Adding a Basic Form
+<h4>Adding a Basic Form
 
 -   We will add a simple form to the page at the location identified by
     "Form goes here". Add the following code to page to create a
@@ -8472,7 +8471,7 @@ can style the contents using the column classes as appropriate.
 </div>
 ```
 
-### Adding a Checkbox and Select
+<h4>Adding a Checkbox and Select
 
 -   We now see the addition of a checkbox and a select element to the
     form. Note the styling of these elements using Bootstrap classes:
@@ -8496,7 +8495,7 @@ can style the contents using the column classes as appropriate.
 </div>
 ```
 
-### Adding a textarea
+<h4>Adding a textarea
 
 -   Next we add a textarea for the users to submit their feedback
     comments as follows:
@@ -8510,7 +8509,7 @@ can style the contents using the column classes as appropriate.
 </div>
 ```
 
-### Adding the Submit Button
+<h4>Adding the Submit Button
 
 -   Finally, we add the submit button to the form as follows:
 
@@ -8526,22 +8525,22 @@ Note the declaration of the type for the button to <i>submit</i>.
 
 -   Remember to do a Git commit with the message "Forms"
 
-### Conclusions
+<h4>Conclusions
 
 We have learnt how to add a form and style the form using Bootstrap form
 classes.
 
-### User Input: Additional Resources
+<h4>User Input: Additional Resources
 
-### PDFs of Presentations
+<h4>PDFs of Presentations
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/07-User-Input.pdf">07-User-Input.pdf (5 slides)</a>
 
-### Exercise Resources
+<h4>Exercise Resources
 
 <b>contactus.html</b>
 
-### Bootstrap Resources
+<h4>Bootstrap Resources
 
 -   [Bootstrap
     Buttons](http://getbootstrap.com/docs/4.0/components/buttons/)
@@ -8552,7 +8551,7 @@ classes.
 -   [Bootstrap
     Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
-### Other Useful Resources
+<h4>Other Useful Resources
 
 -   [The Difference Between Anchors, Inputs and
     Buttons](http://davidwalsh.name/html5-buttons) (Semantic differences
@@ -8562,7 +8561,7 @@ classes.
     Element](https://css-tricks.com/use-button-element/) (The
     multifaceted button element)
 
-### Displaying Content: Tables and Cards: Objectives and Outcomes
+<h4>Displaying Content: Tables and Cards: Objectives and Outcomes
 
 In this lesson we will be reviewing the support for tables in Bootstrap.
 In addition we will look at a versatile component called card that
@@ -8574,7 +8573,7 @@ you will be able to:
 
 -   Display content using a card on a web page.
 
-### Bootstrap Tables and Cards
+<h4>Bootstrap Tables and Cards
 
 Let\'s briefly discuss about bootstrap tables.
 
@@ -8655,7 +8654,7 @@ Card is a very important company that can be effectively used for
 displaying content. It\'s time to move on to the next exercise where we
 will use tables and cards to display some content in our web page.
 
-### Exercise (Video): Displaying Content: Tables and Cards
+<h4>Exercise (Video): Displaying Content: Tables and Cards
 
 Our next exercise looks at ways of displaying content on our web page.
 
@@ -8963,9 +8962,9 @@ displaying content in our web page.
 Now that we have completed this exercise, it\'s a good time to do a git
 commit.
 
-### Exercise (Instructions): Displaying Content: Tables and Cards
+<h4>Exercise (Instructions): Displaying Content: Tables and Cards</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, we will examine tables and Bootstrap classes for
 styling tables. We will also examine Bootstrap cards and their use for
@@ -8976,14 +8975,14 @@ displaying content. At the end of this exercise, you will be able to:
 
 -   Display content in a web page using Bootstrap cards
 
-### Set up for the Exercise
+<h4>Set up for the Exercise</h4>
 
 -   In this exercise we will be modifying the <i>aboutus.html</i> page to add
     a table, a card with some content and a card with a quotation.
 
 -   Let us get started by opening <i>aboutus.html</i> page in a text editor.
 
-### Bootstrap Tables
+<h4>Bootstrap Tables</h4>
 
 -   In this part, we will add a new row of content after the Corparate
     Leadership row in the page. We first start by adding a row and
@@ -9046,7 +9045,7 @@ Note the use of <i>table-responsive</i> class to create a responsive table,
 and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the
 table.
 
-### Bootstrap Cards
+<h4>Bootstrap Cards</h4>
 
 -   Next we add a card to the second div in the first content row as
     follows, updating the div first by adding the classes col-12
@@ -9097,22 +9096,22 @@ attribution of the quote to its origin.
 -   Remember to commit the changes to your Git repository with the
     message "Tables and Cards"
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, we constructed a table and styled it with the
 Bootstrap table classes. Thereafter, we added two cards to the web page.
 We also saw the use of the description list and the block quote in the
 content.
 
-### Displaying Content: Additional Resources
+<h4>Displaying Content: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a><br/>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a><br/>
 
-### Bootstrap Classes
+<h4>Bootstrap Classes</h4>
 
 -   [Bootstrap Tables](http://getbootstrap.com/docs/4.0/content/tables/)
 
@@ -9121,7 +9120,7 @@ content.
 -   [Bootstrap
     Blockquote](http://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
-### Images and Media: Objectives and Outcomes
+<h4>Images and Media: Objectives and Outcomes</h4>
 
 In this lesson we will look at the use of images and media on websites.
 In particular we will review the Bootstrap classes to support the
@@ -9137,7 +9136,7 @@ able to:
 
 -   Use thumbnails and media components using Bootstrap classes
 
-### Images and Media
+<h4>Images and Media</h4>
 
 No self-respect webpage designers, would today design webpages without
 including some form of images or media on their websites.
@@ -9239,7 +9238,7 @@ the webpage or the website that we have been working on.
 We\'ll make some changes to the index.html page by including some images
 and content using the media object.
 
-### Exercise (Video): Images and Media
+<h4>Exercise (Video): Images and Media</h4>
 
 Time to move onto the next exercise.
 
@@ -9418,9 +9417,9 @@ use of images and media object in our web page.
 This is a good time, again, to do a good comment, with the message,
 images and media.
 
-### Exercise (Instructions): Images and Media
+<h4>Exercise (Instructions): Images and Media</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, we will explore the Bootstrap classes to support image
 and media on a website. In particular, we will look at how to include
@@ -9431,11 +9430,11 @@ At the end of this exercise you will be able to:
 
 -   Use a media object to include images and description on a website
 
-### Exercise Resources
+<h4>Exercise Resources</h4>
 
 <b>Img.zip</b>
 
-### Set up for the Exercise
+<h4>Set up for the Exercise</h4>
 
 -   Download the img.zip file that we provide above and unzip it in the
     <i>conFusion</i> folder. This should create a folder named <i>img</i> there.
@@ -9443,7 +9442,7 @@ At the end of this exercise you will be able to:
 -   We will now update the <i>index.html</i> file to include images and media
     objects on the web page.
 
-### Adding the Restaurant Logo
+<h4>Adding the Restaurant Logo</h4>
 
 -   We will now add the restaurant logo to the Jumbotron. In index.html
     go to the header row inside the jumbotron and replace the second
@@ -9470,7 +9469,7 @@ Note the inclusion of the logo in the navbar.
 -   Repeat the above two steps for the <i>aboutus.html</i> and the
     <i>contactus.html</i> page also to update their navbars and jumbotrons.
 
-### Adding Media Objects
+<h4>Adding Media Objects</h4>
 
 -   Next we will work with the content on the web page and use the media
     object classes to style the content in the content rows.
@@ -9525,9 +9524,9 @@ images and media in a web page. We saw how we can include responsive
 images on a web page. In addition, we saw the use of images within a
 media object to style and display content.
 
-### Images and Media: Additional Resources
+<h4>Images and Media: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf (8 slides)</a>
 
@@ -9537,13 +9536,13 @@ media object to style and display content.
 
 (download this to conFusion, unzip it to create an "img" folder there)
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   <ins><a href="http://getbootstrap.com/docs/4.0/content/images/">Bootstrap Image Classes</a></ins>
 
 -   <a href="http://getbootstrap.com/docs/4.0/layout/media-object/">Bootstrap Media Object Classes</a>
 
-### Alerting Users: Objectives and Outcomes
+<h4>Alerting Users: Objectives and Outcomes</h4>
 
 In this lesson we examine various ways of delivering alert information
 to users. We examine labels, badges, alerts and progress bars. At the
@@ -9556,7 +9555,7 @@ end of this lesson, you will be able to:
 -   Appreciate the use of progress bars and controlling the state of the
     progress bars.
 
-### Alerting Users
+<h4>Alerting Users</h4>
 
 You may have several reasons for drawing the attention of visitors to
 certain parts of your website or maybe you want to alert the users about
@@ -9663,7 +9662,7 @@ Now that we have looked at various ways of alerting users, let\'s do a
 simple exercise next and use badges in our web page to draw the
 attention of users.
 
-### Exercise (Video): Alerting Users
+<h4>Exercise (Video): Alerting Users</h4>
 
 In this short exercise, we\'re going to make use of badges to add badges
 to our web page, so that we can highlight some information for our
@@ -9697,16 +9696,16 @@ This completes this exercise.
 This is a good time to see if the changes to your good repository, with
 the message alerting users.
 
-### Exercise (Instructions): Alerting Users
+<h4>Exercise (Instructions): Alerting Users</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this short exercise we will examine the use of badges as a way of
 alerting users. At the end of this exercise, you will be able to:
 
 -   Add a badge to your web page using the Bootstrap badge class
 
-### Adding Badges
+<h4>Adding Badges</h4>
 
 -   We will continue to edit the <i>index.html</i> file. In this file, we
     will add a badge <i>HOT</i> next to the name of the dish Uthappizza in
@@ -9727,13 +9726,13 @@ alerting users. At the end of this exercise, you will be able to:
 -   Remember to commit the changes to the Git repository with message
     "Alerting Users".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this short exercise, we learnt how to add badges to our web page.
 
-### Alerting Users: Additional Resources
+<h4>Alerting Users: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Alerting-Users.pdf">08-Alerting-Users.pdf (8 slides)</a>
 
@@ -9748,7 +9747,7 @@ Bootstrap Resources
 -   [Bootstrap
     Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
-### Assignment 2: Bootstrap CSS Components (week 2)
+<h4>Assignment 2: Bootstrap CSS Components (week 2)</h4>
 
 It\'s time to move on to the second assignment in this course.
 
@@ -9843,9 +9842,9 @@ The wordings here can occupy the remaining half of the scripts.
 
 You can use the column classes to adjust these things.
 
-### Assignment 2: Resources
+<h4>Assignment 2: Resources</h4>
 
-### Assignment Screenshots
+<h4>Assignment Screenshots</h4>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 88. assignment 2 (195) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9874,7 +9873,7 @@ height="8.86311789151356in"}
 height="20.775930664916885in"}
 ----------->
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Navbar](http://getbootstrap.com/docs/4.0/components/navbar/)
 
@@ -9914,7 +9913,7 @@ height="20.775930664916885in"}
 -   [Bootstrap
     Progress](http://getbootstrap.com/docs/4.0/components/progress/)
 
-### UI Design and Prototyping: Objectives and Outcomes
+<h4>UI Design and Prototyping: Objectives and Outcomes</h4>
 
 Now that you are more clear about your project idea, it\'s time to
 conceive how your project is going to look like for the end-users.
@@ -9945,17 +9944,17 @@ At the end of this lesson, you should be able to:
 -   Construct a prototype to enable understanding the flow of your
     application
 
-### UI Design and Prototyping Report Template
+<h4>UI Design and Prototyping Report Template</h4>
 
-### Project Title
+<h4>Project Title</h4>
 
-### 1. Introduction
+<h4>1. Introduction</h4>
 
 -   Give a brief introduction to your project and the list of features.
     Summarize in a few sentences what you proposed in the ideation
     report.
 
-### 2. User Interface Design and Prototype
+<h4>2. User Interface Design and Prototype</h4>
 
 -   Give some sample user interface layouts for your application. You
     can use either wireframe diagrams or prototyping tools to construct
@@ -9964,7 +9963,7 @@ At the end of this lesson, you should be able to:
 -   Briefly explain the rationale behind designing your UI and how it is
     geared towards supporting the list of features for your application.
 
-### 3. Navigation Structure
+<h4>3. Navigation Structure</h4>
 
 -   Give a brief overview of the navigation structure for your
     application.
@@ -9974,13 +9973,13 @@ At the end of this lesson, you should be able to:
     also construct a prototype using one of the prototyping tools to
     illustrate this.
 
-### 4. References
+<h4>4. References</h4>
 
 -   Provide any references relevant to the report.
 
-### UI Design and Prototyping: Additional Resources
+<h4>UI Design and Prototyping: Additional Resources</h4>
 
-### Wireframing, Mockups and UI Design
+<h4>Wireframing, Mockups and UI Design</h4>
 
 -   [Wireframe.cc](https://wireframe.cc/)
 
@@ -10003,13 +10002,13 @@ At the end of this lesson, you should be able to:
 -   [Free Bootstrap Wireframing Set for
     PowerPoint](https://onextrapixel.com/free-bootstrap-wireframing-set-for-powerpoint/)
 
-### UI Templates
+<h4>UI Templates</h4>
 
 -   [Bootstrap Expo](http://expo.getbootstrap.com/)
 
 -   [Ionic Showcase](http://showcase.ionicframework.com/)
 
-### Information Architecture
+<h4>Information Architecture</h4>
 
 -   [A visual vocabulary for describing information architecture and
     interaction design](http://www.jjg.net/ia/visvocab/)
@@ -10020,7 +10019,7 @@ At the end of this lesson, you should be able to:
     and Beyond (2nd Edition) (Voices That
     Matter)](http://www.amazon.com/The-Elements-User-Experience-User-Centered/dp/0321683684/ref=pd_cp_14_1?ie=UTF8&refRID=0RXJWKFHY0TNF5QM2764)
 
-### Bootstrap JavaScript Components: Objectives and Outcomes
+<h4>Bootstrap JavaScript Components: Objectives and Outcomes</h4>
 
 In this module, we will be learning about Bootstrap\'s JavaScript
 components.
@@ -10041,7 +10040,7 @@ At the end of this module, you will be able to:
     to control the JS components without writing a single line of JS
     code
 
-### Bootstrap JavaScript Components (week 3)
+<h4>Bootstrap JavaScript Components (week 3)</h4>
 
 In the previous module, we examined the number of Bootstrap components
 that are purely based around CSS.
@@ -10194,11 +10193,11 @@ We will defer this to the next module, where we will examine how you can
 write simple JavaScript code based upon the JQuery syntax to add more
 functionality to your JavaScript-based Bootstrap components.
 
-### Bootstrap JavaScript Components: Additional Resources
+<h4>Bootstrap JavaScript Components: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-JS.pdf">08-Bootstrap_JS.pdf (7 slides)</a>
+-	<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-JS.pdf">08-Bootstrap_JS.pdf (7 slides)</a>
 
 <b>Bootstrap Resources</b>
 
@@ -10211,7 +10210,7 @@ functionality to your JavaScript-based Bootstrap components.
 -   [Bootstrap Programmatic
     API](http://getbootstrap.com/docs/4.0/getting-started/javascript/#programmatic-api)
 
-### Tabs and Tabbed Navigation: Objectives and Outcomes
+<h4>Tabs and Tabbed Navigation: Objectives and Outcomes</h4>
 
 In this lesson, we examine tabs and tabbed navigation. Tabs require
 Javascript support to be enabled for navigating the content. At the end
@@ -10222,7 +10221,7 @@ of this lesson you will be able to:
 -   Use tab panes to organize the content and navigate the content using
     tabbed navigation
 
-### Tabs, Pills and Tabbed Navigation
+<h4>Tabs, Pills and Tabbed Navigation</h4>
 
 In the previous lesson I referred to the nav class that is used in
 Bootstrap for creating navigation structures.
@@ -10293,7 +10292,7 @@ That is what we\'re going to explore in the exercise next.
 We will use tabbed navigation and then use tab content and tab panes to
 organize the actual content that will be displayed in our web page.
 
-### Exercise (Video): Tabs
+<h4>Exercise (Video): Tabs</h4>
 
 In this exercise, we\'re going to explore Bootstrap\'s tab-based
 navigation, Bootstrap\'s support for tabs, and how tabs can be used to
@@ -10526,9 +10525,9 @@ content.
 This is also a good time for you to do a Git Comment with the message
 tabs.
 
-### Exercise (Instructions): Tabs
+<h4>Exercise (Instructions): Tabs</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we will explore Bootstrap tabs and tabbed navigation.
 In particular we will learn about the use of tabs for organizing the
@@ -10542,7 +10541,7 @@ content. At the end of this exercise you will be able to:
 -   Facilitate navigation among the tab panes using the tabbed
     navigation elements
 
-### Adding Tab Navigation Elements
+<h4>Adding Tab Navigation Elements</h4>
 
 -   Open the <i>aboutus.html</i> page and move to the second content row
     containing the details of the corporate leadership of the
@@ -10582,7 +10581,7 @@ contains the class <i>active</i>. This tab will be the open tab when we view
 the web page. We can switch to the other tabs using the tabbed
 navigation that we just set up.
 
-### Adding Tab Content
+<h4>Adding Tab Content</h4>
 
 -   The details about the various corporate leaders should now be
     organized into various tab panes. To begin this, we will enclose the
@@ -10615,7 +10614,7 @@ with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
     specified to indicate that the content should be visible on the web
     page by default.
 
-### Modifying the tab-content CSS
+<h4>Modifying the tab-content CSS</h4>
 
 -   We now modify the CSS styles for the tab-content class in the
     <i>mystyles.css</i> file as follows:
@@ -10635,19 +10634,19 @@ clean tab like appearance.
 
 -   Finally do a Git commit with the message "Tabs".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise we learnt the use of tabbed navigation, tab content and
 tab panes and their use in organizing and navigating within the content
 in a page.
 
-### Tabs and Tabbed Navigation: Additional Resources
+<h4>Tabs and Tabbed Navigation: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Tabs-Pills-Navigation.pdf">08-Tabs-Pills-Navigation.pdf (3 slides)</a>
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Navs](http://getbootstrap.com/docs/4.0/components/navs/)
 
@@ -10660,7 +10659,7 @@ in a page.
 -   [Bootstrap Tabs Javascript
     Behavior](http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior)
 
-### Hide and Seek: Objectives and Outcomes
+<h4>Hide and Seek: Objectives and Outcomes</h4>
 
 In this lesson we learn about the collapse javascript plugin that allows
 us to hide and reveal content. In particular we explore its use in
@@ -10670,7 +10669,7 @@ creating an accordion. At the end of this lesson, you will be able to:
 
 -   Construct the accordion using cards
 
-### Collapse and Accordion
+<h4>Collapse and Accordion</h4>
 
 Let\'s now talk about a very useful plugin in Bootstrap called as the
 Collapse.
@@ -10785,7 +10784,7 @@ Although, of course, the Coursera page actually doesn\'t use Bootstrap.
 We\'ll move to the next exercise where we will see how we construct the
 Accordion for showing our corporate leadership information.
 
-### Exercise (Video): Accordion
+<h4>Exercise (Video): Accordion</h4>
 
 Accordions are one of those annoying instruments that some of you may
 have seen already.
@@ -10953,9 +10952,9 @@ With this, we complete this exercise.
 This is a good time for you to do a git commit with the message
 accordion..
 
-### Exercise (Instructions): Accordion
+<h4>Exercise (Instructions): Accordion</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we explore the use of the collapse Javascript plugin
 together with card component to create an accordion to show/hide content
@@ -10964,7 +10963,7 @@ in a web page. At the end of this exercise, you will be able to:
 -   Design an accordion using the collapse plugin together with the card
     component.
 
-### Converting Tabs to Accordion
+<h4>Converting Tabs to Accordion</h4>
 
 -   First delete the \<ul\> class that was introduced for the tabbed
     navigation.
@@ -11051,14 +11050,14 @@ in a web page. At the end of this exercise, you will be able to:
 
 -   Finally do a Git commit with the message "Accordion".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise we constructed the accordion using the collapse plugin
 together with the card component.
 
-### Hide and Seek: Additional Resources
+<h4>Hide and Seek: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Collapse.pdf">09-Collapse.pdf (3 slides)</a>
 
@@ -11070,7 +11069,7 @@ together with the card component.
 -   [Bootstrap Accordion
     Example](http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example)
 
-### Revealing Content: Objectives and Outcomes
+<h4>Revealing Content: Objectives and Outcomes</h4>
 
 In this lesson we look at several ways of presenting information to
 users by overlaying the information on top of the page. In particular,
@@ -11084,7 +11083,7 @@ will be able to:
 
 -   Reveal and hide modals when the user clicks on a link or button
 
-### Tooltips, Popovers and Modals
+<h4>Tooltips, Popovers and Modals</h4>
 
 Let us now try to understand several mechanisms to enable us to display
 information to the users overlaying the content of your web page.
@@ -11202,7 +11201,7 @@ index.html page.
 We\'ll also create a modal that allows the user to type in information
 for logging in into our web page.
 
-### Exercise (Video): Tooltips and Modals
+<h4>Exercise (Video): Tooltips and Modals</h4>
 
 In the lecture before, we saw several ways of revealing content to the
 users.
@@ -11490,9 +11489,9 @@ use of models to display content.
 This is a good time for you to do a git-commint with the message tool
 tips and models.
 
-### Exercise (Instructions): Tooltips and Modals
+<h4>Exercise (Instructions): Tooltips and Modals</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we will examine how to add tooltips to a web page. In
 addition we look at adding modals to a web page. At the end of this
@@ -11503,7 +11502,7 @@ exercise, you will be able to:
 -   Add modals that are revealed when the user clicks on a link or a
     button in the web page.
 
-### Adding a Tooltip
+<h4>Adding a Tooltip</h4>
 
 -   Let us now switch to the <i>index.html</i> page. We will now add a
     tooltip to this page. The tooltip will be added to the "Reserve
@@ -11534,7 +11533,7 @@ tooltip.
 This script is added right after the line that imports the
 bootstrap.min.js file.
 
-### Adding a Modal
+<h4>Adding a Modal</h4>
 
 -   In the next step we introduce the modal to the web page. To set up
     the modal, add the following code right after the navbar at the top
@@ -11597,18 +11596,18 @@ We are introducing another link to the right of the navbar using the
 -   Save all the changes and do a Git commit with the message "Tooltip
     and Modal".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise we explored tooltips and modals as two ways of
 revealing content for the user upon clicking on a button or a link.
 
-### Revealing Content: Additional Resources
+<h4>Revealing Content: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Tooltips-Popovers-Modals.pdf">09-Tooltips-Popovers-Modals.pdf (4 slides)</a>
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap
     Tooltips](http://getbootstrap.com/docs/4.0/components/tooltips/)
@@ -11619,7 +11618,7 @@ revealing content for the user upon clicking on a button or a link.
 -   [Bootstrap
     Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
-### Carousel: Objectives and Outcomes
+<h4>Carousel: Objectives and Outcomes</h4>
 
 In this lesson we will examine the use of the Carousel component in our
 web page. We will examine the configuration of the various aspects of
@@ -11631,7 +11630,7 @@ the carousel. At the end of this lesson you will be able to:
 
 -   Add controls to the carousel to manually control it
 
-### Carousel
+<h4>Carousel</h4>
 
 Let\'s take a look at yet another interesting component in bootstrap,
 called as the bootstrap carousel.
@@ -11672,7 +11671,7 @@ That is what we\'re going to examine in this next exercise, where we
 will add a carousel to our web page, the index.html page and then create
 the manual controls for it.
 
-### Exercise (Video): Carousel
+<h4>Exercise (Video): Carousel</h4>
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -11875,9 +11874,9 @@ This completes this exercise.
 This is a good time for you to do a git-commit with the message
 carousel.
 
-### Exercise (Instructions): Carousel
+<h4>Exercise (Instructions): Carousel</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we will examine the carousel component and add it to
 the web page. We will examine the configuration of the carousel and
@@ -11890,7 +11889,7 @@ able to:
 
 -   Add controls to the carousel to manually control it
 
-### Adding a row for the carousel
+<h4>Adding a row for the carousel</h4>
 
 -   The carousel will be added to the <i>index.html</i> page. In this page,
     go to the top of the container div that contains the content of the
@@ -11904,7 +11903,7 @@ able to:
 </div>
 ```
 
-### Adding a Carousel
+<h4>Adding a Carousel</h4>
 
 -   Next, add the basic carousel div inside the content row that you
     just added as follows:
@@ -11914,7 +11913,7 @@ able to:
 </div>
 ```
 
-### Adding Carousel Content
+<h4>Adding Carousel Content</h4>
 
 -   Next add the content inside the carousel as follows:
 
@@ -11940,7 +11939,7 @@ able to:
 Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.
 
-### Adding CSS Classes
+<h4>Adding CSS Classes</h4>
 
 -   Add the following CSS classes to the <i>styles.css</i> file:
 
@@ -11961,7 +11960,7 @@ remaining parts from the content rows below.
 }
 ```
 
-### Adding Carousel Controls
+<h4>Adding Carousel Controls</h4>
 
 -   Next, we will add manual controls to the carousel so that we can
     manually move among the slides. Add the following code to the bottom
@@ -11991,27 +11990,27 @@ remaining parts from the content rows below.
 
 -   Do a Git commit with the message "Carousel".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise we learnt about the carousel component and how to add
 it to a web page.
 
 We also learnt about introducing manual controls to the carousel.
 
-### Carousel: Additional Resources
+<h4>Carousel: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Carousel.pdf">09-Carousel.pdf (3 slides)</a>
 
 Open file
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap
     Carousel](http://getbootstrap.com/docs/4.0/components/carousel/)
 
-### Assignment 3: Bootstrap JavaScript Components
+<h4>Assignment 3: Bootstrap JavaScript Components</h4>
 
 We have reached the end of the third module of this course.
 
@@ -12071,9 +12070,9 @@ That is your third task in this assignment.
 
 Hope you enjoyed creating this new variation of the index.html page.
 
-### Assignment 3: Resources
+<h4>Assignment 3: Resources</h4>
 
-### Assignment Screenshots
+<h4>Assignment Screenshots</h4>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 90.  (xx) ------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -12089,7 +12088,7 @@ Hope you enjoyed creating this new variation of the index.html page.
 height="4.461420603674541in"}
 ------------->
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Buttons
     Checkbox/Radio](http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons)
@@ -12100,7 +12099,7 @@ height="4.461420603674541in"}
 -   [Bootstrap
     Forms](http://getbootstrap.com/docs/4.0/components/forms/)
 
-### Bootstrap and JQuery: Objectives and Outcomes (week 4)
+<h4>Bootstrap and JQuery: Objectives and Outcomes (week 4)</h4>
 
 In this lesson we examine the use of Bootstrap, JQuery and JavaScript
 together to control Bootstrap JS components. Many of the Bootstrap\'s JS
@@ -12114,7 +12113,7 @@ behavior. At the end of this lesson, you will be able to:
     component methods and JQuery methods for controlling Bootstrap JS
     components
 
-### Bootstrap and JQuery
+<h4>Bootstrap and JQuery</h4>
 
 Let us now spend some time trying to understand how Bootstrap and jQuery
 work together to support the Bootstrap\'s JavaScript components.
@@ -12689,7 +12688,7 @@ which will be used to control the sliding action of the carousel.
 Which means that we can pause and resume the sliding action of our
 carousel. And we\'ll activate these buttons from JavaScript.
 
-### Exercise (Video): Bootstrap and JQuery (9)
+<h4>Exercise (Video): Bootstrap and JQuery (9)</h4>
 
 Many of the Bootstrap\'s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -12874,7 +12873,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-### Exercise (Instructions): Bootstrap and JQuery
+<h4>Exercise (Instructions): Bootstrap and JQuery</h4>
 
 Many of the Bootstrap\'s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -13056,7 +13055,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-### Exercise (Video): More Bootstrap and JQuery
+<h4>Exercise (Video): More Bootstrap and JQuery</h4>
 
 In the previous exercise, we saw how we can leverage the
 JavaScript-based controls that are provided for the Bootstrap JavaScript
@@ -13250,9 +13249,9 @@ as pertinent in this particular case.
 With this, we complete this exercise. It\'s time for you to do a Git
 commit with the message more Bootstrap and jQuery.
 
-### Exercise (Instructions): More Bootstrap and JQuery
+<h4>Exercise (Instructions): More Bootstrap and JQuery</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise we extend the previous exercise of controlling the
 carousel by using more JQuery and JavaScript to write JavaScript code to
@@ -13264,7 +13263,7 @@ to:
 
 -   Use JS code to control the Bootstrap JS component
 
-### Modifying the Carousel Control Buttons
+<h4>Modifying the Carousel Control Buttons</h4>
 
 -   We will modify the carousel control buttons in the carousel
     component that we already included in the index.html page. Instead
@@ -13282,7 +13281,7 @@ We are adding a single button inside a button group with the ID
 carouselButton. The buttons will show either as a pause or play button
 based on the current behavior of the carousel.
 
-### Modifying JavaScript Code
+<h4>Modifying JavaScript Code</h4>
 
 -   Finally we modify the JavaScript code to control the behavior of the
     carousel and also show the appropriate button:
@@ -13304,30 +13303,30 @@ $("#carouselButton").click(function(){
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise we learnt more about Bootstrap\'s JS component methods
 and how they can be used together with JQuery and JavaScript to control
 the behavior of a Bootstrap JS component.
 
-### Bootstrap and JQuery: Additional Resources
+<h4>Bootstrap and JQuery: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Bootstrap-JQuery.pdf">09-Bootstrap-JQuery.pdf (14 slides)</a>
 
-### Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 -   [Bootstrap Carousel
     Methods](http://getbootstrap.com/docs/4.0/components/carousel/#methods)
 
-### JQuery
+<h4>JQuery</h4>
 
 -   [JQuery](http://jquery.com/)
 
 -   [W3Schools JQuery](http://www.w3schools.com/jquery/default.asp)
 
-### CSS Preprocessors: Objectives and Outcomes
+<h4>CSS Preprocessors: Objectives and Outcomes</h4>
 
 In this lesson we explore CSS preprocessors, Less and Sass. We learn the
 salient features of both the processors and see how we can generate CSS
@@ -13338,7 +13337,7 @@ to:
 
 -   Compile the Less and Sass code into the corresponding CSS classes
 
-### CSS Preprocessors: Less and Sass
+<h4>CSS Preprocessors: Less and Sass</h4>
 
 This particular lesson deals with CSS preprocessors, in particular Less
 and Sass.
@@ -13537,7 +13536,7 @@ First, we\'ll do an exercise based upon Less.
 
 Then we\'ll follow that up with an exercise based on Sass.
 
-### Exercise: Less
+<h4>Exercise: Less</h4>
 
 It\'s time to move on to the next exercise, called Exercise: Less.
 
@@ -13664,9 +13663,9 @@ automatically convert that into the corresponding CSS code.
 At this point, you may wish to save the changes to your Git repository
 with the message Exercise: Less.
 
-### Exercise (Instructions): Less
+<h4>Exercise (Instructions): Less</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to write Less code and then
 automatically transform it into the corresponding CSS code. At the end
@@ -13676,7 +13675,7 @@ of this exercise you will be able to:
 
 -   Automatically convert the Less code into CSS
 
-### Adding Less Variables
+<h4>Adding Less Variables</h4>
 
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the
     css folder, create a file named <i>styles.less</i>. We will add the Less
@@ -13696,7 +13695,7 @@ of this exercise you will be able to:
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
 
-### Less Mixins
+<h4>Less Mixins</h4>
 
 -   Next we add a mixin into the file as follows:
 
@@ -13758,7 +13757,7 @@ body{
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
 
-### Nesting Selectors
+<h4>Nesting Selectors</h4>
 
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Less, as follows:
@@ -13786,7 +13785,7 @@ defining the classes.
 }
 ```
 
-### Installing and using the lessc Compiler
+<h4>Installing and using the lessc Compiler</h4>
 
 -   Now we install the node module to support the compilation of the
     Less file. To do this, type the following at the command prompt:
@@ -13815,12 +13814,12 @@ lessc styles.less styles.css
 
 -   You can now do a Git commit with the message "Less".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you learnt to write Less code and then automatically
 generating the CSS file by compiling the Less code.
 
-### Exercise: Scss
+<h4>Exercise: Scss</h4>
 
 We\'ll now move on to the next exercise, where we will use SCSS syntax
 to define our SCSS classes and automatically convert them into their
@@ -13945,9 +13944,9 @@ This completes our exercise.
 This may be a good time for you to do a good commit with the message
 exercise SCSS.
 
-### Exercise (Instructions): Scss
+<h4>Exercise (Instructions): Scss</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to write Scss code and then
 automatically transform it into the corresponding CSS code. At the end
@@ -13957,7 +13956,7 @@ of this exercise you will be able to:
 
 -   Automatically convert the Scss code into CSS
 
-### Adding Scss Variables
+<h4>Adding Scss Variables</h4>
 
 -   Open the <i>conFusion</i> project in a text editor of your choice. In the
     css folder, create a file named <i>styles.scss</i>. We will add the Scss
@@ -13978,7 +13977,7 @@ $carousel-item-height: 300px;
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
 
-### Scss Mixins
+<h4>Scss Mixins</h4>
 
 -   Next we add a mixin into the file as follows:
 
@@ -14041,7 +14040,7 @@ body{
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
 
-### Nesting Selectors
+<h4>Nesting Selectors</h4>
 
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
@@ -14069,7 +14068,7 @@ defining the classes.
 }
 ```
 
-### Installing and using the node-sass module
+<h4>Installing and using the node-sass module</h4>
 
 -   Now we install the node module to support the compilation of the
     Scss file to a CSS file. To do this, type the following at the
@@ -14099,18 +14098,18 @@ npm run scss
 
 -   You can now do a Git commit with the message "Sass".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you learnt to write Scss code and then automatically
 generating the CSS file by compiling the Scss code.
 
-### CSS Preprocessors: Additional Resources
+<h4>CSS Preprocessors: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-CSS-Preprocessors.pdf">10-CSS-Preprocessors.pdf (11 slides)</a>
 
-### Less and Sass Resources
+<h4>Less and Sass Resources</h4>
 
 -   [Less Getting Started](http://lesscss.org/)
 
@@ -14126,7 +14125,7 @@ generating the CSS file by compiling the Scss code.
 
 -   [Node-sass NPM package](https://www.npmjs.com/package/node-sass)
 
-### Assignment 4: Bootstrap, JQuery and Sass
+<h4>Assignment 4: Bootstrap, JQuery and Sass</h4>
 
 We come to the final assignment of this course. In this fourth
 assignment, you\'re going to work with bootstraps, JQuery support and
@@ -14191,9 +14190,9 @@ background pale color is applied to the body of your model.
 And upon completing this assignment, you may wish to do a good comment
 to save your changes with the message assignment four.
 
-### Assignment 4: Additional Resources
+<h4>Assignment 4: Additional Resources</h4>
 
-### Screenshots
+<h4>Screenshots</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 110. reserve a table (279) ---------------------------------->
@@ -14221,14 +14220,14 @@ height="4.163497375328084in"}
 height="4.349809711286089in"}
 ---------->
 
-### Bootstrap Documentation
+<h4>Bootstrap Documentation</h4>
 
 -   [Modals](http://getbootstrap.com/docs/4.0/components/modal/)
 
 -   [Modal
     Methods](http://getbootstrap.com/docs/4.0/components/modal/#methods)
 
-### Building and Deployment: Objectives and Outcomes
+<h4>Building and Deployment: Objectives and Outcomes</h4>
 
 In this lesson you will learn about building and deploying your web
 project.
@@ -14241,7 +14240,7 @@ At the end of this lesson, you will be able to:
 
 -   Prepare your project for being hosted on a web server
 
-### Building and Deployment
+<h4>Building and Deployment</h4>
 
 So far, we have been concentrating on designing and implementing our
 website, be it HTML, CSS, or JavaScript code.
@@ -14432,7 +14431,7 @@ task.
 We\'ll look at some of these through examples in the next exercise and
 also the next lesson where we will look at task runners.
 
-### NPM Scripts
+<h4>NPM Scripts</h4>
 
 As a first approach to automating our tasks, let\'s look at the example
 of using NPM scripts. Indeed, we had already started using NPM scripts
@@ -14496,9 +14495,9 @@ scripts in the package.json file, and then execute the scripts,
 sometimes automatically or sometimes manually invoke the scripts in
 order to do the building and deployment of our website.
 
-### Exercise (Instructions): NPM Scripts Part 1
+<h4>Exercise (Instructions): NPM Scripts Part 1</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to set up NPM scripts by modifying the
 <i>package.json</i> file. At the end of this exercise, you will be able to:
@@ -14508,7 +14507,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 
 -   Run multiple NPM scripts in parallel using parallelshell NPM module.
 
-### Moving JS to Script file
+<h4>Moving JS to Script file</h4>
 
 -   Create a folder named <i>js</i> and in that folder create a file named
     <i>scripts.js</i>.
@@ -14527,7 +14526,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
     <i>contactus.html</i>:
 
-### Watching for Changes and Parallelshell
+<h4>Watching for Changes and Parallelshell</h4>
 
 -   First, we install two NPM packages <i>onchange</i> and <i>parallelshell</i> as
     follows:
@@ -14570,12 +14569,12 @@ npm start
 
 -   Do a Git Commit with the message "NPM Scripts Part 1".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, you learnt how to set up a watch task to watch for
 changes to a file and automatically run tasks upon detecting changes.
 
-### Exercise (Video): NPM Scripts Part 2
+<h4>Exercise (Video): NPM Scripts Part 2</h4>
 
 We\'ll now continue our journey with NPM scripts in this next exercise.
 
@@ -15068,9 +15067,9 @@ build and deploy our website.
 This may be a good time for you to do a Get Comment with message NPM
 Scripts, Part 2.
 
-### Exercise (Instructions): NPM Scripts Part 2
+<h4>Exercise (Instructions): NPM Scripts Part 2</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise you will learn to build a distribution folder
 containing the files that can be deployed on a web server hosting your
@@ -15091,7 +15090,7 @@ At the end of this exercise, you will be able to:
 -   Prepare an uglified and concatenated JS file containing all the JS
     code used in your project
 
-### Cleaning up a Distribution Folder
+<h4>Cleaning up a Distribution Folder</h4>
 
 -   Install the <i>rimraf</i> npm module by typing the following at the
     prompt:
@@ -15106,7 +15105,7 @@ npm install --save-dev rimraf@2.6.2
 "clean": "rimraf dist",
 ```
 
-### Copying Fonts
+<h4>Copying Fonts</h4>
 
 -   Your project uses font-awesome fonts. These need to be copied to the
     distribution folder. To help us do this, install the <i>copyfiles</i> NPM
@@ -15148,7 +15147,7 @@ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
 "imagemin": "imagemin img/</i> --out-dir='dist/img'",
 ```
 
-### Preparing the Distribution Folder
+<h4>Preparing the Distribution Folder</h4>
 
 -   Open <i>.gitignore</i> and update it as follows. We do not want the dist
     folder to be checked into the git repository.
@@ -15214,20 +15213,20 @@ npm run build
 -   After verifying that the dist folder is built correctly, you can now
     do a git commit with the message "NPM Scripts Part 2"
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, you learnt the various steps to build the project for
 deployment using NPM scripts.
 
-### Building and Deployment: NPM Scripts: Additional Resources
+<h4>Building and Deployment: NPM Scripts: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a><br/>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a><br/>
 
-### Additional Resources
+<h4>Additional Resources</h4>
 
 -   [Why npm Scripts?](https://css-tricks.com/why-npm-scripts/)
 
@@ -15237,7 +15236,7 @@ deployment using NPM scripts.
 -   [The Command Line for Web
     Design](https://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
 
-### NPM Modules
+<h4>NPM Modules</h4>
 
 -   [onchange](https://github.com/Qard/onchange)
 
@@ -15257,7 +15256,7 @@ deployment using NPM scripts.
 
 -   [htmlmin](https://github.com/jserme/htmlmin)
 
-### Building and Deployment: Task Runners
+<h4>Building and Deployment: Task Runners</h4>
 
 In this lesson you will learn about JavaScript based Task runners, Grunt
 and Gulp. You will learn to automate your web development tasks using
@@ -15267,7 +15266,7 @@ these tools. At the end of this lesson, you will be able to:
 
 -   Define Gulp tasks in code to automate the web development using Gulp
 
-### Task Runners
+<h4>Task Runners</h4>
 
 As we understood from the previous lesson building and deployment of
 websites involves a lot of steps. And we looked at the use of
@@ -15361,7 +15360,7 @@ the npm scripts in the previous lesson and the exercise.
 By showing you the Grunt and the Gulp way of doing the same sort of
 tasks in the exercises that follow this lecture.
 
-### Exercise (Video): Grunt Part 1
+<h4>Exercise (Video): Grunt Part 1</h4>
 
 Time to start Grunting. In this and the next exercise we\'re going to
 repeat the same kind of setup as we did with the NPM scripts.
@@ -15709,9 +15708,9 @@ With this, we complete our grunt part one exercise.
 This is a good time to save your files, to the Git Repository with the
 message Grunt part one.
 
-### Exercise (Instructions): Grunt Part 1
+<h4>Exercise (Instructions): Grunt Part 1</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to use Grunt, the task runner. You will
 install Grunt CLI and install Grunt packages using NPM. Thereafter you
@@ -15723,7 +15722,7 @@ web project. At the end of this exercise, you will be able to:
 -   Configure a Grunt file with a set of tasks to build a web project
     from a source, and serve the built project using a server.
 
-### Installing Grunt
+<h4>Installing Grunt</h4>
 
 -   At the command prompt, type the following to install Grunt
     command-line interface (CLI):
@@ -15744,7 +15743,7 @@ npm install grunt@1.0.2 --save-dev
 
 This will install local per-project Grunt to use within your project.
 
-### Creating a Grunt File
+<h4>Creating a Grunt File</h4>
 
 -   Next you need to create a Grunt file containing the configuration
     for all the tasks to be run when you use Grunt. To do this, create a
@@ -15765,7 +15764,7 @@ module.exports = function (grunt) {
 This sets up the Grunt module ready for including the grunt tasks inside
 the function above.
 
-### Compiling SCSS to CSS
+<h4>Compiling SCSS to CSS</h4>
 
 -   Next, we are going to set up our first Grunt task. The SASS task
     converts the SCSS code to CSS. To do this, you need to include some
@@ -15818,7 +15817,7 @@ module.exports = function (grunt) {
 grunt css
 ```
 
-### Watch and Serve Tasks
+<h4>Watch and Serve Tasks</h4>
 
 -   The final step is to use the Grunt modules watch and browser-sync to
     spin up a web server and keep a watch on the files and automatically
@@ -15874,14 +15873,14 @@ grunt.registerTask('default', ['browserSync', 'watch']);
 
 -   Do a Git commit with the message "Grunt Part 1".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you have learnt how to configure a Grunt file to
 perform several tasks.
 
 You were able to start a server with livereload to serve the web page.
 
-### Exercise (Video): Grunt Part 2
+<h4>Exercise (Video): Grunt Part 2</h4>
 
 Let\'s continue our grunting.
 
@@ -16405,9 +16404,9 @@ After all the grunting, I\'m sure you need to catch your breath.
 Before you do that, make sure to do a good comment with the message
 "Grunt Part two."
 
-### Exercise (Instructions): Grunt Part 2
+<h4>Exercise (Instructions): Grunt Part 2</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will continue to learn to use Grunt, the task
 runner.
@@ -16420,7 +16419,7 @@ build your web project.
 -   Configure a Grunt file with a set of tasks to build your web project
     from a source.
 
-### Copying the Files and Cleaning Up the Dist Folder
+<h4>Copying the Files and Cleaning Up the Dist Folder</h4>
 
 -   Next you will install the Grunt modules to copy over files to a
     distribution folder named dist, and clean up the dist folder when
@@ -16473,7 +16472,7 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 -   Remember to add the comma after the end of the SASS task.
 
-### Compressing and Minifying Images
+<h4>Compressing and Minifying Images</h4>
 
 -   Next we install the grunt-contrib-imagemin module and use it to
     process the images. To install this module type at the prompt:
@@ -16498,7 +16497,7 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
         }
 ```
 
-### Preparing the Distribution Folder and Files
+<h4>Preparing the Distribution Folder and Files</h4>
 
 -   We are now going to use the Grunt <i>usemin</i> module together with
     <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the
@@ -16591,13 +16590,13 @@ grunt.registerTask('build', [
 grunt build
 ```
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise you have learnt how to configure a Grunt file to
 perform several tasks. You were able to build a distribution folder for
 your web project.
 
-### Exercise (Video): Gulp Part 1
+<h4>Exercise (Video): Gulp Part 1</h4>
 
 Now that we have granted enough, it\'s time to Gulp.
 
@@ -16850,9 +16849,9 @@ In the second part, we will prepare the distribution folder.
 This is a good time for you to do a git-commit with the message Gulp
 part 1.
 
-### Exercise (Instructions): Gulp Part 1
+<h4>Exercise (Instructions): Gulp Part 1</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will learn to use Gulp, the task runner. You will
 install Gulp CLI and install Gulp plugins using NPM. Thereafter you will
@@ -16885,7 +16884,7 @@ npm install gulp@3.9.1 --save-dev
 
 This will install local per-project Gulp to use within your project.
 
-### Install Gulp Plugins for SASS and Browser-Sync
+<h4>Install Gulp Plugins for SASS and Browser-Sync</h4>
 
 -   Install all the Gulp plugins that you will need for this exercise.
     To do this, type the following at the command prompt:
@@ -16894,13 +16893,13 @@ This will install local per-project Gulp to use within your project.
 npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 ```
 
-### Creating a Gulp File
+<h4>Creating a Gulp File</h4>
 
 -   Next you need to create a Gulp file containing the tasks to be run
     when you use Gulp. To do this, create a file named <i>gulpfile.js</i> in
     the <i>conFusion</i> folder.
 
-### Loading Gulp Plugins
+<h4>Loading Gulp Plugins</h4>
 
 -   Load in all the Gulp plugins by including the following code in the
     Gulp file:
@@ -16912,7 +16911,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync');
 ```
 
-### Adding Gulp Tasks for SASS and Browser-Sync
+<h4>Adding Gulp Tasks for SASS and Browser-Sync</h4>
 
 -   Next, we will add the code for the SASS task, the Browser-Sync task
     and the default task as follows:
@@ -16950,7 +16949,7 @@ gulp.task('default', ['browser-sync'], function() {
 
 -   Save the Gulp file
 
-### Running the Gulp Tasks
+<h4>Running the Gulp Tasks</h4>
 
 -   At the command prompt, if you type <i>gulp</i> it will run the default
     task:
@@ -16961,15 +16960,15 @@ gulp
 
 -   Do a Git commit with the message "Gulp Part 1".
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-### Exercise (Video): Gulp Part 2
+<h4>Exercise (Video): Gulp Part 2</h4>
 
-### Objectives and Outcomes
+<h4>Objectives and Outcomes</h4>
 
 In this exercise, you will continue to learn to use Gulp.
 
@@ -16981,7 +16980,7 @@ At the end of this exercise, you will be able to:
 -   Configure the Gulp file with a set of tasks to build the
     distribution folder for the web project.
 
-### Copying the Files and Cleaning up the Dist Folder
+<h4>Copying the Files and Cleaning up the Dist Folder</h4>
 
 -   We will now create the tasks for copying the font files and cleaning
     up the distribution folder. To do this we will first install the
@@ -17009,7 +17008,7 @@ gulp.task('copyfonts', function() {
 });
 ```
 
-### Compressing and Minifying Images
+<h4>Compressing and Minifying Images</h4>
 
 -   We will now install the <i>gulp-imagemin</i> plugin and configure the
     <i>imagemin</i> task. To do this we install the plugin and require it as
@@ -17076,31 +17075,31 @@ gulp.task('build',['clean'], function() {
 });
 ```
 
--   ### Save the Gulp file
+-   Save the Gulp file
 
-### Running the Gulp Tasks
+<h4>Running the Gulp Tasks</h4>
 
--   ### At the command prompt, if you type <i>gulp build</i> it will run the build task:
+-   At the command prompt, if you type <i>gulp build</i> it will run the build task:
 
 ```
 gulp build
 ```
 
--   ### Do a Git commit with the message "Gulp Part 2"
+-   Do a Git commit with the message "Gulp Part 2"
 
-### Conclusions
+<h4>Conclusions</h4>
 
 In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-### Building and Deployment: Task Runners: Additional Resources
+<h4>Building and Deployment: Task Runners: Additional Resources</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Task-Runners.pdf">10-Task-Runners.pdf (7 slides)</a>
 
-### Grunt Resources
+<h4>Grunt Resources</h4>
 
 -   [Grunt](http://gruntjs.com/)
 
@@ -17115,7 +17114,7 @@ development tasks.
 -   [The Command Line for Web Design: Automation With
     Grunt](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454)
 
-### Grunt Plugins
+<h4>Grunt Plugins</h4>
 
 -   [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
@@ -17137,7 +17136,7 @@ development tasks.
 
 -   [grunt-filerev](https://github.com/yeoman/grunt-filerev)
 
-### Gulp Resources
+<h4>Gulp Resources</h4>
 
 -   [Gulp](http://gulpjs.com/)
 
@@ -17153,7 +17152,7 @@ development tasks.
 -   [The Command Line for Web Design: Automation with
     Gulp](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-gulp--cms-23642)
 
-### Gulp Plugins
+<h4>Gulp Plugins</h4>
 
 -   [gulp](https://github.com/gulpjs/gulp)
 
@@ -17177,7 +17176,7 @@ development tasks.
 
 -   [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 
-### Tasks
+<h4>Tasks</h4>
 
 -   [Minification](https://en.wikipedia.org/wiki/Minification_(programming))
 
@@ -17185,7 +17184,7 @@ development tasks.
 
 -   [JSHint](http://jshint.com/)
 
-### General Resources
+<h4>General Resources</h4>
 
 -   [Node, Grunt, Bower and Yeoman - A Modern web dev\'s
     Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
@@ -17202,7 +17201,7 @@ development tasks.
 -   [Why I Left Gulp and Grunt for npm
     Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)
 
-### Front-End Web UI Frameworks: Bootstrap 4: Conclusions
+<h4>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h4>
 
 As we come to the conclusion of this course, it\'s time to look back and
 reflect about what we\'ve covered in this course so far.
@@ -17252,15 +17251,15 @@ I hope you enjoyed going through this course.
 And I hope I\'ll see you back again in the next course of the
 specialization.
 
-### Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions
+<h4>Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions</h4>
 
-### PDFs of Presentations
+<h4>PDFs of Presentations</h4>
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
 
 <!- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf ->
 
-### Project Implementation: Objectives and Outcomes
+<h4>Project Implementation: Objectives and Outcomes</h4>
 
 This is the final stretch before you complete your project.
 
@@ -17290,17 +17289,17 @@ At the end of this lesson, you will be able to:
 
 -   Understand the design and development process through the practice.
 
-### Final Report Template
+<h4>Final Report Template</h4>
 
-### Project Title
+<h4>Project Title</h4>
 
-### 1. Introduction
+<h4>1. Introduction</h4>
 
 -   Briefly describe the salient features of your project.
 
-### 2. Design and Implementation
+<h4>2. Design and Implementation</h4>
 
-### Give a detailed system description and design and implementation details.
+<h4>Give a detailed system description and design and implementation details</h4>
 
 In particular, this section should contain:
 
@@ -17317,7 +17316,7 @@ In particular, this section should contain:
 
 -   Include a few screen shots of your website in the report
 
-### 3. Conclusions
+<h4>3. Conclusions</h4>
 
 -   Briefly state what results you obtained from your project.
 
@@ -17326,7 +17325,7 @@ In particular, this section should contain:
 -   Discuss any choices that you might have made differently, in
     hindsight after completing the project.
 
-### 4. References
+<h4>4. References</h4>
 
 -   Give references to any material / websites / books etc. relevant to
     your project.
