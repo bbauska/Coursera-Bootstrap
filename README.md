@@ -693,8 +693,8 @@ computer.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
-   alt="Git: download installer & run setup."
-   width="85%" />
+  width="85%"
+  alt="Git: download installer & run setup." />
 </p>
 <!----------
 {width="5.0in"
@@ -967,8 +967,8 @@ folder, I\'m going to create another file name, test.html.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image015.png?raw=true"
-   alt="Basic Git commands."
-   width="50%" />
+  width="50%"
+  alt="Basic Git commands." />
 </p>
 <!----------
 {width="5.0in"
@@ -1165,8 +1165,8 @@ this specialization.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image016.png?raw=true"
-   alt="Git reset."
-   width="50%" />
+   width="50%"
+   alt="Git reset." />
 </p>
 <!----------
 {width="5.0in"
@@ -1274,6 +1274,9 @@ git log --oneline
 
 -   <h4>Now, modify the index.html file as follows:</h4>
 
+<details>
+  <summary>Modify index.html as follows!</summary>
+
 ```
 <!DOCTYPE html>
 <html>
@@ -1284,6 +1287,8 @@ git log --oneline
     </body>
 </html>
 ```
+
+</details>
 
 -   Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder,
     and then add a file named <i>test.html</i> to the templates folder. Then
@@ -1296,6 +1301,9 @@ git log --oneline
 
 -   Now, modify the <i>index.html</i> file as follows:
 
+<details>
+  <summary>Modify index.html as follows!</summary>
+
 ```
 <!DOCTYPE html>
 <html>
@@ -1307,6 +1315,8 @@ git log --oneline
     </body>
 </html>
 ```
+
+</details>
 
 -   Now add the modified index.html file to the staging area and then do
     a third commit.
@@ -2436,6 +2446,9 @@ of this exercise, you will be able to:
 -   Next, open package.json in your editor and modify it as shown below.
     Note the addition of two lines, line 7 and line 9.
 
+<details>
+  <summary>Modify package.json!</summary>
+
 ```
 {
   "name": "git-test",
@@ -2459,6 +2472,8 @@ of this exercise, you will be able to:
   }
 }
 ```
+
+</details>
 
 -   Next, start the development server by typing the following at the
     prompt:
@@ -12360,7 +12375,7 @@ as a parameter for this ready action there.
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bootstrap JQuery example #2." />
 </p>
 <!-------------
 {width="5.0in"
@@ -12534,7 +12549,7 @@ click, dblclick, mousedown, on, and so on.
 These are all the event methods that will be executed upon occurrence of
 any of these events there.
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 104. example: bootstrap carousel (247) ------------------>
+<!--------------------------- 104. example: bootstrap carousel (247) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
@@ -12671,7 +12686,7 @@ are caused by your carousel\'s behavior.
 <p align="center" width="100%">
 <img src="./images/image109.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Exercise: Bootstrap and JQuery." />
 </p>
 <!----------
 {width="6.5in"
@@ -14343,7 +14358,7 @@ multiple JavaScript files.
 When we actually deploy, we may want to concatenate all these files into
 a single JavaScript file and then use that in our web pages.
 
-And this concatenation can /be done automatically.
+And this concatenation can be done automatically.
 
 Similarly, the uglification of the JavaScript code, which stands for
 minification, meaning removing all the unnecessary white space and
@@ -15752,6 +15767,9 @@ This will install local per-project Grunt to use within your project.
 -   Next, add the following code to Gruntfile.js to set up the file to
     configure Grunt tasks:
 
+<details>
+  <summary>Add to Gruntfile.js!</summary>
+
 ```
 'use strict';
 module.exports = function (grunt) {
@@ -15760,6 +15778,8 @@ module.exports = function (grunt) {
   });
 };
 ```
+
+</details>
 
 This sets up the Grunt module ready for including the grunt tasks inside
 the function above.
@@ -15784,6 +15804,9 @@ downloaded Grunt modules when needed for the tasks.
 
 -   Now, configure the SASS task in the Gruntfile as follows, by
     including the code inside the function in <i>Gruntfile.js</i>:
+
+<details>
+  <summary>Add following SASS task to Gruntfile.js!</summary>
 
 ```
 'use strict';
@@ -15810,6 +15833,8 @@ module.exports = function (grunt) {
 };
 ```
 
+</details>
+
 -   Now you can run the grunt SASS task by typing the following at the
     prompt:
 
@@ -15831,6 +15856,9 @@ npm install grunt-browser-sync@2.2.0 --save-dev
 
 -   After this, we will configure the browser-sync and watch tasks by
     adding the following code to the Grunt file:
+
+<details>
+  <summary>Add to Grunt file!</summary>
 
 ```
 ,
@@ -15856,6 +15884,8 @@ npm install grunt-browser-sync@2.2.0 --save-dev
             }
         }
 ```
+
+</details>
 
 -   Then add the following task to the Grunt file:
 
@@ -16435,6 +16465,9 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
     following code to <i>Gruntfile.js</i>. This should be added right after
     the configuration of the SASS task.:
 
+<details>
+  <summary>Add to Gruntfile.js after SASS configuration!</summary>
+
 ```
 ,
  
@@ -16470,6 +16503,8 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
         }
 ```
 
+</details>
+
 -   Remember to add the comma after the end of the SASS task.
 
 <h4>Compressing and Minifying Images</h4>
@@ -16482,6 +16517,9 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 ```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
+
+<details>
+  <summary>Configure imagemin task in Gruntfile.js!</summary>
 
 ```
 ,
@@ -16497,12 +16535,17 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
         }
 ```
 
+</details>
+
 <h4>Preparing the Distribution Folder and Files</h4>
 
 -   We are now going to use the Grunt <i>usemin</i> module together with
     <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the
     distribution folder. To do this, install the following Grunt
     modules:
+
+<details>
+  <summary>Install the following Grunt modules!</summary>
 
 ```
  npm install grunt-contrib-concat@1.0.1 --save-dev
@@ -16513,8 +16556,13 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
  npm install grunt-usemin@3.1.1 --save-dev
 ```
 
+</details>
+
 -   Next, update the task configuration within the Gruntfile.js with the
     following additional code to introduce the new tasks:
+
+<details>
+  <summary>Add to Gruntfile.js!</summary>
 
 ```
 ,
@@ -16556,8 +16604,13 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
         uglify: {
 ```
 
+</details>
+
 -   Next, update the jit-grunt configuration as follows, to inform it
     that useminPrepare task depends on the usemin package:
+
+<details>
+  <summary>Update jit-grunt configuration!</summary>
 
 ```
 require('jit-grunt')(grunt, {
@@ -16565,7 +16618,12 @@ require('jit-grunt')(grunt, {
 });
 ```
 
+</details>
+
 -   Next, update the Grunt build task as follows:
+
+<details>
+  <summary>Update Grunt build task!</summary>
 
 ```
 grunt.registerTask('build', [
@@ -16581,6 +16639,8 @@ grunt.registerTask('build', [
     'htmlmin'
 ]);
 ```
+
+</details>
 
 -   Now if you run Grunt, it will create a dist folder with the files
     structured correctly to be distributed to a server to host your
@@ -16904,6 +16964,9 @@ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 -   Load in all the Gulp plugins by including the following code in the
     Gulp file:
 
+<details>
+  <summary>Add the following Gulp plugins!</summary>
+
 ```
 'use strict';
 var gulp = require('gulp'),
@@ -16911,10 +16974,15 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync');
 ```
 
+</details>
+
 <h4>Adding Gulp Tasks for SASS and Browser-Sync</h4>
 
 -   Next, we will add the code for the SASS task, the Browser-Sync task
     and the default task as follows:
+
+<details>
+  <summary>Add code for SASS task, Browser-Sync task & default task!</summary>
 
 ```
 gulp.task('sass', function () {
@@ -16946,6 +17014,8 @@ gulp.task('default', ['browser-sync'], function() {
 });
  
 ```
+
+</details>
 
 -   Save the Gulp file
 
@@ -17026,6 +17096,9 @@ var ...
 
 -   Next, we create the <i>imagemin</i> task as follows:
 
+<details>
+  <summary>Create the imagemin task!</summary>
+
 ```
 // Images
 gulp.task('imagemin', function() {
@@ -17035,10 +17108,15 @@ gulp.task('imagemin', function() {
 });
 ```
 
+</details>
+
 <b>Preparing the Distribution Folder and Files</b>
 
 -   We now install the gulp-usemin and other related Gulp plugins and
     require them as follows:
+
+<details>
+  <summary>Install the gulp-usemin & other related Gulp plugins!</summary>
 
 ```
 npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
@@ -17052,7 +17130,12 @@ var ...
     htmlmin = require('gulp-htmlmin');
 ```
 
+</details>
+
 -   We configure the usemin and the build task as follows:
+
+<details>
+  <summary>Configure usemin and build task!</summary>
 
 ```
 gulp.task('usemin', function() {
@@ -17074,6 +17157,8 @@ gulp.task('build',['clean'], function() {
     gulp.start('copyfonts','imagemin','usemin');
 });
 ```
+
+</details>
 
 -   Save the Gulp file
 
@@ -17331,4 +17416,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 09/22/2022 at 4:57pm ---->
+<!--- last updated: 10/23/2022 at 6:31pm ---->
