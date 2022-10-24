@@ -5320,6 +5320,9 @@ do this in this part of the exercise.
     <i>styles.css</i> in the <b><i>css</i></b> folder. Open this file to edit the
     contents. Add the following CSS code to the file:
 
+<details>
+  <summary>Create styles.css in css folder and add!</summary>
+
 ```
 .row-header{
     margin:0px auto;
@@ -5338,6 +5341,8 @@ do this in this part of the exercise.
 }
 ```
 
+</details>
+
 -   Include the styles.css file into the head of the index.html file
     as follows:
 
@@ -5347,9 +5352,12 @@ do this in this part of the exercise.
 
 -   Then add these classes to the corresponding rows in the <i>index.html</i>
     file as follows. See the difference in the <i>index.html</i> file in the
-    browser. The first one is for the row in the <header\>, the next
+    browser. The first one is for the row in the &lt;header\&gt;, the next
     three for the rows in the content, and the last one directly to the
-    <footer\> tag.
+    &lt;footer\&gt; tag.
+
+<details>
+  <summary>Add these classes to corresponding rows in index.html!</summary>
 
 ```
 <div class="row row-header"> ... </div>
@@ -5360,8 +5368,13 @@ do this in this part of the exercise.
 <footer class="footer"> ... </footer>
 ```
 
+</details>
+
 -   Our next set of customization is to the jumbotron and the address.
     Add the following to <i>styles.css</i> file:
+
+<details>
+  <summary>Add to styles.css!</summary>
 
 ```
 .jumbotron {
@@ -5376,6 +5389,8 @@ address{
     color:#0f0f0f;
 }
 ```
+
+</details>
 
 <h4>Vertically Centering the Content
 
@@ -10634,6 +10649,9 @@ with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
 -   We now modify the CSS styles for the tab-content class in the
     <i>mystyles.css</i> file as follows:
 
+<details>
+  <summary>Modify tab-content in mystyles.css!</summary>
+
 ```
 .tab-content {
     border-left: 1px solid #ddd;
@@ -10642,6 +10660,8 @@ with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
     padding: 10px;
 }
 ```
+
+</details>
 
 This modification adds a 1px border to the tab content which joins with
 the upper border introduced by the tab navigation element to give a
@@ -10996,6 +11016,9 @@ in a web page. At the end of this exercise, you will be able to:
     appears as a card heading, and the \<p\> will be in the card body.
     Use the structure of the code as shown below:
 
+<details>
+  <summary>Convert first tab-pane into card!</summary>
+
 ```
 <div class="card">
     <div class="card-header" role="tab" id="peterhead">
@@ -11013,9 +11036,14 @@ in a web page. At the end of this exercise, you will be able to:
 </div>
 ```
 
+</details>
+
 -   For the remaining three leaders, use the same structure as above,
     with the appropriate ids set up for the cards, as shown in the code
     structure below:
+
+<details>
+  <summary>!</summary>
 
 ```
 <div class="card">
@@ -11059,6 +11087,8 @@ in a web page. At the end of this exercise, you will be able to:
       <p class="d-none d-sm-block">. . .</em></p>
 </div>
 ```
+
+</details>
 
 -   After completing the update, check the behavior of the accordion on
     the web page.
@@ -11524,11 +11554,16 @@ exercise, you will be able to:
     Table" button that is in the jumbotron. We will update the <i>\<a\></i>
     tag for the button as follows:
 
+<details>
+  <summary>Add tooltip!</summary>
+
 ```
 <a role="button" class="btn btn-block nav-link btn-warning"
    data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
    data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
 ```
+
+</details>
 
 As you can see from the code, we add a <i>data-toggle</i>, <i>data-placement</i>
 and a <i>title</i> attribute to the <a\> tag in order to introduce a
@@ -11536,6 +11571,9 @@ tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code
     to the bottom of the page as follows:
+
+<details>
+  <summary>Activate tooltip!</summary>
 
 ```
 <script>
@@ -11545,6 +11583,8 @@ tooltip.
 </script>
 ```
 
+</details>
+
 This script is added right after the line that imports the
 bootstrap.min.js file.
 
@@ -11553,6 +11593,9 @@ bootstrap.min.js file.
 -   In the next step we introduce the modal to the web page. To set up
     the modal, add the following code right after the navbar at the top
     of the page.
+
+<details>
+  <summary>Introduce modal to web page!</summary>
 
 ```
 <div id="loginModal" class="modal fade" role="dialog">
@@ -11593,9 +11636,14 @@ bootstrap.min.js file.
 </div>
 ```
 
+</details>
+
 -   Next we introduce another link on the right side of the navbar in
     order to trigger the display of the modal. To do this, add the
     following code in the navbar after the \</ul\>:
+
+<details>
+  <summary>Introduce another link!</summary>
 
 ```
 <span class="navbar-text">
@@ -11603,6 +11651,8 @@ bootstrap.min.js file.
   <span class="fa fa-sign-in"></span> Login</a>
 </span>
 ```
+
+</details>
 
 We are introducing another link to the right of the navbar using the
 <i>navbar-text</i>. This contains a link with an <i>\<a\></i> tag with the
@@ -11759,9 +11809,7 @@ Now, we\'ll repeat the same thing for the remaining two by copying the
 content from the content rows below in here.
 
 Let me complete that and then we\'ll come back and take a look at how
-the
-
-carousel looks like.
+the carousel looks like.
 
 Here you can see that I have completed the remaining carousel items here
 by copying the content from the content rows below.
@@ -11932,6 +11980,9 @@ able to:
 
 -   Next add the content inside the carousel as follows:
 
+<details>
+  <summary>Add content inside carousel!</summary>
+
 ```
 <div class="carousel-inner" role="listbox">
    <div class="carousel-item active">
@@ -11951,12 +12002,17 @@ able to:
 </div>
 ```
 
+</details>
+
 Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.
 
 <h4>Adding CSS Classes</h4>
 
 -   Add the following CSS classes to the <i>styles.css</i> file:
+
+<details>
+  <summary>Add following CSS classes to styles.css!</summary>
 
 ```
 .carousel {
@@ -11975,12 +12031,17 @@ remaining parts from the content rows below.
 }
 ```
 
+</details>
+
 <h4>Adding Carousel Controls</h4>
 
 -   Next, we will add manual controls to the carousel so that we can
     manually move among the slides. Add the following code to the bottom
     after the carousel items in the div of the carousel to add slide
     indicators that enable us to select a specific slide:
+
+<details>
+  <summary>Add manual controls to carousel!</summary>
 
 ```
 <ol class="carousel-indicators">
@@ -11990,9 +12051,14 @@ remaining parts from the content rows below.
 </ol>
 ```
 
+</details>
+
 -   Then, add the left and right controls to the carousel that enable us
     to move to the previous and next slide manually. Add this to the
     bottom of the carousel div:
+
+<details>
+  <summary>Add left and right controls to carousel!</summary>
 
 ```
 <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
@@ -12002,6 +12068,8 @@ remaining parts from the content rows below.
    <span class="carousel-control-next-icon"></span>
    </a>
 ```
+
+</details>
 
 -   Do a Git commit with the message "Carousel".
 
@@ -13286,11 +13354,16 @@ to:
     the carousel is currently cycling or paused. Furthermore we can use
     the button to toggle the carousel cycling behavior:
 
+<details>
+  <summary>Modify carousel control button!</summary>
+
 ```
 <button class="btn btn-danger btn-sm" id="carouselButton">
    <span id="carousel-button-icon" class="fa fa-pause"></span>
 </button>
 ```
+
+</details>
 
 We are adding a single button inside a button group with the ID
 carouselButton. The buttons will show either as a pause or play button
@@ -13300,6 +13373,9 @@ based on the current behavior of the carousel.
 
 -   Finally we modify the JavaScript code to control the behavior of the
     carousel and also show the appropriate button:
+
+<details>
+  <summary>Modify JavaScript with following!</summary>
 
 ```
 $("#carouselButton").click(function(){
@@ -13315,6 +13391,8 @@ $("#carouselButton").click(function(){
    }
 });
 ```
+
+</details>
 
 -   Do a Git commit with the message "More Bootstrap JQuery".
 
@@ -13698,6 +13776,9 @@ of this exercise you will be able to:
 
 -   Add the following Less variables into the file:
 
+<details>
+  <summary>Add these Less variables!</summary>
+
 ```
 @lt-gray: #ddd;
 @background-dark: #512DA8;
@@ -13707,6 +13788,8 @@ of this exercise you will be able to:
 @carousel-item-height: 300px;
 ```
 
+</details>
+
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
 
@@ -13714,17 +13797,24 @@ of these variables while defining the classes.
 
 -   Next we add a mixin into the file as follows:
 
+<details>
+  <summary>Add mixin to styles.css!</summary>
+
 ```
 .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
     margin:0px auto;
     padding: @pad-up-dn @pad-left-right;
 }
 ```
+</details>
 
 We will make use of this to define several row classes next.
 
 -   Using the variables and Mixin class that we defined earlier, add the
     following row classes to the file:
+
+<details>
+  <summary>Add row classe to styles.css!</summary>
 
 ```
 address{
@@ -13769,6 +13859,8 @@ body{
     .zero-margin();
 ```
 
+</details>
+
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
 
@@ -13776,6 +13868,9 @@ defining the classes.
 
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Less, as follows:
+
+<details>
+  <summary>Add the carousel class!</summary>
 
 ```
 .carousel {
@@ -13799,6 +13894,8 @@ defining the classes.
     z-index: 1;
 }
 ```
+
+</details>
 
 <h4>Installing and using the lessc Compiler</h4>
 
