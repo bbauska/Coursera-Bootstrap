@@ -4821,154 +4821,87 @@ icon fonts)</p></li>
 <li><p><a href="http://gomakethings.com/using-svgs/" target="_blank" rel="noopener noreferrer">Using SVGs</a>
 (alternative to icon fonts)</p></li>
 </ul>
-<h2 id="user-input-buttons-and-forms-objectives-and-outcomes">User
-Input: Buttons and Forms: Objectives and Outcomes</h2>
+
+<h2 id="user-input-buttons-and-forms-objectives-and-outcomes">User Input: Buttons and Forms: Objectives and Outcomes</h2>
+
 <p>In this lesson we review the support for user input through the use
 of buttons and forms in a web page. We review Bootstrap button classes
 and Forms classes. At the end of this lesson you will be able to:</p>
+
 <ul>
-<li><p>Create and style buttons on a web page using Bootstrap button
-classes</p></li>
-<li><p>Create and style forms on a web page using Bootstrap form
-classes</p></li>
+  <li><p>Create and style buttons on a web page using Bootstrap button classes</p></li>
+  <li><p>Create and style forms on a web page using Bootstrap form classes</p></li>
 </ul>
+
 <h2 id="user-input">User Input</h2>
-<p>Gone are the days when websites were purely used for delivering
-information to the users.</p>
-<p>These days on most websites, users will be able to interact with the
-website to supply information, for example by clicking buttons or by
-filling in forms and by typing something into search boxes, and so
-on.</p>
+
+<p>Gone are the days when websites were purely used for delivering information to the users.</p>
+<p>These days on most websites, users will be able to interact with the website to supply information, for example by clicking buttons or by filling in forms and by typing something into search boxes, and so on.</p>
 <p>How do we support these kinds of interactions with the users?</p>
-<p>That is what we're going to deal with in this particular lecture and
-the exercise that follows.</p>
-<p>As an example, if you visit the Coursera website, you will see that
-you have buttons at the top here that you could click to reach different
-places.</p>
-<p>You could have a search box, into which you can type in information,
-to search for, say for example, full stack web development and, so
-on.</p>
-<p>What we notice is that user interaction needs to be supported on
-websites using many different approaches including buttons, forms, text
-boxes, check boxes, and many others.</p>
-<p>Early interactions with websites were provided mainly through
-hyperlinks.</p>
-<p>You could click on a hyperlink and go on to other places and so on,
-but this is obviously, hyperlink is just one of the many methods of
-interacting with your website.</p>
-<p>You could have buttons included on the website which when clicked,
-will result in some action being taken on the website.</p>
-<p>You could have forms that you fill out to supply information to the
-website.</p>
-<p>When you look at how you would include such user Interaction features
-into your website, you will see that you could use something like the a
-tags that are useful for providing hyperlinks, then you have the button
-tags that enable you to include buttons in your website.</p>
-<p>Now what we're going to look at is how do we format with a tags on
-the button tags using bootstrap classes so that you can style them to
-fake the general theme of bootstrap.</p>
-<p>HTML already includes the form elements and the input elements in
-there.</p>
-<p>Now, we can look at how bootstrap enhances these elements by
-providing styling features for forms, and various elements that go into
-the forms.</p>
-<p>Buttons obviously provide a simple way of interacting with your
-website.</p>
-<p>When you have a button on your website, you might hover on the
-button, you might click on the button and expect something to happen in
-the process.</p>
-<p>The button behavior depends upon where it is positioned in
-bootstrap.</p>
-<p>If the button is inside a form, for example, typically the button
-clicking will result in the form being submitted to a server, or the
-form information being canceled.</p>
-<p>A button outside a form could have other ways of providing
-interaction.</p>
-<p>Similarly, the &lt; a &gt; tag that we have traditionally associated
-with hyperlinks could also be hijacked to be styled and presented in the
-form of a button.</p>
-<p>Here we will see how bootstrap provides classes that can be used to
-format the &lt;a&gt; tag into a button to be presented on your
-website.</p>
-<p>We'll also look at various form elements, like the input elements,
-select, the button and also the text AD elements, and how we make use of
-them within our forms to design and construct a form that can be
-included in our website.</p>
-<p>The exercise that follows this particular lecture will introduce you
-to bootstrap support for styling buttons, and also look at how various
-form elements can be enhanced using bootstrap classes to present classic
-Bootstrap forms.</p>
+<p>That is what we're going to deal with in this particular lecture and the exercise that follows.</p>
+<p>As an example, if you visit the Coursera website, you will see that you have buttons at the top here that you could click to reach different places.</p>
+<p>You could have a search box, into which you can type in information, to search for, say for example, full stack web development and, so on.</p>
+<p>What we notice is that user interaction needs to be supported on websites using many different approaches including buttons, forms, text boxes, check boxes, and many others.</p>
+<p>Early interactions with websites were provided mainly through hyperlinks.</p>
+<p>You could click on a hyperlink and go on to other places and so on, but this is obviously, hyperlink is just one of the many methods of interacting with your website.</p>
+<p>You could have buttons included on the website which when clicked, will result in some action being taken on the website.</p>
+<p>You could have forms that you fill out to supply information to the website.</p>
+<p>When you look at how you would include such user Interaction features into your website, you will see that you could use something like the a tags that are useful for providing hyperlinks, then you have the button tags that enable you to include buttons in your website.</p>
+<p>Now what we're going to look at is how do we format with a tags on the button tags using bootstrap classes so that you can style them to fake the general theme of bootstrap.</p>
+<p>HTML already includes the form elements and the input elements in there.</p>
+<p>Now, we can look at how bootstrap enhances these elements by providing styling features for forms, and various elements that go into the forms.</p>
+<p>Buttons obviously provide a simple way of interacting with your website.</p>
+<p>When you have a button on your website, you might hover on the button, you might click on the button and expect something to happen in the process.</p>
+<p>The button behavior depends upon where it is positioned in bootstrap.</p>
+<p>If the button is inside a form, for example, typically the button clicking will result in the form being submitted to a server, or the form information being canceled.</p>
+<p>A button outside a form could have other ways of providing interaction.</p>
+<p>Similarly, the &lt; a &gt; tag that we have traditionally associated with hyperlinks could also be hijacked to be styled and presented in the form of a button.</p>
+<p>Here we will see how bootstrap provides classes that can be used to format the &lt;a&gt; tag into a button to be presented on your website.</p>
+<p>We'll also look at various form elements, like the input elements, select, the button and also the text AD elements, and how we make use of them within our forms to design and construct a form that can be included in our website.</p>
+<p>The exercise that follows this particular lecture will introduce you to bootstrap support for styling buttons, and also look at how various form elements can be enhanced using bootstrap classes to present classic Bootstrap forms.</p>
+
 <h2 id="exercise-video-buttons">Exercise (Video): Buttons</h2>
-<p>In this exercise, we're going to look at Bootstrap's support for
-buttons and forms.</p>
-<p>We're going to include a few buttons and button group in our
-webpage.</p>
-<p>And we also look at designing forms and styling the forms using
-Bootstrap classes.</p>
-<p>To get you started, go to the instructions page and download the
-contactus.html.zip file that we have provided there.</p>
-<p>Right click on that, and then save this link into your conFusion
-folder.</p>
+
+<p>In this exercise, we're going to look at Bootstrap's support for buttons and forms.</p>
+<p>We're going to include a few buttons and button group in our webpage.</p>
+<p>And we also look at designing forms and styling the forms using Bootstrap classes.</p>
+<p>To get you started, go to the instructions page and download the contactus.html.zip file that we have provided there.</p>
+<p>Right click on that, and then save this link into your conFusion folder.</p>
 <p>As, contactus.html.zip file.</p>
-<p>Once the zip file is downloaded, unzip the file to get contactus.html
-page.</p>
+<p>Once the zip file is downloaded, unzip the file to get contactus.html page.</p>
 <p>Then you can delete the zip file.</p>
-<p>Once you've unzipped the file and get contactus.html page, you would
-notice that when you load this page in your browser using
-localhost:3000/contactus.html, then you would see that this page is
+<p>Once you've unzipped the file and get contactus.html page, you would notice that when you load this page in your browser using localhost:3000/contactus.html, then you would see that this page is
 already pre-formatted with some content.</p>
 <p>You can notice that you already have the navigation bar there.</p>
-<p>We have the jumbotron already formatted for us. And you would notice
-that I have the breadcrumbs and the contact us heading here
-formatted.</p>
+<p>We have the jumbotron already formatted for us. And you would notice that I have the breadcrumbs and the contact us heading here formatted.</p>
 <p>Then you will see some additional information, the address here.</p>
 <p>You will notice that the footer is already formatted.</p>
-<p>But you will notice two things here, you'll notice that there is a
-line here that says button groups go here and then one more line here
-that says form goes here.</p>
+<p>But you will notice two things here, you'll notice that there is a line here that says button groups go here and then one more line here that says form goes here.</p>
 <p>We're going to replace these two with a button group and a form.</p>
-<p>And along the way, learn Bootstrap's support for buttons and
-forms.</p>
-<p>Before we proceed forward, now that we have three pages in our
-website, it is a good idea for us to link them up together, both in the
-navigation bar and in the links in the footer.</p>
-<p>Let's modify those two so that we can navigate between these three
-pages easily.</p>
-<p>Going to the contactus.html page, you will notice that in the
-navigation bar, I already have the links to index.html set up
-correctly.</p>
-<p>And you would notice that at the bottom here you have the contact
-link here.</p>
-<p>But the link corresponding to the about has not been configured
-properly.</p>
+<p>And along the way, learn Bootstrap's support for buttons and forms.</p>
+<p>Before we proceed forward, now that we have three pages in our website, it is a good idea for us to link them up together, both in the navigation bar and in the links in the footer.</p>
+<p>Let's modify those two so that we can navigate between these three pages easily.</p>
+<p>Going to the contactus.html page, you will notice that in the navigation bar, I already have the links to index.html set up correctly.</p>
+<p>And you would notice that at the bottom here you have the contact link here.</p>
+<p>But the link corresponding to the about has not been configured properly.</p>
 <p>Go to this link here and then update that to aboutus.html.</p>
 <p>The contact us link can be left alone as such.</p>
 <p>And then save the changes.</p>
 <p>Now similarly, go to the footer of this page.</p>
-<p>And you will notice that in the footer we have these three links
-here.</p>
-<p>And this may be a good point to replace the links with the links to
-the corresponding pages.</p>
-<p>I'll say, index.html, aboutus.html, and, contactus.html. And save the
-changes.</p>
-<p>Similarly, go to index.html, and then in index.html also, the contact
-us link has not been set up.</p>
+<p>And you will notice that in the footer we have these three links here.</p>
+<p>And this may be a good point to replace the links with the links to the corresponding pages.</p>
+<p>I'll say, index.html, aboutus.html, and, contactus.html. And save the changes.</p>
+<p>Similarly, go to index.html, and then in index.html also, the contact us link has not been set up.</p>
 <p>Let's update that to contactus.html.</p>
 <p>Then similarly, update the links in the footer.</p>
 <p>Also go to aboutus.html and then fix up the links even there.</p>
-<p>In the aboutus.html also, in the header I'm going to fix up the
-link.</p>
+<p>In the aboutus.html also, in the header I'm going to fix up the link.</p>
 <p>And also in the footer of aboutus.html.</p>
-<p>When you go to your website, you'll be able to navigate back to your
-home page, to your ‘about’ page.</p>
-<p>And from the about page, you can even go back to the contacts
-page.</p>
-<p>All the links between the three pages in the corresponding headers,
-and also the footers, here should be setup.</p>
-<p>If you click on any one of these will take you to the appropriate
-page.</p>
-<p>Now is the time to start working on the buttons that we're going to
-include in our contactus.html page.</p>
+<p>When you go to your website, you'll be able to navigate back to your home page, to your ‘about’ page.</p>
+<p>And from the about page, you can even go back to the contacts page.</p>
+<p>All the links between the three pages in the corresponding headers, and also the footers, here should be setup.</p>
+<p>If you click on any one of these will take you to the appropriate page.</p>
+<p>Now is the time to start working on the buttons that we're going to include in our contactus.html page.</p>
 <p>What I will do is I will replace this line with the code for the
 button and the button group and then after that, we'll come back to
 explain how this whole thing works.</p>
@@ -5146,80 +5079,86 @@ col-form-label essentially specifies that this label should be
 positioned to be aligned with the other element that forms part of this
 form group.</p>
 <p>In this case, the input box. And so this also means that the label be
-lined up in the middle, horizontally with the input box. So that is the
-reason why we use the col-form-label class. If you don't apply this,
-then your label will be aligned to the top of your input box. Which your
-form will not look that great on medium to extra-large screen sizes.
+lined up in the middle, horizontally with the input box. <br>
+That is the reason why we use the col-form-label class. <br>
+If you don't apply this, then your label will be aligned to the top of your input box.<br>
+Which your form will not look that great on medium to extra-large screen sizes.<br>
 Now, on the left side, of course, because this browser window is
 squashed, so it is showing the view in a small or extra small screen
-size here. So that's why you see the label stacking up on top of the
-input box here. So this is the label that specify. So if you have a
-label that you want to assign to an element, so that is how you're going
-to assign the label. Down below here, you see a div class col-md-10. So
-this occupies the remaining 10 of the 12 columns. So two columns that
-are occupied by the label. And the remaining ten columns occupied by
-this, but is enclosed inside the div. And inside this div, you see that
-there is an input tag element there with the type text. So which means
-that this input box accepts text input. And the class, look at the class
-here. It says form-control. This is important to apply to the input box
-here. So form-control, and id firstname. And the name which is
-firstname. Then placeholder First Name. So the placeholder is what
-appears inside the box as a placeholder for the input box. So all these
-attributes are assigned. So more importantly, note the use of the
-form-control class being applied to input type. So this is how you
-structure these two elements in your form. For small screen sizes and
-below, it stacks the two things. But for medium to extra large, you saw
-that it is positioning them horizontally side by side. The same thing
-applies to the lastname code also. It'll be very similar to how the
-firstname is structured. So I would like you to spend a little bit of
-time taking a look at this code also. So that you see, based upon your
-understanding of this, how this is also formatted. The next kind of
-formal event that we will add in is an input group element. Let me add
-in the code. We'll look at what the form turns out to be.</p>
+size here.<br>
+That's why you see the label stacking up on top of the input box here.<br>
+This is the label that specify. <br>
+If you have a label that you want to assign to an element, so that is how you're going
+to assign the label. <br>
+Down below here, you see a div class col-md-10.<br>
+This occupies the remaining 10 of the 12 columns. <br>
+So two columns that are occupied by the label. And the remaining ten columns occupied by
+this, but is enclosed inside the div.<br>
+And inside this div, you see that there is an input tag element there with the type text.<br>
+So which means that this input box accepts text input.<br>
+And the class, look at the class here.<br>
+It says form-control.<br>
+This is important to apply to the input box here.<br>
+So form-control, and id firstname.<br>
+And the name which is firstname.<br>
+Then placeholder First Name.<br>
+So the placeholder is what
+appears inside the box as a placeholder for the input box.<br>
+So all these attributes are assigned.<br>
+So more importantly, note the use of the form-control class being applied to input type.<br>
+So this is how you structure these two elements in your form.<br>
+For small screen sizes and below, it stacks the two things.<br>
+But for medium to extra large, you saw that it is positioning them horizontally side by side.<br>
+The same thing applies to the lastname code also.<br>
+It'll be very similar to how the firstname is structured.<br>
+So I would like you to spend a little bit of time taking a look at this code also.<br>
+So that you see, based upon your understanding of this, how this is also formatted.<br>
+The next kind of formal event that we will add in is an input group element.<br>
+Let me add in the code.<br>
+We'll look at what the form turns out to be.</p>
 <p>And then we'll go back and examine the code. So right here, after the
 second div, after the lastname field, I'm going to include the code for
-the next element here. And then let's save the changes. And then,
-immediately, you would see a couple of more things added into your form.
-You see a telephone number field added here. This, from the look of it,
-you see that this is very similar to that. So I'm not going to explain
-the code for this. This should be very straightforward for you to
-understand. And then this email field also should be very
-straightforward for you to understand. Because this looks very similar
-to the lastname. Except that for this, the input field, the type will be
-set to email. So that the built in form</p>
-<p>checking capabilities of your browser automatically kicks in. So that
-when you type in something that doesn't look like an email, then it'll
-complain appropriately. So let's examine this particular part of the
-form here. Note that in this case, we are adding in left parenthesis and
-the right parenthesis to this particular input box. So how do you add in
-things into your box like this? Taking a look at the code here in your
-editor, you see that you still have the form-group row which you already
-understand. And down below here, you have input type form element id
-telnum, and so on, which also should be very clear to you. So I don't
-think I need to explain that part to you. Notice how I am using the
-Bootstrap's grid column classes to each of these. So the label is given
-col-md-2. And then the telephone number one is given col-xs-7 col-sm-6
-and col-md-7 here. So that way, the telephone number, this element is
-properly positioned. But, in particular, let's pay attention to this
-part. So this one here is inside of this div. So inside this div, notice
-the class given to it. The class says input-group. So essentially
-meaning that whatever is inside this div will be treated as a group of
-elements here.</p>
-<p>That's why the class given is input-group. Now, for adding in
-something like this, you will use a class called as input-group-addon.
-And then notice that I am using a div to hold that item. I can use
-anything here, but a div comes in handy here. So I say div class
-input-group-addon. And then the closing div type inside, where, notice
-that I have the left parenthesis. So this is what allows you to add in
-some extra appendage to your input box here. Similarly, the one below
-here is also an input-group-addon right parenthesis. So that is what
-adds the other right parenthesis here. Now, between these two, of
-course, you have the input type. The input with the type tel and class
-form-control, id, name, placeholder, everything in place here. So this
-is nothing but the area code part. So if you use this input-group
-together with input-group-addons like this on either side. Those things
-will be added in to your input element like this. That provides you with
-a nice way of designing Your form with some added in.</p>
+the next element here. And then let's save the changes.<br>
+And then, immediately, you would see a couple of more things added into your form.<br>
+You see a telephone number field added here.<br>
+This, from the look of it, you see that this is very similar to that.<br>
+So I'm not going to explain the code for this.<br>
+This should be very straightforward for you to understand.<br>
+And then this email field also should be very straightforward for you to understand.<br>
+Because this looks very similar to the lastname.<br>
+Except that for this, the input field, the type will be set to email.<br>
+So that the built in form checking capabilities of your browser automatically kicks in.<br>
+So that when you type in something that doesn't look like an email, then it'll
+complain appropriately.<br>
+So let's examine this particular part of the form here.<br>
+Note that in this case, we are adding in left parenthesis and the right parenthesis to this particular input box.<br>
+So how do you add in things into your box like this?<br>
+Taking a look at the code here in your editor, you see that you still have the form-group row which you already understand.<br>
+And down below here, you have input type form element id telnum, and so on, which also should be very clear to you.<br>
+So I don't think I need to explain that part to you.<br>
+Notice how I am using the Bootstrap's grid column classes to each of these.<br>
+So the label is given col-md-2.<br>
+And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here.<br>
+So that way, the telephone number, this element is properly positioned.<br>
+But, in particular, let's pay attention to this part.<br>
+So this one here is inside of this div.<br>
+So inside this div, notice the class given to it.<br>
+The class says input-group. So essentially meaning that whatever is inside this div will be treated as a group of elements here.</p>
+<p>That's why the class given is input-group.<br>
+Now, for adding in something like this, you will use a class called as input-group-addon.<br>
+And then notice that I am using a div to hold that item.<br>
+I can use anything here, but a div comes in handy here.<br>
+So I say div class input-group-addon.<br>
+And then the closing div type inside, where, notice that I have the left parenthesis.<br>
+So this is what allows you to add in some extra appendage to your input box here.<br>
+Similarly, the one below here is also an input-group-addon right parenthesis.<br>
+So that is what adds the other right parenthesis here.<br>
+Now, between these two, of course, you have the input type.<br>
+The input with the type tel and class form-control, id, name, placeholder, everything in place here.<br>
+So this is nothing but the area code part.<br>
+So if you use this input-group together with input-group-addons like this on either side.<br>
+Those things will be added in to your input element like this.<br>
+That provides you with a nice way of designing Your form with some added in.</p>
 <p>For example, if you have a field that is accepting money as the
 input, you could simply add a dollar sign to the left hand side to
 indicate to the user that that is a field that takes currency value at
@@ -5398,22 +5337,31 @@ committed to my git repository. With this, we complete this
 exercise.</p>
 <p>Here we have learned how we include buttons and form elements into
 our Bootstrap design pitch.</p>
+
 <h2 id="exercise-instructions-buttons">Exercise (Instructions):
 Buttons</h2>
+
 <h1 id="exercise-buttons">Exercise: Buttons</h1>
+
 <h3 id="objectives-and-outcomes-9">Objectives and Outcomes</h3>
+
 <p>In this exercise, we will examine user input for a website through
 the use of Buttons support in Bootstrap. At the end of this exercise,
 you will be able to:</p>
+
 <ul>
 <li><p>Create, style and activate buttons in a web page using the button
 classes</p></li>
 <li><p>Use a Button Group to group together related buttons.</p></li>
 </ul>
+
 <h3 id="exercise-resources-2">Exercise Resources</h3>
+
 <p><strong>contactus.html</strong>ZIP File</p>
 <p>Download file</p>
+
 <h3 id="set-up-for-the-exercise">Set up for the Exercise</h3>
+
 <ul>
 <li><p>Download the <em>contactus.html.zip</em> file given above, unzip
 it and move the <em>contactus.html</em> to the
@@ -5429,11 +5377,9 @@ appropriate pages.</p></li>
 <h3 id="adding-a-button-bar">Adding a Button Bar</h3>
 
 <ul>
-<li><p>We are now going to add content to <em>contactus.html</em> file
-to learn more about buttons and button bars. Go to the div where we
-specify "Button group goes here", and replace it with the following code
-to create a button bar containing three buttons:</p></li>
+  <li><p>We are now going to add content to <em>contactus.html</em> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                &lt;div class="btn-group" role="group"&gt;</strong></p>
 <p><strong>                    &lt;a role="button" class="btn btn-primary" href="<u>tel:+85212345678</u>"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;</strong></p>
@@ -5441,6 +5387,7 @@ to create a button bar containing three buttons:</p></li>
 <p><strong>                    &lt;a role="button" class="btn btn-success" href="<u>mailto:confusion@food.net</u>"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;</strong></p>
 <p><strong>                &lt;/div&gt;</strong></p>
 </blockquote>
+
 <p>Note how we define the button bar using the <em>btn-group</em> class,
 and then add the three buttons using the <em>&lt;a&gt;</em> tag. In this
 case, the three buttons are hyperlinks that cause an action and have an
@@ -5448,15 +5395,19 @@ case, the three buttons are hyperlinks that cause an action and have an
 <em>&lt;a&gt;</em> tag instead of the <em>&lt;button&gt;</em> tag. Note
 how the <em>&lt;a&gt;</em> tags have been styled using the <em>btn</em>
 class.</p>
+
 <ul>
 <li><p>Remember to do a Git commit with the message "Buttons"</p></li>
 </ul>
+
 <h3 id="conclusions-7">Conclusions</h3>
+
 <ul>
-<li><p>We have learnt how to add buttons and button groups to a web
-page.</p></li>
+<li><p>We have learnt how to add buttons and button groups to a web page.</p></li>
 </ul>
+
 <h2 id="exercise-video-forms">Exercise (Video): Forms</h2>
+
 <p>Now that we have seen how to add buttons to our web page.</p>
 <p>In this exercise, we're going to look at forms and how we can add
 forms to our web page and also style these form elements using the
@@ -5816,11 +5767,13 @@ classes:</p></li>
 <p><strong>                  &lt;/select&gt;</strong></p>
 <p><strong>               &lt;/div&gt;</strong></p>
 <p><strong>            &lt;/div&gt;</strong></p>
+
 <h3 id="adding-a-textarea">Adding a textarea</h3>
+
 <ul>
-<li><p>Next we add a textarea for the users to submit their feedback
-comments as follows:</p></li>
+  <li><p>Next we add a textarea for the users to submit their feedback comments as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>&lt;div class="form-group row"&gt;</strong></p>
 <p><strong>      
@@ -5830,7 +5783,9 @@ comments as follows:</p></li>
 <p><strong>      &lt;/div&gt;</strong></p>
 <p><strong>   &lt;/div&gt;</strong></p>
 </blockquote>
+
 <h3 id="adding-the-submit-button">Adding the Submit Button</h3>
+
 <ul>
 <li><p>Finally, we add the submit button to the form as
 follows:</p></li>
@@ -5845,51 +5800,54 @@ follows:</p></li>
 </blockquote>
 <p>Note the declaration of the type for the button to
 <em>submit</em>.</p>
+
 <ul>
-<li><p>Remember to do a Git commit with the message "Forms"</p></li>
+  <li><p>Remember to do a Git commit with the message "Forms"</p></li>
 </ul>
+
 <h3 id="conclusions-8">Conclusions</h3>
-<p>We have learnt how to add a form and style the form using Bootstrap
-form classes.</p>
-<h2 id="user-input-additional-resources">User Input: Additional
-Resources</h2>
+
+<p>We have learnt how to add a form and style the form using Bootstrap form classes.</p>
+
+<h2 id="user-input-additional-resources">User Input: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-4">PDFs of Presentations</h3>
+
 <p><strong>07-User-Input.pdf</strong></p>
+
 <h3 id="exercise-resources-3">Exercise Resources</h3>
+
 <p><strong>contactus.html</strong></p>
+
 <h3 id="bootstrap-resources-2">Bootstrap Resources</h3>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/buttons/">Bootstrap
-Buttons</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/button-group/">Bootstrap
-Button Groups</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/forms/">Bootstrap
-Forms</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/buttons/">Bootstrap Buttons</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/button-group/">Bootstrap Button Groups</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/forms/">Bootstrap Forms</a></p></li>
 </ul>
+
 <h3 id="other-useful-resources">Other Useful Resources</h3>
+
 <ul>
-<li><p><a href="http://davidwalsh.name/html5-buttons" target="_blank" rel="noopener noreferrer">The Difference
-Between Anchors, Inputs and Buttons</a> (Semantic differences in the
-usage)</p></li>
-<li><p><a href="https://css-tricks.com/use-button-element/" target="_blank" rel="noopener noreferrer">When To Use
-The Button Element</a> (The multifaceted button element)</p></li>
+  <li><p><a href="http://davidwalsh.name/html5-buttons" target="_blank" rel="noopener noreferrer">The Difference Between Anchors, Inputs and Buttons</a> (Semantic differences in the usage)</p></li>
+  <li><p><a href="https://css-tricks.com/use-button-element/" target="_blank" rel="noopener noreferrer">When To Use The Button Element</a> (The multifaceted button element)</p></li>
 </ul>
-<h2
-id="displaying-content-tables-and-cards-objectives-and-outcomes">Displaying
-Content: Tables and Cards: Objectives and Outcomes</h2>
+
+<h2 id="displaying-content-tables-and-cards-objectives-and-outcomes">Displaying Content: Tables and Cards: Objectives and Outcomes</h2>
+
 <p>In this lesson we will be reviewing the support for tables in
 Bootstrap. In addition we will look at a versatile component called card
 that enables the display of content in myriad ways. At the end of this
 lesson you will be able to:</p>
+
 <ul>
-<li><p>Present and style tabular data in a table form using Bootstrap
-support for tables</p></li>
-<li><p>Display content using a card on a web page.</p></li>
+  <li><p>Present and style tabular data in a table form using Bootstrap support for tables</p></li>
+  <li><p>Display content using a card on a web page.</p></li>
 </ul>
+
 <h2 id="bootstrap-tables-and-cards">Bootstrap Tables and Cards</h2>
+
 <p>Let's briefly discuss about bootstrap tables.</p>
 <p>What does bootstrap bring to styling tables that we include in our
 web pages?</p>
@@ -6157,32 +6115,32 @@ itself displayed at the bottom.</p>
 for displaying content in our web page.</p>
 <p>Now that we have completed this exercise, it's a good time to do a
 git commit.</p>
-<h2
-id="exercise-instructions-displaying-content-tables-and-cards">Exercise
-(Instructions): Displaying Content: Tables and Cards</h2>
+
+<h2 id="exercise-instructions-displaying-content-tables-and-cards">Exercise (Instructions): Displaying Content: Tables and Cards</h2>
+
 <h3 id="objectives-and-outcomes-11">Objectives and Outcomes</h3>
+
 <p>In this exercise, we will examine tables and Bootstrap classes for
 styling tables. We will also examine Bootstrap cards and their use for
 displaying content. At the end of this exercise, you will be able
 to:</p>
+
 <ul>
-<li><p>Create, style and present tabular data in tables in a web page
-using the Bootstrap table classes</p></li>
-<li><p>Display content in a web page using Bootstrap cards</p></li>
+  <li><p>Create, style and present tabular data in tables in a web page using the Bootstrap table classes</p></li>
+  <li><p>Display content in a web page using Bootstrap cards</p></li>
 </ul>
+
 <h3 id="set-up-for-the-exercise-1">Set up for the Exercise</h3>
+
 <ul>
-<li><p>In this exercise we will be modifying the <em>aboutus.html</em>
-page to add a table, a card with some content and a card with a
-quotation.</p></li>
-<li><p>Let us get started by opening <em>aboutus.html</em> page in a
-text editor.</p></li>
+  <li><p>In this exercise we will be modifying the <em>aboutus.html</em> page to add a table, a card with some content and a card with a quotation.</p></li>
+  <li><p>Let us get started by opening <em>aboutus.html</em> page in a text editor.</p></li>
 </ul>
+
 <h3 id="bootstrap-tables">Bootstrap Tables</h3>
+
 <ul>
-<li><p>In this part, we will add a new row of content after the
-Corparate Leadership row in the page. We first start by adding a row and
-columns to the page as follows:</p></li>
+  <li><p>In this part, we will add a new row of content after the Corparate Leadership row in the page. We first start by adding a row and columns to the page as follows:</p></li>
 </ul>
 
 <blockquote>
@@ -6195,10 +6153,11 @@ columns to the page as follows:</p></li>
 <p><strong>       &lt;/div&gt; </strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <ul>
-<li><p>Inside the first column of this row, insert the table as
-follows:</p></li>
+  <li><p>Inside the first column of this row, insert the table as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                &lt;div class="table-responsive"&gt;</strong></p>
 <p><strong>                    &lt;table class="table table-striped"&gt;</strong></p>
@@ -7147,11 +7106,14 @@ for all these components by actually writing JavaScript code.</p>
 <p>We will defer this to the next module, where we will examine how you
 can write simple JavaScript code based upon the JQuery syntax to add
 more functionality to your JavaScript-based Bootstrap components.</p>
-<h2 id="bootstrap-javascript-components-additional-resources">Bootstrap
-JavaScript Components: Additional Resources</h2>
+
+<h2 id="bootstrap-javascript-components-additional-resources">Bootstrap JavaScript Components: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-8">PDFs of Presentations</h3>
+
 <p><strong>08-Bootstrap_JS.pdf</strong></p>
 <p><strong>Bootstrap Resources</strong></p>
+
 <ul>
 <li><p><a
 href="http://getbootstrap.com/docs/4.0/getting-started/javascript/" target="_blank" rel="noopener noreferrer">Bootstrap
@@ -7382,12 +7344,16 @@ navigation for our web page.</p>
 content.</p>
 <p>This is also a good time for you to do a Git Comment with the message
 tabs.</p>
+
 <h2 id="exercise-instructions-tabs">Exercise (Instructions): Tabs</h2>
+
 <h3 id="objectives-and-outcomes-14">Objectives and Outcomes</h3>
+
 <p>In this exercise we will explore Bootstrap tabs and tabbed
 navigation. In particular we will learn about the use of tabs for
 organizing the content. At the end of this exercise you will be able
 to:</p>
+
 <ul>
 <li><p>Design a web page to use tabbed navigation for organizing the
 content</p></li>
@@ -7397,6 +7363,7 @@ navigation elements</p></li>
 </ul>
 <h3 id="adding-tab-navigation-elements">Adding Tab Navigation
 Elements</h3>
+
 <ul>
 <li><p>Open the <em>aboutus.html</em> page and move to the second
 content row containing the details of the corporate leadership of the
@@ -7435,12 +7402,14 @@ later. Also note that the <em>&lt;a&gt;</em> tag contains the
 be the open tab when we view the web page. We can switch to the other
 tabs using the tabbed navigation that we just set up.</p>
 <h3 id="adding-tab-content">Adding Tab Content</h3>
+
 <ul>
 <li><p>The details about the various corporate leaders should now be
 organized into various tab panes. To begin this, we will enclose the
 entire content into a div element with the class tab-content as
 specified below:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                &lt;div class="tab-content"&gt;</strong></p>
 <p><strong> </strong></p>
@@ -7462,6 +7431,7 @@ and enclose it within a tab-pane as follows</p></li>
 <em>active</em> classes and with <em>peter</em> as the id. This is the
 same id used as the <em>href</em> in the <em>&lt;a&gt;</em> link in the
 navigation.</p>
+
 <ul>
 <li><p>The remaining content is also similarly enclosed inside
 appropriate divs with the correct ids and the classes specified as
@@ -7469,8 +7439,9 @@ above. Only the first tab pane will have the <em>show</em> and
 <em>active</em> classes specified to indicate that the content should be
 visible on the web page by default.</p></li>
 </ul>
-<h3 id="modifying-the-tab-content-css">Modifying the tab-content
-CSS</h3>
+
+<h3 id="modifying-the-tab-content-css">Modifying the tab-content CSS</h3>
+
 <ul>
 <li><p>We now modify the CSS styles for the tab-content class in the
 <em>mystyles.css</em> file as follows:</p></li>
@@ -7483,46 +7454,45 @@ CSS</h3>
 <p><strong>    padding: 10px;</strong></p>
 <p><strong>}</strong></p>
 </blockquote>
+
 <p>This modification adds a 1px border to the tab content which joins
 with the upper border introduced by the tab navigation element to give a
 clean tab like appearance.</p>
+
 <ul>
-<li><p>Finally do a Git commit with the message "Tabs".</p></li>
+  <li><p>Finally do a Git commit with the message "Tabs".</p></li>
 </ul>
+
 <h3 id="conclusions-11">Conclusions</h3>
-<p>In this exercise we learnt the use of tabbed navigation, tab content
-and tab panes and their use in organizing and navigating within the
-content in a page.</p>
-<h2 id="tabs-and-tabbed-navigation-additional-resources">Tabs and Tabbed
-Navigation: Additional Resources</h2>
+
+<p>In this exercise we learnt the use of tabbed navigation, tab content and tab panes and their use in organizing and navigating within the content in a page.</p>
+
+<h2 id="tabs-and-tabbed-navigation-additional-resources">Tabs and Tabbed Navigation: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-9">PDFs of Presentations</h3>
+
 <p><strong>08-Tabs-Pills-Navigation.pdf</strong></p>
+
 <h3 id="bootstrap-resources-5">Bootstrap Resources</h3>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/navs/" target="_blank" rel="noopener noreferrer">Bootstrap
-Navs</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/navs/#tabs" target="_blank" rel="noopener noreferrer">Bootstrap
-Tabs</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/navs/#pills" target="_blank" rel="noopener noreferrer">Bootstrap
-Pills</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior" target="_blank" rel="noopener noreferrer">Bootstrap
-Tabs Javascript Behavior</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/navs/" target="_blank" rel="noopener noreferrer">Bootstrap Navs</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/navs/#tabs" target="_blank" rel="noopener noreferrer">Bootstrap Tabs</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/navs/#pills" target="_blank" rel="noopener noreferrer">Bootstrap Pills</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior" target="_blank" rel="noopener noreferrer">Bootstrap Tabs Javascript Behavior</a></p></li>
 </ul>
-<h2 id="hide-and-seek-objectives-and-outcomes">Hide and Seek: Objectives
-and Outcomes</h2>
-<p>In this lesson we learn about the collapse javascript plugin that
-allows us to hide and reveal content. In particular we explore its use
-in creating an accordion. At the end of this lesson, you will be able
-to:</p>
+
+<h2 id="hide-and-seek-objectives-and-outcomes">Hide and Seek: Objectives and Outcomes</h2>
+
+<p>In this lesson we learn about the collapse javascript plugin that allows us to hide and reveal content. In particular we explore its use in creating an accordion. At the end of this lesson, you will be able to:</p>
+
 <ul>
-<li><p>Use the collapse plugin to hide/reveal content</p></li>
-<li><p>Construct the accordion using cards</p></li>
+  <li><p>Use the collapse plugin to hide/reveal content</p></li>
+  <li><p>Construct the accordion using cards</p></li>
 </ul>
+
 <h2 id="collapse-and-accordion">Collapse and Accordion</h2>
+
 <p>Let's now talk about a very useful plugin in Bootstrap called as the
 Collapse.</p>
 <p>We have seen its application in the navigation bar earlier.</p>
@@ -7718,33 +7688,41 @@ hidden.</p>
 <p>With this, we complete this exercise.</p>
 <p>This is a good time for you to do a git commit with the message
 accordion..</p>
-<h2 id="exercise-instructions-accordion">Exercise (Instructions):
-Accordion</h2>
+
+<h2 id="exercise-instructions-accordion">Exercise (Instructions): Accordion</h2>
+
 <h3 id="objectives-and-outcomes-15">Objectives and Outcomes</h3>
+
 <p>In this exercise we explore the use of the collapse Javascript plugin
 together with card component to create an accordion to show/hide content
 in a web page. At the end of this exercise, you will be able to:</p>
+
 <ul>
 <li><p>Design an accordion using the collapse plugin together with the
 card component.</p></li>
 </ul>
+
 <h3 id="converting-tabs-to-accordion">Converting Tabs to Accordion</h3>
+
 <ul>
 <li><p>First delete the &lt;ul&gt; class that was introduced for the
 tabbed navigation.</p></li>
 <li><p>Then the turn the <em>tab-content</em> div into a
 <em>accordion</em> div. Use the code structure as shown below:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                &lt;div id="accordion"&gt;</strong></p>
 <p><strong>                   . . .</strong></p>
 <p><strong>                &lt;/div&gt;</strong></p>
 </blockquote>
+
 <ul>
 <li><p>Then, convert the first tab-pane into a card such that the name
 appears as a card heading, and the &lt;p&gt; will be in the card body.
 Use the structure of the code as shown below:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                    &lt;div class="card"&gt;</strong></p>
 <p><strong>                        &lt;div class="card-header" role="tab" id="peterhead"&gt;</strong></p>
@@ -7808,33 +7786,36 @@ structure below:</p></li>
 <p><strong>                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;</strong></p>
 <p><strong>                            &lt;/div&gt;</strong></p>
 </blockquote>
+
 <ul>
-<li><p>After completing the update, check the behavior of the accordion
-on the web page.</p></li>
-<li><p>Finally do a Git commit with the message "Accordion".</p></li>
+  <li><p>After completing the update, check the behavior of the accordion on the web page.</p></li>
+  <li><p>Finally do a Git commit with the message "Accordion".</p></li>
 </ul>
+
 <h3 id="conclusions-12">Conclusions</h3>
+
 <p>In this exercise we constructed the accordion using the collapse
 plugin together with the card component.</p>
-<h2 id="hide-and-seek-additional-resources">Hide and Seek: Additional
-Resources</h2>
+
+<h2 id="hide-and-seek-additional-resources">Hide and Seek: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-10">PDFs of Presentations</h3>
+
 <p><strong>09-Collapse.pdf</strong></p>
 <p><strong>Bootstrap Resources</strong></p>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/collapse/" target="_blank" rel="noopener noreferrer">Bootstrap
-Collapse</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example" target="_blank" rel="noopener noreferrer">Bootstrap
-Accordion Example</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/collapse/" target="_blank" rel="noopener noreferrer">Bootstrap Collapse</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/collapse/#accordion-example" target="_blank" rel="noopener noreferrer">Bootstrap Accordion Example</a></p></li>
 </ul>
-<h2 id="revealing-content-objectives-and-outcomes">Revealing Content:
-Objectives and Outcomes</h2>
+
+<h2 id="revealing-content-objectives-and-outcomes">Revealing Content: Objectives and Outcomes</h2>
+
 <p>In this lesson we look at several ways of presenting information to
 users by overlaying the information on top of the page. In particular,
 we look at tooltips, popovers and modals. At the end of this lesson, you
 will be able to:</p>
+
 <ul>
 <li><p>Set up a tooltip to be displayed when the user hovers over an
 area of the page</p></li>
@@ -7842,10 +7823,10 @@ area of the page</p></li>
 <li><p>Reveal and hide modals when the user clicks on a link or
 button</p></li>
 </ul>
+
 <h2 id="tooltips-popovers-and-modals">Tooltips, Popovers and Modals</h2>
-<p>Let us now try to understand several mechanisms to enable us to
-display information to the users overlaying the content of your web
-page.</p>
+
+<p>Let us now try to understand several mechanisms to enable us to display information to the users overlaying the content of your web page.</p>
 <p>Here we'll look at three different constructs that are available in
 Bootstrap called tooltips, popovers, and modals.</p>
 <p>What are tooltips, popovers and modals and how are they useful?</p>
@@ -8121,36 +8102,43 @@ overlaying your web page.</p>
 the use of models to display content.</p>
 <p>This is a good time for you to do a git-commint with the message tool
 tips and models.</p>
+
 <h2 id="exercise-instructions-tooltips-and-modals">Exercise
 (Instructions): Tooltips and Modals</h2>
+
 <h3 id="objectives-and-outcomes-16">Objectives and Outcomes</h3>
+
 <p>In this exercise we will examine how to add tooltips to a web page.
 In addition we look at adding modals to a web page. At the end of this
 exercise, you will be able to:</p>
+
 <ul>
 <li><p>Add tooltips to a web page</p></li>
 <li><p>Add modals that are revealed when the user clicks on a link or a
 button in the web page.</p></li>
 </ul>
+
 <h3 id="adding-a-tooltip">Adding a Tooltip</h3>
+
 <ul>
-<li><p>Let us now switch to the <em>index.html</em> page. We will now
-add a tooltip to this page. The tooltip will be added to the "Reserve
-Table" button that is in the jumbotron. We will update the
+  <li><p>Let us now switch to the <em>index.html</em> page. We will now add a tooltip to this page. The tooltip will be added to the "Reserve Table" button that is in the jumbotron. We will update the
 <em>&lt;a&gt;</em> tag for the button as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                    &lt;a role="button" class="btn btn-block nav-link btn-warning"</strong></p>
 <p><strong>                        data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;&lt;strong&gt;+852 12345678&lt;/strong&gt;"</strong></p>
 <p><strong>                        data-placement="bottom" href="<u>#reserveform</u>"&gt;Reserve Table&lt;/a&gt;</strong></p>
 </blockquote>
+
 <p>As you can see from the code, we add a <em>data-toggle</em>,
 <em>data-placement</em> and a <em>title</em> attribute to the &lt;a&gt;
 tag in order to introduce a tooltip.</p>
+
 <ul>
-<li><p>The tooltip needs to be activated by adding a small Javascript
-code to the bottom of the page as follows:</p></li>
+  <li><p>The tooltip needs to be activated by adding a small Javascript code to the bottom of the page as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>    &lt;script&gt;</strong></p>
 <p><strong>        $(document).ready(function(){</strong></p>
@@ -8158,14 +8146,15 @@ code to the bottom of the page as follows:</p></li>
 <p><strong>        });</strong></p>
 <p><strong>    &lt;/script&gt;</strong></p>
 </blockquote>
-<p>This script is added right after the line that imports the
-bootstrap.min.js file.</p>
+
+<p>This script is added right after the line that imports the bootstrap.min.js file.</p>
+
 <h3 id="adding-a-modal">Adding a Modal</h3>
+
 <ul>
-<li><p>In the next step we introduce the modal to the web page. To set
-up the modal, add the following code right after the navbar at the top
-of the page.</p></li>
+  <li><p>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.</p></li>
 </ul>
+
 <blockquote>
 <p><strong>    &lt;div id="loginModal" class="modal fade" role="dialog"&gt;</strong></p>
 <p><strong>        &lt;div class="modal-dialog modal-lg" role="content"&gt;</strong></p>
@@ -8204,167 +8193,112 @@ of the page.</p></li>
 <p><strong>        &lt;/div&gt;</strong></p>
 <p><strong>    &lt;/div&gt;</strong></p>
 </blockquote>
+
 <ul>
-<li><p>Next we introduce another link on the right side of the navbar in
-order to trigger the display of the modal. To do this, add the following
-code in the navbar after the &lt;/ul&gt;:</p></li>
+  <li><p>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the &lt;/ul&gt;:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                &lt;span class="navbar-text"&gt;</strong></p>
 <p><strong>                    &lt;a data-toggle="modal" data-target="#loginModal"&gt;</strong></p>
 <p><strong>                    &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;</strong></p>
 <p><strong>                &lt;/span&gt;</strong></p>
 </blockquote>
-<p>We are introducing another link to the right of the navbar using the
-<em>navbar-text</em>. This contains a link with an <em>&lt;a&gt;</em>
-tag with the <em>data-toggle="modal"</em> and
-<em>data-target="#loginModal"</em> attributes.</p>
+
+<p>We are introducing another link to the right of the navbar using the <em>navbar-text</em>. This contains a link with an <em>&lt;a&gt;</em> tag with the <em>data-toggle="modal"</em> and <em>data-target="#loginModal"</em> attributes.</p>
+
 <ul>
-<li><p>Save all the changes and do a Git commit with the message
-"Tooltip and Modal".</p></li>
+  <li><p>Save all the changes and do a Git commit with the message "Tooltip and Modal".</p></li>
 </ul>
+
 <h3 id="conclusions-13">Conclusions</h3>
-<p>In this exercise we explored tooltips and modals as two ways of
-revealing content for the user upon clicking on a button or a link.</p>
-<h2 id="revealing-content-additional-resources">Revealing Content:
-Additional Resources</h2>
+
+<p>In this exercise we explored tooltips and modals as two ways of revealing content for the user upon clicking on a button or a link.</p>
+
+<h2 id="revealing-content-additional-resources">Revealing Content: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-11">PDFs of Presentations</h3>
+
 <p><strong>09-Tooltips-Popovers-Modals.pdf</strong></p>
+
 <h3 id="bootstrap-resources-6">Bootstrap Resources</h3>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/tooltips/" target="_blank" rel="noopener noreferrer">Bootstrap
-Tooltips</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/popovers/" target="_blank" rel="noopener noreferrer">Bootstrap
-Popovers</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Bootstrap
-Modals</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/tooltips/" target="_blank" rel="noopener noreferrer">Bootstrap Tooltips</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/popovers/" target="_blank" rel="noopener noreferrer">Bootstrap Popovers</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Bootstrap Modals</a></p></li>
 </ul>
-<h2 id="carousel-objectives-and-outcomes">Carousel: Objectives and
-Outcomes</h2>
-<p>In this lesson we will examine the use of the Carousel component in
-our web page. We will examine the configuration of the various aspects
-of the carousel. At the end of this lesson you will be able to:</p>
+
+<h2 id="carousel-objectives-and-outcomes">Carousel: Objectives and Outcomes</h2>
+
+<p>In this lesson we will examine the use of the Carousel component in our web page. We will examine the configuration of the various aspects of the carousel. At the end of this lesson you will be able to:</p>
+
 <ul>
-<li><p>Use a carousel component in your web page</p></li>
-<li><p>Configure various aspects of the carousel</p></li>
-<li><p>Add controls to the carousel to manually control it</p></li>
+  <li><p>Use a carousel component in your web page</p></li>
+  <li><p>Configure various aspects of the carousel</p></li>
+  <li><p>Add controls to the carousel to manually control it</p></li>
 </ul>
+
 <h2 id="carousel">Carousel</h2>
-<p>Let's take a look at yet another interesting component in bootstrap,
-called as the bootstrap carousel.</p>
-<p>The carousel allows you to display multiple items on your web page
-and provides an animated display of these items.</p>
-<p>As I mentioned, a carousel is an interesting component that allows
-you to include a slideshow on your web page, and can also provide manual
-controls for the slides.</p>
-<p>As the slides slide from left to right on your web page, you can
-control and choose which particular item to view, and also you can
-manually scroll the items left and right.</p>
-<p>Carousel finds a lot of applications in many websites that you might
-have visited.</p>
+
+<p>Let's take a look at yet another interesting component in bootstrap, called as the bootstrap carousel.</p>
+<p>The carousel allows you to display multiple items on your web page and provides an animated display of these items.</p>
+<p>As I mentioned, a carousel is an interesting component that allows you to include a slideshow on your web page, and can also provide manual controls for the slides.</p>
+<p>As the slides slide from left to right on your web page, you can control and choose which particular item to view, and also you can manually scroll the items left and right.</p>
+<p>Carousel finds a lot of applications in many websites that you might have visited.</p>
 <p>Let's take a look at an example of a carousel.</p>
-<p>Go into your web page, you see a carousel included on this web
-page.</p>
-<p>You see that this carousel provides interesting transitions from one
-slide to another, and also provides manual controls that enable you to
-select which item to view.</p>
-<p>For example, you can manually scroll right and left in the
-carousel.</p>
-<p>You can also select an item from the carousel using these indicators
-that are provided at the bottom of the carousel.</p>
-<p>I'm sure you have seen many websites using this kind of
-component.</p>
-<p>Now that I have gotten you interested in the carousel, I'm sure
-you're curious about how you create one for your web page.</p>
-<p>That is what we're going to examine in this next exercise, where we
-will add a carousel to our web page, the index.html page and then create
-the manual controls for it.</p>
+<p>Go into your web page, you see a carousel included on this web page.</p>
+<p>You see that this carousel provides interesting transitions from one slide to another, and also provides manual controls that enable you to select which item to view.</p>
+<p>For example, you can manually scroll right and left in the carousel.</p>
+<p>You can also select an item from the carousel using these indicators that are provided at the bottom of the carousel.</p>
+<p>I'm sure you have seen many websites using this kind of component.</p>
+<p>Now that I have gotten you interested in the carousel, I'm sure you're curious about how you create one for your web page.</p>
+<p>That is what we're going to examine in this next exercise, where we will add a carousel to our web page, the index.html page and then create the manual controls for it.</p>
+
 <h2 id="exercise-video-carousel">Exercise (Video): Carousel</h2>
-<p>We just learnt about the carousel component in the previous
-lecture.</p>
-<p>In this exercise, we're going to add in a carousel to our index.html
-page and in the process learn how the carousel component works.</p>
-<p>Going to index.html page, we'll add in a new row into the content
-div, as the first row in the div.</p>
-<p>I'll go in and say, give div class row row-content and inside this
-div, we're going to create the carousel component.</p>
-<p>And in what's div I will add in the inner column div, which will
-contain the carousel component here.</p>
-<p>To add in the carousel, here I will add in the div with the ID my
-carousel and a class carousel and slide and the data ride class.</p>
-<p>You can see the JavaScript component coming into action here, and
-then close off the div and start building out the carousel inside this
-div here.</p>
-<p>Into this carousel, we'll add in the content of the carousel
-next.</p>
-<p>I'll go in and then add another div with the class carousel-inner and
-the role as list box.</p>
-<p>This is the way we build up the carousel and then close that div
-there.</p>
-<p>And inside this div again we'll introduce divs that will host the
-items of the carousel by applying the carousel item class.</p>
+
+<p>We just learnt about the carousel component in the previous lecture.</p>
+<p>In this exercise, we're going to add in a carousel to our index.html page and in the process learn how the carousel component works.</p>
+<p>Going to index.html page, we'll add in a new row into the content div, as the first row in the div.</p>
+<p>I'll go in and say, give div class row row-content and inside this div, we're going to create the carousel component.</p>
+<p>And in what's div I will add in the inner column div, which will contain the carousel component here.</p>
+<p>To add in the carousel, here I will add in the div with the ID my carousel and a class carousel and slide and the data ride class.</p>
+<p>You can see the JavaScript component coming into action here, and then close off the div and start building out the carousel inside this div here.</p>
+<p>Into this carousel, we'll add in the content of the carousel next.</p>
+<p>I'll go in and then add another div with the class carousel-inner and the role as list box.</p>
+<p>This is the way we build up the carousel and then close that div there.</p>
+<p>And inside this div again we'll introduce divs that will host the items of the carousel by applying the carousel item class.</p>
 <p>And the first one in the carousel item...</p>
-<p>The first one in the carousel class, I will apply the active
-class.</p>
-<p>This is the first div which starts out containing the starting slide
-there and the remaining ones, I'm going to add in.</p>
-<p>Let me add in two more carousel-item divs here and apply only the
-first one with the active class.</p>
-<p>Now I'm going to introduce in the content into this carousel
-items.</p>
-<p>To construct a carousel item, I will go in there and then include an
-image with the class d-block.</p>
-<p>This is used for, this is a flex class that allows our image to be
-properly positioned and then add in the image fluid class and then the
-source as img.</p>
-<p>What I will do is to move in that content from the three content rows
-below and then add it into the carousel here.</p>
-<p>I add in an image here and then to the carousel, I can also add in a
-div with the class carousel caption. In here we can include some text
-that will be over relayed as a caption onto the image.</p>
+<p>The first one in the carousel class, I will apply the active class.</p>
+<p>This is the first div which starts out containing the starting slide there and the remaining ones, I'm going to add in.</p>
+<p>Let me add in two more carousel-item divs here and apply only the first one with the active class.</p>
+<p>Now I'm going to introduce in the content into this carousel items.</p>
+<p>To construct a carousel item, I will go in there and then include an image with the class d-block.</p>
+<p>This is used for, this is a flex class that allows our image to be properly positioned and then add in the image fluid class and then the source as img.</p>
+<p>What I will do is to move in that content from the three content rows below and then add it into the carousel here.</p>
+<p>I add in an image here and then to the carousel, I can also add in a div with the class carousel caption. In here we can include some text that will be over relayed as a caption onto the image.</p>
 <p>I'll say carousel caption d-none, d-md-block.</p>
-<p>And then inside here, I will include the content from the content
-rows here.</p>
-<p>I will go in and copy the content from the content rows here and then
-paste that into the carousel caption block here.</p>
-<p>And I'll remove the class that we applied to the H2 from this
-content.</p>
-<p>Now, we'll repeat the same thing for the remaining two by copying the
-content from the content rows below in here.</p>
-<p>Let me complete that and then we'll come back and take a look at how
-the</p>
+<p>And then inside here, I will include the content from the content rows here.</p>
+<p>I will go in and copy the content from the content rows here and then paste that into the carousel caption block here.</p>
+<p>And I'll remove the class that we applied to the H2 from this content.</p>
+<p>Now, we'll repeat the same thing for the remaining two by copying the content from the content rows below in here.</p>
+<p>Let me complete that and then we'll come back and take a look at how the</p>
 <p>carousel looks like.</p>
-<p>Here you can see that I have completed the remaining carousel items
-here by copying the content from the content rows below.</p>
-<p>Let's add in a few CSS classes so that the carousel is nicely
-structured.</p>
-<p>Going to styles.css file at the bottom here, I'm going to add in a
-couple of more classes here.</p>
-<p>For the carousel class, I would add the background as 512DA8, which
-we have used before the dark colored class.</p>
-<p>And then for the carousel-item class, I'm going to add in a height as
-300 pixel.</p>
-<p>And for the image that is included inside the carousel item, I'm
-going to apply a few transformations here.</p>
+<p>Here you can see that I have completed the remaining carousel items here by copying the content from the content rows below.</p>
+<p>Let's add in a few CSS classes so that the carousel is nicely structured.</p>
+<p>Going to styles.css file at the bottom here, I'm going to add in a couple of more classes here.</p>
+<p>For the carousel class, I would add the background as 512DA8, which we have used before the dark colored class.</p>
+<p>And then for the carousel-item class, I'm going to add in a height as 300 pixel.</p>
+<p>And for the image that is included inside the carousel item, I'm going to apply a few transformations here.</p>
 <p>I would say, position absolute.</p>
 <p>I want to position it to the left.</p>
-<p>This top and left zero will position this image to the top left edge
-of the carousel box there and with a minimum height set to 300 pixel to
-match the carousel-items height.</p>
-<p>This image will essentially stretch the entire height of the carousel
-but will be positioned to the left edge of the carousel box here.</p>
+<p>This top and left zero will position this image to the top left edge of the carousel box there and with a minimum height set to 300 pixel to match the carousel-items height.</p>
+<p>This image will essentially stretch the entire height of the carousel but will be positioned to the left edge of the carousel box here.</p>
 <p>Let me save the changes.</p>
-<p>We'll just go and have a look at what this carousel looks like on our
-web page. Going to the web page, you can now see that carousel in action
-on our index study table page.</p>
+<p>We'll just go and have a look at what this carousel looks like on our web page. Going to the web page, you can now see that carousel in action on our index study table page.</p>
 <p>You can see that the carousel is positioned at the top here and then
 we'll keep scrolling at regular intervals.</p>
-<p>Note how by using the CSS classes, I have styled the background from
-the carousel such that the captions are clearly visible in the carousel
-and also how the image has been positioned on the carousel.</p>
+<p>Note how by using the CSS classes, I have styled the background from the carousel such that the captions are clearly visible in the carousel and also how the image has been positioned on the carousel.</p>
 <p>The height of this carousel slide is fixed at 300 pixel.</p>
 <p>This gives a nice clean layout for this carousel.</p>
 <p>Now, let's add in a few controls for this carousel.</p>
@@ -8380,71 +8314,48 @@ this.</p>
 carousel.</p>
 <p>This is the ID of the carousel and data-slide-to.</p>
 <p>And the first indicators will slide to slide number zero.</p>
-<p>With that class as active for the first item in this list, then the
-remaining two items I'm going to simply use list with the data-target
-set equal to my carousel and the data-slide-to is set to one.</p>
+<p>With that class as active for the first item in this list, then the remaining two items I'm going to simply use list with the data-target set equal to my carousel and the data-slide-to is set to one.</p>
 <p>This is for the second slide there.</p>
-<p>I'm just going to copy this one and then create the third indicator
-in here.</p>
-<p>We'll go in and copy this and then change this to data-slide-to
-two.</p>
-<p>We have free slides in our carousel so three indicators are
-sufficient enough.</p>
+<p>I'm just going to copy this one and then create the third indicator in here.</p>
+<p>We'll go in and copy this and then change this to data-slide-to two.</p>
+<p>We have free slides in our carousel so three indicators are sufficient enough.</p>
 <p>Now, we'll also add in a couple of controls to this carousel which
 allows us to manually scroll the carousel.</p>
-<p>To do that, I will introduce an A with the class
-carousel-control-prev here.</p>
-<p>This would allow me to go to the previous slide, make the href equal
-to mycarousel, so you can see that we are trying to target the carousel
-there and the role is a button.</p>
+<p>To do that, I will introduce an A with the class carousel-control-prev here.</p>
+<p>This would allow me to go to the previous slide, make the href equal to mycarousel, so you can see that we are trying to target the carousel there and the role is a button.</p>
 <p>This is going to act as a button and data-slide as previous.</p>
-<p>Within this A, I will introduce a icon to represent this control on
-the screen.</p>
-<p>I'll say, span class carousel-control-prev-icon and close off the
-span here. I will now copy this control.</p>
-<p>And paste it here and then create the control for the next slide here
-so I would say, carousel-control-next and roll is a button and the data
-slide used to next and the icon would be carousel-control-next icon.</p>
-<p>Adding these into my carousel, let's go and take a look at our
-carousel at this moment.</p>
-<p>Going to the carousel, you can now see that in my carousel I have
-three indicator buttons here, which indicate which particular slide is
-currently visible in my carousel and as the slides slide, then the
-indicator also correspondingly changes to indicate which particular
-slide is visible.</p>
-<p>I can manually click on one of them and go to the specific slide in
-the carousel.</p>
-<p>Not only that, you can see that there are now two indicators, the
-left and right, which I can use to again scroll through the carousel by
-clicking on these indicators here.</p>
-<p>Using these controls, both the previous and the next control and
-indicators here, I can navigate to the specific slide in my
-carousel.</p>
+<p>Within this A, I will introduce a icon to represent this control on the screen.</p>
+<p>I'll say, span class carousel-control-prev-icon and close off the span here. I will now copy this control.</p>
+<p>And paste it here and then create the control for the next slide here so I would say, carousel-control-next and roll is a button and the data slide used to next and the icon would be carousel-control-next icon.</p>
+<p>Adding these into my carousel, let's go and take a look at our carousel at this moment.</p>
+<p>Going to the carousel, you can now see that in my carousel I have three indicator buttons here, which indicate which particular slide is currently visible in my carousel and as the slides slide, then the indicator also correspondingly changes to indicate which particular slide is visible.</p>
+<p>I can manually click on one of them and go to the specific slide in the carousel.</p>
+<p>Not only that, you can see that there are now two indicators, the left and right, which I can use to again scroll through the carousel by clicking on these indicators here.</p>
+<p>Using these controls, both the previous and the next control and indicators here, I can navigate to the specific slide in my carousel.</p>
 <p>This completes this exercise.</p>
-<p>This is a good time for you to do a git-commit with the message
-carousel.</p>
-<h2 id="exercise-instructions-carousel">Exercise (Instructions):
-Carousel</h2>
+<p>This is a good time for you to do a git-commit with the message carousel.</p>
+
+<h2 id="exercise-instructions-carousel">Exercise (Instructions): Carousel</h2>
+
 <h3 id="objectives-and-outcomes-17">Objectives and Outcomes</h3>
-<p>In this exercise we will examine the carousel component and add it to
-the web page. We will examine the configuration of the carousel and
-adding controls to the carousel. At the end of this exercise you will be
-able to:</p>
+
+<p>In this exercise we will examine the carousel component and add it to the web page. We will examine the configuration of the carousel and adding controls to the carousel. At the end of this exercise you will be able to:</p>
+
 <ul>
-<li><p>Use a carousel component in your web page</p></li>
-<li><p>Configure various aspects of the carousel</p></li>
+  <li><p>Use a carousel component in your web page</p></li>
+  <li><p>Configure various aspects of the carousel</p></li>
 </ul>
+
 <ul>
-<li><p>Add controls to the carousel to manually control it</p></li>
+  <li><p>Add controls to the carousel to manually control it</p></li>
 </ul>
-<h3 id="adding-a-row-for-the-carousel">Adding a row for the
-carousel</h3>
+
+<h3 id="adding-a-row-for-the-carousel">Adding a row for the carousel</h3>
+
 <ul>
-<li><p>The carousel will be added to the <em>index.html</em> page. In
-this page, go to the top of the container div that contains the content
-of the page and add a new content row and an inner div spanning all the
-12 columns as follows:</p></li>
+  <li><p>The carousel will be added to the <em>index.html</em> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:</p></li>
 </ul>
+
 <p><strong>       &lt;div class="row row-content"&gt;</strong></p>
 <p><strong>           &lt;div class="col"&gt;</strong></p>
 <p><strong> </strong></p>
@@ -8452,20 +8363,25 @@ of the page and add a new content row and an inner div spanning all the
 <p><strong>       &lt;/div&gt;</strong></p>
 <p><strong> </strong></p>
 <p><strong> </strong></p>
+
 <h3 id="adding-a-carousel">Adding a Carousel</h3>
+
 <ul>
-<li><p>Next, add the basic carousel div inside the content row that you
-just added as follows:</p></li>
+  <li><p>Next, add the basic carousel div inside the content row that you just added as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>            &lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;</strong></p>
 <p><strong> </strong></p>
 <p><strong>            &lt;/div&gt;</strong></p>
 </blockquote>
+
 <h3 id="adding-carousel-content">Adding Carousel Content</h3>
+
 <ul>
-<li><p>Next add the content inside the carousel as follows:</p></li>
+  <li><p>Next add the content inside the carousel as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                    &lt;div class="carousel-inner" role="listbox"&gt;</strong></p>
 <p><strong>                        &lt;div class="carousel-item active"&gt;</strong></p>
@@ -8484,13 +8400,16 @@ just added as follows:</p></li>
 <p><strong>                        &lt;/div&gt;</strong></p>
 <p><strong>                    &lt;/div&gt;</strong></p>
 </blockquote>
+
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
+
 <h3 id="adding-css-classes">Adding CSS Classes</h3>
+
 <ul>
-<li><p>Add the following CSS classes to the <em>styles.css</em>
-file:</p></li>
+  <li><p>Add the following CSS classes to the <em>styles.css</em> file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>.carousel {</strong></p>
 <p><strong>    background:#512DA8;</strong></p>
@@ -8507,13 +8426,13 @@ file:</p></li>
 <p><strong>    min-height: 300px;</strong></p>
 <p><strong>}</strong></p>
 </blockquote>
+
 <h3 id="adding-carousel-controls">Adding Carousel Controls</h3>
+
 <ul>
-<li><p>Next, we will add manual controls to the carousel so that we can
-manually move among the slides. Add the following code to the bottom
-after the carousel items in the div of the carousel to add slide
-indicators that enable us to select a specific slide:</p></li>
+  <li><p>Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                    &lt;ol class="carousel-indicators"&gt;</strong></p>
 <p><strong>                        &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</strong></p>
@@ -8521,11 +8440,11 @@ indicators that enable us to select a specific slide:</p></li>
 <p><strong>                        &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</strong></p>
 <p><strong>                    &lt;/ol&gt;</strong></p>
 </blockquote>
+
 <ul>
-<li><p>Then, add the left and right controls to the carousel that enable
-us to move to the previous and next slide manually. Add this to the
-bottom of the carousel div:</p></li>
+  <li><p>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>                    &lt;a class="carousel-control-prev" href="<u>#mycarousel</u>" role="button" data-slide="prev"&gt;</strong></p>
 <p><strong>                        &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</strong></p>
@@ -8534,26 +8453,32 @@ bottom of the carousel div:</p></li>
 <p><strong>                        &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</strong></p>
 <p><strong>                    &lt;/a&gt;</strong></p>
 </blockquote>
+
 <ul>
-<li><p>Do a Git commit with the message "Carousel".</p></li>
+  <li><p>Do a Git commit with the message "Carousel".</p></li>
 </ul>
+
 <h3 id="conclusions-14">Conclusions</h3>
+
 <p>In this exercise we learnt about the carousel component and how to
 add it to a web page.</p>
 <p>We also learnt about introducing manual controls to the carousel.</p>
-<h2 id="carousel-additional-resources">Carousel: Additional
-Resources</h2>
+
+<h2 id="carousel-additional-resources">Carousel: Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-12">PDFs of Presentations</h3>
+
 <p><strong>09-Carousel.pdf</strong></p>
 <p>Open file</p>
+
 <h3 id="bootstrap-resources-7">Bootstrap Resources</h3>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/carousel/" target="_blank" rel="noopener noreferrer">Bootstrap
-Carousel</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/carousel/" target="_blank" rel="noopener noreferrer">Bootstrap Carousel</a></p></li>
 </ul>
-<h2 id="assignment-3-bootstrap-javascript-components">Assignment 3:
-Bootstrap JavaScript Components</h2>
+
+<h2 id="assignment-3-bootstrap-javascript-components">Assignment 3: Bootstrap JavaScript Components</h2>
+
 <p>We have reached the end of the third module of this course.</p>
 <p>This is the time for your third assignment. In this assignment, we're
 going to look at the Bootstrap components that we examined in this
@@ -8593,36 +8518,36 @@ for your model.</p>
 <p>That is your third task in this assignment.</p>
 <p>Hope you enjoyed creating this new variation of the index.html
 page.</p>
+
 <h2 id="assignment-3-resources">Assignment 3: Resources</h2>
+
 <h3 id="assignment-screenshots-1">Assignment Screenshots</h3>
+
 <p><img src="./images/image090.png" style="width:5in;height:4.46142in"
 alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&amp;hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4" /></p>
+
 <h3 id="bootstrap-resources-8">Bootstrap Resources</h3>
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons" target="_blank" rel="noopener noreferrer">Bootstrap
-Buttons Checkbox/Radio</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Bootstrap
-Modals</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/forms/" target="_blank" rel="noopener noreferrer">Bootstrap
-Forms</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons" target="_blank" rel="noopener noreferrer">Bootstrap Buttons Checkbox/Radio</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Bootstrap Modals</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/forms/" target="_blank" rel="noopener noreferrer">Bootstrap Forms</a></p></li>
 </ul>
-<h2 id="bootstrap-and-jquery-objectives-and-outcomes-week-4" target="_blank" rel="noopener noreferrer">Bootstrap
-and JQuery: Objectives and Outcomes (week 4)</h2>
+
+<h2 id="bootstrap-and-jquery-objectives-and-outcomes-week-4" target="_blank" rel="noopener noreferrer">Bootstrap and JQuery: Objectives and Outcomes (week 4)</h2>
+
 <p>In this lesson we examine the use of Bootstrap, JQuery and JavaScript
 together to control Bootstrap JS components. Many of the Bootstrap's JS
 components provide JavaScript methods and events to control the
 behavior. At the end of this lesson, you will be able to:</p>
+
 <ul>
-<li><p>Understand how to use JQuery and JavaScript and Bootstrap's JS
-component methods to control the behavior of the components.</p></li>
-<li><p>Write JavaScript code taking advantage of the Bootstrap's JS
-component methods and JQuery methods for controlling Bootstrap JS
-components</p></li>
+  <li><p>Understand how to use JQuery and JavaScript and Bootstrap's JS component methods to control the behavior of the components.</p></li>
+  <li><p>Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components</p></li>
 </ul>
+
 <h2 id="bootstrap-and-jquery">Bootstrap and JQuery</h2>
+
 <p>Let us now spend some time trying to understand how Bootstrap and
 jQuery work together to support the Bootstrap's JavaScript
 components.</p>
@@ -9376,8 +9301,9 @@ able to:</p>
 <li><p>Compile the Less and Sass code into the corresponding CSS
 classes</p></li>
 </ul>
-<h2 id="css-preprocessors-less-and-sass">CSS Preprocessors: Less and
-Sass</h2>
+
+<h2 id="css-preprocessors-less-and-sass">CSS Preprocessors: Less and Sass</h2>
+
 <p>This particular lesson deals with CSS preprocessors, in particular
 Less and Sass.</p>
 <p>Now obviously, these topics have more to do with CSS and defining CSS
@@ -9858,13 +9784,14 @@ of this exercise you will be able to:</p>
 <li><p>Write Scss code using many of the features of Scss</p></li>
 <li><p>Automatically convert the Scss code into CSS</p></li>
 </ul>
+
 <h3 id="adding-scss-variables">Adding Scss Variables</h3>
+
 <ul>
-<li><p>Open the <em>conFusion</em> project in a text editor of your
-choice. In the css folder, create a file named <em>styles.scss</em>. We
-will add the Scss code into this file.</p></li>
-<li><p>Add the following Scss variables into the file:</p></li>
+  <li><p>Open the <em>conFusion</em> project in a text editor of your choice. In the css folder, create a file named <em>styles.scss</em>. We will add the Scss code into this file.</p></li>
+  <li><p>Add the following Scss variables into the file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>$lt-gray: #ddd;</strong></p>
 <p><strong>$background-dark: #512DA8;</strong></p>
@@ -9875,12 +9802,16 @@ will add the Scss code into this file.</p></li>
 <p><strong>$carousel-item-height: 300px;</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>We have just added a few color and a height variable. We will make
 use of these variables while defining the classes.</p>
+
 <h3 id="scss-mixins">Scss Mixins</h3>
+
 <ul>
-<li><p>Next we add a mixin into the file as follows:</p></li>
+  <li><p>Next we add a mixin into the file as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>@mixin zero-margin($pad-up-dn, $pad-left-right) {</strong></p>
 <p><strong>    margin:0px auto;</strong></p>
@@ -9888,11 +9819,13 @@ use of these variables while defining the classes.</p>
 <p><strong>}</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>We will make use of this to define several row classes next.</p>
+
 <ul>
-<li><p>Using the variables and Mixin class that we defined earlier, add
-the following row classes to the file:</p></li>
+  <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>.row-header{</strong></p>
 <p><strong>    @include zero-margin(0px,0px);</strong></p>
@@ -9935,13 +9868,15 @@ the following row classes to the file:</p></li>
 <p><strong>    border-right: 1px solid $lt-gray;</strong></p>
 <p><strong>    border-bottom: 1px solid $lt-gray;</strong></p>
 </blockquote>
-<p>Note the use of the variables and the mixin with various parameters
-in defining the classes.</p>
+
+<p>Note the use of the variables and the mixin with various parameters in defining the classes.</p>
+
 <h3 id="nesting-selectors-1">Nesting Selectors</h3>
+
 <ul>
-<li><p>Next we add a carousel class to illustrate the use of nesting of
-classes in Scss, as follows:</p></li>
+  <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>.carousel {</strong></p>
 <p><strong>    background:$background-dark;</strong></p>
@@ -9964,41 +9899,50 @@ classes in Scss, as follows:</p></li>
 <p><strong>    z-index: 1;</strong></p>
 <p><strong>}</strong></p>
 </blockquote>
-<h3 id="installing-and-using-the-node-sass-module">Installing and using
-the node-sass module</h3>
+
+<h3 id="installing-and-using-the-node-sass-module">Installing and using the node-sass module</h3>
+
 <ul>
-<li><p>Now we install the node module to support the compilation of the
-Scss file to a CSS file. To do this, type the following at the command
-prompt:</p></li>
+  <li><p>Now we install the node module to support the compilation of the Scss file to a CSS file. To do this, type the following at the command prompt:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>     npm install --save-dev node-sass@4.7.2</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>This will install the <em>node-sass</em> NPM module into your project
 and also add it as a development dependency in your package.json
 file.</p>
+
 <ul>
-<li><p>Next open your package.json file and add the following line into
-the scripts object there. This adds a script to enable the compilation
-of the Scss file into a CSS file:</p></li>
+  <li><p>Next open your package.json file and add the following line into the scripts object there. This adds a script to enable the compilation of the Scss file into a CSS file:</p></li>
 </ul>
+
 <p><strong>    "scss": "node-sass -o css/ css/"</strong></p>
+
 <ul>
-<li><p>In order to transform the Scss file to a CSS file, type the
-following at the prompt:</p></li>
+  <li><p>In order to transform the Scss file to a CSS file, type the following at the prompt:</p></li>
 </ul>
+
 <p><strong>     npm run scss</strong></p>
+
 <ul>
-<li><p>You can now do a Git commit with the message "Sass".</p></li>
+  <li><p>You can now do a Git commit with the message "Sass".</p></li>
 </ul>
+
 <h3 id="conclusions-17">Conclusions</h3>
+
 <p>In this exercise you learnt to write Scss code and then automatically
 generating the CSS file by compiling the Scss code.</p>
+
 <h2 id="css-preprocessors-additional-resources">CSS Preprocessors:
 Additional Resources</h2>
+
 <h3 id="pdfs-of-presentations-14">PDFs of Presentations</h3>
+
 <p><strong>10-CSS-Preprocessors.pdf</strong></p>
+
 <h3 id="less-and-sass-resources">Less and Sass Resources</h3>
 <ul>
 <li><p><a href="http://lesscss.org/" target="_blank" rel="noopener noreferrer">Less Getting Started</a></p></li>
