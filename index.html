@@ -281,7 +281,7 @@ processing, and generating the content to be delivered to the user.</p>
 <p>This is backed up behind the scenes with the <strong>data persistence
 layer or the data access layer</strong>.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 05. three tier architecture: #3 data access (06) ------------------>
+<!----------------------- 05. three tier architecture: #3 data access (07) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="./images/image005.png"
@@ -293,172 +293,121 @@ typically, in the form of a database and access this data through an
 API.</p>
 <p>Exploring this further, let us see what is implemented typically in
 the traditional web development in each of these three layers.</p>
-<!--- 06. traditional web development - data access layer --->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- coursera logo (01) --------------------------------------->
+<!--~~~~~~~~~~~~~~~ 06. traditional web development - business logic layer (07) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/coursera-logo.png?raw=true"
+  src="/images/image006.png?raw=true"
   style="width:35%"
-  alt="Coursera logo." />
+  alt="Traditional web development - business logic layer." />
 
-<p><img src="./images/image007.png"
-style="width:5in;height:2.47703in" /></p>
-<p>The Business Logic Layer is usually implemented these days using
-technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.</p>
-<!--- 07. traditional web development - presentation layer --->
-<p><img src="./images/image008.png"
-style="width:5in;height:2.47703in" /></p>
-<p>This Business Logic Layer is interacting behind the scenes with the
-persistent data typically stored in a relational database and accessed
-by the Business Logic Layer.</p>
-<p>The Business Logic Layer is also concerned with the rendering of
-information to the front side, typically, in the form of server-side
-rendering these days.</p>
-<p><img src="./images/image009.png"
-style="width:5in;height:2.47703in" /></p>
-<p>The HTML, CSS and JavaScript is generated on the server-side and then
-sent over to the client side in the form of a web page.</p>
-<p>In this approach, we need specialists in each of these three
-layers.</p>
-<p>Front end specialists, typically, would be well-versed in HTML, CSS,
-and JavaScript.</p>
-<p>The business logic specialist would be well-versed in one of the
-technologies that is used for implementing the business logic and then
-you need a data specialist who will be well-versed in the relational
-database management system.</p>
-<p><img src="./images/image10.png"
-style="width:5in;height:2.47703in" /></p>
-<p>There is an increasing trend towards using a single language to
-implement the entire stack, this being JavaScript so you could have the
-front end implemented, for example, as a single page application using
-frameworks like Angular or React.</p>
-<p>You have the server-side or the Business Logic Layer being
-implemented using technologies like NodeJS, which is also dependent on
-and JavaScript and then you have the data storage, itself, being
-implemented using technologies like MongoDB, which stores data in the
-form of JSON documents.</p>
-<p>And the information exchange between the server side and the client
-side is usually done using JSON as the format and the server side
-supports a REST API endpoint.</p>
+<p>The Business Logic Layer is usually implemented these days using technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.</p>
+<!--~~~~~~~~~~~~~~~~ 07. traditional web development - presentation layer (07) ~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image007.png?raw=true"
+  style="width:35%"
+  alt="Traditional web development - presentation layer." />
+
+<p>This Business Logic Layer is interacting behind the scenes with the persistent data typically stored in a relational database and accessed by the Business Logic Layer.</p>
+<p>The Business Logic Layer is also concerned with the rendering of information to the front side, typically, in the form of server-side rendering these days.</p>
+<!--~~~~~~~~~~~~~~~~ 08. traditional web development - presentation layer (08) ~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image008.png?raw=true"
+  style="width:35%"
+  alt="Traditional web development - presentation layer." />
+<p>The HTML, CSS and JavaScript is generated on the server-side and then sent over to the client side in the form of a web page.</p>
+<p>In this approach, we need specialists in each of these three layers.</p>
+<p>Front end specialists, typically, would be well-versed in HTML, CSS, and JavaScript.</p>
+<p>The business logic specialist would be well-versed in one of the technologies that is used for implementing the business logic and then you need a data specialist who will be well-versed in the relational database management system.</p>
+<!--~~~~~~~~~~~~ 09. full stack javascript development (09) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image009.png?raw=true"
+  style="width:35%"
+  alt="Full stack javascript development." />
+<p>There is an increasing trend towards using a single language to implement the entire stack, this being JavaScript so you could have the front end implemented, for example, as a single page application using frameworks like Angular or React.</p>
+<p>You have the server-side or the Business Logic Layer being implemented using technologies like NodeJS, which is also dependent on and JavaScript and then you have the data storage, itself, being
+implemented using technologies like MongoDB, which stores data in the form of JSON documents.</p>
+<p>And the information exchange between the server side and the client side is usually done using JSON as the format and the server side supports a REST API endpoint.</p>
 <p>We will cover these technologies as part of this specialization.</p>
-<p><img src="./images/image11.png"
-style="width:5in;height:2.47703in" /></p>
-<p>As you go through the specialization, you will see that on the
-presentation layer side, we will cover Bootstrap four and Angular or
-Reactfull for implementing front end applications while on the Business
-Logic Layer we will be using NodeJS and NodeJS modules and express for
-implementing the Business Logic Layer.</p>
-<p>We will also consider back end as a service and then the data support
-implemented using MongoDB.</p>
-<h2 id="full-stack-web-development-additional-resources">Full Stack Web
-Development: Additional Resources</h2>
+<!--~~~~~~~~~~~~ 10. full stack web development - presentation layer (10) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image010.png?raw=true"
+  style="width:35%"
+  alt="Full stack web development - presentation layer." />
+
+<p>As you go through the specialization, you will see that on the presentation layer side, we will cover Bootstrap four and Angular or Reactfull for implementing front end applications while on the Business Logic Layer we will be using NodeJS and NodeJS modules and express for implementing the Business Logic Layer.</p>
+<p>We will also consider back end as a service and then the data support implemented using MongoDB.</p>
+
+<h2 id="full-stack-web-development-additional-resources">Full Stack Web Development: Additional Resources</h2>
+
 <h2 id="pdfs-of-presentations">PDFs of Presentations</h2>
+
 <p><strong>00-FSWD-BigPicture.pdf – 6 slides.</strong></p>
+
 <h2 id="useful-links">Useful Links</h2>
+
 <ul>
-<li><p><a
-href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank" rel="noopener noreferrer">What
-is a Full Stack developer?</a></p></li>
-<li><p><a
-href="http://edward-designer.com/web/full-stack-web-developer/" target="_blank" rel="noopener noreferrer">Wait,
-Wait… What is a Full-stack Web Developer After All?</a></p></li>
-<li><p><a href="http://andyshora.com/full-stack-developers.html" target="_blank" rel="noopener noreferrer">The
-Myth of the Full-stack Developer</a></p></li>
-<li><p><a
-href="https://en.wikipedia.org/wiki/Multitier_architecture" target="_blank" rel="noopener noreferrer">Multi-tier
-Architecture</a></p></li>
-<li><p><a
-href="http://www.tonymarston.net/php-mysql/3-tier-architecture.html" target="_blank" rel="noopener noreferrer">What
-is the 3-Tier Architecture?</a></p></li>
+  <li><p><a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank" rel="noopener noreferrer">What is a Full Stack developer?</a></p></li>
+  <li><p><a href="http://edward-designer.com/web/full-stack-web-developer/" target="_blank" rel="noopener noreferrer">Wait, Wait… What is a Full-stack Web Developer After All?</a></p></li>
+  <li><p><a href="http://andyshora.com/full-stack-developers.html" target="_blank" rel="noopener noreferrer">The Myth of the Full-stack Developer</a></p></li>
+  <li><p><a href="https://en.wikipedia.org/wiki/Multitier_architecture" target="_blank" rel="noopener noreferrer">Multi-tier Architecture</a></p></li>
+  <li><p><a href="http://www.tonymarston.net/php-mysql/3-tier-architecture.html" target="_blank" rel="noopener noreferrer">What is the 3-Tier Architecture?</a></p></li>
 </ul>
-<h2
-id="setting-up-your-development-environment-git-and-node-objectives-and-outcomes">Setting
-up Your Development Environment: Git and Node: Objectives and
-Outcomes</h2>
-<p>At the end of this lesson you should have set up Git and Node.js on
-your computer. At the end of this lesson, you will be able to:</p>
+
+<h2 id="setting-up-your-development-environment-git-and-node-objectives-and-outcomes">Setting up Your Development Environment: Git and Node: Objectives and Outcomes</h2>
+
+<p>At the end of this lesson you should have set up Git and Node.js on your computer. At the end of this lesson, you will be able to:</p>
+
 <ul>
-<li><p>Set up a Git repository and perform basic Git operations</p></li>
-<li><p>Set up and use online Git repositories</p></li>
-<li><p>Use Node-based modules to perform basic operations.</p></li>
+  <li><p>Set up a Git repository and perform basic Git operations</p></li>
+  <li><p>Set up and use online Git repositories</p></li>
+  <li><p>Use Node-based modules to perform basic operations.</p></li>
 </ul>
-<h2 id="setting-up-your-development-environment">Setting up your
-Development Environment</h2>
+
+<h2 id="setting-up-your-development-environment">Setting up your Development Environment</h2>
+
 <h3 id="software-requirements">Software Requirements</h3>
+
 <ol type="1">
-<li><p><strong>Text editor of your choice</strong>: Any text editor that
-you are already familiar with can be used for editing the project files.
-I will be using Visual Studio Code (<a
-href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>)
-as the editor of choice in this specialization. You may also consider
-other editors such as Brackets (<a
-href="http://brackets.io/" target="_blank" rel="noopener noreferrer">http://brackets.io/</a>), Sublime Text (<a
-href="http://www.sublimetext.com/)" target="_blank" rel="noopener noreferrer">http://www.sublimetext.com/)</a>, or
-Atom (<a href="https://atom.io/" target="_blank" rel="noopener noreferrer">https://atom.io/</a>).</p></li>
-<li><p><strong>Browser of your choice</strong>: You may use your
-preferred browser. I will be using Chrome as the browser in all the
-exercises. All the exercises and assignments in this course have been
-tested using Chrome v. 46. Please note that not all browsers may support
-all the HTML5 features to the same extent. You might encounter problems
-when using other browsers. I strongly urge you to use the latest Chrome
-browser for the exercises and assignments in this course so that any
-problems are minimized.</p></li>
-<li><p><strong>Command line shell</strong>: Familiarity with the
-command-line shell will be essential for the exercises. In Windows a cmd
-window or power shell with admin privileges would be needed. On a Mac or
-in Linux, a terminal window can be used. Please get familiar with the
-"sudo" command in OS X and Linux.</p></li>
-<li><p><strong>Files required for the exercises</strong>: We will
-provide additional starter files for the exercises wherever needed.
-Links to download the files will be provided inline in the
-<strong>exercise instructions</strong> that follow each exercise video.
-Please download the files provided there, if any, before beginning the
-exercise. The links are also available through the <strong>Additional
-Resources</strong> of the specific lesson.</p></li>
+  <li><p><strong>Text editor of your choice</strong>: Any text editor that you are already familiar with can be used for editing the project files. I will be using Visual Studio Code (<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>) as the editor of choice in this specialization. You may also consider other editors such as Brackets (<a href="http://brackets.io/" target="_blank" rel="noopener noreferrer">http://brackets.io/</a>), Sublime Text (<a href="http://www.sublimetext.com/)" target="_blank" rel="noopener noreferrer">http://www.sublimetext.com/)</a>, or Atom (<a href="https://atom.io/" target="_blank" rel="noopener noreferrer">https://atom.io/</a>).</p></li>
+  <li><p><strong>Browser of your choice</strong>: You may use your preferred browser. I will be using Chrome as the browser in all the exercises. All the exercises and assignments in this course have been tested using Chrome v. 46. Please note that not all browsers may support all the HTML5 features to the same extent. You might encounter problems when using other browsers. I strongly urge you to use the latest Chrome browser for the exercises and assignments in this course so that any problems are minimized.</p></li>
+  <li><p><strong>Command line shell</strong>: Familiarity with the command-line shell will be essential for the exercises. In Windows a cmd window or power shell with admin privileges would be needed. On a Mac or in Linux, a terminal window can be used. Please get familiar with the "sudo" command in OS X and Linux.</p></li>
+  <li><p><strong>Files required for the exercises</strong>: We will provide additional starter files for the exercises wherever needed. Links to download the files will be provided inline in the <strong>exercise instructions</strong> that follow each exercise video. Please download the files provided there, if any, before beginning the exercise. The links are also available through the <strong>Additional Resources</strong> of the specific lesson.</p></li>
 </ol>
+
 <p>Note: Please remember to retain the folders and all the files that
 you create in the exercises. Further exercises will build upon the files
 that you create in the preceding exercises. DO NOT DELETE the files at
 the end of the exercises, unless otherwise instructed. You may wish to
 set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.</p>
-<p><img src="./images/image12.png"
-style="width:5in;height:1.59081in" /></p>
-<h2 id="exercise-video-setting-up-git">Exercise (Video): Setting up
-Git</h2>
+<!--~~~~~~~~~~~~ 10a. setting up git (12) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image010a.png?raw=true"
+  style="width:35%"
+  alt="Setting up git." />
+
+<h2 id="exercise-video-setting-up-git">Exercise (Video): Setting up Git</h2>
+
 <p>Git is a very popular version control system for software.</p>
-<p>We need Git for working with our node ecosystem that we're going to
-use throughout this specialization.</p>
+<p>We need Git for working with our node ecosystem that we're going to use throughout this specialization.</p>
 <p>It is important for you to get Git on to your computer.</p>
-<p>Let's go through a few quick steps to set up Git on your computer and
-then some quick commands to enable us to make use of Git in this
-specialization.</p>
-<p>I will not go into too much details about version control and how Git
-works, and so on.</p>
-<p>That is beyond the scope of this course. Instead, we'll just get some
-basic understanding of Git.</p>
+<p>Let's go through a few quick steps to set up Git on your computer and then some quick commands to enable us to make use of Git in this specialization.</p>
+<p>I will not go into too much details about version control and how Git works, and so on.</p>
+<p>That is beyond the scope of this course. Instead, we'll just get some basic understanding of Git.</p>
 <p>Git is, as I said, a version control system.</p>
-<p>This is a software tool that enables us for the management of changes
-to source code and maintaining your version history.</p>
-<p>As your source code evolves, you will be able to check in the code at
-different points of times so that you can always have a way of rolling
-back to a previous version, in case your updates to the code doesn't
-work correctly.</p>
-<p>There are various version control systems that are in use in the real
-world, including CVS, SVN, and Git being a very popular mechanism for
-version control these days. Where did Git originate?</p>
-<p>Git was designed by Linus Torvalds, the person behind the Linux
-Operating System.</p>
-<p>Git was designed as a version control system and distributed version
-control system for use in Linux kernel development and it has seen much
-wider deployment in the real world, these days.</p>
-<p>That node ecosystem is very much tied into Git and that is the reason
-why we need Git for this specialization.</p>
-<p><img src="./images/image13.png"
-style="width:5in;height:2.05716in" /></p>
-<p>Let's now move on to a Few hands on exercises, where you will first
-set up Git.</p>
+<p>This is a software tool that enables us for the management of changes to source code and maintaining your version history.</p>
+<p>As your source code evolves, you will be able to check in the code at different points of times so that you can always have a way of rolling back to a previous version, in case your updates to the code doesn't work correctly.</p>
+<p>There are various version control systems that are in use in the real world, including CVS, SVN, and Git being a very popular mechanism for version control these days. Where did Git originate?</p>
+<p>Git was designed by Linus Torvalds, the person behind the Linux Operating System.</p>
+<p>Git was designed as a version control system and distributed version control system for use in Linux kernel development and it has seen much wider deployment in the real world, these days.</p>
+<p>That node ecosystem is very much tied into Git and that is the reason why we need Git for this specialization.</p>
+<!--~~~~~~~~~~~~ 11. git explained (13) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image011.png?raw=true"
+  style="width:35%"
+  alt="Setting up git." />
+<p>Let's now move on to a Few hands on exercises, where you will first set up Git.</p>
 <p>Then you will learn a few basic Git commands.</p>
 <p>And then also understand how you can set up an online repository in
 places like Git Hub or Bit Bucket for synchronizing your source code
@@ -468,16 +417,15 @@ learn just enough, that of the commands that are necessary for use in
 this specialization.</p>
 <p>Let's now run through a few quick steps to set up Git on your
 computer.</p>
-<p><img src="./images/image14.png"
-style="width:5in;height:2.76229in" /></p>
-<p>One easy way of setting up Git on a computer is to go to this site
-called git-scm.com.</p>
+<!--~~~~~~~~~~~~ 12. git explained (13) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image012.png?raw=true"
+  style="width:35%"
+  alt="Explaining git." />
+<p>One easy way of setting up Git on a computer is to go to this site called git-scm.com.</p>
 <p>And then download the Git installation files from there.</p>
-<p>When you visit this website, git.scm.com, you will see on the
-right-hand side, a button for you to download to Git.</p>
-<p>If you want to you can go directly to the Downloads page here on the
-site, and then you will find the downloads for various platforms and you
-can download the one for your specific platform for installation.</p>
+<p>When you visit this website, git.scm.com, you will see on the right-hand side, a button for you to download to Git.</p>
+<p>If you want to you can go directly to the Downloads page here on the site, and then you will find the downloads for various platforms and you can download the one for your specific platform for installation.</p>
 <p>This is the easiest way of getting Git onto your computer.</p>
 <p>There are other ways of setting up Git, depending on your
 platform.</p>
@@ -487,8 +435,11 @@ automatically set up Git for you.</p>
 code command line tools, that will also set up Git for you.</p>
 <p>On this site, gitscm.com, if you go to the documentation page you
 will notice that there is a book here called Pro Git.</p>
-<p><img src="./images/image15.png"
-style="width:5in;height:2.76229in" /></p>
+<!--~~~~~~~~~~~~ 13. getting started - version control system (14) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image013.png?raw=true"
+  style="width:35%"
+  alt="Getting started - version control system." />
 <p>You can just go on to the Getting Started link.</p>
 <p>You will see a specific chapter here on Installing git.</p>
 <p>Go to this Installing Git site and there you have more details about
@@ -496,39 +447,27 @@ how to install Git on your specific platform.</p>
 <p>Download the installer and run through the set up to get Git on to
 your computer.</p>
 
-
-<p><img src="./images/image16.png"
-style="width:5in;height:3.42788in" /></p>
-<p>Once you install Git on a computer Start up a command window or
-PowerShell if you're using a Window machine or start up a terminal
-window if you're using a Mac or Linux machine and then at the prompt
-type in <strong>git --version</strong> to check what version of git is
-installed on your computer.</p>
-<p>On my machine I have this current version of git installed and that
-is good enough for me to work with.</p>
-<p>Once we verify that Git is installed, we will configure a couple of
-global identity parameters, the username and email address.</p>
-<p>Whenever Git does any comments as you will learn later, it will make
-use of this information.</p>
-<p>To do that, at the prompt type <strong>git config --global
-user.name</strong> “Username”, and then you can type in your user
-name.</p>
-<p><strong>git config –global user.Email
-brianbauska@gmail.com</strong></p>
+<!--~~~~~~~~~~~~ 14. setting up git (15) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image014.png?raw=true"
+  style="width:35%"
+  alt="Setting up git." />
+<p>Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt
+type in <strong>git --version</strong> to check what version of git is installed on your computer.</p>
+<p>On my machine I have this current version of git installed and that is good enough for me to work with.</p>
+<p>Once we verify that Git is installed, we will configure a couple of global identity parameters, the username and email address.</p>
+<p>Whenever Git does any comments as you will learn later, it will make use of this information.</p>
+<p>To do that, at the prompt type <strong>git config --global user.name</strong> “Username”, and then you can type in your user name.</p>
+<p><strong>git config –global user.Email brianbauska@gmail.com</strong></p>
 <p>The other parameter that I'm going to configure is my email.</p>
-<p>And to insure that this information has been configured, we can
-type</p>
+<p>And to insure that this information has been configured, we can type</p>
 <p><strong>git config ---list</strong>.</p>
-<p>And it will list out a bunch of configurations that we have.
-Done.</p>
+<p>And it will list out a bunch of configurations that we have. Done.</p>
 <p>Some of these are automatically set up for you.</p>
 <p>But if you want to, you can set them up as you require.</p>
-<p>Here I have my core editor value set to vi, which is what I use to do
-command line editing of files.</p>
-<p>With this, we have completed the setup git for use on our
-computer.</p>
-<p>Once you get git on your computer it is time to go and learn git bit
-by bit.</p>
+<p>Here I have my core editor value set to vi, which is what I use to do command line editing of files.</p>
+<p>With this, we have completed the setup git for use on our computer.</p>
+<p>Once you get git on your computer it is time to go and learn git bit by bit.</p>
 
 <h2 id="exercise-instructions-setting-up-git">Exercise (Instructions): Setting up Git</h2>
 
