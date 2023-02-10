@@ -496,9 +496,8 @@ exercise, you would be able to:</p>
 <p><strong>Some Global Configuration for Git</strong></p>
 
 <ul>
-<li><p>Open a cmd window or terminal on your computer.</p></li>
-<li><p>Check to make sure that Git is installed and available on the
-command line, by typing the following at the command prompt:</p></li>
+  <li><p>Open a cmd window or terminal on your computer.</p></li>
+  <li><p>Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:</p></li>
 </ul>
 
 <blockquote>
@@ -506,45 +505,41 @@ command line, by typing the following at the command prompt:</p></li>
 </blockquote>
 
 <ul>
-<li><p>To configure your user name to be used by Git, type the following
-at the prompt:</p></li>
+  <li><p>To configure your user name to be used by Git, type the following at the prompt:</p></li>
 </ul>
+
 <p><strong>git config --global user.name "Your Name"</strong></p>
+
 <ul>
-<li><p>To configure your email to be used by Git, type the following at
-the prompt:</p></li>
+  <li><p>To configure your email to be used by Git, type the following at the prompt:</p></li>
 </ul>
+
 <p><strong>git config --global user.email &lt;your email address&gt;</strong></p>
+
 <ul>
-<li><p>You can check your default Git global configuration, you can type
-the following at the prompt:</p></li>
+  <li><p>You can check your default Git global configuration, you can type the following at the prompt:</p></li>
 </ul>
+
 <p><strong>git config --list</strong></p>
+
 <h3 id="conclusions">Conclusions</h3>
-<p>At the end of this exercise you should have Git available on the
-command-line of your computer.</p>
-<h2 id="exercise-video-basic-git-commands">Exercise (Video): Basic Git
-Commands</h2>
-<p>Let us now explore some basic Git commands that are very useful for
-us in this specialization.</p>
+
+<p>At the end of this exercise you should have Git available on the command-line of your computer.</p>
+
+<h2 id="exercise-video-basic-git-commands">Exercise (Video): Basic Git Commands</h2>
+
+<p>Let us now explore some basic Git commands that are very useful for us in this specialization.</p>
 <p>There is lot more to Git than what we cover in this exercise.</p>
-<p>To get started go to your convenient location on your computer and
-then create a folder named git-test.</p>
+<p>To get started go to your convenient location on your computer and then create a folder named git-test.</p>
 <p>Then, open this folder in your favorite editor.</p>
-<p>Here, I have the GIT-TEST folder that we just created open in my
-Visual Studio Code.</p>
-<p>Let me add a file to this folder named index.html, now you can see
-that I have added in some HTML code into this index.html file.</p>
+<p>Here, I have the GIT-TEST folder that we just created open in my Visual Studio Code.</p>
+<p>Let me add a file to this folder named index.html, now you can see that I have added in some HTML code into this index.html file.</p>
 <p>Let's save the changes.</p>
-<p>Now let's switch to our command line, at the command line go to the
-git-test folder, and let's initialize this folder to be a git
-repository.</p>
+<p>Now let's switch to our command line, at the command line go to the git-test folder, and let's initialize this folder to be a git repository.</p>
 <p>To do that at the command line type git init.</p>
 <p>Now, this folder has been initialized to be a git repository.</p>
-<p>This is our first git command that we have learnt, <strong>git
-init</strong>.</p>
-<p>This initializes the current folder as a git repository and when it
-initializes the folder, it will mark that folder as a master.</p>
+<p>This is our first git command that we have learnt, <strong>git init</strong>.</p>
+<p>This initializes the current folder as a git repository and when it initializes the folder, it will mark that folder as a master.</p>
 <p>This is the master branch for my kit.</p>
 <p>Now let's not worry about branches and so on, we will not deal with
 that in this course.</p>
@@ -552,29 +547,18 @@ that in this course.</p>
 specialization.</p>
 <p>This would be marked as a master.</p>
 <p>Now this is the initial point of our repository.</p>
-<p>The next command that we're going to look at is <strong>git
-status</strong>.</p>
-<p>If you type git status in the command line, it'll tell you the
-current status of the folder.</p>
+<p>The next command that we're going to look at is <strong>git status</strong>.</p>
+<p>If you type git status in the command line, it'll tell you the current status of the folder.</p>
 <p>Let's do that at the command line and see what it shows.</p>
-<p>At the command line, type git status and read the information that is
-tapped out on the command window.</p>
-<p>You see that it says on branch master, so that is the master branch
-that we add on.</p>
+<p>At the command line, type git status and read the information that is tapped out on the command window.</p>
+<p>You see that it says on branch master, so that is the master branch that we add on.</p>
 <p>And it says, untracked files, and then shows index.html in red.</p>
-<p>On your specific computer, it may be using different colors or
-represent this differently or this is what it shows on my Mac.</p>
-<p>Now, this index.html file that we have just created in this folder is
-now not been added to our git repository.</p>
+<p>On your specific computer, it may be using different colors or represent this differently or this is what it shows on my Mac.</p>
+<p>Now, this index.html file that we have just created in this folder is now not been added to our git repository.</p>
 <p>Let's go ahead and add that file to the git repository.</p>
-<p>To do that, we say, <strong>&gt; git add,</strong> and you can simply
-say dot, which means that all the files in the current directory will be
-added to what is called as the staging area of my git repository.</p>
-<p>Now, if I again type &gt; git status, you will see that the file
-index.html is marked in green.</p>
-<p>And it says, changes to be committed there and then shows the file
-name and then so that means that this file is now ready to be committed
-to my git repository.</p>
+<p>To do that, we say, <strong>&gt; git add,</strong> and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.</p>
+<p>Now, if I again type &gt; git status, you will see that the file index.html is marked in green.</p>
+<p>And it says, changes to be committed there and then shows the file name and then so that means that this file is now ready to be committed to my git repository.</p>
 <p>The next command that we saw was <strong>&gt; git add</strong>.</p>
 <p>By using git add you can add file or folders to that staging
 area.</p>
@@ -620,8 +604,12 @@ going to add more changes to my index.html file.</p>
 <p>Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
 folder, I'm going to create another file name, test.html.</p>
-<p><img src="./images/image17.png"
-style="width:5in;height:3.37019in" /></p>
+<!--~~~~~~~~~~~~ 15. basic git commands (15) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image015.png?raw=true"
+  style="width:35%"
+  alt="Setting up git." />
+
 <p>This is just to show you how git can commit entire folder hierarchy
 into its repository.</p>
 <p>With test.html now there, I'm just going to copy everything from my
@@ -752,24 +740,20 @@ have just let.</p>
 <p>With this basic understanding of this few git commands, you'll be
 able to proceed forward with understanding and using git in the courses
 of this specialization.</p>
+<!--~~~~~~~~~~~~ 16. More basic git commands (24) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image016.png?raw=true"
+  style="width:35%"
+  alt="More basic git commands." />
 
-<p><img src="./images/image18.png"
-style="width:5in;height:2.22222in" /></p>
-<p>Now, we have reviewed the git reset for a specific file or git reset
-in general.</p>
-<p>If you simply type git reset, it'll restore you back to the last
-commit.</p>
-<p>It will reset the staging area to the last commit, without disturbing
-the changes that you have done to your working directory.</p>
-<p>Once you reset, then you can check out the previous version of the
-file that you have committed in the previous commit.</p>
-<p>This week, you can restore your folder back to the where you were at
-the starting point of the previous commit.</p>
-<p>Sometimes when you are going through an exercise and you realize you
-missed a cue.</p>
+<p>Now, we have reviewed the git reset for a specific file or git reset in general.</p>
+<p>If you simply type git reset, it'll restore you back to the last commit.</p>
+<p>It will reset the staging area to the last commit, without disturbing the changes that you have done to your working directory.</p>
+<p>Once you reset, then you can check out the previous version of the file that you have committed in the previous commit.</p>
+<p>This week, you can restore your folder back to the where you were at the starting point of the previous commit.</p>
+<p>Sometimes when you are going through an exercise and you realize you missed a cue.</p>
 <p>Always have a way of reverting back to a previous version.</p>
-<p>With these commands, I think you're all set to go ahead to use git in
-the courses of this specialization.</p>
+<p>With these commands, I think you're all set to go ahead to use git in the courses of this specialization.</p>
 <p>At the end of this exercise, did you Git it?</p>
 
 <h2 id="exercise-instructions-basic-git-commands">Exercise (Instructions): Basic Git Commands</h2>
@@ -1062,8 +1046,12 @@ URL.</p>
 <p>Pretending that we are on another computer, so I'm going to say git
 clone.</p>
 <p>And then, Paste the URL of my Bitbucket repository here.</p>
-<p><img src="./images/image19.png"
-style="width:5in;height:1.15278in" /></p>
+<!--~~~~~~~~~~~~ 17. git-test (31) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image017.png?raw=true"
+  style="width:35%"
+  alt="git-test." />
+
 <p>Then you would see that that repository will now get cloned into a
 local folder of the same name, git-test.</p>
 <p>Now, if I do a listing of the directory, you can see the be git-test
@@ -1118,10 +1106,15 @@ online repository:</p></li>
 <li><p>To clone an online repository to your computer, type the
 following at the prompt:</p></li>
 </ul>
-<p><img src="./images/image020.png"
-style="width:5in;height:1.26763in" /></p>
+<!--~~~~~~~~~~~~ 18. online git repository commands (32) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image018.png?raw=true"
+  style="width:35%"
+  alt="Online git repository commands." />
 <p><strong>git clone &lt;repository URL&gt;</strong></p>
+
 <h3 id="conclusions-2">Conclusions</h3>
+
 <p>In this exercise you have learnt to set up an online Git repository,
 synchronize your local repository with the remote repository, and clone
 an online repository.</p>
@@ -1130,8 +1123,12 @@ an online repository.</p>
 has seen deployment far beyond the browser.</p>
 <p>Node.js has played a significant role in this shift of JavaScript
 from the browser to the desktop.</p>
-<p><img src="./images/image021.png"
-style="width:5in;height:1.91987in" /></p>
+<!--~~~~~~~~~~~~ 19. what is node.js? (33) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image019.png?raw=true"
+  style="width:35%"
+  alt="What is node.js?" />
+
 <p>Let's now learn a little bit about what Node.js is and what role does
 NPM, the Node Package Manager, play in the context of Node.js. Node.js,
 as I mentioned earlier, allows us to bring the power of JavaScript to
@@ -1149,8 +1146,13 @@ true polish.</p>
 JavaScript runtime.</p>
 <p>We will look at the server side application of Node.js in detail in
 the last course of this specialization.</p>
-<p><img src="./images/image022.png"
-style="width:5in;height:2.07692in" /></p>
+
+<!--~~~~~~~~~~~~ 20. node.js typical architecture (33) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image020.png?raw=true"
+  style="width:35%"
+  alt="Typical node.js architecture." />
+
 <p>This is the typical architecture of Node.js.</p>
 <p>So in this, the Chrome V8 engine is the bottom layer together with
 libuv, forms the layer that interacts with the underlying computer
@@ -1170,8 +1172,13 @@ subsequent courses.</p>
 use of Node.js on the server side.</p>
 <p>How we can develop web server, business logic, all implemented in
 JavaScript on the server side.</p>
-<p><img src="./images/image023.png"
-style="width:5in;height:2.07692in" /></p>
+
+<!--~~~~~~~~~~~~ 21. node package manager (34) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image021.png?raw=true"
+  style="width:35%"
+  alt="Node Package Manager." />
+  
 <p>Together with Node you often hear people talking about the Node
 package manager or NPM. When you install Node on your computer NPM
 automatically gets installed. The Node package manager is the manager
@@ -1192,32 +1199,27 @@ platform.</p>
 <p>Click on the current version of Node.js.</p>
 <p>Click on that to download the installer package for your
 platform.</p>
-<p><img src="./images/image024.png"
-style="width:5in;height:3.62126in" /></p>
-<p>Once you get hold of the installer package, double click on it to
-start installing Node.js.</p>
-<p>Depending on your operating system, you will see a window like this
-on your computer and just follow along the instructions to install
-Node.js on your machine.</p>
-<p>You may need administrative privileges to install Node.js on your
-machine.</p>
-<p>Make sure that you are logged in into an administrator account and
-install Node.js to be accessible by all users that are logged in on the
-computer.</p>
-<p>And once the installation is complete, let's go ahead and verify that
-Node.js has been installed correctly.</p>
-<p>Open up a terminal window or a command window and add the prompt,
-type <strong>node-v</strong> to check the version of node installed.</p>
-<p>Similarly, check <strong>npm-v</strong> to check the version of NPM
-installed. I am starting with these versions of node and NPM, and the
-subsequent exercises will be based on these.</p>
-<p>Even if you install the later version, I'm pretty sure that it would
-be backward compatible.</p>
+<!--~~~~~~~~~~~~ 22. node js installer (35) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image022.png?raw=true"
+  style="width:35%"
+  alt="Node JS installer." />
+
+<p>Once you get hold of the installer package, double click on it to start installing Node.js.</p>
+<p>Depending on your operating system, you will see a window like this on your computer and just follow along the instructions to install Node.js on your machine.</p>
+<p>You may need administrative privileges to install Node.js on your machine.</p>
+<p>Make sure that you are logged in into an administrator account and install Node.js to be accessible by all users that are logged in on the computer.</p>
+<p>And once the installation is complete, let's go ahead and verify that Node.js has been installed correctly.</p>
+<p>Open up a terminal window or a command window and add the prompt, type <strong>node-v</strong> to check the version of node installed.</p>
+<p>Similarly, check <strong>npm-v</strong> to check the version of NPM installed. I am starting with these versions of node and NPM, and the subsequent exercises will be based on these.</p>
+<p>Even if you install the later version, I'm pretty sure that it would be backward compatible.</p>
 <p>All the steps should work pretty much the same.</p>
 <p>With this, we complete the installation of Node.js.</p>
 <p>Let's go ahead and make use of Node.js in the next exercise.</p>
+
 <h2 id="exercise-instructions-setting-up-node.js-and-npm">Exercise
 (Instructions): Setting up Node.js and NPM</h2>
+
 <p><strong>Note: Make sure you have installed Git on your machine before
 you install Node.js. Please complete the previous Git installation
 exercise before proceeding with this exercise.</strong></p>
@@ -1253,35 +1255,41 @@ course.)</p></li>
 <p><strong>Note: On Windows machines, you may need to configure your
 PATH environmental variable in case you forgot to turn on the add to
 PATH during the installation steps.</strong></p>
-<h3 id="verifying-the-node-installation">Verifying the Node
-Installation</h3>
+
+<h3 id="verifying-the-node-installation">Verifying the Node Installation</h3>
+
 <ul>
-<li><p>Open a terminal window on your machine. If you are using a
-Windows machine, open a cmd window or PowerShell window with
-<strong>admin</strong> privileges.</p></li>
-<li><p>To ensure that your NodeJS setup is working correctly, type the
-following at the command prompt to check for the version of
-<strong>Node</strong> and <strong>NPM</strong></p></li>
-<li><blockquote>
-<p><strong>node -v</strong></p>
-</blockquote></li>
-<li><blockquote>
-<p><strong>      </strong></p>
-</blockquote></li>
-<li><blockquote>
-<p><strong>npm -v</strong></p>
-</blockquote></li>
+  <li><p>Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with <strong>admin</strong> privileges.</p></li>
+  <li><p>To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <strong>Node</strong> and <strong>NPM</strong></p></li>
+  <li>
+    <blockquote>
+    <p><strong>node -v</strong></p>
+    </blockquote></li>
+  <li>
+    <blockquote>
+    <p><strong>      </strong></p>
+    </blockquote></li>
+  <li>
+    <blockquote>
+    <p><strong>npm -v</strong></p>
+    </blockquote></li>
 </ul>
-<blockquote>
-<p><img src="./images/image25.png" style="width:5in;height:6.37363in"
-alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&amp;hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0" /></p>
-</blockquote>
+<!--~~~~~~~~~~~~ 23. more node js installer (38) ~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image023.png?raw=true"
+  style="width:35%"
+  alt="More node JS installer." />
+  
+<!-- alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&amp;hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0" -->
+
 <h3 id="conclusions-3">Conclusions</h3>
 <p>At the end of this exercise, your machine is now ready with the Node
 installed for further development. We will examine web development tools
 next.</p>
+
 <h2 id="exercise-video-basics-of-node.js-and-npm">Exercise (Video):
 Basics of Node.js and NPM</h2>
+
 <p>Now that you have Node.js on your computer, you're obviously wanting
 to immediately start using it.</p>
 <p>In this exercise, we will start using Node.</p>
