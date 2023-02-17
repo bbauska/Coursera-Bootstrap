@@ -40,16 +40,16 @@ Instagram - https://www.instagram.com/thenetninja/
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/coursera-logo.png?raw=true"
-   width="35%"
-   alt="Coursera logo." />
+  width="35%"
+  alt="Coursera logo." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
-   width="65%"
-   alt="Hong Kong University of Science and Technology logo." />
+  width="65%"
+  alt="Hong Kong University of Science and Technology logo." />
 </p>
 <!-----------
 {width="5.0in" height="2.202991032370954in"}
@@ -60,8 +60,8 @@ Instagram - https://www.instagram.com/thenetninja/
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
-   width="50%"
-   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
+  width="50%"
+  alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
 <!----------
 {width="5.0in"
@@ -214,8 +214,8 @@ This should take you all the way to the final assignment in this
 course. I hope you will have a lot of fun doing the various parts of
 this course and also enjoy the exercises that you\'ll encounter at
 each stage that enable you to better understand various aspects of the
-Bootstrap web UI framework.
-</p>
+Bootstrap web UI framework.</p>
+
 <h2>Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources</h2>
 
 <h2>Bootstrap Resources</h2>
@@ -268,6 +268,7 @@ development.
    alt="Front-end and back-end."
    width="50%" />
 </p>
+
 <!---------
 {width="5.0in" height="2.0571587926509185in"}
 ---------->
@@ -298,6 +299,7 @@ Development.
    alt="Three-tier architecture: presentation."
    width="75%" />
 </p>
+
 <!---------
 {width="5.0in"
 height="2.0571587926509185in"}
@@ -320,6 +322,7 @@ presentation layer.
    alt="Three-tier architecture: business logic."
    width="75%" />
 </p>
+
 <!-----------
 {width="5.0in"
 height="2.0571587926509185in"}
@@ -360,6 +363,7 @@ traditional web development in each of these three layers.
    alt="Data Access Layer: Databsse and API."
    width="75%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -376,6 +380,7 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
    alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
    width="75%" />
 </p>
+
 <!--------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -397,6 +402,7 @@ rendering these days.
    alt="Traditional Web Development: HTML, CSS & JS."
    width="75%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -423,6 +429,7 @@ database management system.
    alt="Full stack javascript development."
    width="75%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -453,6 +460,7 @@ We will cover these technologies as part of this specialization.
    alt="full stack web dev: bootstrap 4 and angular or reactfull."
    width="75%" />
 </p>
+
 <!----
 {width="5.0in"
 height="2.4770297462817146in"}
@@ -970,6 +978,7 @@ folder, I\'m going to create another file name, test.html.
   width="50%"
   alt="Basic Git commands." />
 </p>
+
 <!----------
 {width="5.0in"
 height="3.3701924759405073in"}
@@ -1168,6 +1177,7 @@ this specialization.
    width="50%"
    alt="Git reset." />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.2222222222222223in"}
@@ -2669,6 +2679,7 @@ And enables you to quickly scaffold out a website or the pitch.
    alt="."
    width="50%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.155983158355206in"}
@@ -2700,6 +2711,7 @@ these others appearing in many of those top-end lists.
    alt="Why Front-End Web UI Frameworks?"
    width="50%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="2.155983158355206in"}
@@ -2784,6 +2796,7 @@ to make use of Bootstrap in designing our website.
    alt="Bootstrap overview."
    width="50%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="1.5753204286964129in"}
@@ -2804,6 +2817,7 @@ Indeed, Bootstrap stands up to its claim as the most popular framework.
    alt="More Bootatrap."
    width="50%" />
 </p>
+
 <!----------
 {width="5.0in"
 height="1.9086537620297463in"}
@@ -12396,7 +12410,7 @@ to be performed on the element that is selected by these selectors.
 
 Let\'s take a look at Bootstrap jQuery example.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 97. jquery syntax #2 (242) ------------------------------------>
+<!--------------------------------- 97. jquery syntax #2 (242) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
