@@ -1529,7 +1529,7 @@ end of this exercise, you will be able to:</p>
   <li><p>Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.</p></li>
 </ul>
 
-<blockquote>
+<pre><code>
 <p><strong>{</strong></p>
 <p><strong>  "name": "git-test",</strong></p>
 <p><strong>  "version": "1.0.0",</strong></p>
@@ -1552,13 +1552,15 @@ end of this exercise, you will be able to:</p>
 <p><strong>  }</strong></p>
 <p><strong>}</strong></p>
 <p><strong> </strong></p>
-</blockquote>
+</code></pre>
 
 <ul>
   <li><p>Next, start the development server by typing the following at the prompt:</p></li>
 </ul>
 
+<pre><code>
 <p><strong>npm start</strong></p>
+</code></pre>
 
 <ul>
   <li><p>This should open your <em>index.html</em> page in your default browser.</p></li>
@@ -1568,10 +1570,12 @@ end of this exercise, you will be able to:</p>
 <h3 id="setting-up-.gitignore">Setting up .gitignore</h3>
 
 <ul>
-  <li><p>Next, create a file in your project directory named <em>.gitignore</em> (<strong>Note</strong>: the name starts with a period)Then, add the following to the .gitignore file</p></li>
+  <li><p>Next, create a file in your project directory named <em>.gitignore</em> (<strong>Note</strong>: the name starts with a period) Then, add the following to the .gitignore file</p></li>
 </ul>
 
+<pre><code>
 <p><strong>node_modules</strong></p>
+</code></pre>
 
 <ul>
   <li><p>Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.</p></li>
@@ -5617,13 +5621,13 @@ appropriate pages.</p></li>
   <li><p>We are now going to add content to <em>contactus.html</em> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</p></li>
 </ul>
 
-<blockquote>
+<pre><code>
 <p><strong>                &lt;div class="btn-group" role="group"&gt;</strong></p>
 <p><strong>                    &lt;a role="button" class="btn btn-primary" href="<u>tel:+85212345678</u>"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;</strong></p>
 <p><strong>                    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;</strong></p>
 <p><strong>                    &lt;a role="button" class="btn btn-success" href="<u>mailto:confusion@food.net</u>"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;</strong></p>
 <p><strong>                &lt;/div&gt;</strong></p>
-</blockquote>
+</code></pre>
 
 <p>Note how we define the button bar using the <em>btn-group</em> class,
 and then add the three buttons using the <em>&lt;a&gt;</em> tag. In this
