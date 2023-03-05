@@ -65,7 +65,7 @@ h7 {
   text-align: left; }
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   text-align: left; }
 
 </style>
@@ -9273,8 +9273,9 @@ control our Carousel.</p>
 able to control our Bootstrap JavaScript-based components.</p>
 <p>This is a good time to do a comment of your code with the message
 Bootstrap jQuery.</p>
-<h2 id="exercise-instructions-bootstrap-and-jquery">Exercise
-(Instructions): Bootstrap and JQuery</h2>
+
+<h2 id="exercise-instructions-bootstrap-and-jquery">Exercise (Instructions): Bootstrap and JQuery</h2>
+
 <p>Many of the Bootstrap's JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
 JavaScript code, in particular, by writing code Using the jQuery
@@ -9539,32 +9540,33 @@ methods that we applied in order to manipulate the DOM to reflect the
 behavior as pertinent in this particular case.</p>
 <p>With this, we complete this exercise. It's time for you to do a Git
 commit with the message more Bootstrap and jQuery.</p>
-<h2 id="exercise-instructions-more-bootstrap-and-jquery">Exercise
-(Instructions): More Bootstrap and JQuery</h2>
+
+<h2 id="exercise-instructions-more-bootstrap-and-jquery">Exercise (Instructions): More Bootstrap and JQuery</h2>
+
 <h3 id="objectives-and-outcomes-18">Objectives and Outcomes</h3>
+
 <p>In this exercise we extend the previous exercise of controlling the
 carousel by using more JQuery and JavaScript to write JavaScript code to
 control the JS component. At the end of this exercise you will be able
 to:</p>
+
 <ul>
-<li><p>Use Bootstrap's JS component methods together with JQuery and
-Javascript</p></li>
-<li><p>Use JS code to control the Bootstrap JS component</p></li>
+  <li><p>Use Bootstrap's JS component methods together with JQuery and Javascript</p></li>
+  <li><p>Use JS code to control the Bootstrap JS component</p></li>
 </ul>
-<h3 id="modifying-the-carousel-control-buttons">Modifying the Carousel
-Control Buttons</h3>
+
+<h3 id="modifying-the-carousel-control-buttons">Modifying the Carousel Control Buttons</h3>
+
 <ul>
-<li><p>We will modify the carousel control buttons in the carousel
-component that we already included in the index.html page. Instead of
-two buttons, we will use a single button that will indicate if the
-carousel is currently cycling or paused. Furthermore we can use the
-button to toggle the carousel cycling behavior:</p></li>
+  <li><p>We will modify the carousel control buttons in the carousel component that we already included in the index.html page. Instead of two buttons, we will use a single button that will indicate if the carousel is currently cycling or paused. Furthermore we can use the button to toggle the carousel cycling behavior:</p></li>
 </ul>
+
 <blockquote>
-<p><strong>                    &lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;</strong></p>
-<p><strong>                        &lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;</strong></p>
-<p><strong>                    &lt;/button&gt;</strong></p>
+<p><strong>&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;</strong></p>
+<p><strong>&lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;/button&gt;</strong></p>
 </blockquote>
+
 <p>We are adding a single button inside a button group with the ID
 carouselButton. The buttons will show either as a pause or play button
 based on the current behavior of the carousel.</p>
@@ -9576,18 +9578,18 @@ based on the current behavior of the carousel.</p>
 </ul>
 
 <blockquote>
-<p><strong>            $("#carouselButton").click(function(){</strong></p>
-<p><strong>                if ($("#carouselButton").children("span").hasClass('fa-pause')) {</strong></p>
-<p><strong>                    $("#mycarousel").carousel('pause');</strong></p>
-<p><strong>                    $("#carouselButton").children("span").removeClass('fa-pause');</strong></p>
-<p><strong>                    $("#carouselButton").children("span").addClass('fa-play');</strong></p>
-<p><strong>                }</strong></p>
-<p><strong>                else if ($("#carouselButton").children("span").hasClass('fa-play')){</strong></p>
-<p><strong>                    $("#mycarousel").carousel('cycle');</strong></p>
-<p><strong>                    $("#carouselButton").children("span").removeClass('fa-play');</strong></p>
-<p><strong>                    $("#carouselButton").children("span").addClass('fa-pause');                    </strong></p>
-<p><strong>                }</strong></p>
-<p><strong>            });</strong></p>
+<p><strong>$("#carouselButton").click(function(){</strong></p>
+<p><strong>  if ($("#carouselButton").children("span").hasClass('fa-pause')) {</strong></p>
+<p><strong>   $("#mycarousel").carousel('pause');</strong></p>
+<p><strong>   $("#carouselButton").children("span").removeClass('fa-pause');</strong></p>
+<p><strong>   $("#carouselButton").children("span").addClass('fa-play');</strong></p>
+<p><strong>}</strong></p>
+<p><strong>else if ($("#carouselButton").children("span").hasClass('fa-play')){</strong></p>
+<p><strong>   $("#mycarousel").carousel('cycle');</strong></p>
+<p><strong>   $("#carouselButton").children("span").removeClass('fa-play');</strong></p>
+<p><strong>   $("#carouselButton").children("span").addClass('fa-pause');                    </strong></p>
+<p><strong>}</strong></p>
+<p><strong>});</strong></p>
 </blockquote>
 
 <ul>
@@ -9613,21 +9615,22 @@ control the behavior of a Bootstrap JS component.</p>
 </ul>
 
 <h3 id="jquery">JQuery</h3>
+
 <ul>
-<li><p><a href="http://jquery.com/">JQuery</a></p></li>
-<li><p><a href="http://www.w3schools.com/jquery/default.asp" target="_blank" rel="noopener noreferrer">W3Schools
-JQuery</a></p></li>
+  <li><p><a href="http://jquery.com/">JQuery</a></p></li>
+  <li><p><a href="http://www.w3schools.com/jquery/default.asp" target="_blank" rel="noopener noreferrer">W3Schools JQuery</a></p></li>
 </ul>
-<h2 id="css-preprocessors-objectives-and-outcomes">CSS Preprocessors:
-Objectives and Outcomes</h2>
+
+<h2 id="css-preprocessors-objectives-and-outcomes">CSS Preprocessors: Objectives and Outcomes</h2>
+
 <p>In this lesson we explore CSS preprocessors, Less and Sass. We learn
 the salient features of both the processors and see how we can generate
 CSS from the Less and Sass code. At the end of this lesson, you will be
 able to:</p>
+
 <ul>
-<li><p>Write Less and Sass code to define your CSS classes</p></li>
-<li><p>Compile the Less and Sass code into the corresponding CSS
-classes</p></li>
+  <li><p>Write Less and Sass code to define your CSS classes</p></li>
+  <li><p>Compile the Less and Sass code into the corresponding CSS classes</p></li>
 </ul>
 
 <h2 id="css-preprocessors-less-and-sass">CSS Preprocessors: Less and Sass</h2>
@@ -9863,22 +9866,26 @@ original CSS file.</p>
 automatically convert that into the corresponding CSS code.</p>
 <p>At this point, you may wish to save the changes to your Git
 repository with the message Exercise: Less.</p>
+
 <h2 id="exercise-instructions-less">Exercise (Instructions): Less</h2>
+
 <h3 id="objectives-and-outcomes-19">Objectives and Outcomes</h3>
 <p>In this exercise you will learn to write Less code and then
 automatically transform it into the corresponding CSS code. At the end
 of this exercise you will be able to:</p>
+
 <ul>
-<li><p>Write Less code using many of the features of Less</p></li>
-<li><p>Automatically convert the Less code into CSS</p></li>
+  <li><p>Write Less code using many of the features of Less</p></li>
+  <li><p>Automatically convert the Less code into CSS</p></li>
 </ul>
+
 <h3 id="adding-less-variables">Adding Less Variables</h3>
+
 <ul>
-<li><p>Open the <em>conFusion</em> project in a text editor of your
-choice. In the css folder, create a file named <em>styles.less</em>. We
-will add the Less code into this file.</p></li>
-<li><p>Add the following Less variables into the file:</p></li>
+  <li><p>Open the <em>conFusion</em> project in a text editor of your choice. In the css folder, create a file named <em>styles.less</em>. We will add the Less code into this file.</p></li>
+  <li><p>Add the following Less variables into the file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>@lt-gray: #ddd;</strong></p>
 <p><strong>@background-dark: #512DA8;</strong></p>
@@ -9889,12 +9896,16 @@ will add the Less code into this file.</p></li>
 <p><strong>@carousel-item-height: 300px;</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>We have just added a few color and a height variable. We will make
 use of these variables while defining the classes.</p>
+
 <h3 id="less-mixins">Less Mixins</h3>
+
 <ul>
-<li><p>Next we add a mixin into the file as follows:</p></li>
+  <li><p>Next we add a mixin into the file as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {</strong></p>
 <p><strong>    margin:0px auto;</strong></p>
@@ -9902,11 +9913,13 @@ use of these variables while defining the classes.</p>
 <p><strong>}</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>We will make use of this to define several row classes next.</p>
+
 <ul>
-<li><p>Using the variables and Mixin class that we defined earlier, add
-the following row classes to the file:</p></li>
+  <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>address{</strong></p>
 <p><strong>    font-size:80%;</strong></p>
@@ -9949,13 +9962,16 @@ the following row classes to the file:</p></li>
 <p><strong>.row-header{</strong></p>
 <p><strong>    .zero-margin();</strong></p>
 </blockquote>
+
 <p>Note the use of the variables and the mixin with various parameters
 in defining the classes.</p>
+
 <h3 id="nesting-selectors">Nesting Selectors</h3>
+
 <ul>
-<li><p>Next we add a carousel class to illustrate the use of nesting of
-classes in Less, as follows:</p></li>
+  <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>.carousel {</strong></p>
 <p><strong>    background:@background-dark;</strong></p>
@@ -9978,42 +9994,45 @@ classes in Less, as follows:</p></li>
 <p><strong>    z-index: 1;</strong></p>
 <p><strong>}</strong></p>
 </blockquote>
-<h3 id="installing-and-using-the-lessc-compiler">Installing and using
-the lessc Compiler</h3>
+
+<h3 id="installing-and-using-the-lessc-compiler">Installing and using the lessc Compiler</h3>
+
 <ul>
-<li><p>Now we install the node module to support the compilation of the
-Less file. To do this, type the following at the command
-prompt:</p></li>
+  <li><p>Now we install the node module to support the compilation of the Less file. To do this, type the following at the command prompt:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>     npm install -g less@2.7.2</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <p>This will install the <em>less</em> NPM module globally so that it
 can be used by any project. <strong>Note: if you are executing this on a
 Mac or Linux machine, you may need to add "sudo" to the beginning of
 this command</strong>. This will make available the <em>lessc</em>
 compiler for us so that we can compile Less files.</p>
+
 <ul>
-<li><p>Next, go to the CSS folder on your machine and rename the
-<em>styles.css</em> file that you have there as <em>styles-old.css</em>.
-This is to save the CSS file that we have been using so far. We will be
-creating a new <em>styles.css</em> file by compiling the Less
-file.</p></li>
-<li><p>Next type the following at the command prompt to compile the Less
-file into a CSS file:</p></li>
+  <li><p>Next, go to the CSS folder on your machine and rename the <em>styles.css</em> file that you have there as <em>styles-old.css</em>. This is to save the CSS file that we have been using so far. We will be creating a new <em>styles.css</em> file by compiling the Less file.</p></li>
+  <li><p>Next type the following at the command prompt to compile the Less file into a CSS file:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>     lessc styles.less styles.css</strong></p>
 <p><strong> </strong></p>
 </blockquote>
+
 <ul>
-<li><p>You can now do a Git commit with the message "Less".</p></li>
+  <li><p>You can now do a Git commit with the message "Less".</p></li>
 </ul>
+
 <h3 id="conclusions-16">Conclusions</h3>
+
 <p>In this exercise you learnt to write Less code and then automatically
 generating the CSS file by compiling the Less code.</p>
+
 <h2 id="exercise-scss">Exercise: Scss</h2>
+
 <p>We'll now move on to the next exercise, where we will use SCSS syntax
 to define our SCSS classes and automatically convert them into their
 corresponding CSS classes.</p>
@@ -10103,14 +10122,18 @@ sufficient experience using Bootstrap in your daily life.</p>
 <p>This completes our exercise.</p>
 <p>This may be a good time for you to do a good commit with the message
 exercise SCSS.</p>
+
 <h2 id="exercise-instructions-scss">Exercise (Instructions): Scss</h2>
+
 <h3 id="objectives-and-outcomes-20">Objectives and Outcomes</h3>
+
 <p>In this exercise you will learn to write Scss code and then
 automatically transform it into the corresponding CSS code. At the end
 of this exercise you will be able to:</p>
+
 <ul>
-<li><p>Write Scss code using many of the features of Scss</p></li>
-<li><p>Automatically convert the Scss code into CSS</p></li>
+  <li><p>Write Scss code using many of the features of Scss</p></li>
+  <li><p>Automatically convert the Scss code into CSS</p></li>
 </ul>
 
 <h3 id="adding-scss-variables">Adding Scss Variables</h3>
@@ -10272,22 +10295,18 @@ Additional Resources</h2>
 <p><strong>10-CSS-Preprocessors.pdf</strong></p>
 
 <h3 id="less-and-sass-resources">Less and Sass Resources</h3>
+
 <ul>
-<li><p><a href="http://lesscss.org/" target="_blank" rel="noopener noreferrer">Less Getting Started</a></p></li>
-<li><p><a href="http://sass-lang.com/guide" target="_blank" rel="noopener noreferrer">Sass Basics</a></p></li>
-<li><p><a
-href="https://scotch.io/tutorials/getting-started-with-less" target="_blank" rel="noopener noreferrer">Getting
-Started with Less Tutorial</a></p></li>
-<li><p><a
-href="https://scotch.io/tutorials/getting-started-with-sass" target="_blank" rel="noopener noreferrer">Getting
-Started with Sass Tutorial</a></p></li>
-<li><p><a href="https://www.npmjs.com/package/less" target="_blank" rel="noopener noreferrer">Less NPM
-package</a></p></li>
-<li><p><a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="noopener noreferrer">Node-sass NPM
-package</a></p></li>
+  <li><p><a href="http://lesscss.org/" target="_blank" rel="noopener noreferrer">Less Getting Started</a></p></li>
+  <li><p><a href="http://sass-lang.com/guide" target="_blank" rel="noopener noreferrer">Sass Basics</a></p></li>
+  <li><p><a href="https://scotch.io/tutorials/getting-started-with-less" target="_blank" rel="noopener noreferrer">Getting Started with Less Tutorial</a></p></li>
+  <li><p><a href="https://scotch.io/tutorials/getting-started-with-sass" target="_blank" rel="noopener noreferrer">Getting Started with Sass Tutorial</a></p></li>
+  <li><p><a href="https://www.npmjs.com/package/less" target="_blank" rel="noopener noreferrer">Less NPM package</a></p></li>
+  <li><p><a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="noopener noreferrer">Node-sass NPM package</a></p></li>
 </ul>
-<h2 id="assignment-4-bootstrap-jquery-and-sass">Assignment 4: Bootstrap,
-JQuery and Sass</h2>
+
+<h2 id="assignment-4-bootstrap-jquery-and-sass">Assignment 4: Bootstrap, JQuery and Sass</h2>
+
 <p>We come to the final assignment of this course. In this fourth
 assignment, you're going to work with bootstraps, JQuery support and
 also a little bit of Sass. This assignment consists of four tasks.</p>
@@ -10336,8 +10355,9 @@ can see that the same background dark color is applied to the header and
 the background pale color is applied to the body of your model.</p>
 <p>And upon completing this assignment, you may wish to do a good
 comment to save your changes with the message assignment four.</p>
-<h2 id="assignment-4-additional-resources">Assignment 4: Additional
-Resources</h2>
+
+<h2 id="assignment-4-additional-resources">Assignment 4: Additional Resources</h2>
+
 <h3 id="screenshots">Screenshots</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. form - reserve a table (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10356,24 +10376,27 @@ Resources</h2>
 
 <h3 id="bootstrap-documentation">Bootstrap Documentation</h3>
 
+
 <ul>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Modals</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/components/modal/#methods" target="_blank" rel="noopener noreferrer">Modal
-Methods</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener noreferrer">Modals</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/components/modal/#methods" target="_blank" rel="noopener noreferrer">Modal Methods</a></p></li>
 </ul>
+
 <h2 id="building-and-deployment-objectives-and-outcomes">Building and Deployment: Objectives and Outcomes</h2>
+
 <p>In this lesson you will learn about building and deploying your web
 project.</p>
 <p>You will learn to automate your web development tasks using NPM
 scripts.</p>
 <p>At the end of this lesson, you will be able to:</p>
+
 <ul>
-<li><p>Configure NPM scripts and automate your web development</p></li>
-<li><p>Prepare your project for being hosted on a web server</p></li>
+  <li><p>Configure NPM scripts and automate your web development</p></li>
+  <li><p>Prepare your project for being hosted on a web server</p></li>
 </ul>
+
 <h2 id="building-and-deployment">Building and Deployment</h2>
+
 <p>So far, we have been concentrating on designing and implementing our
 website, be it HTML, CSS, or JavaScript code.</p>
 <p>Once your website is ready, the next step is to be able to build your
@@ -10508,7 +10531,9 @@ call as building up the distribution files, is also an equally important
 task.</p>
 <p>We'll look at some of these through examples in the next exercise and
 also the next lesson where we will look at task runners.</p>
+
 <h2 id="npm-scripts">NPM Scripts</h2>
+
 <p>As a first approach to automating our tasks, let's look at the
 example of using NPM scripts. Indeed, we had already started using NPM
 scripts in this course in the earlier lessons.</p>
@@ -10554,44 +10579,42 @@ lot of our web development tasks, we will learn how to configure the NPM
 scripts in the package.json file, and then execute the scripts,
 sometimes automatically or sometimes manually invoke the scripts in
 order to do the building and deployment of our website.</p>
-<h2 id="exercise-instructions-npm-scripts-part-1">Exercise
-(Instructions): NPM Scripts Part 1</h2>
+
+<h2 id="exercise-instructions-npm-scripts-part-1">Exercise (Instructions): NPM Scripts Part 1</h2>
+
 <h3 id="objectives-and-outcomes-21">Objectives and Outcomes</h3>
-<p>In this exercise, you will learn to set up NPM scripts by modifying
-the <em>package.json</em> file. At the end of this exercise, you will be
-able to:</p>
+
+<p>In this exercise, you will learn to set up NPM scripts by modifying the <em>package.json</em> file. At the end of this exercise, you will be able to:</p>
+
 <ul>
-<li><p>Watch for changes to the <em>styles.scss</em> file and
-automatically compile it to the css file.</p></li>
-<li><p>Run multiple NPM scripts in parallel using parallelshell NPM
-module.</p></li>
+  <li><p>Watch for changes to the <em>styles.scss</em> file and automatically compile it to the css file.</p></li>
+  <li><p>Run multiple NPM scripts in parallel using parallelshell NPM module.</p></li>
 </ul>
+
 <h3 id="moving-js-to-script-file">Moving JS to Script file</h3>
+
 <ul>
-<li><p>Create a folder named <em>js</em> and in that folder create a
-file named <em>scripts.js</em>.</p></li>
-<li><p>Open <em>index.html</em> and from this file cut out all the
-JQuery script that we added to it and move the code to the
-<em>scripts.js</em> file that we created above.</p></li>
-<li><p>Then, update the <em>index.html</em> file to include the
-<em>scripts.js</em> file by adding the following line:</p></li>
+  <li><p>Create a folder named <em>js</em> and in that folder create a file named <em>scripts.js</em>.</p></li>
+  <li><p>Open <em>index.html</em> and from this file cut out all the JQuery script that we added to it and move the code to the <em>scripts.js</em> file that we created above.</p></li>
+  <li><p>Then, update the <em>index.html</em> file to include the <em>scripts.js</em> file by adding the following line:</p></li>
 </ul>
+
 <p><strong>    &lt;script src="<u>js/scripts.js</u>"&gt;&lt;/script&gt;</strong></p>
+
 <ul>
-<li><p>Add the same line to the scripts block in <em>aboutus.html</em>
-and <em>contactus.html</em>:</p></li>
+  <li><p>Add the same line to the scripts block in <em>aboutus.html</em> and <em>contactus.html</em>:</p></li>
 </ul>
-<h3 id="watching-for-changes-and-parallelshell">Watching for Changes and
-Parallelshell</h3>
+
+<h3 id="watching-for-changes-and-parallelshell">Watching for Changes and Parallelshell</h3>
+
 <ul>
-<li><p>First, we install two NPM packages <em>onchange</em> and
-<em>parallelshell</em> as follows:</p></li>
+  <li><p>First, we install two NPM packages <em>onchange</em> and <em>parallelshell</em> as follows:</p></li>
 </ul>
+
 <p><strong>npm install --save-dev onchange@3.3.0 parallelshell@3.0.2</strong></p>
+
 <ul>
-<li><p>Then, add the following two script items to <em>package.json</em>
-if you are doing the exercise on a MacOS computer or a Linux
-computer:</p></li>
+  <li><p>Then, add the following two script items to <em>package.json</em> if you are doing the exercise on a MacOS computer or a Linux computer:</p></li>
 </ul>
 
 <blockquote>
@@ -10600,36 +10623,39 @@ computer:</p></li>
 </blockquote>
 
 <ul>
-<li><p><strong>NOTE:</strong> If you are doing the exercise on a Windows
-computer, please use the following two script items instead of the
-above:</p></li>
+  <li><p><strong>NOTE:</strong> If you are doing the exercise on a Windows computer, please use the following two script items instead of the above:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",</strong></p>
 <p><strong>    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""</strong></p>
 </blockquote>
+
 <ul>
-<li><p>You will also update the start script as follows:</p></li>
+  <li><p>You will also update the start script as follows:</p></li>
 </ul>
+
 <p><strong>    "start": "npm run watch:all",</strong></p>
+
 <ul>
-<li><p>Then, type the following at the prompt to start watching for
-changes to the SCSS file, compile it to CSS, and run the
-server:</p></li>
+  <li><p>Then, type the following at the prompt to start watching for changes to the SCSS file, compile it to CSS, and run the server:</p></li>
 </ul>
+
 <p><strong>npm start</strong></p>
+
 <ul>
-<li><p>Now, whenever you make any changes to <em>styles.scss</em> file,
-it will automatically be compiled to the corresponding css
-file.</p></li>
-<li><p>Do a Git Commit with the message "NPM Scripts Part 1".</p></li>
+  <li><p>Now, whenever you make any changes to <em>styles.scss</em> file, it will automatically be compiled to the corresponding css file.</p></li>
+  <li><p>Do a Git Commit with the message "NPM Scripts Part 1".</p></li> 
 </ul>
+
 <h3 id="conclusions-18">Conclusions</h3>
+
 <p>In this exercise, you learnt how to set up a watch task to watch for
 changes to a file and automatically run tasks upon detecting
 changes.</p>
-<h2 id="exercise-video-npm-scripts-part-2">Exercise (Video): NPM Scripts
-Part 2</h2>
+
+<h2 id="exercise-video-npm-scripts-part-2">Exercise (Video): NPM Scripts Part 2</h2>
+
 <p>We'll now continue our journey with NPM scripts in this next
 exercise.</p>
 <p>Here, we're going to learn how to be able to build a distribution
@@ -11454,43 +11480,45 @@ page.</p>
 <p>With this, we complete our grunt part one exercise.</p>
 <p>This is a good time to save your files, to the Git Repository with
 the message Grunt part one.</p>
-<h2 id="exercise-instructions-grunt-part-1">Exercise (Instructions):
-Grunt Part 1</h2>
+
+<h2 id="exercise-instructions-grunt-part-1">Exercise (Instructions): Grunt Part 1</h2>
+
 <h3 id="objectives-and-outcomes-23">Objectives and Outcomes</h3>
+
 <p>In this exercise, you will learn to use Grunt, the task runner. You
 will install Grunt CLI and install Grunt packages using NPM. Thereafter
 you will configure a Grunt file with a set of tasks to build and serve
 your web project. At the end of this exercise, you will be able to:</p>
+
 <ul>
-<li><p>Install Grunt CLI and Grunt packages in your project</p></li>
-<li><p>Configure a Grunt file with a set of tasks to build a web project
-from a source, and serve the built project using a server.</p></li>
+  <li><p>Install Grunt CLI and Grunt packages in your project</p></li>
+  <li><p>Configure a Grunt file with a set of tasks to build a web project from a source, and serve the builtproject using a server.</p></li>
 </ul>
+
 <h3 id="installing-grunt">Installing Grunt</h3>
+
 <ul>
-<li><p>At the command prompt, type the following to install Grunt
-command-line interface (CLI):</p></li>
+  <li><p>At the command prompt, type the following to install Grunt command-line interface (CLI):</p></li>
 </ul>
+
 <p><strong>npm install -g grunt-cli@1.2.0</strong></p>
-<p>This will install the Grunt CLI globally so that you can use them in
-all projects.</p>
+<p>This will install the Grunt CLI globally so that you can use them in all projects.</p>
+
 <ul>
-<li><p>Next install Grunt to use within your project. To do this, go to
-the <em>conFusion</em> folder and type the following at the
-prompt:</p></li>
+  <li><p>Next install Grunt to use within your project. To do this, go to the <em>conFusion</em> folder and type the following at the prompt:</p></li>
 </ul>
+
 <p><strong>npm install grunt@1.0.2 --save-dev</strong></p>
 <p>This will install local per-project Grunt to use within your
 project.</p>
+
 <h3 id="creating-a-grunt-file">Creating a Grunt File</h3>
+
 <ul>
-<li><p>Next you need to create a Grunt file containing the configuration
-for all the tasks to be run when you use Grunt. To do this, create a
-file named <em>Gruntfile.js</em> in the <em>conFusion</em>
-folder.</p></li>
-<li><p>Next, add the following code to Gruntfile.js to set up the file
-to configure Grunt tasks:</p></li>
+  <li><p>Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named <em>Gruntfile.js</em> in the <em>conFusion</em> folder.</p></li>
+  <li><p>Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:</p></li>
 </ul>
+
 <blockquote>
 <p><strong>'use strict';</strong></p>
 <p><strong> </strong></p>
@@ -11501,9 +11529,12 @@ to configure Grunt tasks:</p></li>
 <p><strong>  });</strong></p>
 <p><strong>};</strong></p>
 </blockquote>
+
 <p>This sets up the Grunt module ready for including the grunt tasks
 inside the function above.</p>
+
 <h3 id="compiling-scss-to-css">Compiling SCSS to CSS</h3>
+
 <ul>
   <li><p>Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:</p></li>
 </ul>
@@ -12047,8 +12078,7 @@ to:</strong></p>
 </blockquote>
 
 <ul>
-<li><p>Then, configure the imagemin task as shown below in the
-Gruntfile:</p></li>
+  <li><p>Then, configure the imagemin task as shown below in the Gruntfile:</p></li>
 </ul>
 
 <blockquote>
@@ -12790,5 +12820,5 @@ reaching the final goal.</p>
 
 </body>
 
-<!--- last updated 2/20/23 7:02pm -->
+<!--- last updated 3/4/23 7:47pm -->
 </html>
