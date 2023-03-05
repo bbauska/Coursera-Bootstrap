@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!-- https://github.com/bbauska/Coursera-Bootstrap/blob/main/index.html -->
+
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ index.html in https://github.com/bbauska/coursera-boot ~~~~~~~~~~~~~~~~~~~-->
@@ -68,7 +70,7 @@ body {
 
 </style>
 
-  <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 01a. course title: front-end web ui frameworks and tools: bootstrap 4 ~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -87,11 +89,11 @@ body {
 
 <!-- <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> -->
 
-<!-- <head> -->
-<!--  <meta charset="utf-8" /> -->
+<head>
+  <meta charset="utf-8">
 <!--  <meta name="generator" content="pandoc" /> -->
-<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" /> -->
-<!--  <title>Front-End Web UI Frameworks and Tools: Bootstrap 4</title> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Front-End Web UI Frameworks and Tools: Bootstrap 4</title>
 
 <!--  <style> -->
 <!--    code{white-space: pre-wrap;} -->
@@ -102,18 +104,17 @@ body {
 <!--    ul.task-list{list-style: none;} -->
 <!--    .display.math{display: block; text-align: center; margin: 0.5rem auto;} -->
 <!--  </style> -->
-<!--  <link rel="stylesheet" href="styles.css" /> -->
+  <link rel="stylesheet" href="styles.css">
+
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 
-</head>
+  </head>
 
 <body>
 
-<header id="title-block-header">
-<h1 class="title"><strong>Front-End Web UI Frameworks and Tools: Bootstrap 4</strong></h1>
-</header>
+<header><h1><strong>Front-End Web UI Frameworks and Tools: Bootstrap 4</strong></h1></header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------ 01. hong kong university of science & technology logo (01) ------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2083,33 +2084,23 @@ project. Thereafter you need to install JQuery and Popper.js as shown
 below since Bootstrap 4 depends on these two. At the prompt, type the
 following to fetch Bootstrap files to your project folder:</p></li>
 </ul>
+
 <p>npm install bootstrap@4.0.0 --save</p>
 <p>npm install jquery@3.3.1 popper.js@1.12.9 --save</p>
+
 <ul>
-<li><p>This will fetch the Bootstrap files and store is in your
-node_modules folder in a bootstrap folder. The bootstrap-&gt;dist folder
-contains the precompiled Bootstrap CSS and JS files for use within your
-project.</p></li>
-<li><p>Open your project folder in your editor, and then open the
-index.html file in the <em>conFusion</em> folder. This is your starting
-web page for the project. We have already created the web page with some
-content to get you started. We will use Bootstrap to style this web
-page, and learn Bootstrap features, classes and components along the
-way.</p></li>
-<li><p>Start your lite-server by typing <strong>npm start</strong> at
-the prompt. The <em>index.html</em> file should now be loaded into your
-default browser.</p></li>
+  <li><p>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap-&gt;dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</p></li>
+  <li><p>Open your project folder in your editor, and then open the index.html file in the <em>conFusion</em> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.</p></li>
+  <li><p>Start your lite-server by typing <strong>npm start</strong> at the prompt. The <em>index.html</em> file should now be loaded into your default browser.</p></li>
 </ul>
-<h3 id="getting-your-web-page-bootstrap-ready">Getting your Web page
-Bootstrap ready</h3>
+
+<h3 id="getting-your-web-page-bootstrap-ready">Getting your Web page Bootstrap ready</h3>
+
 <ul>
-<li><p>Open the <em>index.html</em> file in your favourite text editor.
-If you are using Visual Studio Code, Brackets, Sublime Text or similar
-editors, you can open the project folder in the editor and then view
-index.html.</p></li>
-<li><p>Insert the following code in the <em>&lt;head&gt;</em> of
-<em>index.html</em> file before the title.</p></li>
+  <li><p>Open the <em>index.html</em> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.</p></li>
+  <li><p>Insert the following code in the <em>&lt;head&gt;</em> of <em>index.html</em> file before the title.</p></li>
 </ul>
+
 <p>    &lt;!-- Required meta tags always come first --&gt;</p>
 <p>    &lt;meta charset="utf-8"&gt;</p>
 <p>    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;</p>
@@ -2117,78 +2108,76 @@ index.html.</p></li>
 <p> </p>
 <p>    &lt;!-- Bootstrap CSS --&gt;</p>
 <p>    &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;</p>
+
 <ul>
-<li><p>This will include Bootstrap CSS into your web page. Note the
-subtle change in the fonts of the content of the web page. This is the
-Bootstrap typography effect coming into play. The default Bootstrap
-typography sets the font to Helvetica Neue and selects the appropriate
-font size based on the choice of the heading style and paragraph style
-for the content.</p></li>
-<li><p>At the bottom of the page, just before the end of the body tag,
-add the following code to include the JQuery library, popper.js library
-and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery
-Javascript library for its Javascript plugins. Hence the need to include
-JQuery library in the web page.</p></li>
+  <li><p>This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.</p></li>
+  <li><p>At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.</p></li>
 </ul>
+
 <p>    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;</p>
 <p>    &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;</p>
 <p>    &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;</p>
 <p>    &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;</p>
+
 <ul>
-<li><p>Now, do a Git commit with the message "Intro. to Bootstrap". You
-may push the commit to your online repository.</p></li>
+  <li><p>Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.</p></li>
 </ul>
+
 <h3 id="conclusion">Conclusion</h3>
+
 <p>We have now understood how to set up a web project to use Bootstrap.
 In the next lecture, we will explore further on responsive design and
 Bootstrap's grid system.</p>
+
 <h2 id="introduction-to-bootstrap-additional-resources">Introduction to
 Bootstrap: Additional Resources</h2>
+
 <h3 id="pdfs-of-the-presentations">PDFs of the Presentations</h3>
+
 <blockquote>
 <p><strong>03-Web-UI-Frameworks.pdf</strong></p>
 <p><strong>04-Intro-Bootstrap.pdf</strong></p>
 </blockquote>
+
 <h3 id="exercise-resources-1">Exercise Resources</h3>
+
 <ul>
-<li><p>(required for the exercise)</p></li>
+  <li><p>(required for the exercise)</p></li>
 </ul>
+
 <p><strong>Bootstrap4-starter.zip</strong></p>
+
 <h3 id="bootstrap-official-resources">Bootstrap Official Resources</h3>
+
 <ul>
-<li><p><a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 4 Home
-Page</a></p></li>
-<li><p><a
-href="http://getbootstrap.com/docs/4.0/content/typography/" target="_blank" rel="noopener noreferrer">Bootstrap
-typography</a></p></li>
-<li><p><a href="http://getbootstrap.com/docs/4.0/migration/" target="_blank" rel="noopener noreferrer">Migrating
-from Bootstrap 3 to Bootstrap 4</a></p></li>
+  <li><p><a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 4 Home Page</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/content/typography/" target="_blank" rel="noopener noreferrer">Bootstrap typography</a></p></li>
+  <li><p><a href="http://getbootstrap.com/docs/4.0/migration/" target="_blank" rel="noopener noreferrer">Migrating from Bootstrap 3 to Bootstrap 4</a></p></li>
 </ul>
+
 <h3 id="front-end-web-ui-frameworks-1">Front-end Web UI Frameworks</h3>
+
 <ul>
-<li><p><a href="https://www.keycdn.com/blog/front-end-frameworks/" target="_blank" rel="noopener noreferrer">Top
-10 Front-End Frameworks of 2018</a></p></li>
-<li><p><a
-href="https://www.sitepoint.com/most-popular-frontend-frameworks-compared/" target="_blank" rel="noopener noreferrer">The
-5 Most Popular Front-end Frameworks Compared</a></p></li>
+  <li><p><a href="https://www.keycdn.com/blog/front-end-frameworks/" target="_blank" rel="noopener noreferrer">Top 10 Front-End Frameworks of 2018</a></p></li>
+  <li><p><a href="https://www.sitepoint.com/most-popular-frontend-frameworks-compared/" target="_blank" rel="noopener noreferrer">The 5 Most Popular Front-end Frameworks Compared</a></p></li>
 </ul>
-<h2
-id="responsive-design-and-bootstrap-grid-system-objectives-and-outcomes">Responsive
-Design and Bootstrap Grid System: Objectives and Outcomes</h2>
+
+<h2 id="responsive-design-and-bootstrap-grid-system-objectives-and-outcomes">Responsive Design and Bootstrap Grid System: Objectives and Outcomes</h2>
+
 <p>In this lesson, you will be given an overview of responsive web
 design and an introduction to the Bootstrap grid system. The exercises
 will concentrate on enhancing your web project using the Bootstrap grid
 in order to make it responsive.</p>
 <p>At the end of this lesson, you will be able to:</p>
+
 <ul>
-<li><p>Understand the reasons for using responsive web design in a web
-project</p></li>
-<li><p>Use the Bootstrap grid system to design responsive
-websites</p></li>
-<li><p>Add your own custom CSS classes to a Bootstrap based web
-project</p></li>
+  <li><p>Understand the reasons for using responsive web design in a web project</p></li>
+  <li><p>Use the Bootstrap grid system to design responsive websites</p></li>
+  <li><p>Add your own custom CSS classes to a Bootstrap based web project</p></li>
 </ul>
+
 <h2 id="responsive-design">Responsive Design</h2>
+
 <p>These days in web development world, we often hear people mentioning
 the terms responsive design and mobile first approach.</p>
 <p>Let's try and understand what is meant by these terms, and how they
@@ -8584,13 +8573,10 @@ allows us to manually scroll the carousel.</p>
   <li><p>The carousel will be added to the <em>index.html</em> page. In this page, go to the top of the container div that contains the content of the page and add a new content row and an inner div spanning all the 12 columns as follows:</p></li>
 </ul>
 
-<p><strong>       &lt;div class="row row-content"&gt;</strong></p>
-<p><strong>           &lt;div class="col"&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>            &lt;/div&gt;</strong></p>
-<p><strong>       &lt;/div&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong> </strong></p>
+<p><strong>&lt;div class="row row-content"&gt;</strong></p>
+<p><strong>  &lt;div class="col"&gt;</strong></p>
+<p><strong>  &lt;/div&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p>
 
 <h3 id="adding-a-carousel">Adding a Carousel</h3>
 
@@ -8598,11 +8584,8 @@ allows us to manually scroll the carousel.</p>
   <li><p>Next, add the basic carousel div inside the content row that you just added as follows:</p></li>
 </ul>
 
-<blockquote>
-<p><strong>            &lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>            &lt;/div&gt;</strong></p>
-</blockquote>
+<p><strong>  &lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;</strong></p>
+<p><strong>  &lt;/div&gt;</strong></p>
 
 <h3 id="adding-carousel-content">Adding Carousel Content</h3>
 
@@ -8610,24 +8593,22 @@ allows us to manually scroll the carousel.</p>
   <li><p>Next add the content inside the carousel as follows:</p></li>
 </ul>
 
-<blockquote>
-<p><strong>                    &lt;div class="carousel-inner" role="listbox"&gt;</strong></p>
-<p><strong>                        &lt;div class="carousel-item active"&gt;</strong></p>
-<p><strong>                            &lt;img class="d-block img-fluid"</strong></p>
-<p><strong>                                src="<u>img/uthappizza.png</u>" alt="Uthappizza"&gt;</strong></p>
-<p><strong>                            &lt;div class="carousel-caption d-none d-md-block"&gt;</strong></p>
-<p><strong>                                &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;</strong></p>
-<p><strong>                                . . .</strong></p>
-<p><strong>                            &lt;/div&gt;</strong></p>
-<p><strong>                        &lt;/div&gt;</strong></p>
-<p><strong>                        &lt;div class="carousel-item"&gt;</strong></p>
-<p><strong>                                . . .</strong></p>
-<p><strong>                        &lt;/div&gt;</strong></p>
-<p><strong>                        &lt;div class="carousel-item"&gt;</strong></p>
-<p><strong>                                . . .</strong></p>
-<p><strong>                        &lt;/div&gt;</strong></p>
-<p><strong>                    &lt;/div&gt;</strong></p>
-</blockquote>
+<p><strong>&lt;div class="carousel-inner" role="listbox"&gt;</strong></p>
+<p><strong>  &lt;div class="carousel-item active"&gt;</strong></p>
+<p><strong>    &lt;img class="d-block img-fluid"</strong></p>
+<p><strong>      src="<u>img/uthappizza.png</u>" alt="Uthappizza"&gt;</strong></p>
+<p><strong>      &lt;div class="carousel-caption d-none d-md-block"&gt;</strong></p>
+<p><strong>        &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;</strong></p>
+<p><strong>        . . .</strong></p>
+<p><strong>        &lt;/div&gt;</strong></p>
+<p><strong>      &lt;/div&gt;</strong></p>
+<p><strong>    &lt;div class="carousel-item"&gt;</strong></p>
+<p><strong>    . . .</strong></p>
+<p><strong>    &lt;/div&gt;</strong></p>
+<p><strong>    &lt;div class="carousel-item"&gt;</strong></p>
+<p><strong>    . . .</strong></p>
+<p><strong>  &lt;/div&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p>
 
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
@@ -8638,7 +8619,6 @@ remaining parts from the content rows below.</p>
   <li><p>Add the following CSS classes to the <em>styles.css</em> file:</p></li>
 </ul>
 
-<blockquote>
 <p><strong>.carousel {</strong></p>
 <p><strong>    background:#512DA8;</strong></p>
 <p><strong>}</strong></p>
@@ -8646,14 +8626,12 @@ remaining parts from the content rows below.</p>
 <p><strong>.carousel-item {</strong></p>
 <p><strong>  height: 300px;</strong></p>
 <p><strong>}</strong></p>
-<p><strong> </strong></p>
 <p><strong>.carousel-item img {</strong></p>
 <p><strong>    position: absolute;</strong></p>
 <p><strong>    top: 0;</strong></p>
 <p><strong>    left: 0;</strong></p>
 <p><strong>    min-height: 300px;</strong></p>
 <p><strong>}</strong></p>
-</blockquote>
 
 <h3 id="adding-carousel-controls">Adding Carousel Controls</h3>
 
@@ -8661,26 +8639,21 @@ remaining parts from the content rows below.</p>
   <li><p>Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:</p></li>
 </ul>
 
-<blockquote>
-<p><strong>                    &lt;ol class="carousel-indicators"&gt;</strong></p>
-<p><strong>                        &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</strong></p>
-<p><strong>                        &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;</strong></p>
-<p><strong>                        &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</strong></p>
-<p><strong>                    &lt;/ol&gt;</strong></p>
-</blockquote>
+<p><strong>&lt;ol class="carousel-indicators"&gt;</strong></p>
+<p><strong>  &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</strong></p>
+<p><strong>    &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;</strong></p>
+<p><strong>      &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</strong></p>
+<p><strong>&lt;/ol&gt;</strong></p>
 
 <ul>
   <li><p>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</p></li>
 </ul>
 
-<blockquote>
-<p><strong>                    &lt;a class="carousel-control-prev" href="<u>#mycarousel</u>" role="button" data-slide="prev"&gt;</strong></p>
-<p><strong>                        &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</strong></p>
-<p><strong>                    &lt;/a&gt;</strong></p>
-<p><strong>                    &lt;a class="carousel-control-next" href="<u>#mycarousel</u>" role="button" data-slide="next"&gt;</strong></p>
-<p><strong>                        &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</strong></p>
-<p><strong>                    &lt;/a&gt;</strong></p>
-</blockquote>
+<p><strong>&lt;a class="carousel-control-prev" href="<u>#mycarousel</u>" role="button" data-slide="prev"&gt;</strong></p>
+<p><strong>  &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</strong></p>
+<p><strong>    &lt;/a&gt;</strong></p>
+<p><strong>  &lt;a class="carousel-control-next" href="<u>#mycarousel</u>" role="button" data-slide="next"&gt;<p><strong>    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;/a&gt;</strong></p>
 
 <ul>
   <li><p>Do a Git commit with the message "Carousel".</p></li>
