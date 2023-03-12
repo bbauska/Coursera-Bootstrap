@@ -390,7 +390,7 @@ the end of the exercises, unless otherwise instructed. You may wish to set up yo
   style="width:35%"
   alt="Setting up git." />
 
-<h2 id="exercise-video-setting-up-git">Exercise (Video): Setting up Git</h2>
+<h2>Exercise (Video): Setting up Git</h2>
 
 <p>Git is a very popular version control system for software.</p>
 <p>We need Git for working with our node ecosystem that we're going to use throughout this specialization.</p>
@@ -683,7 +683,7 @@ you've done after the last commit will be discarded on the spot.</p>
   <li><p>Perform basic Git operations on your Git repository</p></li>
 </ul>
 
-<h2 id="basic-git-commands">Basic Git Commands</h2>
+<h2>Basic Git Commands</h2>
 
 <ul>
   <li><p>At a convenient location on your computer, create a folder named <strong>git-test</strong>.</p></li>
@@ -691,7 +691,7 @@ you've done after the last commit will be discarded on the spot.</p>
   <li><p>Add a file named <em>index.html</em> to this folder, and add the following HTML code to this file:</p></li>
 </ul>
 
-<pre><code>
+<pre><code><b>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
@@ -702,124 +702,121 @@ you've done after the last commit will be discarded on the spot.</p>
 &lt;/body&gt;
 
 &lt;/html&gt;
-</code</pre>
+</b></code></pre>
 
-<h3 id="initializing-the-folder-as-a-git-repository">Initializing the folder as a Git repository</h3>
-
-<ul>
-  <li><p>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</p></li>
-</ul>
-
-<p><strong>git init</strong></p>
-
-<h3 id="checking-your-git-repository-status">Checking your Git repository status</h3>
+<h4>Initializing the folder as a Git repository</h4>
 
 <ul>
-  <li><p>Type the following at the prompt to check your Git repository's status:</p></li>
+  <li>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</li>
 </ul>
 
-<p><strong>git status</strong></p>
+<p><b>$ git init</b></p>
 
-<h3 id="adding-files-to-the-staging-area">Adding files to the staging area</h3>
+<h4>Checking your Git repository status</h4>
 
 <ul>
-  <li><p>To add files to the staging area of your Git repository, type:</p></li>
+  <li>Type the following at the prompt to check your Git repository's status:</li>
 </ul>
 
-<p><strong>git add .</strong></p>
+<p><b>$ git status</b></p>
 
-<h3 id="commiting-to-the-git-repository">Commiting to the Git repository</h3>
+<h4>Adding files to the staging area</h4>
 
 <ul>
-  <li><h3 id="to-commit-the-current-staging-area-to-your-git-repository-type">To commit the current staging area to your Git repository, type:</h3></li>
+  <li>To add files to the staging area of your Git repository, type:</li>
 </ul>
 
-<p><strong>git commit -m "first commit"</strong></p>
+<p><b>$ git add .</b></p>
 
-<h3 id="checking-the-log-of-git-commits">Checking the log of Git commits</h3>
+<h4>Commiting to the Git repository</h4>
 
 <ul>
-  <li><h3 id="to-check-the-log-of-the-commits-to-your-git-repository-type">To check the log of the commits to your Git repository, type</h3></li>
+  <li>To commit the current staging area to your Git repository, type:</li>
 </ul>
 
-<p><strong>git log --oneline</strong></p>
+<p><b>$ git commit -m "first commit"</b></p>
+
+<h4>Checking the log of Git commits</h4>
 
 <ul>
-  <li><h3 id="now-modify-the-index.html-file-as-follows">Now, modify the index.html file as follows:</h3></li>
+  <li>To check the log of the commits to your Git repository, type:</li>
 </ul>
 
-<pre><code>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;&lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;h1&gt;This is a Header&lt;/h1&gt;
-    &lt;p&gt;This is a paragraph&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+<p><b>$ git log --oneline</b></p>
 
 <ul>
-  <li><p>Add a sub-folder named <strong>templates</strong> to your <strong>git-test</strong> folder, and then add a file named <em>test.html</em> to the templates folder. Then set the contents of this file to be the same as the <em>index.html</em> file above.</p></li>
-  <li><p>Then check the status and add all the files to the staging area.</p></li>
-  <li><p>Then do the second commit to your repository</p></li>
-  <li><p>Now, modify the <em>index.html</em> file as follows:</p></li>
+  <li>Now, modify the index.html file as follows:</li>
 </ul>
 
-<blockquote>
-<p><strong>&lt;!DOCTYPE html&gt;</strong></p>
-<p><strong>&lt;html&gt;</strong></p>
-<p><strong>    &lt;head&gt;&lt;/head&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>    &lt;body&gt;</strong></p>
-<p><strong>        &lt;h1&gt;This is a Header&lt;/h1&gt;</strong></p>
-<p><strong>        &lt;p&gt;This is a paragraph&lt;/p&gt;</strong></p>
-<p><strong>        &lt;p&gt;This is a second paragraph&lt;/p&gt;</strong></p>
-<p><strong>    &lt;/body&gt;</strong></p>
-<p><strong>&lt;/html&gt;</strong></p>
-</blockquote>
+<pre><code><b>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;&lt;/head&gt;
+
+      &lt;body&gt;
+        &lt;h1&gt;This is a Header&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph&lt;/p&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+</b></code></pre>
 
 <ul>
-  <li><p>Now add the modified index.html file to the staging area and then do a third commit.</p></li>
+  <li>Add a sub-folder named <strong>templates</strong> to your <strong>git-test</strong> folder, and then add a file named <em>test.html</em> to the templates folder. Then set the contents of this file to be the same as the <em>index.html</em> file above.</li>
+  <li>Then check the status and add all the files to the staging area.</li>
+  <li>Then do the second commit to your repository</li>
+  <li>Now, modify the <em>index.html</em> file as follows:</li>
 </ul>
 
-<h3 id="checking-out-a-file-from-an-earlier-commit">Checking out a file from an earlier commit</h3>
+<pre><code><b>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;&lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;This is a Header&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph&lt;/p&gt;
+        &lt;p&gt;This is a second paragraph&lt;/p&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+</b></code></pre>
 
 <ul>
-  <li><p>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:</p></li>
+  <li>Now add the modified index.html file to the staging area. Then do a third commit.</li>
 </ul>
 
-<p><strong>git checkout &lt;second commit's number&gt; index.html</strong></p>
-
-<h3 id="resetting-the-git-repository">Resetting the Git repository</h3>
+<h4>Checking out a file from an earlier commit</h4>
 
 <ul>
-  <li><p>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</p></li>
+  <li>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:</li>
 </ul>
 
-<p><strong>git reset HEAD index.html</strong></p>
+<p><b>$ git checkout &lt;second commit's number&gt; index.html</b></p>
+
+<h4>Resetting the Git repository</h4>
 
 <ul>
-  <li><p>Then type the following at the prompt:</p></li>
+  <li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
 </ul>
 
-<p><strong>git checkout -- index.html</strong></p>
+<p><b>$ git reset HEAD index.html</b></p>
 
 <ul>
-  <li><p>You can also use <em>git reset</em> to reset the staging area to the last commit without disturbing the working directory.</p></li>
+  <li>Then type the following at the prompt:</li>
 </ul>
 
-<h3 id="conclusions-1">Conclusions</h3>
+<p><b>$ git checkout -- index.html</b></p>
+
+<ul>
+  <li>ou can also use <em>git reset</em> to reset the staging area to the last commit without disturbing the working directory.</li>
+</ul>
+
+<h3>Conclusions</h3>
 
 <p>At the end of this exercise you should have learnt some basic Git commands. Experiment with these commands until you fully understand how to use Git.</p>
 
-<h2 id="exercise-video-online-git-repositories">Exercise (Video): Online Git Repositories</h2>
+<h3>Exercise (Video): Online Git Repositories</h3>
 
-<p>Online Git repositories enable you to store a copy of your Git
-repository online.</p>
-<p>And It can easily be shared among multiple computers and multiple
-users.</p>
+<p>Online Git repositories enable you to store a copy of your Git repository online.</p>
+<p>And It can easily be shared among multiple computers and multiple users.</p>
 <p>Let’s learn about two of the online Git repository service providers,
 GitHub and Bitbucket, in a little bit more detail.</p>
 <p>We’ll look at how we can set up our local Git repository to be
