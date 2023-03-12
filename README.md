@@ -1,7 +1,7 @@
 ---
 Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
-<!--------------------------
+<!--
 [link](URL){:target="_blank"}
 [Hello, world!](http://example.com/){target="_blank"}
 [Go to this page](http://somelink.com/?target=_blank)
@@ -29,44 +29,41 @@ https://www.youtube.com/watch?v=St5B7...
 Facebook - https://www.facebook.com/thenetninjauk
 Twitter - https://twitter.com/thenetninjauk
 Instagram - https://www.instagram.com/thenetninja/
---------------------------->
+-->
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- readme.md of coursera-web.bauska.net ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------------- Coursera logo ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/coursera-logo.png?raw=true"
   width="35%"
   alt="Coursera logo." />
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 01. hong kong university of science and technology logo (01) ------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   width="65%"
   alt="Hong Kong University of Science and Technology logo." />
 </p>
-<!-----------
-{width="5.0in" height="2.202991032370954in"}
------------->
 
-<!------------------------------------------------------------------------------------------------>
+<!-- {width="5.0in" height="2.202991032370954in"} -->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 02. front end and back end tools and technology (01) ---------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   width="50%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
-<!----------
-{width="5.0in"
-height="2.0638298337707788in"}
------------>
+
+<!-- {width="5.0in" height="2.0638298337707788in"} -->
 
 <h6 align="center" width="100%">(coursera.org)</h6>
 
@@ -236,11 +233,8 @@ Bootstrap web UI framework.</p>
    <a href="https://www.coursera.org">Explore Coursera</a>
 </h3>
 
-<!-----------
-   https://learner.coursera.help/hc/en-us/articles/208279776">
------------->
-
-<!--- https://www.coursera.support/s/global-search/switch%20session?language=en_US --->
+<!-- https://learner.coursera.help/hc/en-us/articles/208279776"> -->
+<!-- https://www.coursera.support/s/global-search/switch%20session?language=en_US -->
 
 <h2>Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)</h2>
 
@@ -269,9 +263,7 @@ development.
    width="50%" />
 </p>
 
-<!---------
-{width="5.0in" height="2.0571587926509185in"}
----------->
+<!-- {width="5.0in" height="2.0571587926509185in"} -->
 
 Let me clarify to you a few terms so that we started a common
 understanding of full stack web development as applied in this special
@@ -300,10 +292,7 @@ Development.
    width="75%" />
 </p>
 
-<!---------
-{width="5.0in"
-height="2.0571587926509185in"}
------------>
+<!-- {width="5.0in" height="2.0571587926509185in"} -->
 
 In this approach, the entire web application is organized into three
 different layers.
@@ -319,14 +308,11 @@ presentation layer.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
-   alt="Three-tier architecture: business logic."
-   width="75%" />
+  alt="Three-tier architecture: business logic."
+  width="75%" />
 </p>
 
-<!-----------
-{width="5.0in"
-height="2.0571587926509185in"}
------------->
+<!-- {width="5.0in" height="2.0571587926509185in"} -->
 
 The <b>business logic layer</b>, on the other hand, is concerned more about
 the data, the data validation, the dynamic content processing, and
@@ -2596,8 +2582,8 @@ designing and implementing their recent websites.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true"
-   alt="."
-   width="50%" />
+  alt="."
+  width="50%" />
 </p>
 <!----------
 {width="5.0in"
@@ -2612,8 +2598,8 @@ learn a little more details about them.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image027.png?raw=true"
-   alt="What are Front-End UI Frameworks?"
-   width="50%" />
+  alt="What are Front-End UI Frameworks?"
+  width="50%" />
 </p>
 <!----------
 {width="5.0in"
@@ -2676,8 +2662,8 @@ And enables you to quickly scaffold out a website or the pitch.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
-   alt="."
-   width="50%" />
+  alt="."
+  width="50%" />
 </p>
 
 <!----------
@@ -2708,8 +2694,8 @@ these others appearing in many of those top-end lists.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
-   alt="Why Front-End Web UI Frameworks?"
-   width="50%" />
+  alt="Why Front-End Web UI Frameworks?"
+  width="50%" />
 </p>
 
 <!----------
@@ -2793,8 +2779,8 @@ to make use of Bootstrap in designing our website.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
-   alt="Bootstrap overview."
-   width="50%" />
+  alt="Bootstrap overview."
+  width="50%" />
 </p>
 
 <!----------
@@ -2814,8 +2800,8 @@ Indeed, Bootstrap stands up to its claim as the most popular framework.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image031.png?raw=true"
-   alt="More Bootatrap."
-   width="50%" />
+  alt="More Bootatrap."
+  width="50%" />
 </p>
 
 <!----------
@@ -2841,8 +2827,8 @@ We will talk more about this in the next lesson.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image032.png?raw=true"
-   alt="Bootstrap history."
-   width="50%" />
+  alt="Bootstrap history."
+  width="50%" />
 </p>
 <!----------
 {width="5.0in"
@@ -2879,8 +2865,8 @@ I\'m sure your fingers are itching to get your hands around Bootstrap.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image033.png?raw=true"
-   alt="Setting up the project folder."
-   width="50%" />
+  alt="Setting up the project folder."
+  width="50%" />
 </p>
 <!-------------------
 {width="5.0in"
@@ -2895,8 +2881,8 @@ your Bootstrap course page on Coursera.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image034.png?raw=true"
-   alt="Getting started with bootstrap 4."
-   width="50%" />
+  alt="Getting started with bootstrap 4."
+  width="50%" />
 </p>
 <!-------------------
 {width="5.0in"
@@ -3797,13 +3783,10 @@ it actually works.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image050.png?raw=true"
-   alt="."
-   width="50%" />
+  alt="Bootstrap grid."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.0096150481189852in"}
-------------------->
+<!-- {width="5.0in" height="1.0096150481189852in"} -->
 
 The way the Bootstrap grid works, is by applying a container class to
 the outermost layer.
@@ -3838,10 +3821,7 @@ width.
   alt="Bootstrap grid #2."
   width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 Inside the container, the content will be laid out in the form of rows,
 so typically what we would do is inside and out of div to which we apply
@@ -3858,10 +3838,7 @@ The content itself will be vertically divided into multiple rows.
    alt="Bootstrap grid #3."
    width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 And once this is divided into rows, within each row, you can then layout
 the content using columns.
@@ -3894,13 +3871,10 @@ We\'ll talk about that in the next few slides.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image053.png?raw=true"
-   alt="How to layout the grid."
-   width="50%" />
+  alt="How to layout the grid."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.171474190726159in"}
-------------------->
+<!-- {width="5.0in" height="2.171474190726159in"} -->
 
 The Bootstrap grid itself, makes available to us five classes to specify
 different screen sizes by default.
@@ -3950,10 +3924,7 @@ We\'ll see that in the next slide.
    alt="Auto-layout columns."
    width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.678418635170604in"}
-------------------->
+<!-- {width="5.0in" height="2.678418635170604in"} -->
 
 Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
@@ -3963,13 +3934,10 @@ we want to lay out the peace of content.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image055.png?raw=true"
-   alt="Bootstrap grid."
-   width="50%" />
+  alt="Bootstrap grid."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 We can specify that that content is enclosed inside another div, to
 which we apply column class, like for example, col-sm-5.
@@ -3994,19 +3962,15 @@ Now, we now see that out of the 12 columns, we have already occupied
 five columns.
 
 There are still seven more columns left.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 56. bootstrap grid #2 (78) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image056.png?raw=true"
-   alt="Bootstrap grid #2."
-   width="50%" />
+  alt="Bootstrap grid #2."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 I could take another piece of content and then position it to the right
 of this, by defending another div and then applying column sm-7.
@@ -4025,13 +3989,10 @@ the layout of the current tier.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image057.png?raw=true"
-   alt="Auto-layout columns."
-   width="50%" />
+  alt="Auto-layout columns."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 With the use of the CSS flex box layout, Bootstrap also supports what is
 called the Auto-layout Columns.
@@ -4049,13 +4010,10 @@ total width.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image058.png?raw=true"
-   alt="Auto-layout columns #2."
-   width="50%" />
+  alt="Auto-layout columns #2."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 Since we have 12 columns here, each of these three will get four columns
 each.
@@ -4068,29 +4026,22 @@ mechanism.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image059.png?raw=true"
-   alt="Auto-layout columns #3."
-   width="50%" />
+  alt="Auto-layout columns #3."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 60. auto-layout columns #4 (80) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image060.png?raw=true"
-   alt="Auto-layout columns #4."
-   width="50%" />
+  alt="Auto-layout columns #4."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9439107611548556in"}
-------------------->
+<!-- {width="5.0in" height="1.9439107611548556in"} -->
 
 For example, suppose I specify three column classes, but the middle one
 I specify column sm 6.
@@ -4111,19 +4062,15 @@ That is how the layout is automatically done with Bootstrap.
 In the exercise, we will see various combinations of use of these kind
 of specifications of how many columns each piece of content will occupy
 in color layout.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 61. bootstrap grid details (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image061.png?raw=true"
-   alt="Bootstrap grid details."
-   width="50%" />
+  alt="Bootstrap grid details."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.834935476815398in"}
-------------------->
+<!-- {width="5.0in" height="2.834935476815398in"} -->
 
 This table summarizes the way Bootstrap treats the different screen
 grids and correspondingly how you identify these screen grids.
@@ -4225,13 +4172,10 @@ We will see the use of offsets also in some examples later.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image062.png?raw=true"
-   alt="Using column classes."
-   width="50%" />
+  alt="Using column classes."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 Let\'s look at our first example of how you would apply bootstraps
 column classes, and how they would actually be rendered on different
@@ -4265,13 +4209,10 @@ This is how we would specify content layout for different screen sizes.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image063.png?raw=true"
-   alt="Reordering content."
-   width="50%" />
+  alt="Reordering content."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 Bootstrap also provides additional classes called as the Order Hyphen
 Classes which allow you to reorder the content on the screen.
@@ -4300,13 +4241,10 @@ We will see an example of this also in the exercise.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image064.png?raw=true"
-   alt="Vertical alignment."
-   width="50%" />
+  alt="Vertical alignment."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 The next interesting support that Bootstrap Grid brings with the use of
 the Flexbox layout is vertical alignment of content.
@@ -4325,13 +4263,10 @@ you would apply the class called "align items center".
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
-   width="50%"
-   alt="Vertical alignment #2." />
+  width="50%"
+  alt="Vertical alignment #2." />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 In this case, whatever content is laid out, will be laid out
 vertically-aligned within that particular row.
@@ -4345,13 +4280,10 @@ centered vertically within that particular row there.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image066.png?raw=true"
-   width="50%"
-   alt="Horizontal alignment." />
+  width="50%"
+  alt="Horizontal alignment." />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 Not only that, Bootstrap\'s Grid also supports horizontal alignment of
 content.
@@ -4362,13 +4294,10 @@ Let\'s look at an example.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
-   width="50%"
-   alt="Horizontal alignment #2." />
+  width="50%"
+  alt="Horizontal alignment #2." />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.0544870953630796in"}
-------------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 If you specify your content like this.
 
@@ -4385,13 +4314,10 @@ occupy three columns each.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
-   width="50%"
-   alt="Horizontal alignment #3." />
+  width="50%"
+  alt="Horizontal alignment #3." />
 </p>
-<!--------------
-{width="5.0in"
-height="2.0544870953630796in"}
---------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 The middle one, when I say, "column auto", it means that the number of
 columns that this particular div occupies will be automatically
@@ -4424,13 +4350,10 @@ Details are in the bootstraps documentation.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
-   width="50%"
-   alt="Column offsets." />
+  width="50%"
+  alt="Column offsets." />
 </p>
-<!--------------
-{width="5.0in"
-height="2.0544870953630796in"}
---------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 Bootstrap also allows you to do column offsets.
 
@@ -4443,13 +4366,10 @@ Let\'s look at an example.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
-   width="50%"
-   alt="Column offsets #2." />
+  width="50%"
+  alt="Column offsets #2." />
 </p>
-<!--------------
-{width="5.0in"
-height="2.0544870953630796in"}
--------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 In this column offset, we can specify a piece of content, add to that if
 we apply the class as offset hyphen sm hyphen one.
@@ -4464,13 +4384,11 @@ is left blank and the content is shifted right by one column.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
-   width="50%"
-   alt="column offsets #3." />
+  width="50%"
+  alt="column offsets #3." />
 </p>
-<!--------------
-{width="5.0in"
-height="2.0544870953630796in"}
----------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
+
 And you can lay out the remaining content on the right side.
 
 sum total, you can see that the two divs will occupy 11 columns but one
@@ -4488,13 +4406,10 @@ contents for different screen widths and different screen sizes.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
-   width="50%"
-   alt="Nesting offsets." />
+  width="50%"
+  alt="Nesting offsets." />
 </p>
-<!--------------
-{width="5.0in"
-height="2.0544870953630796in"}
--------------->
+<!-- {width="5.0in" height="2.0544870953630796in"} -->
 
 Bootstrap goes even further by allowing you to nest content inside divs.
 
@@ -4514,13 +4429,10 @@ out content in your pitch.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
-   width="50%"
-   alt="Exercise: responsive design & bootstrap grid system." />
+  width="50%"
+  alt="Exercise: responsive design & bootstrap grid system." />
 </p>
-<!---------------
-{width="5.0in"
-height="1.8327996500437445in"}
----------------->
+<!-- {width="5.0in" height="1.8327996500437445in"} -->
 
 With all the discussion about the Bootstrap Grid System and how the
 Bootstrap Grid supports various ways of laying out content, we\'re going
@@ -5522,9 +5434,7 @@ aboutus.html page, so this is the only way you can get to view the page.
    width="50%"
    alt="Aboutus.html." />
 </p>
-<!--------------
-{width="5.0in" height="2.6875in"}
---------------->
+<!-- {width="5.0in" height="2.6875in"} -->
 
 To begin with, the page will look like this, a completely Unstyle page
 which just contains content.
@@ -5538,31 +5448,26 @@ Let\'s look at the three tasks in more detail.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
-   width="50%"
-   alt="First task." />
+  width="50%"
+  alt="First task." />
 </p>
-<!-----------------
-{width="5.0in" height="2.6875in"}
------------------->
+<!-- {width="5.0in" height="2.6875in"} -->
 
 Your first task is to apply the Bootstraps CSS and the Javascript
 classes to the aboutus.html page so that this page will be instantly
 transformed into this page, where as soon as you add the Bootstraps CSS
 and JavaScript classes, the header and footer will automatically get
 formatted correctly, because I have simply copied the header in the
-footer from the index.html page into this page
-
+footer from the index.html page into this page.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 76. second task (109) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
-   width="50%"
-   alt="Second task." />
+  width="50%"
+  alt="Second task." />
 </p>
-<!------------------
-{width="5.0in" height="2.6875in"}
-------------------->
+<!-- {width="5.0in" height="2.6875in"} -->
 
 and I left all the Bootstrap formatting as such, but the actual content
 of the page is still left unstyled.
@@ -5576,12 +5481,10 @@ content or the page so that you can style it properly.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
-   width="50%"
-   alt="Third task." />
+  width="50%"
+  alt="Third task." />
 </p>
-<!---------------------
-{width="5.0in" height="2.6875in"}
----------------------->
+<!-- {width="5.0in" height="2.6875in"} -->
 
 Now, when apply the classes, you\'re going to apply the row and column
 classes to the aboutus to just leave it as such.
@@ -5604,8 +5507,8 @@ like this.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
-   width="50%"
-   alt="Aboutus and history." />
+  width="50%"
+  alt="Aboutus and history." />
 </p>
 
 You can see that the aboutus page exists in its own.
@@ -5617,13 +5520,10 @@ Our History will occupy only half the screen width.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
-   width="50%"
-   alt="Our history." />
+  width="50%"
+  alt="Our history." />
 </p>
-
-<!-----------
-{width="5.0in" height="2.6875in"}
------------>
+<!-- {width="5.0in" height="2.6875in"} -->
 
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
@@ -5632,13 +5532,10 @@ this case.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
-   width="50%"
-   alt="Ristorante con Fusion." />
+  width="50%"
+  alt="Ristorante con Fusion." />
 </p>
-
-<!-----------
-{width="5.0in" height="2.6875in"}
------------>
+<!-- {width="5.0in" height="2.6875in"} -->
 
 This is the second task that you need to complete in your assignment.
 <!------------------------------------------------------------------------------------------------>
@@ -5646,12 +5543,10 @@ This is the second task that you need to complete in your assignment.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
-   width="50%"
-   alt="Task 3." />
+  width="50%"
+  alt="Task 3." />
 </p>
-<!-----------
-{width="5.0in" height="2.6875in"}
------------>
+<!-- {width="5.0in" height="2.6875in"} -->
 
 For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
@@ -5661,12 +5556,10 @@ especially like this,
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
-   width="50%"
-   alt="Corporate leadership." />
+  width="50%"
+  alt="Corporate leadership." />
 </p>
-<!-----------
-{width="5.0in" height="2.6875in"}
------------>
+<!-- {width="5.0in" height="2.6875in"} -->
 
 you notice that the content is too much in this section.
 
@@ -5687,12 +5580,10 @@ hidden in the extra small screens size.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image084.png?raw=true"
-   width="50%"
-   alt="Corporate leadership #2." />
+  width="50%"
+  alt="Corporate leadership #2." />
 </p>
-<!-----------
-{width="5.0in" height="2.6875in"}
------------>
+<!-- {width="5.0in" height="2.6875in"} -->
 
 But when you go to the small to large screen size, the content will
 become visible.
@@ -5735,22 +5626,16 @@ Git Repository with the Message Assignment One.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image085.png?raw=true"
-   width="20%"
-   alt="Assignment 1." />
+  width="20%"
+  alt="Assignment 1." />
 </p>
-<!------------
-{width="2.0in"
-height="7.825243875765529in"}
-------------->
+<!-- {width="2.0in" height="7.825243875765529in"} -->
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
-   width="50%"
-   alt="Assignment #1, continued." />
+  width="50%"
+  alt="Assignment #1, continued." />
 </p>
-<!-----------
-{width="4.0in"
-height="4.4736843832021in"}
------------>
+<!-- {width="4.0in" height="4.4736843832021in"} -->
 
 <h4>Bootstrap Resources</h4>
 
@@ -5886,13 +5771,10 @@ lecture.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
-   width="50%"
-   alt="Why website navigation?" />
+  width="50%"
+  alt="Why website navigation?" />
 </p>
-<!-----------
-{width="5.0in"
-height="2.7804483814523184in"}
------------>
+<!-- {width="5.0in" height="2.7804483814523184in"} -->
 
 The first obvious question that comes to your mind is, why do we need to
 have website navigation?
@@ -9894,28 +9776,20 @@ You can use the column classes to adjust these things.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image088.png?raw=true"
-   width="50%"
-   alt="Assignment 2." />
+  width="50%"
+  alt="Assignment 2." />
 </p>
-
-<!-----------
-{width="5.0in"
-height="8.86311789151356in"}
------------>
+<!-- {width="5.0in" height="8.86311789151356in"} -->
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 89. assignment 2, continued (196) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
-   width="50%"
-   alt="Assignment 2, continued." />
+  width="50%"
+  alt="Assignment 2, continued." />
 </p>
-
-<!-----------
-{width="3.100546806649169in"
-height="20.775930664916885in"}
------------>
+<!-- {width="3.100546806649169in" height="20.775930664916885in"} -->
 
 <h4>Bootstrap Resources</h4>
 
@@ -11063,12 +10937,12 @@ in a web page. At the end of this exercise, you will be able to:
 <div class="card">
 <div class="card-header" role="tab" id="dannyhead">
    <h3 class="mb-0">
-   <a class="collapsed" data-toggle="collapse" data-target="#danny">
-      Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+   <a class="collapsed" data-toggle="collapse" data-target="#brian">
+      Brian Bauska <small>Chief Information Officer</small>
    </a>
    </h3>
 </div>
-<div class="collapse" id="danny" data-parent="#accordion">
+<div class="collapse" id="brian" data-parent="#accordion">
    <div class="card-body">
       <p class="d-none d-sm-block">. . .</em></p>
    </div>
@@ -11077,12 +10951,12 @@ in a web page. At the end of this exercise, you will be able to:
 <div class="card">
    <div class="card-header" role="tab" id="agumbehead">
    <h3 class="mb-0">
-      <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
-         Agumbe Tang <small>Chief Taste Officer</small>
+      <a class="collapsed" data-toggle="collapse" data-target="#lance">
+         Silus Lance <small>Chief Software Engineer</small>
       </a>
    </h3>
    </div>
-   <div class="collapse" id="agumbe" data-parent="#accordion">
+   <div class="collapse" id="lance" data-parent="#accordion">
       <d iv class="card-body">
       <p class="d-none d-sm-block">. . .</p>
    </div>
@@ -12175,15 +12049,12 @@ Hope you enjoyed creating this new variation of the index.html page.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
-   width="50%"
-   alt="." />
+  width="50%"
+  alt="." />
 </p>
 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png)
-<!-------------
-{width="5.0in"
-height="4.461420603674541in"}
-------------->
+<!-- {width="5.0in" height="4.461420603674541in"} -->
 
 <h4>Bootstrap Resources</h4>
 
@@ -12221,7 +12092,7 @@ of interesting JavaScript-based components.
 And we also learned that Bootstrap\'s JavaScript-based components are
 all enabled using jQuery as the support.
 
-So many of these plugins are written in jQuery.
+Many of these plugins are written in jQuery.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 91. bootstrap and javascript (238) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -12230,10 +12101,7 @@ So many of these plugins are written in jQuery.
    width="50%"
    alt="Bootstrap and javascript." />
 </p>
-<!-------------
-{width="5.0in"
-height="1.726496062992126in"}
-------------->
+<!-- {width="5.0in" height="1.726496062992126in"} -->
 
 Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
@@ -12243,14 +12111,10 @@ been including all the Bootstrap\'s JavaScript plugins into our webpage.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
-   width="50%"
-   alt="Bootstrap and javascript components." />
+  width="50%"
+  alt="Bootstrap and javascript components." />
 </p>
-
-<!-------------
-{width="5.0in"
-height="3.046474190726159in"}
-------------->
+<!-- {width="5.0in" height="3.046474190726159in"} -->
 
 We also saw this graphic in the previous module to help us understand
 the relationship between JavaScript, jQuery, and how the Bootstrap\'s
@@ -12263,13 +12127,10 @@ and make it easy for us to make use of them in our webpage.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"
-   width="50%"
-   alt="Bootstrap JS components." />
+  width="50%"
+  alt="Bootstrap JS components." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 We also learned that the Bootstrap\'s JavaScript-based components can be
 used in your webpage without writing a single line of JavaScript code.
@@ -12283,13 +12144,10 @@ enable many of our Bootstrap\'s JavaScript-based components.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
-   width="50%"
-   alt="Bootstrap JS components #2." />
+  width="50%"
+  alt="Bootstrap JS components #2." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 In case you want more flexibility with your JavaScript components, then
 the full flexibility of that JavaScript-based API is available for all
@@ -12304,13 +12162,10 @@ We\'re going to explore that in a little more detail in this module.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
-   width="50%"
-   alt="JQuery." />
+  width="50%"
+  alt="JQuery." />
 </p>
-<!------------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 Before we proceed further, let me give you a quick tour of jQuery and
 its syntax so that we understand some of the code that we\'ll write in
@@ -12355,13 +12210,10 @@ something that started with a dollar sign.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
-   width="50%"
-   alt="JQuery syntax." />
+  width="50%"
+  alt="JQuery syntax." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 The jQuery Syntax is all implemented using the dollar sign.
 
@@ -12417,11 +12269,7 @@ Let\'s take a look at Bootstrap jQuery example.
    width="50%"
    alt="JQuery syntax #2." />
 </p>
-
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 We\'ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
@@ -12430,13 +12278,10 @@ we introduce the tooltip.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
-   width="50%"
-   alt="Bootstrap JQuery example, cont'd." />
+  width="50%"
+  alt="Bootstrap JQuery example, cont'd." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 When we introduce the tooltip, we specified script and then inside the
 script, we said \$(document).
@@ -12456,13 +12301,10 @@ as a parameter for this ready action there.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
-   width="50%"
-   alt="Bootstrap JQuery example #2." />
+  width="50%"
+  alt="Bootstrap JQuery example #2." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 The function that we saw being used for the tooltip specified it as \$,
 and then within brackets, it said, data-toggle=" tooltip".
@@ -12489,14 +12331,10 @@ Let\'s look at the various ways of specifying selectors.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
-   width="50%"
-   alt="JQuery syntax, again." />
+  width="50%"
+  alt="JQuery syntax, again." />
 </p>
-
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 As we realize from the jQuery statement syntax, we always follow dollar
 and then, within brackets, we specify a selector.
@@ -12508,13 +12346,10 @@ selectors?
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
-   width="50%"
-   alt="JQuery selectors." />
+  width="50%"
+  alt="JQuery selectors." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 Here are some possibilities.
 
@@ -12582,13 +12417,10 @@ examples and the exercise that follows.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
-   width="50%"
-   alt="JQuery events." />
+  width="50%"
+  alt="JQuery events." />
 </p>
-<!-------------
-{width="5.0in"
-height="2.0592946194225723in"}
-------------->
+<!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 Not only that, you can also specify jQuery events, events based on which
 you respond.
@@ -12619,11 +12451,7 @@ scrolling or unloading the document, you can respond to those events.
    width="65%"
    alt="JQuery events #2." />
 </p>
-
-<!-------------
-{width="6.5in"
-height="2.6770833333333335in"}
---------------->
+<!-- {width="6.5in" height="2.6770833333333335in"} -->
 
 In that case, the jQuery Event Methods that are supported include ready,
 click, dblclick, mousedown, on, and so on.
@@ -12638,10 +12466,7 @@ any of these events there.
    width="65%"
    alt="Example: Bootstrap carousel." />
 </p>
-<!--------------------
-{width="6.5in"
-height="2.6770833333333335in"}
---------------------->
+<!-- {width="6.5in" height="2.6770833333333335in"} -->
 
 Let\'s take an example of the Bootstrap\'s Carousel to see how
 JavaScript code can be written to control the carousel actions.
@@ -12655,18 +12480,15 @@ says data-ride+"carousel".
 
 And then we\'ve specified data interval, the interval for the sliding
 action to take place.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 105. example: carousel (248) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
-   width="65%"
-   alt="Example: Carousel." />
+  width="65%"
+  alt="Example: Carousel." />
 </p>
-<!--------------
-{width="6.5in"
-height="2.6770833333333335in"}
---------------->
+<!-- {width="6.5in" height="2.6770833333333335in"} -->
 
 For the carousel you can do things like, for example, you can specify
 JavaScript based controls.
@@ -12701,10 +12523,7 @@ items from left to right.
    width="65%"
    alt="Example: Carousel #2." />
 </p>
-<!-----------
-{width="6.5in"
-height="2.8555555555555556in"}
------------>
+<!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 You can say carousel(\'pause\'), to pause the sliding action of the
 carousel.
@@ -12721,18 +12540,15 @@ Similarly, when the JavaScript carousel item is in your webpage, it
 causes various events.
 
 And based on the occurrence of these events, you can respond.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 107. example: carousel #3 (249) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.png?raw=true"
    width="65%"
    alt="Example: Carousel #3." />
 </p>
-<!-----------
-{width="6.5in"
-height="2.8555555555555556in"}
------------->
+<!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 For example, you can say slide.bs.carousel.
 
@@ -12741,18 +12557,15 @@ invoked.
 
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 108. example: carousel #4 (250) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
    width="65%"
    alt="Example: Carousel #4." />
 </p>
-<!----------
-{width="6.5in"
-height="2.8555555555555556in"}
----------->
+<!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 Within your code you can specify something like
 \$("#myCarousel").on(\'slide.bs.carousel\'.
@@ -12762,18 +12575,15 @@ and then do something inside that function there.
 
 This kind of code can be returned also for responding to the events that
 are caused by your carousel\'s behavior.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 109. exercise: bootstrap and jquery (250) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image109.png?raw=true"
    width="65%"
    alt="Exercise: Bootstrap and JQuery." />
 </p>
-<!----------
-{width="6.5in"
-height="2.8555555555555556in"}
----------->
+<!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 Having considered some of these examples, we\'ll go on to an exercise
 where we will actually write some JavaScript based code to control our
@@ -14326,25 +14136,19 @@ to save your changes with the message assignment four.
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
    width="50%"
-   alt="Reserve a table." />
+  alt="Reserve a table." />
 </p>
-<!----------
-{width="5.0in"
-height="4.163497375328084in"}
----------->
-<!------------------------------------------------------------------------------------------------>
+<!-- {width="5.0in" height="4.163497375328084in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 111. login (279) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.png?raw=true"
-   width="50%"
-   alt="Login." />
+  width="50%"
+  alt="Login." />
 </p>
 
-<!----------
-{width="5.0in"
-height="4.349809711286089in"}
----------->
+<!-- {width="5.0in" height="4.349809711286089in"} -->
 
 <h4>Bootstrap Documentation</h4>
 
@@ -17453,7 +17257,7 @@ specialization.
 
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
 
-<!- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf ->
+<!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
 
 <h4>Project Implementation: Objectives and Outcomes</h4>
 
@@ -17527,4 +17331,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 10/23/2022 at 6:31pm ---->
+<!--- last updated: 3/12/2023 at 12:20pm ---->
