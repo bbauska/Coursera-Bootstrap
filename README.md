@@ -1,6 +1,10 @@
 ---
 Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
+webspeed: 30.97 mb/s download
+		1.98 mn/s upload
+use
+> $ speedtest
 <!--
 [link](URL){:target="_blank"}
 [Hello, world!](http://example.com/){target="_blank"}
