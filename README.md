@@ -13988,9 +13988,9 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
 
--	<details>
-      <summary>Next we add a carousel class to illustrate the use of nesting of
-        classes in Scss, as follows:</summary>
+<ul>
+  <li><details>
+    <summary>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</summary></li>
 
 ```
 .carousel {
@@ -14015,7 +14015,8 @@ defining the classes.
 }
 ```
 
-</details>
+  </details>
+</ul>
 
 <h4>Installing and using the node-sass module</h4>
 
