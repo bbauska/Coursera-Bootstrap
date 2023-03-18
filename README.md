@@ -1,9 +1,6 @@
 ---
 Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
-$ speedtest: 
-- 30.97 mb/s download
-- 1.98 mb/s upload
 
 <!--
 [link](URL){:target="_blank"}
@@ -726,7 +723,7 @@ The other parameter that I\'m going to configure is my email.
 And to insure that this information has been configured, we can type
 
 ```
-git config --list.
+git config --list
 ```
 
 And it will list out a bunch of configurations that we have. Done.
@@ -11927,13 +11924,13 @@ remaining parts from the content rows below.
 
 <h4>Adding Carousel Controls</h4>
 
--   Next, we will add manual controls to the carousel so that we can
-    manually move among the slides. Add the following code to the bottom
-    after the carousel items in the div of the carousel to add slide
+-   Next, we will add manual controls to the carousel so that we can manually move among the slides.
+	
+-	Add the following code to the bottom after the carousel items in the div of the carousel to add slide
     indicators that enable us to select a specific slide:
 
-<details>
-  <summary>Add manual controls to carousel!</summary>
+-	<details>
+	  <summary>Add manual controls to carousel!</summary>
 
 ```
 <ol class="carousel-indicators">
@@ -11946,11 +11943,10 @@ remaining parts from the content rows below.
 </details>
 
 -   Then, add the left and right controls to the carousel that enable us
-    to move to the previous and next slide manually. Add this to the
-    bottom of the carousel div:
-
-<details>
-  <summary>Add left and right controls to carousel!</summary>
+    to move to the previous and next slide manually. 
+	
+-	<details>
+	  <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
 <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
@@ -12049,16 +12045,17 @@ Hope you enjoyed creating this new variation of the index.html page.
 
 <h4>Assignment Screenshots</h4>
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 90.  (xx) ------------------>
+<!--~~~~~~~~~~~~~ 90. reserve a table, task 1 - smoking/non-smoking, task 2 (237) ~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
   width="50%"
-  alt="." />
+  alt="Task 2, smoking/non-smoking section." />
 </p>
-
+<!-- 
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png)
-<!-- {width="5.0in" height="4.461420603674541in"} -->
+{width="5.0in" height="4.461420603674541in"} 
+-->
 
 <h4>Bootstrap Resources</h4>
 
@@ -12283,7 +12280,7 @@ we introduce the tooltip.
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   width="50%"
-  alt="Bootstrap JQuery example, cont'd." />
+  alt="Bootstrap JQuery example." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
@@ -12301,7 +12298,7 @@ Ready is the action to be taken.
 When the document is ready, then execute this function that is specified
 as a parameter for this ready action there.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 99. bootstrrap jquery example #2 (243) ----------------------------->
+<!---------------------------- 99. bootstrap jquery example #2 (243) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
@@ -13182,8 +13179,8 @@ to:
     the carousel is currently cycling or paused. Furthermore we can use
     the button to toggle the carousel cycling behavior:
 
-<details>
-  <summary>Modify carousel control button!</summary>
+-	<details>
+      <summary>Modify carousel control button!</summary>
 
 ```
 <button class="btn btn-danger btn-sm" id="carouselButton">
@@ -13199,11 +13196,8 @@ based on the current behavior of the carousel.
 
 <h4>Modifying JavaScript Code</h4>
 
--   Finally we modify the JavaScript code to control the behavior of the
-    carousel and also show the appropriate button:
-
-<details>
-  <summary>Modify JavaScript with following!</summary>
+-   <details>
+	  <summary>Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:</summary>
 
 ```
 $("#carouselButton").click(function(){
@@ -13902,7 +13896,8 @@ of this exercise you will be able to:
     css folder, create a file named <i>styles.scss</i>. We will add the Scss
     code into this file.
 
--   Add the following Scss variables into the file:
+- 	<details>
+      <summaryAdd the following Scss variables into the file:</summary>
 
 ```
 $lt-gray: #ddd;
@@ -13914,12 +13909,15 @@ $background-pale: #D1C4E9;
 $carousel-item-height: 300px;
 ```
 
+</details>
+
 We have just added a few color and a height variable. We will make use
 of these variables while defining the classes.
 
 <h4>Scss Mixins</h4>
 
--   Next we add a mixin into the file as follows:
+- 	<details>
+      <summary>Next we add a mixin into the file as follows:</summary>
 
 ```
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
@@ -13928,10 +13926,13 @@ of these variables while defining the classes.
 }
 ```
 
+</details>
+
 We will make use of this to define several row classes next.
 
--   Using the variables and Mixin class that we defined earlier, add the
-    following row classes to the file:
+- 	<details>
+      <summary>Using the variables and Mixin class that we defined earlier, add the
+        following row classes to the file:</summary>
 
 ```
 .row-header{
@@ -13968,7 +13969,7 @@ body{
  
 .navbar-dark {
      background-color: $background-dark;
->
+
 }
  
 .tab-content {
@@ -13977,6 +13978,8 @@ body{
     border-bottom: 1px solid $lt-gray;
 ```
 
+</details>
+
 Note the use of the variables and the mixin with various parameters in
 defining the classes.
 
@@ -13984,6 +13987,10 @@ defining the classes.
 
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
+
+-	<details>
+      <summary>Next we add a carousel class to illustrate the use of nesting of
+        classes in Scss, as follows:</summary>
 
 ```
 .carousel {
@@ -14007,6 +14014,8 @@ defining the classes.
     z-index: 1;
 }
 ```
+
+</details>
 
 <h4>Installing and using the node-sass module</h4>
 
@@ -14151,7 +14160,6 @@ to save your changes with the message assignment four.
   width="50%"
   alt="Login." />
 </p>
-
 <!-- {width="5.0in" height="4.349809711286089in"} -->
 
 <h4>Bootstrap Documentation</h4>
@@ -15069,7 +15077,7 @@ npm -g install imagemin-cli@3.0.0
 
 Remember to use <i>sudo</i> on mac and Linux. <b>NOTE:</b> Some students have
 encountered issues with imagemin-cli not installing its plugins due to
-issues with global permissions on Mac. In that case try
+issues with global permissions on Mac. In that case try:
 
 ```
 sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
@@ -15078,7 +15086,7 @@ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
 -   Then set up the following script:
 
 ```
-"imagemin": "imagemin img/</i> --out-dir='dist/img'",
+"imagemin": "imagemin img/ --out-dir='dist/img'",
 ```
 
 <h4>Preparing the Distribution Folder</h4>
@@ -15098,15 +15106,18 @@ dist
 npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 ```
 
--   Add the following two scripts to the package.json file:
+-	<details>
+      <summary>Add the following two scripts to the package.json file:</summary>
 
 ```
 "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
 "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
 ```
 
--   Open <i>index.html</i> and surround the css links inclusion code as
-    follows:
+</details>
+
+- 	<details>
+      <summary>Open <i>index.html</i> and surround the css links inclusion code as follows:</summary>
 
 ```
 <!-- build:css css/main.css -->
@@ -15117,10 +15128,12 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 <!-- endbuild -->
 ```
 
+</details>
+
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 
--   Similarly, open <i>index.html</i> and surround the js script inclusion
-    code as follows:
+-   <details>
+      <summary>Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:</summary>
 
 ```
 <!-- build:js js/main.js -->
@@ -15130,6 +15143,8 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 <script src="[js/scripts.js]{.underline}"></script>
 <!-- endbuild -->
 ```
+
+</details>
 
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 
@@ -16389,7 +16404,6 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 ```
 ,
- 
         copy: {
             html: {
                 files: [
@@ -16414,7 +16428,6 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
                 }]
             }
         },
- 
         clean: {
             build: {
                 src: [ 'dist/']
@@ -17051,10 +17064,8 @@ var ...
 
 </details>
 
--   We configure the usemin and the build task as follows:
-
-<details>
-  <summary>Configure usemin and build task!</summary>
+-	<details>
+	  <summary>Configure the usemin and the build task as follows:</summary>
 
 ```
 gulp.task('usemin', function() {
@@ -17090,6 +17101,10 @@ gulp build
 ```
 
 -   Do a Git commit with the message "Gulp Part 2"
+
+```
+git commit "Gulp Part 2"
+```
 
 <h4>Conclusions</h4>
 
@@ -17335,4 +17350,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 3/12/2023 at 12:20pm ---->
+<!--- last updated: 3/18/2023 at 1:56pm ---->
