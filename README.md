@@ -6526,6 +6526,9 @@ exercise, you will be able to:
     provides links to the other pages on the website. Start by adding
     the following code to the body just above the header jumbotron.
 
+<details>
+  <summary>Insert the following:</summary>
+
 ```
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
         <div class="container">
@@ -6539,6 +6542,8 @@ exercise, you will be able to:
         </div>
     </nav>
 ```
+
+</details>
 
 In the above code, we can see the use of the nav element to specify the
 navigation information for the website. This nav element is styled by
@@ -6558,7 +6563,7 @@ the navigation bar.
     screens, to be replaced by a toggle button so that the items can be
     toggled on or off when required on small and extra small screens.
     This can be achieved by adding the following code to the navigation
-    bar, just below the container div
+    bar, just below the container div:
 
 ```
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -6603,7 +6608,7 @@ toggle button.
     fixed navigation bar, we should give the body of the page an upper
     margin of 50px, so that the top 50px of the page does not get hidden
     under the navigation bar. We accomplish these by adding these CSS
-    customisations to the <i>styles.css</i> file
+    customizations to the <i>styles.css</i> file:
 
 ```
 body{
@@ -6981,6 +6986,9 @@ npm install bootstrap-social@5.1.1 --save
     social buttons in the footer in both index.html and aboutus.html, by
     replacing the social sites\' links with the following code:
 
+<details>
+  <summary>Insert the following:</summary>
+
 ```
 <div class="text-center">
 <a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>
@@ -6996,6 +7004,8 @@ href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>
 href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 </div>
 ```
+
+</details>
 
 -   Save all the changes and commit to your Git repository with the
     message "Icon Fonts".
@@ -8357,6 +8367,9 @@ be able to:
     "Form goes here". Add the following code to page to create a
     simple horizontal form with two fields:
 
+<details>
+  <summary>Insert the following:</summary>
+
 ```
 <form>
    <div class="form-group row">
@@ -8374,11 +8387,16 @@ be able to:
 </form>
 ```
 
+</details>
+
 This creates a form with two elements in the form. Note that the class
 <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we
 can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user\'s telephone number and email:
+
+<details>
+  <summary>Add the following:</summary>
 
 ```
 <div class="form-group row">
@@ -8398,10 +8416,15 @@ can style the contents using the column classes as appropriate.
 </div>
 ```
 
+</details>
+
 <h4>Adding a Checkbox and Select</h4>
 
 -   We now see the addition of a checkbox and a select element to the
     form. Note the styling of these elements using Bootstrap classes:
+
+<details>
+  <summary>Insert the following:</summary>
 
 ```
 <div class="form-group row">
@@ -8421,6 +8444,8 @@ can style the contents using the column classes as appropriate.
    </div>
 </div>
 ```
+
+</details>
 
 <h4>Adding a textarea</h4>
 
@@ -8927,6 +8952,9 @@ displaying content. At the end of this exercise, you will be able to:
 
 -   Inside the first column of this row, insert the table as follows:
 
+<details>
+  <summary>Insert the following:</summary>
+
 ```
 <div class="table-responsive">
    <table class="table table-striped">
@@ -8968,6 +8996,8 @@ displaying content. At the end of this exercise, you will be able to:
 </div>
 ```
 
+</details>
+
 Note the use of <i>table-responsive</i> class to create a responsive table,
 and the <i>table-striped</i> and <i>thead-inverse</i> classes for styling the
 table.
@@ -8977,6 +9007,9 @@ table.
 -   Next we add a card to the second div in the first content row as
     follows, updating the div first by adding the classes col-12
     col-sm-6 to it and then adding the card:
+
+<details>
+  <summary>Bootstrap card:</summary>
 
 ```
 <div class="col-12 col-sm-6">
@@ -8998,8 +9031,13 @@ table.
 </div>
 ```
 
+</details>
+
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
+
+<details>
+  <summary>Bootstrap card:</summary>
 
 ```
 <div class="col-12">
@@ -9016,12 +9054,18 @@ table.
 </div>
 ```
 
+</details>
+
 Note the use of the <i>\<blockquote\></i> tag to create a block quote in the
 card. We can use a <i>\<footer\></i> inside the block quote to specify the
 attribution of the quote to its origin.
 
 -   Remember to commit the changes to your Git repository with the
     message "Tables and Cards"
+
+```
+git commit "Tables and Cards"
+```
 
 <h4>Conclusions</h4>
 
@@ -9405,6 +9449,9 @@ Note the inclusion of the logo in the navbar.
     column containing the description of Uthappizza with the following
     code:
 
+<details>
+  <summary>Replace contents of second column:</summary>
+
 ```
 <div class="media">
    <img class="d-flex mr-3 img-thumbnail align-self-center"
@@ -9419,12 +9466,17 @@ Note the inclusion of the logo in the navbar.
 </div>
 ```
 
+</details>
+
 Note the use of the <i>media</i> class and the related Bootstrap classes to
 style the content.
 
 -   Next, we will go to the third row and replace the contents of the
     second column containing the description about Alberto with the
     following content:
+
+<details>
+  <summary>Replace contents of second column:</summary>
 
 ```
 <div class="media">
@@ -9442,7 +9494,13 @@ style the content.
 </div>
 ```
 
+</details>
+
 -   Finally, do a Git commit with a message "Images and Media".
+
+```
+git commit "Images and Media"
+```
 
 <b>Conclusions</b>
 
@@ -10469,6 +10527,9 @@ content. At the end of this exercise you will be able to:
 -   Right after the Corporate Leadership heading, introduce the
     following code to set up the tabbed navigation:
 
+<details>
+  <summary>Tab Navigation Elements:</summary>
+
 ```
 <ul class="nav nav-tabs">
     <li class="nav-item">
@@ -10489,6 +10550,8 @@ content. At the end of this exercise you will be able to:
     </li>
 </ul>
 ```
+
+</details>
 
 Note the use of the <i>\<ul\></i> tag with the <i>nav</i> and <i>nav-tabs</i> classes
 to set up the tab navigation. Each list item within the list acts as the
@@ -10518,8 +10581,8 @@ navigation that we just set up.
 
 ```
 <div role="tabpanel" class="tab-pane fade show active" id="peter">
-    <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-    <p> ... </p>
+  <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+  <p> ... </p>
 </div>
 ```
 
@@ -10543,10 +10606,10 @@ with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
 
 ```
 .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
 ```
 
@@ -10932,7 +10995,7 @@ in a web page. At the end of this exercise, you will be able to:
     structure below:
 
 <details>
-  <summary>!</summary>
+  <summary>Show leaders:</summary>
 
 ```
 <div class="card">
@@ -11929,8 +11992,10 @@ remaining parts from the content rows below.
 -	Add the following code to the bottom after the carousel items in the div of the carousel to add slide
     indicators that enable us to select a specific slide:
 
--	<details>
-	  <summary>Add manual controls to carousel!</summary>
+-   Add manual controls to carousel!
+
+<details>
+  <summary>Add manual controls to carousel!</summary>
 
 ```
 <ol class="carousel-indicators">
@@ -11944,9 +12009,11 @@ remaining parts from the content rows below.
 
 -   Then, add the left and right controls to the carousel that enable us
     to move to the previous and next slide manually. 
+
+-   Add this to the bottom of the carousel div:
 	
--	<details>
-	  <summary>Add this to the bottom of the carousel div:</summary>
+<details>
+  <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
 <a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
@@ -11960,6 +12027,10 @@ remaining parts from the content rows below.
 </details>
 
 -   Do a Git commit with the message "Carousel".
+
+```
+git commit "Carousel"
+```
 
 <h4>Conclusions</h4>
 
@@ -13179,8 +13250,10 @@ to:
     the carousel is currently cycling or paused. Furthermore we can use
     the button to toggle the carousel cycling behavior:
 
--	<details>
-      <summary>Modify carousel control button!</summary>
+-   Modify carousel control button!
+
+<details>
+  <summary>Modify carousel control button!</summary>
 
 ```
 <button class="btn btn-danger btn-sm" id="carouselButton">
@@ -13196,8 +13269,10 @@ based on the current behavior of the carousel.
 
 <h4>Modifying JavaScript Code</h4>
 
--   <details>
-	  <summary>Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:</summary>
+-   Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:
+
+<details>
+  <summary>We modify the JavaScript code:</summary>
 
 ```
 $("#carouselButton").click(function(){
@@ -13636,7 +13711,7 @@ We will make use of this to define several row classes next.
     following row classes to the file:
 
 <details>
-  <summary>Add row classe to styles.css!</summary>
+  <summary>Add row class to styles.css!</summary>
 
 ```
 address{
@@ -13644,38 +13719,31 @@ address{
     margin:0px;
     color:#0f0f0f;
 }
- 
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
- 
 .navbar-dark {
      background-color: @background-dark;
 }
- 
 .tab-content {
     border-left: 1px solid @lt-gray;
     border-right: 1px solid @lt-gray;
     border-bottom: 1px solid @lt-gray;
     color:floralwhite;
 }
- 
 .jumbotron {
     .zero-margin(70px,30px);
     background: @background-light ;
 }
- 
 .footer{
     background-color: @background-pale;
     .zero-margin(20px, 0px);
     min-height:400px;
 }
- 
     .zero-margin(50px,0px);
     border-bottom: 1px ridge;
 }
- 
 .row-content {
 .row-header{
     .zero-margin();
@@ -13896,8 +13964,10 @@ of this exercise you will be able to:
     css folder, create a file named <i>styles.scss</i>. We will add the Scss
     code into this file.
 
-- 	<details>
-      <summaryAdd the following Scss variables into the file:</summary>
+-   Add the following SCSS variables into the file:
+
+<details>
+  <summary>Add the following:</summary>
 
 ```
 $lt-gray: #ddd;
@@ -13916,8 +13986,10 @@ of these variables while defining the classes.
 
 <h4>Scss Mixins</h4>
 
-- 	<details>
-      <summary>Next we add a mixin into the file as follows:</summary>
+-   Next, add a mixin into the file:
+
+<details>
+  <summary>Add the following:</summary>
 
 ```
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
@@ -13930,46 +14002,41 @@ of these variables while defining the classes.
 
 We will make use of this to define several row classes next.
 
-- 	<details>
-      <summary>Using the variables and Mixin class that we defined earlier, add the
-        following row classes to the file:</summary>
+-   Using the variables and Mixin class that we defined earlier, add the
+    following row classes to the file:
+
+<details>
+  <summary>Add the following row classes:</summary>
 
 ```
 .row-header{
     @include zero-margin(0px,0px);
 }
- 
 .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
     min-height:400px;
 }
- 
 .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
 }
- 
 .jumbotron {
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
 }
- 
 address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
- 
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
- 
 .navbar-dark {
      background-color: $background-dark;
-
 }
  
 .tab-content {
@@ -13988,9 +14055,8 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
 
-<ul>
-  <li><details>
-    <summary>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</summary></li>
+<details>
+  <summary>Add carousel class:</summary>
 
 ```
 .carousel {
@@ -14015,8 +14081,7 @@ defining the classes.
 }
 ```
 
-  </details>
-</ul>
+</details>
 
 <h4>Installing and using the node-sass module</h4>
 
@@ -15107,8 +15172,10 @@ dist
 npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 ```
 
--	<details>
-      <summary>Add the following two scripts to the package.json file:</summary>
+-   Add the following two scripts to the package.json file:
+
+<details>
+  <summary>Add the following to package.json:</summary>
 
 ```
 "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
@@ -15117,8 +15184,10 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 
 </details>
 
-- 	<details>
-      <summary>Open <i>index.html</i> and surround the css links inclusion code as follows:</summary>
+-   Open <i>index.html</i> and surround the css links inclusion code as follows:
+
+<details>
+  <summary>Surround the css links inclusion code as follows:</summary>
 
 ```
 <!-- build:css css/main.css -->
@@ -15133,8 +15202,10 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 
 -   Do the same change in <i>aboutus.html</i> and <i>contactus.html</i>
 
--   <details>
-      <summary>Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:</summary>
+-   Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:
+
+<details>
+  <summary>Surround the js script inclusion code as follows:</summary>
 
 ```
 <!-- build:js js/main.js -->
@@ -17019,12 +17090,10 @@ gulp.task('copyfonts', function() {
 
 ```
 npm install gulp-imagemin@4.1.0 --save-dev
-```
 
-```
 var ...
-    imagemin = require('gulp-imagemin'),
-    ...
+  imagemin = require('gulp-imagemin'),
+  ...
 ```
 
 -   Next, we create the <i>imagemin</i> task as follows:
@@ -17049,7 +17118,7 @@ gulp.task('imagemin', function() {
     require them as follows:
 
 <details>
-  <summary>Install the gulp-usemin & other related Gulp plugins!</summary>
+  <summary>Install the following!</summary>
 
 ```
 npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
@@ -17065,8 +17134,10 @@ var ...
 
 </details>
 
--	<details>
-	  <summary>Configure the usemin and the build task as follows:</summary>
+-	Configure the usemin and the build task as follows:
+
+</details>
+  <summary>Update gulp as follows:</summary>
 
 ```
 gulp.task('usemin', function() {
@@ -17351,4 +17422,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 3/18/2023 at 1:56pm ---->
+<!--- last updated: 3/18/2023 at 4:48pm ---->
