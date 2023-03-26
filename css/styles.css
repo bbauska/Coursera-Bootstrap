@@ -58,6 +58,11 @@ body {
   font-family: Bahnschrift, Calibri, Verdana, sans-serif;
   margin-left: 3px;
   }
+
+ul, ol {
+  margin-left:3em;
+}
+
 <!-- list item styles -->
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
