@@ -12,67 +12,7 @@
 
   <title>Front-End Web UI Frameworks and Tools: Bootstrap 4</title>
 
-<style>
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-  .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-img.displayed {
-  display: block;
-    margin: 0 auto; }
-  .border {
-    border-width: 1px;
-    border-color: #778899;
-    border-style: solid; }
-h1  {
-  font-family: Helvetic;
-  color: red;
-  text-align: center;
-  font-size: 22px; }
-h2 {
-  font-family: Bahnschrift, Inter, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 20px;
-  text-align: left; }
-h3 {
-  font-family: Bahnschrift, Inter, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 18px;
-  text-align: left; }
-h4 {
-  font-family: Bahnschrift, Inter, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 16px;
-  text-align: left; }
-h5 {
-  font-family: Bahnschrift, Inter, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 13px;
-  text-align: left; }
-h6 {
-  font-family: Consolas, Bahnschrift, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 10px;
-  text-align: center; }
-h7 {
-  font-family: Consolas, Bahnschrift, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 8px;
-  text-align: left; }
-p {
-  font-family: Bahnschrift, Inter, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 15px;
-  margin-left: 3%;
-  text-align: left; }
-
-<link rel="stylesheet" href="styles.css">
-
-</style>
+  <link rel="stylesheet" href="styles.css">
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 01a. course title: front-end web ui frameworks and tools: bootstrap 4 ~~~~~~~~~~~-->
@@ -81,7 +21,6 @@ p {
   src="/images/image001a.png?raw=true"
   alt="Course title: Front-End Web UI Frameworks and Tools: Bootstrap 4."
   style="width:50%;" />
-<!-- was style="width:550px;" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -89,8 +28,6 @@ p {
   src="/images/coursera-logo.png?raw=true"
   style="width:35%;"
   alt="Coursera logo." />
-
-<!-- <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> -->
 
 <title>Front-End Web UI Frameworks and Tools: Bootstrap 4</title>
 
@@ -3545,108 +3482,109 @@ separate CSS file</p></li>
 <li><p>Centering the content both vertically and horizontally within a
 row</p></li>
 </ul>
+
 <h3 id="list-styles">List styles</h3>
+
 <ul>
-<li><p>You can use several list styles to display lists in different
-formats. In this exercise, we will use the unordered list style
-<em>list-unstyled</em> to display the links at the bottom of the page
-without the bullets. To do this, go to the links in the footer and
-update the ul as follows</p></li>
+  <li><p>You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style <em>list-unstyled</em> to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows</p></li>
 </ul>
+
 <p><strong>&lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;</strong></p>
+
 <h3 id="using-custom-css-classes">Using Custom CSS classes</h3>
+
 <p>We can define our own custom CSS classes in a separate CSS file, and
 also customize some of the built-in CSS classes. We will now attempt to
 do this in this part of the exercise.</p>
+
 <ul>
-<li><p>Create a folder named <em><strong>css</strong></em>. Then create
-a file named <em>styles.css</em> in the <em><strong>css</strong></em>
-folder. Open this file to edit the contents. Add the following CSS code
-to the file:</p></li>
+  <li><p>Create a folder named <em><strong>css</strong></em>. Then create a file named <em>styles.css</em> in the <em><strong>css</strong></em> folder. Open this file to edit the contents. Add the following CSS code to the file:</p></li>
 </ul>
+
 <blockquote>
-<p><strong>.row-header{</strong></p>
-<p><strong>    margin:0px auto;</strong></p>
-<p><strong>    padding:0px;</strong></p>
-<p><strong>}</strong></p>
-<p><strong> </strong></p>
-<p><strong>.row-content {</strong></p>
-<p><strong>    margin:0px auto;</strong></p>
-<p><strong>    padding: 50px 0px 50px 0px;</strong></p>
-<p><strong>    border-bottom: 1px ridge;</strong></p>
-<p><strong>    min-height:400px;</strong></p>
-<p><strong>}</strong></p>
-<p><strong> </strong></p>
-<p><strong>.footer{</strong></p>
-<p><strong>    background-color: #D1C4E9;</strong></p>
-<p><strong>    margin:0px auto;</strong></p>
-<p><strong>    padding: 20px 0px 20px 0px;</strong></p>
-<p><strong>}</strong></p>
-<p><strong> </strong></p>
+<strong>.row-header{</strong>
+<strong>    margin:0px auto;</strong>
+<strong>    padding:0px;</strong>
+<strong>}</strong>
+<strong> </strong>
+<strong>.row-content {</strong>
+<strong>    margin:0px auto;</strong>
+<strong>    padding: 50px 0px 50px 0px;</strong>
+<strong>    border-bottom: 1px ridge;</strong>
+<strong>    min-height:400px;</strong>
+<strong>}</strong>
+<strong> </strong>
+<strong>.footer{</strong>
+<strong>    background-color: #D1C4E9;</strong>
+<strong>    margin:0px auto;</strong>
+<strong>    padding: 20px 0px 20px 0px;</strong>
+<strong>}</strong>
+<strong> </strong>
 </blockquote>
+
 <ul>
-<li><p>Include the <em>styles.css</em> file into the head of the
-<em>index.html</em> file as follows:</p></li>
+  <li><p>Include the <em>styles.css</em> file into the head of the <em>index.html</em> file as follows:</p></li>
 </ul>
-<p><strong>    &lt;link href="<u>css/styles.css</u>" rel="stylesheet"&gt;</strong></p>
+
+<!-- <p><strong><link href="<u>css/styles.css</u>" rel="stylesheet"></strong></p> -->
+
 <ul>
-<li><p>Then add these classes to the corresponding rows in the
-<em>index.html</em> file as follows. See the difference in the
-<em>index.html</em> file in the browser. The first one is for the row in
-the &lt;header&gt;, the next three for the rows in the content, and the
-last one directly to the &lt;footer&gt; tag.</p></li>
+  <li><p>Then add these classes to the corresponding rows in the <em>index.html</em> file as follows. See the difference in the <em>index.html</em> file in the browser. The first one is for the row in the &lt;header&gt;, the next three for the rows in the content, and the last one directly to the &lt;footer&gt; tag.</p></li>
 </ul>
+
 <blockquote>
-<p><strong>    &lt;div class="row row-header"&gt; ... &lt;/div&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>    &lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>    &lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>    &lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong></p>
-<p><strong> </strong></p>
-<p><strong>    &lt;footer class="footer"&gt; ... &lt;/footer&gt;</strong></p>
+<strong>&lt;div class="row row-header"&gt; ... &lt;/div&gt;</strong>
+<strong>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong>
+<strong>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong>
+<strong>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</strong>
+<strong>&lt;footer class="footer"&gt; ... &lt;/footer&gt;</strong>
 </blockquote>
-<p><strong> </strong></p>
+
 <ul>
-<li><p>Our next set of customization is to the jumbotron and the
-address. Add the following to <em>styles.css</em> file:</p></li>
+  <li><p>Our next set of customization is to the jumbotron and the address. Add the following to <em>styles.css</em> file:</p></li>
 </ul>
+
 <blockquote>
-<p><strong>.jumbotron {</strong></p>
-<p><strong>    padding:70px 30px 70px 30px;</strong></p>
-<p><strong>    margin:0px auto;</strong></p>
-<p><strong>    background: #9575CD ;</strong></p>
-<p><strong>    color:floralwhite;</strong></p>
-<p><strong>}</strong></p>
-<p><strong> </strong></p>
-<p><strong>address{</strong></p>
-<p><strong>    font-size:80%;</strong></p>
-<p><strong>    margin:0px;</strong></p>
-<p><strong>    color:#0f0f0f;</strong></p>
-<p><strong>}</strong></p>
-<p><strong> </strong></p>
+<strong>.jumbotron {</strong>
+<strong>    padding:70px 30px 70px 30px;</strong>
+<strong>    margin:0px auto;</strong>
+<strong>    background: #9575CD ;</strong>
+<strong>    color:floralwhite;</strong>
+<strong>}</strong>
+<strong> </strong>
+<strong>address{</strong>
+<strong>    font-size:80%;</strong>
+<strong>    margin:0px;</strong>
+<strong>    color:#0f0f0f;</strong>
+<strong>}</strong>
+<strong> </strong>
 </blockquote>
-<h3 id="vertically-centering-the-content">Vertically Centering the
-Content</h3>
+
+<h3 id="vertically-centering-the-content">Vertically Centering the Content</h3>
+
 <ul>
-<li><p>In the content section, update all the rows as follows:</p></li>
+  <li>In the content section, update all the rows as follows:</li>
 </ul>
+
 <p><strong>&lt;div class="row row-content align-items-center"&gt;</strong></p>
+
 <ul>
-<li><p>In the footer, update the third column div that contains the
-social media links as follows:</p></li>
+  <li>In the footer, update the third column div that contains the social media links as follows:</li>
 </ul>
+
 <p><strong>&lt;div class="col-12 col-sm-4 align-self-center"&gt;</strong></p>
-<h3 id="horizontally-centering-the-content">Horizontally Centering the
-Content</h3>
+
+<h3 id="horizontally-centering-the-content">Horizontally Centering the Content</h3>
+
 <ul>
-<li><p>Update the copyright paragraph as follows:</p></li>
+  <li><p>Update the copyright paragraph as follows:</p></li>
 </ul>
+
 <blockquote>
-<p><strong>&lt;div class="row justify-content-center"&gt;             </strong></p>
-<p><strong>&lt;div class="col-auto"&gt;</strong></p>
+<strong>&lt;div class="row justify-content-center"&gt;</strong>
+<strong>&lt;div class="col-auto"&gt;</strong>
 </blockquote>
+
 <ul>
 <li><p>Update the inner div containing the social media links as
 follows:</p></li>
@@ -4550,6 +4488,7 @@ bar</h3>
 it provides links to the other pages on the website. Start by adding the
 following code to the body just above the header jumbotron.</p></li>
 </ul>
+
 <blockquote>
 <p><strong>    &lt;nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"&gt;</strong></p>
 <p><strong>        &lt;div class="container"&gt;</strong></p>
@@ -4567,6 +4506,7 @@ following code to the body just above the header jumbotron.</p></li>
 <p><strong>        &lt;/div&gt;</strong></p>
 <p><strong>    &lt;/nav&gt;</strong></p>
 </blockquote>
+
 <p>In the above code, we can see the use of the nav element to specify
 the navigation information for the website. This nav element is styled
 by the <em>navbar</em> that declares it as a navigation bar, and the
