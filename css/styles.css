@@ -1,4 +1,59 @@
 h1 {
-  font-size: 22px
-  font-family: "Bahnschrift", "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: red;
+  text-align: center;
+  font-family: "Bahnschrift", serif, "Helvetica";
 }
+<!--
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+  .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+-->
+
+img.displayed {
+  display: block;
+    margin: 0 auto; }
+  .border {
+    border-width: 1px;
+    border-color: #778899;
+    border-style: solid; }
+h2 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 20px;
+  text-align: left; }
+h3 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 18px;
+  text-align: left; }
+h4 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 16px;
+  text-align: left; }
+h5 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 13px;
+  text-align: left; }
+h6 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 10px;
+  text-align: center; }
+h7 {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 8px;
+  text-align: left; }
+p {
+  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
+  color: black;
+  font-size: 15px;
+  margin-left: 3%;
+  text-align: left; }
