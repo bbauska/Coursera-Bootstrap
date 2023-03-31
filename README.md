@@ -1637,7 +1637,7 @@ online repository. At the end of this exercise, you will be able to:
     link to your online Git repository:
 
 ```
-git remote add origin <repository URL>
+$ git remote add origin <repository URL>
 ```
 
 <h4>Pushing your commits to the online repository</h4>
@@ -1646,7 +1646,7 @@ git remote add origin <repository URL>
     repository:
 
 ```
-git push -u origin master
+$ git push -u origin master
 ```
 
 <h4>Cloning an online repository</h4>
@@ -1659,16 +1659,13 @@ git push -u origin master
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image018.png?raw=true"
-   alt="git-test."
-   width="50%" />
+  alt="git-test."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.2676279527559056in"}
----------->
+<!-- {width="5.0in" height="1.2676279527559056in"} -->
 
 ```
-git clone <repository URL>
+$ git clone <repository URL>
 ```
 
 <h4>Conclusions</h4>
@@ -1690,13 +1687,10 @@ the browser to the desktop.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image019.png?raw=true"
-   alt="What is Node.js?"
-   width="50%" />
+  alt="What is Node.js?"
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.9198720472440944in"}
----------->
+<!-- {width="5.0in" height="1.9198720472440944in"} -->
 
 Let\'s now learn a little bit about what Node.js is and what role does
 NPM, the Node Package Manager, play in the context of Node.js. Node.js,
@@ -1726,13 +1720,10 @@ last course of this specialization.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image020.png?raw=true"
-   alt="Node Architecture."
-   width="50%" />
+  alt="Node Architecture."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="2.0769225721784776in"}
----------->
+<!-- {width="5.0in" height="2.0769225721784776in"} -->
 
 This is the typical architecture of Node.js.
 
@@ -1766,13 +1757,10 @@ JavaScript on the server side.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image021.png?raw=true"
-   alt="Node Package Manager."
-   width="50%" />
+  alt="Node Package Manager."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="2.0769225721784776in"}
----------->
+<!-- {width="5.0in" height="2.0769225721784776in"} -->
 
 Together with Node you often hear people talking about the Node package
 manager or NPM. When you install Node on your computer NPM automatically
@@ -1804,13 +1792,10 @@ Click on that to download the installer package for your platform.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image022.png?raw=true"
-   alt="Install node.js."
-   width="50%" />
+  alt="Install node.js."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="3.6212609361329835in"}
----------->
+<!-- {width="5.0in" height="3.6212609361329835in"} -->
 
 Once you get hold of the installer package, double click on it to start
 installing Node.js.
@@ -1902,9 +1887,9 @@ during the installation steps.</b>
     and <b>NPM</b>
 
 ```
-node -v
+$ node -v
 
-npm -v
+$ npm -v
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -1912,16 +1897,13 @@ npm -v
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image023.png?raw=true"
-   alt="Install node.js."
-   width="50%" />
+  alt="Install node.js."
+  width="50%" />
 </p>
-<!---------------
+<!--
 > ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
----------------->
-<!----------
-{width="5.0in"
-height="6.3736264216972875in"}
----------->
+-->
+<!-- {width="5.0in" height="6.3736264216972875in"} -->
 
 <h4>Conclusions</h4>
 
@@ -1957,13 +1939,10 @@ browser window as you edit the files of your project.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image024.png?raw=true"
-   alt="Install package.json."
-   width="50%" />
+  alt="Install package.json."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="2.0929483814523184in"}
----------->
+<!-- {width="5.0in" height="2.0929483814523184in"} -->
 
 As I mentioned, we want to set up the package.json file.
 
@@ -1977,13 +1956,10 @@ what exactly is the role of the package.json file.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image025.png?raw=true"
-   alt="Initializing package.json."
-   width="50%" />
+  alt="Initializing package.json."
+  width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.9540594925634296in"}
----------->
+<!-- {width="5.0in" height="1.9540594925634296in"} -->
 
 The package.json file serves as the documentation on what all other
 packages that your project is dependent upon.
@@ -2358,7 +2334,9 @@ commit.
 
 Let\'s do a git commit.
 
-<b>git commit -m "fourth commit"</b>.
+```
+$ git commit -m "fourth commit"
+```
 
 And the files are committed.
 
@@ -2420,7 +2398,9 @@ of this exercise, you will be able to:
 
 -   At the command prompt in your <b>git-test</b> folder, type
 
-<b>npm init</b>
+```
+$ npm init
+```
 
 -   Follow along the prompts and answer the questions as follows: accept
     the default values for most of the entries, except set the entry
@@ -2435,7 +2415,9 @@ of this exercise, you will be able to:
     based development web server and serve up your project files. To do
     this, type the following at the prompt:
 
-<b>npm install lite-server \--save-dev</b>
+```
+$ npm install lite-server --save-dev
+```
 
 -   You can check out more documentation on lite-server
     [here](https://github.com/johnpapa/lite-server).
@@ -2459,13 +2441,13 @@ of this exercise, you will be able to:
   },
   "repository": {
     "type": "git",
-    "url": "git+[https://jogesh_k\_muppala@bitbucket.org/jogesh_k\_muppala/git-test.git]{.underline}"
+    "url": "git+[https://jogesh_k_muppala@bitbucket.org/jogesh_k_muppala/git-test.git]{.underline}"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "[https://bitbucket.org/jogesh_k\_muppala/git-test#readme]{.underline}",
+  "homepage": "[https://bitbucket.org/jogesh_k_muppala/git-test#readme]{.underline}",
   "devDependencies": {
-    "lite-server": "\^2.2.2"
+    "lite-server": "^2.2.2"
   }
 }
 ```
@@ -2475,7 +2457,9 @@ of this exercise, you will be able to:
 -   Next, start the development server by typing the following at the
     prompt:
 
-<b>npm start</b>
+```
+$ npm start
+```
 
 -   This should open your <i>index.html</i> page in your default browser.
 
@@ -2583,17 +2567,13 @@ designing and implementing their recent websites.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true"
-  alt="."
+  alt="Front-End Web UI Frameworks overview."
   width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.474359142607174in"}
----------->
+<!-- {width="5.0in" height="1.474359142607174in"} -->
 
 Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 27. what are front-end ui frameworks? (51) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2602,10 +2582,7 @@ learn a little more details about them.
   alt="What are Front-End UI Frameworks?"
   width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.961003937007874in"}
----------->
+<!-- {width="5.0in" height="1.961003937007874in"} -->
 
 Next, so obviously in this lesson we\'re going to ask ourselves, what
 are front-end frameworks?
@@ -2657,20 +2634,15 @@ Not only that, it gives you a method of defining consistent typography
 that you can use for your entire website design.
 
 And enables you to quickly scaffold out a website or the pitch.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 28. popular front-end ui frameworks (52) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
-  alt="."
+  alt="Popular Front-End UI Frameworks."
   width="50%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.155983158355206in"}
----------->
+<!-- {width="5.0in" height="2.155983158355206in"} -->
 
 If you search for front-end web frameworks, you would find a plethora of
 them out there in the Internet.
@@ -2689,7 +2661,6 @@ front end web UI frameworks.
 The remaining among this list may vary, but you would often find
 Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 29. why front-end web ui frameworks? (53) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2783,11 +2754,7 @@ to make use of Bootstrap in designing our website.
   alt="Bootstrap overview."
   width="50%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="1.5753204286964129in"}
----------->
+<!-- {width="5.0in" height="1.5753204286964129in"} -->
 
 If you go to the Bootstrap webpage, you will see that Bootstrap claims
 to be the most popular HTML, CSS, and JavaScript based framework that is
@@ -2795,7 +2762,6 @@ in use today and specially designed for developing responsive mobile
 first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 31. more bootstrap overview (55) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2804,11 +2770,7 @@ Indeed, Bootstrap stands up to its claim as the most popular framework.
   alt="More Bootatrap."
   width="50%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="1.9086537620297463in"}
----------->
+<!-- {width="5.0in" height="1.9086537620297463in"} -->
 
 It supports a number of CSS classes that enable you to design radius,
 web components very effectively.
@@ -2822,7 +2784,6 @@ This enables you to design responsive websites with the mobile first
 approach.
 
 We will talk more about this in the next lesson.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 32. bootstrap history (55) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2831,10 +2792,7 @@ We will talk more about this in the next lesson.
   alt="Bootstrap history."
   width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.9994663167104112in"}
----------->
+<!-- {width="5.0in" height="1.9994663167104112in"} -->
 
 Bootstrap originated around 2011.
 
@@ -2869,10 +2827,7 @@ I\'m sure your fingers are itching to get your hands around Bootstrap.
   alt="Setting up the project folder."
   width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9722222222222223in"}
-------------------->
+<!-- {width="5.0in" height="1.9722222222222223in"} -->
 
 First step, go to the exercise instructions that follow this exercise in
 your Bootstrap course page on Coursera.
@@ -2885,10 +2840,7 @@ your Bootstrap course page on Coursera.
   alt="Getting started with bootstrap 4."
   width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.9722222222222223in"}
-------------------->
+<!-- {width="5.0in" height="1.9722222222222223in"} -->
 
 And then in the instructions, you will see a link to this file
 Bootstrap4-starter.zip.
@@ -3192,7 +3144,9 @@ exercise, you will be able to:
 
 -   At the prompt type
 
-<h4>npm install</h4>
+```
+$ npm install
+```
 
 -   This will install the lite-server node module to your project.
 
@@ -3217,9 +3171,9 @@ exercise, you will be able to:
     type the following to fetch Bootstrap files to your project folder:
 
 ```
-npm install bootstrap@4.0.0 --save
+$ npm install bootstrap@4.0.0 --save
 
-npm install jquery@3.3.1 popper.js@1.12.9 --save
+$ npm install jquery@3.3.1 popper.js@1.12.9 --save
 ```
 
 -   This will fetch the Bootstrap files and store is in your
@@ -3297,7 +3251,9 @@ Bootstrap\'s grid system.
 
 -   (required for the exercise)
 
+```
 > Bootstrap4-starter.zip
+```
 
 <h4>Bootstrap Official Resources</h4>
 
@@ -3353,13 +3309,10 @@ these days?
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image035.png?raw=true"
-   alt="Why responsive design?"
-   width="50%" />
+  alt="Why responsive design?"
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.1180555555555556in"}
-------------------->
+<!-- {width="5.0in" height="1.1180555555555556in"} -->
 
 Traditionally, when websites were first designed, you could pretty much
 assume that people will be browsing your websites from a computer.
@@ -3371,17 +3324,14 @@ How do we render our websites consistently on devices of different
 screen sizes?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 36. why responsive design #2 (66) --------------------------------->
+<!------------------------------ 36. why responsive design #2 (66) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image036.png?raw=true"
-   alt="Why responsive design, #2."
-   width="50%" />
+  alt="Why responsive design, #2."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.561431539807524in"}
-------------------->
+<!-- {width="5.0in" height="1.561431539807524in"} -->
 
 The one size fits all approach that traditional website designers have
 taken no longer fixed bill.
@@ -3391,19 +3341,15 @@ your website to the size of the screen on which it is being viewed.
 
 This is where we have to take an approach to adapt to the user\'s view
 port.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 37. why responsive design #3 (66) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image037.png?raw=true"
-   alt="Why responsive design, #3."
-   width="50%" />
+  alt="Why responsive design, #3."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.223290682414698in"}
-------------------->
+<!-- {width="5.0in" height="2.223290682414698in"} -->
 
 This has to be built into your website design and development so that it
 will automatically adapt to the viewport of the user\'s device.
@@ -3455,13 +3401,10 @@ responsive web design.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image038.png?raw=true"
-   alt="Mobile first design."
-   width="50%" />
+  alt="Mobile first design."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.735042650918635in"}
-------------------->
+<!-- {width="5.0in" height="2.735042650918635in"} -->
 
 The second related concept that you will hear is mobile first.
 
@@ -3498,19 +3441,15 @@ Yeah, how do we go by doing responsive web design?
 There are several concepts that are built in to your frame time web UI
 frameworks that come to the aid when you need to do responsive web
 design.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 40. foundation for responsive design (68) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image040.png?raw=true"
-   alt="Foundation for responsive design."
-   width="50%" />
+  alt="Foundation for responsive design."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.208867016622922in"}
-------------------->
+<!-- {width="5.0in" height="1.208867016622922in"} -->
 
 First and foremost is what is called is a Grid system?
 
@@ -3525,13 +3464,10 @@ responsive web design.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image041.png?raw=true"
-   alt="Foundation for responsive design #2."
-   width="50%" />
+  alt="Foundation for responsive design #2."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.7852559055118111in"}
-------------------->
+<!-- {width="5.0in" height="1.7852559055118111in"} -->
 
 The second aspect is fluid images, so that your images that you include
 in your website will automatically adapt itself to the screen size.
@@ -3541,13 +3477,10 @@ in your website will automatically adapt itself to the screen size.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image042.png?raw=true"
-   alt="Foundation for responsive design #3."
-   width="50%" />
+  alt="Foundation for responsive design #3."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.178418635170604in"}
-------------------->
+<!-- {width="5.0in" height="2.178418635170604in"} -->
 
 And the third part is what is called a CSS media queries from your CSS
 code.
@@ -3562,17 +3495,14 @@ Let\'s look at that next.
 Media queries are supported in CSS like this.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 43. media queries (70) --------------------------------->
+<!----------------------------------- 43. media queries (70) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image043.png?raw=true"
-   alt="Media queries."
-   width="50%" />
+  alt="Media queries."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.077457349081365in"}
-------------------->
+<!-- {width="5.0in" height="2.077457349081365in"} -->
 
 The technology allows you to do a media query to specify the minimum
 width of the screen under which this particular set of CSS classes will
@@ -3592,13 +3522,10 @@ CSS code.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image044.png?raw=true"
-   alt="How to build a media query in your CSS code."
-   width="50%" />
+  alt="How to build a media query in your CSS code."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.839744094488189in"}
-------------------->
+<!-- {width="5.0in" height="2.839744094488189in"} -->
 
 Taking a look at Bootstrap\'s CSS code itself, let\'s go in and see how
 media queries are being used by Bootstrap.
@@ -3629,13 +3556,10 @@ devices screen size.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image045.png?raw=true"
-   alt="How do we do this?"
-   width="50%" />
+  alt="How do we do this?"
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.1180555555555556in"}
-------------------->
+<!-- {width="5.0in" height="1.1180555555555556in"} -->
 
 Then obviously, the next question that is going to come in your mind is
 how do we do this in practice?
@@ -3673,13 +3597,10 @@ Let\'s try to understand why we use this in our index.html page.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image046.png?raw=true"
-   alt="Viewport."
-   width="50%" />
+  alt="Viewport."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.086538713910761in"}
-------------------->
+<!-- {width="5.0in" height="2.086538713910761in"} -->
 
 What we are specifying here is that, when our web page is being rendered
 by the browser in a particular device, then, their rendering in the
@@ -3699,13 +3620,10 @@ us to design responsive websites.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image047.png?raw=true"
-   alt="Bootstrap grid."
-   width="50%" />
+  alt="Bootstrap grid."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.959935476815398in"}
-------------------->
+<!-- {width="5.0in" height="1.959935476815398in"} -->
 
 Again, emphasizing this point, Bootstrap grid is designed to be
 responsive.
@@ -3719,13 +3637,10 @@ and then fluid, automatically adapting to the screen width.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image048.png?raw=true"
-   alt="CSS Flexbox."
-   width="50%" />
+  alt="CSS Flexbox."
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="1.959935476815398in"}
-------------------->
+<!-- {width="5.0in" height="1.959935476815398in"} -->
 
 The Bootstrap grid takes advantage of the CSS flexbox layout.
 
@@ -3746,13 +3661,10 @@ flexbox layout as the standard for the Bootstrap grid.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image049.png?raw=true"
-   alt="Why flexbox for bootstrap?"
-   width="50%" />
+  alt="Why flexbox for bootstrap?"
+  width="50%" />
 </p>
-<!-------------------
-{width="5.0in"
-height="2.2729702537182854in"}
-------------------->
+<!-- {width="5.0in" height="2.2729702537182854in"} -->
 
 This flexbox layout can easily handle dynamic content and can adapt the
 containers to the dynamic content, and also can easily adapt to unknown
@@ -6530,17 +6442,17 @@ exercise, you will be able to:
   <summary>Insert the following:</summary>
 
 ```
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
-        <div class="container">
-           <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>            
-        </div>
-    </nav>
+  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>            
+      </div>
+  </nav>
 ```
 
 </details>
@@ -6567,7 +6479,7 @@ the navigation bar.
 
 ```
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-<span class="navbar-toggler-icon"></span>
+  <span class="navbar-toggler-icon"></span>
 </button>
 ```
 
@@ -6581,7 +6493,7 @@ navbar items.
 
 ```
 <div class="collapse navbar-collapse" id="Navbar">
-<ul class="navbar-nav mr-auto"> ... </ul>
+  <ul class="navbar-nav mr-auto"> ... </ul>
 </div>
 ```
 
@@ -6928,7 +6840,7 @@ installed, then the font icons are not showing up in their browser.
     following at the prompt:
 
 ```
-npm install font-awesome@4.7.0 --save
+$ npm install font-awesome@4.7.0 --save
 ```
 
 -   Another module that we install is Bootstrap Social that enables the
@@ -6937,7 +6849,7 @@ npm install font-awesome@4.7.0 --save
     To install it using npm, type the following at the prompt:
 
 ```
-npm install bootstrap-social@5.1.1 --save
+$ npm install bootstrap-social@5.1.1 --save
 ```
 
 -   We now need to include the CSS files for font awesome and
@@ -6991,17 +6903,17 @@ npm install bootstrap-social@5.1.1 --save
 
 ```
 <div class="text-center">
-<a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>
-<a class="btn btn-social-icon btn-facebook"
-href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>
-<a class="btn btn-social-icon btn-linkedin" 
-href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>
-<a class="btn btn-social-icon btn-twitter"
-href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>
-<a class="btn btn-social-icon btn-google" 
-href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>
-<a class="btn btn-social-icon" 
-href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
+  <a class="btn btn-social-icon btn-google" href="[http://google.com/+]{.underline}"><i class="fa fa-google-plus"></i></a>
+  <a class="btn btn-social-icon btn-facebook"
+    href="[http://www.facebook.com/profile.php?id=]{.underline}"><i class="fa fa-facebook"></i></a>
+  <a class="btn btn-social-icon btn-linkedin" 
+    href="[http://www.linkedin.com/in/]{.underline}"><i class="fa fa-linkedin"></i></a>
+  <a class="btn btn-social-icon btn-twitter"
+    href="[http://twitter.com/]{.underline}"><i class="fa fa-twitter"></i></a>
+  <a class="btn btn-social-icon btn-google" 
+    href="[http://youtube.com/]{.underline}"><i class="fa fa-youtube"></i></a>
+  <a class="btn btn-social-icon" 
+    href="[mailto:]{.underline}"><i class="fa fa-envelope-o"></i></a>
 </div>
 ```
 
@@ -9064,7 +8976,7 @@ attribution of the quote to its origin.
     message "Tables and Cards"
 
 ```
-git commit "Tables and Cards"
+$ git commit "Tables and Cards"
 ```
 
 <h4>Conclusions</h4>
@@ -12029,7 +11941,7 @@ remaining parts from the content rows below.
 -   Do a Git commit with the message "Carousel".
 
 ```
-git commit "Carousel"
+$ git commit "Carousel"
 ```
 
 <h4>Conclusions</h4>
@@ -13793,7 +13705,7 @@ defining the classes.
     Less file. To do this, type the following at the command prompt:
 
 ```
-npm install -g less@2.7.2
+$ npm install -g less@2.7.2
 ```
 
 This will install the <i>less</i> NPM module globally so that it can be used
@@ -13811,7 +13723,7 @@ we can compile Less files.
     file into a CSS file:
 
 ```
-lessc styles.less styles.css
+$ lessc styles.less styles.css
 ```
 
 -   You can now do a Git commit with the message "Less".
@@ -14090,7 +14002,7 @@ defining the classes.
     command prompt:
 
 ```
-npm install --save-dev node-sass@4.7.2
+$ npm install --save-dev node-sass@4.7.2
 ```
 
 This will install the <i>node-sass</i> NPM module into your project and also
@@ -14108,7 +14020,7 @@ add it as a development dependency in your package.json file.
     following at the prompt:
 
 ```
-npm run scss
+$ npm run scss
 ```
 
 -   You can now do a Git commit with the message "Sass".
@@ -14540,7 +14452,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     follows:
 
 ```
-npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
+$ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 ```
 
 -   Then, add the following two script items to <i>package.json</i> if you
@@ -14569,7 +14481,7 @@ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
     to the SCSS file, compile it to CSS, and run the server:
 
 ```
-npm start
+$ npm start
 ```
 
 -   Now, whenever you make any changes to <i>styles.scss</i> file, it will
@@ -15104,7 +15016,7 @@ At the end of this exercise, you will be able to:
     prompt:
 
 ```
-npm install --save-dev rimraf@2.6.2
+$ npm install --save-dev rimraf@2.6.2
 ```
 
 -   Then, set up the following script:
@@ -15120,7 +15032,7 @@ npm install --save-dev rimraf@2.6.2
     module globally as follows:
 
 ```
-npm -g install copyfiles@2.0.0
+$ npm -g install copyfiles@2.0.0
 ```
 
 Remember to use <i>sudo</i> on mac and Linux.
@@ -15138,7 +15050,7 @@ Compressing and Minifying Images
     Install the <i>imagemin-cli</i> module as follows:
 
 ```
-npm -g install imagemin-cli@3.0.0
+$ npm -g install imagemin-cli@3.0.0
 ```
 
 Remember to use <i>sudo</i> on mac and Linux. <b>NOTE:</b> Some students have
@@ -15169,7 +15081,7 @@ dist
     packages as follows:
 
 ```
-npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+$ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 ```
 
 -   Add the following two scripts to the package.json file:
@@ -15224,7 +15136,7 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
     prompt:
 
 ```
-npm run build
+$ npm run build
 ```
 
 -   This will build the <i>dist</i> folder containing the files that are a
@@ -15749,7 +15661,7 @@ web project. At the end of this exercise, you will be able to:
     command-line interface (CLI):
 
 ```
-npm install -g grunt-cli@1.2.0
+$ npm install -g grunt-cli@1.2.0
 ```
 
 This will install the Grunt CLI globally so that you can use them in all
@@ -15759,7 +15671,7 @@ projects.
     <i>conFusion</i> folder and type the following at the prompt:
 
 ```
-npm install grunt@1.0.2 --save-dev
+$ npm install grunt@1.0.2 --save-dev
 ```
 
 This will install local per-project Grunt to use within your project.
@@ -15798,9 +15710,9 @@ the function above.
     modules by typing the following at the prompt:
 
 ```
-npm install grunt-sass@2.1.0 --save-dev
-npm install time-grunt@1.4.0 --save-dev
-npm install jit-grunt@0.10.0 --save-dev
+$ npm install grunt-sass@2.1.0 --save-dev
+$ npm install time-grunt@1.4.0 --save-dev
+$ npm install jit-grunt@0.10.0 --save-dev
 ```
 
 The first one installs the Grunt module for SCSS to CSS conversion. The
@@ -15845,7 +15757,7 @@ module.exports = function (grunt) {
     prompt:
 
 ```
-grunt css
+$ grunt css
 ```
 
 <h4>Watch and Serve Tasks</h4>
@@ -15856,8 +15768,8 @@ grunt css
     this, install the following grunt modules:
 
 ```
-npm install grunt-contrib-watch@1.0.0 --save-dev
-npm install grunt-browser-sync@2.2.0 --save-dev
+$ npm install grunt-contrib-watch@1.0.0 --save-dev
+$ npm install grunt-browser-sync@2.2.0 --save-dev
 ```
 
 -   After this, we will configure the browser-sync and watch tasks by
@@ -15896,7 +15808,7 @@ npm install grunt-browser-sync@2.2.0 --save-dev
 -   Then add the following task to the Grunt file:
 
 ```
-grunt.registerTask('default', ['browserSync', 'watch']);
+$ grunt.registerTask('default', ['browserSync', 'watch']);
 ```
 
 -   Now if you type the following at the command prompt, it will start
@@ -16462,8 +16374,8 @@ build your web project.
     needed. To do this, install the following Grunt modules:
 
 ```
-npm install grunt-contrib-copy@1.0.0 --save-dev
-npm install grunt-contrib-clean@1.1.0 --save-dev
+$ npm install grunt-contrib-copy@1.0.0 --save-dev
+$ npm install grunt-contrib-clean@1.1.0 --save-dev
 ```
 
 -   You will now add the code to perform the copying of files to the
@@ -16517,7 +16429,7 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
     process the images. To install this module type at the prompt:
 
 ```
-npm install grunt-contrib-imagemin@2.0.1 --save-dev
+$ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 ```
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
@@ -16545,19 +16457,18 @@ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 
 -   We are now going to use the Grunt <i>usemin</i> module together with
     <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the
-    distribution folder. To do this, install the following Grunt
-    modules:
+    distribution folder. To do this, install the following Grunt modules:
 
 <details>
   <summary>Install the following Grunt modules!</summary>
 
 ```
- npm install grunt-contrib-concat@1.0.1 --save-dev
- npm install grunt-contrib-cssmin@2.2.1 --save-dev
- npm install grunt-contrib-htmlmin@2.4.0 --save-dev
- npm install grunt-contrib-uglify@3.3.0 --save-dev
- npm install grunt-filerev@2.3.1 --save-dev
- npm install grunt-usemin@3.1.1 --save-dev
+$ npm install grunt-contrib-concat@1.0.1 --save-dev
+$ npm install grunt-contrib-cssmin@2.2.1 --save-dev
+$ npm install grunt-contrib-htmlmin@2.4.0 --save-dev
+$ npm install grunt-contrib-uglify@3.3.0 --save-dev
+$ npm install grunt-filerev@2.3.1 --save-dev
+$ npm install grunt-usemin@3.1.1 --save-dev
 ```
 
 </details>
@@ -16651,7 +16562,7 @@ grunt.registerTask('build', [
     website. To do this, type the following at the prompt:
 
 ```
-grunt build
+$ grunt build
 ```
 
 <h4>Conclusions</h4>
@@ -16933,7 +16844,7 @@ project. At the end of this exercise, you will be able to:
     command-line interface (CLI) globally:
 
 ```
-npm install -g gulp-cli@2.0.1
+$ npm install -g gulp-cli@2.0.1
 ```
 
 This will install the Gulp globally so that you can use it in all
@@ -16943,7 +16854,7 @@ projects.
     <i>conFusion</i> folder and type the following at the prompt:
 
 ```
-npm install gulp@3.9.1 --save-dev
+$ npm install gulp@3.9.1 --save-dev
 ```
 
 This will install local per-project Gulp to use within your project.
@@ -16954,7 +16865,7 @@ This will install local per-project Gulp to use within your project.
     To do this, type the following at the command prompt:
 
 ```
-npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
+$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 ```
 
 <h4>Creating a Gulp File</h4>
@@ -17029,7 +16940,7 @@ gulp.task('default', ['browser-sync'], function() {
     task:
 
 ```
-gulp
+$ gulp
 ```
 
 -   Do a Git commit with the message "Gulp Part 1".
@@ -17061,7 +16972,8 @@ At the end of this exercise, you will be able to:
     <i>del</i> Node module and require it in the Gulp file as follows:
 
 ```
-npm install del@3.0.0 --save-dev
+$ npm install del@3.0.0 --save-dev
+
 var ...
     del = require('del'),
     ...
@@ -17089,7 +17001,7 @@ gulp.task('copyfonts', function() {
     follows:
 
 ```
-npm install gulp-imagemin@4.1.0 --save-dev
+$ npm install gulp-imagemin@4.1.0 --save-dev
 
 var ...
   imagemin = require('gulp-imagemin'),
@@ -17121,7 +17033,7 @@ gulp.task('imagemin', function() {
   <summary>Install the following!</summary>
 
 ```
-npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
+$ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
  
 var ...
     uglify = require('gulp-uglify'),
@@ -17169,13 +17081,13 @@ gulp.task('build',['clean'], function() {
 -   At the command prompt, if you type <i>gulp build</i> it will run the build task:
 
 ```
-gulp build
+$ gulp build
 ```
 
 -   Do a Git commit with the message "Gulp Part 2"
 
 ```
-git commit "Gulp Part 2"
+$ git commit "Gulp Part 2"
 ```
 
 <h4>Conclusions</h4>
