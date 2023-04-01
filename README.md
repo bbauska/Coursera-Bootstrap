@@ -35,7 +35,7 @@ Instagram - https://www.instagram.com/thenetninja/
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- readme.md of coursera-web.bauska.net ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coursera-web.bauska.net ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------------- Coursera logo ----------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -45,25 +45,23 @@ Instagram - https://www.instagram.com/thenetninja/
   alt="Coursera logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------- 01. hong kong university of science and technology logo (01) ------------------>
+<!--~~~~~~~~~~~~~~ 01. hong kong university of science and technology logo (01) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   width="65%"
   alt="Hong Kong University of Science and Technology logo." />
 </p>
-
 <!-- {width="5.0in" height="2.202991032370954in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 02. front end and back end tools and technology (01) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~ 02. front end and back end tools and technology (01) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   width="50%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
-
 <!-- {width="5.0in" height="2.0638298337707788in"} -->
 
 <h6 align="center" width="100%">(coursera.org)</h6>
@@ -255,15 +253,14 @@ development.
     specialization.
 
 <h2>What is Full-Stack Web Development?</h2>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- 02. front end and back end (05) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. front end and back end (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
    alt="Front-end and back-end."
    width="50%" />
 </p>
-
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
 Let me clarify to you a few terms so that we started a common
@@ -283,10 +280,9 @@ like PHP, Java, ASP.NET, Ruby, Python or NodeJS.
 
 We often hear people talking about the three tier architecture for Web
 Development.
-
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- 03. three-tier architecture - presentation layer (05) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 03. three-tier architecture - presentation layer (05) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
    alt="Three-tier architecture: presentation."
@@ -303,16 +299,14 @@ user.
 
 This is usually the UI-related concerns that are dealt with at the
 presentation layer.
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------- 04. three-tier architecture - business logic layer (06) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 04. three-tier architecture - business logic layer (06) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
   alt="Three-tier architecture: business logic."
   width="75%" />
 </p>
-
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
 The <b>business logic layer</b>, on the other hand, is concerned more about
@@ -321,19 +315,15 @@ generating the content to be delivered to the user.
 
 This is backed up behind the scenes with the <b>data persistence layer or
 the data access layer</b>.
-
-<!------------------------------------------------------------------------------------------------>
-<!----------------------- 05. three-tier architecture - data access (06) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 05. three-tier architecture - data access (06) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
    alt="Three-tier architecture: data access."
    width="75%" />
 </p>
-<!---------
-{width="5.0in"
-height="2.0571576990376204in"}
----------->
+<!-- {width="5.0in" height="2.0571576990376204in"} -->
 
 This is concerned with how we store and interact with the data,
 typically, in the form of a database and access this data through an
@@ -341,37 +331,27 @@ API.
 
 Exploring this further, let us see what is implemented typically in the
 traditional web development in each of these three layers.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------- 06. data layer: database and api (07) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. data layer: database and api (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
    alt="Data Access Layer: Databsse and API."
    width="75%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.4770297462817146in"}
------------>
+<!-- {width="5.0in" height="2.4770297462817146in"} -->
 
 The Business Logic Layer is usually implemented these days using
 technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------- 07. business logic layer: ruby, python, java, c++ & php (07) --------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 07. business logic layer: ruby, python, java, c++ & php (07) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
    alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
    width="75%" />
 </p>
-
-<!--------
-{width="5.0in"
-height="2.4770297462817146in"}
----------->
+<!-- {width="5.0in" height="2.4770297462817146in"} -->
 
 This Business Logic Layer is interacting behind the scenes with the
 persistent data typically stored in a relational database and accessed
@@ -381,19 +361,15 @@ The Business Logic Layer is also concerned with the rendering of
 information to the front side, typically, in the form of server-side
 rendering these days.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 08. traditional web development: html, css & js (08) ---------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
    alt="Traditional Web Development: HTML, CSS & JS."
    width="75%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.4770297462817146in"}
------------>
+<!-- {width="5.0in" height="2.4770297462817146in"} -->
 
 The HTML, CSS and JavaScript is generated on the server-side and then
 sent over to the client side in the form of a web page.
@@ -407,20 +383,15 @@ The business logic specialist would be well-versed in one of the
 technologies that is used for implementing the business logic and then
 you need a data specialist who will be well-versed in the relational
 database management system.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 09. full stack javascript development (08) -------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
    alt="Full stack javascript development."
    width="75%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.4770297462817146in"}
------------>
+<!-- {width="5.0in" height="2.4770297462817146in"} -->
 
 There is an increasing trend towards using a single language to
 implement the entire stack, this being JavaScript so you could have the
@@ -438,20 +409,15 @@ is usually done using JSON as the format and the server side supports a
 REST API endpoint.
 
 We will cover these technologies as part of this specialization.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------- 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ---------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true"
    alt="full stack web dev: bootstrap 4 and angular or reactfull."
    width="75%" />
 </p>
-
-<!----
-{width="5.0in"
-height="2.4770297462817146in"}
------>
+<!-- {width="5.0in" height="2.4770297462817146in"} -->
 
 As you go through the specialization, you will see that on the
 presentation layer side, we will cover Bootstrap four and Angular or
@@ -537,19 +503,15 @@ that you create in the preceding exercises. DO NOT DELETE the files at
 the end of the exercises, unless otherwise instructed. You may wish to
 set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 10a. online git repository (11) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010a.png?raw=true"
    alt="Online Git repository."
    width="50%" />
 </p>
-<!---------
-{width="5.0in"
-height="1.5908125546806648in"}
----------->
+<!-- {width="5.0in" height="1.5908125546806648in"} -->
 
 <h4>Exercise (Video): Setting up Git</h4>
 
@@ -593,19 +555,15 @@ wider deployment in the real world, these days.
 
 That node ecosystem is very much tied into Git and that is the reason
 why we need Git for this specialization.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------------- 11. git (12) ------------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true"
    alt="Git."
    width="50%" />
 </p>
-<!---------
-{width="5.0in"
-height="2.0571576990376204in"}
------------>
+<!-- {width="5.0in" height="2.0571576990376204in"} -->
 
 Let\'s now move on to a Few hands on exercises, where you will first set
 up Git.
@@ -621,19 +579,15 @@ learn just enough, that of the commands that are necessary for use in
 this specialization.
 
 Let\'s now run through a few quick steps to set up Git on your computer.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 12. git-scm.com (13) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true"
    alt="Git-scm.com."
    width="85%" />
 </p>
-<!----------
-{width="5.0in"
-height="2.7622867454068243in"}
----------->
+<!-- {width="5.0in" height="2.7622867454068243in"} -->
 
 One easy way of setting up Git on a computer is to go to this site
 called git-scm.com.
@@ -659,19 +613,15 @@ command line tools, that will also set up Git for you.
 
 On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 13. getting started: about version control (14) ------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true"
    alt="Getting started: About version control."
    width="85%" />
 </p>
-<!----------
-{width="5.0in"
-height="2.7622867454068243in"}
----------->
+<!-- {width="5.0in" height="2.7622867454068243in"} -->
 
 You can just go on to the Getting Started link.
 
@@ -682,19 +632,15 @@ to install Git on your specific platform.
 
 Download the installer and run through the set up to get Git on to your
 computer.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 14. command or powershell: more git (15) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image014.png?raw=true"
   width="85%"
   alt="Git: download installer & run setup." />
 </p>
-<!----------
-{width="5.0in"
-height="3.427884951881015in"}
----------->
+<!-- {width="5.0in" height="3.427884951881015in"} -->
 
 Once you install Git on a computer Start up a command window or
 PowerShell if you\'re using a Window machine or start up a terminal
@@ -715,7 +661,7 @@ To do that, at the prompt type <b>git config \--global user.name</b>
 "Username", and then you can type in your user name.
 
 ```
-git config --global user.Email brianbauska@gmail.com
+$ git config --global user.Email brianbauska@gmail.com
 ```
 
 The other parameter that I\'m going to configure is my email.
@@ -723,7 +669,7 @@ The other parameter that I\'m going to configure is my email.
 And to insure that this information has been configured, we can type
 
 ```
-git config --list
+$ git config --list
 ```
 
 And it will list out a bunch of configurations that we have. Done.
@@ -786,28 +732,28 @@ would be able to:
     command line, by typing the following at the command prompt:
 
 ```
-git --version
+$ git --version
 ```
 
 -   To configure your user name to be used by Git, type the following at
     the prompt:
 
 ```
-git config --global user.name "Your Name"
+$ git config --global user.name "Your Name"
 ```
 
 -   To configure your email to be used by Git, type the following at the
     prompt:
 
 ```
-git config --global user.email <your email address\>
+$ git config --global user.email <your email address\>
 ```
 
 -   You can check your default Git global configuration, you can type
     the following at the prompt:
 
 ```
-git config --list
+$ git config --list
 ```
 
 <h4>Conclusions</h4>
@@ -957,19 +903,15 @@ Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
 folder, I\'m going to create another file name, test.html.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 15. basic git commands (20) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image015.png?raw=true"
   width="50%"
   alt="Basic Git commands." />
 </p>
-
-<!----------
-{width="5.0in"
-height="3.3701924759405073in"}
----------->
+<!-- {width="5.0in" height="3.3701924759405073in"} -->
 
 This is just to show you how git can commit entire folder hierarchy into
 its repository.
@@ -1155,20 +1097,15 @@ have just let.
 With this basic understanding of this few git commands, you\'ll be able
 to proceed forward with understanding and using git in the courses of
 this specialization.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 16. git reset (24) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image016.png?raw=true"
    width="50%"
    alt="Git reset." />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.2222222222222223in"}
----------->
+<!-- {width="5.0in" height="2.2222222222222223in"} -->
 
 Now, we have reviewed the git reset for a specific file or git reset in
 general.
@@ -1233,7 +1170,7 @@ the end of this exercise you will be able to:
     repository:
 
 ```
-git init
+$ git init
 ```
 
 <h4>Checking your Git repository status</h4>
@@ -1242,7 +1179,7 @@ git init
     status:
 
 ```
-git status
+$ git status
 ```
 
 <h4>Adding files to the staging area</h4>
@@ -1250,7 +1187,7 @@ git status
 -   To add files to the staging area of your Git repository, type:
 
 ```
-git add .
+$ git add .
 ```
 
 <h4>Commiting to the Git repository</h4>
@@ -1258,7 +1195,7 @@ git add .
 -   To commit the current staging area to your Git repository, type:
 
 ```
-git commit -m "first commit"
+$ git commit -m "first commit"
 ```
 
 <h4>Checking the log of Git commits</h4>
@@ -1266,7 +1203,7 @@ git commit -m "first commit"
 -   To check the log of the commits to your Git repository, type:
 
 ```
-git log --oneline
+$ git log --oneline
 ```
 
 -   <h4>Now, modify the index.html file as follows:</h4>
@@ -1325,7 +1262,7 @@ git log --oneline
     at the prompt:
 
 ```
-git checkout <second commit's number> index.html
+$ git checkout <second commit's number> index.html
 ```
 
 <h4>Resetting the Git repository</h4>
@@ -1334,13 +1271,13 @@ git checkout <second commit's number> index.html
     index.html to its state at the end of the third commit, type:
 
 ```
-git reset HEAD index.html
+$ git reset HEAD index.html
 ```
 
 -   Then type the following at the prompt:
 
 ```
-git checkout -- index.html
+$ git checkout -- index.html
 ```
 
 -   You can also use <i>git reset</i> to reset the staging area to the last
@@ -1574,19 +1511,15 @@ Pretending that we are on another computer, so I\'m going to say git
 clone.
 
 And then, Paste the URL of my Bitbucket repository here.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 17. git-test (31) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true"
    alt="git-test."
    width="50%" />
 </p>
-<!----------
-{width="5.0in"
-height="1.1527777777777777in"}
----------->
+<!-- {width="5.0in" height="1.1527777777777777in"} -->
 
 Then you would see that that repository will now get cloned into a local
 folder of the same name, git-test.
@@ -1653,10 +1586,9 @@ $ git push -u origin master
 
 -   To clone an online repository to your computer, type the following
     at the prompt:
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 18. git-test (31) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image018.png?raw=true"
   alt="git-test."
@@ -1681,10 +1613,9 @@ has seen deployment far beyond the browser.
 
 Node.js has played a significant role in this shift of JavaScript from
 the browser to the desktop.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 19. what is node.js? (33) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image019.png?raw=true"
   alt="What is Node.js?"
@@ -1714,10 +1645,9 @@ runtime.
 
 We will look at the server side application of Node.js in detail in the
 last course of this specialization.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 20. node architecture (33) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image020.png?raw=true"
   alt="Node Architecture."
@@ -1751,10 +1681,9 @@ of Node.js on the server side.
 
 How we can develop web server, business logic, all implemented in
 JavaScript on the server side.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 21. node package manager (33) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image021.png?raw=true"
   alt="Node Package Manager."
@@ -1786,10 +1715,9 @@ In this case, it shows the download buttons for MacOS.
 Click on the current version of Node.js.
 
 Click on that to download the installer package for your platform.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 22. install node.js (35) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image022.png?raw=true"
   alt="Install node.js."
@@ -1892,9 +1820,9 @@ $ node -v
 $ npm -v
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 23. install node.js (38) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image023.png?raw=true"
   alt="Install node.js."
@@ -1934,9 +1862,9 @@ file, or any other files in our get test folder.
 The lite server is something that we\'re going to extensively use in
 this and future courses, to be able to see the changes in real time in a
 browser window as you edit the files of your project.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 24. install package.json (39) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image024.png?raw=true"
   alt="Install package.json."
@@ -1950,10 +1878,9 @@ What exactly is this package.json file that we\'re going to setup?
 
 Here, I have some information from the npmjs.org site which specifies
 what exactly is the role of the package.json file.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 25. initializing package.json (39) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image025.png?raw=true"
   alt="Initializing package.json."
@@ -2488,13 +2415,12 @@ package and start a development server.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf (12 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf (5 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git.pdf">01-Git.pdf (4 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/01-Git-Exercises.pdf">01-Git-Exercises.pdf (12 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-NodeJS-NPM.pdf">02-NodeJS-NPM.pdf (5 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/02-Exercises-Node-NPM.pdf">02-Exercises-Node-NPM.pdf (4 slides)</a></li>
+</ul>
 
 <h4>Additional Resources (Git)</h4>
 
@@ -2561,10 +2487,9 @@ familiar with Bootstrap.
 
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 26. front-end web ui frameworks: overview (50) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image026.png?raw=true"
   alt="Front-End Web UI Frameworks overview."
@@ -2574,9 +2499,9 @@ designing and implementing their recent websites.
 
 Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 27. what are front-end ui frameworks? (51) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image027.png?raw=true"
   alt="What are Front-End UI Frameworks?"
@@ -2634,9 +2559,9 @@ Not only that, it gives you a method of defining consistent typography
 that you can use for your entire website design.
 
 And enables you to quickly scaffold out a website or the pitch.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 28. popular front-end ui frameworks (52) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image028.png?raw=true"
   alt="Popular Front-End UI Frameworks."
@@ -2661,19 +2586,15 @@ front end web UI frameworks.
 The remaining among this list may vary, but you would often find
 Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 29. why front-end web ui frameworks? (53) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image029.png?raw=true"
   alt="Why Front-End Web UI Frameworks?"
   width="50%" />
 </p>
-
-<!----------
-{width="5.0in"
-height="2.155983158355206in"}
----------->
+<!-- {width="5.0in" height="2.155983158355206in"} -->
 
 The next obvious question is, why would you want to use front-end web UI
 frameworks?
@@ -2745,10 +2666,9 @@ end web UI framework.
 
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 30. bootstrap overview (54) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image030.png?raw=true"
   alt="Bootstrap overview."
@@ -2762,9 +2682,9 @@ in use today and specially designed for developing responsive mobile
 first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 31. more bootstrap overview (55) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image031.png?raw=true"
   alt="More Bootatrap."
@@ -2784,9 +2704,9 @@ This enables you to design responsive websites with the mobile first
 approach.
 
 We will talk more about this in the next lesson.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 32. bootstrap history (55) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image032.png?raw=true"
   alt="Bootstrap history."
@@ -2818,10 +2738,9 @@ hands dirty with Bootstrap.
 Strap on your boots, and let\'s get started with Bootstrap.
 
 I\'m sure your fingers are itching to get your hands around Bootstrap.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 33. setting up the project folder (56) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image033.png?raw=true"
   alt="Setting up the project folder."
@@ -3206,6 +3125,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 ```
@@ -3242,17 +3162,17 @@ Bootstrap\'s grid system.
 <h4>Introduction to Bootstrap: Additional Resources</h4>
 
 <h4>PDFs of the Presentations</h4>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/></li>
+</ul>
 
 <h4>Exercise Resources</h4>
 
 -   (required for the exercise)
 
 ```
-> Bootstrap4-starter.zip
+  Bootstrap4-starter.zip
 ```
 
 <h4>Bootstrap Official Resources</h4>
@@ -3303,10 +3223,9 @@ Your obvious question is going to be why consider responsive design?
 
 To help us understand this, let\'s consider how people access websites
 these days?
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 35. why responsive design (65) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image035.png?raw=true"
   alt="Why responsive design?"
@@ -3322,10 +3241,9 @@ a computer with different screen sizes and screen resolutions.
 
 How do we render our websites consistently on devices of different
 screen sizes?
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 36. why responsive design #2 (66) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image036.png?raw=true"
   alt="Why responsive design, #2."
@@ -3341,9 +3259,9 @@ your website to the size of the screen on which it is being viewed.
 
 This is where we have to take an approach to adapt to the user\'s view
 port.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 37. why responsive design #3 (66) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image037.png?raw=true"
   alt="Why responsive design, #3."
@@ -3395,10 +3313,9 @@ SE, and you see how the website has change the way it is being rendered.
 
 Hopefully, this example has illustrated to you how and why we need
 responsive web design.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 39. mobile first design (67) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image038.png?raw=true"
   alt="Mobile first design."
@@ -3441,9 +3358,9 @@ Yeah, how do we go by doing responsive web design?
 There are several concepts that are built in to your frame time web UI
 frameworks that come to the aid when you need to do responsive web
 design.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 40. foundation for responsive design (68) -------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image040.png?raw=true"
   alt="Foundation for responsive design."
@@ -3458,10 +3375,9 @@ the next lecture.
 
 That we\'ll understand exactly how we can leverage that to be able to do
 responsive web design.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 41. foundation for responsive design #2 (69) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image041.png?raw=true"
   alt="Foundation for responsive design #2."
@@ -3471,10 +3387,9 @@ responsive web design.
 
 The second aspect is fluid images, so that your images that you include
 in your website will automatically adapt itself to the screen size.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 42. foundation for responsive design #3 (69) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image042.png?raw=true"
   alt="Foundation for responsive design #3."
@@ -3493,10 +3408,9 @@ Now how do media queries work?
 Let\'s look at that next.
 
 Media queries are supported in CSS like this.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 43. media queries (70) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image043.png?raw=true"
   alt="Media queries."
@@ -3516,10 +3430,9 @@ here.
 
 This is just one example of how you would build a media query in your
 CSS code.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 44. how to build a media query in your CSS code (70) ---------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image044.png?raw=true"
   alt="How to build a media query in your CSS code."
@@ -3551,9 +3464,9 @@ kind of device you\'re rendering your website on.
 
 And correspondingly adjust the CSS classes to fit that particular
 devices screen size.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 45. how do we do this? (71) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image045.png?raw=true"
   alt="How do we do this?"
@@ -3591,10 +3504,9 @@ did the initial exercise on setting up Bootstrap in our index.html page.
 I briefly referred to this particular line in the code then.
 
 Let\'s try to understand why we use this in our index.html page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 46. viewport (72) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image046.png?raw=true"
   alt="Viewport."
@@ -3614,10 +3526,9 @@ web page is correctly rendered for that particular screen size.
 
 This is where the Bootstrap grid system comes to our rescue and enables
 us to design responsive websites.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 47. bootstrap grid (72) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image047.png?raw=true"
   alt="Bootstrap grid."
@@ -3631,10 +3542,9 @@ responsive.
 You have already seen what this means in the previous lecture, and
 mobile first, which we have already discussed in the previous lecture
 and then fluid, automatically adapting to the screen width.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 48. css flexbox (73) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image048.png?raw=true"
   alt="CSS Flexbox."
@@ -3655,10 +3565,9 @@ being leveraged by Bootstrap for its grid system.
 Earlier Bootstrap had its own grid system which was predating the CSS
 flexbox layout, but the latest version of Bootstrap has made the CSS
 flexbox layout as the standard for the Bootstrap grid.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 49. why flexbox for bootstrap? (73) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image049.png?raw=true"
   alt="Why flexbox for bootstrap?"
@@ -3690,10 +3599,9 @@ that are laid out in the same row.
 
 Let\'s now talk a little more details about the Bootstrap grid and how
 it actually works.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 50. bootstrap grid (74) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image050.png?raw=true"
   alt="Bootstrap grid."
@@ -3725,10 +3633,9 @@ the size of the screen.
 
 But the fixed width container, fixes the size of the actual layout
 width.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 51. bootstrap grid #2 (75) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image051.png?raw=true"
   alt="Bootstrap grid #2."
@@ -3742,10 +3649,9 @@ the container class, we'll include an inner div to which we will apply
 the row class.
 
 The content itself will be vertically divided into multiple rows.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 52. bootstrap grid #3 (75) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image052.png?raw=true"
    alt="Bootstrap grid #3."
@@ -3778,10 +3684,9 @@ laying out the content.
 How exactly do we layout the content?
 
 We\'ll talk about that in the next few slides.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 53. how to layout the grid (76) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image053.png?raw=true"
   alt="How to layout the grid."
@@ -3828,10 +3733,9 @@ in a row will each piece of content occupy.
 How does this work?
 
 We\'ll see that in the next slide.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 54. auto-layout columns (77) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image054.png?raw=true"
    alt="Auto-layout columns."
@@ -3841,10 +3745,9 @@ We\'ll see that in the next slide.
 
 Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 55. bootstrap grid (78) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image055.png?raw=true"
   alt="Bootstrap grid."
@@ -3875,9 +3778,9 @@ Now, we now see that out of the 12 columns, we have already occupied
 five columns.
 
 There are still seven more columns left.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 56. bootstrap grid #2 (78) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image056.png?raw=true"
   alt="Bootstrap grid #2."
@@ -3896,10 +3799,9 @@ entire 12 column width.
 
 This is how we can specify and the work with the 12 columns in defining
 the layout of the current tier.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 57. auto-layout columns (79) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image057.png?raw=true"
   alt="Auto-layout columns."
@@ -3917,10 +3819,9 @@ In case I specify three Doobs width column sm in my heml 5, then the
 bootstrap grid will automatically position these contents inside those
 divs, side by side, so, that each one of them gets one third of the
 total width.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 58. auto-layout columns #2 (79) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image058.png?raw=true"
   alt="Auto-layout columns #2."
@@ -3933,10 +3834,9 @@ each.
 
 And this is automatically taken care of by the bootstraps layout
 mechanism.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 59. auto-layout columns #3 (80) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image059.png?raw=true"
   alt="Auto-layout columns #3."
@@ -3946,9 +3846,9 @@ mechanism.
 
 Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 60. auto-layout columns #4 (80) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image060.png?raw=true"
   alt="Auto-layout columns #4."
@@ -3975,9 +3875,9 @@ That is how the layout is automatically done with Bootstrap.
 In the exercise, we will see various combinations of use of these kind
 of specifications of how many columns each piece of content will occupy
 in color layout.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 61. bootstrap grid details (81) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image061.png?raw=true"
   alt="Bootstrap grid details."
@@ -4079,10 +3979,9 @@ enclose content inside content and then do nested content layout.
 Also, it supports offsets.
 
 We will see the use of offsets also in some examples later.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 62. using column classes (83) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image062.png?raw=true"
   alt="Using column classes."
@@ -4116,10 +4015,9 @@ will occupy the right seven columns of your row, all the way from small
 to extra-large screen sizes.
 
 This is how we would specify content layout for different screen sizes.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 63. reordering content (84) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image063.png?raw=true"
   alt="Reordering content."
@@ -4148,10 +4046,9 @@ the row and a smaller number will shift the content to the left side of
 the row.
 
 We will see an example of this also in the exercise.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 64. vertical alignment (84) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image064.png?raw=true"
   alt="Vertical alignment."
@@ -4171,9 +4068,9 @@ of doing vertical alignment.
 
 If you wanted the content to be vertically-centered, then to the row,
 you would apply the class called "align items center".
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 65. vertical alignment #2 (85) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
   width="50%"
@@ -4188,9 +4085,9 @@ The content which occupies the largest height will be the one to which
 the remaining ones will be aligned when it is laid out in that row or if
 you pre-specify the height of the row, then all the content will be
 centered vertically within that particular row there.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 66. horizontal alignment (86) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.png?raw=true"
   width="50%"
@@ -4202,9 +4099,9 @@ Not only that, Bootstrap\'s Grid also supports horizontal alignment of
 content.
 
 Let\'s look at an example.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 67. horizontal alignment #2 (86) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
   width="50%"
@@ -4221,10 +4118,9 @@ I\'m going to come back to that column auto in a short while.
 And the right one says div class column 3. So in this case, what we are
 specifying is that the left and the rightmost pieces of content will
 occupy three columns each.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 68. horizontal alignment #3 (87) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
   width="50%"
@@ -4257,10 +4153,9 @@ You can also have the content left-justified, right-justified and a
 couple of other options.
 
 Details are in the bootstraps documentation.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 69. column offsets (88) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
   width="50%"
@@ -4273,10 +4168,9 @@ Bootstrap also allows you to do column offsets.
 How does this work?
 
 Let\'s look at an example.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 70. column offsets #2 (88) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
   width="50%"
@@ -4292,9 +4186,9 @@ of content should be right-shifted by one column.
 
 When this content is laid out, as you can see, the leftmost one column
 is left blank and the content is shifted right by one column.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 71. column offsets #3 (89) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
   width="50%"
@@ -4314,9 +4208,9 @@ As you can see, using the column size specifications, the vertical and
 horizontal alignment, the offset, the push and the pull, and flex first
 and flex last, we are able to get a lot of control on how we lay out
 contents for different screen widths and different screen sizes.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 72. nesting offsets (89) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
   width="50%"
@@ -4337,9 +4231,9 @@ column.
 
 Nesting like this, brings you even more flexibility in the way you lay
 out content in your pitch.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 73. exercise: responsive design & bootstrap grid system (90) ------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
   width="50%"
@@ -5338,10 +5232,9 @@ grid to style the page, then you move the page to the Con Fusion folder,
 then you can view the page in your browser by typing
 localhost:3000/aboutus.html and your light server build server up the
 aboutus.html page, so this is the only way you can get to view the page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 74. aboutus.html (108) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
    width="50%"
@@ -5355,10 +5248,9 @@ which just contains content.
 Now your job is to go through three tasks in order to format this page.
 
 Let\'s look at the three tasks in more detail.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 75. first task (108) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
   width="50%"
@@ -5372,9 +5264,9 @@ transformed into this page, where as soon as you add the Bootstraps CSS
 and JavaScript classes, the header and footer will automatically get
 formatted correctly, because I have simply copied the header in the
 footer from the index.html page into this page.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 76. second task (109) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
   width="50%"
@@ -5388,10 +5280,9 @@ of the page is still left unstyled.
 Now, as the second task, you\'re going to apply the Bootstraps Flexbox
 grid including the Container, the rows and the column classes to this
 content or the page so that you can style it properly.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 77. third task (110) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   width="50%"
@@ -5415,9 +5306,9 @@ in this page.
 
 When you complete the second task, your page will end up being styled
 like this.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 78. aboutus (111) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
   width="50%"
@@ -5428,9 +5319,9 @@ You can see that the aboutus page exists in its own.
 
 Then Our History part, notice that on a small to large screen size, the
 Our History will occupy only half the screen width.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 79. our history (111) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   width="50%"
@@ -5440,9 +5331,9 @@ Our History will occupy only half the screen width.
 
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 81. ristorante con fusion (112) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   width="50%"
@@ -5451,9 +5342,9 @@ this case.
 <!-- {width="5.0in" height="2.6875in"} -->
 
 This is the second task that you need to complete in your assignment.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 82. task 3 (112) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   width="50%"
@@ -5464,9 +5355,9 @@ This is the second task that you need to complete in your assignment.
 For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
 especially like this,
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 83. corporate leadership (113) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
   width="50%"
@@ -5488,9 +5379,9 @@ extra small screen sizes.
 When you apply the classes to this corporate leadership part, the same
 content will now be laid out without the description, so it will be
 hidden in the extra small screens size.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 84. corporate leadership #2 (114) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.png?raw=true"
   width="50%"
@@ -5534,9 +5425,9 @@ Git Repository with the Message Assignment One.
 <b>aboutus.html</b>
 
 <h4>Assignment 1 Screenshots</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 85/86. assignment 1 (116/117) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.png?raw=true"
   width="20%"
@@ -5679,9 +5570,9 @@ And how do you we provide navigation information on your website?
 
 These are the question that we will try to answer In this particular
 lecture.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 87. why website navigation? (120) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
   width="50%"
@@ -7811,7 +7702,7 @@ Bootstrap design pitch.
 
 <h4>Exercise (Instructions): Buttons</h4>
 
-# Exercise: Buttons
+<h5>Exercise: Buttons</h5>
 
 <h4>Objectives and Outcomes</h4>
 
@@ -9425,7 +9316,9 @@ media object to style and display content.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf (8 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Images-Media.pdf">08-Images-Media.pdf (8 slides)</a></li>
+</ul>
 
 <b>Exercise Resources</b>
 
@@ -9742,19 +9635,18 @@ You can use the column classes to adjust these things.
 <h4>Assignment 2: Resources</h4>
 
 <h4>Assignment Screenshots</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 88. assignment 2 (195) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.png?raw=true"
   width="50%"
   alt="Assignment 2." />
 </p>
 <!-- {width="5.0in" height="8.86311789151356in"} -->
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 89. assignment 2, continued (196) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
   width="50%"
@@ -12027,9 +11919,9 @@ Hope you enjoyed creating this new variation of the index.html page.
 <h4>Assignment 3: Resources</h4>
 
 <h4>Assignment Screenshots</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 90. reserve a table, task 1 - smoking/non-smoking, task 2 (237) ~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
   width="50%"
@@ -12077,9 +11969,9 @@ And we also learned that Bootstrap\'s JavaScript-based components are
 all enabled using jQuery as the support.
 
 Many of these plugins are written in jQuery.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 91. bootstrap and javascript (238) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
    width="50%"
@@ -12090,9 +11982,9 @@ Many of these plugins are written in jQuery.
 Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
 been including all the Bootstrap\'s JavaScript plugins into our webpage.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 92. bootstrap and javascript components (239) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
   width="50%"
@@ -12106,9 +11998,9 @@ JS-based plugins are implemented.
 
 We saw that Bootstrap\'s JS components ox in the jQuery-based components
 and make it easy for us to make use of them in our webpage.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 93. bootstrap js components (239) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"
   width="50%"
@@ -12123,9 +12015,9 @@ This is where the data-\ attributes come to our rescue.
 
 You can use the various attributes that we saw in the previous module to
 enable many of our Bootstrap\'s JavaScript-based components.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 94. bootstrap js components #2 (240) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
   width="50%"
@@ -12141,9 +12033,9 @@ You can write code using the jQuery syntax and then use that together to
 control your Bootstrap\'s JS components.
 
 We\'re going to explore that in a little more detail in this module.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 95. jquery (240) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
   width="50%"
@@ -12189,9 +12081,9 @@ Let\'s briefly understand jQuery Syntax.
 Now if you have seen some of the code that we included in the previous
 module, specifically for the tool tip, you remember that there was
 something that started with a dollar sign.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 96. jquery syntax (241) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
   width="50%"
@@ -12245,9 +12137,9 @@ You specify the selector, and then you specify the corresponding action
 to be performed on the element that is selected by these selectors.
 
 Let\'s take a look at Bootstrap jQuery example.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 97. jquery syntax #2 (242) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
    width="50%"
@@ -12257,9 +12149,9 @@ Let\'s take a look at Bootstrap jQuery example.
 
 We\'ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 98. bootstrap jquery example (243) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   width="50%"
@@ -12280,9 +12172,9 @@ Ready is the action to be taken.
 
 When the document is ready, then execute this function that is specified
 as a parameter for this ready action there.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 99. bootstrap jquery example #2 (243) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
   width="50%"
@@ -12310,9 +12202,9 @@ you want the tooltip to be enabled there.
 This is how we interpret this syntax of this jQuery example here.
 
 Let\'s look at the various ways of specifying selectors.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 100. jquery syntax, again (244) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
   width="50%"
@@ -12325,9 +12217,9 @@ and then, within brackets, we specify a selector.
 
 How do we specify selectors, what are the various ways you can specify
 selectors?
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 101. jquery selectors (244) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
   width="50%"
@@ -12396,9 +12288,9 @@ And a lot more other possibilities.
 
 These are some examples, so you will see me using some of these in the
 examples and the exercise that follows.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 102. jquery events (246) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
   width="50%"
@@ -12427,9 +12319,9 @@ We can even talk about the entire document.
 
 Upon the loading of the document, upon resizing the document, upon
 scrolling or unloading the document, you can respond to those events.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 103. jquery events #2 (247) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
    width="65%"
@@ -12442,9 +12334,9 @@ click, dblclick, mousedown, on, and so on.
 
 These are all the event methods that will be executed upon occurrence of
 any of these events there.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 104. example: bootstrap carousel (247) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
    width="65%"
@@ -12499,9 +12391,9 @@ controls.
 
 For example, you can say carousel(\'cycle\'), meaning start cycling the
 items from left to right.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 106. example: carousel #2 (249) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.png?raw=true"
    width="65%"
@@ -14120,10 +14012,9 @@ to save your changes with the message assignment four.
 <h4>Assignment 4: Additional Resources</h4>
 
 <h4>Screenshots</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 110. reserve a table (279) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
    width="50%"
@@ -17334,4 +17225,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 3/18/2023 at 4:48pm ---->
+<!--- last updated: 3/31/2023 at 4:48pm ---->
