@@ -73,4 +73,19 @@ ol.e {list-style-type: lower-roman;}
 ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;
 }
-
+pre {
+	width: 100%;
+	padding: 0;
+	margin: 15px;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 13px;
+	line-height: 20px;
+	background: #efefef;
+	border: 1px solid #777;
+	background: url(lines.png) repeat 0 0;
+}
+pre code {
+	padding: 10px;
+	color: #333;
+}
