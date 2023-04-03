@@ -328,7 +328,7 @@ the end of the exercises, unless otherwise instructed. You may wish to set up yo
 <p>Git was designed as a version control system and distributed version control system for use in Linux kernel development and it has seen much wider deployment in the real world, these days.</p>
 <p>That node ecosystem is very much tied into Git and that is the reason why we need Git for this specialization.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. git explained (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. git setup (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image011.png?raw=true"
@@ -1133,7 +1133,7 @@ subsequent course.</p>
     </pre></li>
   <li>
     <pre>
-    <b>      </b>
+    
     </pre></li>
   <li>
     <pre>
@@ -1154,7 +1154,7 @@ subsequent course.</p>
 
 <p>At the end of this exercise, your machine is now ready with the Node installed for further development. We will examine web development tools next.</p>
 
-<h2 id="exercise-video-basics-of-node.js-and-npm">Exercise (Video): Basics of Node.js and NPM</h2>
+<h2>Exercise (Video): Basics of Node.js and NPM</h2>
 
 <p>Now that you have Node.js on your computer, you're obviously wanting to immediately start using it.</p>
 <p>In this exercise, we will start using Node.</p>
@@ -1164,7 +1164,7 @@ subsequent course.</p>
 <p>And we will also see how the lite server will enable us to automatically see updates to our browser window as we make changes to our index.html file, or any other files in our get test folder.</p>
 <p>The lite server is something that we're going to extensively use in this and future courses, to be able to see the changes in real time in a browser window as you edit the files of your project.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. package.json defind (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. package.json defined (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image024.png"
@@ -1597,7 +1597,7 @@ for your web project.</p>
   <li><p>Become familiar with the basic features of Bootstrap</p></li>
 </ul>
 
-<p><b>Note</b>: For those of you who are already familiar with Bootstrap 3, <a href="http://getbootstrap.com/docs/4.0/migration/" target="_blank" rel="noopener noreferrer"><u>here</u></a> is an overview from the Bootstrap 4 documentation on the major changes in
+<p><b>Note</b>: For those of you who are already familiar with Bootstrap 3, <a href="http://getbootstrap.com/docs/4.0/migration/" target="_blank" rel="noopener noreferrer">here</a> is an overview from the Bootstrap 4 documentation on the major changes in
 Bootstrap 4 compared to Bootstrap 3.</p>
 <p>While you will find Bootstrap 4 to have a lot of overlap in its classes with Bootstrap 3, several breaking changes have been introduced, including removing some components and introducing new components.</p>
 <p>This course covers Bootstrap 4 with the assumption that you are not familiar with Bootstrap.</p>
@@ -2000,9 +2000,7 @@ Bootstrap classes to design our web pages.</p>
 
 <h3>Exercise Resources</h3>
 
-<pre>
-Bootstrap4-starter.zip
-</pre>
+<h5>Bootstrap4-starter.zip</h5>
 
 <h4>Objectives and Outcomes</h4>
 
@@ -2016,14 +2014,12 @@ exercise, you will be able to:</p>
   <li><p>Include the Bootstrap CSS and JS classes into a web page</p></li>
 </ul>
 
-<h3
-id="note-please-remember-to-retain-the-folder-and-all-the-files-that-you-create-in-this-exercise.-further-exercises-will-build-upon-the-files-that-you-create-in-this-exercise.-do-not-delete-the-files-at-the-end-of-the-exercise."><b>Note:
-Please remember to retain the folder and all the files that you create
+<h5>Note: Please remember to retain the folder and all the files that you create
 in this exercise. Further exercises will build upon the files that you
 create in this exercise. DO NOT DELETE the files at the end of the
-exercise.</b></h3>
+exercise.</h5>
 
-<h3 id="setting-up-the-project-folder">Setting up the Project Folder</h3>
+<h3>Setting up the Project Folder</h3>
 
 <ul>
   <li><p>Go to a convenient folder location on your computer and download the <em><b>Bootstrap4-starter.zip</b></em> file using the link provided at the top of this page.</p></li>
@@ -2111,7 +2107,7 @@ Bootstrap's grid system.</p>
   <li><p>(required for the exercise)</p></li>
 </ul>
 
-<b>Bootstrap4-starter.zip</b>
+<h5>Bootstrap4-starter.zip</h5>
 
 <h3 id="bootstrap-official-resources">Bootstrap Official Resources</h3>
 
@@ -3208,30 +3204,37 @@ rendered.</p>
 <p>Obviously, there is still room for improvement.</p>
 <p>This may be a good time for you to do a git comment with the message
 Bootstrap Grid Part One.</p>
-<h2
-id="exercise-instructions-responsive-design-and-bootstrap-grid-system-part-1">Exercise
-(Instructions): Responsive Design and Bootstrap Grid System Part 1</h2>
-<h3 id="objectives-and-outcomes-5">Objectives and Outcomes</h3>
+
+<h2>Exercise (Instructions): Responsive Design and Bootstrap Grid System Part 1</h2>
+
+<h3>Objectives and Outcomes</h3>
+
 <p>This exercise introduces you to responsive design and Bootstrap
 support for mobile first responsive design through the use of the grid
 system. At the end of this exercise, you will be able to:</p>
+
 <ul>
-<li><p>Create responsive websites using the Bootstrap grid
-system</p></li>
-<li><p>Reordering content using push, pull and offset classes</p></li>
+  <li><p>Create responsive websites using the Bootstrap grid system</p></li>
+  <li><p>Reordering content using push, pull and offset classes</p></li>
 </ul>
+
 <p>Note: In this exercise we will continue to update the
 <em>index.html</em> file in the <em>conFusion</em> folder that we
 created and edited in the previous lecture.</p>
-<h3 id="bootstrap-grid-system-and-responsive-design">Bootstrap Grid
-System and Responsive Design</h3>
+
+<h3>Bootstrap Grid System and Responsive Design</h3>
+
 <p>Bootstrap is designed to be mobile first, meaning that the classes
 are designed such that we can begin by targeting mobile device screens
 first and then work upwards to larger screen sizes. The starting point
 for this is first through media queries. We have already added the
 support for media queries in the last lesson, where we added this line
 to the head:</p>
-<p>    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;</p>
+
+<pre>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+</pre>
+
 <p>The <em>viewport</em> meta tag ensures that the screen width is set
 to the device width and the content is rendered with this width in
 mind.</p>
@@ -3251,110 +3254,117 @@ col-md-*, and .col-lg-* for defining the layouts for the various device
 sizes.</p>
 <p>We can specify how many columns each piece of content will occupy
 within a row, all adding up to 12 or a multiple thereof.</p>
-<h3 id="using-a-container-class">Using a Container class</h3>
+
+<h3>Using a Container class</h3>
+
 <ul>
-<li><p>We use the container class to keep content within a fixed width
-on the screen, determined by the size of the screen. The alternative is
-to use the container-fluid class to make the content automatically to
-span the full width of the screen. We will discuss further about this
-when we discuss the Bootstrap grid system in the next lecture. Add the
-container class to the first div right after the &lt;/header&gt; in the
-file as follows.</p></li>
+  <li><p>We use the container class to keep content within a fixed width on the screen, determined by the size of the screen. The alternative is to use the container-fluid class to make the content automatically to span the full width of the screen. We will discuss further about this when we discuss the Bootstrap grid system in the next lecture. Add the container class to the first div right after the &lt;/header&gt; in the file as follows.</p></li>
 </ul>
 
 <pre>
-<b>&lt;div class="container"&gt; ...</b>
+&lt;div class="container"&gt; ...
 </pre>
 
-<h3 id="dividing-the-content-into-rows">Dividing the content into
-rows</h3>
+<h3>Dividing the content into rows</h3>
+
 <ul>
-<li><p>Let us now add the class <em>row</em> to the first-level inner
-<em>div</em> elements inside the container. This organizes the page into
-rows of content. In the next exercise, we will see how we can add other
-classes to the rows.</p></li>
+  <li><p>Let us now add the class <em>row</em> to the first-level inner <em>div</em> elements inside the container. This organizes the page into rows of content. In the next exercise, we will see how we can add other classes to the rows.</p></li>
 </ul>
-<b>&lt;div class="row"&gt; ...</b>
-<h3 id="creating-a-jumbotron">Creating a Jumbotron</h3>
-<ul>
-<li><p>Let us add the class jumbotron to the header class as shown
-below. This turns the header element into a Bootstrap component named
-Jumbotron. A jumbotron is used to showcase key content on a website. In
-this case we are using it to highlight the name of the
-restaurant.</p></li>
-</ul>
-<b>&lt;header class="jumbotron"&gt; ... </b>
-<ul>
-<li><p>In the header add a <b>container</b> class to the first
-inner div and a row class to the second inner div.</p></li>
-</ul>
-<h3 id="creating-a-footer">Creating a footer</h3>
-<ul>
-<li><p>Finally, in the footer add a <b>container</b> class to
-the first inner div and a row class to the second inner div.</p></li>
-</ul>
-<h3 id="applying-column-classes-within-each-row">Applying column classes
-within each row</h3>
-<ul>
-<li><p>In the header row, we will display the restaurant name and the
-description to occupy 6 columns, while we will leave six columns for
-displaying the restaurant logo in the future. Let us go into the
-jumbotron and define the classes for the inner divs as follows:</p></li>
-</ul>
+
 <pre>
-<b>&lt;div class="col-12 col-sm-6"&gt; ... &lt;/div&gt;</b>
-<b> </b>
-<b>&lt;div class="col-12 col-sm"&gt; ... &lt;/div&gt;</b>
+&lt;div class="row"&gt; ...
 </pre>
+
+<h3>Creating a Jumbotron</h3>
+
 <ul>
-<li><p>For the remaining three div rows that contain the content, let us
-define the classes for the inner divs as follows:</p></li>
+  <li><p>Let us add the class jumbotron to the header class as shown below. This turns the header element into a Bootstrap component named Jumbotron. A jumbotron is used to showcase key content on a website. In this case we are using it to highlight the name of the restaurant.</p></li>
 </ul>
-<b>&lt;div class="col-12 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;</b>
-<b> </b>
-<b>    &lt;div class="col col-sm col-md"&gt; ... &lt;/div&gt;</b>
+
+<pre>
+&lt;header class="jumbotron"&gt; ... 
+</pre>
+
 <ul>
-<li><p>For the footer, let us define the classes for the inner divs as
-follows:</p></li>
+  <li><p>In the header add a <b>container</b> class to the first inner div and a row class to the second inner div.</p></li>
 </ul>
-<b>    &lt;div class="col-4 col-sm-2"&gt; ... &lt;/div&gt;</b>
-<b> </b>
-<b>    &lt;div class="col-7 col-sm-5"&gt; ... &lt;/div&gt;</b>
-<b> </b>
-<b>    &lt;div class="col-12 col-sm-4"&gt; ... &lt;/div&gt;</b>
-<b> </b>
-<b>    &lt;div class="col-auto"&gt; ... &lt;/div&gt;</b>
+
+<h3>Creating a footer</h3>
+
+<ul>
+  <li><p>Finally, in the footer add a <b>container</b> class to the first inner div and a row class to the second inner div.</p></li>
+</ul>
+
+<h3>Applying column classes within each row</h3>
+
+<ul>
+  <li><p>In the header row, we will display the restaurant name and the description to occupy 6 columns, while we will leave six columns for displaying the restaurant logo in the future. Let us go into the jumbotron and define the classes for the inner divs as follows:</p></li>
+</ul>
+
+<pre>
+&lt;div class="col-12 col-sm-6"&gt; ... &lt;/div&gt;</b>
+ </b>
+&lt;div class="col-12 col-sm"&gt; ... &lt;/div&gt;</b>
+</pre>
+
+<ul>
+  <li><p>For the remaining three div rows that contain the content, let us define the classes for the inner divs as follows:</p></li>
+</ul>
+
+<pre>
+&lt;div class="col-12 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;</b>
+ </b>
+    &lt;div class="col col-sm col-md"&gt; ... &lt;/div&gt;</b>
+</pre>
+
+<ul>
+  <li><p>For the footer, let us define the classes for the inner divs as follows:</p></li>
+</ul>
+
+<pre>
+    &lt;div class="col-4 col-sm-2"&gt; ... &lt;/div&gt;
+ 
+    &lt;div class="col-7 col-sm-5"&gt; ... &lt;/div&gt;
+ 
+    &lt;div class="col-12 col-sm-4"&gt; ... &lt;/div&gt;
+ 
+    &lt;div class="col-auto"&gt; ... &lt;/div&gt;
 <p>Now you can see how the web page has been turned into a mobile-first
 responsive design layout.</p>
-<h3 id="using-order-and-offset-with-column-layout-classes">Using Order
-and Offset with column layout classes</h3>
+</pre>
+
+<h3 id="using-order-and-offset-with-column-layout-classes">Using Order and Offset with column layout classes</h3>
+
 <ul>
-<li><p>In the content rows, we would like to have the title and
-description to alternate so that it gives an interesting look to the web
-page. For extra small screens, the default stacked layout works best.
-This can be accomplished by using the .order-sm-last and .order-sm-first
-for the first and the third rows as follows:</p></li>
+  <li><p>In the content rows, we would like to have the title and description to alternate so that it gives an interesting look to the web page. For extra small screens, the default stacked layout works best. This can be accomplished by using the .order-sm-last and .order-sm-first for the first and the third rows as follows:</p></li>
 </ul>
-<b>    &lt;div class="col-12 col-sm-4 order-sm-last col-md-3"&gt; ... &lt;/div&gt;</b>
+
+<pre>
+    &lt;div class="col-12 col-sm-4 order-sm-last col-md-3"&gt; ... &lt;/div&gt;
 <p> </p>
-<b>    &lt;div class="col col-sm order-sm-first col-md"&gt; ... &lt;/div&gt;</b>
+    &lt;div class="col col-sm order-sm-first col-md"&gt; ... &lt;/div&gt;
 <p> </p>
+</pre>
+
 <ul>
-<li><p>For the div containing the &lt;ul&gt; with the site links, update
-the class as follows:</p></li>
+  <li><p>For the div containing the &lt;ul&gt; with the site links, update the class as follows:</p></li>
 </ul>
-<b>    &lt;div class="col-4 offset-1 col-sm-2"&gt;</b>
+
+<pre>
+    &lt;div class="col-4 offset-1 col-sm-2"&gt;
+</pre.
+
 <ul>
-<li><p>After saving all the changes, you can do a Git commit with the
-message "Bootstrap Grid Part 1" and push your changes to the online
-repository.</p></li>
+  <li><p>After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 1" and push your changes to the online repository.</p></li>
 </ul>
-<h3 id="conclusion-1">Conclusion</h3>
+
+<h3>Conclusion</h3>
+
 <p>In this exercise, we reviewed responsive design and the Bootstrap
 grid system.</p>
-<h2
-id="exercise-video-responsive-design-and-bootstrap-grid-system-part-2">Exercise
-(Video): Responsive Design and Bootstrap Grid System Part 2</h2>
+
+<h2>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2</h2>
+
 <p>We'll continue with the bootstrap grid exercise that we started out
 in the previous exercise.</p>
 <p>We're going to do a few more things to our index.html page in order
@@ -3538,9 +3548,11 @@ row</p></li>
   <li><p>You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style <em>list-unstyled</em> to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows</p></li>
 </ul>
 
-<b>&lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;</b>
+<pre>
+&lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;
+</pre>
 
-<h3 id="using-custom-css-classes">Using Custom CSS classes</h3>
+<h3>Using Custom CSS classes</h3>
 
 <p>We can define our own custom CSS classes in a separate CSS file, and
 also customize some of the built-in CSS classes. We will now attempt to
@@ -3551,42 +3563,42 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-<b>.row-header{</b>
-<b>    margin:0px auto;</b>
-<b>    padding:0px;</b>
-<b>}</b>
-<b> </b>
-<b>.row-content {</b>
-<b>    margin:0px auto;</b>
-<b>    padding: 50px 0px 50px 0px;</b>
-<b>    border-bottom: 1px ridge;</b>
-<b>    min-height:400px;</b>
-<b>}</b>
-<b> </b>
-<b>.footer{</b>
-<b>    background-color: #D1C4E9;</b>
-<b>    margin:0px auto;</b>
-<b>    padding: 20px 0px 20px 0px;</b>
-<b>}</b>
-<b> </b>
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+ 
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+ 
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+ 
 </pre>
 
 <ul>
   <li><p>Include the <em>styles.css</em> file into the head of the <em>index.html</em> file as follows:</p></li>
 </ul>
 
-<!-- <link href="<u>css/styles.css</u>" rel="stylesheet"></b> -->
+<!-- <link href="css/styles.css" rel="stylesheet"> -->
 
 <ul>
   <li><p>Then add these classes to the corresponding rows in the <em>index.html</em> file as follows. See the difference in the <em>index.html</em> file in the browser. The first one is for the row in the &lt;header&gt;, the next three for the rows in the content, and the last one directly to the &lt;footer&gt; tag.</p></li>
 </ul>
 
 <pre>
-<b>&lt;div class="row row-header"&gt; ... &lt;/div&gt;</b>
-<b>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</b>
-<b>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</b>
-<b>&lt;div class="row row-content"&gt; ... &lt;/div&gt;</b>
-<b>&lt;footer class="footer"&gt; ... &lt;/footer&gt;</b>
+&lt;div class="row row-header"&gt; ... &lt;/div&gt;
+&lt;div class="row row-content"&gt; ... &lt;/div&gt;
+&lt;div class="row row-content"&gt; ... &lt;/div&gt;
+&lt;div class="row row-content"&gt; ... &lt;/div&gt;
+&lt;footer class="footer"&gt; ... &lt;/footer&gt;
 </pre>
 
 <ul>
@@ -3594,19 +3606,19 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-<b>.jumbotron {</b>
-<b>    padding:70px 30px 70px 30px;</b>
-<b>    margin:0px auto;</b>
-<b>    background: #9575CD ;</b>
-<b>    color:floralwhite;</b>
-<b>}</b>
-<b> </b>
-<b>address{</b>
-<b>    font-size:80%;</b>
-<b>    margin:0px;</b>
-<b>    color:#0f0f0f;</b>
-<b>}</b>
-<b> </b>
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+ 
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+ 
 </pre>
 
 <h3 id="vertically-centering-the-content">Vertically Centering the Content</h3>
@@ -3634,8 +3646,8 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-<b>&lt;div class="row justify-content-center"&gt;</b>
-<b>&lt;div class="col-auto"&gt;</b>
+&lt;div class="row justify-content-center"&gt;
+&lt;div class="col-auto"&gt;
 </pre>
 
 <ul>
@@ -3644,7 +3656,7 @@ follows:</p></li>
 </ul>
 
 <pre>
-<b>&lt;div class="text-center"&gt;</b>
+&lt;div class="text-center"&gt;
 </pre>
 
 <ul>
@@ -3660,8 +3672,8 @@ follows:</p></li>
 <h3>PDFs of Presentations</h3>
 
 <pre>
-<b>05-Responsive-Design.pdf</b>
-<b>05-Bootstrap-Grid.pdf</b>
+05-Responsive-Design.pdf
+05-Bootstrap-Grid.pdf
 </pre>
 
 <h3>Bootstrap Official Documentation</h3>
@@ -4537,7 +4549,7 @@ following code to the body just above the header jumbotron.</p></li>
                     &lt;li class="nav-item active"&gt;&lt;a class="nav-
 link" href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="nav-item"&gt;&lt;a class="nav-
-link" href="<u>./aboutus.html</u>"&gt;About&lt;/a&gt;&lt;/li&gt;
+link" href="./aboutus.html"&gt;About&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="nav-item"&gt;&lt;a class="nav-
 link" href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="nav-item"&gt;&lt;a class="nav-
@@ -4643,11 +4655,11 @@ containing the About Us title in <em>aboutus.html</em>.</p></li>
 </ul>
 
 <pre>
-<b>   &lt;ol class="col-12 breadcrumb"&gt;</b>
-<b>   
-&lt;li class="breadcrumb-item"&gt;&lt;a href="<u>./index.html</u>"&gt;Home&lt;/a&gt;&lt;/li&gt;</b>
-<b>      &lt;li class="breadcrumb-item active"&gt;About Us&lt;/li&gt;</b>
-<b>   &lt;/ol&gt;</b>
+   &lt;ol class="col-12 breadcrumb"&gt;
+   
+&lt;li class="breadcrumb-item"&gt;&lt;a href="./index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="breadcrumb-item active"&gt;About Us&lt;/li&gt;
+   &lt;/ol&gt;
 </pre>
 
 <ul>
@@ -4718,7 +4730,9 @@ going to use both Font Awesome and bootstrap-social, a modified version
 of bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
 use of it in the exercise.</p>
-<h2 id="exercise-video-icon-fonts">Exercise (Video): Icon Fonts</h2>
+
+<h2>Exercise (Video): Icon Fonts</h2>
+
 <p>Let's now move on to our next exercise, where we will learn more
 about Icon fonts.</p>
 <p>We will download Font Awesome, and then include it in our website
@@ -4863,7 +4877,7 @@ using npm by typing the following at the prompt:</p></li>
 </ul>
 
 <pre>
-<b>npm install font-awesome@4.7.0 --save</b>
+$ npm install font-awesome@4.7.0 --save
 </pre>
 
 <ul>
@@ -4871,7 +4885,7 @@ using npm by typing the following at the prompt:</p></li>
 </ul>
 
 <pre>
-<b>npm install bootstrap-social@5.1.1 --save</b>
+$ npm install bootstrap-social@5.1.1 --save
 </pre>
 
 <ul>
@@ -4879,8 +4893,8 @@ using npm by typing the following at the prompt:</p></li>
 </ul>
 
 <pre>
-<b>&lt;link rel="stylesheet" href="<u>node_modules/font-awesome/css/font-awesome.min.css</u>"&gt;</b>
-<b>&lt;link rel="stylesheet" href="<u>node_modules/bootstrap-social/bootstrap-social.css</u>"&gt;</b>
+&lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
+&lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
 </pre>
 
 <ul>
@@ -4889,10 +4903,10 @@ Update the navbar's ul list items as follows in index.html:</p></li>
 </ul>
 
 <pre>
-<b>&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;</b>
-<b>&lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;</b>
-<b>&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="<u>./aboutus.html</u>"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;</b>
-<b>&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;</b>
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;
 </pre>
 
 <ul>
@@ -4901,61 +4915,60 @@ aboutus.html:</p></li>
 </ul>
 
 <pre>
-<b>    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./index.html"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;</b>
-<b>    &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;</b>
-<b>    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;</b>
-<b>    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;</b>
+    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./index.html"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
 </pre>
 
 <ul>
-<li><p>Next, in both index.html and aboutus.html, go down to the address
-in the footer of the page and replace the "Tel.", "Fax" and "Email" with
-the corresponding font awesome based icons as follows:</p></li>
+  <li><p>Next, in both index.html and aboutus.html, go down to the address in the footer of the page and replace the "Tel.", "Fax" and "Email" with the corresponding font awesome based icons as follows:</p></li>
 </ul>
+
 <pre>
-<b>&lt;i class="fa fa-phone fa-lg"&gt;&lt;/i&gt;: +852 1234 5678&lt;br&gt;</b>
-<b>&lt;i class="fa fa-fax fa-lg"&gt;&lt;/i&gt;: +852 8765 4321&lt;br&gt;</b>
-<b>&lt;i class="fa fa-envelope fa-lg"&gt;&lt;/i&gt;: </b>
-<b>&lt;a href="<u>mailto:confusion@food.net</u>"&gt;confusion@food.net&lt;/a&gt;</b>
+&lt;i class="fa fa-phone fa-lg"&gt;&lt;/i&gt;: +852 1234 5678&lt;br&gt;
+&lt;i class="fa fa-fax fa-lg"&gt;&lt;/i&gt;: +852 8765 4321&lt;br&gt;
+&lt;i class="fa fa-envelope fa-lg"&gt;&lt;/i&gt;: 
+&lt;a href="mailto:confusion@food.net"&gt;confusion@food.net&lt;/a&gt;
 </pre>
-<p> </p>
+
 <ul>
 <li><p>Finally, let us use the bootstrap-social CSS classes to create
 the social buttons in the footer in both index.html and aboutus.html, by
 replacing the social sites' links with the following code:</p></li>
 </ul>
+
 <pre>
-<b>&lt;div class="text-center"&gt;</b>
-<b>&lt;a class="btn btn-social-icon btn-google" href="<u>http://google.com/+</u>"&gt;&lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;a class="btn btn-social-icon btn-facebook”</b>
-<b>href="<u>http://www.facebook.com/profile.php?id=</u>"&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;a class="btn btn-social-icon btn-linkedin" </b>
-<b>href="<u>http://www.linkedin.com/in/</u>"&gt;&lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;a class="btn btn-social-icon btn-twitter"</b>
-<b>href="<u>http://twitter.com/</u>"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;a class="btn btn-social-icon btn-google" </b>
-<b>href="<u>http://youtube.com/</u>"&gt;&lt;i class="fa fa-youtube"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;a class="btn btn-social-icon" </b>
-<b>href="<u>mailto:</u>"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt;&lt;/a&gt;</b>
-<b>&lt;/div&gt;</b>
-<b> </b>
+&lt;div class="text-center"&gt;
+&lt;a class="btn btn-social-icon btn-google" href="http://google.com/+"&gt;&lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="btn btn-social-icon btn-facebook”
+href="http://www.facebook.com/profile.php?id="&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="btn btn-social-icon btn-linkedin" 
+href="http://www.linkedin.com/in/"&gt;&lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="btn btn-social-icon btn-twitter"
+href="http://twitter.com/"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="btn btn-social-icon btn-google" 
+href="http://youtube.com/"&gt;&lt;i class="fa fa-youtube"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="btn btn-social-icon" 
+href="mailto:"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
 </pre>
+
 <ul>
-<li><p>Save all the changes and commit to your Git repository with the
-message "Icon Fonts".</p></li>
+  <li>Save all the changes and commit to your Git repository with the message "Icon Fonts".</li>
 </ul>
 
-<h3 id="conclusions-6">Conclusions</h3>
+<h3>Conclusions</h3>
 
 <p>We learnt about using icon fonts in a web project.</p>
 
-<h2 id="navigation-and-navigation-bar-additional-resources">Navigation and Navigation Bar: Additional Resources</h2>
+<h2>Navigation and Navigation Bar: Additional Resources</h2>
 
-<h3 id="pdfs-of-presentations-3">PDFs of Presentations</h3>
+<h3>PDFs of Presentations</h3>
 
 <pre>
-  <b>06-Navigation.pdf</b>
-  <b>06-Icon Fonts.pdf</b>
+  06-Navigation.pdf
+  06-Icon Fonts.pdf
 </pre>
 
 <h3 id="official-bootstrap-resources">Official Bootstrap Resources</h3>
@@ -5541,13 +5554,13 @@ you will be able to:</p>
 
 <h3>Exercise Resources</h3>
 
-<b>contactus.html</b>ZIP File</p>
+<p>contactus.html ZIP File</p>
 <p>Download file</p>
 
 <h3>Set up for the Exercise</h3>
 
 <ul>
-  <li>Download the <em>contactus.html.zip</em> file given above, unzip it and move the <em>contactus.html</em> to the <em><b>conFusion</b></em> folder. This file is already pre-formatted with some content.</li>
+  <li>Download the <em>contactus.html.zip</em> file given above, unzip it and move the <em>contactus.html</em> to the <em><b>conFusion</em> folder. This file is already pre-formatted with some content.</li>
   <li>Set up the links in the navigation bars for all the three pages, <em>index.html, aboutus.html</em> and <em>contactus.html</em> so that we can navigate from one to the other with ease.</li>
   <li>Also set up the links in the footer correctly to point to the appropriate pages.</li>
 </ul>
@@ -5559,11 +5572,11 @@ you will be able to:</p>
 </ul>
 
 <pre><code>
-<b>                &lt;div class="btn-group" role="group"&gt;</b>
-<b>                    &lt;a role="button" class="btn btn-primary" href="<u>tel:+85212345678</u>"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;</b>
-<b>                    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;</b>
-<b>                    &lt;a role="button" class="btn btn-success" href="<u>mailto:confusion@food.net</u>"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;</b>
-<b>                &lt;/div&gt;</b>
+                &lt;div class="btn-group" role="group"&gt;
+                    &lt;a role="button" class="btn btn-primary" href="tel:+85212345678"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;
+                    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;
+                    &lt;a role="button" class="btn btn-success" href="mailto:confusion@food.net"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;
+                &lt;/div&gt;
 </code></pre>
 
 <p>Note how we define the button bar using the <em>btn-group</em> class,
@@ -5881,24 +5894,24 @@ will be able to:</p>
 </ul>
 
 <pre>
-<b>                &lt;form&gt;</b>
-<b>                    &lt;div class="form-group row"&gt;</b>
-<b>                        &lt;label for="firstname" class="col-md-2 col-form-label"&gt;First Name&lt;/label&gt;</b>
-<b>                        &lt;div class="col-md-10"&gt;</b>
-<b>      &lt;input type="text" class="form-
-control" id="firstname" name="firstname" placeholder="First Name"&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                    &lt;/div&gt;</b>
-<b>                    &lt;div class="form-group row"&gt;</b>
-<b>                        &lt;label for="lastname" class="col-md-2 col-form-label"&gt;Last Name&lt;/label&gt;</b>
-<b>                        &lt;div class="col-md-10"&gt;</b>
-<b>                        &lt;input type="text" class="form-
-control" id="lastname" name="lastname" placeholder="Last Name"&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                    &lt;/div&gt;</b>
-<b>                &lt;/form&gt;</b>
-<b> </b>
-<b> </b>
+                &lt;form&gt;
+                    &lt;div class="form-group row"&gt;
+                        &lt;label for="firstname" class="col-md-2 col-form-label"&gt;First Name&lt;/label&gt;
+                        &lt;div class="col-md-10"&gt;
+      &lt;input type="text" class="form-
+control" id="firstname" name="firstname" placeholder="First Name"&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="form-group row"&gt;
+                        &lt;label for="lastname" class="col-md-2 col-form-label"&gt;Last Name&lt;/label&gt;
+                        &lt;div class="col-md-10"&gt;
+                        &lt;input type="text" class="form-
+control" id="lastname" name="lastname" placeholder="Last Name"&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+ 
+ 
 </pre>
 
 <p>This creates a form with two elements in the form. Note that the
@@ -5911,21 +5924,21 @@ appropriate.</p>
 </ul>
 
 <pre>
-<b>&lt;div class="form-group row"&gt;</b>
-<b>    &lt;label for="telnum" class="col-12 col-md-2 col-form-label"&gt;Contact Tel.&lt;/label&gt;</b>
-<b>    &lt;div class="col-5 col-md-3"&gt;</b>
-<b>    &lt;input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code"&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b>    &lt;div class="col-7 col-md-7"&gt;</b>
-<b>    &lt;input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number"&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b>    &lt;div class="form-group row"&gt;</b>
-<b>    &lt;label for="emailid" class="col-md-2 col-form-label"&gt;Email&lt;/label&gt;</b>
-<b>    &lt;div class="col-md-10"&gt;</b>
-<b>    &lt;input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email"&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b>    &lt;/div&gt;</b>
+&lt;div class="form-group row"&gt;
+    &lt;label for="telnum" class="col-12 col-md-2 col-form-label"&gt;Contact Tel.&lt;/label&gt;
+    &lt;div class="col-5 col-md-3"&gt;
+    &lt;input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-7 col-md-7"&gt;
+    &lt;input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number"&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group row"&gt;
+    &lt;label for="emailid" class="col-md-2 col-form-label"&gt;Email&lt;/label&gt;
+    &lt;div class="col-md-10"&gt;
+    &lt;input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email"&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
 </pre>
 
 <h3 id="adding-a-checkbox-and-select">Adding a Checkbox and Select</h3>
@@ -5934,40 +5947,42 @@ appropriate.</p>
   <li>We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:</li>
 </ul>
 
-<b>         &lt;div class="form-group row"&gt;</b>
-<b>         
-&lt;div class="col-md-6 offset-md-2"&gt;</b>
-<b>               &lt;div class="form-check"&gt;</b>
-<b>               
-&lt;input type="checkbox" class="form-check-input" name="approve" id="approve" value=""&gt;</b>
-<b>                  &lt;label class="form-check-label" for="approve"&gt;</b>
-<b>                  &lt;b&gt;May we contact you?&lt;/b&gt;</b>
-<b>                  &lt;/label&gt;</b>
-<b>               &lt;/div&gt;</b>
-<b>            &lt;/div&gt;</b>
-<b>            &lt;div class="col-md-3 offset-md-1"&gt;</b>
-<b>             &lt;select class="form-control"&gt;</b>
-<b>               
-&lt;option&gt;Tel.&lt;/option&gt;</b>
-<b>                  &lt;option&gt;Email&lt;/option&gt;</b>
-<b>                  &lt;/select&gt;</b>
-<b>               &lt;/div&gt;</b>
-<b>            &lt;/div&gt;</b>
+<pre>
+         &lt;div class="form-group row"&gt;
+         
+&lt;div class="col-md-6 offset-md-2"&gt;
+               &lt;div class="form-check"&gt;
+               
+&lt;input type="checkbox" class="form-check-input" name="approve" id="approve" value=""&gt;
+                  &lt;label class="form-check-label" for="approve"&gt;
+                  &lt;b&gt;May we contact you?&lt;/b&gt;
+                  &lt;/label&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-3 offset-md-1"&gt;
+             &lt;select class="form-control"&gt;
+               
+&lt;option&gt;Tel.&lt;/option&gt;
+                  &lt;option&gt;Email&lt;/option&gt;
+                  &lt;/select&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+</pre>
 
-<h3 id="adding-a-textarea">Adding a textarea</h3>
+<h3>Adding a textarea</h3>
 
 <ul>
   <li>Next we add a textarea for the users to submit their feedback comments as follows:</li>
 </ul>
 
 <pre>
-<b>&lt;div class="form-group row"&gt;</b>
-<b>      
-&lt;label for="feedback" class="col-md-2 col-form-label"&gt;Your Feedback&lt;/label&gt;</b>
-<b>      &lt;div class="col-md-10"&gt;</b>
-<b>         &lt;textarea class="form-control" id="feedback" name="feedback" rows="12"&gt;&lt;/textarea&gt;</b>
-<b>      &lt;/div&gt;</b>
-<b>   &lt;/div&gt;</b>
+&lt;div class="form-group row"&gt;
+      
+&lt;label for="feedback" class="col-md-2 col-form-label"&gt;Your Feedback&lt;/label&gt;
+      &lt;div class="col-md-10"&gt;
+         &lt;textarea class="form-control" id="feedback" name="feedback" rows="12"&gt;&lt;/textarea&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
 </pre>
 
 <h3 id="adding-the-submit-button">Adding the Submit Button</h3>
@@ -5977,12 +5992,12 @@ appropriate.</p>
 </ul>
 
 <pre>
-<b>     &lt;div class="form-group row"&gt;</b>
-<b>        &lt;div class="offset-md-2 col-md-10"&gt;</b>
-<b>        
-&lt;button type="submit" class="btn btn-primary"&gt;Send Feedback&lt;/button&gt;</b>
-<b>        &lt;/div&gt;</b>
-<b>     &lt;/div&gt;</b>
+     &lt;div class="form-group row"&gt;
+        &lt;div class="offset-md-2 col-md-10"&gt;
+        
+&lt;button type="submit" class="btn btn-primary"&gt;Send Feedback&lt;/button&gt;
+        &lt;/div&gt;
+     &lt;/div&gt;
 </pre>
 
 <p>Note the declaration of the type for the button to <em>submit</em>.</p>
@@ -5999,11 +6014,11 @@ appropriate.</p>
 
 <h3 id="pdfs-of-presentations-4">PDFs of Presentations</h3>
 
-<b>07-User-Input.pdf</b>
+07-User-Input.pdf</b>
 
 <h3 id="exercise-resources-3">Exercise Resources</h3>
 
-<b>contactus.html</b>
+contactus.html</b>
 
 <h3 id="bootstrap-resources-2">Bootstrap Resources</h3>
 
@@ -6330,14 +6345,14 @@ to:</p>
 </ul>
 
 <pre>
-<b>        &lt;div class="row row-content"&gt;</b>
-<b>            &lt;div class="col-12 col-sm-9"&gt;</b>
-<b>                &lt;h2&gt;Facts &amp;amp; Figures&lt;/h2&gt;</b>
-<b>            &lt;/div&gt;</b>
-<b>             &lt;div class="col-12 col-sm-3"&gt;</b>
-<b>            &lt;/div&gt;</b>
-<b>       &lt;/div&gt; </b>
-<b> </b>
+        &lt;div class="row row-content"&gt;
+            &lt;div class="col-12 col-sm-9"&gt;
+                &lt;h2&gt;Facts &amp;amp; Figures&lt;/h2&gt;
+            &lt;/div&gt;
+             &lt;div class="col-12 col-sm-3"&gt;
+            &lt;/div&gt;
+       &lt;/div&gt; 
+ 
 </pre>
 
 <ul>
@@ -6345,44 +6360,44 @@ to:</p>
 </ul>
 
 <pre>
-<b>                &lt;div class="table-responsive"&gt;</b>
-<b>                    &lt;table class="table table-striped"&gt;</b>
-<b>                        &lt;thead class="thead-dark"&gt;</b>
-<b>                            &lt;tr&gt;</b>
-<b>                                &lt;th&gt;&amp;nbsp;&lt;/th&gt;</b>
-<b>                                &lt;th&gt;2013&lt;/th&gt;</b>
-<b>                                &lt;th&gt;2014&lt;/th&gt;</b>
-<b>                                &lt;th&gt;2015&lt;/th&gt;</b>
-<b>                            &lt;/tr&gt;</b>
-<b>                        &lt;/thead&gt;</b>
-<b>                        &lt;tbody&gt;</b>
-<b>                            &lt;tr&gt;</b>
-<b>                                &lt;th&gt;Employees&lt;/th&gt;</b>
-<b>                                &lt;td&gt;15&lt;/td&gt;</b>
-<b>                                &lt;td&gt;30&lt;/td&gt;</b>
-<b>                                &lt;td&gt;40&lt;/td&gt;</b>
-<b>                            &lt;/tr&gt;</b>
-<b>                            &lt;tr&gt;</b>
-<b>                                &lt;th&gt;Guests Served&lt;/th&gt;</b>
-<b>                                &lt;td&gt;15000&lt;/td&gt;</b>
-<b>                                &lt;td&gt;45000&lt;/td&gt;</b>
-<b>                                &lt;td&gt;100,000&lt;/td&gt;</b>
-<b>                            &lt;/tr&gt;</b>
-<b>                            &lt;tr&gt;</b>
-<b>                                &lt;th&gt;Special Events&lt;/th&gt;</b>
-<b>                                &lt;td&gt;3&lt;/td&gt;</b>
-<b>                                &lt;td&gt;20&lt;/td&gt;</b>
-<b>                                &lt;td&gt;45&lt;/td&gt;</b>
-<b>                            &lt;/tr&gt;</b>
-<b>                            &lt;tr&gt;</b>
-<b>                                &lt;th&gt;Annual Turnover&lt;/th&gt;</b>
-<b>                                &lt;td&gt;$251,325&lt;/td&gt;</b>
-<b>                                &lt;td&gt;$1,250,375&lt;/td&gt;</b>
-<b>                                &lt;td&gt;~$3,000,000&lt;/td&gt;</b>
-<b>                            &lt;/tr&gt;</b>
-<b>                        &lt;/tbody&gt;</b>
-<b>                    &lt;/table&gt;</b>
-<b>                &lt;/div&gt;</b>
+                &lt;div class="table-responsive"&gt;
+                    &lt;table class="table table-striped"&gt;
+                        &lt;thead class="thead-dark"&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+                                &lt;th&gt;2013&lt;/th&gt;
+                                &lt;th&gt;2014&lt;/th&gt;
+                                &lt;th&gt;2015&lt;/th&gt;
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;Employees&lt;/th&gt;
+                                &lt;td&gt;15&lt;/td&gt;
+                                &lt;td&gt;30&lt;/td&gt;
+                                &lt;td&gt;40&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;Guests Served&lt;/th&gt;
+                                &lt;td&gt;15000&lt;/td&gt;
+                                &lt;td&gt;45000&lt;/td&gt;
+                                &lt;td&gt;100,000&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;Special Events&lt;/th&gt;
+                                &lt;td&gt;3&lt;/td&gt;
+                                &lt;td&gt;20&lt;/td&gt;
+                                &lt;td&gt;45&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;Annual Turnover&lt;/th&gt;
+                                &lt;td&gt;$251,325&lt;/td&gt;
+                                &lt;td&gt;$1,250,375&lt;/td&gt;
+                                &lt;td&gt;~$3,000,000&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                &lt;/div&gt;
 </pre>
 
 <p>Note the use of <em>table-responsive</em> class to create a
@@ -6396,23 +6411,23 @@ responsive table, and the <em>table-striped</em> and
 </ul>
 
 <pre>
-<b>&lt;div class="col-12 col-sm-6"&gt;</b>
-<b>  &lt;div class="card"&gt;</b>
-<b>    &lt;h3 class="card-header bg-primary text-white"&gt;Facts At a Glance&lt;/h3&gt;</b>
-<b>    &lt;div class="card-body"&gt;</b>
-<b>      &lt;dl class="row"&gt;</b>
-<b>        &lt;dt class="col-6"&gt;Started&lt;/dt&gt;</b>
-<b>        &lt;dd class="col-6"&gt;3 Feb. 2013&lt;/dd&gt;</b>
-<b>        &lt;dt class="col-6"&gt;Major Stake Holder&lt;/dt&gt;</b>
-<b>        &lt;dd class="col-6"&gt;HK Fine Foods Inc.&lt;/dd&gt;</b>
-<b>        &lt;dt class="col-6"&gt;Last Year's Turnover&lt;/dt&gt;</b>
-<b>        &lt;dd class="col-6"&gt;$1,250,375&lt;/dd&gt;</b>
-<b>        &lt;dt class="col-6"&gt;Employees&lt;/dt&gt;</b>
-<b>        &lt;dd class="col-6"&gt;40&lt;/dd&gt;</b>
-<b>      &lt;/dl&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b>  &lt;/div&gt;</b>
-<b>&lt;/div&gt;</b>
+&lt;div class="col-12 col-sm-6"&gt;
+  &lt;div class="card"&gt;
+    &lt;h3 class="card-header bg-primary text-white"&gt;Facts At a Glance&lt;/h3&gt;
+    &lt;div class="card-body"&gt;
+      &lt;dl class="row"&gt;
+        &lt;dt class="col-6"&gt;Started&lt;/dt&gt;
+        &lt;dd class="col-6"&gt;3 Feb. 2013&lt;/dd&gt;
+        &lt;dt class="col-6"&gt;Major Stake Holder&lt;/dt&gt;
+        &lt;dd class="col-6"&gt;HK Fine Foods Inc.&lt;/dd&gt;
+        &lt;dt class="col-6"&gt;Last Year's Turnover&lt;/dt&gt;
+        &lt;dd class="col-6"&gt;$1,250,375&lt;/dd&gt;
+        &lt;dt class="col-6"&gt;Employees&lt;/dt&gt;
+        &lt;dd class="col-6"&gt;40&lt;/dd&gt;
+      &lt;/dl&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </pre>
 
 <ul>
@@ -6455,8 +6470,8 @@ Additional Resources</h2>
 <h3 id="pdfs-of-presentations-5">PDFs of Presentations</h3>
 
 <pre>
-<b>08-Bootstrap-Tables.pdf</b>
-<b>08-Bootstrap-Cards.pdf</b>
+08-Bootstrap-Tables.pdf
+08-Bootstrap-Cards.pdf
 </pre>
 
 <h3 id="bootstrap-classes">Bootstrap Classes</h3>
@@ -6467,7 +6482,7 @@ Additional Resources</h2>
   <li><p><a href="http://getbootstrap.com/docs/4.0/content/typography/#blockquotes" target="_blank" rel="noopener noreferrer">Bootstrap Blockquote</a></p></li>
 </ul>
 
-<h2 id="images-and-media-objectives-and-outcomes">Images and Media: Objectives and Outcomes</h2>
+<h2>Images and Media: Objectives and Outcomes</h2>
 
 <p>In this lesson we will look at the use of images and media on
 websites. In particular we will review the Bootstrap classes to support
@@ -6696,7 +6711,7 @@ objects. At the end of this exercise you will be able to:</p>
 
 <h3>Exercise Resources</h3>
 
-<b>Img.zip</b>
+Img.zip
 
 <h3>Set up for the Exercise</h3>
 
@@ -6712,9 +6727,9 @@ objects. At the end of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-<b>&lt;div class="col-12 col-sm align-self-center"&gt;</b>
-<b>          &lt;img src="<u>img/logo.png</u>" class="img-fluid"&gt;</b>
-<b>      &lt;/div&gt;</b>
+&lt;div class="col-12 col-sm align-self-center"&gt;
+          &lt;img src="img/logo.png" class="img-fluid"&gt;
+      &lt;/div&gt;
 </pre>
 
 <p>You will immediately notice the restaurant logo being displayed in the jumbotron.</p>
@@ -6724,9 +6739,9 @@ objects. At the end of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-<b>&lt;a class="navbar-brand mr-auto" href="#"&gt;&lt;img src="img/logo.png" height="30" width="41"&gt;&lt;/a&gt;</b>
-<b>            </b>
-<b>Note the inclusion of the logo in the navbar.</b>
+&lt;a class="navbar-brand mr-auto" href="#"&gt;&lt;img src="img/logo.png" height="30" width="41"&gt;&lt;/a&gt;
+            
+Note the inclusion of the logo in the navbar.
 </pre>
 
 <ul>
@@ -6741,18 +6756,18 @@ objects. At the end of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-<b>&lt;div class="media"&gt;</b>
-<b>&lt;img class="d-flex mr-3 img-thumbnail align-self-center"</b>
-<b>    src="img/uthappizza.png" alt="Uthappizza"&gt;</b>
-<b>    &lt;div class="media-body"&gt;</b>
-<b>      &lt;h2 class="mt-0"&gt;Uthappizza&lt;/h2&gt;</b>
-<b>      &lt;p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and</b>
-<b>        Italian pizza, topped with Cerignola olives, ripe vine</b>
-<b>        cherry tomatoes, Vidalia onion, Guntur chillies and</b>
-<b>        Buffalo Paneer.&lt;/p&gt;</b>
-<b>      &lt;/div&gt;</b>
-<b>    &lt;/div&gt;</b>
-<b> </b>
+&lt;div class="media"&gt;
+&lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+    src="img/uthappizza.png" alt="Uthappizza"&gt;
+    &lt;div class="media-body"&gt;
+      &lt;h2 class="mt-0"&gt;Uthappizza&lt;/h2&gt;
+      &lt;p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
+        Italian pizza, topped with Cerignola olives, ripe vine
+        cherry tomatoes, Vidalia onion, Guntur chillies and
+        Buffalo Paneer.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+ 
 </pre>
 
 <p>Note the use of the <em>media</em> class and the related Bootstrap classes to style the content.</p>
@@ -6764,27 +6779,27 @@ following content:</p></li>
 </ul>
 
 <pre>
-<b>&lt;div class="media"&gt;</b>
-<b>  &lt;img class="d-flex mr-3 img-thumbnail align-self-center"</b>
-<b>    src="<u>img/alberto.png</u>" alt="Alberto Somayya"&gt;</b>
-<b>  &lt;div class="media-body"&gt;</b>
-<b>    &lt;h2 class="mt-0"&gt;Alberto Somayya&lt;/h2&gt;</b>
-<b>    &lt;h4&gt;Executive Chef&lt;/h4&gt;</b>
-<b>    &lt;p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide</b>
-<b>      International experience having worked closely with</b>
-<b>      whos-who in the culinary world, he specializes in</b>
-<b>      creating mouthwatering Indo-Italian fusion experiences.</b>
-<b>    &lt;/p&gt;</b>
-<b>  &lt;/div&gt;</b>
-<b>&lt;/div&gt;</b>
-<b></b>
+&lt;div class="media"&gt;
+  &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+    src="img/alberto.png" alt="Alberto Somayya"&gt;
+  &lt;div class="media-body"&gt;
+    &lt;h2 class="mt-0"&gt;Alberto Somayya&lt;/h2&gt;
+    &lt;h4&gt;Executive Chef&lt;/h4&gt;
+    &lt;p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
+      International experience having worked closely with
+      whos-who in the culinary world, he specializes in
+      creating mouthwatering Indo-Italian fusion experiences.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 </pre>
 
 <ul>
   <li><p>Finally, do a Git commit with a message "Images and Media".</p></li>
 </ul>
 
-<b>Conclusions</b>
+<h4>Conclusions</h4>
 <p>In this exercise, we learnt about the Bootstrap classes to support
 images and media in a web page. We saw how we can include responsive
 images on a web page. In addition, we saw the use of images within a
@@ -6794,9 +6809,9 @@ media object to style and display content.</p>
 
 <h3 id="pdfs-of-presentations-6">PDFs of Presentations</h3>
 
-<b>08-Images-Media.pdf</b>
-<b>Exercise Resources</b>
-<b>Img.zip</b>
+08-Images-Media.pdf
+Exercise Resources
+Img.zip
 <p>(download this to conFusion, unzip it to create an "img" folder
 there)</p>
 
@@ -6943,7 +6958,7 @@ alerting users. At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-<b>&lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt;</b>
+&lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt;
 </pre>
 
 <ul>
@@ -6951,7 +6966,7 @@ alerting users. At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-<b>&lt;span class="badge badge-pill badge-secondary"&gt;$4.99&lt;/span&gt;</b>
+&lt;span class="badge badge-pill badge-secondary"&gt;$4.99&lt;/span&gt;
 </pre>
 
 <ul>
@@ -6967,7 +6982,7 @@ page.</p>
 
 <h3 id="pdfs-of-presentations-7">PDFs of Presentations</h3>
 
-<b>08-Alerting-Users.pdf</b>
+08-Alerting-Users.pdf</b>
 <p>Bootstrap Resources</p>
 
 <ul>
@@ -7295,8 +7310,8 @@ more functionality to your JavaScript-based Bootstrap components.</p>
 
 <h3 id="pdfs-of-presentations-8">PDFs of Presentations</h3>
 
-<b>08-Bootstrap_JS.pdf</b>
-<b>Bootstrap Resources</b>
+08-Bootstrap_JS.pdf</b>
+Bootstrap Resources</b>
 
 <ul>
   <li><a href="http://getbootstrap.com/docs/4.0/getting-started/javascript/" target="_blank" rel="noopener noreferrer">Bootstrap and JavaScript</a></li>
@@ -7550,24 +7565,24 @@ Elements</h3>
 </ul>
 
 <pre>
-<b>                &lt;ul class="nav nav-tabs"&gt;</b>
-<b>                    &lt;li class="nav-item"&gt;</b>
-<b>                      &lt;a class="nav-link active" href="#peter"</b>
-<b>                        role="tab" data-toggle="tab"&gt;Peter Pan, CEO&lt;/a&gt;</b>
-<b>                    &lt;/li&gt;</b>
-<b>                    &lt;li class="nav-item"&gt;</b>
-<b>                      &lt;a class="nav-link" href="#danny" role="tab"</b>
-<b>                        data-toggle="tab"&gt;Danny Witherspoon, CFO&lt;/a&gt;</b>
-<b>                    &lt;/li&gt;</b>
-<b>                    &lt;li class="nav-item"&gt;</b>
-<b>                      &lt;a class="nav-link" href="#agumbe"role="tab"</b>
-<b>                        data-toggle="tab"&gt;Agumbe Tang, CTO&lt;/a&gt;</b>
-<b>                    &lt;/li&gt;</b>
-<b>                    &lt;li class="nav-item"&gt;</b>
-<b>                      &lt;a class="nav-link" href="#alberto" role="tab"</b>
-<b>                        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef&lt;/a&gt;</b>
-<b>                    &lt;/li&gt;</b>
-<b>                &lt;/ul&gt;</b>
+                &lt;ul class="nav nav-tabs"&gt;</b>
+                    &lt;li class="nav-item"&gt;</b>
+                      &lt;a class="nav-link active" href="#peter"</b>
+                        role="tab" data-toggle="tab"&gt;Peter Pan, CEO&lt;/a&gt;</b>
+                    &lt;/li&gt;</b>
+                    &lt;li class="nav-item"&gt;</b>
+                      &lt;a class="nav-link" href="#danny" role="tab"</b>
+                        data-toggle="tab"&gt;Danny Witherspoon, CFO&lt;/a&gt;</b>
+                    &lt;/li&gt;</b>
+                    &lt;li class="nav-item"&gt;</b>
+                      &lt;a class="nav-link" href="#agumbe"role="tab"</b>
+                        data-toggle="tab"&gt;Agumbe Tang, CTO&lt;/a&gt;</b>
+                    &lt;/li&gt;</b>
+                    &lt;li class="nav-item"&gt;</b>
+                      &lt;a class="nav-link" href="#alberto" role="tab"</b>
+                        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef&lt;/a&gt;</b>
+                    &lt;/li&gt;</b>
+                &lt;/ul&gt;</b>
 </pre>
 
 <p>Note the use of the <em>&lt;ul&gt;</em> tag with the <em>nav</em> and
@@ -7588,11 +7603,11 @@ tabs using the tabbed navigation that we just set up.
 </ul>
 
 <pre>
-                &lt;div class="tab-content"&gt;</b>
- </b>
-                    ...</b>
-    </b>
-                &lt;/div&gt;</b>
+                &lt;div class="tab-content"&gt;
+ 
+                    ...
+    
+                &lt;/div&gt;
 </pre>
 
 <ul>
@@ -7600,10 +7615,10 @@ tabs using the tabbed navigation that we just set up.
 </ul>
 
 <pre>
-                    &lt;div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;</b>
-                        &lt;h3&gt;Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;&lt;/h3&gt;</b>
-                        &lt;p&gt; ... &lt;/p&gt;</b>
-                    &lt;/div&gt;</b>
+                    &lt;div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
+                        &lt;h3&gt;Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;&lt;/h3&gt;
+                        &lt;p&gt; ... &lt;/p&gt;
+                    &lt;/div&gt;
 </pre>
 
 <p>Note the use of the <em>tab-pane, fade, show,</em> and
@@ -7622,12 +7637,12 @@ navigation.</p>
 </ul>
 
 <pre>
-.tab-content {</b>
-    border-left: 1px solid #ddd;</b>
-    border-right: 1px solid #ddd;</b>
-    border-bottom: 1px solid #ddd;</b>
-    padding: 10px;</b>
-}</b>
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 </pre>
 
 <p>This modification adds a 1px border to the tab content which joins
@@ -7646,7 +7661,7 @@ clean tab like appearance.</p>
 
 <h3 id="pdfs-of-presentations-9">PDFs of Presentations</h3>
 
-08-Tabs-Pills-Navigation.pdf</b>
+08-Tabs-Pills-Navigation.pdf
 
 <h3 id="bootstrap-resources-5">Bootstrap Resources</h3>
 
@@ -7887,9 +7902,9 @@ tabbed navigation.</p></li>
 </ul>
 
 <pre>
-<b>                &lt;div id="accordion"&gt;</b>
-<b>                   . . .</b>
-<b>                &lt;/div&gt;</b>
+                &lt;div id="accordion"&gt;</b>
+                   . . .</b>
+                &lt;/div&gt;</b>
 </pre>
 
 <ul>
@@ -7897,20 +7912,20 @@ tabbed navigation.</p></li>
 </ul>
 
 <pre>
-<b>                    &lt;div class="card"&gt;</b>
-<b>                        &lt;div class="card-header" role="tab" id="peterhead"&gt;</b>
-<b>                        &lt;h3 class="mb-0"&gt;</b>
-<b>                            &lt;a data-toggle="collapse" data-target="#peter"&gt;</b>
-<b>                            Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;</b>
-<b>                            &lt;/a&gt;</b>
-<b>                        &lt;/h3&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                        &lt;div class="collapse show" id="peter" data-parent="#accordion"&gt;</b>
-<b>                            &lt;div class="card-body"&gt;</b>
-<b>                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;</b>
-<b>                            &lt;/div&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                    &lt;/div&gt;</b>
+                    &lt;div class="card"&gt;</b>
+                        &lt;div class="card-header" role="tab" id="peterhead"&gt;</b>
+                        &lt;h3 class="mb-0"&gt;</b>
+                            &lt;a data-toggle="collapse" data-target="#peter"&gt;</b>
+                            Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;</b>
+                            &lt;/a&gt;</b>
+                        &lt;/h3&gt;</b>
+                        &lt;/div&gt;</b>
+                        &lt;div class="collapse show" id="peter" data-parent="#accordion"&gt;</b>
+                            &lt;div class="card-body"&gt;</b>
+                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;</b>
+                            &lt;/div&gt;</b>
+                        &lt;/div&gt;</b>
+                    &lt;/div&gt;</b>
 </pre>
 
 <ul>
@@ -7918,46 +7933,46 @@ tabbed navigation.</p></li>
 </ul>
 
 <pre>
-<b>                    &lt;div class="card"&gt;</b>
-<b>                            &lt;div class="card-header" role="tab" id="dannyhead"&gt;</b>
-<b>                            &lt;h3 class="mb-0"&gt;</b>
-<b>                                &lt;a class="collapsed" data-toggle="collapse" data-target="#danny"&gt;</b>
-<b>                                Dhanasekaran Witherspoon &lt;small&gt;Chief Food Officer&lt;/small&gt;</b>
-<b>                                &lt;/a&gt;</b>
-<b>                            &lt;/h3&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                        &lt;div class="collapse" id="danny" data-parent="#accordion"&gt;</b>
-<b>                            &lt;div class="card-body"&gt;</b>
-<b>                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;</b>
-<b>                            &lt;/div&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                    &lt;/div&gt;</b>
-<b>                    &lt;div class="card"&gt;</b>
-<b>                            &lt;div class="card-header" role="tab" id="agumbehead"&gt;</b>
-<b>                            &lt;h3 class="mb-0"&gt;</b>
-<b>                                &lt;a class="collapsed" data-toggle="collapse" data-target="#agumbe"&gt;</b>
-<b>                                Agumbe Tang &lt;small&gt;Chief Taste Officer&lt;/small&gt;</b>
-<b>                                &lt;/a&gt;</b>
-<b>                            &lt;/h3&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                        &lt;div class="collapse" id="agumbe" data-parent="#accordion"&gt;</b>
-<b>                            &lt;div class="card-body"&gt;</b>
-<b>                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;</b>
-<b>                            &lt;/div&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                    &lt;/div&gt;</b>
-<b>                    &lt;div class="card"&gt;</b>
-<b>                            &lt;div class="card-header" role="tab" id="albertohead"&gt;</b>
-<b>                            &lt;h3 class="mb-0"&gt;</b>
-<b>                                &lt;a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;</b>
-<b>                                Alberto Somayya &lt;small&gt;Executive Chef&lt;/small&gt;</b>
-<b>                                &lt;/a&gt;</b>
-<b>                            &lt;/h3&gt;</b>
-<b>                        &lt;/div&gt;</b>
-<b>                        &lt;div class="collapse" id="alberto" data-parent="#accordion"&gt;</b>
-<b>                            &lt;div class="card-body"&gt;</b>
-<b>                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;</b>
-<b>                            &lt;/div&gt;</b>
+                    &lt;div class="card"&gt;</b>
+                            &lt;div class="card-header" role="tab" id="dannyhead"&gt;</b>
+                            &lt;h3 class="mb-0"&gt;</b>
+                                &lt;a class="collapsed" data-toggle="collapse" data-target="#danny"&gt;</b>
+                                Dhanasekaran Witherspoon &lt;small&gt;Chief Food Officer&lt;/small&gt;</b>
+                                &lt;/a&gt;</b>
+                            &lt;/h3&gt;</b>
+                        &lt;/div&gt;</b>
+                        &lt;div class="collapse" id="danny" data-parent="#accordion"&gt;</b>
+                            &lt;div class="card-body"&gt;</b>
+                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;</b>
+                            &lt;/div&gt;</b>
+                        &lt;/div&gt;</b>
+                    &lt;/div&gt;</b>
+                    &lt;div class="card"&gt;</b>
+                            &lt;div class="card-header" role="tab" id="agumbehead"&gt;</b>
+                            &lt;h3 class="mb-0"&gt;</b>
+                                &lt;a class="collapsed" data-toggle="collapse" data-target="#agumbe"&gt;</b>
+                                Agumbe Tang &lt;small&gt;Chief Taste Officer&lt;/small&gt;</b>
+                                &lt;/a&gt;</b>
+                            &lt;/h3&gt;</b>
+                        &lt;/div&gt;</b>
+                        &lt;div class="collapse" id="agumbe" data-parent="#accordion"&gt;</b>
+                            &lt;div class="card-body"&gt;</b>
+                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;</b>
+                            &lt;/div&gt;</b>
+                        &lt;/div&gt;</b>
+                    &lt;/div&gt;</b>
+                    &lt;div class="card"&gt;</b>
+                            &lt;div class="card-header" role="tab" id="albertohead"&gt;</b>
+                            &lt;h3 class="mb-0"&gt;</b>
+                                &lt;a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;</b>
+                                Alberto Somayya &lt;small&gt;Executive Chef&lt;/small&gt;</b>
+                                &lt;/a&gt;</b>
+                            &lt;/h3&gt;</b>
+                        &lt;/div&gt;</b>
+                        &lt;div class="collapse" id="alberto" data-parent="#accordion"&gt;</b>
+                            &lt;div class="card-body"&gt;</b>
+                                &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;</b>
+                            &lt;/div&gt;</b>
 </pre>
 
 <ul>
@@ -7974,11 +7989,9 @@ plugin together with the card component.</p>
 
 <h3>PDFs of Presentations</h3>
 
-<pre>
-09-Collapse.pdf
-</pre>
+<h5>09-Collapse.pdf</h5>
 
-Bootstrap Resources
+<h4>Bootstrap Resources</h4>
 
 <ul>
   <li><p><a href="http://getbootstrap.com/docs/4.0/components/collapse/" target="_blank" rel="noopener noreferrer">Bootstrap Collapse</a></p></li>
@@ -8300,9 +8313,9 @@ exercise, you will be able to:</p>
 </ul>
 
 <pre>
-                    &lt;a role="button" class="btn btn-block nav-link btn-warning"</b>
-                        data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;&lt;b&gt;+852 12345678&lt;/b&gt;"</b>
-                        data-placement="bottom" href="<u>#reserveform</u>"&gt;Reserve Table&lt;/a&gt;</b>
+                    &lt;a role="button" class="btn btn-block nav-link btn-warning"
+                        data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;&lt;b&gt;+852 12345678&lt;/b&gt;"
+                        data-placement="bottom" href="#reserveform"&gt;Reserve Table&lt;/a&gt;
 </pre>
 
 <p>As you can see from the code, we add a <em>data-toggle</em>,
@@ -8314,11 +8327,11 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-    &lt;script&gt;</b>
-        $(document).ready(function(){</b>
-            $('[data-toggle="tooltip"]').tooltip();</b>
-        });</b>
-    &lt;/script&gt;</b>
+    &lt;script&gt;
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    &lt;/script&gt;
 </pre>
 
 <p>This script is added right after the line that imports the bootstrap.min.js file.</p>
@@ -8330,42 +8343,42 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-    &lt;div id="loginModal" class="modal fade" role="dialog"&gt;</b>
-        &lt;div class="modal-dialog modal-lg" role="content"&gt;</b>
-            &lt;!-- Modal content--&gt;</b>
-            &lt;div class="modal-content"&gt;</b>
-                &lt;div class="modal-header"&gt;</b>
-                    &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;</b>
-                    &lt;button type="button" class="close" data-dismiss="modal"&gt;&amp;times;&lt;/button&gt;</b>
-                &lt;/div&gt;</b>
-                &lt;div class="modal-body"&gt;</b>
-                    &lt;form&gt;</b>
-                        &lt;div class="form-row"&gt;</b>
-                            &lt;div class="form-group col-sm-4"&gt;</b>
-                                    &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;</b>
-                                    &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;</b>
-                            &lt;/div&gt;</b>
-                            &lt;div class="form-group col-sm-4"&gt;</b>
-                                &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;</b>
-                                &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;</b>
-                            &lt;/div&gt;</b>
-                            &lt;div class="col-sm-auto"&gt;</b>
-                                &lt;div class="form-check"&gt;</b>
-                                    &lt;input class="form-check-input" type="checkbox"&gt;</b>
-                                    &lt;label class="form-check-label"&gt; Remember me</b>
-                                    &lt;/label&gt;</b>
-                                &lt;/div&gt;</b>
-                            &lt;/div&gt;</b>
-                        &lt;/div&gt;</b>
-                        &lt;div class="form-row"&gt;</b>
-                            &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;</b>
-                            &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;        </b>
-                        &lt;/div&gt;</b>
-                    &lt;/form&gt;</b>
-                &lt;/div&gt;</b>
-            &lt;/div&gt;</b>
-        &lt;/div&gt;</b>
-    &lt;/div&gt;</b>
+    &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
+        &lt;div class="modal-dialog modal-lg" role="content"&gt;
+            &lt;!-- Modal content--&gt;
+            &lt;div class="modal-content"&gt;
+                &lt;div class="modal-header"&gt;
+                    &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
+                    &lt;button type="button" class="close" data-dismiss="modal"&gt;&amp;times;&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="modal-body"&gt;
+                    &lt;form&gt;
+                        &lt;div class="form-row"&gt;
+                            &lt;div class="form-group col-sm-4"&gt;
+                                    &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
+                                    &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="form-group col-sm-4"&gt;
+                                &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
+                                &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-sm-auto"&gt;
+                                &lt;div class="form-check"&gt;
+                                    &lt;input class="form-check-input" type="checkbox"&gt;
+                                    &lt;label class="form-check-label"&gt; Remember me
+                                    &lt;/label&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="form-row"&gt;
+                            &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
+                            &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;        
+                        &lt;/div&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 </pre>
 
 <ul>
@@ -8373,10 +8386,10 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-                &lt;span class="navbar-text"&gt;</b>
-                    &lt;a data-toggle="modal" data-target="#loginModal"&gt;</b>
-                    &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;</b>
-                &lt;/span&gt;</b>
+                &lt;span class="navbar-text"&gt;
+                    &lt;a data-toggle="modal" data-target="#loginModal"&gt;
+                    &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;
+                &lt;/span&gt;
 </pre>
 
 <p>We are introducing another link to the right of the navbar using the <em>navbar-text</em>. This contains a link with an <em>&lt;a&gt;</em> tag with the <em>data-toggle="modal"</em> and <em>data-target="#loginModal"</em> attributes.</p>
@@ -8531,10 +8544,10 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-<b>&lt;div class="row row-content"&gt;</b>
-<b>  &lt;div class="col"&gt;</b>
-<b>  &lt;/div&gt;</b>
-<b>&lt;/div&gt;</b>
+&lt;div class="row row-content"&gt;</b>
+  &lt;div class="col"&gt;</b>
+  &lt;/div&gt;</b>
+&lt;/div&gt;</b>
 </pre>
 
 <h3 id="adding-a-carousel">Adding a Carousel</h3>
@@ -8544,8 +8557,8 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-<b>  &lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;</b>
-<b>  &lt;/div&gt;</b>
+  &lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;</b>
+  &lt;/div&gt;</b>
 </pre>
 
 <h3>Adding Carousel Content</h3>
@@ -8554,73 +8567,81 @@ allows us to manually scroll the carousel.</p>
   <li><p>Next add the content inside the carousel as follows:</p></li>
 </ul>
 
-<b>&lt;div class="carousel-inner" role="listbox"&gt;</b>
-<b>  &lt;div class="carousel-item active"&gt;</b>
-<b>    &lt;img class="d-block img-fluid"</b>
-<b>      src="<u>img/uthappizza.png</u>" alt="Uthappizza"&gt;</b>
-<b>      &lt;div class="carousel-caption d-none d-md-block"&gt;</b>
-<b>        &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;</b>
-<b>        . . .</b>
-<b>        &lt;/div&gt;</b>
-<b>      &lt;/div&gt;</b>
-<b>    &lt;div class="carousel-item"&gt;</b>
-<b>    . . .</b>
-<b>    &lt;/div&gt;</b>
-<b>    &lt;div class="carousel-item"&gt;</b>
-<b>    . . .</b>
-<b>  &lt;/div&gt;</b>
-<b>&lt;/div&gt;</b>
+<pre>
+&lt;div class="carousel-inner" role="listbox"&gt;</b>
+  &lt;div class="carousel-item active"&gt;</b>
+    &lt;img class="d-block img-fluid"</b>
+      src="img/uthappizza.png" alt="Uthappizza"&gt;</b>
+      &lt;div class="carousel-caption d-none d-md-block"&gt;</b>
+        &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;</b>
+        . . .</b>
+        &lt;/div&gt;</b>
+      &lt;/div&gt;</b>
+    &lt;div class="carousel-item"&gt;</b>
+    . . .</b>
+    &lt;/div&gt;</b>
+    &lt;div class="carousel-item"&gt;</b>
+    . . .</b>
+  &lt;/div&gt;</b>
+&lt;/div&gt;</b>
+</pre>
 
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
 
-<h3 id="adding-css-classes">Adding CSS Classes</h3>
+<h3>Adding CSS Classes</h3>
 
 <ul>
   <li><p>Add the following CSS classes to the <em>styles.css</em> file:</p></li>
 </ul>
 
-<b>.carousel {</b>
-<b>    background:#512DA8;</b>
-<b>}</b>
-<b> </b>
-<b>.carousel-item {</b>
-<b>  height: 300px;</b>
-<b>}</b>
-<b>.carousel-item img {</b>
-<b>    position: absolute;</b>
-<b>    top: 0;</b>
-<b>    left: 0;</b>
-<b>    min-height: 300px;</b>
-<b>}</b>
+<pre>
+.carousel {</b>
+    background:#512DA8;</b>
+}</b>
+ </b>
+.carousel-item {</b>
+  height: 300px;</b>
+}</b>
+.carousel-item img {</b>
+    position: absolute;</b>
+    top: 0;</b>
+    left: 0;</b>
+    min-height: 300px;</b>
+}</b>
+</pre>
 
-<h3 id="adding-carousel-controls">Adding Carousel Controls</h3>
+<h3>Adding Carousel Controls</h3>
 
 <ul>
   <li><p>Next, we will add manual controls to the carousel so that we can manually move among the slides. Add the following code to the bottom after the carousel items in the div of the carousel to add slide indicators that enable us to select a specific slide:</p></li>
 </ul>
 
-<b>&lt;ol class="carousel-indicators"&gt;</b>
-<b>  &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</b>
-<b>    &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;</b>
-<b>      &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</b>
-<b>&lt;/ol&gt;</b>
+<pre>
+&lt;ol class="carousel-indicators"&gt;</b>
+  &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</b>
+    &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;</b>
+      &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</b>
+&lt;/ol&gt;</b>
+</pre>
 
 <ul>
   <li><p>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</p></li>
 </ul>
 
-<b>&lt;a class="carousel-control-prev" href="<u>#mycarousel</u>" role="button" data-slide="prev"&gt;</b>
-<b>  &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</b>
-<b>    &lt;/a&gt;</b>
-<b>  &lt;a class="carousel-control-next" href="<u>#mycarousel</u>" role="button" data-slide="next"&gt;<b>    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</b>
-<b>&lt;/a&gt;</b>
+<pre>
+&lt;a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"&gt;</b>
+  &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</b>
+    &lt;/a&gt;</b>
+  &lt;a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"&gt;    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</b>
+&lt;/a&gt;</b>
+</pre>
 
 <ul>
   <li><p>Do a Git commit with the message "Carousel".</p></li>
 </ul>
 
-<h3 id="conclusions-14">Conclusions</h3>
+<h3>Conclusions</h3>
 
 <p>In this exercise we learnt about the carousel component and how to
 add it to a web page.</p>
@@ -8628,18 +8649,19 @@ add it to a web page.</p>
 
 <h2 id="carousel-additional-resources">Carousel: Additional Resources</h2>
 
-<h3 id="pdfs-of-presentations-12">PDFs of Presentations</h3>
+<h3>PDFs of Presentations</h3>
 
-<b>09-Carousel.pdf</b>
+<h4>09-Carousel.pdf</h4>
+
 <p>Open file</p>
 
-<h3 id="bootstrap-resources-7">Bootstrap Resources</h3>
+<h3>Bootstrap Resources</h3>
 
 <ul>
   <li><p><a href="http://getbootstrap.com/docs/4.0/components/carousel/" target="_blank" rel="noopener noreferrer">Bootstrap Carousel</a></p></li>
 </ul>
 
-<h2 id="assignment-3-bootstrap-javascript-components">Assignment 3: Bootstrap JavaScript Components</h2>
+<h2>Assignment 3: Bootstrap JavaScript Components</h2>
 
 <p>We have reached the end of the third module of this course.</p>
 <p>This is the time for your third assignment. In this assignment, we're
@@ -8681,9 +8703,9 @@ for your model.</p>
 <p>Hope you enjoyed creating this new variation of the index.html
 page.</p>
 
-<h2 id="assignment-3-resources">Assignment 3: Resources</h2>
+<h2>Assignment 3: Resources</h2>
 
-<h3 id="assignment-screenshots-1">Assignment Screenshots</h3>
+<h3>Assignment Screenshots</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. assignment screenshot: task 1 (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8693,7 +8715,7 @@ page.</p>
   style="width:5in;height:4.46in"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&amp;hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4" />
 
-<h3 id="bootstrap-resources-8">Bootstrap Resources</h3>
+<h3>Bootstrap Resources</h3>
 
 <ul>
   <li><p><a href="http://getbootstrap.com/docs/4.0/components/buttons/#checkbox-and-radio-buttons" target="_blank" rel="noopener noreferrer">Bootstrap Buttons Checkbox/Radio</a></p></li>
@@ -8713,7 +8735,7 @@ behavior. At the end of this lesson, you will be able to:</p>
   <li><p>Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components</p></li>
 </ul>
 
-<h2 id="bootstrap-and-jquery">Bootstrap and JQuery</h2>
+<h2>Bootstrap and JQuery</h2>
 
 <p>Let us now spend some time trying to understand how Bootstrap and
 jQuery work together to support the Bootstrap's JavaScript
@@ -8741,7 +8763,7 @@ webpage.</p>
 <img class="displayed"
   src="./images/image092.png"
   style="width:5in;height:3.04in"
-  alt="." />
+  alt="Bootstrap and JavaScript with Sumo Wrestler." />
 
 <p>We also saw this graphic in the previous module to help us understand
 the relationship between JavaScript, jQuery, and how the Bootstrap's
@@ -8784,7 +8806,7 @@ module.</p>
 <img class="displayed"
   src="./images/image095.png"
   style="width:5in;height:2.05in"
-  alt="JQuery JS-base library." />
+  alt="JQuery JS-based library." />
 
 <p>Before we proceed further, let me give you a quick tour of jQuery and
 its syntax so that we understand some of the code that we'll write in
@@ -8820,7 +8842,7 @@ was something that started with a dollar sign.</p>
 <img class="displayed"
   src="./images/image096.png"
   style="width:5in;height:2.05in"
-  alt="." />
+  alt="JQuery syntax." />
 
 <p>The jQuery Syntax is all implemented using the dollar sign.</p>
 <p>The dollar sign at the start of a sentence implies that this defines
@@ -8855,31 +8877,29 @@ action to be performed on the element that is selected by these
 selectors.</p>
 <p>Let's take a look at Bootstrap jQuery example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. jquery syntax (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 97. bootstrap jquery syntax example (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image097.png"
   style="width:5in;height:2.05in"
-  alt="JQuery Syntax." />
+  alt="Bootstrap JQuery Example." />
 
 <p>We'll go back to the previous example that we have seen earlier,
 where we introduce the tooltip.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. bootstrap jquery example  (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. bootstrap jquery example (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image098.png"
   style="width:5in;height:2.05in"
-  alt="Bootstrap JQuery Example." />
+  alt="Bootstrap JQuery Example, cont'd." />
 
-<p>When we introduce the tooltip, we specified script and then inside
-the script, we said $(document).</p>
+<p>When we introduce the tooltip, we specified script and then inside the script, we said $(document).</p>
 <p>In this case the document means the entire document.</p>
 <p>The selected here is for the entire document.</p>
 <p>For the entire document, and then we'll specify ready.</p>
 <p>Ready is the action to be taken.</p>
-<p>When the document is ready, then execute this function that is
-specified as a parameter for this ready action there.</p>
+<p>When the document is ready, then execute this function that is specified as a parameter for this ready action there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 99. bootstrap jquery example data-toggle=tooltip (242) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9044,7 +9064,7 @@ controls.</p>
 <p>For example, you can say carousel('cycle'), meaning start cycling the
 items from left to right.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 106. "example: carousel: other controls" (248) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 106. example: carousel: other controls (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image106.png"
@@ -9062,7 +9082,7 @@ previous item and the next item in my carousel.</p>
 causes various events.</p>
 <p>And based on the occurrence of these events, you can respond.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 107. "example: carousel: event: slide.bs.carousel" (248) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 107. example: carousel: event: slide.bs.carousel (248) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image107.png"
@@ -9075,21 +9095,18 @@ invoked.</p>
 <p>Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 108. "example: carousel events" (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel events (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image108.png"
   style="width:6.5in;height:2.85in"
   alt="Example: Carousel: Events." />
 
-<p>Within your code you can specify something like
-$("#myCarousel").on('slide.bs.carousel'.</p>
-<p>Meaning that when that slide action starts, then invoke this
-function, and then do something inside that function there.</p>
-<p>This kind of code can be returned also for responding to the events
-that are caused by your carousel's behavior.</p>
+<p>Within your code you can specify something like $("#myCarousel").on('slide.bs.carousel'.</p>
+<p>Meaning that when that slide action starts, then invoke this function, and then do something inside that function there.</p>
+<p>This kind of code can be returned also for responding to the events that are caused by your carousel's behavior.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 109. "exercise: bootstrap and jquery" (249) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (249) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image109.png"
@@ -9105,7 +9122,7 @@ carousel.</p>
 <p>Which means that we can pause and resume the sliding action of our
 carousel. And we'll activate these buttons from JavaScript.</p>
 
-<h2 id="exercise-video-bootstrap-and-jquery-9">Exercise (Video): Bootstrap and JQuery (9)</h2>
+<h2>Exercise (Video): Bootstrap and JQuery (9)</h2>
 
 <p>Many of the Bootstrap's JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -9235,7 +9252,7 @@ able to control our Bootstrap JavaScript-based components.</p>
 <p>This is a good time to do a comment of your code with the message
 Bootstrap jQuery.</p>
 
-<h2 id="exercise-instructions-bootstrap-and-jquery">Exercise (Instructions): Bootstrap and JQuery</h2>
+<h2>Exercise (Instructions): Bootstrap and JQuery</h2>
 
 <p>Many of the Bootstrap's JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -9502,9 +9519,9 @@ behavior as pertinent in this particular case.</p>
 <p>With this, we complete this exercise. It's time for you to do a Git
 commit with the message more Bootstrap and jQuery.</p>
 
-<h2 id="exercise-instructions-more-bootstrap-and-jquery">Exercise (Instructions): More Bootstrap and JQuery</h2>
+<h2>Exercise (Instructions): More Bootstrap and JQuery</h2>
 
-<h3 id="objectives-and-outcomes-18">Objectives and Outcomes</h3>
+<h3>Objectives and Outcomes</h3>
 
 <p>In this exercise we extend the previous exercise of controlling the
 carousel by using more JQuery and JavaScript to write JavaScript code to
@@ -9523,9 +9540,9 @@ to:</p>
 </ul>
 
 <pre>
-<b>&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;</b>
-<b>&lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;</b>
-<b>&lt;/button&gt;</b>
+&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;</b>
+&lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;</b>
+&lt;/button&gt;</b>
 </pre>
 
 <p>We are adding a single button inside a button group with the ID
@@ -9539,18 +9556,18 @@ based on the current behavior of the carousel.</p>
 </ul>
 
 <pre>
-<b>$("#carouselButton").click(function(){</b>
-<b>  if ($("#carouselButton").children("span").hasClass('fa-pause')) {</b>
-<b>   $("#mycarousel").carousel('pause');</b>
-<b>   $("#carouselButton").children("span").removeClass('fa-pause');</b>
-<b>   $("#carouselButton").children("span").addClass('fa-play');</b>
-<b>}</b>
-<b>else if ($("#carouselButton").children("span").hasClass('fa-play')){</b>
-<b>   $("#mycarousel").carousel('cycle');</b>
-<b>   $("#carouselButton").children("span").removeClass('fa-play');</b>
-<b>   $("#carouselButton").children("span").addClass('fa-pause');                    </b>
-<b>}</b>
-<b>});</b>
+$("#carouselButton").click(function(){</b>
+  if ($("#carouselButton").children("span").hasClass('fa-pause')) {</b>
+   $("#mycarousel").carousel('pause');</b>
+   $("#carouselButton").children("span").removeClass('fa-pause');</b>
+   $("#carouselButton").children("span").addClass('fa-play');</b>
+}</b>
+else if ($("#carouselButton").children("span").hasClass('fa-play')){</b>
+   $("#mycarousel").carousel('cycle');</b>
+   $("#carouselButton").children("span").removeClass('fa-play');</b>
+   $("#carouselButton").children("span").addClass('fa-pause');                    </b>
+}</b>
+});</b>
 </pre>
 
 <ul>
@@ -9567,7 +9584,7 @@ control the behavior of a Bootstrap JS component.</p>
 
 <h3 id="pdfs-of-presentations-13">PDFs of Presentations</h3>
 
-<b>09-Bootstrap-JQuery.pdf</b>
+<h4>09-Bootstrap-JQuery.pdf</h4>
 
 <h3 id="bootstrap-resources-9">Bootstrap Resources</h3>
 
@@ -9848,14 +9865,14 @@ of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-<b>@lt-gray: #ddd;</b>
-<b>@background-dark: #512DA8;</b>
-<b>@background-light: #9575CD;</b>
-<b>@background-pale: #D1C4E9;</b>
-<b> </b>
-<b>// Height variables</b>
-<b>@carousel-item-height: 300px;</b>
-<b> </b>
+@lt-gray: #ddd;</b>
+@background-dark: #512DA8;</b>
+@background-light: #9575CD;</b>
+@background-pale: #D1C4E9;</b>
+ </b>
+// Height variables</b>
+@carousel-item-height: 300px;</b>
+ </b>
 </pre>
 
 <p>We have just added a few color and a height variable. We will make
@@ -9868,11 +9885,11 @@ use of these variables while defining the classes.</p>
 </ul>
 
 <pre>
-<b>.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {</b>
-<b>    margin:0px auto;</b>
-<b>    padding: @pad-up-dn @pad-left-right;</b>
-<b>}</b>
-<b> </b>
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {</b>
+    margin:0px auto;</b>
+    padding: @pad-up-dn @pad-left-right;</b>
+}</b>
+ </b>
 </pre>
 
 <p>We will make use of this to define several row classes next.</p>
@@ -9882,78 +9899,78 @@ use of these variables while defining the classes.</p>
 </ul>
 
 <pre>
-<b>address{</b>
-<b>    font-size:80%;</b>
-<b>    margin:0px;</b>
-<b>    color:#0f0f0f;</b>
-<b>}</b>
-<b> </b>
-<b>body{</b>
-<b>    padding:50px 0px 0px 0px;</b>
-<b>    z-index:0;</b>
-<b>}</b>
-<b> </b>
-<b>.navbar-dark {</b>
-<b>     background-color: @background-dark;</b>
-<b>}</b>
-<b> </b>
-<b>.tab-content {</b>
-<b>    border-left: 1px solid @lt-gray;</b>
-<b>    border-right: 1px solid @lt-gray;</b>
-<b>    border-bottom: 1px solid @lt-gray;</b>
-<b>    color:floralwhite;</b>
-<b>}</b>
-<b> </b>
-<b>.jumbotron {</b>
-<b>    .zero-margin(70px,30px);</b>
-<b>    background: @background-light ;</b>
-<b>}</b>
-<b> </b>
-<b>.footer{</b>
-<b>    background-color: @background-pale;</b>
-<b>    .zero-margin(20px, 0px);</b>
-<b>    min-height:400px;</b>
-<b>}</b>
-<b> </b>
-<b>    .zero-margin(50px,0px);</b>
-<b>    border-bottom: 1px ridge;</b>
-<b>}</b>
-<b> </b>
-<b>.row-content {</b>
-<b>.row-header{</b>
-<b>    .zero-margin();</b>
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+ 
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+ 
+.navbar-dark {
+     background-color: @background-dark;
+}
+ 
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    color:floralwhite;
+}
+ 
+.jumbotron {
+    .zero-margin(70px,30px);
+    background: @background-light ;
+}
+ 
+.footer{
+    background-color: @background-pale;
+    .zero-margin(20px, 0px);
+    min-height:400px;
+}
+ 
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+}
+ 
+.row-content {
+.row-header{
+    .zero-margin();
 </pre>
 
 <p>Note the use of the variables and the mixin with various parameters
 in defining the classes.</p>
 
-<h3 id="nesting-selectors">Nesting Selectors</h3>
+<h3>Nesting Selectors</h3>
 
 <ul>
   <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:</p></li>
 </ul>
 
 <pre>
-<b>.carousel {</b>
-<b>    background:@background-dark;</b>
-<b> </b>
-<b>    .carousel-item {</b>
-<b>        height: @carousel-item-height;</b>
-<b>        img {</b>
-<b>            position: absolute;</b>
-<b>            top: 0;</b>
-<b>            left: 0;</b>
-<b>            min-height: 300px;</b>
-<b>        }</b>
-<b>    }</b>
-<b>}</b>
-<b> </b>
-<b>#carouselButton {</b>
-<b>    right:0px;</b>
-<b>    position: absolute;</b>
-<b>    bottom: 0px;</b>
-<b>    z-index: 1;</b>
-<b>}</b>
+.carousel {
+    background:@background-dark;
+ 
+    .carousel-item {
+        height: @carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
+    }
+}
+ 
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 </pre>
 
 <h3 id="installing-and-using-the-lessc-compiler">Installing and using the lessc Compiler</h3>
@@ -9963,14 +9980,14 @@ in defining the classes.</p>
 </ul>
 
 <pre>
-<b>     npm install -g less@2.7.2</b>
-<b> </b>
+     npm install -g less@2.7.2
+ 
 </pre>
 
 <p>This will install the <em>less</em> NPM module globally so that it
 can be used by any project. <b>Note: if you are executing this on a
 Mac or Linux machine, you may need to add "sudo" to the beginning of
-this command</b>. This will make available the <em>lessc</em>
+this command. This will make available the <em>lessc</em>
 compiler for us so that we can compile Less files.</p>
 
 <ul>
@@ -9979,8 +9996,8 @@ compiler for us so that we can compile Less files.</p>
 </ul>
 
 <pre>
-<b>     lessc styles.less styles.css</b>
-<b> </b>
+     lessc styles.less styles.css
+ 
 </pre>
 
 <ul>
@@ -10105,14 +10122,14 @@ of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-<b>$lt-gray: #ddd;</b>
-<b>$background-dark: #512DA8;</b>
-<b>$background-light: #9575CD;</b>
-<b>$background-pale: #D1C4E9;</b>
-<b> </b>
-<b>// Height variables</b>
-<b>$carousel-item-height: 300px;</b>
-<b> </b>
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+ 
+// Height variables
+$carousel-item-height: 300px;
+ 
 </pre>
 
 <p>We have just added a few color and a height variable. We will make
@@ -10125,11 +10142,11 @@ use of these variables while defining the classes.</p>
 </ul>
 
 <pre>
-<b>@mixin zero-margin($pad-up-dn, $pad-left-right) {</b>
-<b>    margin:0px auto;</b>
-<b>    padding: $pad-up-dn $pad-left-right;</b>
-<b>}</b>
-<b> </b>
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin:0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+ 
 </pre>
 
 <p>We will make use of this to define several row classes next.</p>
@@ -10139,46 +10156,46 @@ use of these variables while defining the classes.</p>
 </ul>
 
 <pre>
-<b>.row-header{</b>
-<b>    @include zero-margin(0px,0px);</b>
-<b>}</b>
-<b> </b>
-<b>.row-content {</b>
-<b>    @include zero-margin(50px,0px);</b>
-<b>    border-bottom: 1px ridge;</b>
-<b>    min-height:400px;</b>
-<b>}</b>
-<b> </b>
-<b>.footer{</b>
-<b>    background-color: $background-pale;</b>
-<b>    @include zero-margin(20px, 0px);</b>
-<b>}</b>
-<b> </b>
-<b>.jumbotron {</b>
-<b>    @include zero-margin(70px,30px);</b>
-<b>    background: $background-light ;</b>
-<b>    color:floralwhite;</b>
-<b>}</b>
-<b> </b>
-<b>address{</b>
-<b>    font-size:80%;</b>
-<b>    margin:0px;</b>
-<b>    color:#0f0f0f;</b>
-<b>}</b>
-<b> </b>
-<b>body{</b>
-<b>    padding:50px 0px 0px 0px;</b>
-<b>    z-index:0;</b>
-<b>}</b>
-<b> </b>
-<b>.navbar-dark {</b>
-<b>     background-color: $background-dark;</b>
-<b>}</b>
-<b> </b>
-<b>.tab-content {</b>
-<b>    border-left: 1px solid $lt-gray;</b>
-<b>    border-right: 1px solid $lt-gray;</b>
-<b>    border-bottom: 1px solid $lt-gray;</b>
+.row-header{
+    @include zero-margin(0px,0px);
+}
+ 
+.row-content {
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+ 
+.footer{
+    background-color: $background-pale;
+    @include zero-margin(20px, 0px);
+}
+ 
+.jumbotron {
+    @include zero-margin(70px,30px);
+    background: $background-light ;
+    color:floralwhite;
+}
+ 
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+ 
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+ 
+.navbar-dark {
+     background-color: $background-dark;
+}
+ 
+.tab-content {
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
 </pre>
 
 <p>Note the use of the variables and the mixin with various parameters in defining the classes.</p>
@@ -10565,7 +10582,7 @@ order to do the building and deployment of our website.</p>
 </ul>
 
 <pre>
-  &lt;script src="js/scripts.js</u>"&gt;&lt;/script&gt;
+  &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
 </pre>
 
 <ul>
@@ -11088,10 +11105,10 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 
 <pre>
     &lt;!-- build:css css/main.css --&gt;
-    &lt;link rel="stylesheet" href="<u>node_modules/bootstrap/dist/css/bootstrap.min.css</u>"&gt;
-    &lt;link rel="stylesheet" href="<u>node_modules/font-awesome/css/font-awesome.min.css</u>"&gt;
-    &lt;link rel="stylesheet" href="<u>node_modules/bootstrap-social/bootstrap-social.css</u>"&gt;
-    &lt;link href="<u>css/styles.css</u>" rel="stylesheet"&gt;
+    &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
+    &lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
+    &lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
+    &lt;link href="css/styles.css" rel="stylesheet"&gt;
     &lt;!-- endbuild --&gt;
 </pre>
 
@@ -11102,10 +11119,10 @@ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlm
 
 <pre>
     &lt;!-- build:js js/main.js --&gt;
-    &lt;script src="<u>node_modules/jquery/dist/jquery.slim.min.js</u>"&gt;&lt;/script&gt;
-    &lt;script src="<u>node_modules/popper.js/dist/umd/popper.min.js</u>"&gt;&lt;/script&gt;
-    &lt;script src="<u>node_modules/bootstrap/dist/js/bootstrap.min.js</u>"&gt;&lt;/script&gt;
-    &lt;script src="<u>js/scripts.js</u>"&gt;&lt;/script&gt;
+    &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
+    &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
+    &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
     &lt;!-- endbuild --&gt;
 </pre>
 
@@ -11123,18 +11140,18 @@ $ npm run build
   <li><p>After verifying that the dist folder is built correctly, you can now do a git commit with the message "NPM Scripts Part 2"</p></li>
 </ul>
 
-<h3 id="conclusions-19">Conclusions</h3>
+<h3>Conclusions</h3>
 
 <p>In this exercise, you learnt the various steps to build the project for deployment using NPM scripts.</p>
 
-<h2 id="building-and-deployment-npm-scripts-additional-resources">Building and Deployment: NPM Scripts: Additional Resources</h2>
+<h2>Building and Deployment: NPM Scripts: Additional Resources</h2>
 
-<h3 id="pdfs-of-presentations-15">PDFs of Presentations</h3>
+<h3>PDFs of Presentations</h3>
 
-<pre>
-10-Building-Deployment.pdf
-10-NPM-Scripts.pdf
-</pre>
+<ul>
+  <li><h5>10-Building-Deployment.pdf</h5></li>
+  <li><h5>10-NPM-Scripts.pdf</h5></li>
+</ul>
 
 <h3 id="additional-resources">Additional Resources</h3>
 
@@ -11499,7 +11516,7 @@ $ npm install -g grunt-cli@1.2.0
 <p>This will install the Grunt CLI globally so that you can use them in all projects.</p>
 
 <ul>
-  <li><p>Next install Grunt to use within your project. To do this, go to the <em>conFusion</em> folder and type the following at the prompt:</p></li>
+  <li>Next install Grunt to use within your project. To do this, go to the <em>conFusion</em> folder and type the following at the prompt:</li>
 </ul>
 
 <pre>
@@ -11512,18 +11529,17 @@ $ npm install grunt@1.0.2 --save-dev
 
 <ul>
   <li><p>Next you need to create a Grunt file containing the configuration for all the tasks to be run when you use Grunt. To do this, create a file named <em>Gruntfile.js</em> in the <em>conFusion</em> folder.</p></li>
-  <li><p>Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:</p></li>
+  <li>Next, add the following code to Gruntfile.js to set up the file to configure Grunt tasks:</li>
 </ul>
 
 <pre>
 'use strict';
  
-module.exports = function (grunt) {
-  // Define the configuration for all the tasks
-  grunt.initConfig({
- 
-  });
-};
+  module.exports = function (grunt) {
+    // Define the configuration for all the tasks
+    grunt.initConfig({
+    });
+  };
 </pre>
 
 <p>This sets up the Grunt module ready for including the grunt tasks
@@ -11532,13 +11548,13 @@ inside the function above.</p>
 <h3>Compiling SCSS to CSS</h3>
 
 <ul>
-  <li><p>Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:</p></li>
+  <li>Next, we are going to set up our first Grunt task. The SASS task converts the SCSS code to CSS. To do this, you need to include some Grunt modules that help us with the tasks. Install the following modules by typing the following at the prompt:</li>
 </ul>
 
 <pre>
-npm install grunt-sass@2.1.0 --save-dev
-npm install time-grunt@1.4.0 --save-dev
-npm install jit-grunt@0.10.0 --save-dev
+$ npm install grunt-sass@2.1.0 --save-dev
+$ npm install time-grunt@1.4.0 --save-dev
+$ npm install jit-grunt@0.10.0 --save-dev
 </pre>
 
 <p>The first one installs the Grunt module for SCSS to CSS conversion.
@@ -11547,7 +11563,7 @@ task consumes, and jit-grunt enables us to include the necessary
 downloaded Grunt modules when needed for the tasks.</p>
 
 <ul>
-  <li><p>Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <em>Gruntfile.js</em>:</p></li>
+  <li>Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <em>Gruntfile.js</em>:</li>
 </ul>
 
 <pre>
@@ -11577,7 +11593,7 @@ module.exports = function (grunt) {
 </pre>
 
 <ul>
-  <li><p>Now you can run the grunt SASS task by typing the following at the prompt:</p></li>
+  <li>Now you can run the grunt SASS task by typing the following at the prompt:</li>
 </ul>
 
 <pre>
@@ -11587,41 +11603,41 @@ $ grunt css
 <h3>Watch and Serve Tasks</h3>
 
 <ul>
-  <li><p>The final step is to use the Grunt modules watch and browser-sync to spin up a web server and keep a watch on the files and automatically reload the browser when any of the watched files are updated. To do this, install the following grunt modules:</p></li>
+  <li>The final step is to use the Grunt modules watch and browser-sync to spin up a web server and keep a watch on the files and automatically reload the browser when any of the watched files are updated. To do this, install the following grunt modules:</li>
 </ul>
 
 <pre>
-npm install grunt-contrib-watch@1.0.0 --save-dev
-npm install grunt-browser-sync@2.2.0 --save-dev
+$ npm install grunt-contrib-watch@1.0.0 --save-dev
+$ npm install grunt-browser-sync@2.2.0 --save-dev
 </pre>
 
 <ul>
-  <li><p>After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:</p></li>
+  <li>After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:</li>
 </ul>
 
 <pre>
 ,
-        watch: {
-            files: 'css/*.scss',
-            tasks: ['sass']
-        },
-        browserSync: {
-            dev: {
-                bsFiles: {
-                    src : [
-                        'css/*.css',
-                        '*.html',
-                        'js/*.js'
-                    ]
-                },
-                options: {
-                    watchTask: true,
-                    server: {
-                        baseDir: "./"
-                    }
+    watch: {
+        files: 'css/*.scss',
+        tasks: ['sass']
+    },
+    browserSync: {
+        dev: {
+            bsFiles: {
+                src : [
+                    'css/*.css',
+                    '*.html',
+                    'js/*.js'
+                ]
+            },
+            options: {
+                watchTask: true,
+                server: {
+                    baseDir: "./"
                 }
             }
         }
+    }
 </pre>
 
 <ul>
@@ -11629,7 +11645,7 @@ npm install grunt-browser-sync@2.2.0 --save-dev
 </ul>
 
 <pre>
-    grunt.registerTask('default', ['browserSync', 'watch']);
+  grunt.registerTask('default', ['browserSync', 'watch']);
 </pre>
 
 <ul>
@@ -12032,37 +12048,36 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 <pre>
 ,
+  copy: {
+      html: {
+          files: [
+          {
+              //for html
+              expand: true,
+              dot: true,
+              cwd: './',
+              src: ['*.html'],
+              dest: 'dist'
+          }]                
+      },
+      fonts: {
+          files: [
+          {
+              //for font-awesome
+              expand: true,
+              dot: true,
+              cwd: 'node_modules/font-awesome',
+              src: ['fonts/*.*'],
+              dest: 'dist'
+          }]
+      }
+  },
  
-        copy: {
-            html: {
-                files: [
-                {
-                    //for html
-                    expand: true,
-                    dot: true,
-                    cwd: './',
-                    src: ['*.html'],
-                    dest: 'dist'
-                }]                
-            },
-            fonts: {
-                files: [
-                {
-                    //for font-awesome
-                    expand: true,
-                    dot: true,
-                    cwd: 'node_modules/font-awesome',
-                    src: ['fonts/*.*'],
-                    dest: 'dist'
-                }]
-            }
-        },
- 
-        clean: {
-            build: {
-                src: [ 'dist/']
-            }
-        }
+  clean: {
+      build: {
+          src: [ 'dist/']
+      }
+  }
 </pre>
 
 <ul>
@@ -12072,29 +12087,29 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
 <h3>Compressing and Minifying Images</h3>
 
 <ul>
-  <li><p>Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:</p></li>
+  <li>Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:</li>
 </ul>
 
 <pre>
-npm install grunt-contrib-imagemin@2.0.1 --save-dev
+$ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 </pre>
 
 <ul>
-  <li><p>Then, configure the imagemin task as shown below in the Gruntfile:</p></li>
+  <li>Then, configure the imagemin task as shown below in the Gruntfile:</li>
 </ul>
 
 <pre>
 ,
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,                  // Enable dynamic expansion
-                    cwd: './',                   // Src matches are relative to this path
-                    src: ['img/*.{png,jpg,gif}'],   // Actual patterns to match
-                    dest: 'dist/'                  // Destination path prefix
-                }]
-            }
-        }
+  imagemin: {
+      dynamic: {
+          files: [{
+              expand: true,                  // Enable dynamic expansion
+              cwd: './',                     // Src matches are relative to this path
+              src: ['img/*.{png,jpg,gif}'],  // Actual patterns to match
+              dest: 'dist/'                  // Destination path prefix
+          }]
+      }
+  }
 </pre>
 
 <h3>Preparing the Distribution Folder and Files</h3>
@@ -12118,74 +12133,70 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 
 <pre>
 ,
- 
-        useminPrepare: {
-            foo: {
-                dest: 'dist',
-                src: ['contactus.html','aboutus.html','index.html']
-            },
-            options: {
-                flow: {
-                    steps: {
-                        css: ['cssmin'],
-                        js:['uglify']
-                    },
-                    post: {
-                        css: [{
-                            name: 'cssmin',
-                            createConfig: function (context, block) {
-                            var generated = context.options.generated;
-                                generated.options = {
-                                    keepSpecialComments: 0, rebase: false
-                                };
-                            }       
-                        }]
-                    }
+    useminPrepare: {
+        foo: {
+            dest: 'dist',
+            src: ['contactus.html','aboutus.html','index.html']
+        },
+        options: {
+            flow: {
+                steps: {
+                    css: ['cssmin'],
+                    js:['uglify']
+                },
+                post: {
+                    css: [{
+                        name: 'cssmin',
+                        createConfig: function (context, block) {
+                        var generated = context.options.generated;
+                            generated.options = {
+                                keepSpecialComments: 0, rebase: false
+                            };
+                        }       
+                    }]
                 }
             }
+        }
+    },
+    // Concat
+    concat: {
+        options: {
+            separator: ';'
         },
- 
-        // Concat
-        concat: {
-            options: {
-                separator: ';'
-            },
-  
-            // dist configuration is provided by useminPrepare
-            dist: {}
-        },
- 
-        // Uglify
-        uglify: {
+        // dist configuration is provided by useminPrepare
+        dist: {}
+    },
+    // Uglify
+    uglify: {
 </pre>
 
 <ul>
-  <li><p>Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:</p></li>
+  <li>Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:</li>
 </ul>
 
 <pre>
-require('jit-grunt')(grunt, {
-  useminPrepare: 'grunt-usemin'
-});
+  require('jit-grunt')(grunt, {
+    useminPrepare: 'grunt-usemin'
+  });
 </pre>
 
 <ul>
-  <li><p>Next, update the Grunt build task as follows:</p></li>
+  <li>Next, update the Grunt build task as follows:</li>
 </ul>
 
 <pre>
-    grunt.registerTask('build', [
-        'clean',
-        'copy',
-        'imagemin',
-        'useminPrepare',
-        'concat',
-        'cssmin',
-        'uglify',
-        'filerev',
-        'usemin',
-        'htmlmin'
-    ]);
+  grunt.registerTask('build', [
+      'clean',
+      'copy',
+      'imagemin',
+      'useminPrepare',
+      'concat',
+      'cssmin',
+      'uglify',
+      'filerev',
+      'usemin',
+      'htmlmin'
+  ]);
 </pre>
 
 <ul>
@@ -12439,8 +12450,8 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 
 <pre>
 'use strict';
- 
-var gulp = require('gulp'),
+
+  var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync');
 </pre>
@@ -12528,8 +12539,8 @@ build and serve your web project.</p>
 </ul>
 
 <pre>
-npm install del@3.0.0 --save-dev
-var ...
+$ npm install del@3.0.0 --save-dev
+  var ...
     del = require('del'),
     ...
 </pre>
@@ -12557,8 +12568,8 @@ gulp.task('copyfonts', function() {
 </ul>
 
 <pre>
-npm install gulp-imagemin@4.1.0 --save-dev
-var ...
+$ npm install gulp-imagemin@4.1.0 --save-dev
+  var ...
     imagemin = require('gulp-imagemin'),
     ...
 </pre>
@@ -12586,12 +12597,12 @@ gulp.task('imagemin', function() {
 npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
  
 var ...
-    uglify = require('gulp-uglify'),
-    usemin = require('gulp-usemin'),
-    rev = require('gulp-rev'),
-    cleanCss = require('gulp-clean-css'),
-    flatmap = require('gulp-flatmap'),
-    htmlmin = require('gulp-htmlmin');
+  uglify = require('gulp-uglify'),
+  usemin = require('gulp-usemin'),
+  rev = require('gulp-rev'),
+  cleanCss = require('gulp-clean-css'),
+  flatmap = require('gulp-flatmap'),
+  htmlmin = require('gulp-htmlmin');
 </pre>
 
 <ul>
@@ -12647,9 +12658,9 @@ development tasks.</p>
 
 <h3>PDFs of Presentations</h3>
 
-<pre>
-10-Task-Runners.pdf
-</pre>
+<ul>
+  <li><h5>10-Task-Runners.pdf</h5></li>
+</ul>
 
 <h3>Grunt Resources</h3>
 
@@ -12745,9 +12756,7 @@ development tasks.</p>
 
 <h3>PDFs of Presentations</h3>
 
-<pre>
-11-Conclusion.pdf
-</pre>
+<h5>11-Conclusion.pdf</h5>
 
 <h2>Project Implementation: Objectives and Outcomes</h2>
 
