@@ -258,8 +258,8 @@ development.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
-   alt="Front-end and back-end."
-   width="50%" />
+  alt="Front-end and back-end."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
@@ -285,8 +285,8 @@ Development.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
-   alt="Three-tier architecture: presentation."
-   width="75%" />
+  alt="Three-tier architecture: presentation."
+  width="75%" />
 </p>
 
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
@@ -320,8 +320,8 @@ the data access layer</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
-   alt="Three-tier architecture: data access."
-   width="75%" />
+  alt="Three-tier architecture: data access."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
@@ -336,8 +336,8 @@ traditional web development in each of these three layers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
-   alt="Data Access Layer: Databsse and API."
-   width="75%" />
+  alt="Data Access Layer: Databsse and API."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -348,8 +348,8 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
-   alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
-   width="75%" />
+  alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -366,8 +366,8 @@ rendering these days.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.png?raw=true"
-   alt="Traditional Web Development: HTML, CSS & JS."
-   width="75%" />
+  alt="Traditional Web Development: HTML, CSS & JS."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -388,8 +388,8 @@ database management system.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.png?raw=true"
-   alt="Full stack javascript development."
-   width="75%" />
+  alt="Full stack javascript development."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -414,8 +414,8 @@ We will cover these technologies as part of this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.png?raw=true"
-   alt="full stack web dev: bootstrap 4 and angular or reactfull."
-   width="75%" />
+  alt="full stack web dev: bootstrap 4 and angular or reactfull."
+  width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -508,8 +508,8 @@ the repository at the end of each exercise.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010a.png?raw=true"
-   alt="Online Git repository."
-   width="50%" />
+  alt="Online Git repository."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="1.5908125546806648in"} -->
 
@@ -560,8 +560,8 @@ why we need Git for this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.png?raw=true"
-   alt="Git."
-   width="50%" />
+  alt="Git."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
@@ -584,8 +584,8 @@ Let\'s now run through a few quick steps to set up Git on your computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.png?raw=true"
-   alt="Git-scm.com."
-   width="85%" />
+  alt="Git-scm.com."
+  width="85%" />
 </p>
 <!-- {width="5.0in" height="2.7622867454068243in"} -->
 
@@ -618,8 +618,8 @@ notice that there is a book here called Pro Git.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.png?raw=true"
-   alt="Getting started: About version control."
-   width="85%" />
+  alt="Getting started: About version control."
+  width="85%" />
 </p>
 <!-- {width="5.0in" height="2.7622867454068243in"} -->
 
@@ -1102,8 +1102,8 @@ this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image016.png?raw=true"
-   width="50%"
-   alt="Git reset." />
+  width="50%"
+  alt="Git reset." />
 </p>
 <!-- {width="5.0in" height="2.2222222222222223in"} -->
 
@@ -1516,8 +1516,8 @@ And then, Paste the URL of my Bitbucket repository here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image017.png?raw=true"
-   alt="git-test."
-   width="50%" />
+  alt="git-test."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="1.1527777777777777in"} -->
 
@@ -3654,8 +3654,8 @@ The content itself will be vertically divided into multiple rows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image052.png?raw=true"
-   alt="Bootstrap grid #3."
-   width="50%" />
+  alt="Bootstrap grid #3."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3738,8 +3738,8 @@ We\'ll see that in the next slide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image054.png?raw=true"
-   alt="Auto-layout columns."
-   width="50%" />
+  alt="Auto-layout columns."
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="2.678418635170604in"} -->
 
@@ -5237,8 +5237,8 @@ aboutus.html page, so this is the only way you can get to view the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
-   width="50%"
-   alt="Aboutus.html." />
+  width="50%"
+  alt="Aboutus.html." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
 
@@ -11974,8 +11974,8 @@ Many of these plugins are written in jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
-   width="50%"
-   alt="Bootstrap and javascript." />
+  width="50%"
+  alt="Bootstrap and javascript." />
 </p>
 <!-- {width="5.0in" height="1.726496062992126in"} -->
 
@@ -12142,8 +12142,8 @@ Let\'s take a look at Bootstrap jQuery example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
-   width="50%"
-   alt="JQuery syntax #2." />
+  width="50%"
+  alt="JQuery syntax #2." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
@@ -12324,8 +12324,8 @@ scrolling or unloading the document, you can respond to those events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
-   width="65%"
-   alt="JQuery events #2." />
+  width="65%"
+  alt="JQuery events #2." />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
@@ -12339,8 +12339,8 @@ any of these events there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
-   width="65%"
-   alt="Example: Bootstrap carousel." />
+  width="65%"
+  alt="Example: Bootstrap carousel." />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
@@ -12396,8 +12396,8 @@ items from left to right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.png?raw=true"
-   width="65%"
-   alt="Example: Carousel #2." />
+  width="65%"
+  alt="Example: Carousel #2." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12421,8 +12421,8 @@ And based on the occurrence of these events, you can respond.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.png?raw=true"
-   width="65%"
-   alt="Example: Carousel #3." />
+  width="65%"
+  alt="Example: Carousel #3." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12438,8 +12438,8 @@ completed the slide transition to the next item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
-   width="65%"
-   alt="Example: Carousel #4." />
+  width="65%"
+  alt="Example: Carousel #4." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12456,8 +12456,8 @@ are caused by your carousel\'s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image109.png?raw=true"
-   width="65%"
-   alt="Exercise: Bootstrap and JQuery." />
+  width="65%"
+  alt="Exercise: Bootstrap and JQuery." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -14017,7 +14017,7 @@ to save your changes with the message assignment four.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
-   width="50%"
+  width="50%"
   alt="Reserve a table." />
 </p>
 <!-- {width="5.0in" height="4.163497375328084in"} -->
@@ -14934,7 +14934,7 @@ Remember to use <i>sudo</i> on mac and Linux.
 "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
 ```
 
-Compressing and Minifying Images
+<h4>Compressing and Minifying Images</h4>
 
 -   We use the <i>imagemin-cli</i> NPM module to help us to compress our
     images to reduce the size of the images being used in our project.
@@ -16991,7 +16991,9 @@ development tasks.
 
 <h4>PDFs of Presentations</h4>
 
+```
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Task-Runners.pdf">10-Task-Runners.pdf (7 slides)</a>
+```
 
 <h4>Grunt Resources</h4>
 
@@ -17080,8 +17082,8 @@ development tasks.
 
 <h4>General Resources</h4>
 
--   [Node, Grunt, Bower and Yeoman - A Modern web dev\'s
-    Toolkit](http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
+-   [Node, Grunt, Bower and Yeoman - A Modern web dev\'s Toolkit]
+    (http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
 
 -   [The Advantages of Using Task
     Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/)
@@ -17149,7 +17151,9 @@ specialization.
 
 <h4>PDFs of Presentations</h4>
 
+```
 > <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
+```
 
 <!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
 
@@ -17225,4 +17229,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 3/31/2023 at 4:48pm ---->
+<!--- last updated: 4/9/2023 at 12:26am ---->
