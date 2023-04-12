@@ -62,7 +62,7 @@ body {
 
 /* list item styles */
 ul, ol {
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 ul.a {list-style-type: circle;}
@@ -80,10 +80,11 @@ ol.g {list-style-type: lower-latin;
     text-align: left;
     color: #555;
   }
+/* 350px */
 pre { 
-  width: 175px;
+  width: 350px;
   margin: 10px; padding: 10px;
-  color: #33fa10; background-color: #990000;
+  color: #ffffff; background-color: #013220;
   white-space: pre; text-shadow: 0 1px 0 #000;
   border-radius: 10px; border-bottom: 1px solid #555;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
