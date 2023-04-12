@@ -35,9 +35,9 @@ Instagram - https://www.instagram.com/thenetninja/
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coursera-web.bauska.net ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coursera-boot.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------------- Coursera logo ----------------------------------------->
+<!---------------------------------------- coursera logo ----------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/coursera-logo.png?raw=true"
@@ -16991,11 +16991,11 @@ development tasks.
 
 <h4>PDFs of Presentations</h4>
 
-```
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Task-Runners.pdf">10-Task-Runners.pdf (7 slides)</a>
-```
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Task-Runners.pdf">10-Task-Runners.pdf (7 slides)</a></li>
+</ul>
 
-<h4>Grunt Resources</h4>
+<h4>Grunt Resources</h4></li>
 
 -   [Grunt](http://gruntjs.com/)
 
@@ -17081,21 +17081,13 @@ development tasks.
 -   [JSHint](http://jshint.com/)
 
 <h4>General Resources</h4>
-
--   [Node, Grunt, Bower and Yeoman - A Modern web dev\'s Toolkit]
-    (http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/)
-
--   [The Advantages of Using Task
-    Runners](https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/)
-
--   [Gulp vs Grunt. Why one? Why the
-    Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
-
--   [Why we should stop using Grunt &
-    Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
-
--   [Why I Left Gulp and Grunt for npm
-    Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)
+<ul>
+  <li><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/">Node, Grunt, Bower and Yeoman - A Modern web dev&quot;s Toolkit</a><br></li>
+  <li><a href="https://www.dbswebsite.com/blog/2015/02/24/the-advantages-of-using-task-runners/">The Advantages of Using Task Runners</a><br></li>
+  <li><a href="https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4">Gulp vs Grunt. Why one? Why the Other?</a><br></li>
+  <li><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/">Why we should stop using Grunt &     Gulp</a><br></li>
+  <li><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8">Why I Left Gulp and Grunt for npm Scripts</a></li>
+</ul>
 
 <h4>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h4>
 
@@ -17152,7 +17144,7 @@ specialization.
 <h4>PDFs of Presentations</h4>
 
 ```
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
+<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
 ```
 
 <!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
@@ -17229,4 +17221,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 4/9/2023 at 12:26am ---->
+<!--- last updated: 4/12/2023 at 10:10am ---->
