@@ -60,7 +60,7 @@ body {
   }
 /* 3em */
 ul, ol {
-  margin-left:3%;
+  margin-left:2%;
 }
 
 <!-- list item styles -->
@@ -79,17 +79,14 @@ ol.g {list-style-type: lower-latin;
     text-align: left;
     color: #555;
   }
-  pre code {
-    line-height: 1.6em;
-    font-size: 11px;
-  }
-  pre {
-    padding: 0.1em 0.5em 0.3em 0.7em;
-    border-left: 11px solid #ccc;
-    margin: 1.7em 0 1.7em 0.3em;
-    overflow: auto;
-    width: 93%;
-  }
+pre { 
+	margin: 20px; padding: 20px; 
+	color: #aaa; background-color: #222;
+	white-space: pre; text-shadow: 0 1px 0 #000;
+	border-radius: 15px; border-bottom: 1px solid #555;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
+	font: 16px/24px 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	}
   /* target IE7 and IE6 */
   *:first-child+html pre {
     padding-bottom: 2em;
