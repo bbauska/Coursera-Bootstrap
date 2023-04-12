@@ -15,43 +15,43 @@ h2 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 20px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 h3 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 18px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 h4 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 16px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 h5 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 13px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 h6 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 10px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: center; }
 h7 {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 8px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 p {
   font-family: "Bahnschrift", "Inter", serif, "Helvetica";
   color: black;
   font-size: 15px;
-  margin-left: 3%;
+  margin-left: 2%;
   text-align: left; }
 
 body {
@@ -59,11 +59,12 @@ body {
   margin-left: 3px;
   }
 /* 3em */
+
+/* list item styles */
 ul, ol {
   margin-left:2%;
 }
 
-<!-- list item styles -->
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -80,13 +81,13 @@ ol.g {list-style-type: lower-latin;
     color: #555;
   }
 pre { 
-	margin: 20px; padding: 20px; 
-	color: #aaa; background-color: #222;
-	white-space: pre; text-shadow: 0 1px 0 #000;
-	border-radius: 15px; border-bottom: 1px solid #555;
-	box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
-	font: 16px/24px 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-	}
+  margin: 10px; padding: 10px;
+  color: #33fa10; background-color: #222;
+  white-space: pre; text-shadow: 0 1px 0 #000;
+  border-radius: 12px; border-bottom: 1px solid #555;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
+  font: 12px/16px 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  }
   /* target IE7 and IE6 */
   *:first-child+html pre {
     padding-bottom: 2em;
