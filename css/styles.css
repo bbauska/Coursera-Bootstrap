@@ -81,7 +81,7 @@ ol.g {list-style-type: lower-latin;
     color: #555;
   }
 pre { 
-  width: 50rem;
+  width: 300px;
   margin: 10px; padding: 10px;
   color: #33fa10; background-color: #222;
   white-space: pre; text-shadow: 0 1px 0 #000;
