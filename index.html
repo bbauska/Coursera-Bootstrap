@@ -8350,54 +8350,54 @@ tag in order to introduce a tooltip.</p>
   <li><p>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.</p></li>
 </ul>
 
-<pre>
-    &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
-        &lt;div class="modal-dialog modal-lg" role="content"&gt;
-            &lt;!-- Modal content--&gt;
-            &lt;div class="modal-content"&gt;
-                &lt;div class="modal-header"&gt;
-                    &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
-                    &lt;button type="button" class="close" data-dismiss="modal"&gt;&amp;times;&lt;/button&gt;
-                &lt;/div&gt;
-                &lt;div class="modal-body"&gt;
-                    &lt;form&gt;
-                        &lt;div class="form-row"&gt;
-                            &lt;div class="form-group col-sm-4"&gt;
-                                    &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
-                                    &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
-                            &lt;/div&gt;
-                            &lt;div class="form-group col-sm-4"&gt;
-                                &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
-                                &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
-                            &lt;/div&gt;
-                            &lt;div class="col-sm-auto"&gt;
-                                &lt;div class="form-check"&gt;
-                                    &lt;input class="form-check-input" type="checkbox"&gt;
-                                    &lt;label class="form-check-label"&gt; Remember me
-                                    &lt;/label&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;div class="form-row"&gt;
-                            &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
-                            &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;        
-                        &lt;/div&gt;
-                    &lt;/form&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
+<pre><code>
+  &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
+    &lt;div class="modal-dialog modal-lg" role="content"&gt;
+      &lt;!-- Modal content--&gt;
+      &lt;div class="modal-content"&gt;
+        &lt;div class="modal-header"&gt;
+          &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
+          &lt;button type="button" class="close" data-dismiss="modal"&gt;&amp;times;&lt;/button&gt;
         &lt;/div&gt;
+        &lt;div class="modal-body"&gt;
+          &lt;form&gt;
+            &lt;div class="form-row"&gt;
+              &lt;div class="form-group col-sm-4"&gt;
+                &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
+                &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+              &lt;/div&gt;
+              &lt;div class="form-group col-sm-4"&gt;
+                &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
+                &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+              &lt;/div&gt;
+              &lt;div class="col-sm-auto"&gt;
+                &lt;div class="form-check"&gt;
+                &lt;input class="form-check-input" type="checkbox"&gt;
+                &lt;label class="form-check-label"&gt; Remember me
+                &lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="form-row"&gt;
+          &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
+          &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;        
+        &lt;/div&gt;
+      &lt;/form&gt;
     &lt;/div&gt;
-</pre>
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</code></pre>
 
 <ul>
   <li><p>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the &lt;/ul&gt;:</p></li>
 </ul>
 
 <pre>
-                &lt;span class="navbar-text"&gt;
-                    &lt;a data-toggle="modal" data-target="#loginModal"&gt;
-                    &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;
-                &lt;/span&gt;
+  &lt;span class="navbar-text"&gt;
+    &lt;a data-toggle="modal" data-target="#loginModal"&gt;
+    &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;
+  &lt;/span&gt;
 </pre>
 
 <p>We are introducing another link to the right of the navbar using the <em>navbar-text</em>. This contains a link with an <em>&lt;a&gt;</em> tag with the <em>data-toggle="modal"</em> and <em>data-target="#loginModal"</em> attributes.</p>
@@ -8554,10 +8554,10 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-&lt;div class="row row-content"&gt;</b>
-  &lt;div class="col"&gt;</b>
-  &lt;/div&gt;</b>
-&lt;/div&gt;</b>
+  &lt;div class="row row-content"&gt;
+    &lt;div class="col"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 </pre>
 
 <h3>Adding a Carousel</h3>
@@ -8577,7 +8577,7 @@ allows us to manually scroll the carousel.</p>
   <li><p>Next add the content inside the carousel as follows:</p></li>
 </ul>
 
-<pre>
+<pre><code
 &lt;div class="carousel-inner" role="listbox"&gt;</b>
   &lt;div class="carousel-item active"&gt;</b>
     &lt;img class="d-block img-fluid"</b>
@@ -8594,7 +8594,7 @@ allows us to manually scroll the carousel.</p>
     . . .</b>
   &lt;/div&gt;</b>
 &lt;/div&gt;</b>
-</pre>
+</code></pre>
 
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
@@ -8606,19 +8606,18 @@ remaining parts from the content rows below.</p>
 </ul>
 
 <pre>
-.carousel {</b>
-    background:#512DA8;</b>
-}</b>
- </b>
-.carousel-item {</b>
-  height: 300px;</b>
-}</b>
-.carousel-item img {</b>
-    position: absolute;</b>
-    top: 0;</b>
-    left: 0;</b>
-    min-height: 300px;</b>
-}</b>
+  .carousel {
+    background:#512DA8;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
 </pre>
 
 <h3>Adding Carousel Controls</h3>
@@ -8628,24 +8627,25 @@ remaining parts from the content rows below.</p>
 </ul>
 
 <pre>
-&lt;ol class="carousel-indicators"&gt;</b>
-  &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;</b>
-    &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;</b>
-      &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;</b>
-&lt;/ol&gt;</b>
+  &lt;ol class="carousel-indicators"&gt;
+    &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+    &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;
+    &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;
+  &lt;/ol&gt;
 </pre>
 
 <ul>
   <li><p>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</p></li>
 </ul>
 
-<pre>
-&lt;a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"&gt;</b>
-  &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;</b>
-    &lt;/a&gt;</b>
-  &lt;a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"&gt;    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;</b>
-&lt;/a&gt;</b>
-</pre>
+<pre><code>
+  &lt;a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"&gt;
+    &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
+  &lt;/a&gt;
+    &lt;a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"&gt;
+    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
+  &lt;/a&gt;
+</code></pre>
 
 <ul>
   <li><p>Do a Git commit with the message "Carousel".</p></li>
@@ -9551,9 +9551,9 @@ to:</p>
 </ul>
 
 <pre>
-&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;</b>
-&lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;</b>
-&lt;/button&gt;</b>
+  &lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;
+  &lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;
+  &lt;/button&gt;
 </pre>
 
 <p>We are adding a single button inside a button group with the ID
@@ -9566,20 +9566,20 @@ based on the current behavior of the carousel.</p>
   <li><p>Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:</p></li>
 </ul>
 
-<pre>
-$("#carouselButton").click(function(){</b>
-  if ($("#carouselButton").children("span").hasClass('fa-pause')) {</b>
-   $("#mycarousel").carousel('pause');</b>
-   $("#carouselButton").children("span").removeClass('fa-pause');</b>
-   $("#carouselButton").children("span").addClass('fa-play');</b>
-}</b>
-else if ($("#carouselButton").children("span").hasClass('fa-play')){</b>
-   $("#mycarousel").carousel('cycle');</b>
-   $("#carouselButton").children("span").removeClass('fa-play');</b>
-   $("#carouselButton").children("span").addClass('fa-pause');                    </b>
-}</b>
-});</b>
-</pre>
+<pre><code
+  $("#carouselButton").click(function(){
+    if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+      $("#mycarousel").carousel('pause');
+      $("#carouselButton").children("span").removeClass('fa-pause');
+      $("#carouselButton").children("span").addClass('fa-play');
+  }
+    else if ($("#carouselButton").children("span").hasClass('fa-play')){
+      $("#mycarousel").carousel('cycle');
+      $("#carouselButton").children("span").removeClass('fa-play');
+      $("#carouselButton").children("span").addClass('fa-pause');
+    }
+  });
+</code></pre>
 
 <ul>
   <li><p>Do a Git commit with the message "More Bootstrap JQuery".</p></li>
@@ -9881,14 +9881,13 @@ of this exercise you will be able to:</p>
 </ul>
 
 <pre>
-@lt-gray: #ddd;</b>
-@background-dark: #512DA8;</b>
-@background-light: #9575CD;</b>
-@background-pale: #D1C4E9;</b>
- </b>
-// Height variables</b>
-@carousel-item-height: 300px;</b>
- </b>
+  @lt-gray: #ddd;
+  @background-dark: #512DA8;
+  @background-light: #9575CD;
+  @background-pale: #D1C4E9;
+ 
+  // Height variables
+  @carousel-item-height: 300px;
 </pre>
 
 <p>We have just added a few color and a height variable. We will make
@@ -9901,11 +9900,10 @@ use of these variables while defining the classes.</p>
 </ul>
 
 <pre>
-.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {</b>
-    margin:0px auto;</b>
-    padding: @pad-up-dn @pad-left-right;</b>
-}</b>
- </b>
+  .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+    margin:0px auto;
+    padding: @pad-up-dn @pad-left-right;
+  }
 </pre>
 
 <p>We will make use of this to define several row classes next.</p>
@@ -9914,48 +9912,41 @@ use of these variables while defining the classes.</p>
   <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
 
-<pre>
-address{
+<pre><code>
+  address {
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
-}
- 
-body{
+  }
+  body{
     padding:50px 0px 0px 0px;
     z-index:0;
-}
- 
-.navbar-dark {
+  }
+  .navbar-dark {
      background-color: @background-dark;
-}
- 
-.tab-content {
+  }
+  .tab-content {
     border-left: 1px solid @lt-gray;
     border-right: 1px solid @lt-gray;
     border-bottom: 1px solid @lt-gray;
     color:floralwhite;
-}
- 
-.jumbotron {
+  }
+  .jumbotron {
     .zero-margin(70px,30px);
     background: @background-light ;
-}
- 
-.footer{
+  }
+  .footer{
     background-color: @background-pale;
     .zero-margin(20px, 0px);
     min-height:400px;
-}
- 
+  }
     .zero-margin(50px,0px);
     border-bottom: 1px ridge;
-}
- 
-.row-content {
-.row-header{
+  }
+  .row-content {
+  .row-header{
     .zero-margin();
-</pre>
+</code></pre>
 
 <p>Note the use of the variables and the mixin with various parameters
 in defining the classes.</p>
@@ -9966,28 +9957,28 @@ in defining the classes.</p>
   <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:</p></li>
 </ul>
 
-<pre>
-.carousel {
+<pre><code>
+  .carousel {
     background:@background-dark;
  
     .carousel-item {
-        height: @carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
+      height: @carousel-item-height;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+      }
     }
-}
- 
-#carouselButton {
+  }
+
+  #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
-}
-</pre>
+  }
+</code></pre>
 
 <h3>Installing and using the lessc Compiler</h3>
 
@@ -9996,8 +9987,7 @@ in defining the classes.</p>
 </ul>
 
 <pre>
-     npm install -g less@2.7.2
- 
+$ npm install -g less@2.7.2
 </pre>
 
 <p>This will install the <em>less</em> NPM module globally so that it
@@ -10012,8 +10002,7 @@ compiler for us so that we can compile Less files.</p>
 </ul>
 
 <pre>
-     lessc styles.less styles.css
- 
+  lessc styles.less styles.css
 </pre>
 
 <ul>
@@ -10137,16 +10126,15 @@ of this exercise you will be able to:</p>
   <li><p>Add the following Scss variables into the file:</p></li>
 </ul>
 
-<pre>
-$lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+<pre><code>
+  $lt-gray: #ddd;
+  $background-dark: #512DA8;
+  $background-light: #9575CD;
+  $background-pale: #D1C4E9;
  
-// Height variables
-$carousel-item-height: 300px;
- 
-</pre>
+  // Height variables
+  $carousel-item-height: 300px;
+</code></pre>
 
 <p>We have just added a few color and a height variable. We will make
 use of these variables while defining the classes.</p>
@@ -10157,13 +10145,12 @@ use of these variables while defining the classes.</p>
   <li><p>Next we add a mixin into the file as follows:</p></li>
 </ul>
 
-<pre>
-@mixin zero-margin($pad-up-dn, $pad-left-right) {
-    margin:0px auto;
-    padding: $pad-up-dn $pad-left-right;
-}
- 
-</pre>
+<pre><code>
+  @mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin:0px auto;
+    padding: $pad-up-dn $pad-left-right;
+  }
+</code></pre>
 
 <p>We will make use of this to define several row classes next.</p>
 
@@ -10171,48 +10158,48 @@ use of these variables while defining the classes.</p>
   <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
 
-<pre>
-.row-header{
+<pre><code>
+  .row-header{
     @include zero-margin(0px,0px);
-}
+  }
  
-.row-content {
+  .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
     min-height:400px;
-}
+  }
  
-.footer{
+  .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
-}
+  }
  
-.jumbotron {
+  .jumbotron {
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
-}
+  }
  
-address{
+  address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
-}
+  }
  
-body{
+  body{
     padding:50px 0px 0px 0px;
     z-index:0;
-}
+  }
  
-.navbar-dark {
-     background-color: $background-dark;
-}
+  .navbar-dark {
+    background-color: $background-dark;
+  }
  
-.tab-content {
+  .tab-content {
     border-left: 1px solid $lt-gray;
     border-right: 1px solid $lt-gray;
     border-bottom: 1px solid $lt-gray;
-</pre>
+</code></pre>
 
 <p>Note the use of the variables and the mixin with various parameters in defining the classes.</p>
 
@@ -10222,7 +10209,7 @@ body{
   <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</p></li>
 </ul>
 
-<pre>
+<pre><code>
 .carousel {
     background:$background-dark;
  
@@ -10243,7 +10230,7 @@ body{
     bottom: 0px;
     z-index: 1;
 }
-</pre>
+</code></pre>
 
 <h3>Installing and using the node-sass module</h3>
 
@@ -10619,8 +10606,8 @@ $ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 </ul>
 
 <pre>
-    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+  "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+  "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
 </pre>
 
 <ul>
@@ -10637,7 +10624,7 @@ $ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 </ul>
 
 <pre>
-    "start": "npm run watch:all",
+  "start": "npm run watch:all",
 </pre>
 
 <ul>
@@ -11056,7 +11043,7 @@ $ npm -g install copyfiles@2.0.0
 </ul>
 
 <pre>
-    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+  "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
 </pre>
 
 <p>Compressing and Minifying Images</p>
@@ -11101,7 +11088,7 @@ dist
 </ul>
 
 <pre>
-npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
+$ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7
 </pre>
 
 <ul>
