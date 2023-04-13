@@ -80,16 +80,17 @@ ol.g {list-style-type: lower-latin;
     text-align: left;
     color: #555;
   }
-/* 350px */
-pre { 
-  width: 450px;
-  margin: 10px; padding: 10px;
-  color: #ffffff; background-color: #013220;
-  white-space: pre; text-shadow: 0 1px 0 #000;
-  border-radius: 10px; border-bottom: 1px solid #555;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
-  font: 12px/14px 'Inter', Consolus, 'Courier New', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-  }
+pre {
+  width: 40%;
+  max-height: 400px;
+  color: #444;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  word-wrap: normal;
+  overflow: auto;
+}
   /* target IE7 and IE6 */
   *:first-child+html pre {
     padding-bottom: 2em;
