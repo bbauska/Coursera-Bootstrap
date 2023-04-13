@@ -81,8 +81,8 @@ ol.g {list-style-type: lower-latin;
     color: #555;
   }
 pre {
-  width: 40%;
-  max-height: 400px;
+  width: 60%;  /* 40% */
+  max-height: 400px;  /* 400px; */
   color: #444;
   padding: 10px;
   background: #eee;
