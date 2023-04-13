@@ -11632,8 +11632,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
   <li>After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:</li>
 </ul>
 
-<pre>
-,
+<pre>,
     watch: {
         files: 'css/*.scss',
         tasks: ['sass']
@@ -11654,24 +11653,19 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
                 }
             }
         }
-    }
-</pre>
+    }</pre>
 
 <ul>
   <li><p>Then add the following task to the Grunt file:</p></li>
 </ul>
 
-<pre>
-  grunt.registerTask('default', ['browserSync', 'watch']);
-</pre>
+<pre>  grunt.registerTask('default', ['browserSync', 'watch']);</pre>
 
 <ul>
   <li><p>Now if you type the following at the command prompt, it will start the server, and open the web page in your default browser. It will also keep a watch on the files in the css folder, and if you update any of them, it will compile the scss file into css file and load the updated page into the browser (livereload)</p></li>
 </ul>
 
-<pre>
-$ grunt
-</pre>
+<pre>$ grunt</pre>
 
 <ul>
   <li><p>Do a Git commit with the message "Grunt Part 1".</p></li>
@@ -12037,12 +12031,9 @@ looks just fine.</p>
 
 <h3>Objectives and Outcomes</h3>
 
-<p>In this exercise, you will continue to learn to use Grunt, the task
-runner.</p>
-<p>You will configure the Grunt file with a set of additional tasks to
-build your web project.</p>
-<p><b>At the end of this exercise, you will be able
-to:</b></p>
+<p>In this exercise, you will continue to learn to use Grunt, the task runner.</p>
+<p>You will configure the Grunt file with a set of additional tasks to  build your web project.</p>
+<p><b>At the end of this exercise, you will be able to:</b></p>
 
 <ul>
   <li><p>Configure a Grunt file with a set of tasks to build your web project from a source.</p></li>
@@ -12054,17 +12045,14 @@ to:</b></p>
   <li><p>Next you will install the Grunt modules to copy over files to a distribution folder named dist, and clean up the dist folder when needed. To do this, install the following Grunt modules:</p></li>
 </ul>
 
-<pre>
-npm install grunt-contrib-copy@1.0.0 --save-dev
-npm install grunt-contrib-clean@1.1.0 --save-dev
-</pre>
+<pre>$ npm install grunt-contrib-copy@1.0.0 --save-dev
+$ npm install grunt-contrib-clean@1.1.0 --save-dev</pre>
 
 <ul>
   <li><p>You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <em>Gruntfile.js</em>. This should be added right after the configuration of the SASS task.:</p></li>
 </ul>
 
-<pre>
-,
+<pre>,
   copy: {
       html: {
           files: [
@@ -12094,8 +12082,7 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
       build: {
           src: [ 'dist/']
       }
-  }
-</pre>
+  }</pre>
 
 <ul>
   <li><p>Remember to add the comma after the end of the SASS task.</p></li>
@@ -12107,16 +12094,13 @@ npm install grunt-contrib-clean@1.1.0 --save-dev
   <li>Next we install the grunt-contrib-imagemin module and use it to process the images. To install this module type at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install grunt-contrib-imagemin@2.0.1 --save-dev
-</pre>
+<pre>$ npm install grunt-contrib-imagemin@2.0.1 --save-dev</pre>
 
 <ul>
   <li>Then, configure the imagemin task as shown below in the Gruntfile:</li>
 </ul>
 
-<pre>
-,
+<pre>,
   imagemin: {
       dynamic: {
           files: [{
@@ -12126,8 +12110,7 @@ $ npm install grunt-contrib-imagemin@2.0.1 --save-dev
               dest: 'dist/'                  // Destination path prefix
           }]
       }
-  }
-</pre>
+  }</pre>
 
 <h3>Preparing the Distribution Folder and Files</h3>
 
@@ -12135,21 +12118,18 @@ $ npm install grunt-contrib-imagemin@2.0.1 --save-dev
   <li><p>We are now going to use the Grunt <em>usemin</em> module together with <em>concat</em>, <em>cssmin</em>, <em>uglify</em> and <em>filerev</em> to prepare the distribution folder. To do this, install the following Grunt modules:</p></li>
 </ul>
 
-<pre>
-$ npm install grunt-contrib-concat@1.0.1 --save-dev
+<pre>$ npm install grunt-contrib-concat@1.0.1 --save-dev
 $ npm install grunt-contrib-cssmin@2.2.1 --save-dev
 $ npm install grunt-contrib-htmlmin@2.4.0 --save-dev
 $ npm install grunt-contrib-uglify@3.3.0 --save-dev
 $ npm install grunt-filerev@2.3.1 --save-dev
-$ npm install grunt-usemin@3.1.1 --save-dev
-</pre>
+$ npm install grunt-usemin@3.1.1 --save-dev</pre>
 
 <ul>
   <li><p>Next, update the task configuration within the Gruntfile.js with the following additional code to introduce the new tasks:</p></li>
 </ul>
 
-<pre>
-,
+<pre>,
     useminPrepare: {
         foo: {
             dest: 'dist',
@@ -12184,25 +12164,21 @@ $ npm install grunt-usemin@3.1.1 --save-dev
         dist: {}
     },
     // Uglify
-    uglify: {
-</pre>
+    uglify: {</pre>
 
 <ul>
   <li>Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:</li>
 </ul>
 
-<pre>
-  require('jit-grunt')(grunt, {
+<pre>  require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin'
-  });
-</pre>
+  });</pre>
 
 <ul>
   <li>Next, update the Grunt build task as follows:</li>
 </ul>
 
-<pre>
-  grunt.registerTask('build', [
+<pre>  grunt.registerTask('build', [
       'clean',
       'copy',
       'imagemin',
@@ -12213,16 +12189,13 @@ $ npm install grunt-usemin@3.1.1 --save-dev
       'filerev',
       'usemin',
       'htmlmin'
-  ]);
-</pre>
+  ]);</pre>
 
 <ul>
   <li><p>Now if you run Grunt, it will create a dist folder with the files structured correctly to be distributed to a server to host your website. To do this, type the following at the prompt:</p></li>
 </ul>
 
-<pre>
-$ grunt build
-</pre>
+<pre>$ grunt build</pre>
 
 <h3>Conclusions</h3>
 
@@ -12427,9 +12400,7 @@ web project. At the end of this exercise, you will be able to:</p>
   <li>At the command prompt, type the following to install Gulp command-line interface (CLI) globally:</li>
 </ul>
 
-<pre>
-$ npm install -g gulp-cli@2.0.1
-</pre>
+<pre>$ npm install -g gulp-cli@2.0.1</pre>
 
 <p>This will install the Gulp globally so that you can use it in all projects.</p>
 
@@ -12437,9 +12408,7 @@ $ npm install -g gulp-cli@2.0.1
   <li>Next install Gulp to use within your project. To do this, go to the <em>conFusion</em> folder and type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install gulp@3.9.1 --save-dev
-</pre>
+<pre>$ npm install gulp@3.9.1 --save-dev</pre>
 
 <p>This will install local per-project Gulp to use within your project.</p>
 
@@ -12449,9 +12418,7 @@ $ npm install gulp@3.9.1 --save-dev
   <li>Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:</li>
 </ul>
 
-<pre>
-$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
-</pre>
+<pre>$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev</pre>
 
 <h3>Creating a Gulp File</h3>
 
@@ -12465,13 +12432,11 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
   <li>Load in all the Gulp plugins by including the following code in the Gulp file:</li>
 </ul>
 
-<pre>
-'use strict';
+<pre>'use strict';
 
   var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync');
-</pre>
+    browserSync = require('browser-sync');</pre>
 
 <h3>Adding Gulp Tasks for SASS and Browser-Sync</h3>
 
@@ -12479,8 +12444,7 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
   <li>Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:</li>
 </ul>
 
-<pre>
-gulp.task('sass', function () {
+<pre>gulp.task('sass', function () {
   return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
@@ -12509,8 +12473,7 @@ gulp.task('browser-sync', function () {
 // Default task
 gulp.task('default', ['browser-sync'], function() {
     gulp.start('sass:watch');
-});
-</pre>
+});</pre>
 
 <ul>
   <li>Save the Gulp file</li>
@@ -12522,9 +12485,7 @@ gulp.task('default', ['browser-sync'], function() {
   <li>At the command prompt, if you type <em>gulp</em> it will run the default task:</li>
 </ul>
 
-<pre>
-$ gulp
-</pre>
+<pre>$ gulp</pre>
 
 <ul>
   <li>Do a Git commit with the message "Gulp Part 1".</li>
@@ -12555,19 +12516,16 @@ build and serve your web project.</p>
   <li>We will now create the tasks for copying the font files and cleaning up the distribution folder. To do this we will first install the <em>del</em> Node module and require it in the Gulp file as follows:</li>
 </ul>
 
-<pre>
-$ npm install del@3.0.0 --save-dev
+<pre>$ npm install del@3.0.0 --save-dev
   var ...
     del = require('del'),
-    ...
-</pre>
+    ...</pre>
 
 <ul>
   <li>Next, we will add the code for the Clean task and the copyfonts task as follows:</li>
 </ul>
 
-<pre>
-// Clean
+<pre>// Clean
 gulp.task('clean', function() {
     return del(['dist']);
 });
@@ -12575,8 +12533,7 @@ gulp.task('clean', function() {
 gulp.task('copyfonts', function() {
    gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
    .pipe(gulp.dest('./dist/fonts'));
-});
-</pre>
+});</pre>
 
 <h3>Compressing and Minifying Images</h3>
 
@@ -12584,25 +12541,21 @@ gulp.task('copyfonts', function() {
   <li>We will now install the <em>gulp-imagemin</em> plugin and configure the <em>imagemin</em> task. To do this we install the plugin and require it as follows:</li>
 </ul>
 
-<pre>
-$ npm install gulp-imagemin@4.1.0 --save-dev
+<pre>$ npm install gulp-imagemin@4.1.0 --save-dev
   var ...
     imagemin = require('gulp-imagemin'),
-    ...
-</pre>
+    ...</pre>
 
 <ul>
   <li>Next, we create the <em>imagemin</em> task as follows:</li>
 </ul>
 
-<pre>
-// Images
+<pre>// Images
 gulp.task('imagemin', function() {
   return gulp.src('img/*.{png,jpg,gif}')
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
     .pipe(gulp.dest('dist/img'));
-});
-</pre>
+});</pre>
 
 <h4>Preparing the Distribution Folder and Files</h4>
 
@@ -12610,8 +12563,7 @@ gulp.task('imagemin', function() {
   <li>We now install the gulp-usemin and other related Gulp plugins and require them as follows:</li>
 </ul>
 
-<pre>
-npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
+<pre>npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
  
 var ...
   uglify = require('gulp-uglify'),
@@ -12619,15 +12571,13 @@ var ...
   rev = require('gulp-rev'),
   cleanCss = require('gulp-clean-css'),
   flatmap = require('gulp-flatmap'),
-  htmlmin = require('gulp-htmlmin');
-</pre>
+  htmlmin = require('gulp-htmlmin');</pre>
 
 <ul>
   <li>We configure the usemin and the build task as follows:</li>
 </ul>
 
-<pre>
-gulp.task('usemin', function() {
+<pre>gulp.task('usemin', function() {
 return gulp.src('./*.html')
   .pipe(flatmap(function(stream, file){
       return stream
@@ -12644,8 +12594,7 @@ return gulp.src('./*.html')
  
 gulp.task('build',['clean'], function() {
     gulp.start('copyfonts','imagemin','usemin');
-});
-</pre>
+});</pre>
 
 <ul>
   <li>Save the Gulp file</li>
