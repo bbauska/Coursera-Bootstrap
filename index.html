@@ -692,7 +692,7 @@ $ git log --oneline
   <li>Now, modify the index.html file as follows:</li>
 </ul>
 
-<pre><code>
+<pre>
     &lt;!DOCTYPE html&gt;
     &lt;html&gt;
       &lt;head&gt;&lt;/head&gt;
@@ -702,7 +702,7 @@ $ git log --oneline
         &lt;p&gt;This is a paragraph&lt;/p&gt;
       &lt;/body&gt;
     &lt;/html&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <em>test.html</em> to the templates folder. Then set the contents of this file to be the same as the <em>index.html</em> file above.</li>
@@ -5564,13 +5564,13 @@ you will be able to:</p>
   <li>We are now going to add content to <em>contactus.html</em> file to learn more about buttons and button bars. Go to the div where we specify "Button group goes here", and replace it with the following code to create a button bar containing three buttons:</li>
 </ul>
 
-<pre><code>
-                &lt;div class="btn-group" role="group"&gt;
-                    &lt;a role="button" class="btn btn-primary" href="tel:+85212345678"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;
-                    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;
-                    &lt;a role="button" class="btn btn-success" href="mailto:confusion@food.net"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;
-                &lt;/div&gt;
-</code></pre>
+<pre>
+  &lt;div class="btn-group" role="group"&gt;
+    &lt;a role="button" class="btn btn-primary" href="tel:+85212345678"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;
+    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;
+    &lt;a role="button" class="btn btn-success" href="mailto:confusion@food.net"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;
+  &lt;/div&gt;
+</pre>
 
 <p>Note how we define the button bar using the <em>btn-group</em> class,
 and then add the three buttons using the <em>&lt;a&gt;</em> tag. In this
@@ -8350,7 +8350,7 @@ tag in order to introduce a tooltip.</p>
   <li><p>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page.</p></li>
 </ul>
 
-<pre><code>
+<pre>
   &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
     &lt;div class="modal-dialog modal-lg" role="content"&gt;
       &lt;!-- Modal content--&gt;
@@ -8387,7 +8387,7 @@ tag in order to introduce a tooltip.</p>
     &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li><p>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar after the &lt;/ul&gt;:</p></li>
@@ -8577,24 +8577,24 @@ allows us to manually scroll the carousel.</p>
   <li><p>Next add the content inside the carousel as follows:</p></li>
 </ul>
 
-<pre><code
-&lt;div class="carousel-inner" role="listbox"&gt;</b>
-  &lt;div class="carousel-item active"&gt;</b>
-    &lt;img class="d-block img-fluid"</b>
-      src="img/uthappizza.png" alt="Uthappizza"&gt;</b>
-      &lt;div class="carousel-caption d-none d-md-block"&gt;</b>
-        &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;</b>
-        . . .</b>
-        &lt;/div&gt;</b>
-      &lt;/div&gt;</b>
-    &lt;div class="carousel-item"&gt;</b>
-    . . .</b>
-    &lt;/div&gt;</b>
-    &lt;div class="carousel-item"&gt;</b>
-    . . .</b>
-  &lt;/div&gt;</b>
-&lt;/div&gt;</b>
-</code></pre>
+<pre>
+  &lt;div class="carousel-inner" role="listbox"&gt;
+    &lt;div class="carousel-item active"&gt;
+      &lt;img class="d-block img-fluid"
+        src="img/uthappizza.png" alt="Uthappizza"&gt;
+        &lt;div class="carousel-caption d-none d-md-block"&gt;
+                    &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;
+          . . .
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="carousel-item"&gt;
+      . . .
+    &lt;/div&gt;
+    &lt;div class="carousel-item"&gt;
+      . . .
+    &lt;/div&gt;
+  &lt;/div&gt;
+</pre>
 
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
@@ -8638,14 +8638,14 @@ remaining parts from the content rows below.</p>
   <li><p>Then, add the left and right controls to the carousel that enable us to move to the previous and next slide manually. Add this to the bottom of the carousel div:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   &lt;a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"&gt;
     &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
   &lt;/a&gt;
     &lt;a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"&gt;
     &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
   &lt;/a&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li><p>Do a Git commit with the message "Carousel".</p></li>
@@ -8710,13 +8710,11 @@ end of the index.html page to trigger the tool tip.</p>
 <p>Doing that, and then make this Reserve Table button act as the toggle
 for your model.</p>
 <p>That is your third task in this assignment.</p>
-<p>Hope you enjoyed creating this new variation of the index.html
-page.</p>
+<p>Hope you enjoyed creating this new variation of the index.html page.</p>
 
 <h3>Assignment 3: Resources</h3>
 
 <h3>Assignment Screenshots</h3>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. assignment screenshot: task 1 (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9566,7 +9564,7 @@ based on the current behavior of the carousel.</p>
   <li><p>Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:</p></li>
 </ul>
 
-<pre><code
+<pre>
   $("#carouselButton").click(function(){
     if ($("#carouselButton").children("span").hasClass('fa-pause')) {
       $("#mycarousel").carousel('pause');
@@ -9579,7 +9577,7 @@ based on the current behavior of the carousel.</p>
       $("#carouselButton").children("span").addClass('fa-pause');
     }
   });
-</code></pre>
+</pre>
 
 <ul>
   <li><p>Do a Git commit with the message "More Bootstrap JQuery".</p></li>
@@ -9912,7 +9910,7 @@ use of these variables while defining the classes.</p>
   <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   address {
     font-size:80%;
     margin:0px;
@@ -9946,7 +9944,7 @@ use of these variables while defining the classes.</p>
   .row-content {
   .row-header{
     .zero-margin();
-</code></pre>
+</pre>
 
 <p>Note the use of the variables and the mixin with various parameters
 in defining the classes.</p>
@@ -9957,7 +9955,7 @@ in defining the classes.</p>
   <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   .carousel {
     background:@background-dark;
  
@@ -9971,14 +9969,13 @@ in defining the classes.</p>
       }
     }
   }
-
   #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
   }
-</code></pre>
+</pre>
 
 <h3>Installing and using the lessc Compiler</h3>
 
@@ -10002,7 +9999,7 @@ compiler for us so that we can compile Less files.</p>
 </ul>
 
 <pre>
-  lessc styles.less styles.css
+$ lessc styles.less styles.css
 </pre>
 
 <ul>
@@ -10126,7 +10123,7 @@ of this exercise you will be able to:</p>
   <li><p>Add the following Scss variables into the file:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   $lt-gray: #ddd;
   $background-dark: #512DA8;
   $background-light: #9575CD;
@@ -10134,7 +10131,7 @@ of this exercise you will be able to:</p>
  
   // Height variables
   $carousel-item-height: 300px;
-</code></pre>
+</pre>
 
 <p>We have just added a few color and a height variable. We will make
 use of these variables while defining the classes.</p>
@@ -10145,12 +10142,12 @@ use of these variables while defining the classes.</p>
   <li><p>Next we add a mixin into the file as follows:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   @mixin zero-margin($pad-up-dn, $pad-left-right) {
     margin:0px auto;
     padding: $pad-up-dn $pad-left-right;
   }
-</code></pre>
+</pre>
 
 <p>We will make use of this to define several row classes next.</p>
 
@@ -10158,48 +10155,41 @@ use of these variables while defining the classes.</p>
   <li><p>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</p></li>
 </ul>
 
-<pre><code>
+<pre>
   .row-header{
     @include zero-margin(0px,0px);
   }
- 
   .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
     min-height:400px;
   }
- 
   .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
   }
- 
   .jumbotron {
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
   }
- 
   address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
   }
- 
   body{
     padding:50px 0px 0px 0px;
     z-index:0;
   }
- 
   .navbar-dark {
     background-color: $background-dark;
   }
- 
   .tab-content {
     border-left: 1px solid $lt-gray;
     border-right: 1px solid $lt-gray;
     border-bottom: 1px solid $lt-gray;
-</code></pre>
+</pre>
 
 <p>Note the use of the variables and the mixin with various parameters in defining the classes.</p>
 
@@ -10209,7 +10199,7 @@ use of these variables while defining the classes.</p>
   <li><p>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</p></li>
 </ul>
 
-<pre><code>
+<pre>
 .carousel {
     background:$background-dark;
  
@@ -10230,7 +10220,7 @@ use of these variables while defining the classes.</p>
     bottom: 0px;
     z-index: 1;
 }
-</code></pre>
+</pre>
 
 <h3>Installing and using the node-sass module</h3>
 
@@ -11023,7 +11013,7 @@ $ npm install --save-dev rimraf@2.6.2
 </ul>
 
 <pre>
-    "clean": "rimraf dist",
+  "clean": "rimraf dist",
 </pre>
 
 <h3>Copying Fonts</h3>
@@ -11096,9 +11086,8 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
 </ul>
 
 <pre>
-    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html &amp;&amp; usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html &amp;&amp; usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean &amp;&amp; npm run imagemin &amp;&amp; npm run copyfonts &amp;&amp; npm run usemin"
- 
+  "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html &amp;&amp; usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html &amp;&amp; usemin index.html -d dist --htmlmin -o dist/index.html",
+  "build": "npm run clean &amp;&amp; npm run imagemin &amp;&amp; npm run copyfonts &amp;&amp; npm run usemin"
 </pre>
 
 <ul>
@@ -11120,12 +11109,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
 </ul>
 
 <pre>
-    &lt;!-- build:js js/main.js --&gt;
-    &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
-    &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
-    &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
-    &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
-    &lt;!-- endbuild --&gt;
+ &lt;!-- build:js js/main.js --&gt;
+ &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
+ &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
+ &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+ &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+ &lt;!-- endbuild --&gt;
 </pre>
 
 <ul>
@@ -11151,8 +11140,8 @@ $ npm run build
 <h3>PDFs of Presentations</h3>
 
 <ul>
-  <li><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/10-Building-Deployment.pdf" target="_blank" rel="noopener noreferrer">10-Building-Deployment.pdf</a><br></li>
-  <li><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/10-NPM-Scripts.pdf" target="_blank" rel="noopener noreferrer">10-NPM-Scripts.pdf</a><br></li>
+  <li><p><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/10-Building-Deployment.pdf" target="_blank" rel="noopener noreferrer">10-Building-Deployment.pdf</a></p></li>
+  <li><p><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/10-NPM-Scripts.pdf" target="_blank" rel="noopener noreferrer">10-NPM-Scripts.pdf</a></p></li>
 </ul>
 
 <h3>Additional Resources</h3>
@@ -12754,7 +12743,7 @@ reaching the final goal.</p>
 <h3>3. Conclusions</h3>
 
 <ul>
-  <li>Briefly state what results you obtained from your project.</li>
+  <li>Briefly state what results you obtained from your project.<br></li>
   <li>Discuss any features and shortcomings of the project.</li>
   <li>Discuss any choices that you might have made differently, in hindsight after completing the project.</li>
 </ul>
@@ -12767,8 +12756,7 @@ reaching the final goal.</p>
 
 <p>…the end</p>
 <!-- Green jobs -->
-
 </body>
 
-<!-- last updated 4/12/23 8:29pm -->
+<!-- last updated 4/14/23 11:06am -->
 </html>
