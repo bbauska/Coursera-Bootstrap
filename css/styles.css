@@ -1,8 +1,44 @@
+html *
+{
+  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
+  margin-left: 10px;
+}
 h1 {
   font-size: 22px;
   color: red;
   text-align: center;
-  font-family: "Bahnschrift", serif, "Helvetica";
+h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: left; }
+h3 {
+  font-size: 18px;
+  margin-left: 10px;
+  text-align: left; }
+h4 {
+  font-size: 16px;
+  margin-left: 10px;
+  text-align: left; }
+h5 {
+  font-size: 13px;
+  margin-left: 10px;
+  text-align: left; }
+h6 {
+  font-size: 10px;
+  margin-left: 10px;
+  text-align: center; }
+h7 {
+  font-size: 8px;
+  margin-left: 10px;
+  text-align: left; }
+p {
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: left; }
+body {
+  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
+  margin-left: 10px;
+  }
 }
 img.displayed {
   display: block;
@@ -11,55 +47,7 @@ img.displayed {
     border-width: 1px;
     border-color: #778899;
     border-style: solid; }
-h2 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 20px;
-  margin-left: 10px;
-  text-align: left; }
-h3 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 18px;
-  margin-left: 10px;
-  text-align: left; }
-h4 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 16px;
-  margin-left: 10px;
-  text-align: left; }
-h5 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 13px;
-  margin-left: 10px;
-  text-align: left; }
-h6 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 10px;
-  margin-left: 10px;
-  text-align: center; }
-h7 {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 8px;
-  margin-left: 10px;
-  text-align: left; }
-p {
-  font-family: "Bahnschrift", "Inter", serif, "Helvetica";
-  color: black;
-  font-size: 15px;
-  margin-left: 10px;
-  text-align: left; }
-
-body {
-  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
-  margin-left: 10px;
-  }
 /* 3em */
-
 /* list item styles */
 ul, ol {
   margin-left: 10px;
@@ -81,8 +69,9 @@ ol.g {list-style-type: lower-latin;
     color: #555;
   }
 pre {
-  width: 70%;  /* 40% */
-  max-height: 500px;  /* 400px; */
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  width: 64%;  /* 40% */
+  max-height: 300px;  /* 400px; */
   color: #444;
   padding: 10px;
   background: #eee;
@@ -91,7 +80,7 @@ pre {
   word-wrap: normal;
   overflow: auto;
 }
-  /* target IE7 and IE6 */
+  /* target IE7 and IE6 - the chumps who wrote IE are the worst kind of programmers. */
   *:first-child+html pre {
     padding-bottom: 2em;
     overflow-y: hidden;
