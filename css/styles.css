@@ -64,21 +64,37 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: "📍";
+  content: "✔️";
+  list-style-position: outside;
   display: inline-block;
   margin-right: 0.2rem;
 }
 ul ul li::before {
-  content: "✔️";
+  content: "👉";
 }
 ul ul ul li::before {
   content: "➕";
 }
 /* 
+ content: "📍";
+ content: "✔️";
+ ul.a {
+  list-style-position: outside;
+}
+.a-checkpoint-list > ul {
+    list-style-image: url('http://i.stack.imgur.com/LaaDU.png');
+}
+.a-checkpoint-list{
+  list-style-image: url("images/Checkbox.png");
+  list-style-type: none;
+  padding-left: 12px;
+  font-size:12px;
+  text-align:center;
+  }
 Syntax: list-style-type: <value>
 Possible Values: disc | circle | square | decimal | lower-roman | upper-roman | lower-alpha | upper-alpha | none
 Newer Syntax:
-👉  🇸🇪  ❌ "📍";➕📌
+👉, 🇸🇪, ❌, 📍, ➕, 📌
 ul li::marker {
   content: "✅ ";
 }
