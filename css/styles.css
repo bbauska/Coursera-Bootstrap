@@ -1,6 +1,6 @@
 html *
 {
-  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
+  font-family: "Bahnschrift", Consolas, Calibri, Verdana, sans-serif;
   margin-left: 10px;
 }
 h1 {
@@ -33,6 +33,7 @@ h7 {
   text-align: left; }
 p {
   font-size: 15px;
+  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
   margin-left: 10px;
   text-align: left; }
 body {
@@ -64,7 +65,7 @@ ol.g {list-style-type: lower-latin;
 }
 /* font-family: "Courier New", Courier, monospace, sans-serif; */
   code, samp, kbd {
-    font-family: "Bahnschrift", serif, "Helvetica";
+    font-family: Consolas, "Bahnschrift", serif, "Helvetica";
     text-align: left;
     color: #555;
   }
