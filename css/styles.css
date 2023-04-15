@@ -64,7 +64,7 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: "📌";
+  content: "📍";
   display: inline-block;
   margin-right: 0.2rem;
 }
@@ -75,8 +75,10 @@ ul ul ul li::before {
   content: "➕";
 }
 /* 
+Syntax: list-style-type: <value>
+Possible Values: disc | circle | square | decimal | lower-roman | upper-roman | lower-alpha | upper-alpha | none
 Newer Syntax:
-👉  🇸🇪  ❌ "📍";➕
+👉  🇸🇪  ❌ "📍";➕📌
 ul li::marker {
   content: "✅ ";
 }
