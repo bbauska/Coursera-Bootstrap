@@ -69,8 +69,22 @@ ol.g {list-style-type: lower-latin;
     text-align: left;
     color: #555;
   }
+  /* target IE7 and IE6 - the chumps who wrote IE are the worst kind of programmers. */
+  *:first-child+html pre {
+    padding-bottom: 2em;
+    overflow-y: hidden;
+    overflow: visible;
+    overflow-x: auto;
+  }
+  * html pre {
+    padding-bottom: 2em;
+    font-size: 10px;
+    overflow: visible;
+    overflow-x: auto;
+  }
 pre {
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, "Bahnschrift", serif, "Helvetica";
+  font-size: 10px;
   width: 64%;  /* 40% */
   max-height: 300px;  /* 400px; */
   color: #444;
@@ -81,15 +95,3 @@ pre {
   word-wrap: normal;
   overflow: auto;
 }
-  /* target IE7 and IE6 - the chumps who wrote IE are the worst kind of programmers. */
-  *:first-child+html pre {
-    padding-bottom: 2em;
-    overflow-y: hidden;
-    overflow: visible;
-    overflow-x: auto;
-  }
-  * html pre {
-    padding-bottom: 2em;
-    overflow: visible;
-    overflow-x: auto;
-  }
