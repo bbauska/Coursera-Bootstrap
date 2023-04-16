@@ -11496,8 +11496,8 @@ $ npm install grunt@1.0.2 --save-dev
 </ul>
 
 <pre>
-'use strict';
- 
+  'use strict';
+
   module.exports = function (grunt) {
     // Define the configuration for all the tasks
     grunt.initConfig({
@@ -11530,29 +11530,28 @@ downloaded Grunt modules when needed for the tasks.</p>
 </ul>
 
 <pre>
-'use strict';
- 
-module.exports = function (grunt) {
+  'use strict';
+
+  module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
- 
+
     // Automatically load required Grunt tasks
     require('jit-grunt')(grunt);
- 
+
     // Define the configuration for all the tasks
     grunt.initConfig({
-        sass: {
-            dist: {
-                files: {
-                    'css/styles.css': 'css/styles.scss'
-                }
-            }
+      sass: {
+        dist: {
+          files: {
+            'css/styles.css': 'css/styles.scss'
+          }
         }
+      }
     });
- 
-    grunt.registerTask('css', ['sass']);
- 
-};
+
+  grunt.registerTask('css', ['sass']);
+  };
 </pre>
 
 <ul>
@@ -11579,27 +11578,27 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
 </ul>
 
 <pre>,
-    watch: {
-        files: 'css/*.scss',
-        tasks: ['sass']
-    },
-    browserSync: {
-        dev: {
-            bsFiles: {
-                src : [
-                    'css/*.css',
-                    '*.html',
-                    'js/*.js'
-                ]
-            },
-            options: {
-                watchTask: true,
-                server: {
-                    baseDir: "./"
-                }
-            }
-        }
-    }</pre>
+  watch: {
+    files: 'css/*.scss',
+    tasks: ['sass']
+  },
+  browserSync: {
+    dev: {
+      bsFiles: {
+        src: [
+          'css/*.css',
+          '*.html',
+          'js/*.js'
+        ]
+      },
+    options: {
+      watchTask: true,
+        server: {
+          baseDir: "./"
+        }
+      }
+    }
+  }</pre>
 
 <ul>
   <li>Then add the following task to the Grunt file:</li>
@@ -12003,28 +12002,28 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev
 <pre>,
   copy: {
     html: {
-      files: [
-        {
-          //for html
-          expand: true,
-          dot: true,
-          cwd: './',
-          src: ['*.html'],
-          dest: 'dist'
-        }]                
+    files: [
+      {
+        //for html
+        expand: true,
+        dot: true,
+        cwd: './',
+        src: ['*.html'],
+        dest: 'dist'
+      }]                
     },
-    fonts: {
-      files: [
-        {
-          //for font-awesome
-          expand: true,
-          dot: true,
-          cwd: 'node_modules/font-awesome',
-          src: ['fonts/*.*'],
-          dest: 'dist'
-        }]
+    fonts: {
+    files: [
+      {
+        //for font-awesome
+        expand: true,
+        dot: true,
+        cwd: 'node_modules/font-awesome',
+        src: ['fonts/*.*'],
+        dest: 'dist'
+      }]
     }
-  },
+  },
  
   clean: {
     build: {
@@ -12051,15 +12050,16 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 <pre>,
   imagemin: {
-      dynamic: {
-          files: [{
-              expand: true,                  // Enable dynamic expansion
-              cwd: './',                     // Src matches are relative to this path
-              src: ['img/*.{png,jpg,gif}'],  // Actual patterns to match
-              dest: 'dist/'                  // Destination path prefix
-          }]
-      }
-  }</pre>
+    dynamic: {
+      files: [{
+        expand: true,                  // enable dynamic expansion
+        cwd: './',                     // src matches are relative to this path
+        src: ['img/*.{png,jpg,gif}'],  // actual patterns to match
+        dest: 'dist/'                  // destination path prefix
+      }]
+    }
+  }
+</pre>
 
 <h3>Preparing the Distribution Folder and Files</h3>
 
@@ -12752,5 +12752,5 @@ reaching the final goal.</p>
 <!-- Green jobs -->
 </body>
 
-<!-- last updated 4/15/23 5:20pm -->
+<!-- last updated 4/15/23 10:11pm -->
 </html>
