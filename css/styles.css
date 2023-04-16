@@ -64,7 +64,7 @@ ul li::before {
   content: "✔️";
   list-style-position: outside;
   display: inline-block;
-  margin-right: 0.3rem;  /* .2rem; */
+  margin-right: 0.4rem;  /* .2rem; */
 }
 ul ul li::before {
   content: "👉";
