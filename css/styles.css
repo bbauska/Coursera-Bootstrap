@@ -104,3 +104,6 @@ pre {
   word-wrap: normal;
   overflow: auto;
 }
+  li > ul {
+    padding-bottom: 0.5em;
+  }
