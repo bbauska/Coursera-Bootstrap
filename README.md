@@ -225,11 +225,11 @@ Bootstrap web UI framework.</p>
 <h2>Coursera Resources</h2>
 
 <h3 align="left">
-   <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a>
-   <br/>
-   <a href="https://www.onlinelearning.net/coursera/">Switching to a Different Session</a>
-   <br/>
-   <a href="https://www.coursera.org">Explore Coursera</a>
+  <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help</a>
+  <br/>
+  <a href="https://www.onlinelearning.net/coursera/">Switching to a Different Session</a>
+  <br/>
+  <a href="https://www.coursera.org">Explore Coursera</a>
 </h3>
 
 <!-- https://learner.coursera.help/hc/en-us/articles/208279776"> -->
@@ -902,7 +902,6 @@ I have changed my index.html file.
 Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
 folder, I\'m going to create another file name, test.html.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 15. basic git commands (20) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1214,11 +1213,11 @@ $ git log --oneline
 ```
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <h1>This is a Header</h1>
-        <p>This is a paragraph</p>
-    </body>
+  <head></head>
+  <body>
+    <h1>This is a Header</h1>
+    <p>This is a paragraph</p>
+  </body>
 </html>
 ```
 
@@ -1241,12 +1240,12 @@ $ git log --oneline
 ```
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <h1>This is a Header</h1>
-        <p>This is a paragraph</p>
-        <p>This is a second paragraph</p>
-    </body>
+  <head></head>
+  <body>
+    <h1>This is a Header</h1>
+    <p>This is a paragraph</p>
+    <p>This is a second paragraph</p>
+  </body>
 </html>
 ```
 
@@ -1829,7 +1828,7 @@ $ npm -v
   width="50%" />
 </p>
 <!--
-> ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
 -->
 <!-- {width="5.0in" height="6.3736264216972875in"} -->
 
