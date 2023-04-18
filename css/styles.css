@@ -64,13 +64,17 @@ ul li::before {
   content: "✔️";
   list-style-position: outside;
   display: inline-block;
-  margin-right: 0.6rem;  /* .2rem; */
+  margin-right: 0.3rem;  /* .2rem; */
 }
 ul ul li::before {
   content: "👉";
+  list-style-position: outside;  /* blank */
+  margin-right: 0.3rem;  /* blank */
 }
 ul ul ul li::before {
   content: "➕";
+  list-style-position: outside;  /* blank */
+  margin-right: 0.3rem;  /* blank */
 }
 /* font-family: "Courier New", Courier, monospace, sans-serif; */
   code, samp, kbd {
@@ -93,7 +97,7 @@ ul ul ul li::before {
   }
 pre {
   font-family: Consolas, "Bahnschrift", serif, "Helvetica";
-  font-size: 13px;   /* 10px */
+  font-size: 12px;   /* 10px */
   width: 40%;        /* 40% */
   max-height: 30%;  /* 300px <-- 400px; */
   color: #444;
