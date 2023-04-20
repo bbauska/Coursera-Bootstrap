@@ -1,6 +1,6 @@
 html *
 {
-  font-family: "Bahnschrift", Consolas, Calibri, Verdana, sans-serif;
+  font-family: Inter, Bahnschrift, Consolas, Calibri, Verdana, "sans-serif";
   margin-left: 10px;
 }
 h1 {
@@ -33,11 +33,11 @@ h7 {
   text-align: left; }
 p {
   font-size: 15px;
-  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
+  font-family: Inter, Bahnschrift, Calibri, Verdana, sans-serif;
   margin-left: 10px;
   text-align: left; }
 body {
-  font-family: "Bahnschrift", Calibri, Verdana, sans-serif;
+  font-family: Inter, Bahnschrift, Calibri, Verdana, sans-serif;
   margin-left: 10px;
   }
 }
@@ -61,24 +61,24 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: "✔️";
+/*  content: "✔️"; */
   list-style-position: outside;
   display: inline-block;
   margin-right: 0.3rem;  /* .2rem; */
 }
 ul ul li::before {
-  content: "👉";
+/*  content: "👉"; */
   list-style-position: outside;  /* blank */
   margin-right: 0.3rem;  /* blank */
 }
 ul ul ul li::before {
-  content: "➕";
+/*  content: "➕"; */
   list-style-position: outside;  /* blank */
   margin-right: 0.3rem;  /* blank */
 }
 /* font-family: "Courier New", Courier, monospace, sans-serif; */
   code, samp, kbd {
-    font-family: Consolas, "Bahnschrift", serif, "Helvetica";
+    font-family: Consolas, Inter, Bahnschrift, serif, Helvetica;
     text-align: left;
     color: #555;
   }
@@ -96,7 +96,7 @@ ul ul ul li::before {
     overflow-x: auto;
   }
 pre {
-  font-family: Consolas, "Bahnschrift", serif, "Helvetica";
+  font-family: Consolas, Bahnschrift, serif, Helvetica;
   font-size: 12px;   /* 10px */
   width: 40%;        /* 40% */
   max-height: 30%;  /* 300px <-- 400px; */
