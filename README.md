@@ -5084,7 +5084,7 @@ do this in this part of the exercise.
 
 -   Then add these classes to the corresponding rows in the <i>index.html</i>
     file as follows. See the difference in the <i>index.html</i> file in the
-    browser. The first one is for the row in the &lt;header\&gt;, the next
+    browser. The first one is for the row in the <header\&gt;, the next
     three for the rows in the content, and the last one directly to the
     &lt;footer\&gt; tag.
 
@@ -9255,17 +9255,17 @@ Note the inclusion of the logo in the navbar.
   <summary>Replace contents of second column:</summary>
 
 ```
-&lt;div class="media"&gt;
-   &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+<div class="media"&gt;
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
       src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
-   &lt;div class="media-body"&gt;
-   &lt;h2 class="mt-0"&gt;Uthappizza&lt;/h2&gt;
-   &lt;p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
+   <div class="media-body"&gt;
+   <h2 class="mt-0"&gt;Uthappizza</h2&gt;
+   <p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
       Italian pizza, topped with Cerignola olives, ripe vine
       cherry tomatoes, Vidalia onion, Guntur chillies and
-      Buffalo Paneer.&lt;/p&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
+      Buffalo Paneer.</p&gt;
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -9281,19 +9281,19 @@ style the content.
   <summary>Replace contents of second column:</summary>
 
 ```
-&lt;div class="media"&gt;
-   &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+<div class="media"&gt;
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
       src="[img/alberto.png]{.underline}" alt="Alberto Somayya"&gt;
-   &lt;div class="media-body"&gt;
-      &lt;h2 class="mt-0"&gt;Alberto Somayya&lt;/h2&gt;
-      &lt;h4&gt;Executive Chef&lt;/h4&gt;
-      &lt;p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
+   <div class="media-body"&gt;
+      <h2 class="mt-0"&gt;Alberto Somayya</h2&gt;
+      <h4&gt;Executive Chef</h4&gt;
+      <p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
          International experience having worked closely with
          whos-who in the culinary world, he specializes in
          creating mouthwatering Indo-Italian fusion experiences.
-      &lt;/p&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
+      </p&gt;
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -9502,14 +9502,14 @@ alerting users. At the end of this exercise, you will be able to:
     <i>\<h2\></i> containing the name of the dish:
 
 ```
-&lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt;
+<span class="badge badge-danger"&gt;HOT</span&gt;
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
     tag in the web page. Add the following code to the <i>\<h2\></i> tag:
 
 ```
-&lt;span class="badge badge-pill badge-secondary"&gt;$4.99&lt;/span&gt;
+<span class="badge badge-pill badge-secondary"&gt;$4.99</span&gt;
 ```
 
 -   Remember to commit the changes to the Git repository with message
@@ -10334,24 +10334,24 @@ content. At the end of this exercise you will be able to:
   <summary>Tab Navigation Elements:</summary>
 
 ```
-&lt;ul class="nav nav-tabs"&gt;
-    &lt;li class="nav-item"&gt;
-        &lt;a class="nav-link active" href="#peter"
-        role="tab" data-toggle="tab"&gt;Peter Pan, CEO&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="nav-item"&gt;
-        &lt;a class="nav-link" href="#danny" role="tab"
-        data-toggle="tab"&gt;Danny Witherspoon, CFO&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="nav-item"&gt;
-        &lt;a class="nav-link" href="#agumbe"role="tab"
-        data-toggle="tab"&gt;Agumbe Tang, CTO&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="nav-item"&gt;
-        &lt;a class="nav-link" href="#alberto" role="tab"
-        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef&lt;/a&gt;
-    &lt;/li&gt;
-&lt;/ul&gt;
+<ul class="nav nav-tabs"&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link active" href="#peter"
+        role="tab" data-toggle="tab"&gt;Peter Pan, CEO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#danny" role="tab"
+        data-toggle="tab"&gt;Danny Witherspoon, CFO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#agumbe"role="tab"
+        data-toggle="tab"&gt;Agumbe Tang, CTO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#alberto" role="tab"
+        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef</a&gt;
+    </li&gt;
+</ul&gt;
 ```
 
 </details>
@@ -10374,19 +10374,19 @@ navigation that we just set up.
     specified below:
 
 ```
-&lt;div class="tab-content"&gt;
+<div class="tab-content"&gt;
     ...
-&lt;/div&gt;
+</div&gt;
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-&lt;div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
-  &lt;h3&gt;Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;&lt;/h3&gt;
-  &lt;p&gt; ... &lt;/p&gt;
-&lt;/div&gt;
+<div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
+  <h3&gt;Peter Pan <small&gt;Chief Epicurious Officer</small&gt;</h3&gt;
+  <p&gt; ... </p&gt;
+</div&gt;
 ```
 
 Note the use of the <i>tab-pane, fade, show,</i> and <i>active</i> classes and
@@ -10762,9 +10762,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-&lt;div id="accordion"&gt;
+<div id="accordion"&gt;
     . . .
-&lt;/div&gt;
+</div&gt;
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10775,20 +10775,20 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Convert first tab-pane into card!</summary>
 
 ```
-&lt;div class="card"&gt;
-    &lt;div class="card-header" role="tab" id="peterhead"&gt;
-    &lt;h3 class="mb-0"&gt;
-       &lt;a data-toggle="collapse" data-target="#peter"&gt;
-          Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;
-       &lt;/a&gt;
-    &lt;/h3&gt;
-    &lt;/div&gt;
-    &lt;div class="collapse show" id="peter" data-parent="#accordion"&gt;
-       &lt;div class="card-body"&gt;
-          &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
-       &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<div class="card"&gt;
+    <div class="card-header" role="tab" id="peterhead"&gt;
+    <h3 class="mb-0"&gt;
+       <a data-toggle="collapse" data-target="#peter"&gt;
+          Peter Pan <small&gt;Chief Epicurious Officer</small&gt;
+       </a&gt;
+    </h3&gt;
+    </div&gt;
+    <div class="collapse show" id="peter" data-parent="#accordion"&gt;
+       <div class="card-body"&gt;
+          <p class="d-none d-sm-block"&gt;. . .</p&gt;
+       </div&gt;
+    </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -10801,46 +10801,46 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Show leaders:</summary>
 
 ```
-&lt;div class="card"&gt;
-&lt;div class="card-header" role="tab" id="dannyhead"&gt;
-   &lt;h3 class="mb-0"&gt;
-   &lt;a class="collapsed" data-toggle="collapse" data-target="#brian"&gt;
-      Brian Bauska &lt;small&gt;Chief Information Officer&lt;/small&gt;
-   &lt;/a&gt;
-   &lt;/h3&gt;
-&lt;/div&gt;
-&lt;div class="collapse" id="brian" data-parent="#accordion"&gt;
-   &lt;div class="card-body"&gt;
-      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="card"&gt;
-   &lt;div class="card-header" role="tab" id="agumbehead"&gt;
-   &lt;h3 class="mb-0"&gt;
-      &lt;a class="collapsed" data-toggle="collapse" data-target="#lance"&gt;
-         Silus Lance &lt;small&gt;Chief Software Engineer&lt;/small&gt;
-      &lt;/a&gt;
-   &lt;/h3&gt;
-   &lt;/div&gt;
-   &lt;div class="collapse" id="lance" data-parent="#accordion"&gt;
-      &lt;d iv class="card-body"&gt;
-      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
-   &lt;/div&gt;
-   &lt;/div&gt;
-   &lt;/div&gt;
-   &lt;div class="card"&gt;
-      &lt;div class="card-header" role="tab" id="albertohead"&gt;
-      &lt;h3 class="mb-0"&gt;
-         &lt;a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
-         Alberto Somayya &lt;small&gt;Executive Chef&lt;/small&gt;
-         &lt;/a&gt;
-      &lt;/h3&gt;
-      &lt;/div&gt;
-      &lt;div class="collapse" id="alberto" data-parent="#accordion"&gt;
-      &lt;div class="card-body"&gt;
-      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="card"&gt;
+<div class="card-header" role="tab" id="dannyhead"&gt;
+   <h3 class="mb-0"&gt;
+   <a class="collapsed" data-toggle="collapse" data-target="#brian"&gt;
+      Brian Bauska <small&gt;Chief Information Officer</small&gt;
+   </a&gt;
+   </h3&gt;
+</div&gt;
+<div class="collapse" id="brian" data-parent="#accordion"&gt;
+   <div class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
+   </div&gt;
+</div&gt;
+</div&gt;
+<div class="card"&gt;
+   <div class="card-header" role="tab" id="agumbehead"&gt;
+   <h3 class="mb-0"&gt;
+      <a class="collapsed" data-toggle="collapse" data-target="#lance"&gt;
+         Silus Lance <small&gt;Chief Software Engineer</small&gt;
+      </a&gt;
+   </h3&gt;
+   </div&gt;
+   <div class="collapse" id="lance" data-parent="#accordion"&gt;
+      <d iv class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</p&gt;
+   </div&gt;
+   </div&gt;
+   </div&gt;
+   <div class="card"&gt;
+      <div class="card-header" role="tab" id="albertohead"&gt;
+      <h3 class="mb-0"&gt;
+         <a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
+         Alberto Somayya <small&gt;Executive Chef</small&gt;
+         </a&gt;
+      </h3&gt;
+      </div&gt;
+      <div class="collapse" id="alberto" data-parent="#accordion"&gt;
+      <div class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
+</div&gt;
 ```
 
 </details>
@@ -11313,9 +11313,9 @@ exercise, you will be able to:
   <summary>Add tooltip!</summary>
 
 ```
-&lt;a role="button" class="btn btn-block nav-link btn-warning"
-   data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;&lt;strong&gt;+852 12345678&lt;/strong&gt;"
-   data-placement="bottom" href="[#reserveform]{.underline}"&gt;Reserve Table&lt;/a&gt;
+<a role="button" class="btn btn-block nav-link btn-warning"
+   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br&gt;<strong&gt;+852 12345678</strong&gt;"
+   data-placement="bottom" href="[#reserveform]{.underline}"&gt;Reserve Table</a&gt;
 ```
 
 </details>
@@ -11331,11 +11331,11 @@ tooltip.
   <summary>Activate tooltip!</summary>
 
 ```
-&lt;script&gt;
+<script&gt;
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
     });
-&lt;/script&gt;
+</script&gt;
 ```
 
 </details>
@@ -11353,42 +11353,42 @@ bootstrap.min.js file.
   <summary>Introduce modal to web page!</summary>
 
 ```
-&lt;div id="loginModal" class="modal fade" role="dialog"&gt;
-    &lt;div class="modal-dialog modal-lg" role="content"&gt;
-        &lt;!\-- Modal content\--&gt;
-        &lt;div class="modal-content"&gt;
-            &lt;div class="modal-header"&gt;
-                &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
-                &lt;button type="button" class="close" data-dismiss="modal"&gt;&times;&lt;/button&gt;
-            &lt;/div&gt;
-            &lt;div class="modal-body"&gt;
-                &lt;form&gt;
-                    &lt;div class="form-row"&gt;
-                        &lt;div class="form-group col-sm-4"&gt;
-                                &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
-                                &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
-                        &lt;/div&gt;
-                        &lt;div class="form-group col-sm-4"&gt;
-                            &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
-                            &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
-                        &lt;/div&gt;
-                        &lt;div class="col-sm-auto"&gt;
-                            &lt;div class="form-check"&gt;
-                                &lt;input class="form-check-input" type="checkbox"&gt;
-                                &lt;label class="form-check-label"&gt; Remember me
-                                &lt;/label&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;div class="form-row"&gt;
-                        &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
-                        &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;
-                    &lt;/div&gt;
-                &lt;/form&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<div id="loginModal" class="modal fade" role="dialog"&gt;
+    <div class="modal-dialog modal-lg" role="content"&gt;
+        <!-- Modal content--&gt;
+        <div class="modal-content"&gt;
+            <div class="modal-header"&gt;
+                <h4 class="modal-title"&gt;Login </h4&gt;
+                <button type="button" class="close" data-dismiss="modal"&gt;&times;</button&gt;
+            </div&gt;
+            <div class="modal-body"&gt;
+                <form&gt;
+                    <div class="form-row"&gt;
+                        <div class="form-group col-sm-4"&gt;
+                                <label class="sr-only" for="exampleInputEmail3"&gt;Email address</label&gt;
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+                        </div&gt;
+                        <div class="form-group col-sm-4"&gt;
+                            <label class="sr-only" for="exampleInputPassword3"&gt;Password</label&gt;
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+                        </div&gt;
+                        <div class="col-sm-auto"&gt;
+                            <div class="form-check"&gt;
+                                <input class="form-check-input" type="checkbox"&gt;
+                                <label class="form-check-label"&gt; Remember me
+                                </label&gt;
+                            </div&gt;
+                        </div&gt;
+                    </div&gt;
+                    <div class="form-row"&gt;
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel</button&gt;
+                        <button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in</button&gt;
+                    </div&gt;
+                </form&gt;
+            </div&gt;
+        </div&gt;
+    </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -11401,10 +11401,10 @@ bootstrap.min.js file.
   <summary>Introduce another link!</summary>
 
 ```
-&lt;span class="navbar-text"&gt;
-  &lt;a data-toggle="modal" data-target="#loginModal"&gt;
-  &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;
-&lt;/span&gt;
+<span class="navbar-text"&gt;
+  <a data-toggle="modal" data-target="#loginModal"&gt;
+  <span class="fa fa-sign-in"&gt;</span&gt; Login</a&gt;
+</span&gt;
 ```
 
 </details>
@@ -11715,10 +11715,10 @@ able to:
     columns as follows:
 
 ```
-&lt;div class="row row-content"&gt;
-   &lt;div class="col"&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
+<div class="row row-content"&gt;
+   <div class="col"&gt;
+   </div&gt;
+</div&gt;
 ```
 
 <h4>Adding a Carousel</h4>
@@ -11727,8 +11727,8 @@ able to:
     just added as follows:
 
 ```
-&lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
-&lt;/div&gt;
+<div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
+</div&gt;
 ```
 
 <h4>Adding Carousel Content</h4>
@@ -11739,22 +11739,22 @@ able to:
   <summary>Add content inside carousel!</summary>
 
 ```
-&lt;div class="carousel-inner" role="listbox"&gt;
-   &lt;div class="carousel-item active"&gt;
-      &lt;img class="d-block img-fluid"
+<div class="carousel-inner" role="listbox"&gt;
+   <div class="carousel-item active"&gt;
+      <img class="d-block img-fluid"
          src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
-      &lt;div class="carousel-caption d-none d-md-block"&gt;
-         &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;
+      <div class="carousel-caption d-none d-md-block"&gt;
+         <h2&gt;Uthappizza <span class="badge badge-danger"&gt;HOT</span&gt; <span class="badge badge-pill badge-default"&gt;$4.99</span&gt;</h2&gt;
          . . .
-      &lt;/div&gt;
-   &lt;/div&gt;
-   &lt;div class="carousel-item"&gt;
+      </div&gt;
+   </div&gt;
+   <div class="carousel-item"&gt;
    . . .
-   &lt;/div&gt;
-   &lt;div class="carousel-item"&gt;
+   </div&gt;
+   <div class="carousel-item"&gt;
    . . .
-   &lt;/div&gt;
-&lt;/div&gt;
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -11801,11 +11801,11 @@ remaining parts from the content rows below.
   <summary>Add manual controls to carousel!</summary>
 
 ```
-&lt;ol class="carousel-indicators"&gt;
-   &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
-   &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;
-   &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<ol class="carousel-indicators"&gt;
+   <li data-target="#mycarousel" data-slide-to="0" class="active"&gt;</li&gt;
+   <li data-target="#mycarousel" data-slide-to="1"&gt;</li&gt;
+   <li data-target="#mycarousel" data-slide-to="2"&gt;</li&gt;
+</ol&gt;
 ```
 
 </details>
@@ -11819,12 +11819,12 @@ remaining parts from the content rows below.
   <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
-&lt;a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"&gt;
-   &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
-   &lt;/a&gt;
-&lt;a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"&gt;
-   &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
-   &lt;/a&gt;
+<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"&gt;
+   <span class="carousel-control-prev-icon"&gt;</span&gt;
+   </a&gt;
+<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"&gt;
+   <span class="carousel-control-next-icon"&gt;</span&gt;
+   </a&gt;
 ```
 
 </details>
@@ -13059,9 +13059,9 @@ to:
   <summary>Modify carousel control button!</summary>
 
 ```
-&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;
-   &lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;
-&lt;/button&gt;
+<button class="btn btn-danger btn-sm" id="carouselButton"&gt;
+   <span id="carousel-button-icon" class="fa fa-pause"&gt;</span&gt;
+</button&gt;
 ```
 
 </details>
@@ -14330,7 +14330,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-&lt;script src="[js/scripts.js]{.underline}"&gt;&lt;/script&gt;
+<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
 ```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
@@ -14992,12 +14992,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the css links inclusion code as follows:</summary>
 
 ```
-&lt;!-- build:css css/main.css --&gt;
-&lt;link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"&gt;
-&lt;link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"&gt;
-&lt;link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"&gt;
-&lt;link href="[css/styles.css]{.underline}" rel="stylesheet"&gt;
-&lt;!-- endbuild --&gt;
+<!-- build:css css/main.css --&gt;
+<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"&gt;
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"&gt;
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"&gt;
+<link href="[css/styles.css]{.underline}" rel="stylesheet"&gt;
+<!-- endbuild --&gt;
 ```
 
 </details>
@@ -15010,12 +15010,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the js script inclusion code as follows:</summary>
 
 ```
-&lt;!-- build:js js/main.js --&gt;
-&lt;script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"&gt;&lt;/script&gt;
-&lt;script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"&gt;&lt;/script&gt;
-&lt;script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"&gt;&lt;/script&gt;
-&lt;script src="[js/scripts.js]{.underline}"&gt;&lt;/script&gt;
-&lt;!-- endbuild --&gt;
+<!-- build:js js/main.js --&gt;
+<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"&gt;</script&gt;
+<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"&gt;</script&gt;
+<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"&gt;</script&gt;
+<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
+<!-- endbuild --&gt;
 ```
 
 </details>
@@ -17144,7 +17144,7 @@ specialization.
 <h4>PDFs of Presentations</h4>
 
 ```
-&lt;a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf"&gt;11-Conclusion.pdf (4 slides)&lt;/a&gt;
+<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
 ```
 
 <!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
