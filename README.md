@@ -36,8 +36,8 @@ Instagram - https://www.instagram.com/thenetninja/
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coursera-boot.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------------- coursera logo ----------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ https://github.com/bbauska/Coursera-Bootstrap ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/coursera-logo.png?raw=true"
@@ -12416,7 +12416,7 @@ causes various events.
 
 And based on the occurrence of these events, you can respond.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 107. example: carousel #3 (249) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. example: carousel #3 (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.png?raw=true"
@@ -12433,7 +12433,7 @@ invoked.
 Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 108. example: carousel #4 (250) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel #4 (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
@@ -12451,7 +12451,7 @@ and then do something inside that function there.
 This kind of code can be returned also for responding to the events that
 are caused by your carousel\'s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 109. exercise: bootstrap and jquery (250) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (250) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image109.png?raw=true"
@@ -14012,7 +14012,7 @@ to save your changes with the message assignment four.
 
 <h4>Screenshots</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 110. reserve a table (279) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. reserve a table (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
@@ -14021,7 +14021,7 @@ to save your changes with the message assignment four.
 </p>
 <!-- {width="5.0in" height="4.163497375328084in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------------- 111. login (279) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. login (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.png?raw=true"
@@ -16278,35 +16278,35 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev
 
 ```
 ,
-        copy: {
-            html: {
-                files: [
-                {
-                    //for html
-                    expand: true,
-                    dot: true,
-                    cwd: './',
-                    src: ['*.html'],
-                    dest: 'dist'
-                }]                
-            },
-            fonts: {
-                files: [
-                {
-                    //for font-awesome
-                    expand: true,
-                    dot: true,
-                    cwd: 'node_modules/font-awesome',
-                    src: ['fonts/*.*'],
-                    dest: 'dist'
-                }]
-            }
-        },
-        clean: {
-            build: {
-                src: [ 'dist/']
-            }
-        }
+  copy: {
+    html: {
+        files: [
+        {
+          //for html
+          expand: true,
+          dot: true,
+          cwd: './',
+          src: ['*.html'],
+          dest: 'dist'
+        }]                
+    },
+    fonts: {
+        files: [
+        {
+          //for font-awesome
+          expand: true,
+          dot: true,
+          cwd: 'node_modules/font-awesome',
+          src: ['fonts/*.*'],
+          dest: 'dist'
+        }]
+      }
+  },
+    clean: {
+      build: {
+        src: [ 'dist/']
+      }
+    }
 ```
 
 </details>
@@ -16329,25 +16329,27 @@ $ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 
 ```
 ,
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,                  // Enable dynamic expansion
-                    cwd: './',                   // Src matches are relative to this path
-                    src: ['img/*.{png,jpg,gif}'],   // Actual patterns to match
-                    dest: 'dist/'                  // Destination path prefix
-                }]
-            }
-        }
+  imagemin: {
+    dynamic: {
+      files: [{
+        expand: true,                  // Enable dynamic expansion
+        cwd: './',                     // Src matches are relative to this path
+        src: ['img/*.{png,jpg,gif}'],  // Actual patterns to match
+        dest: 'dist/'                  // Destination path prefix
+      }]
+    }
+  }
 ```
 
 </details>
 
 <h4>Preparing the Distribution Folder and Files</h4>
 
--   We are now going to use the Grunt <i>usemin</i> module together with
+<ul>
+  <li>We are now going to use the Grunt <i>usemin</i> module together with
     <i>concat</i>, <i>cssmin</i>, <i>uglify</i> and <i>filerev</i> to prepare the
-    distribution folder. To do this, install the following Grunt modules:
+    distribution folder. To do this, install the following Grunt modules:</li>
+</ul>
 
 <details>
   <summary>Install the following Grunt modules!</summary>
@@ -16371,42 +16373,42 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 
 ```
 ,
-        useminPrepare: {
+    useminPrepare: {
             foo: {
-                dest: 'dist',
-                src: ['contactus.html','aboutus.html','index.html']
-            },
-            options: {
-                flow: {
-                    steps: {
-                        css: ['cssmin'],
-                        js:['uglify']
-                    },
-                    post: {
-                        css: [{
-                            name: 'cssmin',
-                            createConfig: function (context, block) {
-                            var generated = context.options.generated;
-                                generated.options = {
-                                    keepSpecialComments: 0, rebase: false
-                                };
-                            }       
-                        }]
-                    }
-                }
-            }
-        },
+             dest: 'dist',
+             src: ['contactus.html','aboutus.html','index.html']
+             },
+               options: {
+                 flow: {
+                   steps: {
+                     css: ['cssmin'],
+                     js:['uglify']
+                   },
+                   post: {
+                      css: [{
+                        name: 'cssmin',
+                        createConfig: function (context, block) {
+                          var generated = context.options.generated;
+                          generated.options = {
+                            keepSpecialComments: 0, rebase: false
+                          };
+                        }
+                     }]
+                   }
+                 }
+               }
+    },
  
-        // Concat
-        concat: {
-            options: {
-                separator: ';\'
-            },
-            // dist configuration is provided by useminPrepare
-            dist: {}
-        },
-        // Uglify
-        uglify: {
+     // Concat
+     concat: {
+      options: {
+        separator: ';\'
+      },
+    // dist configuration is provided by useminPrepare
+    dist: {}
+  },
+  // Uglify
+  uglify: {
 ```
 
 </details>
@@ -16873,15 +16875,15 @@ var ...
     as follows:
 
 ```
-// Clean
-gulp.task('clean', function() {
+  // Clean
+  gulp.task('clean', function() {
     return del(['dist']);
-});
+  });
  
-gulp.task('copyfonts', function() {
-   gulp.src('./node_modules/font-awesome/fonts//.{ttf,woff,eof,svg}')
-   .pipe(gulp.dest('./dist/fonts'));
-});
+  gulp.task('copyfonts', function() {
+    gulp.src('./node_modules/font-awesome/fonts//.{ttf,woff,eof,svg}')
+    .pipe(gulp.dest('./dist/fonts'));
+  });
 ```
 
 <h4>Compressing and Minifying Images</h4>
@@ -16893,8 +16895,8 @@ gulp.task('copyfonts', function() {
 ```
 $ npm install gulp-imagemin@4.1.0 --save-dev
 
-var ...
-  imagemin = require('gulp-imagemin'),
+  var ...
+    imagemin = require('gulp-imagemin'),
   ...
 ```
 
@@ -16904,12 +16906,12 @@ var ...
   <summary>Create the imagemin task!</summary>
 
 ```
-// Images
-gulp.task('imagemin', function() {
-  return gulp.src('img/*.{png,jpg,gif}')
-    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('dist/img'));
-});
+  // images
+  gulp.task('imagemin', function() {
+    return gulp.src('img/*.{png,jpg,gif}')
+      .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+      .pipe(gulp.dest('dist/img'));
+  });
 ```
 
 </details>
@@ -17220,4 +17222,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!--- last updated: 4/12/2023 at 10:10am ---->
+<!-- last updated: 4/19/2023 at 9:25pm -->
