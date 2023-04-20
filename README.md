@@ -9255,17 +9255,17 @@ Note the inclusion of the logo in the navbar.
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media">
-   <img class="d-flex mr-3 img-thumbnail align-self-center"
-      src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-   <div class="media-body">
-   <h2 class="mt-0">Uthappizza</h2>
-   <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+&lt;div class="media"&gt;
+   &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
+   &lt;div class="media-body"&gt;
+   &lt;h2 class="mt-0"&gt;Uthappizza&lt;/h2&gt;
+   &lt;p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
       Italian pizza, topped with Cerignola olives, ripe vine
       cherry tomatoes, Vidalia onion, Guntur chillies and
-      Buffalo Paneer.</p>
-   </div>
-</div>
+      Buffalo Paneer.&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -9281,19 +9281,19 @@ style the content.
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media">
-   <img class="d-flex mr-3 img-thumbnail align-self-center"
-      src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
-   <div class="media-body">
-      <h2 class="mt-0">Alberto Somayya</h2>
-      <h4>Executive Chef</h4>
-      <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+&lt;div class="media"&gt;
+   &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/alberto.png]{.underline}" alt="Alberto Somayya"&gt;
+   &lt;div class="media-body"&gt;
+      &lt;h2 class="mt-0"&gt;Alberto Somayya&lt;/h2&gt;
+      &lt;h4&gt;Executive Chef&lt;/h4&gt;
+      &lt;p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
          International experience having worked closely with
          whos-who in the culinary world, he specializes in
          creating mouthwatering Indo-Italian fusion experiences.
-      </p>
-   </div>
-</div>
+      &lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -9502,14 +9502,14 @@ alerting users. At the end of this exercise, you will be able to:
     <i>\<h2\></i> containing the name of the dish:
 
 ```
-<span class="badge badge-danger">HOT</span>
+&lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt;
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
     tag in the web page. Add the following code to the <i>\<h2\></i> tag:
 
 ```
-<span class="badge badge-pill badge-secondary">$4.99</span>
+&lt;span class="badge badge-pill badge-secondary"&gt;$4.99&lt;/span&gt;
 ```
 
 -   Remember to commit the changes to the Git repository with message
@@ -10334,24 +10334,24 @@ content. At the end of this exercise you will be able to:
   <summary>Tab Navigation Elements:</summary>
 
 ```
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link active" href="#peter"
-        role="tab" data-toggle="tab">Peter Pan, CEO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#danny" role="tab"
-        data-toggle="tab">Danny Witherspoon, CFO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#agumbe"role="tab"
-        data-toggle="tab">Agumbe Tang, CTO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#alberto" role="tab"
-        data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-    </li>
-</ul>
+&lt;ul class="nav nav-tabs"&gt;
+    &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link active" href="#peter"
+        role="tab" data-toggle="tab"&gt;Peter Pan, CEO&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#danny" role="tab"
+        data-toggle="tab"&gt;Danny Witherspoon, CFO&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#agumbe"role="tab"
+        data-toggle="tab"&gt;Agumbe Tang, CTO&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#alberto" role="tab"
+        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
 ```
 
 </details>
@@ -10374,19 +10374,19 @@ navigation that we just set up.
     specified below:
 
 ```
-<div class="tab-content">
+&lt;div class="tab-content"&gt;
     ...
-</div>
+&lt;/div&gt;
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-<div role="tabpanel" class="tab-pane fade show active" id="peter">
-  <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-  <p> ... </p>
-</div>
+&lt;div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
+  &lt;h3&gt;Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;&lt;/h3&gt;
+  &lt;p&gt; ... &lt;/p&gt;
+&lt;/div&gt;
 ```
 
 Note the use of the <i>tab-pane, fade, show,</i> and <i>active</i> classes and
@@ -10762,9 +10762,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-<div id="accordion">
+&lt;div id="accordion"&gt;
     . . .
-</div>
+&lt;/div&gt;
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10775,20 +10775,20 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Convert first tab-pane into card!</summary>
 
 ```
-<div class="card">
-    <div class="card-header" role="tab" id="peterhead">
-    <h3 class="mb-0">
-       <a data-toggle="collapse" data-target="#peter">
-          Peter Pan <small>Chief Epicurious Officer</small>
-       </a>
-    </h3>
-    </div>
-    <div class="collapse show" id="peter" data-parent="#accordion">
-       <div class="card-body">
-          <p class="d-none d-sm-block">. . .</p>
-       </div>
-    </div>
-</div>
+&lt;div class="card"&gt;
+    &lt;div class="card-header" role="tab" id="peterhead"&gt;
+    &lt;h3 class="mb-0"&gt;
+       &lt;a data-toggle="collapse" data-target="#peter"&gt;
+          Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;
+       &lt;/a&gt;
+    &lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class="collapse show" id="peter" data-parent="#accordion"&gt;
+       &lt;div class="card-body"&gt;
+          &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
+       &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -10801,46 +10801,46 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Show leaders:</summary>
 
 ```
-<div class="card">
-<div class="card-header" role="tab" id="dannyhead">
-   <h3 class="mb-0">
-   <a class="collapsed" data-toggle="collapse" data-target="#brian">
-      Brian Bauska <small>Chief Information Officer</small>
-   </a>
-   </h3>
-</div>
-<div class="collapse" id="brian" data-parent="#accordion">
-   <div class="card-body">
-      <p class="d-none d-sm-block">. . .</em></p>
-   </div>
-</div>
-</div>
-<div class="card">
-   <div class="card-header" role="tab" id="agumbehead">
-   <h3 class="mb-0">
-      <a class="collapsed" data-toggle="collapse" data-target="#lance">
-         Silus Lance <small>Chief Software Engineer</small>
-      </a>
-   </h3>
-   </div>
-   <div class="collapse" id="lance" data-parent="#accordion">
-      <d iv class="card-body">
-      <p class="d-none d-sm-block">. . .</p>
-   </div>
-   </div>
-   </div>
-   <div class="card">
-      <div class="card-header" role="tab" id="albertohead">
-      <h3 class="mb-0">
-         <a class="collapsed" data-toggle="collapse" data-target="#alberto">
-         Alberto Somayya <small>Executive Chef</small>
-         </a>
-      </h3>
-      </div>
-      <div class="collapse" id="alberto" data-parent="#accordion">
-      <div class="card-body">
-      <p class="d-none d-sm-block">. . .</em></p>
-</div>
+&lt;div class="card"&gt;
+&lt;div class="card-header" role="tab" id="dannyhead"&gt;
+   &lt;h3 class="mb-0"&gt;
+   &lt;a class="collapsed" data-toggle="collapse" data-target="#brian"&gt;
+      Brian Bauska &lt;small&gt;Chief Information Officer&lt;/small&gt;
+   &lt;/a&gt;
+   &lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="collapse" id="brian" data-parent="#accordion"&gt;
+   &lt;div class="card-body"&gt;
+      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+   &lt;div class="card-header" role="tab" id="agumbehead"&gt;
+   &lt;h3 class="mb-0"&gt;
+      &lt;a class="collapsed" data-toggle="collapse" data-target="#lance"&gt;
+         Silus Lance &lt;small&gt;Chief Software Engineer&lt;/small&gt;
+      &lt;/a&gt;
+   &lt;/h3&gt;
+   &lt;/div&gt;
+   &lt;div class="collapse" id="lance" data-parent="#accordion"&gt;
+      &lt;d iv class="card-body"&gt;
+      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="card"&gt;
+      &lt;div class="card-header" role="tab" id="albertohead"&gt;
+      &lt;h3 class="mb-0"&gt;
+         &lt;a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
+         Alberto Somayya &lt;small&gt;Executive Chef&lt;/small&gt;
+         &lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class="collapse" id="alberto" data-parent="#accordion"&gt;
+      &lt;div class="card-body"&gt;
+      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -11313,9 +11313,9 @@ exercise, you will be able to:
   <summary>Add tooltip!</summary>
 
 ```
-<a role="button" class="btn btn-block nav-link btn-warning"
-   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-   data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
+&lt;a role="button" class="btn btn-block nav-link btn-warning"
+   data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;&lt;strong&gt;+852 12345678&lt;/strong&gt;"
+   data-placement="bottom" href="[#reserveform]{.underline}"&gt;Reserve Table&lt;/a&gt;
 ```
 
 </details>
@@ -11331,11 +11331,11 @@ tooltip.
   <summary>Activate tooltip!</summary>
 
 ```
-<script>
+&lt;script&gt;
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
     });
-</script>
+&lt;/script&gt;
 ```
 
 </details>
@@ -11353,42 +11353,42 @@ bootstrap.min.js file.
   <summary>Introduce modal to web page!</summary>
 
 ```
-<div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="content">
-        <!\-- Modal content\-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Login </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-                        </div>
-                        <div class="form-group col-sm-4">
-                            <label class="sr-only" for="exampleInputPassword3">Password</label>
-                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-                        </div>
-                        <div class="col-sm-auto">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                                <label class="form-check-label"> Remember me
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+&lt;div id="loginModal" class="modal fade" role="dialog"&gt;
+    &lt;div class="modal-dialog modal-lg" role="content"&gt;
+        &lt;!\-- Modal content\--&gt;
+        &lt;div class="modal-content"&gt;
+            &lt;div class="modal-header"&gt;
+                &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
+                &lt;button type="button" class="close" data-dismiss="modal"&gt;&times;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="modal-body"&gt;
+                &lt;form&gt;
+                    &lt;div class="form-row"&gt;
+                        &lt;div class="form-group col-sm-4"&gt;
+                                &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
+                                &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="form-group col-sm-4"&gt;
+                            &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
+                            &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-sm-auto"&gt;
+                            &lt;div class="form-check"&gt;
+                                &lt;input class="form-check-input" type="checkbox"&gt;
+                                &lt;label class="form-check-label"&gt; Remember me
+                                &lt;/label&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="form-row"&gt;
+                        &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
+                        &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -11401,10 +11401,10 @@ bootstrap.min.js file.
   <summary>Introduce another link!</summary>
 
 ```
-<span class="navbar-text">
-  <a data-toggle="modal" data-target="#loginModal">
-  <span class="fa fa-sign-in"></span> Login</a>
-</span>
+&lt;span class="navbar-text"&gt;
+  &lt;a data-toggle="modal" data-target="#loginModal"&gt;
+  &lt;span class="fa fa-sign-in"&gt;&lt;/span&gt; Login&lt;/a&gt;
+&lt;/span&gt;
 ```
 
 </details>
@@ -11709,16 +11709,16 @@ able to:
 
 <h4>Adding a row for the carousel</h4>
 
--   The carousel will be added to the <i>index.html</i> page. In this page,
+-   The carousel will be added to the <i&gt;index.html</i&gt; page. In this page,
     go to the top of the container div that contains the content of the
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
 
 ```
-<div class="row row-content">
-   <div class="col">
-   </div>
-</div>
+&lt;div class="row row-content"&gt;
+   &lt;div class="col"&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 <h4>Adding a Carousel</h4>
@@ -11727,8 +11727,8 @@ able to:
     just added as follows:
 
 ```
-<div id="mycarousel" class="carousel slide" data-ride="carousel">
-</div>
+&lt;div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
+&lt;/div&gt;
 ```
 
 <h4>Adding Carousel Content</h4>
@@ -11739,22 +11739,22 @@ able to:
   <summary>Add content inside carousel!</summary>
 
 ```
-<div class="carousel-inner" role="listbox">
-   <div class="carousel-item active">
-      <img class="d-block img-fluid"
-         src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-      <div class="carousel-caption d-none d-md-block">
-         <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+&lt;div class="carousel-inner" role="listbox"&gt;
+   &lt;div class="carousel-item active"&gt;
+      &lt;img class="d-block img-fluid"
+         src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
+      &lt;div class="carousel-caption d-none d-md-block"&gt;
+         &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;
          . . .
-      </div>
-   </div>
-   <div class="carousel-item">
+      &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="carousel-item"&gt;
    . . .
-   </div>
-   <div class="carousel-item">
+   &lt;/div&gt;
+   &lt;div class="carousel-item"&gt;
    . . .
-   </div>
-</div>
+   &lt;/div&gt;
+&lt;/div&gt;
 ```
 
 </details>
@@ -11801,11 +11801,11 @@ remaining parts from the content rows below.
   <summary>Add manual controls to carousel!</summary>
 
 ```
-<ol class="carousel-indicators">
-   <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-   <li data-target="#mycarousel" data-slide-to="1"></li>
-   <li data-target="#mycarousel" data-slide-to="2"></li>
-</ol>
+&lt;ol class="carousel-indicators"&gt;
+   &lt;li data-target="#mycarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+   &lt;li data-target="#mycarousel" data-slide-to="1"&gt;&lt;/li&gt;
+   &lt;li data-target="#mycarousel" data-slide-to="2"&gt;&lt;/li&gt;
+&lt;/ol&gt;
 ```
 
 </details>
@@ -11819,12 +11819,12 @@ remaining parts from the content rows below.
   <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
-<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
-   <span class="carousel-control-prev-icon"></span>
-   </a>
-<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
-   <span class="carousel-control-next-icon"></span>
-   </a>
+&lt;a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"&gt;
+   &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
+   &lt;/a&gt;
+&lt;a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"&gt;
+   &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
+   &lt;/a&gt;
 ```
 
 </details>
@@ -13059,9 +13059,9 @@ to:
   <summary>Modify carousel control button!</summary>
 
 ```
-<button class="btn btn-danger btn-sm" id="carouselButton">
-   <span id="carousel-button-icon" class="fa fa-pause"></span>
-</button>
+&lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;
+   &lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;
+&lt;/button&gt;
 ```
 
 </details>
@@ -13795,10 +13795,10 @@ of these variables while defining the classes.
   <summary>Add the following:</summary>
 
 ```
-@mixin zero-margin($pad-up-dn, $pad-left-right) {
+  @mixin zero-margin($pad-up-dn, $pad-left-right) {
     margin:0px auto;
     padding: $pad-up-dn $pad-left-right;
-}
+  }
 ```
 
 </details>
@@ -13812,37 +13812,37 @@ We will make use of this to define several row classes next.
   <summary>Add the following row classes:</summary>
 
 ```
-.row-header{
+  .row-header{
     @include zero-margin(0px,0px);
-}
-.row-content {
+  }
+  .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
     min-height:400px;
-}
-.footer{
+  }
+  .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
-}
-.jumbotron {
+  }
+  .jumbotron {
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
-}
-address{
+  }
+  address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
-}
-body{
+  }
+  body{
     padding:50px 0px 0px 0px;
     z-index:0;
-}
-.navbar-dark {
+  }
+  .navbar-dark {
      background-color: $background-dark;
-}
+  }
  
-.tab-content {
+  .tab-content {
     border-left: 1px solid $lt-gray;
     border-right: 1px solid $lt-gray;
     border-bottom: 1px solid $lt-gray;
@@ -14330,7 +14330,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-<script src="[js/scripts.js]{.underline}"></script>
+&lt;script src="[js/scripts.js]{.underline}"&gt;&lt;/script&gt;
 ```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
@@ -14992,12 +14992,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the css links inclusion code as follows:</summary>
 
 ```
-<!-- build:css css/main.css -->
-<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}">
-<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
-<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
-<link href="[css/styles.css]{.underline}" rel="stylesheet">
-<!-- endbuild -->
+&lt;!-- build:css css/main.css --&gt;
+&lt;link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"&gt;
+&lt;link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"&gt;
+&lt;link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"&gt;
+&lt;link href="[css/styles.css]{.underline}" rel="stylesheet"&gt;
+&lt;!-- endbuild --&gt;
 ```
 
 </details>
@@ -15010,12 +15010,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the js script inclusion code as follows:</summary>
 
 ```
-<!-- build:js js/main.js -->
-<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"></script>
-<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"></script>
-<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"></script>
-<script src="[js/scripts.js]{.underline}"></script>
-<!-- endbuild -->
+&lt;!-- build:js js/main.js --&gt;
+&lt;script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"&gt;&lt;/script&gt;
+&lt;script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"&gt;&lt;/script&gt;
+&lt;script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"&gt;&lt;/script&gt;
+&lt;script src="[js/scripts.js]{.underline}"&gt;&lt;/script&gt;
+&lt;!-- endbuild --&gt;
 ```
 
 </details>
@@ -15579,12 +15579,12 @@ This will install local per-project Grunt to use within your project.
   <summary>Add to Gruntfile.js!</summary>
 
 ```
-'use strict';
-module.exports = function (grunt) {
-  // Define the configuration for all the tasks
-  grunt.initConfig({
-  });
-};
+  'use strict';
+  module.exports = function (grunt) {
+    // Define the configuration for all the tasks
+    grunt.initConfig({
+    });
+  };
 ```
 
 </details>
@@ -15617,8 +15617,8 @@ downloaded Grunt modules when needed for the tasks.
   <summary>Add following SASS task to Gruntfile.js!</summary>
 
 ```
-'use strict';
-module.exports = function (grunt) {
+  'use strict';
+  module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
  
@@ -15670,27 +15670,27 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
 
 ```
 ,
-        watch: {
-            files: 'css/*.scss',
-            tasks: ['sass']
-        },
-        browserSync: {
-            dev: {
-                bsFiles: {
-                    src : [
-                        'css/*.css',
-                        '*.html',
-                        'js/*.js'
-                    ]
-                },
-                options: {
-                    watchTask: true,
-                    server: {
-                        baseDir: "./"
-                    }
+    watch: {
+        files: 'css/*.scss',
+        tasks: ['sass']
+    },
+    browserSync: {
+        dev: {
+            bsFiles: {
+                src : [
+                    'css/*.css',
+                    '*.html',
+                    'js/*.js'
+                ]
+            },
+            options: {
+                watchTask: true,
+                server: {
+                    baseDir: "./"
                 }
             }
         }
+    }
 ```
 
 </details>
@@ -16420,9 +16420,9 @@ $ npm install grunt-usemin@3.1.1 --save-dev
   <summary>Update jit-grunt configuration!</summary>
 
 ```
-require('jit-grunt')(grunt, {
-  useminPrepare: 'grunt-usemin'
-});
+  require('jit-grunt')(grunt, {
+    useminPrepare: 'grunt-usemin'
+  });
 ```
 
 </details>
@@ -16775,8 +16775,8 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
   <summary>Add the following Gulp plugins!</summary>
 
 ```
-'use strict';
-var gulp = require('gulp'),
+  'use strict';
+  var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync');
 ```
@@ -16792,34 +16792,33 @@ var gulp = require('gulp'),
   <summary>Add code for SASS task, Browser-Sync task & default task!</summary>
 
 ```
-gulp.task('sass', function () {
-  return gulp.src('./css/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
-});
+  gulp.task('sass', function () {
+    return gulp.src('./css/*.scss')
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest('./css'));
+  });
  
-gulp.task('sass:watch', function () {
-  gulp.watch('./css/*.scss', ['sass']);
-});
+  gulp.task('sass:watch', function () {
+    gulp.watch('./css/*.scss', ['sass']);
+  });
  
-gulp.task('browser-sync', function () {
-   var files = [
+  gulp.task('browser-sync', function () {
+    var files = [
       './*.html',
       './css/*.css',
       './img/*.{png,jpg,gif}',
       './js/*.js'
-   ];
-   browserSync.init(files, {
-      server: {
-         baseDir: "./"
-      }
-   });
-});
-// Default task
-gulp.task('default', ['browser-sync'], function() {
+    ];
+    browserSync.init(files, {
+      server: {
+        baseDir: "./"
+      }
+    });
+  });
+  // Default task
+  gulp.task('default', ['browser-sync'], function() {
     gulp.start('sass:watch');
-});
- 
+  });
 ```
 
 </details>
@@ -16944,24 +16943,24 @@ var ...
   <summary>Update gulp as follows:</summary>
 
 ```
-gulp.task('usemin', function() {
-  return gulp.src('./*.html')
-  .pipe(flatmap(function(stream, file){
+  gulp.task('usemin', function() {
+    return gulp.src('./*.html')
+    .pipe(flatmap(function(stream, file){
       return stream
         .pipe(usemin({
-            css: [ rev() ],
-            html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
-            js: [ uglify(), rev() ],
-            inlinejs: [ uglify() ],
-            inlinecss: [ cleanCss(), 'concat' ]
+          css: [ rev() ],
+          html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+          js: [ uglify(), rev() ],
+          inlinejs: [ uglify() ],
+          inlinecss: [ cleanCss(), 'concat' ]
         }))
-    }))
+      }))
     .pipe(gulp.dest('dist/'));
-});
+  });
  
-gulp.task('build',['clean'], function() {
+  gulp.task('build',['clean'], function() {
     gulp.start('copyfonts','imagemin','usemin');
-});
+  });
 ```
 
 </details>
@@ -17145,7 +17144,7 @@ specialization.
 <h4>PDFs of Presentations</h4>
 
 ```
-<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
+&lt;a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf"&gt;11-Conclusion.pdf (4 slides)&lt;/a&gt;
 ```
 
 <!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
