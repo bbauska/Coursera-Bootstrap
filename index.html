@@ -450,7 +450,7 @@ $ git config --global user.name "Your Name"
 </ul>
 
 <pre>
-$ git config --global user.email <your email address>
+$ git config --global user.email &lt;your email address&gt;
 </pre>
 
 <ul>
@@ -622,19 +622,16 @@ you've done after the last commit will be discarded on the spot.</p>
   <li>At a convenient location on your computer, create a folder named <b>git-test</b>,&#10;&#10;</li>
   <li>Open this git-test folder in your favorite editor,&#10;&#10;</li>
   <li>Add a file named <em>index.html</em> to this folder, and add the following HTML code to this file:</li>
-</ul>&nbsp;&#10;
+</ul>
 
 <pre>
-<!DOCTYPE html>
-<html>
-
-<head></head>
-
-<body>
-  <h1>This is a Header</h1>
-</body>
-
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;This is a Header&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h4>Initializing the folder as a Git repository</h4>
@@ -692,14 +689,14 @@ $ git log --oneline
 </ul>
 
 <pre>
-  <!DOCTYPE html>
-  <html>
-    <head></head>
-    <body>
-      <h1>This is a Header</h1>
-      <p>This is a paragraph</p>
-    </body>
-  </html>
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;This is a Header&lt;/h1&gt;
+      &lt;p&gt;This is a paragraph&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
 </pre>
 
 <ul>
@@ -710,15 +707,15 @@ $ git log --oneline
 </ul>
 
 <pre>
-  <!DOCTYPE html>
-  <html>
-    <head></head>
-    <body>
-      <h1>This is a Header</h1>
-      <p>This is a paragraph</p>
-      <p>This is a second paragraph</p>
-    </body>
-  </html>
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;This is a Header&lt;/h1&gt;
+      &lt;p&gt;This is a paragraph&lt;/p&gt;
+      &lt;p&gt;This is a second paragraph&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
 </pre>
 
 <ul>
@@ -732,7 +729,7 @@ $ git log --oneline
 </ul>
 
 <pre>
-$ git checkout <second commit's number> index.html
+$ git checkout &lt;second commit's number&gt; index.html
 </pre>
 
 <h4>Resetting the Git repository</h4>
@@ -966,7 +963,7 @@ online repository. At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-$ git remote add origin <repository URL>
+$ git remote add origin &lt;repository URL&gt;
 </pre>
 
 <h3>Pushing your commits to the online repository</h3>
@@ -993,7 +990,7 @@ $ git push -u origin master
   alt="Online git repository commands." />
 
 <pre>
-$ git clone <repository URL>
+$ git clone &lt;repository URL&gt;
 </pre>
 
 <h3>Conclusions</h3>
@@ -2062,15 +2059,15 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
   <li>Insert the following code in the <em><head></em> of <em>index.html</em> file before the title.&#10;&#10;</li>
 </ul>
 
-<pre>
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<pre><code>
+  &lt;!-- Required meta tags always come first --&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+  &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-</pre>
+  &lt;!-- Bootstrap CSS --&gt;
+  &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
+</code></pre>
 
 <ul>
   <li>This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.&#10;&#10;</li>
@@ -2078,10 +2075,10 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 </ul>
 
 <pre>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;
+  &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
+  &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
+  &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
 </pre>
 
 <ul>
@@ -3234,7 +3231,7 @@ support for media queries in the last lesson, where we added this line
 to the head:</p>
 
 <pre>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
 </pre>
 
 <p>The <em>viewport</em> meta tag ensures that the screen width is set
@@ -3264,7 +3261,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <div class="container"> ...
+  &lt;div class="container"&gt; ...
 </pre>
 
 <h3>Dividing the content into rows</h3>
@@ -3274,7 +3271,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <div class="row"> ...
+  &lt;div class="row"&gt; ...
 </pre>
 
 <h3>Creating a Jumbotron</h3>
@@ -3284,7 +3281,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <header class="jumbotron"> ... 
+  &lt;header class="jumbotron"&gt; ... 
 </pre>
 
 <ul>
@@ -3304,9 +3301,9 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <div class="col-12 col-sm-6"> ... </div>
+  &lt;div class="col-12 col-sm-6"&gt; ... &lt;/div&gt;
 
-  <div class="col-12 col-sm"> ... </div>
+  &lt;div class="col-12 col-sm"&gt; ... &lt;/div&gt;
 </pre>
 
 <ul>
@@ -3314,9 +3311,9 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <div class="col-12 col-sm-4 col-md-3"> ... </div>
+  &lt;div class="col-12 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
 
-  <div class="col col-sm col-md"> ... </div>
+  &lt;div class="col col-sm col-md"&gt; ... &lt;/div&gt;
 </pre>
 
 <ul>
@@ -3324,13 +3321,13 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 </ul>
 
 <pre>
-  <div class="col-4 col-sm-2"> ... </div>
+  &lt;div class="col-4 col-sm-2"&gt; ... &lt;/div&gt;
  
-  <div class="col-7 col-sm-5"> ... </div>
+  &lt;div class="col-7 col-sm-5"&gt; ... &lt;/div&gt;
  
-  <div class="col-12 col-sm-4"> ... </div>
+  &lt;div class="col-12 col-sm-4"&gt; ... &lt;/div&gt;
  
-  <div class="col-auto"> ... </div>
+  &lt;div class="col-auto"&gt; ... &lt;/div&gt;
 </pre>
 
 <p>Now you can see how the web page has been turned into a mobile-first
@@ -3343,9 +3340,9 @@ responsive design layout.</p>
 </ul>
 
 <pre>
-  <div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
+  &lt;div class="col-12 col-sm-4 order-sm-last col-md-3"&gt; ... &lt;/div&gt;
 
-  <div class="col col-sm order-sm-first col-md"> ... </div>
+  &lt;div class="col col-sm order-sm-first col-md"&gt; ... &lt;/div&gt;
 </pre>
 
 <ul>
@@ -3353,7 +3350,7 @@ responsive design layout.</p>
 </ul>
 
 <pre>
-  <div class="col-4 offset-1 col-sm-2">
+  &lt;div class="col-4 offset-1 col-sm-2"&gt;
 </pre>
 
 <ul>
@@ -3551,7 +3548,7 @@ At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-  <ul class="list-unstyled"> ... </ul>
+  &lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;
 </pre>
 
 <h3>Using Custom CSS classes</h3>
@@ -3593,11 +3590,11 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-  <div class="row row-header"> ... </div>
-  <div class="row row-content"> ... </div>
-  <div class="row row-content"> ... </div>
-  <div class="row row-content"> ... </div>
-  <footer class="footer"> ... </footer>
+  &lt;div class="row row-header"&gt; ... &lt;/div&gt;
+  &lt;div class="row row-content"&gt; ... &lt;/div&gt;
+  &lt;div class="row row-content"&gt; ... &lt;/div&gt;
+  &lt;div class="row row-content"&gt; ... &lt;/div&gt;
+  &lt;footer class="footer"&gt; ... &lt;/footer&gt;
 </pre>
 
 <ul>
@@ -3625,7 +3622,7 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-  <div class="row row-content align-items-center">
+  &lt;div class="row row-content align-items-center"&gt;
 </pre>
 
 <ul>
@@ -3633,7 +3630,7 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-  <div class="col-12 col-sm-4 align-self-center">
+  &lt;div class="col-12 col-sm-4 align-self-center"&gt;
 </pre>
 
 <h3>Horizontally Centering the Content</h3>
@@ -3643,8 +3640,8 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-  <div class="row justify-content-center">
-  <div class="col-auto">
+  &lt;div class="row justify-content-center"&gt;
+  &lt;div class="col-auto"&gt;
 </pre>
 
 <ul>
@@ -3652,7 +3649,7 @@ do this in this part of the exercise.</p>
 </ul>
 
 <pre>
-  <div class="text-center">
+  &lt;div class="text-center"&gt;
 </pre>
 
 <ul>
@@ -4540,17 +4537,17 @@ build into a web page using the Navbar in Bootstrap.</p>
 </ul>
 
 <pre>
-  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
-    </div>
-  </nav>
+  &lt;nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"&gt;
+    &lt;div class="container"&gt;
+      &lt;a class="navbar-brand" href="#"&gt;Ristorante Con Fusion&lt;/a&gt;
+        &lt;ul class="navbar-nav mr-auto"&gt;
+          &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+          &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+          &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;
+          &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
 </pre>
 
 <p>In the above code, we can see the use of the nav element to specify
@@ -4573,9 +4570,9 @@ bar. We also use the container class inside the navigation bar.</p>
 </ul>
 
 <pre>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"&gt;
+    &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+  &lt;/button&gt;
 </pre>
 
 <p>This creates a button with three horizontal lines. For medium to
@@ -4588,9 +4585,9 @@ for the navbar items.</p>
 </ul>
 
 <pre>
-  <div class="collapse navbar-collapse" id="Navbar">
-    <ul class="navbar-nav mr-auto"> ... </ul>
-  </div>
+  &lt;div class="collapse navbar-collapse" id="Navbar"&gt;
+    &lt;ul class="navbar-nav mr-auto"&gt; ... &lt;/ul&gt;
+  &lt;/div&gt;
 </pre>
 
 <p>By doing this, we are specifying that this div with <em>collapse</em>
@@ -4634,10 +4631,10 @@ hidden by clicking the toggle button.</p>
 </ul>
 
 <pre>
-  <ol class="col-12 breadcrumb">
-    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-    <li class="breadcrumb-item active">About Us</li>
-  </ol>
+  &lt;ol class="col-12 breadcrumb"&gt;
+    &lt;li class="breadcrumb-item"&gt;&lt;a href="./index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="breadcrumb-item active"&gt;About Us&lt;/li&gt;
+  &lt;/ol&gt;
 </pre>
 
 <ul>
@@ -4869,19 +4866,18 @@ $ npm install bootstrap-social@5.1.1 --save
 </ul>
 
 <pre>
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  &lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
+  &lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
 </pre>
 
 <ul>
   <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
 </ul>
 
-<pre>
-  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-  <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+<pre>   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;
 </pre>
 
 <ul>
@@ -4889,10 +4885,10 @@ $ npm install bootstrap-social@5.1.1 --save
 </ul>
 
 <pre>
-  <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
-  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./index.html"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
 </pre>
 
 <ul>
@@ -4900,10 +4896,10 @@ $ npm install bootstrap-social@5.1.1 --save
 </ul>
 
 <pre>
-  <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-  <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-  <i class="fa fa-envelope fa-lg"></i>: 
-  <a href="mailto:confusion@food.net">confusion@food.net</a>
+  &lt;i class="fa fa-phone fa-lg"&gt;&lt;/i&gt;: +852 1234 5678&lt;br&gt;
+  &lt;i class="fa fa-fax fa-lg"&gt;&lt;/i&gt;: +852 8765 4321&lt;br&gt;
+  &lt;i class="fa fa-envelope fa-lg"&gt;&lt;/i&gt;: 
+  &lt;a href="mailto:confusion@food.net"&gt;confusion@food.net&lt;/a&gt;
 </pre>
 
 <ul>
@@ -4911,19 +4907,19 @@ $ npm install bootstrap-social@5.1.1 --save
 </ul>
 
 <pre>
-  <div class="text-center">
-    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-    <a class="btn btn-social-icon btn-facebook”
-      href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-    <a class="btn btn-social-icon btn-linkedin" 
-      href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-    <a class="btn btn-social-icon btn-twitter"
-      href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-    <a class="btn btn-social-icon btn-google" 
-      href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-    <a class="btn btn-social-icon" 
-      href="mailto:"><i class="fa fa-envelope-o"></i></a>
-  </div>
+  &lt;div class="text-center"&gt;
+    &lt;a class="btn btn-social-icon btn-google" href="http://google.com/+"&gt;&lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn btn-social-icon btn-facebook”
+      href="http://www.facebook.com/profile.php?id="&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn btn-social-icon btn-linkedin" 
+      href="http://www.linkedin.com/in/"&gt;&lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn btn-social-icon btn-twitter"
+      href="http://twitter.com/"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn btn-social-icon btn-google" 
+      href="http://youtube.com/"&gt;&lt;i class="fa fa-youtube"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn btn-social-icon" 
+      href="mailto:"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
 </pre>
 
 <ul>
@@ -5539,11 +5535,11 @@ the use of Buttons support in Bootstrap.</p>
 </ul>
 
 <pre>
-  <div class="btn-group" role="group">
-    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
-  </div>
+  &lt;div class="btn-group" role="group"&gt;
+    &lt;a role="button" class="btn btn-primary" href="tel:+85212345678"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; Call&lt;/a&gt;
+    &lt;a role="button" class="btn btn-info"&gt;&lt;i class="fa fa-skype"&gt;&lt;/i&gt; Skype&lt;/a&gt;
+    &lt;a role="button" class="btn btn-success" href="mailto:confusion@food.net"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt; Email&lt;/a&gt;
+  &lt;/div&gt;
 </pre>
 
 <p>Note how we define the button bar using the <em>btn-group</em> class,
