@@ -4803,7 +4803,7 @@ links with the social media buttons.</p>
 <p>To get that done, we'll go to the footer and then replace each of
 these with their corresponding icons there.</p>
 <p>I would say, i class Font Awesome fa-google-plus and close the
-<i> tag there. And then I'm simply going to copy this and then
+&lt;i&gt; tag there. And then I'm simply going to copy this and then
 apply the same to the remaining ones.</p>
 <p>I will say, Facebook, LinkedIn, Twitter, YouTube, and finally for
 mail I'm going to use an envelope icon there.</p>
@@ -4846,7 +4846,7 @@ installed, then the font icons are not showing up in their browser.</p>
 <h3>Using Icon Fonts and Other CSS classes</h3>
 
 <ul>
-  <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <a href="http://fontawesome.io/" target="_blank" rel="noopener noreferrer">http://fontawesome.io/</a> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
+  <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <a href="http://fontawesome.io/" target="_blank" rel="noopener noreferrer">Font Awesome</a> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
 </ul>
 
 <pre>
@@ -4854,7 +4854,7 @@ $ npm install font-awesome@4.7.0 --save
 </pre>
 
 <ul>
-  <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <a href="https://lipis.github.io/bootstrap-social/" target="_blank" rel="noopener noreferrer">https://lipis.github.io/bootstrap-social/</a>. To install it using npm, type the following at the prompt:</li>
+  <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <a href="https://lipis.github.io/bootstrap-social/" target="_blank" rel="noopener noreferrer">Bootstrap Social</a>. To install it using npm, type the following at the prompt:</li>
 </ul>
 
 <pre>
@@ -4874,7 +4874,8 @@ $ npm install bootstrap-social@5.1.1 --save
   <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
 </ul>
 
-<pre>   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
+<pre>
+   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;
@@ -4898,7 +4899,7 @@ $ npm install bootstrap-social@5.1.1 --save
 <pre>
   &lt;i class="fa fa-phone fa-lg"&gt;&lt;/i&gt;: +852 1234 5678&lt;br&gt;
   &lt;i class="fa fa-fax fa-lg"&gt;&lt;/i&gt;: +852 8765 4321&lt;br&gt;
-  &lt;i class="fa fa-envelope fa-lg"&gt;&lt;/i&gt;: 
+  &lt;i class="fa fa-envelope fa-lg"&gt;&lt;/i&gt;
   &lt;a href="mailto:confusion@food.net"&gt;confusion@food.net&lt;/a&gt;
 </pre>
 
@@ -7858,14 +7859,14 @@ in a web page. At the end of this exercise, you will be able to:</p>
 <h3>Converting Tabs to Accordion</h3>
 
 <ul>
-  <li>First delete the <ul> class that was introduced for the tabbed navigation,&#10;&#10;</li>
+  <li>First delete the &lt;ul&gt; class that was introduced for the tabbed navigation,&#10;&#10;</li>
   <li>Then the turn the <em>tab-content</em> div into a <em>accordion</em> div. Use the code structure as shown below:&#10;&#10;</li>
 </ul>
 
 <pre>
-  <div id="accordion">
+  &lt;div id="accordion"&gt;
   . . .
-  </div>
+  &lt;/div&gt;
 </pre>
 
 <ul>
@@ -7873,20 +7874,20 @@ in a web page. At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-  <div class="card">
-    <div class="card-header" role="tab" id="peterhead">
-      <h3 class="mb-0">
-        <a data-toggle="collapse" data-target="#peter">
-          Peter Pan <small>Chief Epicurious Officer</small>
-        </a>
-      </h3>
-    </div>
-    <div class="collapse show" id="peter" data-parent="#accordion">
-      <div class="card-body">
-        <p class="d-none d-sm-block">. . .</p>
-      </div>
-    </div>
-  </div>
+  &lt;div class="card"&gt;
+    &lt;div class="card-header" role="tab" id="peterhead"&gt;
+      &lt;h3 class="mb-0"&gt;
+        &lt;a data-toggle="collapse" data-target="#peter"&gt;
+          Peter Pan &lt;small&gt;Chief Epicurious Officer&lt;/small&gt;
+        &lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class="collapse show" id="peter" data-parent="#accordion"&gt;
+      &lt;div class="card-body"&gt;
+        &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 </pre>
 
 <ul>
@@ -7894,46 +7895,46 @@ in a web page. At the end of this exercise, you will be able to:</p>
 </ul>
 
 <pre>
-  <div class="card">
-    <div class="card-header" role="tab" id="dannyhead">
-      <h3 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-target="#danny">
-          Dhanasekaran Witherspoon <small>Chief Food Officer</small>
-        </a>
-      </h3>
-    </div>
-    <div class="collapse" id="danny" data-parent="#accordion">
-      <div class="card-body">
-        <p class="d-none d-sm-block">. . .</em></p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="agumbehead">
-      <h3 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
-          Agumbe Tang <small>Chief Taste Officer</small>
-        </a>
-      </h3>
-    </div>
-  <div class="collapse" id="agumbe" data-parent="#accordion">
-    <div class="card-body">
-      <p class="d-none d-sm-block">. . .</p>
-    </div>
-  </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="albertohead">
-      <h3 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-target="#alberto">
-          Alberto Somayya <small>Executive Chef</small>
-        </a>
-      </h3>
-    </div>
-  <div class="collapse" id="alberto" data-parent="#accordion">
-    <div class="card-body">
-      <p class="d-none d-sm-block">. . .</em></p>
-    </div>
+  &lt;div class="card"&gt;
+    &lt;div class="card-header" role="tab" id="dannyhead"&gt;
+      &lt;h3 class="mb-0"&gt;
+        &lt;a class="collapsed" data-toggle="collapse" data-target="#danny"&gt;
+          Dhanasekaran Witherspoon &lt;small&gt;Chief Food Officer&lt;/small&gt;
+        &lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class="collapse" id="danny" data-parent="#accordion"&gt;
+      &lt;div class="card-body"&gt;
+        &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="card"&gt;
+    &lt;div class="card-header" role="tab" id="agumbehead"&gt;
+      &lt;h3 class="mb-0"&gt;
+        &lt;a class="collapsed" data-toggle="collapse" data-target="#agumbe"&gt;
+          Agumbe Tang &lt;small&gt;Chief Taste Officer&lt;/small&gt;
+        &lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+  &lt;div class="collapse" id="agumbe" data-parent="#accordion"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="card"&gt;
+    &lt;div class="card-header" role="tab" id="albertohead"&gt;
+      &lt;h3 class="mb-0"&gt;
+        &lt;a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
+          Alberto Somayya &lt;small&gt;Executive Chef&lt;/small&gt;
+        &lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+  &lt;div class="collapse" id="alberto" data-parent="#accordion"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
+    &lt;/div&gt;
 </pre>
 
 <ul>
@@ -8274,9 +8275,9 @@ exercise, you will be able to:</p>
 </ul>
 
 <pre>
-  <a role="button" class="btn btn-block nav-link btn-warning"
-    data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><b>+852 12345678</b>"
-    data-placement="bottom" href="#reserveform">Reserve Table</a>
+  &lt;a role="button" class="btn btn-block nav-link btn-warning"
+    data-toggle="tooltip" data-html="true"  title="Or Call us at  &lt;br&gt;<b>+852 12345678</b>"
+    data-placement="bottom" href="#reserveform">Reserve Table&lt;/a&gt;
 </pre>
 
 <p>As you can see from the code, we add a <em>data-toggle</em>,
@@ -8288,11 +8289,11 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-  <script>
+  &lt;script&gt;
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     });
-  </script>
+  &lt;/script&gt;
 </pre>
 
 <p>This script is added right after the line that imports the bootstrap.min.js file.</p>
@@ -8304,42 +8305,42 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-  <div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="content">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Login </h4>
-          <button type="button" class="close" data-dismiss="modal">&amp;times;</button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-              </div>
-              <div class="form-group col-sm-4">
-                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-              </div>
-              <div class="col-sm-auto">
-                <div class="form-check">
-                <input class="form-check-input" type="checkbox">
-                <label class="form-check-label"> Remember me
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-          <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-          <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
-        </div>
-      </form>
-    </div>
-    </div>
-    </div>
-  </div>
+  &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
+    &lt;div class="modal-dialog modal-lg" role="content"&gt;
+      &lt;!-- Modal content--&gt;
+      &lt;div class="modal-content"&gt;
+        &lt;div class="modal-header"&gt;
+          &lt;h4 class="modal-title"&gt;Login &lt;/h4&gt;
+          &lt;button type="button" class="close" data-dismiss="modal"&gt;&amp;times;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="modal-body"&gt;
+          &lt;form&gt;
+            &lt;div class="form-row"&gt;
+              &lt;div class="form-group col-sm-4"&gt;
+                &lt;label class="sr-only" for="exampleInputEmail3"&gt;Email address&lt;/label&gt;
+                &lt;input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+              &lt;/div&gt;
+              &lt;div class="form-group col-sm-4"&gt;
+                &lt;label class="sr-only" for="exampleInputPassword3"&gt;Password&lt;/label&gt;
+                &lt;input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+              &lt;/div&gt;
+              &lt;div class="col-sm-auto"&gt;
+                &lt;div class="form-check"&gt;
+                &lt;input class="form-check-input" type="checkbox"&gt;
+                &lt;label class="form-check-label"&gt; Remember me
+                &lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="form-row"&gt;
+          &lt;button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel&lt;/button&gt;
+          &lt;button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in&lt;/button&gt;        
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 </pre>
 
 <ul>
@@ -8347,10 +8348,10 @@ tag in order to introduce a tooltip.</p>
 </ul>
 
 <pre>
-  <span class="navbar-text">
-    <a data-toggle="modal" data-target="#loginModal">
-    <span class="fa fa-sign-in"></span> Login</a>
-  </span>
+  &lt;span class="navbar-text">
+    &lt;a data-toggle="modal" data-target="#loginModal">
+    &lt;span class="fa fa-sign-in">&lt;/span> Login&lt;/a>
+  &lt;/span>
 </pre>
 
 <p>We are introducing another link to the right of the navbar using the <em>navbar-text</em>. This contains a link with an <em>&lt;a&gt;</em> tag with the <em>data-toggle="modal"</em> and <em>data-target="#loginModal"</em> attributes.</p>
@@ -8509,10 +8510,10 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-  <div class="row row-content">
-    <div class="col">
-    </div>
-  </div>
+  &lt;div class="row row-content"&gt;
+    &lt;div class="col"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 </pre>
 
 <h3>Adding a Carousel</h3>
@@ -8522,8 +8523,8 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-  <div id="mycarousel" class="carousel slide" data-ride="carousel">
-  </div>
+  <div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
+  </div&gt;
 </pre>
 
 <h3>Adding Carousel Content</h3>
@@ -8533,22 +8534,22 @@ allows us to manually scroll the carousel.</p>
 </ul>
 
 <pre>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid"
-        src="img/uthappizza.png" alt="Uthappizza">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+  &lt;div class="carousel-inner" role="listbox"&gt;
+    &lt;div class="carousel-item active"&gt;
+      &lt;img class="d-block img-fluid"
+        src="img/uthappizza.png" alt="Uthappizza"&gt;
+        &lt;div class="carousel-caption d-none d-md-block"&gt;
+          &lt;h2&gt;Uthappizza &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt; &lt;span class="badge badge-pill badge-default"&gt;$4.99&lt;/span&gt;&lt;/h2&gt;
           . . .
-        </div>
-      </div>
-    <div class="carousel-item">
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class="carousel-item"&gt;
       . . .
-    </div>
-    <div class="carousel-item">
+    &lt;/div&gt;
+    &lt;div class="carousel-item"&gt;
       . . .
-    </div>
-  </div>
+    &lt;/div&gt;
+  &lt;/div&gt;
 </pre>
 
 <p>Note that the first item has been set up partially. Fill in the
@@ -8582,11 +8583,11 @@ remaining parts from the content rows below.</p>
 </ul>
 
 <pre>
-  <ol class="carousel-indicators">
-    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#mycarousel" data-slide-to="1"></li>
-    <li data-target="#mycarousel" data-slide-to="2"></li>
-  </ol>
+  <ol class="carousel-indicators"&gt;
+    <li data-target="#mycarousel" data-slide-to="0" class="active"&gt;</li&gt;
+    <li data-target="#mycarousel" data-slide-to="1"&gt;</li&gt;
+    <li data-target="#mycarousel" data-slide-to="2"&gt;</li&gt;
+  </ol&gt;
 </pre>
 
 <ul>
@@ -8594,12 +8595,12 @@ remaining parts from the content rows below.</p>
 </ul>
 
 <pre>
-  <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
+  &lt;a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"&gt;
+    &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
+  &lt;/a&gt;
+    &lt;a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"&gt;
+    &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
+  &lt;/a&gt;
 </pre>
 
 <ul>
@@ -9505,9 +9506,9 @@ control the JS component.</p>
 </ul>
 
 <pre>
-  <button class="btn btn-danger btn-sm" id="carouselButton">
-  <span id="carousel-button-icon" class="fa fa-pause"></span>
-  </button>
+  &lt;button class="btn btn-danger btn-sm" id="carouselButton"&gt;
+  &lt;span id="carousel-button-icon" class="fa fa-pause"&gt;&lt;/span&gt;
+  &lt;/button&gt;
 </pre>
 
 <p>We are adding a single button inside a button group with the ID
