@@ -62,17 +62,20 @@ ul {
 }
 ul li::before {
 /*  content: "✔️"; */
+  list-style-type: disc;
   list-style-position: outside;
   display: inline-block;
   margin-right: 0.3rem;  /* .2rem; */
 }
 ul ul li::before {
 /*  content: "👉"; */
+  list-style-type: disc;
   list-style-position: outside;  /* blank */
   margin-right: 0.3rem;  /* blank */
 }
 ul ul ul li::before {
 /*  content: "➕"; */
+  list-style-type: disc;
   list-style-position: outside;  /* blank */
   margin-right: 0.3rem;  /* blank */
 }
