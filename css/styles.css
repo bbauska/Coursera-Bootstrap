@@ -58,7 +58,7 @@ ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;}
 
 ul {
-  list-style: none;
+  list-style-type: disc;
 }
 ul li::before {
 /*  content: "✔️"; */
