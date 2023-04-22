@@ -61,7 +61,7 @@ img.displayed {
     border-color: #778899;
     border-style: solid; }
 ul, ol {
-  margin-left: 10px;
+  margin-left: 5px;  /* 10 px */
 }
 ol.c {list-style-type: decimal;}
 ol.d {list-style-type: decimal-leading-zero;}
@@ -77,19 +77,19 @@ ul li::before {
   list-style-type: disc;
   list-style-position: outside;
   display: inline-block;
-  margin-right: 0.3rem;  /* .2rem; */
+/*  margin-right: 0.3rem;   .2rem; */
 }
 ul ul li::before {
 /*  content: "👉"; */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
-  margin-right: 0.3rem;  /* blank */
+/* margin-right: 0.3rem;   blank */
 }
 ul ul ul li::before {
 /*  content: "➕"; */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
-  margin-right: 0.3rem;  /* blank */
+/*  margin-right: 0.3rem;   blank */
 }
 /* font-family: "Courier New", Courier, monospace, sans-serif; */
   code, samp, kbd {
@@ -116,13 +116,13 @@ pre {
   width: 40%;        /* 40% */
   max-height: 30%;  /* 300px <-- 400px; */
   color: #444;
-  padding: 5px;  /* 10px */
+  padding: 3px;  /* 5px, 10px */
   background: #eee;
   border: 1px solid #ccc;
-  border-radius: 2px;  /* 5px */
+  border-radius: 1px;  /* 2px, 5px */
   word-wrap: normal;
   overflow: auto;
 }
   li > ul {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.7em;  /* .5em; */
   }
