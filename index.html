@@ -378,11 +378,11 @@ computer.</p>
   src="/images/image014.png?raw=true"
   style="width:35%;"
   alt="Using git." />
-<p>Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in <b>git --version</b> to check what version of git is installed on your computer.</p>
+<p>Once you install Git on a computer Start up a command window or PowerShell if you're using a Window machine or start up a terminal window if you're using a Mac or Linux machine and then at the prompt type in <i>$ git --version</i> to check what version of git is installed on your computer.</p>
 <p>On my machine I have this current version of git installed and that is good enough for me to work with.</p>
 <p>Once we verify that Git is installed, we will configure a couple of global identity parameters, the username and email address.</p>
 <p>Whenever Git does any comments as you will learn later, it will make use of this information.</p>
-<p>To do that, at the prompt type <b>git config --global user.name</b> “Username”, and then you can type in your user name.</p>
+<p>To do that, at the prompt type <i>$ git config --global user.name “Username”</i>, and then you can type in your user name.</p>
 
 <pre>
 $ git config –global user.Email brianbauska@gmail.com
@@ -477,14 +477,14 @@ $ git config --list
 <p>Now let's switch to our command line, at the command line go to the git-test folder, and let's initialize this folder to be a git repository.</p>
 <p>To do that at the command line type git init.</p>
 <p>Now, this folder has been initialized to be a git repository.</p>
-<p>This is our first git command that we have learnt, <b>git init</b>.</p>
+<p>This is our first git command that we have learnt, <i>git init</i>.</p>
 <p>This initializes the current folder as a git repository and when it initializes the folder, it will mark that folder as a master.</p>
 <p>This is the master branch for my kit.</p>
 <p>Now let's not worry about branches and so on, we will not deal with that in this course.</p>
 <p>We will only be working with the master branch, in this particular specialization.</p>
 <p>This would be marked as a master.</p>
 <p>Now this is the initial point of our repository.</p>
-<p>The next command that we're going to look at is <b>git status</b>.</p>
+<p>The next command that we're going to look at is <i>$ git status</i>.</p>
 <p>If you type git status in the command line, it'll tell you the current status of the folder.</p>
 <p>Let's do that at the command line and see what it shows.</p>
 <p>At the command line, type git status and read the information that is tapped out on the command window.</p>
@@ -493,27 +493,27 @@ $ git config --list
 <p>On your specific computer, it may be using different colors or represent this differently or this is what it shows on my Mac.</p>
 <p>Now, this index.html file that we have just created in this folder is now not been added to our git repository.</p>
 <p>Let's go ahead and add that file to the git repository.</p>
-<p>To do that, we say, <b>$ git add,</b> and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.</p>
-<p>Now, if I again type $ git status, you will see that the file index.html is marked in green.</p>
+<p>To do that, we say, <i>$ git add,</i> and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.</p>
+<p>Now, if I again type <i>$ git status</i>, you will see that the file index.html is marked in green.</p>
 <p>And it says, changes to be committed there and then shows the file name and then so that means that this file is now ready to be committed to my git repository.</p>
-<p>The next command that we saw was <b>$ git add</b>.</p>
+<p>The next command that we saw was <i>$ git add</i>.</p>
 <p>By using git add you can add file or folders to that staging area.</p>
 <p>Once you add it to the staging area, then you can commit that snapshot of our folder status to our git repository.</p>
-<p>That means that when you do the <b>$ git commit</b>, what this command will do is commit the current state of our folders into our git repositories.</p>
+<p>That means that when you do the <i>$ git commit</i>, what this command will do is commit the current state of our folders into our git repositories.</p>
 <p>All the files as they exist at the moment, once they have been staged using the git add, then they will be committed to our git repository when we execute the git command folder.</p>
 <p>At this point when we execute the git command, then our initial state will now be changed to the first commit to the git repository.</p>
 <p>Let's go ahead and do that.</p>
-<p>Back at the command prompt, let's type <b>$ git commit</b>.</p>
+<p>Back at the command prompt, let's type <i>$ git commit</i>.</p>
 <p>And then we can even add a message to our commit.</p>
-<p>I'm going to say <b>$ git commit -m "first commit"</b> because this is our commit to our git repository.</p>
+<p>I'm going to say <i>$ git commit -m "first commit"</i> because this is our commit to our git repository.</p>
 <p>When I do that, it says, okay, 1 file has been added to the git repository and some other information will be typed out on to the command window.</p>
 <p>Let's now check again, git status and now you see that it says nothing to commit, working directory is clean.</p>
 <p>What it means is that the current state of my working directory or working folder has been committed to the git repository, so a snapshot
 has been committed to my git repository.</p>
-<p>Now, I can type the next command called <b>$ git log --oneline</b>, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.</p>
+<p>Now, I can type the next command called <i>$ git log --oneline</i>, and see that it shows a number there, an eight digit number there, and then also it shows the message that we put into our commit saying first commit.</p>
 <p>That is the log of all the commits that have been put into my git repository.</p>
-<p>Going back to our next git command, we saw that <b>$ git log --oneline</b> will show us a brief log of all the commits.</p>
-<p>If you simply type <b>$ git log</b> display a lot more detailed information about all the commits.</p>
+<p>Going back to our next git command, we saw that <i>$ git log --oneline</i> will show us a brief log of all the commits.</p>
+<p>If you simply type <i>$ git log</i> display a lot more detailed information about all the commits.</p>
 <p>But this is sufficient enough for obtaining information that we require.</p>
 <p>Let's now come back to our editor here, in Visual Studio Code, so I'm going to add more changes to my index.html file.</p>
 <p>I have changed my index.html file.</p>
@@ -529,16 +529,16 @@ has been committed to my git repository.</p>
 <p>This is just to show you how git can commit entire folder hierarchy into its repository.</p>
 <p>With test.html now there, I'm just going to copy everything from my index.html into my test.html, and save the changes.</p>
 <p>Going back to the command line, let's now check out the status of our git repository and this folder.</p>
-<p>Type in <b>$ git status</b>, shows that the index status html file that we have already handed earlier to the repository has now been modified, so there is a newer version of the index.html file.</p>
+<p>Type in <i>$ git status</i>, shows that the index status html file that we have already handed earlier to the repository has now been modified, so there is a newer version of the index.html file.</p>
 <p>Also, it shows that there are some untracked files in this folder called templates.</p>
-<p>Let's add all these changes to the staging the area, so again, type <b>$ git add.</b></p>
-<p>And then all these files will be added to the staging area.</p>
+<p>Let's add all these changes to the staging area, so again, type <i>$ git add .</i></p>
+<p>Then all these files will be added to the staging area.</p>
 <p>Again, checking out the status.</p>
 <p>You now see that changes that have been added to the staging area.</p>
 <p>All these files have been added to the staging area.</p>
-<p>Let's do one more commit, so I would say <b>$ git commit -m</b>, second commit and then let's check out the log. If you check out the log, you'll now see that there are two commits in my git repository, the first and the second commit.</p>
+<p>Let's do one more commit, so I would say <i>$ git commit -m</i>, second commit and then let's check out the log. If you check out the log, you'll now see that there are two commits in my git repository, the first and the second commit.</p>
 <p>And note that each one of them is given a different number there.</p>
-<p>If you want to see their full details of the log, you can type simply, git log and then you'll receive more details in there.</p>
+<p>If you want to see their full details of the log, you can type simply, <i>$ git log</i> and then you'll receive more details in there.</p>
 <p>Then what you would be interested in.</p>
 <p>Notice that the oneline commit only gives the first few characters of my commit number there.</p>
 <p>That is sufficient enough for us to operate with.</p>
@@ -546,23 +546,23 @@ has been committed to my git repository.</p>
 <p>One more line to my index.html file.</p>
 <p>Now my index.html file has been modified.</p>
 <p>And let's save the changes.</p>
-<p>Going back to the command line, doing git status shows that index.html file has been modified.</p>
+<p>Going back to the command line, doing <i>$ git status</i> shows that index.html file has been modified.</p>
 <p>Let's add this to the staging area, and then do a third commit.</p>
-<p>Let's say, $ git add., $ git status, now you see that the index.html the modified version has been added.</p>
-<p>Now we can say <b>$ git commit</b>. "third commit" and do <b>$ git log --oneline,</b> and you see there are three commits in our repository.</p>
+<p>Let's say, <i>$ git add . </i>, <i>$ git status</i>, now you see that the index.html the modified version has been added.</p>
+<p>Now we can say <i>$ git commit . "third commit"</i> and do <i>$ git log --oneline,</i> and you see there are three commits in our repository.</p>
 <p>Now our repository contains snapshots of three different points, at the end of the first commit, at the end of the second commit, and at the end of the third commit.</p>
 <p>Now, we also can roll back changes, we can revert the repository to a previous version.</p>
 <p>We can pull out a file from an older commit, and then replace the existing directory from the old commit.</p>
 <p>Let's see how we can operate with these things by learning a couple of more commands.</p>
 <p>At this stage, our index.html file is in the current state. So you can notice that it has an h1 and two p's.</p>
 <p>Let's now look at the next git command.</p>
-<p>The next git command that we are going to learn about is <b>git checkout.</b></p>
+<p>The next git command that we are going to learn about is <i>$ git checkout.</i></p>
 <p>This checkout command allows us to check out a file from a previous commit in our git repository.</p>
 <p>If we don't like the current file that we have in our folder and we want to go back to your previous version of the file, we can always check out the file from a previous commit or from the current commit and then continue to work with that file.</p>
 <p>Let's make use of this and see some further changes to our git repository.</p>
 <p>Going back to our command line, we remember that, between the second and the third commit, I made changes to my index.html file.</p>
 <p>Suppose I want to revert back to the index.html file from my second commit.</p>
-<p>Then, I can simply say, <b>git checkout 900cfcf</b>.</p>
+<p>Then, I can simply say, <i>git checkout 900cfcf</i>.</p>
 <p>That is commit identify the number that identifies the particular commit, and then I can say index.html, and what you would notice is that, that older file will now be checked out into my current working directory.</p>
 <p>Going to my Visual Studio Code, you'll now notice that my index.html file has reverted to the previous working so, the change that I made before the third commit it is now gone.</p>
 <p>My index.html file has been restored to its state at the end of the second commit.</p>
@@ -578,7 +578,7 @@ index.html is marked as modified.</p>
 <p>But it also shows this particular statement here. It says git checkout -- and the file name, to discard the changes in the working directories.</p>
 <p>That's one way you can discard the changes that you have made to a particular file corresponding to the previous comment.</p>
 <p>Let me just restore that index.html back to what it was at the end of the third commit.</p>
-<p>To do that, I could simply say <b>git checkout -- index.html</b> and then, if I do git status, it shows that my directory is clean.</p>
+<p>To do that, I could simply say <i>$ git checkout -- index.html</i> and then, if I do <i>$ git status</i>, it shows that my directory is clean.</p>
 <p>And basically my directory has been restored to the state at the end of the third commit.</p>
 <p>Going to the file in my Virtual Studio Code, I see that their file has been restored back to what it was at the end of the third cap.</p>
 <p>This is one way you can, if you have made changes to your file after the commit and you want to just discard those changes, you can simply check out the file from the last commit, and then all your changes that
@@ -619,7 +619,7 @@ you've done after the last commit will be discarded on the spot.</p>
 <h3>Basic Git Commands</h3>
 
 <ul>
-  <li>At a convenient location on your computer, create a folder named <b>git-test</b>,&#10;&#10;</li>
+  <li>At a convenient location on your computer, create a folder named <i>$ git-test</i>,&#10;&#10;</li>
   <li>Open this git-test folder in your favorite editor,&#10;&#10;</li>
   <li>Add a file named <em>index.html</em> to this folder, and add the following HTML code to this file:</li>
 </ul>
@@ -1077,8 +1077,8 @@ in the subsequent exercises.</p>
 <p>You may need administrative privileges to install Node.js on your machine.</p>
 <p>Make sure that you are logged in into an administrator account and install Node.js to be accessible by all users that are logged in on the computer.</p>
 <p>And once the installation is complete, let's go ahead and verify that Node.js has been installed correctly.</p>
-<p>Open up a terminal window or a command window and add the prompt, type <b>node-v</b> to check the version of node installed.</p>
-<p>Similarly, check <b>npm-v</b> to check the version of NPM installed. I am starting with these versions of node and NPM, and the subsequent exercises will be based on these.</p>
+<p>Open up a terminal window or a command window and add the prompt, type <i>$ node -v</i> to check the version of node installed.</p>
+<p>Similarly, check <i>$ npm -v</i> to check the version of NPM installed. I am starting with these versions of node and NPM, and the subsequent exercises will be based on these.</p>
 <p>Even if you install the later version, I'm pretty sure that it would be backward compatible.</p>
 <p>All the steps should work pretty much the same.</p>
 <p>With this, we complete the installation of Node.js.</p>
@@ -2049,7 +2049,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 <ul>
   <li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.&#10;&#10;</li>
   <li>Open your project folder in your editor, and then open the index.html file in the <em>conFusion</em> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.&#10;&#10;</li>
-  <li>Start your lite-server by typing <b>npm start</b> at the prompt. The <em>index.html</em> file should now be loaded into your default browser.&#10;&#10;</li>
+  <li>Start your lite-server by typing <i>$ npm start</i> at the prompt. The <em>index.html</em> file should now be loaded into your default browser.&#10;&#10;</li>
 </ul>
 
 <h3>Getting your Web page Bootstrap ready</h3>
@@ -7505,7 +7505,7 @@ tabs.</p>
 
 <h3>Exercise (Instructions): Tabs</h3>
 
-<h3 id="objectives-and-outcomes-14">Objectives and Outcomes</h3>
+<h3>Objectives and Outcomes</h3>
 
 <p>In this exercise we will explore Bootstrap tabs and tabbed
 navigation. In particular we will learn about the use of tabs for
@@ -12238,8 +12238,7 @@ we'll configure this task as sass watch.</p>
 would specify function.</p>
 <p>And so in here, the gulp sass watch task, what we do is specify the
 files that we're going to be watching.</p>
-<p>We use the gulp watch task to watch the file. So, the watch is
-already built into gulp.</p>
+<p>We use the gulp watch task to watch the file. The watch is already built into gulp.</p>
 <p>It will take gulp watch and then we specify the files there
 *.SCSS.</p>
 <p>As you can see, the gulp watch will watch these files and then when
