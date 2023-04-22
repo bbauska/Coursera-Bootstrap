@@ -3,6 +3,18 @@ html *
   font-family: Inter, Bahnschrift, Consolas, Calibri, Verdana, "sans-serif";
   margin-left: 10px;
 }
+
+span {
+    background-color: yellow;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: rebeccapurple;
+}
 h1 {
   font-size: 22px;
   color: red;
