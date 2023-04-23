@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="./css/styles.css"/>
   
   <h1>Front-End Web UI Frameworks and Tools: Bootstrap 4</h1>
+</head>
+<body>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 01a. course title: front-end web ui frameworks and tools: bootstrap 4 ~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -34,11 +36,6 @@
   src="/images/coursera-logo.png?raw=true"
   style="width:25%;"
   alt="Coursera logo." />
-
-</head>
-
-<body>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 01. hong kong university of science & technology logo (01) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1124,19 +1121,13 @@ subsequent course.</p>
 <ul>
   <li>Open a terminal window on your machine. If you are using a Windows machine, open a cmd window or PowerShell window with <b>admin</b> privileges.</li>
   <li>To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b></li>
-  <ul>
-    <li>
-      <pre>
-      $ node -v
-      </pre>
-	</li>
-    <li>
-      <pre>
-      $ npm -v
-      </pre>
-	</li>
-  </ul>
 </ul>
+
+<pre>
+$ node -v
+
+$ npm -v
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. more node js installer (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2057,7 +2048,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 
 <ul>
   <li>Open the <em>index.html</em> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.</li>
-  <li>Insert the following code in the <em><head></em> of <em>index.html</em> file before the title.</li>
+  <li>Insert the following code in the <em>&lt;head&gt;</em> of <em>index.html</em> file before the title.</li>
 </ul>
 
 <pre><code>
@@ -3587,7 +3578,7 @@ do this in this part of the exercise.</p>
 <!-- <link href="css/styles.css" rel="stylesheet"> -->
 
 <ul>
-  <li>Then add these classes to the corresponding rows in the <em>index.html</em> file as follows. See the difference in the <em>index.html</em> file in the browser. The first one is for the row in the <header>, the next three for the rows in the content, and the last one directly to the <footer> tag.</li>
+  <li>Then add these classes to the corresponding rows in the <em>index.html</em> file as follows. See the difference in the <em>index.html</em> file in the browser. The first one is for the row in the &lt;header&gt;, the next three for the rows in the content, and the last one directly to the &lt;footer&gt; tag.</li>
 </ul>
 
 <pre>
@@ -4555,14 +4546,16 @@ build into a web page using the Navbar in Bootstrap.</p>
 the navigation information for the website. This nav element is styled
 by the <em>navbar</em> that declares it as a navigation bar, and the
 <em>navbar-dark</em> class to specify that the page should use the dark
-navigation bar. You will now notice the addition of a link with the name
+navigation bar. </p>
+<p>You will now notice the addition of a link with the name
 of the restaurant. This is the brand name for the website. You can
 replace this with the logo for the website. This is created by the
-<em><a class="navbar-brand"></em> tag. In addition the inner
-<em>ul</em> is used to specify the items to be put in the navigation
+<em>&lt;a class="navbar-brand"&gt;</em> tag. </p>
+<p>In addition the inner <em>ul</em> is used to specify the items to be put in the navigation
 bar. This <em>ul</em> is styled with <em>navbar-nav</em> class to
 specify that the items should be displayed inline inside the navigation
-bar. We also use the container class inside the navigation bar.</p>
+bar.</p>
+<p>We also use the container class inside the navigation bar.</p>
 
 <h3>Creating a responsive navigation bar</h3>
 
@@ -4621,7 +4614,7 @@ hidden by clicking the toggle button.</p>
 </pre>
 
 <ul>
-  <li>Remember to delete the <em>bg-primary</em> class from the <nav> element in both <em>index.html</em> and <em>aboutus.html.</em></li>
+  <li>Remember to delete the <em>bg-primary</em> class from the &lt;nav&gt; element in both <em>index.html</em> and <em>aboutus.html.</em></li>
   <li>We are already beginning to see the page format close to the final format for this module.</li>
 </ul>
 
