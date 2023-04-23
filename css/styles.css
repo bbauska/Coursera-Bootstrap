@@ -74,6 +74,7 @@ ul {
 }
 ul li::before {
 /*  content: "✔️"; */
+  margin-left: 5px;  /* 10 px */
   list-style-type: disc;
   list-style-position: outside;
   display: inline-block;
@@ -81,12 +82,14 @@ ul li::before {
 }
 ul ul li::before {
 /*  content: "👉"; */
+  margin-left: 5px;  /* 10 px */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
 /* margin-right: 0.3rem;   blank */
 }
 ul ul ul li::before {
 /*  content: "➕"; */
+  margin-left: 5px;  /* 10 px */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
 /*  margin-right: 0.3rem;   blank */
@@ -124,5 +127,6 @@ pre {
   overflow: auto;
 }
   li > ul {
+    margin-left: 5px;  /* 10 px */
     padding-bottom: 0.7em;  /* .5em; */
   }
