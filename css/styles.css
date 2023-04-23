@@ -15,6 +15,9 @@ strong {
 em {
     color: rebeccapurple;
 }
+b {
+    background-color: yellow;
+}
 h1 {
   font-size: 22px;
   color: red;
@@ -78,6 +81,7 @@ ul li::before {
   list-style-type: disc;
   list-style-position: outside;
   display: inline-block;
+  margin-right: 0.1rem;
 /*  margin-right: 0.3rem;   .2rem; */
 }
 ul ul li::before {
@@ -85,6 +89,7 @@ ul ul li::before {
   margin-left: 5px;  /* 10 px */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
+  margin-right: 0.1rem;
 /* margin-right: 0.3rem;   blank */
 }
 ul ul ul li::before {
@@ -92,6 +97,7 @@ ul ul ul li::before {
   margin-left: 5px;  /* 10 px */
   list-style-type: disc;
   list-style-position: outside;  /* blank */
+  margin-right: 0.1rem;
 /*  margin-right: 0.3rem;   blank */
 }
 /* font-family: "Courier New", Courier, monospace, sans-serif; */
@@ -115,8 +121,8 @@ ul ul ul li::before {
   }
 pre {
   font-family: Consolas, Bahnschrift, serif, Helvetica;
-  font-size: 12px;   /* 10px */
-  width: 40%;        /* 40% */
+  font-size: 12px;  /* 10px */
+  width: 40%;  /* 40% */
   max-height: 30%;  /* 300px <-- 400px; */
   color: #444;
   padding: 3px;  /* 5px, 10px */
