@@ -17170,8 +17170,6 @@ specialization.
   <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a></li>
 </ul>
 
-<!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
-
 <h4>Project Implementation: Objectives and Outcomes</h4>
 
 This is the final stretch before you complete your project.
@@ -17244,4 +17242,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!-- last updated: 4/25/2023 at 8:18pm -->
+<!-- last updated: 5/18/2023 at 10:47am -->
