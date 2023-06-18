@@ -37,8 +37,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <h6 align="center" width="100%">(coursera.org)</h6>
 
 <h3>Course Overview</h3>
-<p>
-Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
+<p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
 I&apos;m glad you decided to join this course to learn about the most
 popular front end Web UI Framework: Bootstrap.
@@ -483,7 +482,7 @@ the repository at the end of each exercise.
 </p>
 <!-- {width="5.0in" height="1.5908125546806648in"} -->
 
-<h4>Exercise (Video): Setting up Git</h4>
+<h4>Exercise: Setting up Git</h4>
 
 Git is a very popular version control system for software.
 
@@ -731,7 +730,7 @@ $ git config --list
 At the end of this exercise you should have Git available on the
 command-line of your computer.
 
-<h4>Exercise (Video): Basic Git Commands</h4>
+<h4>Exercise: Basic Git Commands</h4>
 
 Let us now explore some basic Git commands that are very useful for us
 in this specialization.
@@ -1258,7 +1257,7 @@ At the end of this exercise you should have learnt some basic Git
 commands. Experiment with these commands until you fully understand how
 to use Git.
 
-<h4>Exercise (Video): Online Git Repositories</h4>
+<h4>Exercise: Online Git Repositories</h4>
 
 Online Git repositories enable you to store a copy of your Git
 repository online.
@@ -1674,7 +1673,7 @@ called package.json which is the manifest file for this Node module.
 We will look at how we can use the package.json file in more detail in
 the subsequent exercises.
 
-<h4>Exercise (Video): Setting up Node.js and NPM</h4>
+<h4>Exercise: Setting up Node.js and NPM</h4>
 
 In your browser, head over to nodejs.org and as you browse down, you&apos;ll
 see the download buttons for Node.js for your specific platform.
@@ -1808,7 +1807,7 @@ At the end of this exercise, your machine is now ready with the Node
 installed for further development. We will examine web development tools
 next.
 
-<h4>Exercise (Video): Basics of Node.js and NPM</h4>
+<h4>Exercise: Basics of Node.js and NPM</h4>
 
 Now that you have Node.js on your computer, you&apos;re obviously wanting to
 immediately start using it.
@@ -2702,7 +2701,7 @@ with Bootstrap 3.3.7 in the earlier Bootstrap course.
 Now, it&apos;s time to move on to our first exercise where we will get our
 hands dirty with Bootstrap.
 
-<h4>Exercise (Video): Getting Started with Bootstrap</h4>
+<h4>Exercise: Getting Started with Bootstrap</h4>
 
 Strap on your boots, and let&apos;s get started with Bootstrap.
 
@@ -3140,9 +3139,7 @@ Bootstrap&apos;s grid system.
 
 -   (required for the exercise)
 
-```
-  Bootstrap4-starter.zip
-```
+<h4><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/Bootstrap4-starter.zip">Bootstrap4-starter.zip</a></h4>
 
 <h4>Bootstrap Official Resources</h4>
 
@@ -4219,7 +4216,7 @@ to do the layout of the content inside or index.html page.
 
 We will also use some custom CSS classes.
 
-<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 1</h4>
+<h4>Exercise: Responsive Design and Bootstrap Grid System Part 1</h4>
 
 In the previous lectures, we have learnt about responsive design and the
 bootstrap grid system.
@@ -4750,7 +4747,7 @@ responsive design layout.
 In this exercise, we reviewed responsive design and the Bootstrap grid
 system.
 
-<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2</h4>
+<h4>Exercise: Responsive Design and Bootstrap Grid System Part 2</h4>
 
 We&apos;ll continue with the bootstrap grid exercise that we started out in
 the previous exercise.
@@ -5027,19 +5024,19 @@ do this in this part of the exercise.
 
 ```
 .row-header{
-    margin:0px auto;
-    padding:0px;
+  margin:0px auto;
+  padding:0px;
 }
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
 }
 .footer{
-    background-color: #D1C4E9;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
+  background-color: #D1C4E9;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
 }
 ```
 
@@ -5080,15 +5077,15 @@ do this in this part of the exercise.
 
 ```
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #9575CD ;
+  color:floralwhite;
 }
 address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
 }
 ```
 
@@ -5722,7 +5719,7 @@ SchrollSpy, and Affix.
 We&apos;ll look at some of these in a bit more detail as we go through the
 various lessons in the modules that follow this particular lesson.
 
-<h4>Exercise (Video): Navbar and Breadcrumbs</h4>
+<h4>Exercise: Navbar and Breadcrumbs</h4>
 
 We just completed a discussion on the importance of providing navigation
 in your website.
@@ -6302,33 +6299,32 @@ exercise, you will be able to:
   <summary>Insert the following:</summary>
 
 ```
-  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-          </ul>            
-      </div>
-  </nav>
+<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 ```
 
 </details>
 
-In the above code, we can see the use of the nav element to specify the
+<p>In the above code, we can see the use of the nav element to specify the
 navigation information for the website. This nav element is styled by
 the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i>
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the <i><a class="navbar-brand"&gt;</i> tag. 
-In addition the inner <i>ul</i> is used to
-specify the items to be put in the navigation bar. This <i>ul</i> is styled
-with <i>navbar-nav</i> class to specify that the items should be displayed
-inline inside the navigation bar. We also use the container class inside
-the navigation bar.
+logo for the website. This is created by the <i><a class="navbar-brand"&gt;</i> tag.</p>
+<p>In addition the inner <i>ul</i> is used to specify the items to be put in the navigation 
+bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items 
+should be displayed inline inside the navigation bar.</p>
+<p>We also use the container class inside the navigation bar.</p>
 
 <h4>Creating a responsive navigation bar</h4>
 
@@ -6385,11 +6381,11 @@ toggle button.
 
 ```
 body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+  padding:50px 0px 0px 0px;
+  z-index:0;
 }
 .navbar-dark {
-     background-color: #512DA8;
+  background-color: #512DA8;
 }
 ```
 
@@ -6406,10 +6402,10 @@ body{
     containing the About Us title in <i>aboutus.html</i>.
 
 ```
-   <ol class="col-12 breadcrumb">
-      <li class="breadcrumb-item"><a href="[./index.html]{.underline}">Home</a></li>
-      <li class="breadcrumb-item active">About Us</li>
-   </ol>
+  <ol class="col-12 breadcrumb">
+    <li class="breadcrumb-item"><a href="[./index.html]{.underline}">Home</a></li>
+    <li class="breadcrumb-item active">About Us</li>
+  </ol>
 ```
 
 -   Save all the changes and commit to your Git repository with a
@@ -6509,7 +6505,7 @@ bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
 use of it in the exercise.
 
-<h4>Exercise (Video): Icon Fonts</h4>
+<h4>Exercise: Icon Fonts</h4>
 
 Let&apos;s now move on to our next exercise, where we will learn more about
 Icon fonts.
@@ -6968,7 +6964,7 @@ bootstrap support for styling buttons, and also look at how various form
 elements can be enhanced using bootstrap classes to present classic
 Bootstrap forms.
 
-<h4>Exercise (Video): Buttons</h4>
+<h4>Exercise: Buttons</h4>
 
 In this exercise, we&apos;re going to look at Bootstrap&apos;s support for
 buttons and forms.
@@ -7713,9 +7709,9 @@ Download file
 
 ```
 <div class="btn-group" role="group">
-    <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>
-    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-    <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>
+  <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>
+  <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+  <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>
 </div>
 ```
 
@@ -7732,7 +7728,7 @@ the <i>btn</i> class.
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-<h4>Exercise (Video): Forms</h4>
+<h4>Exercise: Forms</h4>
 
 Now that we have seen how to add buttons to our web page.
 
@@ -8123,7 +8119,7 @@ This is a good time for you to do a good comment with the message forms.
 
 <h4>Exercise (Instructions): Forms</h4>
 
-# Exercise: Forms
+<h4>Exercise: Forms</h4>
 
 <h4>Objectives and Outcomes</h4>
 
@@ -8145,18 +8141,18 @@ be able to:
 
 ```
 <form>
-   <div class="form-group row">
-      <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-      <div class="col-md-10">
-         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-      </div>
-   </div>
-   <div class="form-group row">
-      <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-      <div class="col-md-10">
-         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-      </div>
-   </div>
+  <div class="form-group row">
+    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+    <div class="col-md-10">
+      <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+    <div class="col-md-10">
+      <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+    </div>
+  </div>
 </form>
 ```
 
@@ -8173,19 +8169,19 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-   <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-   <div class="col-5 col-md-3">
-      <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-   </div>
-   <div class="col-7 col-md-7">
-      <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-   </div>
+  <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+  <div class="col-5 col-md-3">
+    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+  </div>
+  <div class="col-7 col-md-7">
+    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+  </div>
 </div>
 <div class="form-group row">
-   <label for="emailid" class="col-md-2 col-form-label">Email</label>
-   <div class="col-md-10">
-      <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-   </div>
+  <label for="emailid" class="col-md-2 col-form-label">Email</label>
+  <div class="col-md-10">
+    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+  </div>
 </div>
 ```
 
@@ -8201,20 +8197,20 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-   <div class="col-md-6 offset-md-2">
-      <div class="form-check">
-         <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-         <label class="form-check-label" for="approve">
-            <strong>May we contact you?</strong>
-         </label>
-      </div>
-   </div>
-   <div class="col-md-3 offset-md-1">
-      <select class="form-control">
-         <option>Tel.</option>
-         <option>Email</option>
-      </select>
-   </div>
+  <div class="col-md-6 offset-md-2">
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+      <label class="form-check-label" for="approve">
+        <strong>May we contact you?</strong>
+      </label>
+    </div>
+  </div>
+  <div class="col-md-3 offset-md-1">
+    <select class="form-control">
+      <option>Tel.</option>
+      <option>Email</option>
+    </select>
+  </div>
 </div>
 ```
 
@@ -8227,10 +8223,10 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-   <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-      <div class="col-md-10">
-         <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-      </div>
+  <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+  <div class="col-md-10">
+    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+  </div>
 </div>
 ```
 
@@ -8240,9 +8236,9 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-   <div class="offset-md-2 col-md-10">
-      <button type="submit" class="btn btn-primary">Send Feedback</button>
-   </div>
+  <div class="offset-md-2 col-md-10">
+    <button type="submit" class="btn btn-primary">Send Feedback</button>
+  </div>
 </div>
 ```
 
@@ -8379,7 +8375,7 @@ Card is a very important company that can be effectively used for
 displaying content. It&apos;s time to move on to the next exercise where we
 will use tables and cards to display some content in our web page.
 
-<h4>Exercise (Video): Displaying Content: Tables and Cards</h4>
+<h4>Exercise: Displaying Content: Tables and Cards</h4>
 
 Our next exercise looks at ways of displaying content on our web page.
 
@@ -8715,11 +8711,11 @@ displaying content. At the end of this exercise, you will be able to:
 
 ```
 <div class="row row-content">
-   <div class="col-12 col-sm-9">
-      <h2>Facts &amp; Figures</h2>
-   </div>
-   <div class="col-12 col-sm-3">
-   </div>
+  <div class="col-12 col-sm-9">
+    <h2>Facts &amp; Figures</h2>
+  </div>
+  <div class="col-12 col-sm-3">
+  </div>
 </div>
 ```
 
@@ -8730,42 +8726,42 @@ displaying content. At the end of this exercise, you will be able to:
 
 ```
 <div class="table-responsive">
-   <table class="table table-striped">
-      <thead class="thead-dark">
-         <tr>
-            <th>&nbsp;</th>
-            <th>2013</th>
-            <th>2014</th>
-            <th>2015</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <th>Employees</th>
-            <td>15</td>
-            <td>30</td>
-            <td>40</td>
-         </tr>
-         <tr>
-            <th>Guests Served</th>
-            <td>15000</td>
-            <td>45000</td>
-            <td>100,000</td>
-         </tr>
-         <tr>
-            <th>Special Events</th>
-            <td>3</td>
-            <td>20</td>
-            <td>45</td>
-            </tr>
-         <tr>
-            <th>Annual Turnover</th>
-            <td>$251,325</td>
-            <td>$1,250,375</td>
-            <td>~$3,000,000</td>
-         </tr>
-      </tbody>
-   </table>
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th>&nbsp;</th>
+        <th>2013</th>
+        <th>2014</th>
+        <th>2015</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Employees</th>
+        <td>15</td>
+        <td>30</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <th>Guests Served</th>
+        <td>15000</td>
+        <td>45000</td>
+        <td>100,000</td>
+      </tr>
+      <tr>
+        <th>Special Events</th>
+        <td>3</td>
+        <td>20</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <th>Annual Turnover</th>
+        <td>$251,325</td>
+        <td>$1,250,375</td>
+        <td>~$3,000,000</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 ```
 
@@ -8786,21 +8782,21 @@ table.
 
 ```
 <div class="col-12 col-sm-6">
-   <div class="card">
-   <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
-      <div class="card-body">
-         <dl class="row">
-            <dt class="col-6">Started</dt>
-            <dd class="col-6">3 Feb. 2013</dd>
-            <dt class="col-6">Major Stake Holder</dt>
-            <dd class="col-6">HK Fine Foods Inc.</dd>
-            <dt class="col-6">Last Year's Turnover</dt>
-            <dd class="col-6">$1,250,375</dd>
-            <dt class="col-6">Employees</dt>
-            <dd class="col-6">40</dd>
-         </dl>
-      </div>
-   </div>
+  <div class="card">
+    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+    <div class="card-body">
+      <dl class="row">
+        <dt class="col-6">Started</dt>
+        <dd class="col-6">3 Feb. 2013</dd>
+        <dt class="col-6">Major Stake Holder</dt>
+        <dd class="col-6">HK Fine Foods Inc.</dd>
+        <dt class="col-6">Last Year's Turnover</dt>
+        <dd class="col-6">$1,250,375</dd>
+        <dt class="col-6">Employees</dt>
+        <dd class="col-6">40</dd>
+      </dl>
+    </div>
+  </div>
 </div>
 ```
 
@@ -8816,12 +8812,12 @@ table.
 <div class="col-12">
    <div class="card card-body bg-light">
       <blockquote class="blockquote">
-         <p class="mb-0">You better cut the pizza in four pieces because
-            I'm not hungry enough to eat six.</p>
-            <footer class="blockquote-footer">Yogi Berra,
-               <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
-               P. Pepe, Diversion Books, 2014</cite>
-            </footer>
+        <p class="mb-0">You better cut the pizza in four pieces because
+          I'm not hungry enough to eat six.</p>
+        <footer class="blockquote-footer">Yogi Berra,
+          <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+            P. Pepe, Diversion Books, 2014</cite>
+        </footer>
       </blockquote>
    </div>
 </div>
@@ -8982,7 +8978,7 @@ the webpage or the website that we have been working on.
 We&apos;ll make some changes to the index.html page by including some images
 and content using the media object.
 
-<h4>Exercise (Video): Images and Media</h4>
+<h4>Exercise: Images and Media</h4>
 
 Time to move onto the next exercise.
 
@@ -9194,7 +9190,7 @@ At the end of this exercise you will be able to:
 
 ```
 <div class="col-12 col-sm align-self-center">
-   <img src="[img/logo.png]{.underline}" class="img-fluid">
+  <img src="[img/logo.png]{.underline}" class="img-fluid">
 </div>
 ```
 
@@ -9207,7 +9203,7 @@ jumbotron.
 
 ```
 <a class="navbar-brand mr-auto" href="#"><img src="[img/logo.png]{.underline}" height="30" width="41"></a>
-Note the inclusion of the logo in the navbar.
+  Note the inclusion of the logo in the navbar.
 ```
 
 -   Repeat the above two steps for the <i>aboutus.html</i> and the
@@ -9227,15 +9223,15 @@ Note the inclusion of the logo in the navbar.
 
 ```
 <div class="media">
-   <img class="d-flex mr-3 img-thumbnail align-self-center"
-      src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-   <div class="media-body">
-   <h2 class="mt-0">Uthappizza</h2>
-   <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-      Italian pizza, topped with Cerignola olives, ripe vine
-      cherry tomatoes, Vidalia onion, Guntur chillies and
-      Buffalo Paneer.</p>
-   </div>
+  <img class="d-flex mr-3 img-thumbnail align-self-center"
+    src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+  <div class="media-body">
+    <h2 class="mt-0">Uthappizza</h2>
+    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+       Italian pizza, topped with Cerignola olives, ripe vine
+       cherry tomatoes, Vidalia onion, Guntur chillies and
+       Buffalo Paneer.</p>
+  </div>
 </div>
 ```
 
@@ -9272,7 +9268,7 @@ style the content.
 -   Finally, do a Git commit with a message "Images and Media".
 
 ```
-git commit "Images and Media"
+$ git commit "Images and Media"
 ```
 
 <b>Conclusions</b>
@@ -9422,7 +9418,7 @@ Now that we have looked at various ways of alerting users, let&apos;s do a
 simple exercise next and use badges in our web page to draw the
 attention of users.
 
-<h4>Exercise (Video): Alerting Users</h4>
+<h4>Exercise: Alerting Users</h4>
 
 In this short exercise, we&apos;re going to make use of badges to add badges
 to our web page, so that we can highlight some information for our
@@ -10043,7 +10039,7 @@ That is what we&apos;re going to explore in the exercise next.
 We will use tabbed navigation and then use tab content and tab panes to
 organize the actual content that will be displayed in our web page.
 
-<h4>Exercise (Video): Tabs</h4>
+<h4>Exercise: Tabs</h4>
 
 In this exercise, we&apos;re going to explore Bootstrap&apos;s tab-based
 navigation, Bootstrap&apos;s support for tabs, and how tabs can be used to
@@ -10306,22 +10302,22 @@ content. At the end of this exercise you will be able to:
 
 ```
 <ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link active" href="#peter"
-        role="tab" data-toggle="tab">Peter Pan, CEO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#danny" role="tab"
-        data-toggle="tab">Danny Witherspoon, CFO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#agumbe"role="tab"
-        data-toggle="tab">Agumbe Tang, CTO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#alberto" role="tab"
-        data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-    </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#peter"
+      role="tab" data-toggle="tab">Peter Pan, CEO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#danny" role="tab"
+      data-toggle="tab">Danny Witherspoon, CFO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#agumbe"role="tab"
+      data-toggle="tab">Agumbe Tang, CTO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#alberto" role="tab"
+      data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+  </li>
 </ul>
 ```
 
@@ -10545,7 +10541,7 @@ Although, of course, the Coursera page actually doesn&apos;t use Bootstrap.
 We&apos;ll move to the next exercise where we will see how we construct the
 Accordion for showing our corporate leadership information.
 
-<h4>Exercise (Video): Accordion</h4>
+<h4>Exercise: Accordion</h4>
 
 Accordions are one of those annoying instruments that some of you may
 have seen already.
@@ -10972,7 +10968,7 @@ index.html page.
 We&apos;ll also create a modal that allows the user to type in information
 for logging in into our web page.
 
-<h4>Exercise (Video): Tooltips and Modals</h4>
+<h4>Exercise: Tooltips and Modals</h4>
 
 In the lecture before, we saw several ways of revealing content to the
 users.
@@ -11462,7 +11458,7 @@ That is what we&apos;re going to examine in this next exercise, where we
 will add a carousel to our web page, the index.html page and then create
 the manual controls for it.
 
-<h4>Exercise (Video): Carousel</h4>
+<h4>Exercise: Carousel</h4>
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -12441,7 +12437,7 @@ which will be used to control the sliding action of the carousel.
 Which means that we can pause and resume the sliding action of our
 carousel. And we&apos;ll activate these buttons from JavaScript.
 
-<h4>Exercise (Video): Bootstrap and JQuery (9)</h4>
+<h4>Exercise: Bootstrap and JQuery (9)</h4>
 
 Many of the Bootstrap&apos;s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -12808,7 +12804,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-<h4>Exercise (Video): More Bootstrap and JQuery</h4>
+<h4>Exercise: More Bootstrap and JQuery</h4>
 
 In the previous exercise, we saw how we can leverage the
 JavaScript-based controls that are provided for the Bootstrap JavaScript
@@ -14358,7 +14354,7 @@ $ npm start
 In this exercise, you learnt how to set up a watch task to watch for
 changes to a file and automatically run tasks upon detecting changes.
 
-<h4>Exercise (Video): NPM Scripts Part 2</h4>
+<h4>Exercise: NPM Scripts Part 2</h4>
 
 We&apos;ll now continue our journey with NPM scripts in this next exercise.
 
@@ -15159,7 +15155,7 @@ the npm scripts in the previous lesson and the exercise.
 By showing you the Grunt and the Gulp way of doing the same sort of
 tasks in the exercises that follow this lecture.
 
-<h4>Exercise (Video): Grunt Part 1</h4>
+<h4>Exercise: Grunt Part 1</h4>
 
 Time to start Grunting. In this and the next exercise we&apos;re going to
 repeat the same kind of setup as we did with the NPM scripts.
@@ -15692,7 +15688,7 @@ perform several tasks.
 
 You were able to start a server with livereload to serve the web page.
 
-<h4>Exercise (Video): Grunt Part 2</h4>
+<h4>Exercise: Grunt Part 2</h4>
 
 Let&apos;s continue our grunting.
 
@@ -16437,7 +16433,7 @@ In this exercise you have learnt how to configure a Grunt file to
 perform several tasks. You were able to build a distribution folder for
 your web project.
 
-<h4>Exercise (Video): Gulp Part 1</h4>
+<h4>Exercise: Gulp Part 1</h4>
 
 Now that we have granted enough, it&apos;s time to Gulp.
 
@@ -16816,7 +16812,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-<h4>Exercise (Video): Gulp Part 2</h4>
+<h4>Exercise: Gulp Part 2</h4>
 
 <h4>Objectives and Outcomes</h4>
 
@@ -17195,4 +17191,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!-- last updated: 6/18/2023 at 1:18am -->
+<!-- last updated: 6/18/2023 at 11:47am -->
