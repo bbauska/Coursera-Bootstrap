@@ -611,15 +611,13 @@ you've done after the last commit will be discarded on the spot.</p>
   <li>Add a file named <em>index.html</em> to this folder, and add the following HTML code to this file:</li>
 </ul>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;&lt;/head&gt;
   &lt;body&gt;
     &lt;h1&gt;This is a Header&lt;/h1&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <h4>Initializing the folder as a Git repository</h4>
 
@@ -627,9 +625,7 @@ you've done after the last commit will be discarded on the spot.</p>
   <li>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</li>
 </ul>
 
-<pre>
-$ git init
-</pre>
+<pre>$ git init</pre>
 
 <h4>Checking your Git repository status</h4>
 
@@ -637,9 +633,7 @@ $ git init
   <li>Type the following at the prompt to check your Git repository's status:</li>
 </ul>
 
-<pre>
-$ git status
-</pre>
+<pre>$ git status</pre>
 
 <h4>Adding files to the staging area</h4>
 
@@ -647,9 +641,7 @@ $ git status
   <li>To add files to the staging area of your Git repository, type:</li>
 </ul>
 
-<pre>
-$ git add .
-</pre>
+<pre>$ git add .</pre>
 
 <h4>Commiting to the Git repository</h4>
 
@@ -657,9 +649,7 @@ $ git add .
   <li>To commit the current staging area to your Git repository, type:</li>
 </ul>
 
-<pre>
-$ git commit -m "first commit"
-</pre>
+<pre>$ git commit -m "first commit"</pre>
 
 <h4>Checking the log of Git commits</h4>
 
@@ -667,9 +657,7 @@ $ git commit -m "first commit"
   <li>To check the log of the commits to your Git repository, type:</li>
 </ul>
 
-<pre>
-$ git log --oneline
-</pre>
+<pre>$ git log --oneline</pre>
 
 <ul>
   <li>Now, modify the index.html file as follows:</li>
@@ -693,8 +681,7 @@ $ git log --oneline
   <li>Now, modify the <em>index.html</em> file as follows:</li>
 </ul>
 
-<pre>
-  &lt;!DOCTYPE html&gt;
+<pre>  &lt;!DOCTYPE html&gt;
   &lt;html&gt;
     &lt;head&gt;&lt;/head&gt;
     &lt;body&gt;
@@ -702,8 +689,7 @@ $ git log --oneline
       &lt;p&gt;This is a paragraph&lt;/p&gt;
       &lt;p&gt;This is a second paragraph&lt;/p&gt;
     &lt;/body&gt;
-  &lt;/html&gt;
-</pre>
+  &lt;/html&gt;</pre>
 
 <ul>
   <li>Now add the modified index.html file to the staging area. Then do a third commit.</li>
@@ -715,9 +701,7 @@ $ git log --oneline
   <li>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ git checkout &lt;second commit's number&gt; index.html
-</pre>
+<pre>$ git checkout &lt;second commit's number&gt; index.html</pre>
 
 <h4>Resetting the Git repository</h4>
 
@@ -725,17 +709,13 @@ $ git checkout &lt;second commit's number&gt; index.html
   <li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
 </ul>
 
-<pre>
-$ git reset HEAD index.html
-</pre>
+<pre>$ git reset HEAD index.html</pre>
 
 <ul>
   <li>Then type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ git checkout -- index.html
-</pre>
+<pre>$ git checkout -- index.html</pre>
 
 <ul>
   <li>ou can also use <em>git reset</em> to reset the staging area to the last commit without disturbing the working directory.</li>
@@ -949,9 +929,7 @@ online repository. At the end of this exercise, you will be able to:</p>
   <li>At the prompt, type the following to set up your local repository to link to your online Git repository:</li>
 </ul>
 
-<pre>
-$ git remote add origin &lt;repository URL&gt;
-</pre>
+<pre>$ git remote add origin &lt;repository URL&gt;</pre>
 
 <h3>Pushing your commits to the online repository</h3>
 
@@ -959,9 +937,7 @@ $ git remote add origin &lt;repository URL&gt;
   <li>At the prompt, type the following to push the commits to the online repository:</li>
 </ul>
 
-<pre>
-$ git push -u origin master
-</pre>
+<pre>$ git push -u origin master</pre>
 
 <h3>Cloning an online repository</h3>
 
@@ -976,9 +952,7 @@ $ git push -u origin master
   style="width:35%;"
   alt="Online git repository commands." />
 
-<pre>
-$ git clone &lt;repository URL&gt;
-</pre>
+<pre>$ git clone &lt;repository URL&gt;</pre>
 
 <h3>Conclusions</h3>
 
@@ -1111,11 +1085,9 @@ subsequent course.</p>
   <li>To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b></li>
 </ul>
 
-<pre>
-$ node -v
+<pre>$ node -v
 
-$ npm -v
-</pre>
+$ npm -v</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. more node js installer (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1393,9 +1365,7 @@ and then the two new files, .gitignore and package.json.</p>
 your commit.</p>
 <p>Let's do a git commit.</p>
 
-<pre>
-$ git commit -m "fourth commit"
-</pre>
+<pre>$ git commit -m "fourth commit"</pre>
 
 <p>And the files are committed.</p>
 <p>Let's push the new commit to our online repository. So, to do that
@@ -1446,9 +1416,7 @@ end of this exercise, you will be able to:</p>
   <li>At the command prompt in your <b>git-test</b> folder, type</li>
 </ul>
 
-<pre>
-$ npm init
-</pre>
+<pre>$ npm init</pre>
 
 <ul>
   <li>Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html</li>
@@ -1461,17 +1429,14 @@ $ npm init
   <li>Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install lite-server --save-dev
-</pre>
+<pre>$ npm install lite-server --save-dev</pre>
 
 <ul>
   <li>You can check out more documentation on lite-server <a href="https://github.com/johnpapa/lite-server" target="_blank" rel="noopener noreferrer">here</a>.</li>
   <li>Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.</li>
 </ul>
 
-<pre>
-  {
+<pre>  {
     "name": "git-test",
     "version": "1.0.0",
     "description": "This is the Git and Node basic learning project",
@@ -1491,16 +1456,13 @@ $ npm install lite-server --save-dev
     "devDependencies": {
     "lite-server": "^2.2.2"
     }
-  }
-</pre>
+  }</pre>
 
 <ul>
   <li>Next, start the development server by typing the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm start
-</pre>
+<pre>$ npm start</pre>
 
 <ul>
   <li>This should open your <em>index.html</em> page in your default browser.</li>
@@ -1513,9 +1475,7 @@ $ npm start
   <li>Next, create a file in your project directory named <em>.gitignore</em> (<b>Note</b>: the name starts with a period) Then, add the following to the .gitignore file:</li>
 </ul>
 
-<pre>
-  node_modules
-</pre>
+<pre>  node_modules</pre>
 
 <ul>
   <li>Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.</li>
@@ -1997,18 +1957,14 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
   <li>At the prompt type:</li>
 </ul>
 
-<pre>
-$ npm install
-</pre>
+<pre>$ npm install</pre>
 
 <ul>
   <li>This will install the lite-server node module to your project,</li>
   <li>Next, initialize a Git repository in the project folder ("$ git init"), and set up a .gitignore file with the contents as shown below:</li>
 </ul>
 
-<pre>
-node_modules
-</pre>
+<pre>node_modules</pre>
 
 <ul>
   <li>Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain all files of each exercise,</li>
@@ -2021,10 +1977,8 @@ node_modules
   <li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
 </ul>
 
-<pre>
-$ npm install bootstrap@4.0.0 --save
-$ npm install jquery@3.3.1 popper.js@1.12.9 --save
-</pre>
+<pre>$ npm install bootstrap@4.0.0 --save
+$ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
 
 <ul>
   <li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li>
@@ -2039,27 +1993,23 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
   <li>Insert the following code in the <em>&lt;head&gt;</em> of <em>index.html</em> file before the title.</li>
 </ul>
 
-<pre><code>
-  &lt;!-- Required meta tags always come first --&gt;
+<pre>  &lt;!-- Required meta tags always come first --&gt;
   &lt;meta charset="utf-8"&gt;
   &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
   &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
  
   &lt;!-- Bootstrap CSS --&gt;
-  &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
-</code></pre>
+  &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;</pre>
 
 <ul>
   <li>This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.</li>
   <li>At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.</li>
 </ul>
 
-<pre>
-  &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;
+<pre>  &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;
   &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
   &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
-  &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
-</pre>
+  &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;</pre>
 
 <ul>
   <li>Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.</li>
@@ -3210,9 +3160,7 @@ for this is first through media queries. We have already added the
 support for media queries in the last lesson, where we added this line
 to the head:</p>
 
-<pre>
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
-</pre>
+<pre>  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;</pre>
 
 <p>The <em>viewport</em> meta tag ensures that the screen width is set
 to the device width and the content is rendered with this width in
@@ -3240,9 +3188,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
   <li>We use the container class to keep content within a fixed width on the screen, determined by the size of the screen. The alternative is to use the container-fluid class to make the content automatically to span the full width of the screen. We will discuss further about this when we discuss the Bootstrap grid system in the next lecture. Add the container class to the first div right after the </header> in the file as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="container"&gt; ...
-</pre>
+<pre>&lt;div class="container"&gt; ...</pre>
 
 <h3>Dividing the content into rows</h3>
 
@@ -3250,9 +3196,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
   <li>Let us now add the class <em>row</em> to the first-level inner <em>div</em> elements inside the container. This organizes the page into rows of content. In the next exercise, we will see how we can add other classes to the rows.</li>
 </ul>
 
-<pre>
-  &lt;div class="row"&gt; ...
-</pre>
+<pre>&lt;div class="row"&gt; ...</pre>
 
 <h3>Creating a Jumbotron</h3>
 
@@ -3260,9 +3204,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
   <li>Let us add the class jumbotron to the header class as shown below. This turns the header element into a Bootstrap component named Jumbotron. A jumbotron is used to showcase key content on a website. In this case we are using it to highlight the name of the restaurant.</li>
 </ul>
 
-<pre>
-  &lt;header class="jumbotron"&gt; ... 
-</pre>
+<pre>  &lt;header class="jumbotron"&gt; ... </pre>
 
 <ul>
   <li>In the header add a <b>container</b> class to the first inner div and a row class to the second inner div.</li>
@@ -3280,35 +3222,29 @@ within a row, all adding up to 12 or a multiple thereof.</p>
   <li>In the header row, we will display the restaurant name and the description to occupy 6 columns, while we will leave six columns for displaying the restaurant logo in the future. Let us go into the jumbotron and define the classes for the inner divs as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-12 col-sm-6"&gt; ... &lt;/div&gt;
+<pre>  &lt;div class="col-12 col-sm-6"&gt; ... &lt;/div&gt;
 
-  &lt;div class="col-12 col-sm"&gt; ... &lt;/div&gt;
-</pre>
+  &lt;div class="col-12 col-sm"&gt; ... &lt;/div&gt;</pre>
 
 <ul>
   <li>For the remaining three div rows that contain the content, let us define the classes for the inner divs as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-12 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+<pre>  &lt;div class="col-12 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
 
-  &lt;div class="col col-sm col-md"&gt; ... &lt;/div&gt;
-</pre>
+  &lt;div class="col col-sm col-md"&gt; ... &lt;/div&gt;</pre>
 
 <ul>
   <li>For the footer, let us define the classes for the inner divs as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-4 col-sm-2"&gt; ... &lt;/div&gt;
+<pre>  &lt;div class="col-4 col-sm-2"&gt; ... &lt;/div&gt;
  
   &lt;div class="col-7 col-sm-5"&gt; ... &lt;/div&gt;
  
   &lt;div class="col-12 col-sm-4"&gt; ... &lt;/div&gt;
  
-  &lt;div class="col-auto"&gt; ... &lt;/div&gt;
-</pre>
+  &lt;div class="col-auto"&gt; ... &lt;/div&gt;</pre>
 
 <p>Now you can see how the web page has been turned into a mobile-first
 responsive design layout.</p>
@@ -3319,19 +3255,15 @@ responsive design layout.</p>
   <li>In the content rows, we would like to have the title and description to alternate so that it gives an interesting look to the web page. For extra small screens, the default stacked layout works best. This can be accomplished by using the .order-sm-last and .order-sm-first for the first and the third rows as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-12 col-sm-4 order-sm-last col-md-3"&gt; ... &lt;/div&gt;
+<pre>  &lt;div class="col-12 col-sm-4 order-sm-last col-md-3"&gt; ... &lt;/div&gt;
 
-  &lt;div class="col col-sm order-sm-first col-md"&gt; ... &lt;/div&gt;
-</pre>
+  &lt;div class="col col-sm order-sm-first col-md"&gt; ... &lt;/div&gt;</pre>
 
 <ul>
   <li>For the div containing the &lt;ul&gt; with the site links, update the class as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-4 offset-1 col-sm-2"&gt;
-</pre>
+<pre>  &lt;div class="col-4 offset-1 col-sm-2"&gt;</pre>
 
 <ul>
   <li>After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 1" and push your changes to the online repository.</li>
@@ -3527,9 +3459,7 @@ At the end of this exercise, you will be able to:</p>
   <li>You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style <em>list-unstyled</em> to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows:</li>
 </ul>
 
-<pre>
-  &lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;
-</pre>
+<pre>  &lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;</pre>
 
 <h3>Using Custom CSS classes</h3>
 
@@ -3541,8 +3471,7 @@ do this in this part of the exercise.</p>
   <li>Create a folder named <em><b>css</b></em>. Then create a file named <em>styles.css</em> in the <em><b>css</b></em> folder. Open this file to edit the contents. Add the following CSS code to the file:</li>
 </ul>
 
-<pre>
-  .row-header{
+<pre>  .row-header{
     margin:0px auto;
     padding:0px;
   }
@@ -3556,8 +3485,7 @@ do this in this part of the exercise.</p>
     background-color: #D1C4E9;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
-  }
-</pre>
+  }</pre>
 
 <ul>
   <li>Include the <em>styles.css</em> file into the head of the <em>index.html</em> file as follows:</li>
@@ -3569,20 +3497,17 @@ do this in this part of the exercise.</p>
   <li>Then add these classes to the corresponding rows in the <em>index.html</em> file as follows. See the difference in the <em>index.html</em> file in the browser. The first one is for the row in the &lt;header&gt;, the next three for the rows in the content, and the last one directly to the &lt;footer&gt; tag.</li>
 </ul>
 
-<pre>
-  &lt;div class="row row-header"&gt; ... &lt;/div&gt;
+<pre>  &lt;div class="row row-header"&gt; ... &lt;/div&gt;
   &lt;div class="row row-content"&gt; ... &lt;/div&gt;
   &lt;div class="row row-content"&gt; ... &lt;/div&gt;
   &lt;div class="row row-content"&gt; ... &lt;/div&gt;
-  &lt;footer class="footer"&gt; ... &lt;/footer&gt;
-</pre>
+  &lt;footer class="footer"&gt; ... &lt;/footer&gt;</pre>
 
 <ul>
   <li>Our next set of customization is to the jumbotron and the address. Add the following to <em>styles.css</em> file:</li>
 </ul>
 
-<pre>
-  .jumbotron {
+<pre>  .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
     background: #9575CD ;
@@ -3592,8 +3517,7 @@ do this in this part of the exercise.</p>
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
-  } 
-</pre>
+  } </pre>
 
 <h3>Vertically Centering the Content</h3>
 
@@ -3601,17 +3525,13 @@ do this in this part of the exercise.</p>
   <li>In the content section, update all the rows as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="row row-content align-items-center"&gt;
-</pre>
+<pre>  &lt;div class="row row-content align-items-center"&gt;</pre>
 
 <ul>
   <li>In the footer, update the third column div that contains the social media links as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="col-12 col-sm-4 align-self-center"&gt;
-</pre>
+<pre>  &lt;div class="col-12 col-sm-4 align-self-center"&gt;</pre>
 
 <h3>Horizontally Centering the Content</h3>
 
@@ -3619,18 +3539,14 @@ do this in this part of the exercise.</p>
   <li>Update the copyright paragraph as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="row justify-content-center"&gt;
-  &lt;div class="col-auto"&gt;
-</pre>
+<pre>  &lt;div class="row justify-content-center"&gt;
+  &lt;div class="col-auto"&gt;</pre>
 
 <ul>
   <li>Update the inner div containing the social media links as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="text-center"&gt;
-</pre>
+<pre>  &lt;div class="text-center"&gt;</pre>
 
 <ul>
   <li>After saving all the changes, you can do a Git commit with the message "Bootstrap Grid Part 2" and push your changes to the online repository.</li>
@@ -4516,8 +4432,7 @@ build into a web page using the Navbar in Bootstrap.</p>
   <li>We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.</li>
 </ul>
 
-<pre>
-  &lt;nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"&gt;
+<pre>  &lt;nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"&gt;
     &lt;div class="container"&gt;
       &lt;a class="navbar-brand" href="#"&gt;Ristorante Con Fusion&lt;/a&gt;
         &lt;ul class="navbar-nav mr-auto"&gt;
@@ -4527,8 +4442,7 @@ build into a web page using the Navbar in Bootstrap.</p>
           &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
-  &lt;/nav&gt;
-</pre>
+  &lt;/nav&gt;</pre>
 
 <p>In the above code, we can see the use of the nav element to specify
 the navigation information for the website. This nav element is styled
@@ -4551,11 +4465,9 @@ bar.</p>
   <li>We would like the navigation bar elements to collapse for shorter screens, to be replaced by a toggle button so that the items can be toggled on or off when required on small and extra small screens. This can be achieved by adding the following code to the navigation bar, just below the container div.</li>
 </ul>
 
-<pre>
-  &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"&gt;
+<pre>  &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"&gt;
     &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
-  &lt;/button&gt;
-</pre>
+  &lt;/button&gt;</pre>
 
 <p>This creates a button with three horizontal lines. For medium to
 extra large screens, this button is hidden. For small and extra small
@@ -4566,11 +4478,9 @@ for the navbar items.</p>
   <li>To hide the items from the navigation bar for the small screens, we need to enclose the <em>ul</em> within another div as follows:</li>
 </ul>
 
-<pre>
-  &lt;div class="collapse navbar-collapse" id="Navbar"&gt;
+<pre>  &lt;div class="collapse navbar-collapse" id="Navbar"&gt;
     &lt;ul class="navbar-nav mr-auto"&gt; ... &lt;/ul&gt;
-  &lt;/div&gt;
-</pre>
+  &lt;/div&gt;</pre>
 
 <p>By doing this, we are specifying that this div with <em>collapse</em>
 and <em>navbar-collapse</em> classes and with the id N<em>avbar</em>
@@ -4591,15 +4501,13 @@ hidden by clicking the toggle button.</p>
   <li>We would like to have the navigation bar displayed in darker purple color, instead of the current color. In addition, when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. We accomplish these by adding these CSS customisations to the <em>styles.css</em> file.</li>
 </ul>
 
-<pre>
-  body{
+<pre>  body{
     padding:50px 0px 0px 0px;
     z-index:0;
   }
   .navbar-dark {
      background-color: #512DA8;
-  }
-</pre>
+  }</pre>
 
 <ul>
   <li>Remember to delete the <em>bg-primary</em> class from the &lt;nav&gt; element in both <em>index.html</em> and <em>aboutus.html.</em></li>
@@ -4612,12 +4520,10 @@ hidden by clicking the toggle button.</p>
   <li>To add breadcrumbs to our pages, we take the help of the breadcrumb and breadcrumb-item classes to add the following to the row containing the About Us title in <em>aboutus.html</em>.</li>
 </ul>
 
-<pre>
-  &lt;ol class="col-12 breadcrumb"&gt;
+<pre>  &lt;ol class="col-12 breadcrumb"&gt;
     &lt;li class="breadcrumb-item"&gt;&lt;a href="./index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
     &lt;li class="breadcrumb-item active"&gt;About Us&lt;/li&gt;
-  &lt;/ol&gt;
-</pre>
+  &lt;/ol&gt;</pre>
 
 <ul>
   <li>Save all the changes and commit to your Git repository with a message "Navbar and Breadcrumbs".</li>
@@ -4831,17 +4737,13 @@ installed, then the font icons are not showing up in their browser.</p>
   <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <a href="http://fontawesome.io/" target="_blank" rel="noopener noreferrer">Font Awesome</a> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install font-awesome@4.7.0 --save
-</pre>
+<pre>$ npm install font-awesome@4.7.0 --save</pre>
 
 <ul>
   <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <a href="https://lipis.github.io/bootstrap-social/" target="_blank" rel="noopener noreferrer">Bootstrap Social</a>. To install it using npm, type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install bootstrap-social@5.1.1 --save
-</pre>
+<pre>$ npm install bootstrap-social@5.1.1 --save</pre>
 
 <ul>
   <li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:</li>
@@ -4854,7 +4756,7 @@ $ npm install bootstrap-social@5.1.1 --save
   <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
 </ul>
 
-<pre>   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
+<pre>&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;</pre>
@@ -12168,9 +12070,7 @@ web project. At the end of this exercise, you will be able to:</p>
   <li>Next install Gulp to use within your project. To do this, go to the <em>conFusion</em> folder and type the following at the prompt:</li>
 </ul>
 
-<pre>
-$ npm install gulp@3.9.1 --save-dev
-</pre>
+<pre>$ npm install gulp@3.9.1 --save-dev</pre>
 
 <p>This will install local per-project Gulp to use within your project.</p>
 
@@ -12180,9 +12080,7 @@ $ npm install gulp@3.9.1 --save-dev
   <li>Install all the Gulp plugins that you will need for this exercise. To do this, type the following at the command prompt:</li>
 </ul>
 
-<pre>
-$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
-</pre>
+<pre>$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev</pre>
 
 <h3>Creating a Gulp File</h3>
 
@@ -12196,13 +12094,11 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
   <li>Load in all the Gulp plugins by including the following code in the Gulp file:</li>
 </ul>
 
-<pre>
-  'use strict';
+<pre>  'use strict';
 
   var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync');
-</pre>
+    browserSync = require('browser-sync');</pre>
 
 <h3>Adding Gulp Tasks for SASS and Browser-Sync</h3>
 
