@@ -70,13 +70,13 @@ Instagram - https://www.instagram.com/thenetninja/
 <p>
 Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
-I\'m glad you decided to join this course to learn about the most
+I&apos;m glad you decided to join this course to learn about the most
 popular front end Web UI Framework: Bootstrap.
 
-We\'ll look at various aspects of <b>Bootstrap</b>. Through several
+We&apos;ll look at various aspects of <b>Bootstrap</b>. Through several
 examples, you will learn by doing exercises as part of this course.
 
-Let\'s look at some details next. Before you begin this course, please
+Let&apos;s look at some details next. Before you begin this course, please
 make sure that you have sufficient background to be able to succeed in
 this course.
 
@@ -111,60 +111,60 @@ deployment of website and web pages, a purely technical knowledge on
 using the HTML, CSS, and JavaScript-based skills for actual website
 development.
 
-You\'re also probably wondering about what is meant by full stack web
+You&apos;re also probably wondering about what is meant by full stack web
 development.
 
-We\'ll look at more details of full stack web development in the next
+We&apos;ll look at more details of full stack web development in the next
 lesson.
 
-In particular, if you\'re looking at how this course is positioned in
+In particular, if you&apos;re looking at how this course is positioned in
 the general context of full stack web development, in this course, we
 are dealing with front end web UI development.
 
 In particular, the <b>UI Framework Bootstrap 4</b>.
 
--   We\'ll be looking at the remaining aspects of full stack web
+-   We&apos;ll be looking at the remaining aspects of full stack web
     development in the rest of this specialization.
 
 -   This course looks at Bootstrap in great detail. We will also look at
     responsive web design and how Bootstrap supports responsive web
     design through the Bootstrap Grid system.
 
--   We\'ll look at the CSS and JavaScript-based components in Bootstrap
+-   We&apos;ll look at the CSS and JavaScript-based components in Bootstrap
     and how you can make use of them in building your website and your
     web pages.
 
--   Along the way, we\'ll learn about that web development using the
+-   Along the way, we&apos;ll learn about that web development using the
     command line.
 
--   We\'ll learn a lot of web tools that are based on the command line
+-   We&apos;ll learn a lot of web tools that are based on the command line
     and the Node.js ecosystem.
 
--   We\'ll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js
+-   We&apos;ll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js
     based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.
 
 This course, itself, is structured into four modules.
 
 Each module roughly corresponding to one week of work.
 
-1.  In the <b><i>first</i></b> module, we\'ll get the big picture view of full
-    stack web development, then you\'ll get a quick introduction to
+1.  In the <b><i>first</i></b> module, we&apos;ll get the big picture view of full
+    stack web development, then you&apos;ll get a quick introduction to
     <b><i>Git</i></b> and <b><i>Node.js</i>.</b>
 
-    a.  Then we\'ll introduce you to the <b><i>Bootstrap</i></b> and then review
+    a.  Then we&apos;ll introduce you to the <b><i>Bootstrap</i></b> and then review
         the <b><i>Bootstrap Grid</i></b> system.
 
     b.  That will lead you up to the first assignment in this course.
 
 2.  The <b><i>second</i></b> module deals with <b>Bootstrap CSS</b> components.
 
-    a.  We\'ll look at the design of the Bootstrap navigation bar and
+    a.  We&apos;ll look at the design of the Bootstrap navigation bar and
         how we can make use of it to support navigation.
 
-    b.  We\'ll look at user input through buttons and forms then we\'ll
+    b.  We&apos;ll look at user input through buttons and forms then we&apos;ll
         look at how we can display content using tables and cards.
 
-    c.  Then we\'ll look at how we can include images and media into our
+    c.  Then we&apos;ll look at how we can include images and media into our
         Web page using images, thumbnails, and media objects.
 
     d.  And then, finally, we look at how we alert users using tags,
@@ -175,15 +175,15 @@ Each module roughly corresponding to one week of work.
 3.  The <b><i>third</i></b> module deals with <b>Bootstrap JavaScript</b>
     components.
 
-    a.  We\'ll look at the big picture view of how Bootstrap JavaScript
-        components work, we\'ll review tabs, pills and tabbed
-        navigation, then we\'ll look at how collapse and accordion can
+    a.  We&apos;ll look at the big picture view of how Bootstrap JavaScript
+        components work, we&apos;ll review tabs, pills and tabbed
+        navigation, then we&apos;ll look at how collapse and accordion can
         be used to show and hide content.
 
-    b.  And then we\'ll look at the use of tooltips, popovers and modals
+    b.  And then we&apos;ll look at the use of tooltips, popovers and modals
         to reveal content to be displayed in your page.
 
-    c.  And then we\'ll look at the carousel component, which allows you
+    c.  And then we&apos;ll look at the carousel component, which allows you
         to display sliding information on your web page.
 
     d.  This will lead you up to the third assignment in this course.
@@ -191,7 +191,7 @@ Each module roughly corresponding to one week of work.
 4.  The <b><i>fourth (and last)</i></b> module deals with <b>Bootstrap</b> and the
     <b>JQuery</b> and various <b>dev tools</b>.
 
-	a.  We\'ll, in particular, look at how Bootstrap and JQuery interact and
+	a.  We&apos;ll, in particular, look at how Bootstrap and JQuery interact and
 		how you can write JQuery and JavaScript code in order to control
 		your Bootstrap JavaScript component.
 
@@ -199,16 +199,16 @@ Each module roughly corresponding to one week of work.
 		> JavaScript components, which can be leveraged to write JavaScript
 		> code to control the behavior of these components.
 
-	c.  Then we\'ll review CSS pre-processing language is like <b>LESS</b> and
+	c.  Then we&apos;ll review CSS pre-processing language is like <b>LESS</b> and
 		<b>Sass</b>.
 
-	d.  Then, <b>finally</b>, we\'ll look at how we can build and deploy our
+	d.  Then, <b>finally</b>, we&apos;ll look at how we can build and deploy our
 		website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b>
 		and <b>Gulp</b>.
 
 This should take you all the way to the final assignment in this
 course. I hope you will have a lot of fun doing the various parts of
-this course and also enjoy the exercises that you\'ll encounter at
+this course and also enjoy the exercises that you&apos;ll encounter at
 each stage that enable you to better understand various aspects of the
 Bootstrap web UI framework.</p>
 
@@ -518,19 +518,19 @@ the repository at the end of each exercise.
 
 Git is a very popular version control system for software.
 
-We need Git for working with our node ecosystem that we\'re going to use
+We need Git for working with our node ecosystem that we&apos;re going to use
 throughout this specialization.
 
 It is important for you to get Git on to your computer.
 
-Let\'s go through a few quick steps to set up Git on your computer and
+Let&apos;s go through a few quick steps to set up Git on your computer and
 then some quick commands to enable us to make use of Git in this
 specialization.
 
 I will not go into too much details about version control and how Git
 works, and so on.
 
-That is beyond the scope of this course. Instead, we\'ll just get some
+That is beyond the scope of this course. Instead, we&apos;ll just get some
 basic understanding of Git.
 
 Git is, as I said, a version control system.
@@ -540,7 +540,7 @@ source code and maintaining your version history.
 
 As your source code evolves, you will be able to check in the code at
 different points of times so that you can always have a way of rolling
-back to a previous version, in case your updates to the code doesn\'t
+back to a previous version, in case your updates to the code doesn&apos;t
 work correctly.
 
 There are various version control systems that are in use in the real
@@ -566,7 +566,7 @@ why we need Git for this specialization.
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
-Let\'s now move on to a Few hands on exercises, where you will first set
+Let&apos;s now move on to a Few hands on exercises, where you will first set
 up Git.
 
 Then you will learn a few basic Git commands.
@@ -575,11 +575,11 @@ And then also understand how you can set up an online repository in
 places like Git Hub or Bit Bucket for synchronizing your source code
 from your computer to the online repository.
 
-This is obviously not a comprehensive tutorial on the Git but we\'ll
+This is obviously not a comprehensive tutorial on the Git but we&apos;ll
 learn just enough, that of the commands that are necessary for use in
 this specialization.
 
-Let\'s now run through a few quick steps to set up Git on your computer.
+Let&apos;s now run through a few quick steps to set up Git on your computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 12. git-scm.com (13) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -606,7 +606,7 @@ This is the easiest way of getting Git onto your computer.
 
 There are other ways of setting up Git, depending on your platform.
 
-For example, if you install GitHub Desktop on your computer, it\'ll
+For example, if you install GitHub Desktop on your computer, it&apos;ll
 automatically set up Git for you.
 
 If you are using a Mac and you set up x code and especially the x code
@@ -644,8 +644,8 @@ computer.
 <!-- {width="5.0in" height="3.427884951881015in"} -->
 
 Once you install Git on a computer Start up a command window or
-PowerShell if you\'re using a Window machine or start up a terminal
-window if you\'re using a Mac or Linux machine and then at the prompt
+PowerShell if you&apos;re using a Window machine or start up a terminal
+window if you&apos;re using a Mac or Linux machine and then at the prompt
 type in <b>git \--version</b> to check what version of git is installed on
 your computer.
 
@@ -665,7 +665,7 @@ To do that, at the prompt type <b>git config \--global user.name</b>
 $ git config --global user.Email brianbauska@gmail.com
 ```
 
-The other parameter that I\'m going to configure is my email.
+The other parameter that I&apos;m going to configure is my email.
 
 And to insure that this information has been configured, we can type
 
@@ -780,10 +780,10 @@ Studio Code.
 Let me add a file to this folder named index.html, now you can see that
 I have added in some HTML code into this index.html file.
 
-Let\'s save the changes.
+Let&apos;s save the changes.
 
-Now let\'s switch to our command line, at the command line go to the
-git-test folder, and let\'s initialize this folder to be a git
+Now let&apos;s switch to our command line, at the command line go to the
+git-test folder, and let&apos;s initialize this folder to be a git
 repository.
 
 To do that at the command line type git init.
@@ -797,7 +797,7 @@ initializes the folder, it will mark that folder as a master.
 
 This is the master branch for my kit.
 
-Now let\'s not worry about branches and so on, we will not deal with
+Now let&apos;s not worry about branches and so on, we will not deal with
 that in this course.
 
 We will only be working with the master branch, in this particular
@@ -807,12 +807,12 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we\'re going to look at is <b> \> git status</b>.
+The next command that we&apos;re going to look at is <b> \> git status</b>.
 
-If you type git status in the command line, it\'ll tell you the current
+If you type git status in the command line, it&apos;ll tell you the current
 status of the folder.
 
-Let\'s do that at the command line and see what it shows.
+Let&apos;s do that at the command line and see what it shows.
 
 At the command line, type git status and read the information that is
 tapped out on the command window.
@@ -828,7 +828,7 @@ this differently or this is what it shows on my Mac.
 Now, this index.html file that we have just created in this folder is
 now not been added to our git repository.
 
-Let\'s go ahead and add that file to the git repository.
+Let&apos;s go ahead and add that file to the git repository.
 
 To do that, we say, <b>\> git add,</b> and you can simply say dot, which
 means that all the files in the current directory will be added to what
@@ -859,20 +859,20 @@ when we execute the git command folder.
 At this point when we execute the git command, then our initial state
 will now be changed to the first commit to the git repository.
 
-Let\'s go ahead and do that.
+Let&apos;s go ahead and do that.
 
-Back at the command prompt, let\'s type <b>\> git commit</b>.
+Back at the command prompt, let&apos;s type <b>\> git commit</b>.
 
 And then we can even add a message to our commit.
 
-I\'m going to say <b>\> git commit -m "first commit"</b> because this is
+I&apos;m going to say <b>\> git commit -m "first commit"</b> because this is
 our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git
 repository and some other information will be typed out on to the
 command window.
 
-Let\'s now check again, git status and now you see that it says nothing
+Let&apos;s now check again, git status and now you see that it says nothing
 to commit, working directory is clean.
 
 What it means is that the current state of my working directory or
@@ -895,14 +895,14 @@ about all the commits.
 
 But this is sufficient enough for obtaining information that we require.
 
-Let\'s now come back to our editor here, in Visual Studio Code, so I\'m
+Let&apos;s now come back to our editor here, in Visual Studio Code, so I&apos;m
 going to add more changes to my index.html file.
 
 I have changed my index.html file.
 
 Now, let me add another folder under the git test folder, so I will
 create a subfolder here named templates, and inside these templates
-folder, I\'m going to create another file name, test.html.
+folder, I&apos;m going to create another file name, test.html.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 15. basic git commands (20) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -916,10 +916,10 @@ folder, I\'m going to create another file name, test.html.
 This is just to show you how git can commit entire folder hierarchy into
 its repository.
 
-With test.html now there, I\'m just going to copy everything from my
+With test.html now there, I&apos;m just going to copy everything from my
 index.html into my test.html, and save the changes.
 
-Going back to the command line, let\'s now check out the status of our
+Going back to the command line, let&apos;s now check out the status of our
 git repository and this folder.
 
 Type in <b>\> git status</b>, shows that the index status html file that we
@@ -929,7 +929,7 @@ there is a newer version of the index.html file.
 Also, it shows that there are some untracked files in this folder called
 templates.
 
-Let\'s add all these changes to the staging the area, so again, type
+Let&apos;s add all these changes to the staging the area, so again, type
 <b>\> git add.</b>
 
 And then all these files will be added to the staging area.
@@ -940,15 +940,15 @@ You now see that changes that have been added to the staging area.
 
 All these files have been added to the staging area.
 
-Let\'s do one more commit, so I would say <b>\> git commit -m</b>, second
-commit and then let\'s check out the log. If you check out the log,
-you\'ll now see that there are two commits in my git repository, the
+Let&apos;s do one more commit, so I would say <b>\> git commit -m</b>, second
+commit and then let&apos;s check out the log. If you check out the log,
+you&apos;ll now see that there are two commits in my git repository, the
 first and the second commit.
 
 And note that each one of them is given a different number there.
 
 If you want to see their full details of the log, you can type simply,
-git log and then you\'ll receive more details in there.
+git log and then you&apos;ll receive more details in there.
 
 Then what you would be interested in.
 
@@ -963,14 +963,14 @@ One more line to my index.html file.
 
 Now my index.html file has been modified.
 
-And let\'s save the changes.
+And let&apos;s save the changes.
 
 Going back to the command line, doing git status shows that index.html
 file has been modified.
 
-Let\'s add this to the staging area, and then do a third commit.
+Let&apos;s add this to the staging area, and then do a third commit.
 
-Let\'s say, \> git add., git status, now you see that the index.html the
+Let&apos;s say, \> git add., git status, now you see that the index.html the
 modified version has been added.
 
 Now we can say <b>\> git commit</b>. "third commit" and do <b>\> git log
@@ -986,13 +986,13 @@ previous version.
 We can pull out a file from an older commit, and then replace the
 existing directory from the old commit.
 
-Let\'s see how we can operate with these things by learning a couple of
+Let&apos;s see how we can operate with these things by learning a couple of
 more commands.
 
 At this stage, our index.html file is in the current state. So you can
 notice that it has an h1 and two ps.
 
-Let\'s now look at the next git command.
+Let&apos;s now look at the next git command.
 
 The next git command that we are going to learn about is <b>\> git
 checkout.</b>
@@ -1000,12 +1000,12 @@ checkout.</b>
 This checkout command allows us to check out a file from a previous
 commit in our git repository.
 
-If we don\'t like the current file that we have in our folder and we
+If we don&apos;t like the current file that we have in our folder and we
 want to go back to your previous version of the file, we can always
 check out the file from a previous commit or from the current commit and
 then continue to work with that file.
 
-Let\'s make use of this and see some further changes to our git
+Let&apos;s make use of this and see some further changes to our git
 repository.
 
 Going back to our command line, we remember that, between the second and
@@ -1021,26 +1021,26 @@ commit, and then I can say index.html, and what you would notice is
 that, that older file will now be checked out into my current working
 directory.
 
-Going to my Visual Studio Code, you\'ll now notice that my index.html
+Going to my Visual Studio Code, you&apos;ll now notice that my index.html
 file has reverted to the previous working so, the change that I made
 before the third commit it is now gone.
 
 My index.html file has been restored to its state at the end of the
 second commit.
 
-Now, at the command line, if I try git status, you\'ll notice that this
+Now, at the command line, if I try git status, you&apos;ll notice that this
 index.html file which was reverted to what it was at the end of the
 second commit, it has now already been staged.
 
-Using this git checkout, we\'ll pull out an older version of the file,
-and then replace what is in the current directory, and then it\'ll also
+Using this git checkout, we&apos;ll pull out an older version of the file,
+and then replace what is in the current directory, and then it&apos;ll also
 check it into the staging area.
 
 Now if I do that and then I realize that this is what I want, I can
 simply do another commit at this point. And then that file can be
 committed as the fourth commit.
 
-But suppose I don\'t like this, I want to double to back to the
+But suppose I don&apos;t like this, I want to double to back to the
 index.html file at the end of the third commit then all I can do is say
 git reset, HEAD and index.html.
 
@@ -1062,7 +1062,7 @@ But it also shows this particular statement here. It says git checkout
 \-- and the file name, to discard the changes in the working
 directories.
 
-That\'s one way you can discard the changes that you have made to a
+That&apos;s one way you can discard the changes that you have made to a
 particular file corresponding to the previous comment.
 
 Let me just restore that index.html back to what it was at the end of
@@ -1080,7 +1080,7 @@ been restored back to what it was at the end of the third cap.
 This is one way you can, if you have made changes to your file after the
 commit and you want to just discard those changes, you can simply check
 out the file from the last commit, and then all your changes that
-you\'ve done after the last commit will be discarded on the spot.
+you&apos;ve done after the last commit will be discarded on the spot.
 
 These are some basic commands that are very useful for you as you go
 through the courses in this specialization because you may want to
@@ -1089,12 +1089,12 @@ commit at the end of each exercise.
 And as you proceed forward, you would still have a guided vision of the
 state of your folder at the end of the previous exercise.
 
-That way, if you\'re carrying out a new exercise and you\'ve discovered
-that you\'ve made mistakes and you want to revert back to the previous
+That way, if you&apos;re carrying out a new exercise and you&apos;ve discovered
+that you&apos;ve made mistakes and you want to revert back to the previous
 commit, you always have a way of doing that using the commands that we
 have just let.
 
-With this basic understanding of this few git commands, you\'ll be able
+With this basic understanding of this few git commands, you&apos;ll be able
 to proceed forward with understanding and using git in the courses of
 this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1110,7 +1110,7 @@ this specialization.
 Now, we have reviewed the git reset for a specific file or git reset in
 general.
 
-If you simply type git reset, it\'ll restore you back to the last
+If you simply type git reset, it&apos;ll restore you back to the last
 commit.
 
 It will reset the staging area to the last commit, without disturbing
@@ -1127,7 +1127,7 @@ missed a cue.
 
 Always have a way of reverting back to a previous version.
 
-With these commands, I think you\'re all set to go ahead to use git in
+With these commands, I think you&apos;re all set to go ahead to use git in
 the courses of this specialization.
 
 At the end of this exercise, did you Git it?
@@ -1175,7 +1175,7 @@ $ git init
 
 <h4>Checking your Git repository status</h4>
 
--   Type the following at the prompt to check your Git repository\'s
+-   Type the following at the prompt to check your Git repository&apos;s
     status:
 
 ```
@@ -1316,7 +1316,7 @@ providers and then sign up for an account.
 Here, I have signed up into my Bitbucket account, and I have my homepage
 open here.
 
-And so I\'m going to create a new repository online on my Bitbucket
+And so I&apos;m going to create a new repository online on my Bitbucket
 repository.
 
 I just click on the Create repository, and then this would come up with
@@ -1324,12 +1324,12 @@ some details.
 
 Now, this varies with the repository service provider.
 
-Here, I will specify the name of the repository as git-test, and I\'m
+Here, I will specify the name of the repository as git-test, and I&apos;m
 going to mark this as a private repository.
 
 For this course and all the remaining courses in this specialization, I
 would strongly advise you to keep your repositories as private
-repositories, because you don\'t want somebody else to be copying the
+repositories, because you don&apos;t want somebody else to be copying the
 code that you might save in your online Git repository.
 
 Please, make sure that you only use private repositories in this
@@ -1338,7 +1338,7 @@ specialization.
 I will sign up as a get private repository, and then simply click on
 create repository.
 
-And then it\'ll do some setup, and then be ready for me, okay?
+And then it&apos;ll do some setup, and then be ready for me, okay?
 
 Now, what I need to do is to copy this particular URL format repository.
 
@@ -1348,9 +1348,9 @@ repository.
 Just copy that URL for the repository, because we would need that in
 order to synchronize our local Git repository with this repository.
 
-I\'m going to copy that.
+I&apos;m going to copy that.
 
-And since I have already created my local Git repository, I\'m going to
+And since I have already created my local Git repository, I&apos;m going to
 go in there and set that up to be mirrored in this online Git
 repository.
 
@@ -1360,10 +1360,10 @@ this.
 Going to the command prompt in my Git repository folder I will type, git
 remote add origin.
 
-And then paste the URL for my Bitbucket repository that I\'ve just
+And then paste the URL for my Bitbucket repository that I&apos;ve just
 created, and hit the return.
 
-Now, my local Git repository\'s remote origin is set to the Bitbucket
+Now, my local Git repository&apos;s remote origin is set to the Bitbucket
 repository.
 
 Now, I want to be able to push the entire contents of my local Git
@@ -1381,17 +1381,17 @@ Once I do that, then I need to push my contents to my online repository.
 For that, I do git push -u origin master. And this command would push
 the local Git repository to the online repository.
 
-Let\'s type that at the command prompt. So once I type this at the
-command prompt and hit the return, it\'s going to set up my Git
+Let&apos;s type that at the command prompt. So once I type this at the
+command prompt and hit the return, it&apos;s going to set up my Git
 repository. Sometimes it may ask you to type in your credentials
 including your password on your Bitbucket account. So you may have to do
-that. I had already done that previously, so that\'s why it didn\'t ask
+that. I had already done that previously, so that&apos;s why it didn&apos;t ask
 me again for the password. But once I had typed that in, then the
-contents of my local depository will be pushed to the server\'s site.
+contents of my local depository will be pushed to the server&apos;s site.
 
 Now, the data on my local Git repository is now matched on the server.
 
-Let\'s go to Bitbucket to see the status of my online Git repository
+Let&apos;s go to Bitbucket to see the status of my online Git repository
 now.
 
 Going to my Bitbucket and then reviewing the online Git repository, you
@@ -1414,7 +1414,7 @@ that have been sent to the server side.
 
 I can examine each of those comments in a bit more detail.
 
-And I\'m going back to the source, I can look at more details of the
+And I&apos;m going back to the source, I can look at more details of the
 source like that.
 
 That has now setup my local Git repository to be mirrored in Bitbucket.
@@ -1433,7 +1433,7 @@ your local repository to be mirrored on a repository on GitHub.
 On GitHub, if you login to your account, you would see something like
 this in your homepage.
 
-You can go to the right-hand side where there\'s a plus side and then
+You can go to the right-hand side where there&apos;s a plus side and then
 click on that to create a new repository, or just click on this button
 here to say new repository.
 
@@ -1466,7 +1466,7 @@ two kinds of commands that have to be issued.
 That basically sets up your GitHub repository to mirror your local
 repository.
 
-Since I have already linked my repository to Bitbucket, I\'m not going
+Since I have already linked my repository to Bitbucket, I&apos;m not going
 to use my GitHub repository for the purpose.
 
 As you noticed, the procedure is pretty much similar on either one of
@@ -1474,7 +1474,7 @@ them. Give and take a few differences in the way the information is
 rendered on the screen in the user interface and a little bit of
 changes.
 
-More or less, they are similar in debate the way you\'re going to make
+More or less, they are similar in debate the way you&apos;re going to make
 use of them in terms of mirroring your local Git repository to the
 online repository here.
 
@@ -1485,29 +1485,29 @@ This is where we use another Git command called git clone.
 
 Now here, you see that I have this git test repository.
 
-What I\'m going to do is I\'m going to go to the suppository, and then
+What I&apos;m going to do is I&apos;m going to go to the suppository, and then
 copy this URL.
 
-And then I\'ll show you how I can create a copy of the Git repository or
+And then I&apos;ll show you how I can create a copy of the Git repository or
 clone this online repository into my local computer.
 
-Let\'s pretend that I am on a different computer, and then we\'ll go to
+Let&apos;s pretend that I am on a different computer, and then we&apos;ll go to
 our command line, and then create another repository with that same
 name.
 
-Going to my command line, I\'m just going to move up and you\'ll see
+Going to my command line, I&apos;m just going to move up and you&apos;ll see
 that I have my git-test folder there.
 
-I\'m going to create another temporary folder here just to show you that
+I&apos;m going to create another temporary folder here just to show you that
 I can clone an online Git repository service in my temporary folder.
 
 You see that it is empty.
 
-To review the command, it says git clone and the repository\'s URL.
+To review the command, it says git clone and the repository&apos;s URL.
 
-Let\'s apply this command and clone the online Git repository.
+Let&apos;s apply this command and clone the online Git repository.
 
-Pretending that we are on another computer, so I\'m going to say git
+Pretending that we are on another computer, so I&apos;m going to say git
 clone.
 
 And then, Paste the URL of my Bitbucket repository here.
@@ -1527,7 +1527,7 @@ folder of the same name, git-test.
 Now, if I do a listing of the directory, you can see the be git-test
 folder has been created.
 
-Let\'s go to the git-test folder, and then you will see that this is an
+Let&apos;s go to the git-test folder, and then you will see that this is an
 exact copy of the folder structure that we had created earlier.
 
 This is how you can clone an online Git repository.
@@ -1623,7 +1623,7 @@ the browser to the desktop.
 </p>
 <!-- {width="5.0in" height="1.9198720472440944in"} -->
 
-Let\'s now learn a little bit about what Node.js is and what role does
+Let&apos;s now learn a little bit about what Node.js is and what role does
 NPM, the Node Package Manager, play in the context of Node.js. Node.js,
 as I mentioned earlier, allows us to bring the power of JavaScript to
 the desktop.
@@ -1707,7 +1707,7 @@ the subsequent exercises.
 
 <h4>Exercise (Video): Setting up Node.js and NPM</h4>
 
-In your browser, head over to nodejs.org and as you browse down, you\'ll
+In your browser, head over to nodejs.org and as you browse down, you&apos;ll
 see the download buttons for Node.js for your specific platform.
 
 In this case, it shows the download buttons for MacOS.
@@ -1739,7 +1739,7 @@ Make sure that you are logged in into an administrator account and
 install Node.js to be accessible by all users that are logged in on the
 computer.
 
-And once the installation is complete, let\'s go ahead and verify that
+And once the installation is complete, let&apos;s go ahead and verify that
 Node.js has been installed correctly.
 
 Open up a terminal window or a command window and add the prompt, type
@@ -1749,14 +1749,14 @@ Similarly, check <b>npm-v</b> to check the version of NPM installed. I am
 starting with these versions of node and NPM, and the subsequent
 exercises will be based on these.
 
-Even if you install the later version, I\'m pretty sure that it would be
+Even if you install the later version, I&apos;m pretty sure that it would be
 backward compatible.
 
 All the steps should work pretty much the same.
 
 With this, we complete the installation of Node.js.
 
-Let\'s go ahead and make use of Node.js in the next exercise.
+Let&apos;s go ahead and make use of Node.js in the next exercise.
 
 <h4>Exercise (Instructions): Setting up Node.js and NPM</h4>
 
@@ -1790,7 +1790,7 @@ At the end of this exercise, you will be able to:
 
 -   To install Node on your machine, go to
     [https://nodejs.org](https://nodejs.org/) and click on the Download
-    button. Depending on your computer\'s platform (Windows, MacOS or
+    button. Depending on your computer&apos;s platform (Windows, MacOS or
     Linux), the appropriate installation package is downloaded.
 
 -   As an example, on a Mac, you will see the following web page. Click
@@ -1841,7 +1841,7 @@ next.
 
 <h4>Exercise (Video): Basics of Node.js and NPM</h4>
 
-Now that you have Node.js on your computer, you\'re obviously wanting to
+Now that you have Node.js on your computer, you&apos;re obviously wanting to
 immediately start using it.
 
 In this exercise, we will start using Node.
@@ -1859,7 +1859,7 @@ And we will also see how the lite server will enable us to automatically
 see updates to our browser window as we make changes to our index.html
 file, or any other files in our get test folder.
 
-The lite server is something that we\'re going to extensively use in
+The lite server is something that we&apos;re going to extensively use in
 this and future courses, to be able to see the changes in real time in a
 browser window as you edit the files of your project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1874,7 +1874,7 @@ browser window as you edit the files of your project.
 
 As I mentioned, we want to set up the package.json file.
 
-What exactly is this package.json file that we\'re going to setup?
+What exactly is this package.json file that we&apos;re going to setup?
 
 Here, I have some information from the npmjs.org site which specifies
 what exactly is the role of the package.json file.
@@ -1918,7 +1918,7 @@ project folder.
 And then that will take you through a set of steps which will enable you
 to configure your package.json file.
 
-Let\'s proceed with that for our Git test project.
+Let&apos;s proceed with that for our Git test project.
 
 Here I am in the git-test folder in my terminal window.
 
@@ -1929,42 +1929,42 @@ And at the prompt, type npm init.
 
 Then follow along the questions that are asked.
 
-For the name of the project, we\'ll just leave it as the default,
+For the name of the project, we&apos;ll just leave it as the default,
 git-test.
 
-For version, we\'ll just leave it as 1.0.0.
+For version, we&apos;ll just leave it as 1.0.0.
 
 We can edit that later. For description, this is a test directory to
 learn Git and Node.
 
-It doesn\'t matter, type some description there.
+It doesn&apos;t matter, type some description there.
 
 And then the entry point, I would just say index.html.
 
 Usually if it is a node package, the entry point will be index.js.
 
 Now this folder that we have setup is an index.html based folder, so
-that\'s why I just typed in index.html.
+that&apos;s why I just typed in index.html.
 
 Test command, nothing. Git repository, if we had already setup the git
-repository in the previous exercise, it\'ll automatically prompt that
+repository in the previous exercise, it&apos;ll automatically prompt that
 for you, if not, this would be empty and give you an option to type in
-the git repository URL, in case you\'re using an online git repository.
+the git repository URL, in case you&apos;re using an online git repository.
 
-Some keywords for your project, which I\'m going to leave blank.
+Some keywords for your project, which I&apos;m going to leave blank.
 
 Author, type your name.
 
-Let\'s be narcissistic.
+Let&apos;s be narcissistic.
 
 And the license.
 
-And then, it\'ll show you the configuration of the package.json file in
+And then, it&apos;ll show you the configuration of the package.json file in
 JSON format.
 
 If your family have a JSON, does it look very, very familiar to you.
 
-If this looks all good, let\'s just say OK and then that results in the
+If this looks all good, let&apos;s just say OK and then that results in the
 creation of the package.json file.
 
 Now if you list the folder contents, you would see the package.json file
@@ -1976,20 +1976,20 @@ at the contents of package.json file in your editor.
 As the next step, we will learn how we can install a node module using
 NPM, the Node Package Manager.
 
-We\'re going to install this node module called as light server.
+We&apos;re going to install this node module called as light server.
 
 The light server will serve up the contents of this git-test folder in a
 server that it starts up so that you can view the contents in a browser.
 
 Given that we have an index.html file, if we serve up this folder, then
-it\'ll be a website.
+it&apos;ll be a website.
 
 And you can view the index.html in a browser.
 
-Let\'s set up the light server and then we will see how we can make use
+Let&apos;s set up the light server and then we will see how we can make use
 of the light server to serve up the contents of this folder.
 
-This is very, very useful because if you\'re working on a web
+This is very, very useful because if you&apos;re working on a web
 development project, you want to see where live version of your web
 development project.
 
@@ -1998,26 +1998,26 @@ immediately reflected in the browser.
 
 This is a very good node package that is very useful for this purpose.
 
-Let\'s set up this light server.
+Let&apos;s set up this light server.
 
 To do that, add the prompt. Type in NPM install.
 
-Notice, if you want NPM to install a node package, this is how you\'re
-going to invoke it and then you\'d say lite-server.
+Notice, if you want NPM to install a node package, this is how you&apos;re
+going to invoke it and then you&apos;d say lite-server.
 
 And then, we also want to save the fact that our project is using the
 lite server. So we will save this information in the package.json file.
 
-To do that, you\'re going to type in \-- save-dev. Now the save-dev
+To do that, you&apos;re going to type in \-- save-dev. Now the save-dev
 option specifies that this lite server is used for development
 dependency for our project.
 
 If you are installing a node module on which your project is directly
 dependent on, then you would install it by simply saying \--save option.
 
-Let\'s go ahead and install it.
+Let&apos;s go ahead and install it.
 
-And you wait patiently for the installation to take place. It\'ll take
+And you wait patiently for the installation to take place. It&apos;ll take
 all of a few minutes for that to complete its installation.
 
 Once that is installed, then you would immediately notice when you look
@@ -2028,13 +2028,13 @@ Now, if you go into the node_module, you will see a whole bunch of other
 subfolders in there, which contain node modules, which are necessary for
 the likes of our node module and so on.
 
-Let\'s take a quick tour of the node modules folder to see what the
+Let&apos;s take a quick tour of the node modules folder to see what the
 contents of these are.
 
-Going to my git-test folder, if you\'re going to the node modules
+Going to my git-test folder, if you&apos;re going to the node modules
 folder, you would see, as I said, a whole bunch of subfolders there.
 
-Normally you don\'t need to be venturing into the node modules folder.
+Normally you don&apos;t need to be venturing into the node modules folder.
 They just exist there because they are needed for the \[INAUDIBLE\].
 
 As you browse through, you should notice a folder named lite-server
@@ -2049,21 +2049,21 @@ This contents of the folder comprises the lite-server node module.
 But this lite-server node module is dependent on other node modules to
 provide it with some additional functionality.
 
-That\'s the reason when you install the light server node module, it\'ll
+That&apos;s the reason when you install the light server node module, it&apos;ll
 in turn install many other node modules, on which the light server
 itself is dependent on.
 
-That\'s the reason why you see that explosion of this folders inside the
+That&apos;s the reason why you see that explosion of this folders inside the
 node modules.
 
-Don\'t be too concerned about it, the sum total of folders will not be
+Don&apos;t be too concerned about it, the sum total of folders will not be
 more than a few tens of megabytes.
 
 It is not going to fill up your directory with junk.
 
 This is all essential for node to be able to help you.
 
-In case you\'re curious about the lite-server and how it works and so
+In case you&apos;re curious about the lite-server and how it works and so
 on, you can always go down to this GitHub site where the lite-server is
 hosted.
 
@@ -2072,7 +2072,7 @@ And then look up the documentation for lite-server.
 I will introduce you to whatever you need to know about lite-server as
 we go through this course and the remaining courses.
 
-You don\'t need to worry too much about it, but just in case you\'re
+You don&apos;t need to worry too much about it, but just in case you&apos;re
 curious, you can always go to the site to find out more details about
 lite-server.
 
@@ -2100,7 +2100,7 @@ This is very useful for us.
 Now why do we need this information here?
 
 Later on, when you go to the other exercises, you will notice that when
-you store this on an online repository, you don\'t want to be storing
+you store this on an online repository, you don&apos;t want to be storing
 everything in your node modules folder.
 
 You will only be storing information of all the files that we have
@@ -2115,11 +2115,11 @@ depends on will automatically be installed.
 
 We will see that later on how to use NPM install in this course.
 
-Now that we are at package.json file let\'s make a couple of edits so
+Now that we are at package.json file let&apos;s make a couple of edits so
 that we will be able to make use of the lite-server to serve up that
 content.
 
-Right here, in this option called scripts, let\'s add in one more here.
+Right here, in this option called scripts, let&apos;s add in one more here.
 
 We will say "start".
 
@@ -2128,11 +2128,11 @@ bunch of things that will be started.
 
 Later on we will see how we make use of this.
 
-Here I\'m going to say "npm run lite". And after that test, I\'m going
+Here I&apos;m going to say "npm run lite". And after that test, I&apos;m going
 to add in one more entry called "lite", which I will configure as
 "lite-server", okay?
 
-With these changes, let\'s save the package.json file. And then, now our
+With these changes, let&apos;s save the package.json file. And then, now our
 project is configured, so that now if you start the lite- server, the
 contents of your folder will be nowserved up in your favorite browser.
 Heading back to our command prompt, add the prompt.
@@ -2164,7 +2164,7 @@ directed at localhost:3000 simultaneously side by side, so that we can
 see how the browser window will immediately reflect any changes that we
 make to our Git test folder.
 
-Let me go to index.html. And then for the sake of space, I\'m going to
+Let me go to index.html. And then for the sake of space, I&apos;m going to
 turn that over.
 
 And then, so here, you can see that this is the contents of this.
@@ -2177,7 +2177,7 @@ change that I made to my index.html file is reflected into my browser.
 This provides a very nice way of being able to observe in real time the
 changes that you make to your code being reflected into your browser.
 
-When you are working on a project, it\'ll be very appropriate for you to
+When you are working on a project, it&apos;ll be very appropriate for you to
 be able to see the changes immediately.
 
 When you make a change and then save the file, the modified code is
@@ -2206,16 +2206,16 @@ GitHub.
 My git-test folder is synced to my Bitbuc/ket repository in this
 particular exercise.
 
-What I\'m going to do now is to show you how you can exclude some
+What I&apos;m going to do now is to show you how you can exclude some
 folders from your project folder, and then make sure that they are not
 synchronized to your online repository.
 
 Now as I said, the node_modules folder can always be recreated by typing
 npm install at the prompt.
 
-That\'s why when you upload the contents of your folder to an online Git
+That&apos;s why when you upload the contents of your folder to an online Git
 repository, or when you do a commit of the folder to your Git
-repository, you don\'t want the node_modules folder or all the
+repository, you don&apos;t want the node_modules folder or all the
 subfolders under it to be included in the commit.
 
 How do we exclude some folders or some files from our folder from being
@@ -2223,11 +2223,11 @@ checked in into our Git repository?
 
 To do that, we will set up a file named .gitignore.
 
-That\'s the name of the file, .gitignore.
+That&apos;s the name of the file, .gitignore.
 
 To create this .gitignore file, we will go to our editor.
 
-In the editor, in the git-test folder, I\'m going to create a new file
+In the editor, in the git-test folder, I&apos;m going to create a new file
 and I will name it .gitignore.
 
 Note that the name begins with a dot and then, the rest of the name is
@@ -2236,21 +2236,21 @@ g-i-t-i-g-n-o-r-e.
 This is very important that you set up the file with exactly that name,
 .gitignore.
 
-Let\'s create this file called .gitignore, and the first line of that
+Let&apos;s create this file called .gitignore, and the first line of that
 file, we will type as node_modules.
 
 What this means is that the node_modules folder is going to be excluded
 from our git commit.
 
 Once I create that .gitignore file and then add node_modules into the
-.gitignore file, let\'s save the changes.
+.gitignore file, let&apos;s save the changes.
 
 And then we will now do a commit of the current state of our project
 into our Git repository.
 
 I hope you remember your git commands.
 
-Let\'s do a git status, and then when you do that, you will immediately
+Let&apos;s do a git status, and then when you do that, you will immediately
 notice that you have the index.html file marked as modified, and then
 the two new files, .gitignore and package.json.
 
@@ -2259,7 +2259,7 @@ We do a git add ., and then do a git status.
 And then you see that all this new files have been checked in into your
 commit.
 
-Let\'s do a git commit.
+Let&apos;s do a git commit.
 
 ```
 $ git commit -m "fourth commit"
@@ -2267,7 +2267,7 @@ $ git commit -m "fourth commit"
 
 And the files are committed.
 
-Let\'s push the new commit to our online repository. So, to do that git
+Let&apos;s push the new commit to our online repository. So, to do that git
 push -u origin master and wait for it to be pushed to our server.
 
 Now, if you go to your online Git repository, you will see that the
@@ -2301,10 +2301,10 @@ folders can be excluded from being checked into our Git repository.
 
 This completes this exercise.
 
-With this, I\'m sure you have gotten a good handle on the use of both
+With this, I&apos;m sure you have gotten a good handle on the use of both
 Git, and then also node and node modules.
 
-Don\'t worry, we will be using node extensively, in various ways, as you
+Don&apos;t worry, we will be using node extensively, in various ways, as you
 go through the courses of this specialization.
 
 This is just a start.
@@ -2497,7 +2497,7 @@ designing and implementing their recent websites.
 </p>
 <!-- {width="5.0in" height="1.474359142607174in"} -->
 
-Let\'s ask ourselves what exactly are front-end Web UI Frameworks, and
+Let&apos;s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 27. what are front-end ui frameworks? (51) --------------------------->
@@ -2509,7 +2509,7 @@ learn a little more details about them.
 </p>
 <!-- {width="5.0in" height="1.961003937007874in"} -->
 
-Next, so obviously in this lesson we\'re going to ask ourselves, what
+Next, so obviously in this lesson we&apos;re going to ask ourselves, what
 are front-end frameworks?
 
 What do they contain? What are some of the popular front-end UI
@@ -2520,7 +2520,7 @@ our websites?
 
 What are front-end web UI frameworks?
 
-Let\'s take a step backwards, and imagine that you only know HTML, CSS,
+Let&apos;s take a step backwards, and imagine that you only know HTML, CSS,
 and JavaScript.
 
 If you were asked to design a new website, you would obviously go about
@@ -2606,7 +2606,7 @@ And, most of these front-end frameworks support what is called as
 responsive web design.
 
 We will examine more about responsive web design in the next lesson, but
-quickly summarizing it, you don\'t realize that your website may be
+quickly summarizing it, you don&apos;t realize that your website may be
 accessed from various kinds of devices of different screen savers
 ranging from small mobile phones all the way to up to a full-fledged
 desktop.
@@ -2620,8 +2620,8 @@ Responsive web design is concerned about this aspect.
 The second issue that most of these Franken frameworks try to address is
 cross browser compatibility.
 
-If you have played around with browsers as much as I have done, I\'m
-pretty sure you\'ve come to realize that no two browsers render the same
+If you have played around with browsers as much as I have done, I&apos;m
+pretty sure you&apos;ve come to realize that no two browsers render the same
 website exactly the same way.
 
 When you design a website to render consistently across many different
@@ -2631,13 +2631,13 @@ Now these front-end frameworks have managed to address most of these
 idiosyncrasies of the different browsers in such a way that you can
 deliver consistent rendering of your website on different browsers.
 
-That\'s the second reason why you may want to resort to using a
+That&apos;s the second reason why you may want to resort to using a
 Front-End Web UI framework.
 
 And the third aspect of course is that when you need to design a
-website, you\'re always going to be under terrible time pressure.
+website, you&apos;re always going to be under terrible time pressure.
 
-Increasing your productivity so that you don\'t waste your energy and
+Increasing your productivity so that you don&apos;t waste your energy and
 time on wasteful configuration issues of those individual components of
 your website.
 
@@ -2652,13 +2652,13 @@ frameworks that are all there have their own community.
 They are users that use these frameworks for implementing websites.
 
 This community of users will provide you with a very efficient way of
-being able to solve issues that you may encounter when you\'re applying
+being able to solve issues that you may encounter when you&apos;re applying
 anyone of this frameworks for your website design.
 
 Given these different advantages, why would you not want to resort to
 using a front-end web UI framework?
 
-With this understanding of front-end web UI frameworks, let\'s now
+With this understanding of front-end web UI frameworks, let&apos;s now
 proceed forward to learn more about Bootstrap, the most popular front
 end web UI framework.
 
@@ -2730,14 +2730,14 @@ The current production version of Bootstrap is 4.0.
 If you had taken my earlier specialization on Coursera, I have dealt
 with Bootstrap 3.3.7 in the earlier Bootstrap course.
 
-Now, it\'s time to move on to our first exercise where we will get our
+Now, it&apos;s time to move on to our first exercise where we will get our
 hands dirty with Bootstrap.
 
 <h4>Exercise (Video): Getting Started with Bootstrap</h4>
 
-Strap on your boots, and let\'s get started with Bootstrap.
+Strap on your boots, and let&apos;s get started with Bootstrap.
 
-I\'m sure your fingers are itching to get your hands around Bootstrap.
+I&apos;m sure your fingers are itching to get your hands around Bootstrap.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 33. setting up the project folder (56) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2815,7 +2815,7 @@ will not be committed.
 
 After that, it is time to go and fetch Bootstrap for use in our project.
 
-Before we fetch Bootstrap, let\'s do a commit of the current state of
+Before we fetch Bootstrap, let&apos;s do a commit of the current state of
 the file.
 
 Do git init and initialize your git repository.
@@ -2842,7 +2842,7 @@ To do that, add the prompt type npm install bootstrap@4.0.0 and also
 Once Bootstrap is installed, we realize that we also need to install its
 peer, which is jQuery as well as Popper.js.
 
-Let\'s go ahead and install both jQuery and Popper.js into this project
+Let&apos;s go ahead and install both jQuery and Popper.js into this project
 folder.
 
 To do that, add the prompt type npm install jquery@3.3.1 and
@@ -2860,37 +2860,37 @@ Here, we are installing the jQuery version 3.3.1 and Popper.js version
 1.12.9.
 
 Subsequently, also, I will specify the exact versions of the modules to
-be installed. So let\'s go ahead and install these.
+be installed. So let&apos;s go ahead and install these.
 
 And once they are installed, we can go to the next step.
 
 Going back to our project folder, you would see that if you go into
 node_modules, you will see a folder in there named Bootstrap.
 
-And inside the folder named Bootstrap, you\'ll find a folder named dist.
+And inside the folder named Bootstrap, you&apos;ll find a folder named dist.
 
-Inside dist folder, you\'ll find two sub-folders named CSS and js.
+Inside dist folder, you&apos;ll find two sub-folders named CSS and js.
 
-If you go into the CSS folder, you\'ll find a whole bunch of precompiled
+If you go into the CSS folder, you&apos;ll find a whole bunch of precompiled
 CSS files here.
 
 The one that is of interest to us at the start is Bootstrap min.css.
 
-That\'s the file that we are going to include into our index.html file
+That&apos;s the file that we are going to include into our index.html file
 in order to make use of Bootstrap in our project.
 
 Similarly, going to the js folder, you would see that there is a
 Bootstrap min.js file.
 
-We\'re going to include that also into our index.htm.
+We&apos;re going to include that also into our index.htm.
 
-That\'ll be the next step that you will see me doing.
+That&apos;ll be the next step that you will see me doing.
 
-Before we go to the next step, let\'s start up our lite-server so that
+Before we go to the next step, let&apos;s start up our lite-server so that
 we can see the changes that we make to the index.html immediately
 reflected into our web page in real time.
 
-Let\'s start up lite-servers.
+Let&apos;s start up lite-servers.
 
 Type the prompt type npm start, and then that should start up your
 lite-server.
@@ -2904,14 +2904,14 @@ content.
 This web page looks like the typical web page of a computer science
 professor.
 
-Let\'s now open the index.html page in our editor.
+Let&apos;s now open the index.html page in our editor.
 
 And then in the head part of the index.html page, right before the
-title, I\'m going to paste in a little bit of code.
+title, I&apos;m going to paste in a little bit of code.
 
 This code snippet is given to you in the instructions.
 
-You can simply copy and paste this code snippet, and I\'ll walk you
+You can simply copy and paste this code snippet, and I&apos;ll walk you
 through what this code snippet is trying to do.
 
 You will notice that I have three meta tags here.
@@ -2921,7 +2921,7 @@ The first one says charset="utf-8".
 This is the unicode that is going to be used. The second line which says
 meta name="viewport",
 
-I\'m going to come back and explain this particular line to you in the
+I&apos;m going to come back and explain this particular line to you in the
 next lesson when we will look at responsive web design.
 
 Now, let me draw your attention to this particular line which says link
@@ -2930,16 +2930,16 @@ rel="stylesheet", and then href. Note that I am specifying href as
 
 What I am specifying is that the bootstrap.min.css file, which contains
 the CSS classes corresponding to Bootstrap that we have downloaded using
-NPM to our node_modules folder, I\'m going to include that into the head
+NPM to our node_modules folder, I&apos;m going to include that into the head
 of my index.html page.
 
 You need to include the CSS classes provided by Bootstrap.
 
 You also need to include the JavaScript classes provided by Bootstrap,
-which we\'re going to do at the bottom of this page.
+which we&apos;re going to do at the bottom of this page.
 
 Going to the bottom of this page, note, just before the closing body
-tag, I\'m going to paste in the code to include all the scripts there.
+tag, I&apos;m going to paste in the code to include all the scripts there.
 
 To do that, I just paste in the three lines for the script to include
 the jQuery, Popper.js, and also the Bootstrap min.js.
@@ -2960,13 +2960,13 @@ rendering, when the JavaScript is fetched, the JavaScript needs to
 execute in order to make changes to your page with the JavaScript code,
 and that will take a little bit of time.
 
-You don\'t want the user to be waiting for the entire page to be loaded
+You don&apos;t want the user to be waiting for the entire page to be loaded
 before they see something in their browser window.
 
-That\'s why we normally load the JavaScript classes towards the end of
+That&apos;s why we normally load the JavaScript classes towards the end of
 our html page just before the body tech.
 
-After making these changes, let\'s save the file.
+After making these changes, let&apos;s save the file.
 
 Now, the reason why I am showing the index.html file in my editor and
 also the browser right next to it is, the moment you save the changes
@@ -2974,7 +2974,7 @@ that you have made to the index.html file, note how the browser
 rendering of that file immediately updates and see Bootstrap already in
 action on the page.
 
-Right now, you\'ll see that your page is using Times New Roman to render
+Right now, you&apos;ll see that your page is using Times New Roman to render
 all the content.
 
 The moment I save the web page, you notice that the fonts being used on
@@ -2991,14 +2991,14 @@ be beyond the scope of our discussion right now.
 Once you set up your index.html page and save it, you will immediately
 see Bootstrap coming into action in our web page.
 
-This is how I\'m going to keep illustrating, as we add various
+This is how I&apos;m going to keep illustrating, as we add various
 bootstraps, CSS classes, and components to our web page, how the
 rendering of it in our browser will keep changing.
 
 Now, obviously, the rendering of the page in our browser is still
 terrible.
 
-It\'s better than the typical computer science professors web page, but
+It&apos;s better than the typical computer science professors web page, but
 definitely not readable.
 
 We need to now bring into action the various CSS classes and the
@@ -3015,7 +3015,7 @@ Going to my conFusion folder in another tab of my terminal window, if I
 type git status, I now see that my index.html file and the package of
 JSON file have been modified.
 
-I\'m going to do a commit.
+I&apos;m going to do a commit.
 
 Now, my status of the folder at the end of this exercise has been
 committed to my git repository.
@@ -3026,7 +3026,7 @@ of your project will be saved at this point.
 With this, we complete our first Bootstrap exercise. You have now seen
 how we can configure Bootstrap to be used in our web project.
 
-As we proceed to the next few exercises, we\'re going to employee the
+As we proceed to the next few exercises, we&apos;re going to employee the
 Bootstrap classes to design our web pages.
 
 <h4>Exercise (Instructions): Getting Started with Bootstrap</h4>
@@ -3139,7 +3139,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 
 -   At the bottom of the page, just before the end of the body tag, add
     the following code to include the JQuery library, popper.js library
-    and Bootstrap\'s Javascript plugins. Bootstrap by default uses the
+    and Bootstrap&apos;s Javascript plugins. Bootstrap by default uses the
     JQuery Javascript library for its Javascript plugins. Hence the need
     to include JQuery library in the web page.
 
@@ -3157,7 +3157,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 
 We have now understood how to set up a web project to use Bootstrap. In
 the next lecture, we will explore further on responsive design and
-Bootstrap\'s grid system.
+Bootstrap&apos;s grid system.
 
 <h4>Introduction to Bootstrap: Additional Resources</h4>
 
@@ -3217,12 +3217,12 @@ At the end of this lesson, you will be able to:
 These days in web development world, we often hear people mentioning the
 terms responsive design and mobile first approach.
 
-Let\'s try and understand what is meant by these terms, and how they
+Let&apos;s try and understand what is meant by these terms, and how they
 affect the way you design your websites and your web applications.
 
 Your obvious question is going to be why consider responsive design?
 
-To help us understand this, let\'s consider how people access websites
+To help us understand this, let&apos;s consider how people access websites
 these days?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 35. why responsive design (65) -------------------------------->
@@ -3258,7 +3258,7 @@ taken no longer fixed bill.
 We need a better approach, an approach that will automatically adapt
 your website to the size of the screen on which it is being viewed.
 
-This is where we have to take an approach to adapt to the user\'s view
+This is where we have to take an approach to adapt to the user&apos;s view
 port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 37. why responsive design #3 (66) ------------------------------->
@@ -3271,7 +3271,7 @@ port.
 <!-- {width="5.0in" height="2.223290682414698in"} -->
 
 This has to be built into your website design and development so that it
-will automatically adapt to the viewport of the user\'s device.
+will automatically adapt to the viewport of the user&apos;s device.
 
 To help you better appreciate the need for addressing devices of
 different screen sizes.
@@ -3289,24 +3289,24 @@ screen sites.
 This would be a typical large desktop or a high resolution laptop
 screen.
 
-Then let\'s consider the same website being viewed using a smaller
+Then let&apos;s consider the same website being viewed using a smaller
 screen such.
 
 You see automatically your screen layout is slightly adjusting to the
 size of the viewport of your device, same thing at 800 by 600.
 
-Let\'s go down in screen sizes, this is an iPad close view of the same
+Let&apos;s go down in screen sizes, this is an iPad close view of the same
 site.
 
 This is an iPad Air 2 size, this is an iPad Mini 4 size, note the
 transition from an iPad Mini 4 size to an iPhone 6S Plus in portrait
 mode.
 
-You\'ll now notice that the Navigation Bot has now collapsed into a
+You&apos;ll now notice that the Navigation Bot has now collapsed into a
 button here, which when you click will reveal the options from your
 Navigation Bash.
 
-And let\'s look at the same thing in our iPhone 6S in landscape mode,
+And let&apos;s look at the same thing in our iPhone 6S in landscape mode,
 note how the screen adopts itself.
 
 Similarly for an iPhone 6S in landscape mode and go down to an iPhone
@@ -3333,7 +3333,7 @@ Consider how you would satisfy the screen constraints of your mobile
 device. And then as your screen size expands, you would automatically
 start an app to your website to the larger and larger screen sizes.
 
-Perhaps, you\'re willing more and more of the content.
+Perhaps, you&apos;re willing more and more of the content.
 
 To take advantage of the increasing screen real estate.
 
@@ -3351,7 +3351,7 @@ How do we get this information?
 Fortunately, doing responsive web design is supported by many of the
 modern front end web UI frameworks including Bootstrap.
 
-When we look at Bootstrap\'s definition on it\'s webpage it says,
+When we look at Bootstrap&apos;s definition on it&apos;s webpage it says,
 responsive mobile first approach.
 
 Yeah, how do we go by doing responsive web design?
@@ -3371,10 +3371,10 @@ design.
 
 First and foremost is what is called is a Grid system?
 
-We\'re going to look at the Bootstrap\'s Grid system in more detail in
+We&apos;re going to look at the Bootstrap&apos;s Grid system in more detail in
 the next lecture.
 
-That we\'ll understand exactly how we can leverage that to be able to do
+That we&apos;ll understand exactly how we can leverage that to be able to do
 responsive web design.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 41. foundation for responsive design #2 (69) ------------------------->
@@ -3402,11 +3402,11 @@ And the third part is what is called a CSS media queries from your CSS
 code.
 
 You can query the size of the media and then appropriately adjust your
-CSS classes to fit the size of the device\'s screen.
+CSS classes to fit the size of the device&apos;s screen.
 
 Now how do media queries work?
 
-Let\'s look at that next.
+Let&apos;s look at that next.
 
 Media queries are supported in CSS like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3426,7 +3426,7 @@ be active.
 This would be specified in your CSS file as \@media, and then within
 bracket, you specify for example, min-width.
 
-There are a lot more options to the media queries than what I\'m showing
+There are a lot more options to the media queries than what I&apos;m showing
 here.
 
 This is just one example of how you would build a media query in your
@@ -3441,7 +3441,7 @@ CSS code.
 </p>
 <!-- {width="5.0in" height="2.839744094488189in"} -->
 
-Taking a look at Bootstrap\'s CSS code itself, let\'s go in and see how
+Taking a look at Bootstrap&apos;s CSS code itself, let&apos;s go in and see how
 media queries are being used by Bootstrap.
 
 Here you see an example of a media query where it says, \@media and
@@ -3451,7 +3451,7 @@ And then it specifies that those particular CSS class call container,
 which we will learn more about in the next lecture, and also in the
 exercise that follows.
 
-We will see that the container\'s width is set based upon the width of
+We will see that the container&apos;s width is set based upon the width of
 the screen.
 
 Similarly, for a higher width screen, the container width is
@@ -3461,7 +3461,7 @@ This is what enables your web UI framework to support responsive web
 design.
 
 Doing media queries, your web UI framework is able to establish what
-kind of device you\'re rendering your website on.
+kind of device you&apos;re rendering your website on.
 
 And correspondingly adjust the CSS classes to fit that particular
 devices screen size.
@@ -3496,7 +3496,7 @@ How does Bootstraps grid support this?
 And what exactly does Bootstrap grid involve, that enables us to design
 responsive websites?
 
-Let\'s talk a bit more detail about the Bootstrap grid system, and how
+Let&apos;s talk a bit more detail about the Bootstrap grid system, and how
 it supports responsiveness next.
 
 We saw the use of the viewport meta tag in the previous lesson, when we
@@ -3504,7 +3504,7 @@ did the initial exercise on setting up Bootstrap in our index.html page.
 
 I briefly referred to this particular line in the code then.
 
-Let\'s try to understand why we use this in our index.html page.
+Let&apos;s try to understand why we use this in our index.html page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 46. viewport (72) --------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3590,7 +3590,7 @@ We'll see the use of this in the exercise that follows.
 Also, it allows easy reordering of the content across different devices
 and screen resolutions with the help of media queries.
 
-Again we\'ll see a little bit of that in the exercise on how Bootstrap
+Again we&apos;ll see a little bit of that in the exercise on how Bootstrap
 leverages that to support interesting ways of laying out content.
 
 Also, that content itself, the content containers can also be designed
@@ -3598,7 +3598,7 @@ to be equal height columns so that the content container with the
 largest height determines the height of all the remaining containers
 that are laid out in the same row.
 
-Let\'s now talk a little more details about the Bootstrap grid and how
+Let&apos;s now talk a little more details about the Bootstrap grid and how
 it actually works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 50. bootstrap grid (74) ------------------------------------>
@@ -3684,7 +3684,7 @@ laying out the content.
 
 How exactly do we layout the content?
 
-We\'ll talk about that in the next few slides.
+We&apos;ll talk about that in the next few slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 53. how to layout the grid (76) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3733,7 +3733,7 @@ in a row will each piece of content occupy.
 
 How does this work?
 
-We\'ll see that in the next slide.
+We&apos;ll see that in the next slide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 54. auto-layout columns (77) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3904,15 +3904,15 @@ This is how the default Bootstrap Grid is configured.
 Now, once you get comfortable with Bootstrap, you can also configure
 these divisions yourself.
 
-But for this course, we\'re going to stay with the default configuration
+But for this course, we&apos;re going to stay with the default configuration
 that bootstrap supports.
 
 Now, the grid behavior in this case, is that whatever is laid out for
 extra small, will be horizontal at all times, for the higher bits
-they\'ll be collapsed to start width, but horizontal about the break
+they&apos;ll be collapsed to start width, but horizontal about the break
 points.
 
-We\'ll see how this works in a short while with some examples.
+We&apos;ll see how this works in a short while with some examples.
 
 Now, we saw the use of the container in the previous slide.
 
@@ -3925,7 +3925,7 @@ specified.
 If you use the div with a class container, then for small screens it is
 540 pixels.
 
-You\'ll notice that if you have a screen width between 576 to 768, your
+You&apos;ll notice that if you have a screen width between 576 to 768, your
 content will be laid out in 540 pixels, will be centered in the screen
 width.
 
@@ -3958,10 +3958,10 @@ It gives you a lot of flexibility in terms of how many columns you
 choose to lay out your content.
 
 Between each column, so if you lay out two pieces of content side by
-side with their divs, between these two pieces of content they\'ll be a
+side with their divs, between these two pieces of content they&apos;ll be a
 small gutter that will be left.
 
-Empty white space that\'ll be left off width the gutter width, which is
+Empty white space that&apos;ll be left off width the gutter width, which is
 just 30 pixels by default.
 
 15 pixels is from one piece of content and 15 pixels from other piece of
@@ -3972,9 +3972,9 @@ pieces of content.
 
 Think about how a newspaper column layout is done and you begin to see
 the correspondence between the newspaper column layout is done and how
-the bootstrap\'s grid does the layout of the content on that pitch.
+the bootstrap&apos;s grid does the layout of the content on that pitch.
 
-Bootstrap\'s grid allows you to do nest level content, so you can
+Bootstrap&apos;s grid allows you to do nest level content, so you can
 enclose content inside content and then do nested content layout.
 
 Also, it supports offsets.
@@ -3990,7 +3990,7 @@ We will see the use of offsets also in some examples later.
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
 
-Let\'s look at our first example of how you would apply bootstraps
+Let&apos;s look at our first example of how you would apply bootstraps
 column classes, and how they would actually be rendered on different
 screen sizes.
 
@@ -4010,7 +4010,7 @@ laid out side by side.
 The reason for this is because we said column sm five and column sm
 seven for the two.
 
-For small to extra-large they\'re laid out side by side so that the red
+For small to extra-large they&apos;re laid out side by side so that the red
 content will occupy the leftmost five columns and the sea green content
 will occupy the right seven columns of your row, all the way from small
 to extra-large screen sizes.
@@ -4096,10 +4096,10 @@ centered vertically within that particular row there.
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
 
-Not only that, Bootstrap\'s Grid also supports horizontal alignment of
+Not only that, Bootstrap&apos;s Grid also supports horizontal alignment of
 content.
 
-Let\'s look at an example.
+Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 67. horizontal alignment #2 (86) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4113,8 +4113,8 @@ Let\'s look at an example.
 If you specify your content like this.
 
 Say, you have three columns and the first one you specify div class
-column three, then the middle one you\'ll say div class column auto.
-I\'m going to come back to that column auto in a short while.
+column three, then the middle one you&apos;ll say div class column auto.
+I&apos;m going to come back to that column auto in a short while.
 
 And the right one says div class column 3. So in this case, what we are
 specifying is that the left and the rightmost pieces of content will
@@ -4168,7 +4168,7 @@ Bootstrap also allows you to do column offsets.
 
 How does this work?
 
-Let\'s look at an example.
+Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 70. column offsets #2 (88) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4224,7 +4224,7 @@ Bootstrap goes even further by allowing you to nest content inside divs.
 For example, if you specify two divs, as you see with column sm five and
 column sm seven, the two contents will be laid out as seen here.
 
-Now, inside the right div, I can again go in and divide that div\'s
+Now, inside the right div, I can again go in and divide that div&apos;s
 width into a row and then that row will automatically give me another 12
 columns for that part of the screen and then I can then do the layout
 using nesting of the divs and do the layout for different parts of that
@@ -4243,10 +4243,10 @@ out content in your pitch.
 <!-- {width="5.0in" height="1.8327996500437445in"} -->
 
 With all the discussion about the Bootstrap Grid System and how the
-Bootstrap Grid supports various ways of laying out content, we\'re going
+Bootstrap Grid supports various ways of laying out content, we&apos;re going
 to now, move on to our next set of exercises.
 
-We\'re going to apply the Bootstrap grid to our index.html page in order
+We&apos;re going to apply the Bootstrap grid to our index.html page in order
 to do the layout of the content inside or index.html page.
 
 We will also use some custom CSS classes.
@@ -4257,9 +4257,9 @@ In the previous lectures, we have learnt about responsive design and the
 bootstrap grid system.
 
 We have seen how the bootstrap grid allows us to design responsive
-websites. It\'s time for us to move onto the next exercise.
+websites. It&apos;s time for us to move onto the next exercise.
 
-We\'ll begin to work with the index html page that we created in our
+We&apos;ll begin to work with the index html page that we created in our
 previous exercise and apply the bootstrap grid classes to make it
 responsive.
 
@@ -4267,7 +4267,7 @@ Taking a quick look at our web page in the browser we see that it is
 still terrible although the fonts have improved a little bit, and we are
 now using the bootstraps default fonts.
 
-Let\'s now try and apply the bootstrap grid classes to index.html to
+Let&apos;s now try and apply the bootstrap grid classes to index.html to
 improve its layout.
 
 Going to the index.html page, let me quickly draw your attention to this
@@ -4275,7 +4275,7 @@ particular line in the index.html page that we included already in the
 previous exercise. I had referred to this line, then we were talking
 about the bootstrap grid system.
 
-Here, we see that we\'ve specified the meta tags with a view port and
+Here, we see that we&apos;ve specified the meta tags with a view port and
 the content, width as device width, and initial scale one and shrink to
 fit no.
 
@@ -4284,9 +4284,9 @@ the view port character.
 
 Moving ahead to the next step.
 
-We\'re going to roll down to the body of this index.html page, and then
+We&apos;re going to roll down to the body of this index.html page, and then
 look up the first div that comes right below the header tag there, to
-this div you\'re going to apply the class container.
+this div you&apos;re going to apply the class container.
 
 We have already learnt about the container class in the previous
 lecture.
@@ -4310,16 +4310,16 @@ width being a fixed size container, our content will be fixed to this
 particular width on the screen leaving enough margin on either side as
 white space.
 
-Let\'s apply the same container class to both the header and the footer
+Let&apos;s apply the same container class to both the header and the footer
 also, and then see how the content changes.
 
-Going back to our web page, what I\'m going to do now is for the inner
-content here, the inner div inside the container, I\'m going to apply
-the class as the row class here, to this first one, and I\'m going to
+Going back to our web page, what I&apos;m going to do now is for the inner
+content here, the inner div inside the container, I&apos;m going to apply
+the class as the row class here, to this first one, and I&apos;m going to
 simply copy this.
 
-I\'m going to apply the same to the second div here which is lined up
-for the div, and also scroll down and then to the third div here, I\'m
+I&apos;m going to apply the same to the second div here which is lined up
+for the div, and also scroll down and then to the third div here, I&apos;m
 also applying the row class here.
 
 Now, the content inside this outermost container class, is now divided
@@ -4327,10 +4327,10 @@ into three rows, so whatever is inside here will be one row, whatever is
 inside here, will be the second row and the one in here will be the
 third row.
 
-We\'ll later on apply the column classes to this.
+We&apos;ll later on apply the column classes to this.
 
-Let us now move to the header in our index.html\'s body. And to the
-header, I\'m going to apply a class called as jumbotron.
+Let us now move to the header in our index.html&apos;s body. And to the
+header, I&apos;m going to apply a class called as jumbotron.
 
 The jumbotron component allows you to set apart the content inside the
 jumbotron from the rest of the page.
@@ -4338,28 +4338,28 @@ jumbotron from the rest of the page.
 We will see the result in a short while when we at the resulting web
 page.
 
-Now, to the div inside this header, I\'m going to apply the class as
+Now, to the div inside this header, I&apos;m going to apply the class as
 container, so that whatever is inside the content will be now
 constrained by the container width there.
 
 Similarly, moving down to the footer here, in the footer also, the first
-div inside the footer, I\'m going to apply the class as container.
+div inside the footer, I&apos;m going to apply the class as container.
 
-And the div inside there, I\'m going to apply the class as row there, to
+And the div inside there, I&apos;m going to apply the class as row there, to
 the div inside there.
 
 This div will take us all the way to this particular div here. And then
 the next div also that is right below that, I will apply the class as
 row.
 
-Now my footer contains two rows here, we\'ll style the content using
+Now my footer contains two rows here, we&apos;ll style the content using
 column, classes in a short while.
 
 Going to the header also, I will apply the row class to the second div
-inside the container div here. So this div which matches I\'ve got this,
+inside the container div here. So this div which matches I&apos;ve got this,
 will be one single row in the header.
 
-Let\'s take a look at our resulting web page.
+Let&apos;s take a look at our resulting web page.
 
 Going to our web page, you can now see that the header content is now
 set apart from the rest inside this grey box on top here.
@@ -4371,24 +4371,24 @@ Now, this is the result of using the container.
 Moving to the footer, you can now see that the footer content is also
 now lined up inside the container.
 
-But the page still looks not that great, we\'ll now apply the column
+But the page still looks not that great, we&apos;ll now apply the column
 classes to the inner divs now.
 
-Going back to the index.html page, we\'ll now start applying the column
+Going back to the index.html page, we&apos;ll now start applying the column
 classes.
 
 Going to the header, to the second inner div inside the jumbotron here,
 let me apply a class as column 12, column sm-6.
 
 Here the content in this first div will occupy the entire row for extra
-small screen sizes, and then will occupy half the row so that\'s why
+small screen sizes, and then will occupy half the row so that&apos;s why
 column sm-6 for small to extra-large screen sizes.
 
-Now, similarly for the second div here, although it doesn\'t contain any
-content there, I\'m going to define the column classes here as column 12
+Now, similarly for the second div here, although it doesn&apos;t contain any
+content there, I&apos;m going to define the column classes here as column 12
 and then column sm.
 
-Notice that here by specifying column 12, I\'m explicitly stating that
+Notice that here by specifying column 12, I&apos;m explicitly stating that
 for extra small screen sizes whatever content is inside this div will be
 stacked below the content about here.
 
@@ -4400,7 +4400,7 @@ Here in this case since six columns are occupied by this content, this
 will get the remaining six columns there.
 
 Moving down to the content rows here, for the content here, so for this
-first content, which is a label here, I\'m going to apply the classes as
+first content, which is a label here, I&apos;m going to apply the classes as
 column 12, column sm-4, column md-3.
 
 Stating that for extra small screen sizes, this will occupy the entire
@@ -4410,27 +4410,27 @@ extra-large, it will occupy three columns in the row.
 Now, so the remaining part will be occupied by the content down below
 here, so to that, I will apply the classes as col, indicating that this
 will be stacked below the content here in the extra small screen sizes,
-and then I\'ll say column sm, so which means that this will occupy the
+and then I&apos;ll say column sm, so which means that this will occupy the
 remaining eight columns here, because four columns is taken up by this
-one, and then we\'ll say column md, which means that this will occupy
+one, and then we&apos;ll say column md, which means that this will occupy
 the remaining nine columns because three columns are taken up for medium
 to extra-large screen sizes by the content above here.
 
-Now that I have defined for the first content row, I\'m going to take
+Now that I have defined for the first content row, I&apos;m going to take
 the same column class application here, and then apply that to the
 second row here, and also the third content row here.
 
-Similarly, I\'m going to copy this one and then apply the same to the
+Similarly, I&apos;m going to copy this one and then apply the same to the
 content divs down below here.
 
 Now we have configured both the header and the content columns there.
 
-Let\'s now move down to the footer. In the footer, you\'ll notice that
+Let&apos;s now move down to the footer. In the footer, you&apos;ll notice that
 this div contains three inner divs here, so for each of these three
-inner divs here, I\'m going to apply the corresponding column classes.
+inner divs here, I&apos;m going to apply the corresponding column classes.
 
 For the first one, which contains links to the various pages that will
-form part of this website, I\'m going to apply a column class, as column
+form part of this website, I&apos;m going to apply a column class, as column
 four, column sm-2 here.
 
 Meaning that for extra small screen sizes, this will occupy four columns
@@ -4442,7 +4442,7 @@ classes as column seven.
 Notice that I have four here and then seven here, so that total occupies
 11 columns.
 
-I have left one column empty. I\'ll come back later to apply an offset
+I have left one column empty. I&apos;ll come back later to apply an offset
 to take care of the extra column.
 
 This is column seven, and then col-sm-5 to the second one.
@@ -4460,7 +4460,7 @@ But for small to extra-large screen sizes, the first one will occupy two
 columns, the second will occupy five and the remaining will be taken up
 by social media links here.
 
-For the third one, I\'m going to apply the class as col-12 col-sm-4
+For the third one, I&apos;m going to apply the class as col-12 col-sm-4
 here.
 
 So col-12 col-sm-4, meaning that this will occupy a separate set of 12
@@ -4471,16 +4471,16 @@ Here we are four plus five, nine plus two 11.
 
 One column is still leftover for small to extra-large.
 
-That\'s how I\'m going to apply that column closest to this.
+That&apos;s how I&apos;m going to apply that column closest to this.
 
 Now, we still have the one below here where we contain the copyrights to
 this.
 
-I\'m going to apply the class as column auto, meaning that this content
+I&apos;m going to apply the class as column auto, meaning that this content
 will occupy just enough columns as is required by the content there.
 
 Later on you will see that I will position this content in the center of
-the screen thereby using yet another bootstrap CSS class. We\'ll come to
+the screen thereby using yet another bootstrap CSS class. We&apos;ll come to
 that in the next exercise.
 
 With this we have applied various column classes to the header, the
@@ -4489,7 +4489,7 @@ content, and the footer.
 This is a good time for us to save the changes and then go and take a
 look at the updated indexed or HTML page.
 
-Taking a look at our index.html page, you\'ll notice how in the header
+Taking a look at our index.html page, you&apos;ll notice how in the header
 which is the Jumbotron, the content is now occupying just half of the
 screen there.
 
@@ -4508,7 +4508,7 @@ right side.
 This is for a medium sized screen.
 
 Now if you want to look at the same view for an extra small or small
-screen sizes, if you\'re using Chrome, then Chrome has the developer
+screen sizes, if you&apos;re using Chrome, then Chrome has the developer
 tools that you can turn on by clicking on the view developer tools, and
 when the developer tools come up, you will notice, let me reduce the
 size here.
@@ -4536,12 +4536,12 @@ a separate row here, and then the copyright at the bottom there.
 
 This is the interesting view that we see for extra small screen sizes.
 
-Getting back to our code here, I\'m going to now apply the order and
+Getting back to our code here, I&apos;m going to now apply the order and
 offset classes to this content in order to display the content in a
 slightly different manner.
 
 Going to the content row here, for the two divs here which contain the
-content, I\'m going to apply the classes as order-sm-last for the first
+content, I&apos;m going to apply the classes as order-sm-last for the first
 row here.
 
 And then for that one down below here I will apply order sm first to the
@@ -4556,10 +4556,10 @@ left side.
 
 As I explained about the order clauses in the previous lecture.
 
-Similarly from the second row, I\'m going to leave it as such but from
-the third row I\'m going to apply the same set of order classes.
+Similarly from the second row, I&apos;m going to leave it as such but from
+the third row I&apos;m going to apply the same set of order classes.
 
-I\'m going to go to the third row here, and then apply the order-sm-last
+I&apos;m going to go to the third row here, and then apply the order-sm-last
 to this one, and then I will apply the order-sm-first to this one.
 
 And so this one again will be reordered such that this content will
@@ -4568,13 +4568,13 @@ appear to the left side and this content will appear to the right side.
 This is just a way of positioning the content in a bit more interesting
 way.
 
-Now moving down into the footer here, now I\'m going to apply an offset
+Now moving down into the footer here, now I&apos;m going to apply an offset
 class here.
 
 Notice that I have mentioned that these two columns will occupy four
 plus seven, 11. So one column is leftover.
 
-I\'m going to apply an offset-1 class to this one.
+I&apos;m going to apply an offset-1 class to this one.
 
 Which means that this content on this div will be pushed right by one
 column here.
@@ -4583,7 +4583,7 @@ Similarly since I said offset one, this will be applied to extra small
 all the way up to the extra-large screen sizes.
 
 And so that is the use of the offset class. So now that we have made the
-changes, let\'s save the changes and then go and take a look at our web
+changes, let&apos;s save the changes and then go and take a look at our web
 page in the browser.
 
 Going back to that browser, you now see how the header is as before, but
@@ -4592,7 +4592,7 @@ the left side and the label to the right side.
 
 The second row is different has being maintained just as before.
 
-But for the third you\'ll see that this has been pushed to the right and
+But for the third you&apos;ll see that this has been pushed to the right and
 this has been pushed to the left.
 
 That is the use of the order-sm-last and order-sm-first class is there.
@@ -4600,7 +4600,7 @@ That is the use of the order-sm-last and order-sm-first class is there.
 Now going to the footer, you now see that the content in the first div
 here has been pushed right by one column,.
 
-You can see that there is one column of whitespace here, and this isn\'t
+You can see that there is one column of whitespace here, and this isn&apos;t
 pushed right and the remaining ones have been formatted accordingly.
 
 With this we complete the changes to our index.html page or additional
@@ -4610,7 +4610,7 @@ With this we complete this particular exercise. In this exercise we
 looked at the use of the container, row, and column classes in order to
 design our web page a little bit nicer.
 
-In the second part of the exercise which will follow this, we\'re going
+In the second part of the exercise which will follow this, we&apos;re going
 to add more to try and improve the way these web pages are rendered.
 
 It is still not to my satisfaction.
@@ -4784,33 +4784,33 @@ system.
 
 <h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2</h4>
 
-We\'ll continue with the bootstrap grid exercise that we started out in
+We&apos;ll continue with the bootstrap grid exercise that we started out in
 the previous exercise.
 
-We\'re going to do a few more things to our index.html page in order to
+We&apos;re going to do a few more things to our index.html page in order to
 improve its layout.
 
-We\'re going to use some custom CSS classes and add some color to our
+We&apos;re going to use some custom CSS classes and add some color to our
 index.html page using custom CSS classes.
 
-The next thing that I\'m going to do is go down to the footer and for
-this UL here, you\'ll notice that this list when you look at our web
+The next thing that I&apos;m going to do is go down to the footer and for
+this UL here, you&apos;ll notice that this list when you look at our web
 page is displayed in the web page using this bulleted list here.
 
-I\'m not too happy with this bulleted list, I want to remove these
+I&apos;m not too happy with this bulleted list, I want to remove these
 bullet points and then simply show them as only the links there.
 
-To do that, I\'m going to use another list style called as list-
+To do that, I&apos;m going to use another list style called as list-
 unstyled and apply that to that UL tag there.
 
-Going back to our web page, to this UL tag in the footer, I\'m going to
+Going back to our web page, to this UL tag in the footer, I&apos;m going to
 apply the class as list-unstyled, and this would remove those bullets in
 front of these links there.
 
 Now, let me add a few custom CSS classes to the index.html page.
 
 To do that, we will now create a folder here and name it as the CSS
-folder here. Inside the CSS folder, I\'m going to create a new file and
+folder here. Inside the CSS folder, I&apos;m going to create a new file and
 name the file as styles.css.
 
 Now, inside the styles.css file, I can now add some CSS classes in order
@@ -4827,15 +4827,15 @@ as zero pixel auto.
 
 This is for the row header.
 
-I\'m going to have zero margin and zero padding for the row header.
+I&apos;m going to have zero margin and zero padding for the row header.
 
-And then for the row contents, so I\'m going to add one more CSS class
+And then for the row contents, so I&apos;m going to add one more CSS class
 called row-content.
 
 And then for this, I will add margin zero pixel auto, and then padding
 have it at 50 pixel, zero pixel, 50 and zero pixel.
 
-Then I\'m going to add a border at the bottom of my row here.
+Then I&apos;m going to add a border at the bottom of my row here.
 
 And then, the border I will give it one pixel and then call it a ridge.
 
@@ -4846,8 +4846,8 @@ That way, my web page will look like more nicer on the screen.
 Now this again, you have to try and see until you are satisfied with the
 way the page is laid out.
 
-Now also, I\'m going to include one more class called as the footer
-which as you might have already guessed, I\'m going to apply to the
+Now also, I&apos;m going to include one more class called as the footer
+which as you might have already guessed, I&apos;m going to apply to the
 footer and I will apply a background color to the footer as D1C4E9.
 
 If you ask me how I selected the color, I just looked up the color and
@@ -4864,16 +4864,16 @@ pixels.
 Now, once I have added this styles to my CSS file, let me apply the CSS
 file to the index.html page.
 
-I\'m going to index.html page.
+I&apos;m going to index.html page.
 
 Obviously, I need to use that CSS file inside my index.html page.
 
-Right after the bootstrap CSS file, I\'m going to do a link and style
+Right after the bootstrap CSS file, I&apos;m going to do a link and style
 sheet, and this is style.css file there.
 
 That is where my CSS file is stored.
 
-I\'m going to include that into my index.html page. Now, I am going to
+I&apos;m going to include that into my index.html page. Now, I am going to
 go into the body and apply the classes that I have just created.
 
 Going to the header, I will apply the row header class to the div in the
@@ -4886,9 +4886,9 @@ To the three rows in the content, I apply the row content class and then
 going down to the footer, to the footer tag, I will apply the class
 footer here, and then save the changes.
 
-Let\'s go and have a look at that page now.
+Let&apos;s go and have a look at that page now.
 
-Going to your web page, we\'re already beginning to see some interesting
+Going to your web page, we&apos;re already beginning to see some interesting
 changes to the web page.
 
 You can now see that the content in the web page has been laid out a bit
@@ -4905,18 +4905,18 @@ We are not done yet, we got to do a few more changes to the index.html
 page, and then come back and have a look at the final result of this
 exercise.
 
-Going back to your Editor, I\'m going to add a few more CSS classes into
-my style structure, it is a file, so I\'m going to go in there and then
+Going back to your Editor, I&apos;m going to add a few more CSS classes into
+my style structure, it is a file, so I&apos;m going to go in there and then
 add a class called Jumbotron.
 
-You\'ll see that we have already applied the Jumbotron to our header
+You&apos;ll see that we have already applied the Jumbotron to our header
 there.
 
 Now, if I add more properties to this Jumbotron class here, this will be
 applied to the Jumbotron, in addition to the standard default Jumbotron
 that bootstrap already includes.
 
-I\'m going to add in a few more things, I\'m going to add in a padding
+I&apos;m going to add in a few more things, I&apos;m going to add in a padding
 of 70 and 30 pixel on its surroundings, and then a margin of zero pixel
 all around, and I will set the background of this to 9575CD.
 
@@ -4926,47 +4926,47 @@ the Jumbotron.
 Again, by trial and error, I selected that color, and also the text
 color as floral white.
 
-For the Jumbotron, we are going to apply those classes, and also, I\'m
+For the Jumbotron, we are going to apply those classes, and also, I&apos;m
 going to apply one more class to the address class.
 
-We have an address in the footer, so I\'m going to change the font size
+We have an address in the footer, so I&apos;m going to change the font size
 of that to 80 percent, a slightly smaller font than the normal font, and
-the margin, I will give it a zero pixel, and the color, I\'m going to
+the margin, I will give it a zero pixel, and the color, I&apos;m going to
 use zero F, zero F, zero F, and then save the changes.
 
 So couple more CSS classes added, switching back to index.html.
 
-What I\'m going to do now, is to go to the content rows and then I\'m
+What I&apos;m going to do now, is to go to the content rows and then I&apos;m
 going to try and position this content in the middle, vertically in that
 row.
 
-This is where I\'m going to take the help of the vertical alignment that
+This is where I&apos;m going to take the help of the vertical alignment that
 bootstrap grid supports through the Flexbox support.
 
 To do that, I would say align-items-center, so this is the other class
 that I need to add, align-items-center.
 
-And I\'m going to add that to the remaining two rows also,
+And I&apos;m going to add that to the remaining two rows also,
 align-items-center to the second and the third row, and that should do a
 vertical justification of the content of the rows.
 
-We\'ll see the result in a minute. Going down to the footer. In the
+We&apos;ll see the result in a minute. Going down to the footer. In the
 footer, you see that we have used the column auto for this copyright
 content there.
 
-Now, I\'m going to position this right in the middle horizontally using
+Now, I&apos;m going to position this right in the middle horizontally using
 that justify-content-center class, so there is a justify content and a
-few other classes there. I\'m going to use to justify-content-center
+few other classes there. I&apos;m going to use to justify-content-center
 class for that.
 
 That will essentially position that column in the center of the row
 there.
 
-That applied to that, and then, one little change that I\'m going to do,
-is to this inner div there, I\'m going to apply a class as text-center
+That applied to that, and then, one little change that I&apos;m going to do,
+is to this inner div there, I&apos;m going to apply a class as text-center
 to that, so that these links are centered on the screen.
 
-With these changes, let\'s go and take a look at the web page, at end of
+With these changes, let&apos;s go and take a look at the web page, at end of
 this exercise.
 
 Going to our web page, our web page is already starting to look even
@@ -4985,7 +4985,7 @@ justified to the center of the screen.
 Look at how the links here have been centered.
 
 I realized that I want to also position this vertically centering to
-this particular row, so let\'s go and apply one more class to move this
+this particular row, so let&apos;s go and apply one more class to move this
 to the center of this particular row vertically.
 
 To do that, going back to index. html, in the footer for that particular
@@ -4999,7 +4999,7 @@ row.
 
 The remaining content will still remain at the top.
 
-Let\'s take a final look at the footer.
+Let&apos;s take a final look at the footer.
 
 Going to the footer in our web page, you can now see how this has been
 positioned vertically in the center.
@@ -5192,7 +5192,7 @@ classes.
 -   [A Visual Guide to CSS3 Flexbox
     Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 
--   [The Bootstrap 4 Grid: What\'s
+-   [The Bootstrap 4 Grid: What&apos;s
     New?](http://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/)
 
 -   [How the Bootstrap Grid Really
@@ -5219,7 +5219,7 @@ classes.
 
 It is time for your first assignment in this course.
 
-In the first assignment, we\'re going to provide you with unstyled
+In the first assignment, we&apos;re going to provide you with unstyled
 aboutus.html page.
 
 The zip file containing that aboutus.html page is available to you in
@@ -5248,7 +5248,7 @@ which just contains content.
 
 Now your job is to go through three tasks in order to format this page.
 
-Let\'s look at the three tasks in more detail.
+Let&apos;s look at the three tasks in more detail.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 75. first task (108) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5278,7 +5278,7 @@ footer from the index.html page into this page.
 and I left all the Bootstrap formatting as such, but the actual content
 of the page is still left unstyled.
 
-Now, as the second task, you\'re going to apply the Bootstraps Flexbox
+Now, as the second task, you&apos;re going to apply the Bootstraps Flexbox
 grid including the Container, the rows and the column classes to this
 content or the page so that you can style it properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5291,11 +5291,11 @@ content or the page so that you can style it properly.
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
 
-Now, when apply the classes, you\'re going to apply the row and column
+Now, when apply the classes, you&apos;re going to apply the row and column
 classes to the aboutus to just leave it as such.
 
-Then you\'re going to apply the row and column classes to this content
-so that this content occupies only half the screen, and then you\'re
+Then you&apos;re going to apply the row and column classes to this content
+so that this content occupies only half the screen, and then you&apos;re
 going to apply the row and column classes to this content so that have
 occupies the entire screen width.
 
@@ -5415,8 +5415,8 @@ To take a full page screenshot in Chrome, you can use a Chrome extension
 that is available to us, the link to the Chrome extension is provided in
 the assignment resources that follow the assignment description.
 
-After you complete your assignment, in case you\'re saving your changes
-to a Git Repository, please don\'t forget to commit the changes to your
+After you complete your assignment, in case you&apos;re saving your changes
+to a Git Repository, please don&apos;t forget to commit the changes to your
 Git Repository with the Message Assignment One.
 
 <b>Assignment 1 Resources</b>
@@ -5563,7 +5563,7 @@ At the end of this lesson, you will be able to:
 
 <h4>Navigation and Navigation Bar</h4>
 
-Let\'s now talk about navigation.
+Let&apos;s now talk about navigation.
 
 What is navigation, why is navigation important for your website?
 
@@ -5587,7 +5587,7 @@ have website navigation?
 As you realize, most websites are no longer single pages.
 
 Of course, there do exist those single page websites like your
-professor\'s webpage In your computer science department.
+professor&apos;s webpage In your computer science department.
 
 But most websites usually contain more than one page.
 
@@ -5606,7 +5606,7 @@ This intuitive means could be provided by many different approaches, the
 navigation bar being one of the most common methods of indicating this
 information.
 
-We\'ll look at several common ways of providing navigation patterns on
+We&apos;ll look at several common ways of providing navigation patterns on
 typical websites.
 
 In this context, you often hear people talking about information
@@ -5627,7 +5627,7 @@ to users through, for example, websites, then I have provided you with
 some links in the additional resources that you can go and read for
 further knowledge.
 
-But in any case, when you\'re designing a website, it is important to
+But in any case, when you&apos;re designing a website, it is important to
 understand the need to design the information navigation structures
 within your website.
 
@@ -5658,14 +5658,14 @@ form part of your website.
 A typical navigation bar, how do you go about designing this?
 
 When you design a typical navigation bar, you should obviously keep in
-mind some dos and don\'ts about how you design navigation bars.
+mind some dos and don&apos;ts about how you design navigation bars.
 
 First is that you use user-friendly and simple terms within your
 navigation bar to indicate the various links that the users can follow
 within your website to reach information..
 
 You should provide a standardized navigation, so that wherever the user
-is within your website hierarchy, they\'ll always know how to go back to
+is within your website hierarchy, they&apos;ll always know how to go back to
 the homepage, how to go to the next, previous, or up and down the
 hierarchy of some sort.
 
@@ -5681,7 +5681,7 @@ included in your navigation bar, a click on these logos or a home button
 should take you back to the topmost level of the hierarchy or the home
 page of your website, typically the index.html page.
 
-Some of the don\'ts that you should keep in mind is that you should not
+Some of the don&apos;ts that you should keep in mind is that you should not
 have too many choices in your navigation bar.
 
 How many is too many?
@@ -5713,7 +5713,7 @@ These are typically provided somewhere in that page, typical towards the
 top edge of the webpage, closer to the heading of that webpage.
 
 The breadcrumbs sort of indicate some kind of a navigational hierarchy
-within which you\'re currently In your website.
+within which you&apos;re currently In your website.
 
 So this provides a secondary navigation option for your website.
 
@@ -5751,7 +5751,7 @@ navigation on your webpages.
 These include tabs, pills, pagination, dropdowns, accordions, tags, and
 SchrollSpy, and Affix.
 
-We\'ll look at some of these in a bit more detail as we go through the
+We&apos;ll look at some of these in a bit more detail as we go through the
 various lessons in the modules that follow this particular lesson.
 
 <h4>Exercise (Video): Navbar and Breadcrumbs</h4>
@@ -5760,14 +5760,14 @@ We just completed a discussion on the importance of providing navigation
 in your website.
 
 We also looked at several different ways that we can provide navigation
-in a website. It\'s now time for us to look at bootstrap and look into
+in a website. It&apos;s now time for us to look at bootstrap and look into
 components that bootstrap provides that enable us to add navigation to
 our websites.
 
 Two important components from bootstrap is the Navbar and Breadcrumbs.
-We\'re going to examine both of these in this exercise.
+We&apos;re going to examine both of these in this exercise.
 
-Let\'s get started by adding a navigation bar to the top of our web
+Let&apos;s get started by adding a navigation bar to the top of our web
 page.
 
 We can do that using the Navbar component that is part of bootstrap.
@@ -5776,14 +5776,14 @@ How do we get started? We go to the body of our HTML page.
 
 Here, I have index.HTML open.
 
-And at the top, I\'m going to add in an element using that nav HTML tag.
+And at the top, I&apos;m going to add in an element using that nav HTML tag.
 
 Now the nav HTML tag is intended for providing navigation.
 
-Let\'s take the advantage of this tag and build our navigation bar using
+Let&apos;s take the advantage of this tag and build our navigation bar using
 the nav tag.
 
-Now, at the top, I\'m going to add in this tag, put the nav and
+Now, at the top, I&apos;m going to add in this tag, put the nav and
 construct the navigation bar around this nav tag.
 
 Once we add this nav tag into index.HTML, then we can go ahead and then
@@ -5806,7 +5806,7 @@ Because that goes very well with the website that I have just designed.
 We can have navbar-light, which is a lighter color navigation bar. So,
 you can choose to use either one of them in your web page.
 
-The next class that I\'m going to use is navbar-expand-sm class.
+The next class that I&apos;m going to use is navbar-expand-sm class.
 
 Now, and also, I will specify the screen size below which the
 toggle-able behavior comes into existence.
@@ -5819,16 +5819,16 @@ Meaning that, it will be collapsed in those screen sizes.
 You will pretty soon learn how this works, when we look at how we can
 add the collapse plugin to the navbar to enable that kind of behavior.
 
-So along with a navbar toggle-able sm, I\'m going to apply a background
+So along with a navbar toggle-able sm, I&apos;m going to apply a background
 color to the navbar initially, which would be bg-primary.
 
 Now bg-primary is that primary color that is defined in your bootstrap.
 
 By default, this is a version of blue color that is used by bootstraps.
 
-So I\'m going to start with that as my primary color.
+So I&apos;m going to start with that as my primary color.
 
-Later on, I will customize my navbar\'s color using some CSS classes.
+Later on, I will customize my navbar&apos;s color using some CSS classes.
 
 In addition, I am also going to apply another class called the fixed-top
 to that navigation bar.
@@ -5844,7 +5844,7 @@ of your browser window or you can say, static top.
 
 And also, you can just not use this class.
 
-If you don\'t use that, then your navigation bar will also scroll when
+If you don&apos;t use that, then your navigation bar will also scroll when
 your web page is scrolled upwards.
 
 In my website, I choose to keep the navigation bar fixed at the top of
@@ -5855,7 +5855,7 @@ the bootstraps documentation.
 
 This is one example of the use of the navigation bar.
 
-Now in addition, inside the navigation bar, I\'m going to enclose
+Now in addition, inside the navigation bar, I&apos;m going to enclose
 whatever content is going to be used in the navigation bar inside a
 container.
 
@@ -5866,7 +5866,7 @@ Whatever is enclosed inside there, will be restricted to the same width
 as the rest of my Web page.
 
 As you recall, I used the container class to define the breadth of the
-content in my web page, so I\'m going to apply the same to my navigation
+content in my web page, so I&apos;m going to apply the same to my navigation
 bar also, so that my navigation bar information will be displayed within
 the same width as the rest of my web page.
 
@@ -5874,7 +5874,7 @@ You can choose not to use the container class in the navigation bar, In
 which case, the contents of the navigation bar will spread over the
 entire width of your screen.
 
-Inside the navigation bar, I\'m going to adding a class to an a tag
+Inside the navigation bar, I&apos;m going to adding a class to an a tag
 here.
 
 This class which I call as navbar-brand, allows me to display some
@@ -5890,13 +5890,13 @@ the company is somewhere visible in the navigation bar of that website.
 Let me add in that navbar-brand. This can also be hyperlinked to the
 home page of your website.
 
-I\'m going to leave that there. In the remaining pages on my website, I
+I&apos;m going to leave that there. In the remaining pages on my website, I
 will just add the href to bring me back to the index.HTML page, which is
 the homepage.
 
-And inside here I\'m going to add in the name of my restaurant.
+And inside here I&apos;m going to add in the name of my restaurant.
 
-Let\'s save the changes and go and have a quick look at the current
+Let&apos;s save the changes and go and have a quick look at the current
 state of my navigation bar.
 
 Going to the web page in the browser, you can now see where navigation
@@ -5907,24 +5907,24 @@ I scroll my page, the navigation bar still remains at the top because I
 used to fixed-top class.
 
 You can also see the navbar-brand allowing me to display the name of the
-restaurant there. Later on I\'m going to replace that with the logo for
+restaurant there. Later on I&apos;m going to replace that with the logo for
 this restaurant.
 
 You do notice that the navigation bar is partly covered in the
 Jumbotron.
 
-You\'re going to fix that a little bit later using some CSS
+You&apos;re going to fix that a little bit later using some CSS
 customization.
 
-The next thing that I\'m going to do is to adding a few links to my
+The next thing that I&apos;m going to do is to adding a few links to my
 navigation bar, so that these links will lead me to the other pages in
 my website.
 
-How do we do that? Going back to index.HTML, I\'m going to add in a ul
-here, within which I\'m going to declare all the various links that are
+How do we do that? Going back to index.HTML, I&apos;m going to add in a ul
+here, within which I&apos;m going to declare all the various links that are
 going to be displayed in my navigation box.
 
-This ul to which I\'m going to apply the class as navbar-nav.
+This ul to which I&apos;m going to apply the class as navbar-nav.
 
 This is the class that will help me to define the set of links that will
 be included in my navigation bar.
@@ -5943,10 +5943,10 @@ the navigation bar. Inside this unordered list, I can use list elements
 to include the various links that are going to be part of my navigation
 bar.
 
-In there, I\'m going to add in a few links there and I will start on by
+In there, I&apos;m going to add in a few links there and I will start on by
 specifying the first one there with the link.
 
-To every list item in your navigation bar, you\'re going to apply the
+To every list item in your navigation bar, you&apos;re going to apply the
 class as nav item. This allows these list items to be displayed
 horizontally as links in my navigation bar.
 
@@ -5955,7 +5955,7 @@ that will be part of my navigation bar.
 
 Inside there I use the a tag with the class nav-link and this also
 allows me to use the href. Attribute to define the link there. And the
-first one that I\'m going to include is Home.
+first one that I&apos;m going to include is Home.
 
 This would include an item called Home in this navigation bar.
 
@@ -5964,7 +5964,7 @@ these because I want to add four different ones to my navigation bar.
 
 The first one is Home. The second one would be About.
 
-The third one would be Menu which I\'m going to build as part of the
+The third one would be Menu which I&apos;m going to build as part of the
 next course. And the last one will be Contact.
 
 A typical company website would have links like this in its navigation
@@ -5977,7 +5977,7 @@ are on that particular page, that particular link can be highlighted.
 To do that, we will apply here the class called active to one of these
 list items.
 
-In this case, since this is the index.html page, I\'m applying the
+In this case, since this is the index.html page, I&apos;m applying the
 active class to the home link there.
 
 This pretty much completes my navigation bar in the index.HTML page.
@@ -5986,7 +5986,7 @@ One little thing that I would like to fix here is that the About link, I
 want to link it to the aboutus.HTML page that we have already included
 into our website, because that is where I want it to lead.
 
-Let\'s go and take a quick look at our navigation bar of this part.
+Let&apos;s go and take a quick look at our navigation bar of this part.
 
 Coming back to our navigation bar, you can immediately see the result of
 including those items into the unordered list there.
@@ -6001,18 +6001,18 @@ If I click on the About, it should take me to the About pitch.
 
 Lo and behold, there we are.
 
-But I do realize that I don\'t have a way of going back, so which means
+But I do realize that I don&apos;t have a way of going back, so which means
 that I also need to hand this navigation bar to the aboutus.HTML page.
 
 We will get there in a short while.
 
-For now, I\'m going to quickly navigate using the back button of my
+For now, I&apos;m going to quickly navigate using the back button of my
 browser back to my index.HTML page.
 
 One thing that I also wanted to demonstrate to you was how this
 navigation bar will collapse for small and extra small screen sizes.
 
-Let\'s turn on the view using the Responsive View, and then let me go to
+Let&apos;s turn on the view using the Responsive View, and then let me go to
 the Galaxy S5.
 
 And I noticed that when I use the Galaxy S5 like this, you can see that
@@ -6027,7 +6027,7 @@ off the display of these links.
 You have seen such things in mobile websites. How do we do this in
 bootstrap?
 
-Let\'s go to that step next.
+Let&apos;s go to that step next.
 
 Going back to our navigation bar here.
 
@@ -6036,7 +6036,7 @@ showing and hiding my links from my navigation bar when it is displayed
 on extra smart and small screens.
 
 To add there, let me add in a button and apply some classes to this
-button. We\'re going to discuss more about buttons in bootstrap in the
+button. We&apos;re going to discuss more about buttons in bootstrap in the
 next lesson.
 
 But to add a button in bootstrap, you would apply the class for this
@@ -6052,27 +6052,27 @@ as a button.
 
 And then data-toggle as collapse.
 
-Now, this data-toggle attribute that you\'ll see here is actually a
+Now, this data-toggle attribute that you&apos;ll see here is actually a
 JavaScript component usage in bootstrap.
 
-We\'re going to look at this data hyphens bar kind of attributes more in
+We&apos;re going to look at this data hyphens bar kind of attributes more in
 the next module, where we will look at bootstraps JavaScript components.
 
 The nav bar requires one of those JavaScript components to be able to
 toggle on and off my links in my navigation bar.
 
-That\'s the reason why I quickly introduced this concept here, but
-we\'ll come back to examine this bootstraps JavaScript components more
+That&apos;s the reason why I quickly introduced this concept here, but
+we&apos;ll come back to examine this bootstraps JavaScript components more
 in the next module.
 
-Data-toggle collapse and then the data-target as #Navbar. Now, I\'m
+Data-toggle collapse and then the data-target as #Navbar. Now, I&apos;m
 going to introduce another div with the ID as navbar.
 
 When I specify a date or target #Navbar, that refers to the ID of that
 other element which is going to be the target of this particular button
 here.
 
-That\'s the part that I add in to the bottom.
+That&apos;s the part that I add in to the bottom.
 
 Also, I want the button to display something here.
 
@@ -6080,7 +6080,7 @@ And typically, when you see these kind of buttons in mobile websites, it
 would contain free lines there, so which is typically called as the
 Navbar-toggle icon.
 
-I\'m going to include a special icon that is included in bootstrap,
+I&apos;m going to include a special icon that is included in bootstrap,
 called navbar-toggler icon.
 
 If I apply this class to span tag, then that will introduce a
@@ -6088,20 +6088,20 @@ navbar-toggler icon to my button here.
 
 That introduces a button.
 
-We\'re going to look at what this looks like in a short while.
+We&apos;re going to look at what this looks like in a short while.
 
 Now, when I click this button, I want to be able to show and hide these
 links.
 
-To enable me to do that, what I\'m going to do is to surround this ul
+To enable me to do that, what I&apos;m going to do is to surround this ul
 with a div here.
 
-I\'m going to come in and introduce a div around this ul.
+I&apos;m going to come in and introduce a div around this ul.
 
 And to this div, I will apply the class as collapse, and then
 navbar-collapse, and then I give it an ID as Navbar.
 
-Now, you\'re beginning to see the correlation between these classes and
+Now, you&apos;re beginning to see the correlation between these classes and
 the ID and what I declared in the data toggle and the data target.
 
 Here the data target I specify as #Navbar and so the ID given to this
@@ -6119,7 +6119,7 @@ of this div will be revealed on the screen.
 Let me also add a mr-auto to the a class navarbar-brand there so that I
 automatically introduce a sufficient right margin to this navbar- brand.
 
-Now, let\'s go and take a look at this in our browser. Going to the
+Now, let&apos;s go and take a look at this in our browser. Going to the
 browser, you can now see how my navbar is collapsed on small and extra
 small screen sizes. And notice this button on the left side.
 
@@ -6141,14 +6141,14 @@ Now that we have completed the navigation bar on my index.HTML page, I
 want to be able to introduce the same navigation bar to the aboutus.HTML
 page.
 
-Before we get there, let\'s go to the footer here. And then you notice
+Before we get there, let&apos;s go to the footer here. And then you notice
 that in the footer, we have these links.
 
 I want to be able to update this link also to point to aboutus.HTML so
 that even by clicking the link in my footer, I would still go to the
 about page.
 
-Now, going back up here, what I\'m going to do is simply copy this code
+Now, going back up here, what I&apos;m going to do is simply copy this code
 of this navigation bar from here.
 
 And then, go to aboutus.HTML page and then paste that into my
@@ -6164,7 +6164,7 @@ Home page should now be updated as index.HTML here.
 
 And then, the list item here now the second one the Home page again, I
 want to update that to index.HTML there and then the second link to the
-about, because this is the aboutus.HTML page, I\'m going to put it back
+about, because this is the aboutus.HTML page, I&apos;m going to put it back
 to that hash there and then I will remove the active class from the
 first item and then apply the active class to the second item, because
 this is the About Page and so that should be the one that is
@@ -6183,40 +6183,40 @@ when I click on the about page,
 I will go to the About Page. Note how that same navigation bar is
 displayed in About Page, so you have about being highlighted because I
 applied the active class to that and then I can go back to my Home Page
-either by clicking on the narvar-brand or the Home. So let\'s click on
+either by clicking on the narvar-brand or the Home. So let&apos;s click on
 the narvar-brand and we are back in our main or Home Page or index.HTML.
 
 Now the navigation is correctly set up both in the Home Page and in the
 About Page.
 
-Couple of additional things that I\'m going to do is to apply if you see
-it\'s class that I can change my navbar\'s color and also I would like
+Couple of additional things that I&apos;m going to do is to apply if you see
+it&apos;s class that I can change my navbar&apos;s color and also I would like
 to add a breadcrumb to this About Page and so that the breadcrumb will
 also give me another way of navigating back to my Home Page and also
 will indicate the hierarchy in my website where I am at the moment.
 
-Let\'s do those two steps next.
+Let&apos;s do those two steps next.
 
 Going back to that editor in styles.css.
 
-I\'m going to add in a couple of more classes here.
+I&apos;m going to add in a couple of more classes here.
 
 You notice that my navbar was hiding part of the jumbotron.
 
-In order to avoid that, what I\'m going to do is to my body, I\'m going
+In order to avoid that, what I&apos;m going to do is to my body, I&apos;m going
 to give a padding of 50 pixel on the top so that those 50 pixels will be
 left for the navigation bar to cover.
 
-Whenever you are using a fixed top navigation bar it\'s a good idea to
+Whenever you are using a fixed top navigation bar it&apos;s a good idea to
 give this padding to the body of your webpage so that the navigation
-doesn\'t cover the topmost element in the body of your webpage.
+doesn&apos;t cover the topmost element in the body of your webpage.
 
-The remaining ones I\'m going to leave as zero pixels and also the
+The remaining ones I&apos;m going to leave as zero pixels and also the
 z-index for my body as zero.
 
 From your knowledge of CSS you understand what the z-index does and the
-next one I\'m going to do is I\'m going to overload navbar-dark class by
-adding in one more color for the navbar class and the color that I\'m
+next one I&apos;m going to do is I&apos;m going to overload navbar-dark class by
+adding in one more color for the navbar class and the color that I&apos;m
 going to choose is 512DA8.
 
 This is a dark purple color which looks very good in my website.
@@ -6239,14 +6239,14 @@ then remove the bg-primary from that also.
 Now, while I am in aboutus.HTML page, let me introduce a breadcrumb into
 my container, the first row of my container there.
 
-This is where the About Us title was there, so there I\'m going to go in
-and introduce an ol. I\'m just using the ol tag as a way of introducing
+This is where the About Us title was there, so there I&apos;m going to go in
+and introduce an ol. I&apos;m just using the ol tag as a way of introducing
 the breadcrumb.
 
-You can use even a div for this and it\'ll still work just fine.
+You can use even a div for this and it&apos;ll still work just fine.
 
 It just so happens that the example on bootstraps documentation used an
-ol so, I\'m sticking with that even a simple div will also work fine
+ol so, I&apos;m sticking with that even a simple div will also work fine
 here.
 
 I say ol class col-12 breadcrumb.
@@ -6254,7 +6254,7 @@ I say ol class col-12 breadcrumb.
 The breadcrumb classes applied and not the col-12 meaning that stretched
 the entire screen.
 
-And inside there, I\'m going to go in and add two list items.
+And inside there, I&apos;m going to go in and add two list items.
 
 Now you see why the use of ol is useful here, because I can use the list
 items to describe the breadcrumb item.
@@ -6264,17 +6264,17 @@ there I will use the A tag to define a link back to my Home Page.
 
 I say, "A" and then to this A, I give the href as index.HTML and then
 include that into my first breadcrumb and then after this, the next one
-that I\'m going to include is another list item and the second list item
+that I&apos;m going to include is another list item and the second list item
 I will apply the class as breadcrumb item and active.
 
 Note the use of the active class here and then inside there I will say
-"about us" I don\'t need a link here because I\'m already on the page
-so that doesn\'t need to be included for this list item.
+"about us" I don&apos;t need a link here because I&apos;m already on the page
+so that doesn&apos;t need to be included for this list item.
 
-Let\'s save the changes, so you can see how the breadcrumb has been
+Let&apos;s save the changes, so you can see how the breadcrumb has been
 introduced into this particular About Us page here.
 
-Let\'s go and take a look at the resulting webpage.
+Let&apos;s go and take a look at the resulting webpage.
 
 Going to my webpage, you can now see that the color of the navbar has
 now changed to the dark purple which are introduced through the CSS and
@@ -6288,10 +6288,10 @@ in terms of adding close to websites.
 
 As you know from history men are colorblind.
 
-We have very poor taste in colors. If you\'re married your wife will
+We have very poor taste in colors. If you&apos;re married your wife will
 definitely remind you about it.
 
-Let\'s go to the About Page and see what it looks like.
+Let&apos;s go to the About Page and see what it looks like.
 
 This is the About Page and in the About Page you can see the navbar with
 the correct color there and note the breadcrumb included in the About Us
@@ -6300,7 +6300,7 @@ down here.
 You can see the Home which leads you back to the index page and then
 About Us as you saw we applied active link, active class to this one.
 
-That\'s how the About Us is display and the Home Page.
+That&apos;s how the About Us is display and the Home Page.
 
 This is the default breadcrumb style used in bootstrap and if I click on
 the Home Page I will go back to my Home Page.
@@ -6355,11 +6355,13 @@ the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the <i><a class="navbar-brand"\></i> tag. In addition the inner <i>ul</i> is used to
-specify the items to be put in the navigation bar. This <i>ul</i> is styled
-with <i>navbar-nav</i> class to specify that the items should be displayed
-inline inside the navigation bar. We also use the container class inside
-the navigation bar.
+logo for the website. This is created by the <i><a class="navbar-brand"></i> 
+tag. 
+
+In addition the inner <i>ul</i> is used to specify the items to be put 
+in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to 
+specify that the items should be displayed inline inside the navigation bar. 
+We also use the container class inside the navigation bar.
 
 <h4>Creating a responsive navigation bar</h4>
 
@@ -6399,7 +6401,7 @@ button is visible. They can be displayed or hidden by clicking the
 toggle button.
 
 -   Copy and paste the entire navbar code also into <i>aboutus.html</i> to
-    add the navigation also to that page. Make sure to change the <li\>
+    add the navigation also to that page. Make sure to change the &lt;li&gt;
     corresponding to "About" to <i>active</i>, and remove the <i>active</i>
     class from the Home link. Also, update the home link to take you
     back to <i>index.html</i>. Update the navbar-brand tag also to take you
@@ -6424,7 +6426,7 @@ body{
 }
 ```
 
--   Remember to delete the <i>bg-primary</i> class from the <nav\> element
+-   Remember to delete the <i>bg-primary</i> class from the &lt;nav&gt; element
     in both <i>index.html</i> and <i>aboutus.html.</i>
 
 -   We are already beginning to see the page format close to the final
@@ -6498,7 +6500,7 @@ And they are very, very useful in designing your web pages.
 
 There are many icon font packs that are available in the market.
 
-One of the most popular ones is Font Awesome, which I\'m going to talk
+One of the most popular ones is Font Awesome, which I&apos;m going to talk
 about next.
 
 Font Awesome, as I say, is a very popular icon font.
@@ -6507,7 +6509,7 @@ It is available free for use in designing your page design.
 
 It has been extensively used by many different websites.
 
-We\'ll learn how to download Font Awesome and then use it in web page in
+We&apos;ll learn how to download Font Awesome and then use it in web page in
 the exercise that follows this lecture.
 
 Using Font Awesome in your webpage is as simple as using some classes
@@ -6534,7 +6536,7 @@ And then together with the Font Awesome icons, you can combine that with
 bootstrap social classes to include various social media buttons on your
 web pages.
 
-Without further ado, let\'s move to the next exercise where we\'re going
+Without further ado, let&apos;s move to the next exercise where we&apos;re going
 to use both Font Awesome and bootstrap-social, a modified version of
 bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
@@ -6542,7 +6544,7 @@ use of it in the exercise.
 
 <h4>Exercise (Video): Icon Fonts</h4>
 
-Let\'s now move on to our next exercise, where we will learn more about
+Let&apos;s now move on to our next exercise, where we will learn more about
 Icon fonts.
 
 We will download Font Awesome, and then include it in our website
@@ -6558,7 +6560,7 @@ At the prompt, type npm install font-awesome minus minus save.
 
 This will fetch Font Awesome into our nobody folder.
 
-And at the same time, it\'ll add Font Awesome to our package.json file
+And at the same time, it&apos;ll add Font Awesome to our package.json file
 as a dependency.
 
 Once Font Awesome is fetched, then we can go ahead to make use of it in
@@ -6572,14 +6574,14 @@ minus save.
 
 And this will fetch bootstrap social and install it into our project.
 
-Now, we need to use this font five, it\'s the Font Awesome, and the
+Now, we need to use this font five, it&apos;s the Font Awesome, and the
 bootstrap social in our website.
 
 Going to index.html right at the top, just before the style.css file,
-I\'m going to import both Font Awesome and bootstrap social.
+I&apos;m going to import both Font Awesome and bootstrap social.
 
-Right there, let\'s type in link rel stylesheet href
-node_modules/font-awesome/css/font-awesome.main.css let\'s import that
+Right there, let&apos;s type in link rel stylesheet href
+node_modules/font-awesome/css/font-awesome.main.css let&apos;s import that
 into our index.html file similarly, given import the bootstrap social.
 
 So node_modules/bootstrap-social/bootsrap-social.css.
@@ -6596,19 +6598,19 @@ Awesome icons, and also the bootstrap social icons in our index.html
 page.
 
 Going to that navigation bar in the index.html page, right in this link
-for their homepage, I\'m going to go in and add that Font Awesome code.
+for their homepage, I&apos;m going to go in and add that Font Awesome code.
 
 I'll say span class fa fa-home.
 
-The fa says that I\'m applying the Font Awesome class, fa home is the
+The fa says that I&apos;m applying the Font Awesome class, fa home is the
 specific icon for the home icon.
 
 Thus so that is what I wanted to use on my homepage.
 
 And then close the span tag- and then after the space, the home button.
 
-That will include the home icon in there. I\'m going to copy this and
-then for the about, I\'m going to use the same thing but instead of
+That will include the home icon in there. I&apos;m going to copy this and
+then for the about, I&apos;m going to use the same thing but instead of
 fa-home, so notice give a space between the closing span tag and about
 and instead of fa-home I would say fa-info.
 
@@ -6619,7 +6621,7 @@ You can check out the Font Awesome documentation to find out which
 particular icons and how you include them. For menu I will use a list
 icon there.
 
-I call that icon as fa-list. Now, also I\'m going to use larger sized
+I call that icon as fa-list. Now, also I&apos;m going to use larger sized
 icons.
 
 I will also include fa-lg into the icon classes fa-lg.
@@ -6628,7 +6630,7 @@ Now for contact I am going to use fa-home, and then if this is
 fa-address-card fa-lg and save the changes.
 
 You should repeat the same, addition of the same icons even in
-aboutus.html page, and then we\'ll take a look at our web page after we
+aboutus.html page, and then we&apos;ll take a look at our web page after we
 complete the changes.
 
 After modifying also aboutus.html and index.html including the icons, I
@@ -6645,21 +6647,21 @@ Now, this is wonderful. Now what I want to do is now work on updating
 the footage. Now, I want to replace the telephone fax and email with
 icons and also turn all these into social media buttons here.
 
-To do that, we\'re going to make use of Font Awesome for this, and then
-we\'re going to make use of bootstrap social for this.
+To do that, we&apos;re going to make use of Font Awesome for this, and then
+we&apos;re going to make use of bootstrap social for this.
 
-Going to the footer of the index.html page, I\'m going to replace the
+Going to the footer of the index.html page, I&apos;m going to replace the
 telephone with Font Awesome icon.
 
 I would say, "i" as I mentioned, you can either use span or I for
 specifying the Font Awesome icons.
 
-Font Awesome website uses I but I\'m showing you two possible ways of
+Font Awesome website uses I but I&apos;m showing you two possible ways of
 doing these things.
 
-I say fa fa-tel, I\'m sorry fa-phone and close the <i\> tag here.
+I say fa fa-tel, I&apos;m sorry fa-phone and close the <i\> tag here.
 
-And for fax, I\'m going to simply copy this, and then for fax if it is
+And for fax, I&apos;m going to simply copy this, and then for fax if it is
 fa-fax, and for email it is fa-envelope and save changes.
 
 Now apply the same to the aboutus.html page.
@@ -6670,44 +6672,44 @@ and email, are now replaced with the corresponding icons.
 Now the last step is to use bootstrap social to replace all these links
 with the social media buttons.
 
-To get that done, we\'ll go to the footer and then replace each of these
+To get that done, we&apos;ll go to the footer and then replace each of these
 with their corresponding icons there.
 
 I would say, i class Font Awesome fa-google-plus and close the <i\> tag
-there. And then I\'m simply going to copy this and then apply the same
+there. And then I&apos;m simply going to copy this and then apply the same
 to the remaining ones.
 
 I will say, Facebook, LinkedIn, Twitter, YouTube, and finally for mail
-I\'m going to use an envelope icon there.
+I&apos;m going to use an envelope icon there.
 
 In addition, to turn this into bootstrap social patents to the A tags,
 we should apply the classes as button button-social icon, and then
 button-google doing the same to the remaining ones.
 
 For the second one it would be Facebook, then LinkedIn, Twitter, Google
-and then for the last one, since we don\'t have a corresponding
-bootstrap social icon button for the mail, we won\'t have anything
+and then for the last one, since we don&apos;t have a corresponding
+bootstrap social icon button for the mail, we won&apos;t have anything
 except button social icons.
 
-Now with this, let\'s go and take a quick look at our footer.
+Now with this, let&apos;s go and take a quick look at our footer.
 
 Going to your footer, you can now see all the buttons have been turned
 into their corresponding social buttons there.
 
-Let\'s do the same change to the footer in aboutus.html.
+Let&apos;s do the same change to the footer in aboutus.html.
 
-I\'m just copying that code there and then going to aboutus.html, and
+I&apos;m just copying that code there and then going to aboutus.html, and
 then simply replacing that in the footer of aboutus.html.
 
-With that let\'s take one final look at our web page.
+With that let&apos;s take one final look at our web page.
 
 Going to our web page, you can see that now all the social media links
 there have been turned into social media buttons there.
 
-Going to the about page, you\'ll see the same thing in the about page
+Going to the about page, you&apos;ll see the same thing in the about page
 also.
 
-Now that you\'ve completed this exercise, this may be a good time to do
+Now that you&apos;ve completed this exercise, this may be a good time to do
 a good commit with the message, icon fonts.
 
 <h4>Exercise (Instructions): Icon Fonts</h4>
@@ -6764,7 +6766,7 @@ $ npm install bootstrap-social@5.1.1 --save
   <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
 ```
 
--   Similarly update the navbar\'s ul list items as follows in
+-   Similarly update the navbar&apos;s ul list items as follows in
     aboutus.html:
 
 ```
@@ -6788,7 +6790,7 @@ $ npm install bootstrap-social@5.1.1 --save
 
 -   Finally, let us use the bootstrap-social CSS classes to create the
     social buttons in the footer in both index.html and aboutus.html, by
-    replacing the social sites\' links with the following code:
+    replacing the social sites&apos; links with the following code:
 
 <details>
   <summary>Insert the following:</summary>
@@ -6928,7 +6930,7 @@ filling in forms and by typing something into search boxes, and so on.
 
 How do we support these kinds of interactions with the users?
 
-That is what we\'re going to deal with in this particular lecture and
+That is what we&apos;re going to deal with in this particular lecture and
 the exercise that follows.
 
 As an example, if you visit the Coursera website, you will see that you
@@ -6960,7 +6962,7 @@ into your website, you will see that you could use something like the a
 tags that are useful for providing hyperlinks, then you have the button
 tags that enable you to include buttons in your website.
 
-Now what we\'re going to look at is how do we format with a tags on the
+Now what we&apos;re going to look at is how do we format with a tags on the
 button tags using bootstrap classes so that you can style them to fake
 the general theme of bootstrap.
 
@@ -6990,7 +6992,7 @@ of a button.
 Here we will see how bootstrap provides classes that can be used to
 format the \<a> tag into a button to be presented on your website.
 
-We\'ll also look at various form elements, like the input elements,
+We&apos;ll also look at various form elements, like the input elements,
 select, the button and also the text AD elements, and how we make use of
 them within our forms to design and construct a form that can be
 included in our website.
@@ -7002,9 +7004,9 @@ Bootstrap forms.
 
 <h4>Exercise (Video): Buttons</h4>
 
-In this exercise, we\'re going to look at Bootstrap\'s support for
+In this exercise, we&apos;re going to look at Bootstrap&apos;s support for
 buttons and forms.
-We\'re going to include a few buttons and button group in our webpage.
+We&apos;re going to include a few buttons and button group in our webpage.
 And we also look at designing forms and styling the forms using
 Bootstrap classes.
 To get you started, go to the instructions page and download the
@@ -7014,7 +7016,7 @@ As, contactus.html.zip file.
 Once the zip file is downloaded, unzip the file to get contactus.html
 page.
 Then you can delete the zip file.
-Once you\'ve unzipped the file and get contactus.html page, you would
+Once you&apos;ve unzipped the file and get contactus.html page, you would
 notice that when you load this page in your browser using
 localhost:3000/contactus.html, then you would see that this page is
 already pre-formatted with some content.
@@ -7023,15 +7025,15 @@ We have the jumbotron already formatted for us. And you would notice
 that I have the breadcrumbs and the contact us heading here formatted.
 Then you will see some additional information, the address here.
 You will notice that the footer is already formatted.
-But you will notice two things here, you\'ll notice that there is a line
+But you will notice two things here, you&apos;ll notice that there is a line
 here that says button groups go here and then one more line here that
 says form goes here.
-We\'re going to replace these two with a button group and a form.
-And along the way, learn Bootstrap\'s support for buttons and forms.
+We&apos;re going to replace these two with a button group and a form.
+And along the way, learn Bootstrap&apos;s support for buttons and forms.
 Before we proceed forward, now that we have three pages in our website,
 it is a good idea for us to link them up together, both in the
 navigation bar and in the links in the footer.
-Let\'s modify those two so that we can navigate between these three
+Let&apos;s modify those two so that we can navigate between these three
 pages easily.
 Going to the contactus.html page, you will notice that in the navigation
 bar, I already have the links to index.html set up correctly.
@@ -7046,22 +7048,22 @@ Now similarly, go to the footer of this page.
 And you will notice that in the footer we have these three links here.
 And this may be a good point to replace the links with the links to the
 corresponding pages.
-I\'ll say, index.html, aboutus.html, and, contactus.html. And save the
+I&apos;ll say, index.html, aboutus.html, and, contactus.html. And save the
 changes.
 Similarly, go to index.html, and then in index.html also, the contact us
 link has not been set up.
 
-Let\'s update that to contactus.html.
+Let&apos;s update that to contactus.html.
 
 Then similarly, update the links in the footer.
 
 Also go to aboutus.html and then fix up the links even there.
 
-In the aboutus.html also, in the header I\'m going to fix up the link.
+In the aboutus.html also, in the header I&apos;m going to fix up the link.
 
 And also in the footer of aboutus.html.
 
-When you go to your website, you\'ll be able to navigate back to your
+When you go to your website, you&apos;ll be able to navigate back to your
 home page, to your 'about' page.
 
 And from the about page, you can even go back to the contacts page.
@@ -7071,22 +7073,22 @@ also the footers, here should be setup.
 
 If you click on any one of these will take you to the appropriate page.
 
-Now is the time to start working on the buttons that we\'re going to
+Now is the time to start working on the buttons that we&apos;re going to
 include in our contactus.html page.
 
 What I will do is I will replace this line with the code for the button
-and the button group and then after that, we\'ll come back to explain
+and the button group and then after that, we&apos;ll come back to explain
 how this whole thing works.
 
-Opening contactus.html in our editor, we\'ll locate the place where this
+Opening contactus.html in our editor, we&apos;ll locate the place where this
 statement, button group goes here, exists.
 
-And then I\'m going to replace that with the code corresponding to that
+And then I&apos;m going to replace that with the code corresponding to that
 button group first.
 
-And then I\'ll come back to explain how this code works.
+And then I&apos;ll come back to explain how this code works.
 
-Let\'s save the changes, and then take a look at what this button group
+Let&apos;s save the changes, and then take a look at what this button group
 looks like in our browser.
 
 Going to your browser, you can now see that in our webpage the button
@@ -7098,12 +7100,12 @@ buttons.
 Now, all these three are joined together into one single bar or button
 bar or what is in Bootstrap terms called a button group.
 
-Let\'s look at how we go about constructing something like this in
+Let&apos;s look at how we go about constructing something like this in
 Bootstrap code.
 
 Here I have both the browser window and my code open side by side.
 
-Let\'s have a look at how we create this button code.
+Let&apos;s have a look at how we create this button code.
 
 Taking a look at the code, you notice that the buttons are included
 inside a div here.
@@ -7117,9 +7119,9 @@ div with the button group class and the role as group here to that div.
 Now inside that, you will notice that I am using the ,a, tag to define
 the three buttons.
 
-Let\'s look at how we define the three button.
+Let&apos;s look at how we define the three button.
 
-Let\'s look at how we define the Call button.
+Let&apos;s look at how we define the Call button.
 
 This particular line defines the Call button.
 
@@ -7127,7 +7129,7 @@ I say ,a, role is equal to button.
 
 This ,a, tag here, I am using it as a button here.
 
-That\'s why I specify the role as a button.
+That&apos;s why I specify the role as a button.
 
 This is important.
 
@@ -7135,7 +7137,7 @@ And then look at the classes that I am applying to this.
 
 The first one is btn class.
 
-The btn class is the Bootstrap\'s button class.
+The btn class is the Bootstrap&apos;s button class.
 
 It will display that as a classic Bootstrap button.
 
@@ -7156,7 +7158,7 @@ The href attribute points to the telephone number.
 And then following that you notice that I am using a font icon here for
 the phone.
 
-That\'s why I have i class fa fa-phone and then after the word call.
+That&apos;s why I have i class fa fa-phone and then after the word call.
 
 This is what enables to construct this blue button, that is included in
 this button bar here.
@@ -7193,13 +7195,13 @@ Font as icon here and then the email there.
 This three e tags, which are currently acting as buttons, are enclosed
 in side those div, which acts as the btn-group.
 
-That\'s how we display a group of buttons in Bootstrap.
+That&apos;s how we display a group of buttons in Bootstrap.
 
 If you just want single button, all that you need to do is include only
 one of these lines there.
 
 You could also use the button tag. If you use the button tag, then you
-don\'t need to specify the role, instead you just say type button.
+don&apos;t need to specify the role, instead you just say type button.
 
 Because a button could also act as a submit button there.
 
@@ -7207,43 +7209,43 @@ Later on, in forms we will look at the use of the button tag, to create
 a button to be included in our form.
 
 Continuing with the exercise, our next step would be to start,
-developing the form that we\'re going to include in the contactus.html
+developing the form that we&apos;re going to include in the contactus.html
 page.
 
-We\'ll do it step by step, so that in each step we learn a little bit of
+We&apos;ll do it step by step, so that in each step we learn a little bit of
 how you include some elements into their form.
 
 As a beginning, when you go to the contactus.html page, right there,
-you\'ll see this statement called, form goes here.
+you&apos;ll see this statement called, form goes here.
 
-Now, what I\'m going to do is to change this from col-sm to col-md, so
+Now, what I&apos;m going to do is to change this from col-sm to col-md, so
 that for extra small to small screen sizes, my form will be laid out
 occupying the entire breadth of the screen, because it uses col-xs-12.
 
-But from medium size screen onwards, it\'ll occupy only 9 out the 12
+But from medium size screen onwards, it&apos;ll occupy only 9 out the 12
 columns.
 
-Let\'s start constructing the form.
+Let&apos;s start constructing the form.
 
-What I\'m going to do is, I\'m going to replace this, with my first
+What I&apos;m going to do is, I&apos;m going to replace this, with my first
 chunk of code.
 
-We\'re going to include two fields into our form, for the first name and
+We&apos;re going to include two fields into our form, for the first name and
 last name of the user.
 
-Let me add in the code, then we\'ll look at the result.
+Let me add in the code, then we&apos;ll look at the result.
 
-And then, we\'ll come back and examine the code.
+And then, we&apos;ll come back and examine the code.
 
 Adding in the code at that point, as always this code snippets is in the
 instructions.
 
 Let me save the changes.
 
-And then we\'ll go back and look at what this form looks like in the
+And then we&apos;ll go back and look at what this form looks like in the
 browser.
 
-Taking a look at the form, you\'ll see that they have now two themes in
+Taking a look at the form, you&apos;ll see that they have now two themes in
 the form here.
 
 The first one, has a label on the left side saying First Name and the
@@ -7255,31 +7257,31 @@ Now you notice also that this form is laid out, so that this part
 occupies the semi part of the screen, and the remaining part being
 occupied by the remaining part of the screen.
 
-You\'re beginning to wonder, how do we go about doing this?
+You&apos;re beginning to wonder, how do we go about doing this?
 
 Does Bootstrap grid help us to decide on these sizes.
 
 That would be a very good question for you to ask yourself.
 
-Let\'s see the code and understand how it looks like.
+Let&apos;s see the code and understand how it looks like.
 
-Before we do that, let\'s take a look at the same forms layout, in the
+Before we do that, let&apos;s take a look at the same forms layout, in the
 extra small screen size.
 
 Switching to the extra small screen size.
 
-We\'ll go to Galaxy S5.
+We&apos;ll go to Galaxy S5.
 
 You notice, how the form is laid out in the extra small screen size.
 
-You\'ll see that the label is on top, and then the box itself, input box
+You&apos;ll see that the label is on top, and then the box itself, input box
 itself is the bottom, similarly for the last name.
 
 You notice that Bootstrap. by the way, it provides those form classes.
 
 Automatically, makes your form responsive, so that when it is laid out
 on different screen sizes, the form will be appropriately laid out, so
-that it won\'t get all squashed up on small screen sizes.
+that it won&apos;t get all squashed up on small screen sizes.
 
 But for larger screen sizes, because you have larger real estate, you
 are able to stretch the form, to make use of the extra space that you
@@ -7292,7 +7294,7 @@ tag here.
 So, form and then the closing form, tag here. Inside there, you are
 describing the various parts of your form.
 
-Let\'s take a look at how the first name is constructed, the last name
+Let&apos;s take a look at how the first name is constructed, the last name
 obviously as it looks like should be using a similar approach.
 
 In default, what you notice is that, there is a div here. Div element
@@ -7309,7 +7311,7 @@ And then they will be laid out accordingly.
 
 And the second part, you see the use of row here.
 
-You\'d see that the Bootstrap group\'s row comes into play here.
+You&apos;d see that the Bootstrap group&apos;s row comes into play here.
 
 This particular form group, can be laid out using the row and the column
 classes that you have from the Bootstrap grid.
@@ -7320,7 +7322,7 @@ is going to occupy on the screen.
 
 That makes it clearer, so those form group encloses. This unit.
 
-We\'re going to see this repeat over and over again when we are
+We&apos;re going to see this repeat over and over again when we are
 designing the various elements of the form.
 
 Then, below that, you see this label tag here.
@@ -7334,7 +7336,7 @@ This label is for something with the id firstname.
 
 Which is the input box that follows right below that.
 
-We\'re going to look at that in a short while.
+We&apos;re going to look at that in a short while.
 
 And then look at the classes that are applied to the label class, col-md-2.
 
@@ -7347,14 +7349,14 @@ In this case, the input box.
 
 This also means that the label be lined up in the middle, horizontally with the input box.
 That is why we use the col-form-label class. 
-If you don\'t apply this, then your label will be aligned to the top of your input box.
+If you don&apos;t apply this, then your label will be aligned to the top of your input box.
 Which your form will not look that great on medium to extra-large screen sizes.
 
 Now, on the left side, of course, because this browser window is squashed, so it is showing the view in a small or extra small screen size here.
-That\'s why you see the label stacking up on top of the input box here.
+That&apos;s why you see the label stacking up on top of the input box here.
 This is the label that specify.
 
-If you have a label that you want to assign to an element, that is how you\'re going to assign the label.
+If you have a label that you want to assign to an element, that is how you&apos;re going to assign the label.
 Down below here, you see a div class col-md-10.
 This occupies the remaining 10 of the 12 columns. 
 Two columns that are occupied by the label. 
@@ -7372,46 +7374,46 @@ This is how you structure these two elements in your form.
 For small screen sizes and below, it stacks the two things. 
 But for medium to extra large, you saw that it is positioning them horizontally side by side. 
 The same thing applies to the lastname code also. 
-It\'ll be very similar to how the firstname is structured. 
+It&apos;ll be very similar to how the firstname is structured. 
 I would like you to spend a little bit of time taking a look at this code also. 
 So that you see, based upon your understanding of this, how this is also formatted. 
 
 The next kind of formal event that we will add in is an input group element. 
 Let me add in the code. 
-We\'ll look at what the form turns out to be.
+We&apos;ll look at what the form turns out to be.
 
-And then we\'ll go back and examine the code.
-Right here, after the second div, after the lastname field, I\'m going to include the code for
+And then we&apos;ll go back and examine the code.
+Right here, after the second div, after the lastname field, I&apos;m going to include the code for
 the next element here.
-Then let\'s save the changes.
+Then let&apos;s save the changes.
 Then, immediately, you would see a couple of more things added into your form.
 You see a telephone number field added here.
 This, from the look of it, you see that this is very similar to that.
-I\'m not going to explain the code for this. 
+I&apos;m not going to explain the code for this. 
 This should be very straightforward for you to understand. 
 And then this email field also should be very straightforward for you to understand. 
 Because this looks very similar to the lastname.
 Except that for this, the input field, the type will be set to email.
 That the built in form checking capabilities of your browser automatically kicks in. 
-So that when you type in something that doesn\'t look like an email, then it\'ll
+So that when you type in something that doesn&apos;t look like an email, then it&apos;ll
 complain appropriately. 
-Let\'s examine this particular part of the form here. 
+Let&apos;s examine this particular part of the form here. 
 Note that in this case, we are adding in left parenthesis and the right parenthesis to this particular input box.
 How do you add in things into your box like this?
 Taking a look at the code here in your editor, you see that you still have the form-group row which you already understand.
 And down below here, you have input type form element id telnum, and so on, which also should be very clear to you.
 
-I don\'t think I need to explain that part to you.
-Notice how I am using the Bootstrap\'s grid column classes to each of these.
+I don&apos;t think I need to explain that part to you.
+Notice how I am using the Bootstrap&apos;s grid column classes to each of these.
 The label is given col-md-2. 
 And then the telephone number one is given col-xs-7 col-sm-6 and col-md-7 here.
 That way, the telephone number, this element is properly positioned. 
-But, in particular, let\'s pay attention to this part.
+But, in particular, let&apos;s pay attention to this part.
 This one here is inside of this div. So inside this div, notice the class given to it. 
 The class says input-group. 
 Essentially meaning that whatever is inside this div will be treated as a group of elements here.
 
-That\'s why the class given is input-group. 
+That&apos;s why the class given is input-group. 
 Now, for adding in something like this, you will use a class called as input-group-addon. 
 And then notice that I am using a div to hold that item. 
 I can use anything here, but a div comes in handy here. 
@@ -7436,9 +7438,9 @@ And if you see how the area codes are written in the United States and
 Canada, you know that they are enclosed inside left and right
 parenthesis.
 
-That\'s what allows me to specify something like that in my form there.
+That&apos;s what allows me to specify something like that in my form there.
 
-My next set of elements that I\'m going to add to my form are a checkbox
+My next set of elements that I&apos;m going to add to my form are a checkbox
 and a select.
 
 How do we add that?
@@ -7451,7 +7453,7 @@ format these elements appropriately.
 
 Let me add in the quote.
 
-Let\'s save the changes.
+Let&apos;s save the changes.
 
 Take a look at what this results in the form here. And then have a look
 at the code.
@@ -7464,7 +7466,7 @@ choices here.
 Now the form as it exists here is what you will see in small and extra
 small screen sizes.
 
-Let\'s take a look at it on a larger screen size.
+Let&apos;s take a look at it on a larger screen size.
 
 The same form when laid out on medium to extra-large screen sizes will
 look like this.
@@ -7477,7 +7479,7 @@ boxes here.
 
 That is what the col form label class achieves first.
 
-Now, let\'s concentrate on this that we just added in.
+Now, let&apos;s concentrate on this that we just added in.
 
 Here, we see that we have a checkbox added in. And then, a text field
 here.
@@ -7499,7 +7501,7 @@ choices.
 
 Going back and looking at the code.
 
-Let\'s see how this are implemented.
+Let&apos;s see how this are implemented.
 
 Coming back to take a look at the code,
 
@@ -7514,21 +7516,21 @@ And then down below here I have a div class, Col-md-3 offset-md-1.
 
 Notice that here, this says form-check col-md-6 offset-md-2.
 
-The reason why I\'m doing an offset-md-2 is I don\'t have a label.
+The reason why I&apos;m doing an offset-md-2 is I don&apos;t have a label.
 
 I was typically using two columns for the labels.
 
 Since this checkbox should align itself to the right side in the form.
 
-That\'s why I used offset-md-2 here.
+That&apos;s why I used offset-md-2 here.
 
 And then inside here it says label class="form-check-label".
 
 And then it provides input tag here with type checkbox.
 
-That\'s how you create a checkbox.
+That&apos;s how you create a checkbox.
 
-And then the class, the Bootstrap class that you\'re going to apply to
+And then the class, the Bootstrap class that you&apos;re going to apply to
 your checkbox is form-check-input.
 
 And then the name and the initial value is empty.
@@ -7548,7 +7550,7 @@ and then label itself.
 
 Here you see strong, May we contact you?
 
-That\'s why it is displayed in bold letters right next to the checkbox
+That&apos;s why it is displayed in bold letters right next to the checkbox
 here.
 
 Now below in the code, you have a div class col-md-3 offset-md-1.
@@ -7579,7 +7581,7 @@ here.
 
 This is the use of select and checkboxes in your form.
 
-Similarly, if you check Bootstrap\'s documentation you will see the use
+Similarly, if you check Bootstrap&apos;s documentation you will see the use
 of radio buttons and other form elements.
 
 Taking a look at our form, we now see that we have many of the things
@@ -7602,9 +7604,9 @@ at the form.
 Before we add a submit button, maybe we want to provide a box for the
 users to type in their feedback.
 
-In this case, I\'m going to make use of a text area for providing that.
+In this case, I&apos;m going to make use of a text area for providing that.
 
-Let me paste in the code. And then we\'ll review the code here.
+Let me paste in the code. And then we&apos;ll review the code here.
 
 This code, as you see says, div class="form-group row" which you
 already know what it means.
@@ -7616,7 +7618,7 @@ It says, textarea class, with class="form-control", which you have
 already seen before. And then id, name and then the number of rows for
 the text area being specified here.
 
-Let\'s save the changes and take a look at the form.
+Let&apos;s save the changes and take a look at the form.
 
 Taking a look at the form, you see that along with this, right below
 here, you have a big text box into which feedback comments can be typed
@@ -7627,9 +7629,9 @@ approval for contacting the user, then a feedback box.
 
 The last thing would be the Submit button.
 
-Finally, let\'s add in a Submit button to the form.
+Finally, let&apos;s add in a Submit button to the form.
 
-After a div, on the text area, I\'m going to paste in the code for the
+After a div, on the text area, I&apos;m going to paste in the code for the
 Submit button here.
 
 Pasting in the code for the Submit button again, looking at the code,
@@ -7640,13 +7642,13 @@ And then this says, div class="offset-md-2 col-md-10"\>.
 
 You understand what that is and then, inside this div, you see a button
 being enclosed here. Now since we have seen the construction of a button
-using the a tag, let\'s pay attention to how you construct a button
+using the a tag, let&apos;s pay attention to how you construct a button
 using the button HTML tag.
 
 If you are using the button HTML tag, then you say button and then the
 type is submit.
 
-This is going to act as a Submit button for my form, so that\'s why I
+This is going to act as a Submit button for my form, so that&apos;s why I
 said the type is submit.
 
 You set the type to button, it will act as a normal button here.
@@ -7656,16 +7658,16 @@ And then to this I say, class button, button primary.
 This is a blue colored button and then the button contains this text
 inside the button to send the feedback text inside the button.
 
-Let\'s save the changes.
+Let&apos;s save the changes.
 
 This is would be the last modification to my form here.
 
-Let\'s save the changes and then go and have a look at the button.
+Let&apos;s save the changes and then go and have a look at the button.
 
 Returning to the browser, you now see that in your form right below, you
 have the Send Feedback button.
 
-When the user fills in the form, they\'ll click on the Send Feedback
+When the user fills in the form, they&apos;ll click on the Send Feedback
 button to submit the feedback to the company.
 
 This completes the design of a form.
@@ -7682,7 +7684,7 @@ If you have conceptually in your mind a form that you want to construct,
 then you just look up all the different possible elements that you want
 to include in the form, and then design the form accordingly.
 
-More important thing that you\'ve noticed /in constructing the form
+More important thing that you&apos;ve noticed /in constructing the form
 using Bootstrap, is all the Bootstrap classes that are available.
 
 The form control, the form group, how you use the row and column
@@ -7693,7 +7695,7 @@ design forms, the Bootstrap movie.
 
 Last set, do the git commit, so, we will bring up the git page.
 
-I\'m going to comment the changes that I have done to the about,
+I&apos;m going to comment the changes that I have done to the about,
 contactus and index.
 
 And then say Bootstrap buttons and forms, and then that would have
@@ -7768,24 +7770,24 @@ the <i>btn</i> class.
 
 Now that we have seen how to add buttons to our web page.
 
-In this exercise, we\'re going to look at forms and how we can add forms
+In this exercise, we&apos;re going to look at forms and how we can add forms
 to our web page and also style these form elements using the Bootstrap
 classes.
 
 Going back to contactus.html page, scroll down until you see this
 comment there called "Form goes here".
 
-We\'re going to replace this with the form in this web page.
+We&apos;re going to replace this with the form in this web page.
 
-Let\'s delete that and then construct the form in that particular
+Let&apos;s delete that and then construct the form in that particular
 location inside the div there.
 
-To get started with the form, I\'m going to use the form HTML tag and
+To get started with the form, I&apos;m going to use the form HTML tag and
 construct the form within this HTML tag.
 
-Within this form tag, let\'s add in the radius elements of our form.
+Within this form tag, let&apos;s add in the radius elements of our form.
 
-Inside this form, I\'m going to divide this form into several rows
+Inside this form, I&apos;m going to divide this form into several rows
 there.
 
 To divide your form into rows, you can simply use a div with the
@@ -7793,11 +7795,11 @@ class="form-group" and then apply the row class to it.
 
 With this, we are going to add in two form groups here.
 
-I\'m going to copy this and then paste it down below here.
+I&apos;m going to copy this and then paste it down below here.
 
-You can see that I\'m going to add two rows to this form here.
+You can see that I&apos;m going to add two rows to this form here.
 
-To add an item into this form, we\'re going to this div and then I will
+To add an item into this form, we&apos;re going to this div and then I will
 start out by using a label tag here.
 
 And for the label tags, so I will have two rows; one allowing the user
@@ -7816,7 +7818,7 @@ This item in the form will occupy two columns.
 
 Inside this form element, we have divided each row into 12 columns.
 
-Because we have already used the row for the div, so that\'ll provide us
+Because we have already used the row for the div, so that&apos;ll provide us
 with 12 columns inside the div there. In addition,
 
 I have to apply the class col form label to this.
@@ -7829,15 +7831,15 @@ the label tag.
 This label tag allows me to give a label, which will occupy two left
 columns in this particular row.
 
-On the right side, I\'m going to use another div that the class applied
+On the right side, I&apos;m going to use another div that the class applied
 as col-md-10. Notice that the earlier label used the col-md-2 there.
 
-For this div, I\'m going to apply the col-md-10 there.
+For this div, I&apos;m going to apply the col-md-10 there.
 
-And then inside this div, I\'m going to apply an input element, which is
+And then inside this div, I&apos;m going to apply an input element, which is
 of the type text.
 
-If you are familiar with the forms from HTML, you\'ll see that we are
+If you are familiar with the forms from HTML, you&apos;ll see that we are
 using the form elements from HTML to create that form here so the input
 box here is of the type text.
 
@@ -7849,16 +7851,16 @@ Notice that this ID matches this label for div.
 
 First name, and then name as first name and also I will specify a
 placeholder for this so let me use the next line here, placeholder as,
-I\'m sure from your knowledge of HTML, you understand how this
+I&apos;m sure from your knowledge of HTML, you understand how this
 specification is done here.
 
 With this, we have now created our first form element in our form.
 
-Let\'s take a quick look at the web page. Going to our web page, you can
+Let&apos;s take a quick look at the web page. Going to our web page, you can
 now see how adding in the form elements has created this input textbox
 and the label on the left side.
 
-Now, I\'m going to add in another row with the last name.
+Now, I&apos;m going to add in another row with the last name.
 
 Going back to my contactus.html, let me simply copy this part and then
 paste it into the second div here, and then go in and edit that.
@@ -7881,33 +7883,33 @@ shape so you have the first name and last name.
 
 Now, let's next add in an input elements.
 
-We\'ll see how this works as we add in the code.
+We&apos;ll see how this works as we add in the code.
 
 Moving now to the next part of the exercise, here we will add two more
 fields into our form here for entering the telephone number and the
 email ID.
 
 Since the basic structure of the code is similar to the first name and
-the last name that you have already added to the form, so I\'m just
+the last name that you have already added to the form, so I&apos;m just
 going to copy the code from the first name and the last name and then
 paste it in here and then modify the code accordingly.
 
 I have pasted the code from the first name and the last name here.
 
-Let\'s go ahead and now modify this to turn it into fields that enable
+Let&apos;s go ahead and now modify this to turn it into fields that enable
 the user to enter the telephone number and the email ID.
 
 For the telephone number, so here we already have the first name and the
 last name above.
 
-The third one, I\'m going to change this to label for "telnum".
+The third one, I&apos;m going to change this to label for "telnum".
 
-This is from the telephone number and then the classes, I\'m going to
+This is from the telephone number and then the classes, I&apos;m going to
 apply a col-12 class to this saying that this label will be in its own
 draw when the form is shown on extra small to small screen sizes.
 
 And then, for medium to higher screen size, this would be displayed in
-two columns of that particular row here so that\'s the change that we
+two columns of that particular row here so that&apos;s the change that we
 will make there.
 
 And then also, the label itself, let me change that to contact telephone
@@ -7917,17 +7919,17 @@ Now, the telephone number itself, we will let the user enter it as two
 parts; one, which is the area code and the second one, which would be
 the actual telephone number.
 
-I\'m going to take this part of the code, which was the input field that
+I&apos;m going to take this part of the code, which was the input field that
 we had for the first name and then create another one down below here,
-which I\'m going to use for the telephone number itself.
+which I&apos;m going to use for the telephone number itself.
 
 And now we will turn this first one into the field for entering the area
 code.
 
-You could also use it for example, for country code if that\'s what you
+You could also use it for example, for country code if that&apos;s what you
 wish to put in the form.
 
-For the area code itself, I\'m going to apply for the div, the
+For the area code itself, I&apos;m going to apply for the div, the
 classes="col-5 col-md-3 here".
 
 Notice that for the medium screen, we have two columns occupied by the
@@ -7937,7 +7939,7 @@ seven columns I will give it to the text field here.
 Similarly, for the area code I say col five.
 
 For extra small to small screens this will occupy five columns and then
-for the remaining seven columns, we\'ll let the telephone number feed
+for the remaining seven columns, we&apos;ll let the telephone number feed
 itself occupied at.
 
 Let me change the next one to col-7 and col-md-7 here.
@@ -7964,7 +7966,7 @@ on if we need to do form validation, then we know that this field should
 contain only an email type of entry there, and the ID, itself, email ID
 and the name email ID and the placeholder. Email.
 
-That\'s it. Let\'s save the changes and go and take a look at the
+That&apos;s it. Let&apos;s save the changes and go and take a look at the
 updated form.
 
 Going to the form in the browser, you now see two additional rows added
@@ -7979,12 +7981,12 @@ area code and telephone number.
 Note how we have used the column classes to position these two in the
 form itself and then the email field here.
 
-Let\'s take a look at the same thing on an extra small screen size.
+Let&apos;s take a look at the same thing on an extra small screen size.
 
-When you go to an extra small screen size, you\'ll notice how the form
+When you go to an extra small screen size, you&apos;ll notice how the form
 itself is laid out.
 
-You\'ll see that the label is on the top and then the field itself at
+You&apos;ll see that the label is on the top and then the field itself at
 the bottom.
 
 So first name, last name.
@@ -7993,12 +7995,12 @@ Note how the contact telephone number entry fields are positioned using
 the column classes, so the area code here, and the telephone number, and
 then the email ID here.
 
-Now, we\'ll continue with the exercise.
+Now, we&apos;ll continue with the exercise.
 
 Continuing in the next step, we will add in a checkbox and then
 thereafter we will add in a select two or four.
 
-To add a checkbox, let\'s just copy this form group here so that we will
+To add a checkbox, let&apos;s just copy this form group here so that we will
 add it as another row here, and then add in the form group div here, and
 then close off the div here.
 
@@ -8007,82 +8009,82 @@ the form.
 
 Inside this form group row, let me add in first the checkbox.
 
-To do that, we\'ll add in a div with the class="col-md-6" so you\'ll
+To do that, we&apos;ll add in a div with the class="col-md-6" so you&apos;ll
 see that this is going to occupy six columns in the medium to
 extra-large screen size, and then offset-md-2, so this will offset it to
 the right by two columns and then display the checkbox in there.
 
-Now, inside here, to add a checkbox, we\'ll say div with the
-class="form-check" and inside this form-check class we\'ll add in an
+Now, inside here, to add a checkbox, we&apos;ll say div with the
+class="form-check" and inside this form-check class we&apos;ll add in an
 input type="checkbox" and the class="form-check-input" and then let
 me go to the next line and then say name="approve" and the
 id="approve" and the value is an empty string there.
 
-And to this checkbox, let\'s add a label.
+And to this checkbox, let&apos;s add a label.
 
-To add a label, we\'ll go and add in label class="form-check-label"
+To add a label, we&apos;ll go and add in label class="form-check-label"
 and then this label is for this checkbox that we just added.
 
-That\'s why we\'ll say for="approve" so notice that for the checkbox,
-we had given the name and the ID as approve so that\'s why here, we\'ll
+That&apos;s why we&apos;ll say for="approve" so notice that for the checkbox,
+we had given the name and the ID as approve so that&apos;s why here, we&apos;ll
 be save for the label for approve.
 
-And then inside this label, we\'ll specify the content as \'May we
-contact you?\'
+And then inside this label, we&apos;ll specify the content as &apos;May we
+contact you?&apos;
 
-And then save the changes and let\'s go and take a look at our form.
+And then save the changes and let&apos;s go and take a look at our form.
 
 Going to the web page, you can now see that we have added in a checkbox
 along with a label here and notice that this label is in bold because of
-the use of the "strong" tag there, and we did offset-md-2. So that\'s
+the use of the "strong" tag there, and we did offset-md-2. So that&apos;s
 why we push this checkbox all the way here.
 
-This doesn\'t have a label here but instead this is pushed right here,
-so that\'s the reason for using offset-md-2 here, and this one occupies
+This doesn&apos;t have a label here but instead this is pushed right here,
+so that&apos;s the reason for using offset-md-2 here, and this one occupies
 md-6 so six columns here. We are not done with that yet.
 
-I\'m going to add in the next part here, which is a select box there.
+I&apos;m going to add in the next part here, which is a select box there.
 
 I will apply one more div here with the class="col-md-3 offset-md-1"
 here.
 
-And inside this div, I\'m going to define a select.
+And inside this div, I&apos;m going to define a select.
 
 From your knowledge of HTML, you know what a select does for you.
 
 Now, the select will apply the classes form control so this is Bootstrap
-class that I\'m applying to the select here, and close off the select.
+class that I&apos;m applying to the select here, and close off the select.
 
 And inside here, I need to give the options for the select.
 
-I\'m using a simple select here, and so the first one is an option for
+I&apos;m using a simple select here, and so the first one is an option for
 telephone or email and close off the option.
 
 This creates a select element in my form, which has two options;
-telephone and email, so, let\'s save the changes.
+telephone and email, so, let&apos;s save the changes.
 
 Taking a look at our web page, you can now see how the telephone and
 email select box is now created here so this allows me to select which
 one to do and then you can also check the checkbox like this.
 
-This finishes the next row. Let\'s add in one more row, which will allow
+This finishes the next row. Let&apos;s add in one more row, which will allow
 the user to actually type in their feedback.
 
-I will use a text area for formatting that. For the next one, I\'m going
+I will use a text area for formatting that. For the next one, I&apos;m going
 to use a text area.
 
-What I\'m going to do is I\'m just going to go up and copy this email
+What I&apos;m going to do is I&apos;m just going to go up and copy this email
 part of it.
 
-I\'m too lazy to keep typing in everything all the time.
+I&apos;m too lazy to keep typing in everything all the time.
 
 I tend to do cut and paste wherever feasible, but for this one, the
 label should be feedback and the column form label, and then the actual
 text is, "Your feedback here." So that is the label.
 
-And then, in here, the second one, I\'m going to format this one.
-Instead of input type, I\'m going to change that to a text area, and
-then I don\'t need the type there.
+And then, in here, the second one, I&apos;m going to format this one.
+Instead of input type, I&apos;m going to change that to a text area, and
+then I don&apos;t need the type there.
 
 Text area, the class is still form control and the ID is feedback.
 
@@ -8090,7 +8092,7 @@ Name is feedback and the placeholder is not needed here and instead
 change it to how many of rows I want to give from the feedback for the
 text area?
 
-I\'ll say 12 rows and then close off text.
+I&apos;ll say 12 rows and then close off text.
 
 Notice how I have included the textarea in my form.
 
@@ -8110,18 +8112,18 @@ feedback.
 Let's add in a submit button to this form.
 
 Going back to the form again, create one more row here by using the div
-here with the form group row here, and inside here I\'m going to add in
+here with the form group row here, and inside here I&apos;m going to add in
 a button here.
 
 I would say, div class="offset-md-2" because I want my button to be
 positioned right below all those fields that I have here so the left two
 columns are being used for the label.
 
-The submit button doesn\'t need a label so I\'m just going to push it to
+The submit button doesn&apos;t need a label so I&apos;m just going to push it to
 the right here and then I would say "col-md-10" so this would occupy
 the remaining 10 columns there.
 
-And then inside those div, I\'m going to add in a button there.
+And then inside those div, I&apos;m going to add in a button there.
 
 When you add in a button to your form, use the button tag here with a
 type submit.
@@ -8130,12 +8132,12 @@ This is the submit button for your form there and class.
 
 Remember button classes, button primary, so this would create a dark
 blue button in your form and then close off the button there, and then
-I\'m going to simply go in and inside the button, I\'ll give the name as
+I&apos;m going to simply go in and inside the button, I&apos;ll give the name as
 "Send Feedback" and then save the changes.
 
 Now, our form is complete.
 
-Let\'s take a look at the final version of our form.
+Let&apos;s take a look at the final version of our form.
 
 Going to our web page, you can now see the form completed.
 
@@ -8148,7 +8150,7 @@ This completes the form that we wanted to create in our web page.
 With this, we complete this exercise, where we have seen how we can
 construct a form and include it into our web page.
 
-You\'ll be working with forms in some of the later exercises including
+You&apos;ll be working with forms in some of the later exercises including
 your second assignment.
 
 This is a good time for you to do a good comment with the message forms.
@@ -8198,7 +8200,7 @@ This creates a form with two elements in the form. Note that the class
 <i>row</i> in the form enables us to use the Bootstrap grid system. Hence we
 can style the contents using the column classes as appropriate.
 
--   Let us add fields to seek user\'s telephone number and email:
+-   Let us add fields to seek user&apos;s telephone number and email:
 
 <details>
   <summary>Add the following:</summary>
@@ -8334,12 +8336,12 @@ you will be able to:
 
 <h4>Bootstrap Tables and Cards</h4>
 
-Let\'s briefly discuss about bootstrap tables.
+Let&apos;s briefly discuss about bootstrap tables.
 
 What does bootstrap bring to styling tables that we include in our web
 pages?
 
-We\'ll also look at another bootstrap component called as bootstrap
+We&apos;ll also look at another bootstrap component called as bootstrap
 card, which is a very versatile component for displaying content.
 
 There may be many occasions where you want to present tabular content on
@@ -8410,7 +8412,7 @@ We will also see more versatile us of cards in later exercises and other
 courses in this specialization.
 
 Card is a very important company that can be effectively used for
-displaying content. It\'s time to move on to the next exercise where we
+displaying content. It&apos;s time to move on to the next exercise where we
 will use tables and cards to display some content in our web page.
 
 <h4>Exercise (Video): Displaying Content: Tables and Cards</h4>
@@ -8418,13 +8420,13 @@ will use tables and cards to display some content in our web page.
 Our next exercise looks at ways of displaying content on our web page.
 
 They look at how we can include tables into our web page and how we can
-style those tables using Bootstrap\'s classes for styling tables,
-including responsive design of tables. We\'ll also look at another
+style those tables using Bootstrap&apos;s classes for styling tables,
+including responsive design of tables. We&apos;ll also look at another
 versatile component that is available in Bootstrap called as a card.
 
 A card allows you to display content in millions of ways.
 
-We\'ll look at two different ways of using a card to display content.
+We&apos;ll look at two different ways of using a card to display content.
 
 Later on, we will see the use of cards again and again for future
 designs of certain parts of our website.
@@ -8434,9 +8436,9 @@ To get started, open the aboutus.html page.
 We are going to insert a table and two cards into the aboutus.html page
 to display some card.
 
-First, let\'s slowly scroll down until after that card for leadership
-information, and right there I\'m going to introduce another div within
-which I\'m going to enclose the table here.
+First, let&apos;s slowly scroll down until after that card for leadership
+information, and right there I&apos;m going to introduce another div within
+which I&apos;m going to enclose the table here.
 
 I will introduce a new row here, with the class as row row-content.
 
@@ -8450,14 +8452,14 @@ h2.
 Right after that, let me introduce another div, that the classes column
 sm and column sm-3 and close off that div there.
 
-Right now we\'re going to leave the second div empty.
+Right now we&apos;re going to leave the second div empty.
 
-I\'m going to fill in the table into the first div here and then we\'ll
+I&apos;m going to fill in the table into the first div here and then we&apos;ll
 take a quick look at the table after I add in the code for the table.
 
 Here I have listed in the code for the table.
 
-Let\'s take a quick look at the table and then we\'ll come back to
+Let&apos;s take a quick look at the table and then we&apos;ll come back to
 discuss this code here.
 
 Going to our About page that we already have been working on from
@@ -8465,7 +8467,7 @@ earlier, after the Corporate Leadership section, you see a new row here
 introducing the table.
 
 Note how the table is styled, so we have the header with an h2 included
-there, but let\'s concentrate specifically on this table.
+there, but let&apos;s concentrate specifically on this table.
 
 You see that this table has been styled using some Bootstrap classes
 that are used to enhance the table.
@@ -8483,17 +8485,17 @@ table is still visible except that this table now becomes scrollable.
 Whatever can be displayed within the content will be shown and the rest
 of the table can be scrolled horizontally in place.
 
-This is the responsive component of Bootstrap\'s support for tables in
+This is the responsive component of Bootstrap&apos;s support for tables in
 action.
 
-Now let\'s go and take a look at the code itself.
+Now let&apos;s go and take a look at the code itself.
 
 Now obviously this table is fairly straightforward, it has a bunch of
 rows and some columns.
 
-You\'ll be expecting me to use the typical th, td and tr tags there.
+You&apos;ll be expecting me to use the typical th, td and tr tags there.
 
-Switching back to the code, you\'ll notice that I am enclosing this
+Switching back to the code, you&apos;ll notice that I am enclosing this
 table inside of div to which I have applied the class table responsive.
 
 This is what makes this table responsive so that on smaller screens you
@@ -8502,7 +8504,7 @@ can horizontally scroll the table.
 Now for the table itself, notice how I have applied two classes.
 
 One is the table class, so this is overriding the default table
-rendering on browsers by providing Bootstrap\'s own classes.
+rendering on browsers by providing Bootstrap&apos;s own classes.
 
 And the second one says table-striped.
 
@@ -8512,7 +8514,7 @@ here.
 Then the head itself, so you can see that the headers described here
 with the class thead-dark, so this renders the head dark.
 
-And then you\'ll see the table draw itself described here with the th
+And then you&apos;ll see the table draw itself described here with the th
 tags here.
 
 This is standard table definition.
@@ -8527,7 +8529,7 @@ We all that is unique about Bootstrap itself is the application of this
 specific Bootstrap classes to the table element itself to style it
 further, to fit into a Bootstrap design web page.
 
-The next component that I\'m going to add into the aboutus.html page is
+The next component that I&apos;m going to add into the aboutus.html page is
 a card component in Bootstrap.
 
 The card component allows us to display content by setting it apart from
@@ -8542,39 +8544,39 @@ To this div, I will add in the class as col-sm.
 Thereafter, going into this div I will introduce another div to the
 class card here.
 
-Inside those div, I\'m going to build up my card to display some content
+Inside those div, I&apos;m going to build up my card to display some content
 here.
 
 In this div, we will introduce a h3 that the class as card-header
 bg-primary.
 
-You\'ll see that this h3 will be displayed as a card header with that
+You&apos;ll see that this h3 will be displayed as a card header with that
 background as primary and then text white which Bootstrap class will
 define the text to be white in color.
 
-And then inside this h3, I\'m going to introduce the title for this card
-here which is \'Facts At a Glance.\'
+And then inside this h3, I&apos;m going to introduce the title for this card
+here which is &apos;Facts At a Glance.&apos;
 
 That I can show some content inside this div here.
 
-Now, to this card, next I\'m going to add in another inner div here with
+Now, to this card, next I&apos;m going to add in another inner div here with
 the class as card-body, and inside this card-body will be the actual
 content that have been displayed in this card.
 
-Let\'s save the changes and then go and have a look quickly at our web
+Let&apos;s save the changes and then go and have a look quickly at our web
 page.
 
 Going to our web page, we can already see the card taking shape in our
 web page, so you can see that the left half is occupied by the History
-and the right half you\'ll see the card put into place.
+and the right half you&apos;ll see the card put into place.
 
-Let\'s add some content into this card.
+Let&apos;s add some content into this card.
 
-Going into this card block, now I\'m going to use a description list and
+Going into this card block, now I&apos;m going to use a description list and
 this description list in Bootstrap allows me to apply the row and column
 classes to it and thereby format the content inside.
 
-Inside this description list, I\'m going to add in the dt that the class
+Inside this description list, I&apos;m going to add in the dt that the class
 and col-6 here, so meaning that this is going to occupy six columns
 inside this description list which itself is a row here.
 
@@ -8586,7 +8588,7 @@ I can add in some context here.
 
 And dd here.
 
-Let\'s save the changes and take a quick look at our card.
+Let&apos;s save the changes and take a quick look at our card.
 
 Going to our card, you can now see how the description list allows me to
 display information. Inside my card, you can see the left side and the
@@ -8601,7 +8603,7 @@ then come back and take a look at the final version of this card.
 Here, you can see that I have completed adding in the remaining parts of
 my description list.
 
-Let\'s go and take a quick look at our final version of that card.
+Let&apos;s go and take a quick look at our final version of that card.
 
 Taking a look at the card, and how it is taking shape.
 
@@ -8612,21 +8614,21 @@ the Web page.
 A card is a very versatile component that allows us to display content
 like this.
 
-Let\'s continue with this exercise, adding in another card to this web
+Let&apos;s continue with this exercise, adding in another card to this web
 page.
 
-Let\'s now again go back to our aboutus.html page.
+Let&apos;s now again go back to our aboutus.html page.
 
-And right below the card that we have already added previously, I\'m
+And right below the card that we have already added previously, I&apos;m
 going to add in another div with the class "col-12" here.
 
-And then, inside this div, I\'m going to construct another card here to
+And then, inside this div, I&apos;m going to construct another card here to
 display some additional information.
 
 Inside this div, I will construct a card with the class "card card-body
 bg-light."
 
-You\'ll see that I am applying both the card and the card-body to the
+You&apos;ll see that I am applying both the card and the card-body to the
 same div here.
 
 Which means that this particular card is not going to have any card
@@ -8639,7 +8641,7 @@ Somewhat of a grayish color added to the background.
 
 This also seeks this card apart from the rest of the content here.
 
-Now, inside this card, I\'m going to make use of a block code to display
+Now, inside this card, I&apos;m going to make use of a block code to display
 some interesting little funny piece of information there.
 
 I will use a blockquote.
@@ -8650,22 +8652,22 @@ And then to this, I will apply the blockquote class of Bootstrap.
 
 Bootstrap styles this blockquote in its own way.
 
-Let\'s close up that blockquote.
+Let&apos;s close up that blockquote.
 
-And inside this blockquote, I\'m going to include a quotation here.
+And inside this blockquote, I&apos;m going to include a quotation here.
 
-I\'ll start with a p, and apply a class called mb-0.
+I&apos;ll start with a p, and apply a class called mb-0.
 
 The mb-0 is a utility class that Bootstrap provides.
 
 What this means is margin-bottom zero.
 
-For this particular, whatever it is included in this p tag, we\'ll have
+For this particular, whatever it is included in this p tag, we&apos;ll have
 a bottom margin of zero.
 
 And this helps me to display the content correctly here.
 
-Here I\'m going to add in the actual content there, and then close this
+Here I&apos;m going to add in the actual content there, and then close this
 p.
 
 This p contains the actual quotation.
@@ -8688,13 +8690,13 @@ Using the cite, I can even cite the source of this quotation.
 
 You can see that.
 
-Again, this is just some quotation that I\'m using just for fun to show
+Again, this is just some quotation that I&apos;m using just for fun to show
 you, also at the same time illustrating, how the blockquote works, and
 also how we can create another kind of card in Bootstrap.
 
 With this, we have added in the code for displaying the blockquote here.
 
-Let me see if that changes, and then we\'ll go and take a look at how
+Let me see if that changes, and then we&apos;ll go and take a look at how
 this quotation is displayed in our web page.
 
 Going to the browser, in our page, you can see that our history and the
@@ -8702,7 +8704,7 @@ facts at a glance are displayed side by side.
 
 Down below that, I have this long piece of content here.
 
-Let\'s have a look at the same page in an extra small screen.
+Let&apos;s have a look at the same page in an extra small screen.
 
 In an extra small screen, you can see that the history and the facts are
 stacked on top, and the quotation is right down below here in its own
@@ -8718,7 +8720,7 @@ With this, we complete this exercise.
 In this exercise, we learned about how we can use tables and cards for
 displaying content in our web page.
 
-Now that we have completed this exercise, it\'s a good time to do a git
+Now that we have completed this exercise, it&apos;s a good time to do a git
 commit.
 
 <h4>Exercise (Instructions): Displaying Content: Tables and Cards</h4>
@@ -8922,10 +8924,10 @@ including some form of images or media on their websites.
 
 Computer science professors are an exception.
 
-At this stage, you are probably expecting me to say this, but that\'s
-not what I\'m going to say.
+At this stage, you are probably expecting me to say this, but that&apos;s
+not what I&apos;m going to say.
 
-I\'m going to say that, "A picture is worth \$12 on iStockPhoto.com.
+I&apos;m going to say that, "A picture is worth \$12 on iStockPhoto.com.
 
 Bootstrap provides extensive support for including images and various
 kinds of media in your websites and your web pages.
@@ -8957,7 +8959,7 @@ You can also apply rounded circle to create circular images.
 When you visit websites, you would see images being used in many of
 these ways already.
 
-You\'ll remember we saw the Card class in the previous lesson and the
+You&apos;ll remember we saw the Card class in the previous lesson and the
 exercise. Here, I illustrate the use of the Card class with an image
 included.
 
@@ -8970,7 +8972,7 @@ your card.
 
 Use a large enough image to be able to define a clean card like this.
 
-Here you\'ll see the image being described with, the classes applied to
+Here you&apos;ll see the image being described with, the classes applied to
 that including card image top and img-fluid to make the image responsive
 automatically.
 
@@ -9014,14 +9016,14 @@ Now, that we have seen the support for images and media, it is time to
 go onto an exercise where we will look at how we can include images in
 the webpage or the website that we have been working on.
 
-We\'ll make some changes to the index.html page by including some images
+We&apos;ll make some changes to the index.html page by including some images
 and content using the media object.
 
 <h4>Exercise (Video): Images and Media</h4>
 
 Time to move onto the next exercise.
 
-In this exercise, we\'re going to deal with images, how do we include
+In this exercise, we&apos;re going to deal with images, how do we include
 images in our web pages, and how we can make use of the media object in
 our web page.
 
@@ -9036,15 +9038,15 @@ All the images are in png format in that folder.
 
 We are now going to work to add some images to the page.
 
-First, let\'s add in the logo for our restaurant.
+First, let&apos;s add in the logo for our restaurant.
 
-Going to the index.html page, in the Jumbotron, you\'ll see the second
+Going to the index.html page, in the Jumbotron, you&apos;ll see the second
 div here got the col-sm.
 
-We you\'re going to fix that up by adding to this div, and align
+We you&apos;re going to fix that up by adding to this div, and align
 self-center to this div.
 
-Now, to this div, we\'re going to add in an image.
+Now, to this div, we&apos;re going to add in an image.
 
 Let me use the image with the source, img.
 
@@ -9053,54 +9055,54 @@ project.
 
 From there, I will add the logo.png file as the image here.
 
-In addition, I\'m going to add the class as image fluid, so that this
+In addition, I&apos;m going to add the class as image fluid, so that this
 image will automatically be responsive and adapt to the screen size.
 
-Let\'s save the changes. We\'re going to apply the same change to both
+Let&apos;s save the changes. We&apos;re going to apply the same change to both
 aboutus.html page, and also the contactus.html page in the Jumbotron.
 
-Now, when you take a closer look at your web page, you\'ll find that in
+Now, when you take a closer look at your web page, you&apos;ll find that in
 the Jumbotron, right after this wordings, you will see the image for our
 restaurant inserted in there.
 
-Next, we\'ll go into the navbar, and then where we have this for the
-navbar brand, I\'m going to replace these words for the restaurant with
+Next, we&apos;ll go into the navbar, and then where we have this for the
+navbar brand, I&apos;m going to replace these words for the restaurant with
 the corresponding logo.
 
-These words I\'m going to replace that with img, and source is logo.png.
-In addition, I\'m going to specify a height attribute of 30, and a width
+These words I&apos;m going to replace that with img, and source is logo.png.
+In addition, I&apos;m going to specify a height attribute of 30, and a width
 attribute of 41 to this logo.
 
 This size is apt for the navbar brand there.
 
-Let\'s save the changes.
+Let&apos;s save the changes.
 
-I\'m going to go and make the same change in the aboutus.html page, and
+I&apos;m going to go and make the same change in the aboutus.html page, and
 also the contactus.html page.
 
-Taking a look at the web page now, you\'ll see the restaurant\'s name
-has now been replaced with the restaurant\'s logo in small size there.
+Taking a look at the web page now, you&apos;ll see the restaurant&apos;s name
+has now been replaced with the restaurant&apos;s logo in small size there.
 
 You now see that when you navigate to the About page, you will see the
 image being included there, and similarly on the Contact page, you will
 see that the image has been updated going back to the main page.
 
-Now, what we\'re going to do, is to use a media object in place of these
+Now, what we&apos;re going to do, is to use a media object in place of these
 descriptions that we have here, and then use the media object to replace
 these with the description and also an image to be included.
 
 That gives a better view of our web page.
 
-Let\'s go ahead and make that change.
+Let&apos;s go ahead and make that change.
 
 To make use of the media object in our index.html page, we will go to
 the first row of content here.
 
-And then right there in the second div, I\'m going to introduce a new
+And then right there in the second div, I&apos;m going to introduce a new
 dev with the class media, and enclose the content inside this div there,
 closing off the div.
 
-Now, inside this div, I\'m going to introduce an image to be used there.
+Now, inside this div, I&apos;m going to introduce an image to be used there.
 
 Here I go in and say image class, and in order to use an image in a
 media object, we need to apply some additional flex related classes
@@ -9119,7 +9121,7 @@ image.
 
 This will now include the image into my midi object.
 
-In addition, I\'m going to create the media body for this image by
+In addition, I&apos;m going to create the media body for this image by
 saying div class media body, and then enclosed this h2 and p that
 contains the description inside this div there.
 
@@ -9127,14 +9129,14 @@ Let me indent the content there, and then close off that div here.
 
 With that, my description is enclosed inside the media body.
 
-In addition to this h2, I\'m going to introduce a class as mt-0.
+In addition to this h2, I&apos;m going to introduce a class as mt-0.
 
 With this, this class says margin top zero.
 
 This title will be aligned to the top of this particular media object
 here.
 
-With these changes, let\'s save the changes and then go and take a quick
+With these changes, let&apos;s save the changes and then go and take a quick
 look at our web page.
 
 Going to our web page, you will immediately notice the change in the web
@@ -9147,37 +9149,37 @@ positioned here.
 Contrast this with the remaining two rows, and you now begin to see how
 the media object helps us to transform that into something more vibrant.
 
-I\'m going to do the same thing to the third row here.
+I&apos;m going to do the same thing to the third row here.
 
 The second row will be left as an exercise for you in the assignment.
 
-Going to that third drill, I\'m going to apply a similar change to this
+Going to that third drill, I&apos;m going to apply a similar change to this
 third row to introduce the media object here.
 
 Let me introduce the media object there, and then to this div, go into
-the media object, and then introduce the image that I\'m going to use
+the media object, and then introduce the image that I&apos;m going to use
 here.
 
 I use the class as d-flex mr-3.
 
 If you are positioning the image to the right side, then you need to
-give a margin as ml-3 for it. In addition, I\'m going to add in the
+give a margin as ml-3 for it. In addition, I&apos;m going to add in the
 image thumbnail class to this, and then also say, align-self-center.
 
-These are the classes that I\'m going to add to this image.
+These are the classes that I&apos;m going to add to this image.
 
-And then, let\'s specify the source of this image, img and alberto.png,
-and then I\'ll specify the alternative.
+And then, let&apos;s specify the source of this image, img and alberto.png,
+and then I&apos;ll specify the alternative.
 
-And after this, this h2 and h4 and the p, I\'m going to close them
+And after this, this h2 and h4 and the p, I&apos;m going to close them
 inside a media-body div here, closing off the media body div.
 
 We now have completed the media object in the third row.
 
-Let\'s save the changes, and then go and take a look at our web page
+Let&apos;s save the changes, and then go and take a look at our web page
 next.
 
-Now, taking a look at our web page, you\'ll notice that we have the dish
+Now, taking a look at our web page, you&apos;ll notice that we have the dish
 description there.
 
 Now, if you move to the third row, you now see how the third row has
@@ -9357,7 +9359,7 @@ certain parts of your website or maybe you want to alert the users about
 some information or you may want to keep the users informed about the
 progress of an operation that they initiate on your website.
 
-Let\'s look at some different mechanisms that bootstrap provides for
+Let&apos;s look at some different mechanisms that bootstrap provides for
 these kind of operations. Bootstrap has many different components that
 enable us to keep users informed.
 
@@ -9369,7 +9371,7 @@ allowed.
 And also, we may use progress bars to keep users informed about the
 progress of whatever operations that they initiate on our website.
 
-Let\'s look at this in a bit more detail next.
+Let&apos;s look at this in a bit more detail next.
 
 Badges are an easy way of adding small amount of information to your
 website to attract the attention of visitors.
@@ -9424,7 +9426,7 @@ class and including a cross button inside our alert.
 Similarly, progress bars are included in websites to keep users informed
 about the progress of whatever we have initiated on the website.
 
-For example, if you\'re uploading a file to a website, then you may want
+For example, if you&apos;re uploading a file to a website, then you may want
 to keep the user informed about how much of the file has completed
 upload by showing a progress bar on the website.
 
@@ -9453,18 +9455,18 @@ also can have different appearance for the progress bar using the
 progress bar striped class and also progress bar animated class for
 animating the stripes on our progress bar.
 
-Now that we have looked at various ways of alerting users, let\'s do a
+Now that we have looked at various ways of alerting users, let&apos;s do a
 simple exercise next and use badges in our web page to draw the
 attention of users.
 
 <h4>Exercise (Video): Alerting Users</h4>
 
-In this short exercise, we\'re going to make use of badges to add badges
+In this short exercise, we&apos;re going to make use of badges to add badges
 to our web page, so that we can highlight some information for our
 visitors to our website.
 
 Going to index.html page, right there in the very first content row,
-right after the name of the dish there, I\'m going to add in a span with
+right after the name of the dish there, I&apos;m going to add in a span with
 the class badge badge-danger.
 
 And then add in the badge information there.
@@ -9472,12 +9474,12 @@ And then add in the badge information there.
 This will add a red colored badge with the word HOT in the badge to our
 web page.
 
-In addition, I\'m going to add in one more badge, which is a badge pill
+In addition, I&apos;m going to add in one more badge, which is a badge pill
 by adding in a badge with a club badge badge-pill, and then create a
 gray colored badge by using badge-secondary, and include the price of
 the dish into our web page.
 
-Let\'s save the changes and go and take a quick look at our web page.
+Let&apos;s save the changes and go and take a quick look at our web page.
 
 Going to our web page, you can see that by adding in the badges, we have
 created the red colored badge with the word HOT and then the badge pill
@@ -9546,15 +9548,15 @@ Bootstrap Resources
 
 <h4>Assignment 2: Bootstrap CSS Components (week 2)</h4>
 
-It\'s time to move on to the second assignment in this course.
+It&apos;s time to move on to the second assignment in this course.
 
 This week we had covered buttons, forms, tables, cards, images, and
 media and then finally we covered badge.
 
-This assignment we\'ll look at trying to explore your understanding of
+This assignment we&apos;ll look at trying to explore your understanding of
 all these topics.
 
-Your second assignment consists of three tasks. Let\'s go through each
+Your second assignment consists of three tasks. Let&apos;s go through each
 one of them step by step. Your first task is to create a form in your
 index strategy table pitch.
 
@@ -9589,14 +9591,14 @@ centered in this row and it will occupy eight columns.
 
 You have two columns left here and two columns left there.
 
-These are some clues about how you\'re going to position this.
+These are some clues about how you&apos;re going to position this.
 
 For extra small screen sizes, you occupy the entire screen width,
 otherwise your form cannot be accommodated meaningfully there.
 
-That\'s the first task in your second assignment.
+That&apos;s the first task in your second assignment.
 
-If you recall, the left the second draw of our content unstyled, you\'re
+If you recall, the left the second draw of our content unstyled, you&apos;re
 going to use the media object now to style this content.
 
 Note in particular that, for the media object your image is going to
@@ -9617,7 +9619,7 @@ through.
 The final task in the second assignment, is to create a button here.
 This would be a block button.
 
-Button block class which you\'re going to use.
+Button block class which you&apos;re going to use.
 
 Now, what you can do is you can reposition this content here to occupy
 half the screen and then these two will like the remaining part of the
@@ -9625,7 +9627,7 @@ screen.
 
 And use the words reserve table in there.
 
-Not only that, when you click on this button, you\'ll be taken down to
+Not only that, when you click on this button, you&apos;ll be taken down to
 the form at the bottom of the page, which allows you to do the
 reservation.
 
@@ -9703,7 +9705,7 @@ You can use the column classes to adjust these things.
 
 <h4>UI Design and Prototyping: Objectives and Outcomes</h4>
 
-Now that you are more clear about your project idea, it\'s time to
+Now that you are more clear about your project idea, it&apos;s time to
 conceive how your project is going to look like for the end-users.
 
 This is the time to design the user interface and the flow of your
@@ -9809,7 +9811,7 @@ At the end of this lesson, you should be able to:
 
 <h4>Bootstrap JavaScript Components: Objectives and Outcomes</h4>
 
-In this module, we will be learning about Bootstrap\'s JavaScript
+In this module, we will be learning about Bootstrap&apos;s JavaScript
 components.
 
 These components have two parts, the CSS classes, and the JavaScript
@@ -9824,7 +9826,7 @@ At the end of this module, you will be able to:
 -   Understand the various Bootstrap components that require JavaScript
     support in order to function
 
--   Use the data-\</i> attributes that Bootstrap\'s JS API provides for you
+-   Use the data-\</i> attributes that Bootstrap&apos;s JS API provides for you
     to control the JS components without writing a single line of JS
     code
 
@@ -9836,7 +9838,7 @@ that are purely based around CSS.
 By applying the CSS classes for these components, we were able to create
 them on our webpage.
 
-In this module, we are going to examine more of Bootstrap\'s
+In this module, we are going to examine more of Bootstrap&apos;s
 JavaScript-based components.
 
 Summarizing, as we saw in the previous module, Bootstrap supports a
@@ -9844,7 +9846,7 @@ number of CSS classes that can be applied to your HTML markup in your
 webpages to activate and make use of these CSS classes.
 
 You could see how the CSS classes modified the generic HTML tags and
-provided Bootstrap\'s own way of presenting the same information.
+provided Bootstrap&apos;s own way of presenting the same information.
 
 The components that are purely based upon CSS can easily be activated by
 applying the bootstrap CSS classes to the various HTML tags that are
@@ -9892,7 +9894,7 @@ The tabs and the pills we are presenting navigation again, supported
 with a JavaScript plugin, provides an enhanced way of providing
 navigation within your content.
 
-We\'ll examine that in this particular module.
+We&apos;ll examine that in this particular module.
 
 I use this as an example to illustrate to you how started from a base
 class, you can modify by applying the modifier classes to the base
@@ -9909,11 +9911,11 @@ Now, when you use these plugins in your webpage, you can include
 individual plugins that you are actually going to use in your website,
 or the entire set of plugins.
 
-Now, what we\'re going to do in the exercises is, include the entire set
+Now, what we&apos;re going to do in the exercises is, include the entire set
 of plugins because we just want explore all of them.
 
 But if you are designing a website, you may include only a subset of
-these plugins that you\'re actually employing in your website, thereby
+these plugins that you&apos;re actually employing in your website, thereby
 reducing the amount of JavaScript code that needs be sent over to a user
 that is viewing your webpage.
 
@@ -9943,7 +9945,7 @@ already going to be included in your Bootstrap webpage, if you are going
 to leverage the JavaScript-based components.
 
 Bootstrap takes this one step further, and then looking at the picture
-Bootstrap\'s approach is to take the sumo wrestler and then put him into
+Bootstrap&apos;s approach is to take the sumo wrestler and then put him into
 a box.
 
 Essentially standing for packaging your JavaScript plugins into a
@@ -10018,10 +10020,10 @@ Bootstrap for creating navigation structures.
 
 We explored the navbar nav already in the previous module.
 
-In this lecture, we\'re going to explore nav tabs and nav pills in a bit
+In this lecture, we&apos;re going to explore nav tabs and nav pills in a bit
 more detail.
 
-And the exercise that follows this, we\'ll look at how we make use of
+And the exercise that follows this, we&apos;ll look at how we make use of
 this to create a navigation structure for our web page.
 
 Tabs and pills provide an interesting navigation structure for our web
@@ -10036,10 +10038,10 @@ page, but want to show only part of the content on your web page, but
 still provide user with an ability to navigate to other parts of the
 content, then tabs and pills can be very useful for this purpose.
 
-What\'s better than to just go and take a look at the use of tabs and
+What&apos;s better than to just go and take a look at the use of tabs and
 pills in navigation?
 
-Taking a look at an example of the use of tabs in navigation, you\'ll
+Taking a look at an example of the use of tabs in navigation, you&apos;ll
 see that in this particular case, you have the Corporate Leadership
 information in our aboutus.html page, enclosed inside tabs with the tab
 navigation built on top.
@@ -10074,18 +10076,18 @@ This uses nav pills instead of nav tabs for the class being applied to
 the nav class there.
 
 Now that you have seen an example of the use of tabbed and pull
-navigation in a web page, I\'m sure you\'re curious to know how it is
+navigation in a web page, I&apos;m sure you&apos;re curious to know how it is
 actually constructed.
 
-That is what we\'re going to explore in the exercise next.
+That is what we&apos;re going to explore in the exercise next.
 
 We will use tabbed navigation and then use tab content and tab panes to
 organize the actual content that will be displayed in our web page.
 
 <h4>Exercise (Video): Tabs</h4>
 
-In this exercise, we\'re going to explore Bootstrap\'s tab-based
-navigation, Bootstrap\'s support for tabs, and how tabs can be used to
+In this exercise, we&apos;re going to explore Bootstrap&apos;s tab-based
+navigation, Bootstrap&apos;s support for tabs, and how tabs can be used to
 organize content on your web page.
 
 And how you can navigate from one tab to another tab, and then reveal
@@ -10100,15 +10102,15 @@ in the previous lecture.
 To get started with this exercise, we will go into aboutus.html page.
 
 And then right there, where we have the corporate leadership content
-there, after the h2, I\'m going to introduce the tabbed navigation.
+there, after the h2, I&apos;m going to introduce the tabbed navigation.
 
-This is where I\'m going to make use of the ul with the class nav
+This is where I&apos;m going to make use of the ul with the class nav
 nav-tabs.
 
 You have seen that earlier when we constructed the nav bar, we also used
 the ul inside the nav bar to specify the navigation items there.
 
-Similar approach here, except that here we\'re going to use the ul with
+Similar approach here, except that here we&apos;re going to use the ul with
 the nav and the nav tabs here.
 
 Inside this ul, we will construct the navigation structure for this
@@ -10132,14 +10134,14 @@ So, nav-item active, and then href.
 This would be a reference to tab pane later on, which would have the ID
 of peter there, and role is tab for this one, and data-toggle tab.
 
-You can see the Bootstrap\'s Javascript component coming into picture
+You can see the Bootstrap&apos;s Javascript component coming into picture
 here.
 
 And then I will say Peter Pan, and then close off the a tag there.
 
 This would complete our first tab in our tabbed navigation.
 
-Let me complete the rest of the code, and then we\'ll come back and
+Let me complete the rest of the code, and then we&apos;ll come back and
 review the rest of the code there.
 
 Here you can see that I have completed this navigation structure here.
@@ -10147,7 +10149,7 @@ Here you can see that I have completed this navigation structure here.
 Similarly, I am defining the list items for the remaining free corporate
 leaders here.
 
-Now this, let me save the change. And then let\'s go and take a quick
+Now this, let me save the change. And then let&apos;s go and take a quick
 look at the web page.
 
 Switching to the web page, you now see how using the nav nav tabs we
@@ -10159,29 +10161,29 @@ view each one of them in more detail by clicking on this.
 
 That is how the tabbed navigation works here. Now, obviously, the
 content of each one of them should appropriately show only that
-person\'s details here.
+person&apos;s details here.
 
 This is where the use of tabbed content and the tab pane classes will
 come into effect.
 
-And we\'re going to enclose this content using that.
+And we&apos;re going to enclose this content using that.
 
 And then tie this to those navigation, tab navigation up here, so that
-only one single corporate leader\'s information is displayed on the
+only one single corporate leader&apos;s information is displayed on the
 screen at a time.
 
-Once we complete setting up that tabbed navigation, then we\'ll move
+Once we complete setting up that tabbed navigation, then we&apos;ll move
 down into the actual content here.
 
-And then now, I\'m going to reorganize this content into four separate
+And then now, I&apos;m going to reorganize this content into four separate
 tab panes, each of which will be shown when the corresponding tab pane
 is selected in the tabbed navigation.
 
-To get started, the first thing that we\'re going to do is to go in and
+To get started, the first thing that we&apos;re going to do is to go in and
 separate each of these four corporate leaders into the four parts there,
-so that it\'s easy for me to see what I am doing.
+so that it&apos;s easy for me to see what I am doing.
 
-At the h3, I\'m cutting them into four different parts, and then we\'ll
+At the h3, I&apos;m cutting them into four different parts, and then we&apos;ll
 be able to work with these.
 
 Now I have one, two, three, four.
@@ -10199,9 +10201,9 @@ tab pane and some additional classes.
 
 And then organize this contact.
 
-Let\'s start with the first one.
+Let&apos;s start with the first one.
 
-For the first corporate leader, I\'m going introduce a new div with role
+For the first corporate leader, I&apos;m going introduce a new div with role
 as tabpanel.
 
 This serves as the tab panel that will be displayed when the first tab
@@ -10224,20 +10226,20 @@ be shown when the page is first rendered.
 It will apply the show class only to the first tab pane, the remaining
 tab panes will not have the show class applied.
 
-And the last class that I\'m going to apply is active because this is
+And the last class that I&apos;m going to apply is active because this is
 the tab pane that is going to be displayed in the page when the page is
 first rendered.
 
 In addition, for the navigation to work, I need to give this a and ID,
-and since I used hashtag Peter for the tab navigation content, so I\'m
+and since I used hashtag Peter for the tab navigation content, so I&apos;m
 going to apply the ID as Peter here.
 
 When this is referred to in a link there with hashtag Peter, this is the
 corresponding pane that I am referring to.
 
-Now, what I\'m going to do is I\'m going to copy this div from there.
+Now, what I&apos;m going to do is I&apos;m going to copy this div from there.
 
-And then I\'m going to apply this div to the second corporate leader\'s
+And then I&apos;m going to apply this div to the second corporate leader&apos;s
 information, except that for this one I should only apply the tab pane
 and fit.
 
@@ -10245,7 +10247,7 @@ The show and active should not be applied for the remaining three.
 
 And the ID here should be Danny for the second one.
 
-I\'m going to simply copy this code, and then paste that for the third
+I&apos;m going to simply copy this code, and then paste that for the third
 corporate leader here.
 
 And then so the tab panel and the third one is Agumbe.
@@ -10261,7 +10263,7 @@ obsession is satisfied there.
 
 Okay, that completes the organization of the tab content.
 
-Now, let\'s save the change and go and take a quick look at what the web
+Now, let&apos;s save the change and go and take a quick look at what the web
 page look likes now.
 
 Going to our web page, you now see that our web page is only displaying
@@ -10273,32 +10275,32 @@ corresponding information is displayed.
 And notice how this information fades in when you select that particular
 user.
 
-But, of course, if you are happy with this, then that\'s fine, we can
+But, of course, if you are happy with this, then that&apos;s fine, we can
 stop at this point.
 
 But I would like to nicely define a real tab around this.
 
-This is where I\'m going to apply a few CSS attributes, properties to
-this particular tab here, so that it\'s nice, clean tab structure being
+This is where I&apos;m going to apply a few CSS attributes, properties to
+this particular tab here, so that it&apos;s nice, clean tab structure being
 defined there.
 
-Let\'s create a few CSS properties for this.
+Let&apos;s create a few CSS properties for this.
 
 The last step, switching to styles.css.
 
-After the navbar inverse, I\'m going to introduce the CSS classes for
+After the navbar inverse, I&apos;m going to introduce the CSS classes for
 the tab content, so I specify for the tab-content, border-left: 1px
 solid DDD.
 
-And I\'m going to apply the same for border-right and bottom.
+And I&apos;m going to apply the same for border-right and bottom.
 
-I don\'t need to apply to the top because the top is governed by the tab
+I don&apos;t need to apply to the top because the top is governed by the tab
 navigation already.
 
 And then let me give a padding of 10 pixel all around, and then save the
 changes.
 
-Let\'s go and take a look at our web page after this.
+Let&apos;s go and take a look at our web page after this.
 
 Switching back to our page, now you see a nice, clean tab-like structure
 being created.
@@ -10371,7 +10373,7 @@ to set up the tab navigation. Each list item within the list acts as the
 tab element. Within each list item, note that we set up the <i>\<a\></i> tags
 with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be
 introduced later. Also note that the <i>\<a\></i> tag contains the
-<i>data-toggle=tab</i> attribute. The first list element\'s <i>\<a\></i> tag
+<i>data-toggle=tab</i> attribute. The first list element&apos;s <i>\<a\></i> tag
 contains the class <i>active</i>. This tab will be the open tab when we view
 the web page. We can switch to the other tabs using the tabbed
 navigation that we just set up.
@@ -10473,12 +10475,12 @@ creating an accordion. At the end of this lesson, you will be able to:
 
 <h4>Collapse and Accordion</h4>
 
-Let\'s now talk about a very useful plugin in Bootstrap called as the
+Let&apos;s now talk about a very useful plugin in Bootstrap called as the
 Collapse.
 
 We have seen its application in the navigation bar earlier.
 
-We\'ll revisit that code and take a quick look at it in more detail.
+We&apos;ll revisit that code and take a quick look at it in more detail.
 
 A related component is called as the Accordion.
 
@@ -10495,10 +10497,10 @@ user clicking on a button or a link in your web page.
 Now you will see many places where the Collapse kind of behavior is very
 well leveraged to show content.
 
-We\'ll revisit our navbar to look at the Collapse plugin in action, and
-then we\'ll also see an Accordion example next.
+We&apos;ll revisit our navbar to look at the Collapse plugin in action, and
+then we&apos;ll also see an Accordion example next.
 
-Going back to our web page, you\'ll recall that when we created the
+Going back to our web page, you&apos;ll recall that when we created the
 navbar in our web page for extra-small screens, the navbar was collapsed
 and then it was revealed when we clicked on the button here.
 
@@ -10536,15 +10538,15 @@ triggering mechanism for this Collapse plugin to work on this div here.
 
 This is a use of the Collapse plugin in your web page.
 
-Also, we\'ll look at the other component, which is the Accordion in
+Also, we&apos;ll look at the other component, which is the Accordion in
 Bootstrap.
 
 How does an Accordion behave?
 
-This is an example of an Accordion that we\'re going to construct in the
+This is an example of an Accordion that we&apos;re going to construct in the
 exercise that follows.
 
-Here, you\'ll see that I have replaced the tabbed navigation that we did
+Here, you&apos;ll see that I have replaced the tabbed navigation that we did
 in the previous exercise by using an Accordion here.
 
 The way the Accordion works is that one piece of content is revealed and
@@ -10552,7 +10554,7 @@ the remaining three are hidden.
 
 This uses the Collapse plugin for this purpose.
 
-When you click on any one of these other corporate leader\'s name, then
+When you click on any one of these other corporate leader&apos;s name, then
 the details of that corporate leader gets revealed and the remaining
 three gets hidden.
 
@@ -10563,7 +10565,7 @@ how the bellows of the accordion work.
 
 This is, in some sense, behaving like the bellows of the accordion.
 
-That\'s the reason why this component is referred to as an Accordion in
+That&apos;s the reason why this component is referred to as an Accordion in
 Bootstrap.
 
 One more example of the Collapse plugin in use is on your own course
@@ -10581,9 +10583,9 @@ is hidden and revealed by clicking on each of these links there.
 
 This is like the Collapse plugin that we saw in Bootstrap.
 
-Although, of course, the Coursera page actually doesn\'t use Bootstrap.
+Although, of course, the Coursera page actually doesn&apos;t use Bootstrap.
 
-We\'ll move to the next exercise where we will see how we construct the
+We&apos;ll move to the next exercise where we will see how we construct the
 Accordion for showing our corporate leadership information.
 
 <h4>Exercise (Video): Accordion</h4>
@@ -10594,30 +10596,30 @@ have seen already.
 It has one of those bellows with a keypad down below here and then you
 blow and then play the music with the keys there.
 
-And not everybody enjoys it. I\'m pretty sure.
+And not everybody enjoys it. I&apos;m pretty sure.
 
 But no offense to accordion players.
 
 Accordions in bootstrap are very interesting for sure.
 
-We\'ll look at how we apply accordions to be able to reveal and hide
+We&apos;ll look at how we apply accordions to be able to reveal and hide
 content in our web page in this exercise.
 
 Going back to About Us at HTML page where we had the corporate
 leadership information.
 
-Now, I\'m going to replace the top navigation with an accordion based
-navigation. I\'m going to remove this UL that defines the term
+Now, I&apos;m going to replace the top navigation with an accordion based
+navigation. I&apos;m going to remove this UL that defines the term
 navigation completely.
 
-And then we\'re going to design the accordion around the content that we
+And then we&apos;re going to design the accordion around the content that we
 already have.
 
-Let\'s delete this UL that contains the tab navigation so they will be
+Let&apos;s delete this UL that contains the tab navigation so they will be
 left with just this part which is enclosed inside the top panel and the
 top content.
 
-We\'re going to go and modify this. Going to this div here, I\'m going
+We&apos;re going to go and modify this. Going to this div here, I&apos;m going
 to remove this class from there and then I apply the id as accordion.
 
 We need this id later on to be able to create the accordion that div,
@@ -10625,22 +10627,22 @@ that contains this content is still in place there.
 
 The top content is now changed to accordion.
 
-Now, each of this content in here, we\'re going to convert that into a
+Now, each of this content in here, we&apos;re going to convert that into a
 card based structure there so that they can reveal the content in each
 of those cards so you will see me using the card and the card body
 classes there to enclose this content.
 
-Now, going into the actual content here, I\'m going to start applying
+Now, going into the actual content here, I&apos;m going to start applying
 the card class here with the div there.
 
-We\'ll say, "div class card" and then close the div there and then
+We&apos;ll say, "div class card" and then close the div there and then
 this content goes into the div there.
 
 Now, in here, we are going to go in and create a div with the class
-"card header." I\'m going to show you for one of them and then we are
+"card header." I&apos;m going to show you for one of them and then we are
 going to repeat this process for the remaining three also.
 
-We\'ll say, "card header roll tab" and then "id peterhead." I\'m
+We&apos;ll say, "card header roll tab" and then "id peterhead." I&apos;m
 going to take this h3 from down below here, cut it out and then paste it
 into the card panel.
 
@@ -10648,19 +10650,19 @@ This h3 that defines the name of the corporate leadership person is cut
 from inside the tab panel and then moved in to the card header here.
 This is going to act as my navigation aid.
 
-Now, to this h3, I\'m going to apply a class called mb-0.
+Now, to this h3, I&apos;m going to apply a class called mb-0.
 
 This is mb-0 here.
 
-Now, this name itself, I\'m going to enclose this inside and an a, so I
+Now, this name itself, I&apos;m going to enclose this inside and an a, so I
 will go to the next line and then say, "a data toggle" and the data
 toggle will say, "collapse."
 
-Now, you see that you\'re using the collapse plugin.
+Now, you see that you&apos;re using the collapse plugin.
 
 We have this closing h3 there.
 
-I\'m going to shift it to the next line here and then I\'m going to
+I&apos;m going to shift it to the next line here and then I&apos;m going to
 close the a tag right there.
 
 With this the a tag now encloses the name of the CEO in here.
@@ -10670,14 +10672,14 @@ inside the div which is the class card header.
 
 This forms the header structure for my accordion div.
 
-Going now to the tab panel below, I\'m going to change this class from
+Going now to the tab panel below, I&apos;m going to change this class from
 tab panel fade to collapse.
 
 So this would be a collapse plugin which will be useful for our
 accordion and also I will remove this active class for this and the id
 will be left as peter for this.
 
-And then you\'ll say, "data parent" and you would specify accordion.
+And then you&apos;ll say, "data parent" and you would specify accordion.
 
 You see why we gave the id of accordion to the div that encloses all
 these content.
@@ -10685,22 +10687,22 @@ these content.
 This is the way to specify that this is going to form part of the
 accordion that you are constructing there.
 
-That\'s why data parent accordion.
+That&apos;s why data parent accordion.
 
-Now, the content inside this tab panel, I\'m going to enclose it inside
+Now, the content inside this tab panel, I&apos;m going to enclose it inside
 the div with the class card body and close off that div here, and then
 indent this content in there.
 
-Let\'s save the changes and then go and take a look at our web page on
+Let&apos;s save the changes and then go and take a look at our web page on
 this moment.
 
 Going to our web page you now notice that in the corporate leadership,
-the CEO\'s name is highlighted here in the card header here.
+the CEO&apos;s name is highlighted here in the card header here.
 
 And then the content is down below here. Now, we will create the
 remaining three down below and then enclose all of them in there.
 
-I\'m going to repeat the same structure for the remaining ones.
+I&apos;m going to repeat the same structure for the remaining ones.
 
 I will have the card with the card header, and the card header will
 enclose the name of the person like this.
@@ -10708,7 +10710,7 @@ enclose the name of the person like this.
 You pretty much will follow the same structure for the remaining three
 pieces of content.
 
-Let\'s make the changes and then we\'ll come back and review the code.
+Let&apos;s make the changes and then we&apos;ll come back and review the code.
 
 Coming back to the code, you now see that for the remaining three, you
 notice that I am still using the card here with the card header here and
@@ -10721,7 +10723,7 @@ enclosing the P there.
 Same thing with the remaining two also.
 
 With this change, these three remaining corporate leaders information
-will be collapsed but Peter Pan\'s scarpered information will be
+will be collapsed but Peter Pan&apos;s scarpered information will be
 revealed when the first render the web page.
 
 With this change, now, this code snippet is obviously available in the
@@ -10729,7 +10731,7 @@ instructions that follow here so no need to worry too much.
 
 You can always refer to that to ensure that you have done it correctly.
 
-Let\'s save the changes.
+Let&apos;s save the changes.
 
 Switching back to our web page, you now see the accordion constructed
 here.
@@ -10738,11 +10740,11 @@ You see that the first corporate leaders information is displayed here.
 
 The remaining three are collapsed in this moment.
 
-That\'s the reason for the use of the collapse plugin and also the
+That&apos;s the reason for the use of the collapse plugin and also the
 reason for shifting the name of the corporate leader into the card
 title.
 
-See you saw that it\'ll be displayed like this in there.
+See you saw that it&apos;ll be displayed like this in there.
 
 Now, clicking on any one of them you now notice that when you click on
 that that content will be revealed but the remaining three are hidden.
@@ -10902,22 +10904,22 @@ will be able to:
 Let us now try to understand several mechanisms to enable us to display
 information to the users overlaying the content of your web page.
 
-Here we\'ll look at three different constructs that are available in
+Here we&apos;ll look at three different constructs that are available in
 Bootstrap called tooltips, popovers, and modals.
 
 What are tooltips, popovers and modals and how are they useful?
 
-We\'ll look at some basic ideas first, and then we\'ll go on to look at
+We&apos;ll look at some basic ideas first, and then we&apos;ll go on to look at
 some examples.
 
-In the exercise that follows, we\'ll use tooltips and modals in our web
-page, and we\'ll look at an example of popovers.
+In the exercise that follows, we&apos;ll use tooltips and modals in our web
+page, and we&apos;ll look at an example of popovers.
 
 As I mentioned, tooltips, popovers, and modals are a way of revealing
 content to the users, when the user interacts with certain elements on
 your web page.
 
-Say for example when the user\'s mouse clicks on a button, or hovers
+Say for example when the user&apos;s mouse clicks on a button, or hovers
 over a button, or clicks on a link, or reaches a certain point on your
 web page.
 
@@ -10939,7 +10941,7 @@ limitations.
 Modals give you the most extensive support for displaying content in a
 wide variety of ways.
 
-As an example, let\'s go to our webpage that we have been working on.
+As an example, let&apos;s go to our webpage that we have been working on.
 
 You see that when we hover our mouse pointer onto this button.
 
@@ -11009,10 +11011,10 @@ Coursera, a form pops up on the screen.
 This is another use of a modal in your web page.
 
 Now that you have seen examples of tooltips, popovers, and modals,
-let\'s go to the next exercise, where we\'ll create a tooltip on our
+let&apos;s go to the next exercise, where we&apos;ll create a tooltip on our
 index.html page.
 
-We\'ll also create a modal that allows the user to type in information
+We&apos;ll also create a modal that allows the user to type in information
 for logging in into our web page.
 
 <h4>Exercise (Video): Tooltips and Modals</h4>
@@ -11023,7 +11025,7 @@ users.
 This would be an overlay on top of your web page to show the information
 to the users.
 
-We\'ll look at two of those approaches, Tooltips and Modals in this
+We&apos;ll look at two of those approaches, Tooltips and Modals in this
 exercise.
 
 First, we will add a Tooltip to this page.
@@ -11031,11 +11033,11 @@ First, we will add a Tooltip to this page.
 Going to index.html and in the Jumbotron, we see this button in the
 Jumbotron there.
 
-To this button, I\'m going to add in a tooltip.
+To this button, I&apos;m going to add in a tooltip.
 
 Going into this button, what I will do now is simply go into the next
-line so that it\'s a bit more clear to write the code there and into
-this button, I\'m going to introduce the tooltip here.
+line so that it&apos;s a bit more clear to write the code there and into
+this button, I&apos;m going to introduce the tooltip here.
 
 After the button warning, I would say, data-toggle-tooltip, so you can
 see that the Javascript component coming into use here and then
@@ -11059,7 +11061,7 @@ here.
 Meaning that this tooltip will be shown to the bottom of this button
 here.
 
-After adding in this into the button, we\'ll now go and add some
+After adding in this into the button, we&apos;ll now go and add some
 JavaScript code to the bottom of this page in order to activate this
 tooltip.
 
@@ -11076,8 +11078,8 @@ This specifies when the document is ready, when this particular HTML
 document is ready for rendering and define invoke this particular
 function here.
 
-We supply the JavaScript function to be invoked at that point so we\'ll
-specify our function and then we\'ll say in brackets data-toggle-tooltip
+We supply the JavaScript function to be invoked at that point so we&apos;ll
+specify our function and then we&apos;ll say in brackets data-toggle-tooltip
 and tooltip.
 
 That is the code that we are going to introduce into this page here.
@@ -11112,7 +11114,7 @@ their navbar.
 To get started, bootstrap advises that all modal related code be placed
 at the top of your page.
 
-I\'m going to go in and write below the navbar here, I\'m going to place
+I&apos;m going to go in and write below the navbar here, I&apos;m going to place
 in the code for the modal there.
 
 To create a modal, I will start off by saying div ID login modal.
@@ -11121,15 +11123,15 @@ We give an ID to this modal so that it can be triggered from the navbar
 link and then class as "modal fade".
 
 So you see that the class is modal and fade means that when the modal is
-brought onto the screen, it\'ll fade onto the screen and the role is as
+brought onto the screen, it&apos;ll fade onto the screen and the role is as
 a dialog.
 
 Which means that it is displayed on top of the page.
 
-Let\'s close off the div of the part. So inside here, we are going to
+Let&apos;s close off the div of the part. So inside here, we are going to
 create the modal.
 
-In there, I\'m going to create the second div with the class as
+In there, I&apos;m going to create the second div with the class as
 modal-dialog and then inside here we will define the content of the
 actual modal here and close off the div.
 
@@ -11139,7 +11141,7 @@ Inside this modal dialog we will create another div with the class modal
 content and close off the div and a typical modal will contain a
 modal-header.
 
-That\'s where the next div is going to host.
+That&apos;s where the next div is going to host.
 
 And then a modal body which will contain much of the modal related
 content.
@@ -11156,7 +11158,7 @@ Now, we need to define what goes into the modal. Now, in the header we
 are going to put in a button, a cross-button in the modal which when
 clicked will dismiss the modal.
 
-That\'s the usual way modals are designed.
+That&apos;s the usual way modals are designed.
 
 And the modal body will itself contain the form.
 
@@ -11177,23 +11179,23 @@ you will say, data-dismiss and then modal.
 What this means is that this particular button when clicked will dismiss
 the modal from the screen.
 
-And this button, I\'m going to use the times, will display as a cross in
+And this button, I&apos;m going to use the times, will display as a cross in
 the modals here.
 
 So I would say times here.
 
 Before this button, we are going to introduce a header which we will
-display in the modal\'s header so I will start out with an h4 with the
+display in the modal&apos;s header so I will start out with an h4 with the
 class modal title.
 
 And then inside this h4, I will include the title of the modal, which is
 login because this is going to show the login form.
 
-Now that we have put in some details into this modal, let\'s add in the
+Now that we have put in some details into this modal, let&apos;s add in the
 link into our navbar which will trigger this modal and then we will have
 a quick look at how the modal looks like on the screen.
 
-Going to the navbar, right after the UL here, I\'m going to include in a
+Going to the navbar, right after the UL here, I&apos;m going to include in a
 link which can be used to trigger the showing and hiding of the modal.
 
 To do that, I will go in and use a span with the class navbar-text.
@@ -11208,14 +11210,14 @@ and then data-target.
 You recall that we had given the ID as login modal to our- Modal that we
 included.
 
-I\'m going to use that as my data target with the hash in front of that.
+I&apos;m going to use that as my data target with the hash in front of that.
 
 And inside here, I will go in and use a font awesome icon for a login.
 
-This is a font awesome \'\'fa- sign-in\'\' icon and say login and close
+This is a font awesome &apos;&apos;fa- sign-in&apos;&apos; icon and say login and close
 the e-tech.
 
-With that, let\'s save the changes and take a look at the web page.
+With that, let&apos;s save the changes and take a look at the web page.
 
 Going to our web page in the browser, you now see that on the right
 edge, you see this login with this icon created there.
@@ -11226,7 +11228,7 @@ If I click on this link, then the modal will show on the screen.
 
 Notice that when we created this modal we said, header which contained
 the login and then also this button and then the body, currently empty,
-we\'re going to introduce more code in there.
+we&apos;re going to introduce more code in there.
 
 Now if you click on this button the modal will disappear.
 
@@ -11236,12 +11238,12 @@ Even if you click outside the modal, the modal will disappear.
 
 So this is the behavior of the modal that we have come to expect.
 
-Now, in the next step I\'m going to go in and introduce the form here.
+Now, in the next step I&apos;m going to go in and introduce the form here.
 
-I\'m not going to explain the details of the form because you have
+I&apos;m not going to explain the details of the form because you have
 already studied forms in one of the earlier lessons.
 
-I\'m just going to simply go in and paste the form code and then we\'ll
+I&apos;m just going to simply go in and paste the form code and then we&apos;ll
 have a look at the form in the modal here.
 
 Coming back to the code, you can now see that in the modal body, I have
@@ -11265,13 +11267,13 @@ dismissed.
 
 And the other one is a submit button which is used to submit the form.
 
-With these changes, let\'s save the changes and then go and have a look
+With these changes, let&apos;s save the changes and then go and have a look
 at our Web page.
 
-Going back to the web page, now you click on the login then you\'ll see
+Going back to the web page, now you click on the login then you&apos;ll see
 a form for a user to sign in.
 
-You\'ll see that you have two boxes here.
+You&apos;ll see that you have two boxes here.
 
 Input boxes here for entering email and password, and then a checkbox
 for say Remember me.
@@ -11285,14 +11287,14 @@ Just like when you click on the cross there.
 And then if you fill in this information and keep click on sign in, the
 sign in process should be initiated.
 
-At this moment we don\'t have a server for this to work, but I\'m just
+At this moment we don&apos;t have a server for this to work, but I&apos;m just
 showing you in Bootstrap how you would create a form like this.
 
-I\'m sure you have seen things like these on many websites where when
+I&apos;m sure you have seen things like these on many websites where when
 you click on a login button something like this with the form pops up on
 the screen and expects you to type in the information.
 
-Now you\'ll see how you can leverage models to display information
+Now you&apos;ll see how you can leverage models to display information
 overlaying your web page.
 
 With this we complete this exercise.
@@ -11468,7 +11470,7 @@ the carousel. At the end of this lesson you will be able to:
 
 <h4>Carousel</h4>
 
-Let\'s take a look at yet another interesting component in bootstrap,
+Let&apos;s take a look at yet another interesting component in bootstrap,
 called as the bootstrap carousel.
 
 The carousel allows you to display multiple items on your web page and
@@ -11485,7 +11487,7 @@ scroll the items left and right.
 Carousel finds a lot of applications in many websites that you might
 have visited.
 
-Let\'s take a look at an example of a carousel.
+Let&apos;s take a look at an example of a carousel.
 
 Go into your web page, you see a carousel included on this web page.
 
@@ -11498,12 +11500,12 @@ For example, you can manually scroll right and left in the carousel.
 You can also select an item from the carousel using these indicators
 that are provided at the bottom of the carousel.
 
-I\'m sure you have seen many websites using this kind of component.
+I&apos;m sure you have seen many websites using this kind of component.
 
-Now that I have gotten you interested in the carousel, I\'m sure you\'re
+Now that I have gotten you interested in the carousel, I&apos;m sure you&apos;re
 curious about how you create one for your web page.
 
-That is what we\'re going to examine in this next exercise, where we
+That is what we&apos;re going to examine in this next exercise, where we
 will add a carousel to our web page, the index.html page and then create
 the manual controls for it.
 
@@ -11511,16 +11513,16 @@ the manual controls for it.
 
 We just learnt about the carousel component in the previous lecture.
 
-In this exercise, we\'re going to add in a carousel to our index.html
+In this exercise, we&apos;re going to add in a carousel to our index.html
 page and in the process learn how the carousel component works.
 
-Going to index.html page, we\'ll add in a new row into the content div,
+Going to index.html page, we&apos;ll add in a new row into the content div,
 as the first row in the div.
 
-I\'ll go in and say, give div class row row-content and inside this div,
-we\'re going to create the carousel component.
+I&apos;ll go in and say, give div class row row-content and inside this div,
+we&apos;re going to create the carousel component.
 
-And in what\'s div I will add in the inner column div, which will
+And in what&apos;s div I will add in the inner column div, which will
 contain the carousel component here.
 
 To add in the carousel, here I will add in the div with the ID my
@@ -11530,14 +11532,14 @@ You can see the JavaScript component coming into action here, and then
 close off the div and start building out the carousel inside this div
 here.
 
-Into this carousel, we\'ll add in the content of the carousel next.
+Into this carousel, we&apos;ll add in the content of the carousel next.
 
-I\'ll go in and then add another div with the class carousel-inner and
+I&apos;ll go in and then add another div with the class carousel-inner and
 the role as list box.
 
 This is the way we build up the carousel and then close that div there.
 
-And inside this div again we\'ll introduce divs that will host the items
+And inside this div again we&apos;ll introduce divs that will host the items
 of the carousel by applying the carousel item class.
 
 And the first one in the carousel item\...
@@ -11545,12 +11547,12 @@ And the first one in the carousel item\...
 The first one in the carousel class, I will apply the active class.
 
 This is the first div which starts out containing the starting slide
-there and the remaining ones, I\'m going to add in.
+there and the remaining ones, I&apos;m going to add in.
 
 Let me add in two more carousel-item divs here and apply only the first
 one with the active class.
 
-Now I\'m going to introduce in the content into this carousel items.
+Now I&apos;m going to introduce in the content into this carousel items.
 
 To construct a carousel item, I will go in there and then include an
 image with the class d-block.
@@ -11566,7 +11568,7 @@ I add in an image here and then to the carousel, I can also add in a div
 with the class carousel caption. In here we can include some text that
 will be over relayed as a caption onto the image.
 
-I\'ll say carousel caption d-none, d-md-block.
+I&apos;ll say carousel caption d-none, d-md-block.
 
 And then inside here, I will include the content from the content rows
 here.
@@ -11574,30 +11576,30 @@ here.
 I will go in and copy the content from the content rows here and then
 paste that into the carousel caption block here.
 
-And I\'ll remove the class that we applied to the H2 from this content.
+And I&apos;ll remove the class that we applied to the H2 from this content.
 
-Now, we\'ll repeat the same thing for the remaining two by copying the
+Now, we&apos;ll repeat the same thing for the remaining two by copying the
 content from the content rows below in here.
 
-Let me complete that and then we\'ll come back and take a look at how
+Let me complete that and then we&apos;ll come back and take a look at how
 the carousel looks like.
 
 Here you can see that I have completed the remaining carousel items here
 by copying the content from the content rows below.
 
-Let\'s add in a few CSS classes so that the carousel is nicely
+Let&apos;s add in a few CSS classes so that the carousel is nicely
 structured.
 
-Going to styles.css file at the bottom here, I\'m going to add in a
+Going to styles.css file at the bottom here, I&apos;m going to add in a
 couple of more classes here.
 
 For the carousel class, I would add the background as 512DA8, which we
 have used before the dark colored class.
 
-And then for the carousel-item class, I\'m going to add in a height as
+And then for the carousel-item class, I&apos;m going to add in a height as
 300 pixel.
 
-And for the image that is included inside the carousel item, I\'m going
+And for the image that is included inside the carousel item, I&apos;m going
 to apply a few transformations here.
 
 I would say, position absolute.
@@ -11613,12 +11615,12 @@ but will be positioned to the left edge of the carousel box here.
 
 Let me save the changes.
 
-We\'ll just go and have a look at what this carousel looks like on our
+We&apos;ll just go and have a look at what this carousel looks like on our
 web page. Going to the web page, you can now see that carousel in action
 on our index study table page.
 
 You can see that the carousel is positioned at the top here and then
-we\'ll keep scrolling at regular intervals.
+we&apos;ll keep scrolling at regular intervals.
 
 Note how by using the CSS classes, I have styled the background from the
 carousel such that the captions are clearly visible in the carousel and
@@ -11628,10 +11630,10 @@ The height of this carousel slide is fixed at 300 pixel.
 
 This gives a nice clean layout for this carousel.
 
-Now, let\'s add in a few controls for this carousel.
+Now, let&apos;s add in a few controls for this carousel.
 
 Going back to index.html. Right after the carousel in our box here but
-still inside the carousel, I\'m going to add in an OL to introduce a few
+still inside the carousel, I&apos;m going to add in an OL to introduce a few
 manual controls for the carousel.
 
 And with the class carousel-indicators.
@@ -11649,20 +11651,20 @@ This is the ID of the carousel and data-slide-to.
 And the first indicators will slide to slide number zero.
 
 With that class as active for the first item in this list, then the
-remaining two items I\'m going to simply use list with the data-target
+remaining two items I&apos;m going to simply use list with the data-target
 set equal to my carousel and the data-slide-to is set to one.
 
 This is for the second slide there.
 
-I\'m just going to copy this one and then create the third indicator in
+I&apos;m just going to copy this one and then create the third indicator in
 here.
 
-We\'ll go in and copy this and then change this to data-slide-to two.
+We&apos;ll go in and copy this and then change this to data-slide-to two.
 
 We have free slides in our carousel so three indicators are sufficient
 enough.
 
-Now, we\'ll also add in a couple of controls to this carousel which
+Now, we&apos;ll also add in a couple of controls to this carousel which
 allows us to manually scroll the carousel.
 
 To do that, I will introduce an A with the class carousel-control-prev
@@ -11677,14 +11679,14 @@ This is going to act as a button and data-slide as previous.
 Within this A, I will introduce a icon to represent this control on the
 screen.
 
-I\'ll say, span class carousel-control-prev-icon and close off the span
+I&apos;ll say, span class carousel-control-prev-icon and close off the span
 here. I will now copy this control.
 
 And paste it here and then create the control for the next slide here so
 I would say, carousel-control-next and roll is a button and the data
 slide used to next and the icon would be carousel-control-next icon.
 
-Adding these into my carousel, let\'s go and take a look at our carousel
+Adding these into my carousel, let&apos;s go and take a look at our carousel
 at this moment.
 
 Going to the carousel, you can now see that in my carousel I have three
@@ -11877,7 +11879,7 @@ Open file
 
 We have reached the end of the third module of this course.
 
-This is the time for your third assignment. In this assignment, we\'re
+This is the time for your third assignment. In this assignment, we&apos;re
 going to look at the Bootstrap components that we examined in this
 module and add a few to our index.html page.
 
@@ -11921,7 +11923,7 @@ here, to invoke the model.
 When you click on the button it shows and hides the model.
 
 To do this, you first need to remove the tool tip from the reserve
-table, otherwise that functionality won\'t work.
+table, otherwise that functionality won&apos;t work.
 
 And also remove the script, the JavaScript code that you added to the
 end of the index.html page to trigger the tool tip.
@@ -11963,26 +11965,26 @@ Hope you enjoyed creating this new variation of the index.html page.
 <h4>Bootstrap and JQuery: Objectives and Outcomes (week 4)</h4>
 
 In this lesson we examine the use of Bootstrap, JQuery and JavaScript
-together to control Bootstrap JS components. Many of the Bootstrap\'s JS
+together to control Bootstrap JS components. Many of the Bootstrap&apos;s JS
 components provide JavaScript methods and events to control the
 behavior. At the end of this lesson, you will be able to:
 
--   Understand how to use JQuery and JavaScript and Bootstrap\'s JS
+-   Understand how to use JQuery and JavaScript and Bootstrap&apos;s JS
     component methods to control the behavior of the components.
 
--   Write JavaScript code taking advantage of the Bootstrap\'s JS
+-   Write JavaScript code taking advantage of the Bootstrap&apos;s JS
     component methods and JQuery methods for controlling Bootstrap JS
     components
 
 <h4>Bootstrap and JQuery</h4>
 
 Let us now spend some time trying to understand how Bootstrap and jQuery
-work together to support the Bootstrap\'s JavaScript components.
+work together to support the Bootstrap&apos;s JavaScript components.
 
 As we have understood from the previous module, Bootstrap has a number
 of interesting JavaScript-based components.
 
-And we also learned that Bootstrap\'s JavaScript-based components are
+And we also learned that Bootstrap&apos;s JavaScript-based components are
 all enabled using jQuery as the support.
 
 Many of these plugins are written in jQuery.
@@ -11998,7 +12000,7 @@ Many of these plugins are written in jQuery.
 
 Their plugins themselves can be individually included or you can include
 all the plugins together as a single unit. In the exercises, we have
-been including all the Bootstrap\'s JavaScript plugins into our webpage.
+been including all the Bootstrap&apos;s JavaScript plugins into our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 92. bootstrap and javascript components (239) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12010,10 +12012,10 @@ been including all the Bootstrap\'s JavaScript plugins into our webpage.
 <!-- {width="5.0in" height="3.046474190726159in"} -->
 
 We also saw this graphic in the previous module to help us understand
-the relationship between JavaScript, jQuery, and how the Bootstrap\'s
+the relationship between JavaScript, jQuery, and how the Bootstrap&apos;s
 JS-based plugins are implemented.
 
-We saw that Bootstrap\'s JS components ox in the jQuery-based components
+We saw that Bootstrap&apos;s JS components ox in the jQuery-based components
 and make it easy for us to make use of them in our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 93. bootstrap js components (239) ------------------------------->
@@ -12025,13 +12027,13 @@ and make it easy for us to make use of them in our webpage.
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
-We also learned that the Bootstrap\'s JavaScript-based components can be
+We also learned that the Bootstrap&apos;s JavaScript-based components can be
 used in your webpage without writing a single line of JavaScript code.
 
 This is where the data-\ attributes come to our rescue.
 
 You can use the various attributes that we saw in the previous module to
-enable many of our Bootstrap\'s JavaScript-based components.
+enable many of our Bootstrap&apos;s JavaScript-based components.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 94. bootstrap js components #2 (240) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12047,9 +12049,9 @@ the full flexibility of that JavaScript-based API is available for all
 the Bootstrap JavaScript components.
 
 You can write code using the jQuery syntax and then use that together to
-control your Bootstrap\'s JS components.
+control your Bootstrap&apos;s JS components.
 
-We\'re going to explore that in a little more detail in this module.
+We&apos;re going to explore that in a little more detail in this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------------- 95. jquery (240) ---------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12061,7 +12063,7 @@ We\'re going to explore that in a little more detail in this module.
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 Before we proceed further, let me give you a quick tour of jQuery and
-its syntax so that we understand some of the code that we\'ll write in
+its syntax so that we understand some of the code that we&apos;ll write in
 this module.
 
 jQuery is a very powerful, lightweight JavaScript-based library that
@@ -12084,16 +12086,16 @@ to your HTML elements.
 
 Also jQuery enables you to interact with a back end server using AJAX.
 
-Although we won\'t to explore that in too much detail in this course.
+Although we won&apos;t to explore that in too much detail in this course.
 
-We also learned that Bootstrap\'s JavaScript components are built upon
+We also learned that Bootstrap&apos;s JavaScript components are built upon
 jQuery.
 
 This components make use of many of the jQuery methods that are
 available to implement the various features that this Bootstrap
 JavaScript components support.
 
-Let\'s briefly understand jQuery Syntax.
+Let&apos;s briefly understand jQuery Syntax.
 
 Now if you have seen some of the code that we included in the previous
 module, specifically for the tool tip, you remember that there was
@@ -12111,7 +12113,7 @@ something that started with a dollar sign.
 The jQuery Syntax is all implemented using the dollar sign.
 
 The dollar sign at the start of a sentence implies that this defines and
-accesses jQuery\'s library plugins that are available.
+accesses jQuery&apos;s library plugins that are available.
 
 Now whenever we use the dollar sign, you also supply a selector.
 
@@ -12120,7 +12122,7 @@ DOM to which you want to apply this manipulation.
 
 There are various ways of doing selections.
 
-We\'ll look at them in the subsequent slide.
+We&apos;ll look at them in the subsequent slide.
 
 Then the third aspect of a jQuery statement is the action that you
 specify.
@@ -12145,7 +12147,7 @@ dollar, and then within quotation marks, #mycarousel, implying that you
 are specifying the ID of a specific HTML element, and then specifying
 carousel and pause.
 
-We\'ll look at more details of what this actually does in one of the
+We&apos;ll look at more details of what this actually does in one of the
 subsequent slides there.
 
 But note the structure of the jQuery statement syntax there.
@@ -12153,7 +12155,7 @@ But note the structure of the jQuery statement syntax there.
 You specify the selector, and then you specify the corresponding action
 to be performed on the element that is selected by these selectors.
 
-Let\'s take a look at Bootstrap jQuery example.
+Let&apos;s take a look at Bootstrap jQuery example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 97. jquery syntax #2 (242) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12164,7 +12166,7 @@ Let\'s take a look at Bootstrap jQuery example.
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
-We\'ll go back to the previous example that we have seen earlier, where
+We&apos;ll go back to the previous example that we have seen earlier, where
 we introduce the tooltip.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 98. bootstrap jquery example (243) ------------------------------->
@@ -12183,7 +12185,7 @@ In this case the document means the entire document.
 
 The selected here is for the entire document.
 
-For the entire document, and then we\'ll specify ready.
+For the entire document, and then we&apos;ll specify ready.
 
 Ready is the action to be taken.
 
@@ -12218,7 +12220,7 @@ you want the tooltip to be enabled there.
 
 This is how we interpret this syntax of this jQuery example here.
 
-Let\'s look at the various ways of specifying selectors.
+Let&apos;s look at the various ways of specifying selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 100. jquery syntax, again (244) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12252,9 +12254,9 @@ specifying the tag.
 You can say p, button, h4, h3, or any of the HTML tags directly.
 
 And so in that case the HTML tag name is specified within quotes and
-that\'ll form your selector.
+that&apos;ll form your selector.
 
-When you apply a selector like this, you\'re saying all the elements
+When you apply a selector like this, you&apos;re saying all the elements
 that match this criteria will be selected.
 
 Then you can also specify a specific HTML DOM element by specifying the
@@ -12262,10 +12264,10 @@ ID of that element by using the #id.
 
 For example, we use #myCarousel.
 
-In this case you\'re saying select that particular HTML element for
+In this case you&apos;re saying select that particular HTML element for
 which the ID is myCarousel.
 
-That\'s the other way of selecting, by specifying an ID for an element.
+That&apos;s the other way of selecting, by specifying an ID for an element.
 
 The third possibility is to select elements by the classes which have
 applied to that.
@@ -12278,7 +12280,7 @@ Or you can even further qualify by specifying a group of classes by
 saying .btn.btn-default, meaning that those elements for which button
 class and the button default class have both been applied.
 
-That\'s another way, by using the classes that are applied to the HTML
+That&apos;s another way, by using the classes that are applied to the HTML
 element.
 
 The other possibility is to specify an attribute that has been applied
@@ -12361,7 +12363,7 @@ any of these events there.
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
-Let\'s take an example of the Bootstrap\'s Carousel to see how
+Let&apos;s take an example of the Bootstrap&apos;s Carousel to see how
 JavaScript code can be written to control the carousel actions.
 
 For a carousel, you saw already from the previous module, index size. We
@@ -12371,7 +12373,7 @@ We used the attribute data-slide="prev\|next", or we said
 data-slide-to and then specified the specific slide number, where it
 says data-ride+"carousel".
 
-And then we\'ve specified data interval, the interval for the sliding
+And then we&apos;ve specified data interval, the interval for the sliding
 action to take place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 105. example: carousel (248) ---------------------------------->
@@ -12396,7 +12398,7 @@ something.
 As an example you will see me using something like this in the exercise
 that follows.
 
-We\'ll say .carousel and carousel, and inside there you would specify
+We&apos;ll say .carousel and carousel, and inside there you would specify
 interval:2000, meaning set the interval for the sliding to be 2000
 milliseconds.
 
@@ -12406,7 +12408,7 @@ That way you control or modify a particular property of the carousel
 JavaScript element there. The carousel also supports many other
 controls.
 
-For example, you can say carousel(\'cycle\'), meaning start cycling the
+For example, you can say carousel(&apos;cycle&apos;), meaning start cycling the
 items from left to right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 106. example: carousel #2 (249) -------------------------------->
@@ -12418,13 +12420,13 @@ items from left to right.
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
-You can say carousel(\'pause\'), to pause the sliding action of the
+You can say carousel(&apos;pause&apos;), to pause the sliding action of the
 carousel.
 
 Then you can say carousel(number), so it cycles the carousel to that
 particular carousel item.
 
-And then you can say carousel(\'prev\'), carousel(\'next\') to go to the
+And then you can say carousel(&apos;prev&apos;), carousel(&apos;next&apos;) to go to the
 previous item and the next item in my carousel.
 
 These can be invoked directly from our JavaScript code.
@@ -12461,13 +12463,13 @@ completed the slide transition to the next item.
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 Within your code you can specify something like
-\$("#myCarousel").on(\'slide.bs.carousel\'.
+\$("#myCarousel").on(&apos;slide.bs.carousel&apos;.
 
 Meaning that when that slide action starts, then invoke this function,
 and then do something inside that function there.
 
 This kind of code can be returned also for responding to the events that
-are caused by your carousel\'s behavior.
+are caused by your carousel&apos;s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (250) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12478,7 +12480,7 @@ are caused by your carousel\'s behavior.
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
-Having considered some of these examples, we\'ll go on to an exercise
+Having considered some of these examples, we&apos;ll go on to an exercise
 where we will actually write some JavaScript based code to control our
 carousel.
 
@@ -12486,15 +12488,15 @@ We will write code to include a couple of buttons within our carousel,
 which will be used to control the sliding action of the carousel.
 
 Which means that we can pause and resume the sliding action of our
-carousel. And we\'ll activate these buttons from JavaScript.
+carousel. And we&apos;ll activate these buttons from JavaScript.
 
 <h4>Exercise (Video): Bootstrap and JQuery (9)</h4>
 
-Many of the Bootstrap\'s JavaScript-based components provide us with a
+Many of the Bootstrap&apos;s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
 JavaScript code, in particular, by writing code Using the jQuery syntax.
 
-We\'re going to explore this index exercise by using some
+We&apos;re going to explore this index exercise by using some
 JavaScript-based controls for our Carousel that we included in the
 index.html page in the previous exercise.
 
@@ -12522,26 +12524,26 @@ introduce a div with the class button group.
 This will enclose a button group of two buttons here, and then with an
 ID of, carouselButton and close off the div there.
 
-Now, inside this, I\'m going to add in two buttons.
+Now, inside this, I&apos;m going to add in two buttons.
 
 Let me add in one button with the class btn, btn-danger, btn-small, and
 an id of carousel-pause.
 
 This is going to act as the pause button, slows off the button there.
 
-And for this button, I\'m going to introduce a font as an icon with the
+And for this button, I&apos;m going to introduce a font as an icon with the
 class fa fa, pause, and close off the span.
 
 This will introduce a pause button into the group of Carousel buttons.
 
-I\'m going to copy this and paste it again to create another button.
+I&apos;m going to copy this and paste it again to create another button.
 
-That second button, I\'ll call btn btn-danger btn-sm, and then this
+That second button, I&apos;ll call btn btn-danger btn-sm, and then this
 would be carousel-play.
 
 And the span class, the button would be if it play here.
 
-Let\'s say the changes and go and take a quick look at it in the
+Let&apos;s say the changes and go and take a quick look at it in the
 webpage.
 
 Taking a look at the buttons as they exist in our browser, you can see
@@ -12549,14 +12551,14 @@ that these two buttons are now positioned to the left corner of my
 Carousel.
 
 I would like to reposition these buttons to the right edge, so that it
-doesn\'t cause this blue, empty space underneath the image here.
+doesn&apos;t cause this blue, empty space underneath the image here.
 
 Let me use a couple of CSS properties to reposition these buttons to the
 right column of the Carousel.
 
 Going to that style start CSS file, let me introduce some CSS code here.
 
-For the element with the ID carouselButtons, I\'m positioning it to the
+For the element with the ID carouselButtons, I&apos;m positioning it to the
 right edge and bottom, 0 pixel here.
 
 These two and then the position is absolute.
@@ -12566,7 +12568,7 @@ This will position these buttons to the right corner of my Carousel.
 Obviously, just introducing the buttons into the Carousel will not serve
 any purpose.
 
-Now, we\'re going to take advantage of the JavaScript controls that the
+Now, we&apos;re going to take advantage of the JavaScript controls that the
 Carousel provides by writing a little bit of jQuery code at the bottom
 of index.html page to make these buttons do their work.
 
@@ -12579,7 +12581,7 @@ here.
 This script should contain some JavaScript code written in jQuery
 syntax.
 
-I\'m going to say, \$(document).ready(function), And this function
+I&apos;m going to say, \$(document).ready(function), And this function
 should contain a couple of functions here to activate the buttons.
 
 I would say, mycarousel.
@@ -12590,15 +12592,15 @@ carousel, Interval: 2000.
 What this does is it sets the sliding interval of the Carousel to 2000
 milliseconds or 2 seconds.
 
-I\'m making it a bit faster for the sliding action to take place in the
+I&apos;m making it a bit faster for the sliding action to take place in the
 Carousel.
 
-Continue with the jQuery code here. I\'m going to now activate that
+Continue with the jQuery code here. I&apos;m going to now activate that
 pause button, so I will say carousel-pause.
 
-That\'s the id I gave to the pause button there.
+That&apos;s the id I gave to the pause button there.
 
-That\'s the reason for giving the id.
+That&apos;s the reason for giving the id.
 
 I want to activate the pause button. So I say when the user clicks.
 
@@ -12611,7 +12613,7 @@ this code here.
 What is the function that I want to do? I want to be able to, Pause the
 Carousel.
 
-We would say, carousel(\'pause\').
+We would say, carousel(&apos;pause&apos;).
 
 Now you see how you have used the jQuery-based controls.
 
@@ -12623,23 +12625,23 @@ Similarly, I want to be able to activate the play button.
 When the play button is clicked, I want the sliding action of the
 Carousel to resume.
 
-I\'m going to simply copy this code, paste it there.
+I&apos;m going to simply copy this code, paste it there.
 
 And then I would say carousel-play, click function my carousel and then
-the function says carousel(\'cycle\').
+the function says carousel(&apos;cycle&apos;).
 
-That\'s the way you specify that the Carousel should resume sliding like
+That&apos;s the way you specify that the Carousel should resume sliding like
 before.
 
 This one, this function we are attaching to the play button here.
 
-With this two, our function\'s introduced inside this document ready
+With this two, our function&apos;s introduced inside this document ready
 function.
 
-You\'re all set for the Carousel to be activated, and the two buttons to
+You&apos;re all set for the Carousel to be activated, and the two buttons to
 be able to control the behavior of our the Carousel.
 
-Let\'s show the changes, and go and have a look at the behavior of our
+Let&apos;s show the changes, and go and have a look at the behavior of our
 Carousel.
 
 Going to our page, you now see that your Carousel is moving very fast,
@@ -12650,7 +12652,7 @@ Every two seconds, you will see the sliding action of the Carousel.
 This is definitely annoying. So let me pause that by clicking on the
 pause button.
 
-When you click on the pause button, your Carousel\'s sliding action is
+When you click on the pause button, your Carousel&apos;s sliding action is
 paused.
 
 Because when you click on the pause button, then the function that we
@@ -12675,11 +12677,11 @@ Bootstrap jQuery.
 
 <h4>Exercise (Instructions): Bootstrap and JQuery</h4>
 
-Many of the Bootstrap\'s JavaScript-based components provide us with a
+Many of the Bootstrap&apos;s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
 JavaScript code, in particular, by writing code Using the jQuery syntax.
 
-So we\'re going to explore this index exercise by using some
+So we&apos;re going to explore this index exercise by using some
 JavaScript-based controls for our Carousel that we included in the
 index.html page in the previous exercise.
 
@@ -12707,26 +12709,26 @@ introduce a div with the class button group.
 So this will enclose a button group of two buttons here, and then with
 an ID of, carouselButton and close off the div there.
 
-Now, inside this, I\'m going to add in two buttons.
+Now, inside this, I&apos;m going to add in two buttons.
 
 So let me add in one button with the class btn, btn-danger, btn-small,
 and an id of carousel-pause.
 
 So this is going to act as the pause button, slows off the button there.
 
-And for this button, I\'m going to introduce a font as an icon with the
+And for this button, I&apos;m going to introduce a font as an icon with the
 class fa fa, pause, and close off the span.
 
 So this will introduce a pause button into the group of Carousel
 buttons.
 
-I\'m going to copy this and paste it again to create another button.
+I&apos;m going to copy this and paste it again to create another button.
 
-That second button, I\'ll call btn btn-danger btn-sm, and then this
+That second button, I&apos;ll call btn btn-danger btn-sm, and then this
 would be carousel-play. And the span class, the button would be if it
 play here.
 
-Let\'s say the changes and go and take a quick look at it in the
+Let&apos;s say the changes and go and take a quick look at it in the
 webpage.
 
 Taking a look at the buttons as they exist in our browser, you can see
@@ -12734,14 +12736,14 @@ that these two buttons are now positioned to the left corner of my
 Carousel.
 
 I would like to reposition these buttons to the right edge, so that it
-doesn\'t cause this blue, empty space underneath the image here.
+doesn&apos;t cause this blue, empty space underneath the image here.
 
 So let me use a couple of CSS properties to reposition these buttons to
 the right column of the Carousel.
 
 Going to that style start CSS file, let me introduce some CSS code here.
 
-So for the element with the ID carouselButtons, I\'m positioning it to
+So for the element with the ID carouselButtons, I&apos;m positioning it to
 the right edge and bottom, 0 pixel here. So these two and then the
 position is absolute.
 
@@ -12750,7 +12752,7 @@ So this will position these buttons to the right corner of my Carousel.
 Obviously, just introducing the buttons into the Carousel will not serve
 any purpose.
 
-Now, we\'re going to take advantage of the JavaScript controls that the
+Now, we&apos;re going to take advantage of the JavaScript controls that the
 Carousel provides by writing a little bit of jQuery code at the bottom
 of index.html page to make these buttons do their work.
 
@@ -12763,7 +12765,7 @@ here.
 So this script should contain some JavaScript code written in jQuery
 syntax.
 
-So I\'m going to say, \$(document).ready(function), And this function
+So I&apos;m going to say, \$(document).ready(function), And this function
 should contain a couple of functions here to activate the buttons.
 
 So I would say, mycarousel.
@@ -12774,13 +12776,13 @@ carousel, Interval: 2000.
 So what this does is it sets the sliding interval of the Carousel to
 2000 milliseconds or 2 seconds.
 
-So I\'m making it a bit faster for the sliding action to take place in
-the Carousel. Continue with the jQuery code here. I\'m going to now
+So I&apos;m making it a bit faster for the sliding action to take place in
+the Carousel. Continue with the jQuery code here. I&apos;m going to now
 activate that pause button, so I will say carousel-pause.
 
-So that\'s the id I gave to the pause button there.
+So that&apos;s the id I gave to the pause button there.
 
-So that\'s the reason for giving the id.
+So that&apos;s the reason for giving the id.
 
 So I want to activate the pause button.
 
@@ -12793,7 +12795,7 @@ this code here.
 What is the function that I want to do? I want to be able to, Pause the
 Carousel.
 
-So we would say, carousel(\'pause\').
+So we would say, carousel(&apos;pause&apos;).
 
 So now you see how you have used the jQuery-based controls.
 
@@ -12805,23 +12807,23 @@ Similarly, I want to be able to activate the play button.
 So when the play button is clicked, I want the sliding action of the
 Carousel to resume.
 
-So I\'m going to simply copy this code, paste it there.
+So I&apos;m going to simply copy this code, paste it there.
 
 And then I would say carousel-play, click function my carousel and then
-the function says carousel(\'cycle\').
+the function says carousel(&apos;cycle&apos;).
 
-That\'s the way you specify that the Carousel should resume sliding like
+That&apos;s the way you specify that the Carousel should resume sliding like
 before.
 
 This one, this function we are attaching to the play button here.
 
-With this two, our function\'s introduced inside this document ready
+With this two, our function&apos;s introduced inside this document ready
 function.
 
-You\'re all set for the Carousel to be activated, and the two buttons to
+You&apos;re all set for the Carousel to be activated, and the two buttons to
 be able to control the behavior of our the Carousel.
 
-Let\'s show the changes, and go and have a look at the behavior of our
+Let&apos;s show the changes, and go and have a look at the behavior of our
 Carousel.
 
 Going to our page, you now see that your Carousel is moving very fast,
@@ -12832,7 +12834,7 @@ Every two seconds, you will see the sliding action of the Carousel.
 This is definitely annoying. So let me pause that by clicking on the
 pause button.
 
-When you click on the pause button, your Carousel\'s sliding action is
+When you click on the pause button, your Carousel&apos;s sliding action is
 paused.
 
 Because when you click on the pause button, then the function that we
@@ -12864,38 +12866,38 @@ components in order to control the behavior of the components.
 In particular, we saw the use of the carousel and how we were able to
 introduce two buttons to control the cycling behavior of the carousel.
 
-Now, I\'m not fully satisfied with that implementation.
+Now, I&apos;m not fully satisfied with that implementation.
 
 I would like to now collapse the whole thing into one single button that
 can both indicate the current behavior of the carousel and also be able
 to control the carousel.
 
-Let\'s see how we can leverage further jQuery code in order to achieve
+Let&apos;s see how we can leverage further jQuery code in order to achieve
 this, in this exercise.
 
-To achieve that, we\'ll go back to the code in index.html where we
+To achieve that, we&apos;ll go back to the code in index.html where we
 defined the two buttons.
 
-I\'m going to now remove this div for the button group because we are
+I&apos;m going to now remove this div for the button group because we are
 going to have only one single button instead of two buttons.
 
 I have removed the div around the two buttons.
 
-I\'m also going to delete one of the buttons, because we\'re going to
+I&apos;m also going to delete one of the buttons, because we&apos;re going to
 work with just a single button for this exercise.
 
 Let me change the indentation.
 
-Now, this particular button that we have there, I\'m going to rename
+Now, this particular button that we have there, I&apos;m going to rename
 this button as carousel Button.
 
 We will start out with this button being a button with the pause icon.
 
-We\'re going to flip the icon for this button through JavaScript code.
+We&apos;re going to flip the icon for this button through JavaScript code.
 
 How do we do that?
 
-Taking a look at our web page, we\'ll now see that we have one single
+Taking a look at our web page, we&apos;ll now see that we have one single
 button here, which is currently indicating the pause there.
 
 Now, my hope at the end of this exercise is to turn this button into a
@@ -12913,10 +12915,10 @@ to achieve that.
 Going down to the JavaScript code at the bottom of index.html page.
 
 Here, we had this script that we had included earlier in order to
-activate the two buttons there. I\'m going to edit this code to make use
+activate the two buttons there. I&apos;m going to edit this code to make use
 of that single button that we have there.
 
-Coming down here, I\'m going to remove this second part because we only
+Coming down here, I&apos;m going to remove this second part because we only
 have one single button now here, which is the carouselButton, and
 whenever that is clicked, you need to do something in response to doing
 that.
@@ -12924,15 +12926,15 @@ that.
 If the carousel button is clicked, then what do you do?
 
 Now, fortunately, depending on whether the button is a Play button or a
-Pause button, we\'ll be able to take an appropriate action.
+Pause button, we&apos;ll be able to take an appropriate action.
 
 But how do we know whether it is a Play button or a Pause button?
 
-This is where we\'re going to make use of some jQuery code in order to
+This is where we&apos;re going to make use of some jQuery code in order to
 identify whether this is a play button or a pause button.
 
-To help us to identify this, we\'re going go inside here and then use an
-if statement, and inside there, I\'m going to test to see whether this
+To help us to identify this, we&apos;re going go inside here and then use an
+if statement, and inside there, I&apos;m going to test to see whether this
 is a play or a pause button.
 
 Here I say, carouselButton.children span.
@@ -12941,9 +12943,9 @@ Which means that, for this carousel button, inside where if there is an
 element with the span tag, so we obviously know that in our carousel
 button, we had the span tag which contained the Font Awesome icon there.
 
-For that span tag, we\'re going to check hasClass.
+For that span tag, we&apos;re going to check hasClass.
 
-We\'re going to check this hasClass, and then the class that we\'re
+We&apos;re going to check this hasClass, and then the class that we&apos;re
 going to check for is fa-pause.
 
 Which means that, if the span tag has the fa-pause class, then we know
@@ -12952,7 +12954,7 @@ that this button is currently acting as the pause button.
 Obviously, when the button is clicked, the user is expecting that the
 cyclic behavior should be paused.
 
-That\'s what we identify here.
+That&apos;s what we identify here.
 
 You now see that we are writing some more advanced JavaScript code using
 the jQuery syntax in order to make this work correctly.
@@ -12966,22 +12968,22 @@ carousel.
 Then, in addition, we want now to be able to flip that icon from a pause
 icon to a play icon.
 
-What we will do is, we will say right there after this, we\'ll say
-\$carouselButton.children span, and then we\'ll say, removeClass.
+What we will do is, we will say right there after this, we&apos;ll say
+\$carouselButton.children span, and then we&apos;ll say, removeClass.
 
-We\'re going to remove the pause class. So notice how this works. We\'re
-going to remove the pause class from that, and then, we\'re going to add
+We&apos;re going to remove the pause class. So notice how this works. We&apos;re
+going to remove the pause class from that, and then, we&apos;re going to add
 the playClass.
 
-That way your button\'s icon is now going to be flipped from a Pause
+That way your button&apos;s icon is now going to be flipped from a Pause
 button to a Play button.
 
-We\'re going to remove the pauseClass.
+We&apos;re going to remove the pauseClass.
 
-I\'m going to just copy this code and then paste it right there and then
+I&apos;m going to just copy this code and then paste it right there and then
 do the edit to this code.
 
-Same thing, for the carouselButton for the children span, I\'m going to
+Same thing, for the carouselButton for the children span, I&apos;m going to
 instead now of the removeClass, I would say addClass, and then fa-play.
 
 That way, what we are doing is, we are flipping that button from a Pause
@@ -12992,17 +12994,17 @@ Also, we are pausing the cycling behavior of the carousel.
 Now, if this is not the case then, it should be a Play button so the
 opposite effect should be introduced.
 
-Then, I\'m going to simply copy this code, and then do the other tests
+Then, I&apos;m going to simply copy this code, and then do the other tests
 for the situation where the button is a playButton.
 
-I would say else, now obviously, I don\'t need this if here but just to
-be doubly sure, I\'m going to put that in there.
+I would say else, now obviously, I don&apos;t need this if here but just to
+be doubly sure, I&apos;m going to put that in there.
 
-Because there are only two possibilities, either it\'s a Pause button or
-a Play button, but just for my reassurance, I\'m going to put that as an
+Because there are only two possibilities, either it&apos;s a Pause button or
+a Play button, but just for my reassurance, I&apos;m going to put that as an
 fa-play there. Now inside there,
 
-I\'m going to change this from pause to cycle.
+I&apos;m going to change this from pause to cycle.
 
 Because from the previous exercise, you remember that if you want the
 cycling behavior to resume, you would have to set the carousel action to
@@ -13030,9 +13032,9 @@ Now, if I click this button again, note the change from the Play button
 to a Pause button, and then the cycling behavior of the carousel will
 resume on the spot.
 
-Using a single button now, I\'m able to both control the behavior of the
+Using a single button now, I&apos;m able to both control the behavior of the
 carousel and also simultaneously, display the current state of my
-carousel\'s cycling behavior.
+carousel&apos;s cycling behavior.
 
 If that is a Pause button, that means that my carousel is currently
 cycling. If that is a Play button, then my carousel is paused.
@@ -13046,7 +13048,7 @@ also saw the use of the removeClass and addClass methods, jQuery methods
 that we applied in order to manipulate the DOM to reflect the behavior
 as pertinent in this particular case.
 
-With this, we complete this exercise. It\'s time for you to do a Git
+With this, we complete this exercise. It&apos;s time for you to do a Git
 commit with the message more Bootstrap and jQuery.
 
 <h4>Exercise (Instructions): More Bootstrap and JQuery</h4>
@@ -13058,7 +13060,7 @@ carousel by using more JQuery and JavaScript to write JavaScript code to
 control the JS component. At the end of this exercise you will be able
 to:
 
--   Use Bootstrap\'s JS component methods together with JQuery and
+-   Use Bootstrap&apos;s JS component methods together with JQuery and
     Javascript
 
 -   Use JS code to control the Bootstrap JS component
@@ -13116,7 +13118,7 @@ $("#carouselButton").click(function(){
 
 <h4>Conclusions</h4>
 
-In this exercise we learnt more about Bootstrap\'s JS component methods
+In this exercise we learnt more about Bootstrap&apos;s JS component methods
 and how they can be used together with JQuery and JavaScript to control
 the behavior of a Bootstrap JS component.
 
@@ -13161,20 +13163,20 @@ course without delving a little bit into CSS preprocessors.
 
 Simply because Bootstrap is built using Sass for its source.
 
-We\'ll briefly examine CSS preprocessors, what they are, how they are
+We&apos;ll briefly examine CSS preprocessors, what they are, how they are
 useful in defining CSS classes, and why Bootstrap makes use of them.
 
 As you probably understand from your previous experience with CSS, CSS
 is great for defining styles and repeatedly applying these styles to
 various HTML elements.
 
-And that\'s the way we use CSS when we define our web pages.
+And that&apos;s the way we use CSS when we define our web pages.
 
 But when you look at the CSS code itself, you begin to quickly realize
 the limitations of CSS.
 
 Especially if you are coming from a programming background, you realize
-that CSS doesn\'t have what you typically expect in a programming
+that CSS doesn&apos;t have what you typically expect in a programming
 language, like variables, nesting of selectors, variables, expressions,
 and functions.
 
@@ -13198,7 +13200,7 @@ your web page.
 What these preprocessing languages bring to us is more programming
 language-like syntax, as we will see in the next few slides.
 
-We\'ll examine Less and Sass briefly.
+We&apos;ll examine Less and Sass briefly.
 
 In particular, the reason for us to take a look at this is because
 Bootstrap itself uses Sass for defining its source for its CSS classes.
@@ -13216,7 +13218,7 @@ variables, nesting selectors, expressions, functions and mixins.
 
 We will look at some of these with some examples in the next few slides.
 
-The first thing that we\'ll look at is variables.
+The first thing that we&apos;ll look at is variables.
 
 Now in many CSS classes that you define, you might have some repeated
 use of certain quantities.
@@ -13224,12 +13226,12 @@ use of certain quantities.
 It might be more worthwhile if you define some variables that hold these
 quantities and use these variables in defining your CSS classes.
 
-That\'s where variables come to your rescue.
+That&apos;s where variables come to your rescue.
 
-Here, we\'ll look at both Less and Scss code.
+Here, we&apos;ll look at both Less and Scss code.
 
 Scss is a version of Sass, more popular version of Sass syntax, so
-that\'s why I concentrate on Scss here.
+that&apos;s why I concentrate on Scss here.
 
 If you define variables in Less, you will proceed the name of the
 variable with an @ sign.
@@ -13240,7 +13242,7 @@ And once you define those variables, you can then use those variables
 when you define the classes.
 
 As you see in the example, where we define the navbar-inverse as
-background, or the carousel-item\'s height as variables.
+background, or the carousel-item&apos;s height as variables.
 
 Now, the advantage of defining variables at the start of your CSS class
 is that there is a single point where you can update a value, and it
@@ -13291,7 +13293,7 @@ zero margin will be inherited by that row header class.
 Mixins themselves can take on additional parameters if you so wish to
 define them.
 
-In this case, I\'m defining a variation of the zero margin mixin that we
+In this case, I&apos;m defining a variation of the zero margin mixin that we
 saw in the previous slide.
 
 Here, this zero margin mixin takes two parameters, pad up down and pad
@@ -13315,7 +13317,7 @@ Here you can see that I have defined two different carousel items with
 two different sizes, and so you can see that the heights of each one of
 them is defined differently.
 
-In one case I\'m using the predefined height, in another case I am
+In one case I&apos;m using the predefined height, in another case I am
 multiplying that height and then using it to define the height property
 inside my carousel item for the item-large class.
 
@@ -13328,12 +13330,12 @@ allow you to define mathematical functions, Less strings.
 You can also do color operations and color blending operations using
 these functions and make use of them when you define your CSS classes.
 
-This is a bit advanced so I\'m not going into too much of detail there.
+This is a bit advanced so I&apos;m not going into too much of detail there.
 
 Also, you can input predefined CSS preprocessor classes into other
 classes.
 
-For example, if you\'ve a Less class as defined, and you can input that
+For example, if you&apos;ve a Less class as defined, and you can input that
 file into another Less file.
 
 Similarly, if you have defined Scss files, then you can import them into
@@ -13342,41 +13344,41 @@ other Scss files using the import operation.
 The syntax is the same for both Less and Sass.
 
 Now that we have seen some features of the CSS preprocessor languages,
-let\'s now examine how we can actually make use of them by doing a
+let&apos;s now examine how we can actually make use of them by doing a
 couple of exercises.
 
-First, we\'ll do an exercise based upon Less.
+First, we&apos;ll do an exercise based upon Less.
 
-Then we\'ll follow that up with an exercise based on Sass.
+Then we&apos;ll follow that up with an exercise based on Sass.
 
 <h4>Exercise: Less</h4>
 
-It\'s time to move on to the next exercise, called Exercise: Less.
+It&apos;s time to move on to the next exercise, called Exercise: Less.
 
 Something that you wish your doctor will tell you when you visit him or
 her the next time.
 
-Nevertheless, let\'s examine less in more detail now to understand how
+Nevertheless, let&apos;s examine less in more detail now to understand how
 we can define CSS classes using the less preprocessor syntax and then
 automatically generate the corresponding CSS classes from our less
 classes.
 
-To get started, let\'s go to our project in the Text Editor and then
-inside the CSS folder, I\'m going to rename this styles.css file as
+To get started, let&apos;s go to our project in the Text Editor and then
+inside the CSS folder, I&apos;m going to rename this styles.css file as
 styles-old.css.
 
-I\'m going to save my current version of the styles.css file because now
+I&apos;m going to save my current version of the styles.css file because now
 they will write less code and SCSS code and then automatically generate
 the styles.css file by compiling these CSS preprocessor languages.
 
-After doing this, then in my CSS folder, we\'ll create a new file named
+After doing this, then in my CSS folder, we&apos;ll create a new file named
 styles.less.
 
 And inside here, I will define my less code.
 
-Let\'s first define some less variables.
+Let&apos;s first define some less variables.
 
-I\'ll say, lt-gray: ddd and so on.
+I&apos;ll say, lt-gray: ddd and so on.
 
 You can see that I have added in a few more less variables here.
 
@@ -13384,7 +13386,7 @@ I defined background dark to be first value, background light and
 background pale and also one more variable called carousel-item-height
 as 300 pixel.
 
-I\'m going to make use of these variables when I define my CSS classes
+I&apos;m going to make use of these variables when I define my CSS classes
 later.
 
 Let me now add in a Mixin for my less file called zero-margin and I will
@@ -13392,8 +13394,8 @@ define pad-up-dn and pad-left-right, 0px being the default value and
 then in here, I set margin: 0px auto, padding: pat-up-dn and
 pad-left-right.
 
-With this, I have defined the Mixin that I\'m going to make use of in my
-CSS classes that we\'ll define later.
+With this, I have defined the Mixin that I&apos;m going to make use of in my
+CSS classes that we&apos;ll define later.
 
 And this carries two parameters pad-up-dn and pad-left-right.
 
@@ -13408,8 +13410,8 @@ with the parameters 50 pixel and 0 pixel, a footer where I define the
 background color using the variable that have defined earlier as
 background-pale and then jumbotron with the zero-margin Mixin and the
 background color defined as background-light, and some of these other
-ones which are standard CSS classes, which I\'ve included there because
-I\'m going to make use of them in my web page and then you have
+ones which are standard CSS classes, which I&apos;ve included there because
+I&apos;m going to make use of them in my web page and then you have
 navbar-dark for which the background color I did define us
 background-dark.
 
@@ -13441,18 +13443,18 @@ Now, I want to be able to automatically convert this into their
 corresponding CSS file.
 
 To automatically convert my less file into its corresponding CSS file,
-I\'m going to make use of a node module called as less.
+I&apos;m going to make use of a node module called as less.
 
 To install that at the prompt, I type sudo npm install minus g less. I
 install this as a global node module.
 
-And once that is installed, then it\'ll make available a less compiler
+And once that is installed, then it&apos;ll make available a less compiler
 called as lessc at the command prompt.
 
-If you are running this on a Windows machine, you don\'t need to do
+If you are running this on a Windows machine, you don&apos;t need to do
 sudo, as you probably already recall.
 
-Now that we have installed the lessc compiler, I\'m going to compile my
+Now that we have installed the lessc compiler, I&apos;m going to compile my
 less code into its corresponding CSS code.
 
 To do that, let me go into the CSS folder and then here, you will see
@@ -13646,20 +13648,20 @@ generating the CSS file by compiling the Less code.
 
 <h4>Exercise: Scss</h4>
 
-We\'ll now move on to the next exercise, where we will use SCSS syntax
+We&apos;ll now move on to the next exercise, where we will use SCSS syntax
 to define our SCSS classes and automatically convert them into their
 corresponding CSS classes.
 
-We\'ll be doing exactly the same set of steps that we did for the last
+We&apos;ll be doing exactly the same set of steps that we did for the last
 exercise that we completed just now, but using the SCSS syntax.
 
-To get started, in your project in the CSS folder, let\'s create a new
+To get started, in your project in the CSS folder, let&apos;s create a new
 file and name it as style start SCSS.
 
-Now in this file we\'ll define our SCSS classes and then automatically
+Now in this file we&apos;ll define our SCSS classes and then automatically
 convert that into our CSS classes.
 
-In there, let\'s start out by first defining the variables, so I\'ll
+In there, let&apos;s start out by first defining the variables, so I&apos;ll
 start out with light gray,
 
 I have now added in a few more variables here again with the same names
@@ -13675,11 +13677,11 @@ pad-left-right, and we define the values as before.
 Now that we have completed defining the mixin, we can make use of it in
 our SCSS classes that we define later.
 
-Let\'s now define some SCSS classes, so I\'ll define the row header
+Let&apos;s now define some SCSS classes, so I&apos;ll define the row header
 which I will make use of the zero margin mixin with the values zero
 pixel here.
 
-We\'ll continue to define a few more classes that they will add in here,
+We&apos;ll continue to define a few more classes that they will add in here,
 so you can see that I have defined along with the row header and the row
 content where I used the mixins and the footer and Jumbotron address and
 so on, and you can see the use of the variables that we have defined
@@ -13690,18 +13692,18 @@ this video.
 
 Next we will add in if you nesting classes.
 
-Just like we did in the last exercise, we\'ll add in the carousel class
-with the background set to background dark and then inside where we\'ll
+Just like we did in the last exercise, we&apos;ll add in the carousel class
+with the background set to background dark and then inside where we&apos;ll
 nest a carousel item class with the height set to carousel item height,
 and then another inner class colors image with some properties there,
 and then the carousel button class as we defined earlier.
 
-With this, we have made the changes to our SCSS classes, so let\'s save
+With this, we have made the changes to our SCSS classes, so let&apos;s save
 the changes.
 
 Now, we need to convert this into its corresponding CSS file.
 
-To convert our SCSS source code into the corresponding CSS code, we\'re
+To convert our SCSS source code into the corresponding CSS code, we&apos;re
 going to take the help of yet another node module called node-sass.
 
 Let's install the node module by typing npm install save dev\--save dev
@@ -13710,15 +13712,15 @@ and then node-sass.
 This way, we will save this node-sass package as a development
 dependency in our package.json file.
 
-Once the installation is complete, we\'re going to add in a script into
+Once the installation is complete, we&apos;re going to add in a script into
 our package.json file.
 
 Going to our package.json file, if you scroll up you would see that in
 the dev dependencies, now the node-sass is also added into the dev
 dependencies.
 
-We\'ll now add a script into our package.jsm file, so right half of this
-slide, I\'m going to add in a script named SCSS and then this script
+We&apos;ll now add a script into our package.jsm file, so right half of this
+slide, I&apos;m going to add in a script named SCSS and then this script
 will be node-sass -o CSS/, meaning that the output of this the converted
 files will be in the CSS folder, and the source here will also be in the
 CSS folder.
@@ -13726,11 +13728,11 @@ CSS folder.
 All the files with the extension.SCSS will be converted and the
 corresponding.CSS files will be generated by this node-sass.module.
 
-Let\'s save the changes and then we\'ll go to the command prompt and
+Let&apos;s save the changes and then we&apos;ll go to the command prompt and
 then type in npm run SCSS and this will take care of doing our
 conversion.
 
-Going to the command prompt, we\'ll type npm run SCSS and this should
+Going to the command prompt, we&apos;ll type npm run SCSS and this should
 automatically convert all our SCSS files into the corresponding CSS
 files.
 
@@ -13758,7 +13760,7 @@ some customization options being defined here.
 
 Various customization options you can see that these variables are all
 defined using the Sass syntax here, and also under "Build tools",
-it\'ll explain to you how you can do your own customization of
+it&apos;ll explain to you how you can do your own customization of
 Bootstrap.
 
 Now, I would strongly recommend you not to try this until you have
@@ -13968,7 +13970,7 @@ generating the CSS file by compiling the Scss code.
 <h4>Assignment 4: Bootstrap, JQuery and Sass</h4>
 
 We come to the final assignment of this course. In this fourth
-assignment, you\'re going to work with bootstraps, JQuery support and
+assignment, you&apos;re going to work with bootstraps, JQuery support and
 also a little bit of Sass. This assignment consists of four tasks.
 
 Your <b>first</b> task would be to remove all that data-attributes from
@@ -13977,7 +13979,7 @@ both the login link here and the reserve of tables here.
 Now, in this assignment, we are going to trigger the models using
 JavaScript code.
 
-To do that, we\'ll first remove the data-attributes, both from the
+To do that, we&apos;ll first remove the data-attributes, both from the
 reserve model and the login model as our first task in this assignment.
 
 Your <b>second</b> task is to add appropriate JavaScript code by using the
@@ -13996,7 +13998,7 @@ Now, in order for this to work, you need to give appropriate IDs both to
 the reserve table button and the login link such that they can then be
 referenced in your JavaScript code.
 
-That\'s a hint for you, how you can go ahead and proceed with the
+That&apos;s a hint for you, how you can go ahead and proceed with the
 implementation of this.
 
 The use of the JavaScript methods should be quite straightforward.
@@ -14010,7 +14012,7 @@ colorful.
 
 Here is the reserve table model, and here is the login model.
 
-As part of the fourth task of this assignment, you\'re going to add in
+As part of the fourth task of this assignment, you&apos;re going to add in
 some SCSS code into the styles start SCSS file, such that the colors are
 appropriately set.
 
@@ -14084,7 +14086,7 @@ available.
 Then our second set of steps that we need to undergo before your website
 is ready for deployment on a web server.
 
-This is what we\'re going to look at in this and the next lesson.
+This is what we&apos;re going to look at in this and the next lesson.
 
 As I mentioned, web development and deployment involves a lot of
 repetitive tasks.
@@ -14099,13 +14101,13 @@ convert that code into the corresponding CSS code.
 Thereafter, you need to do additional processing on your CSS files like
 minification, compaction, and concatenation.
 
-We\'ll talk a little bit more about these in the next few slides.
+We&apos;ll talk a little bit more about these in the next few slides.
 
 Similarly, with your JavaScript code, you need to do JSHinting, checking
 for potential errors.
 
 Then concatenation of various script files and then even uglification
-and the mangling of the code. We\'ll talk a little bit about that in the
+and the mangling of the code. We&apos;ll talk a little bit about that in the
 next few slides.
 
 All these tasks are repetitive tasks, which we would like to automate as
@@ -14115,13 +14117,13 @@ building of our website, rather than these repetitive tasks.
 The DRY principle, do not repeat yourself principle, is very essential
 in this case.
 
-We don\'t want to be wasting our time on such repetitive combustion
+We don&apos;t want to be wasting our time on such repetitive combustion
 tasks, and instead, try to automate them as far as possible so that they
 can be executed whenever required.
 
-Let\'s talk about some of these repetitive tasks in a bit more detail.
+Let&apos;s talk about some of these repetitive tasks in a bit more detail.
 
-Let\'s take the example of CSS as a case.
+Let&apos;s take the example of CSS as a case.
 
 When we write CSS code, we often write the code using one of the
 preprocessing languages likes Less or Sass.
@@ -14138,7 +14140,7 @@ be automatically done for us.
 Similarly, once your CSS code is written, obviously, the way we write
 CSS code is to be humanly readable.
 
-But for a machine, it doesn\'t really care whether there are enough
+But for a machine, it doesn&apos;t really care whether there are enough
 spaces between the code or whether it is properly formatted or not.
 
 Minification is the process of removing all the unnecessary characters,
@@ -14155,14 +14157,14 @@ You may want to concatenate all of them into a single CSS file at the
 end, so that only a single CSS file needs to be downloaded by the
 browser when it is rendering your website.
 
-Concatenation is yet another task that is involved when you\'re building
+Concatenation is yet another task that is involved when you&apos;re building
 your website.
 
 Similarly, when you write JavaScript code, whether it is pure JavaScript
 or jQuery or one of the frameworks that we will use in the future
 courses of this specialization, you would need to write JavaScript code.
 
-Once you\'ve written the JavaScript code, you\'ll want to be able to
+Once you&apos;ve written the JavaScript code, you&apos;ll want to be able to
 check the JavaScript code for errors and potential problems.
 
 Things like missing semicolons, Improper use of the language, and so on,
@@ -14184,11 +14186,11 @@ comments and so on.
 And mangling of the code, meaning reducing the names of the local
 variables to single letters wherever feasible.
 
-Now, from a perspective of a computer, it doesn\'t really care what the
+Now, from a perspective of a computer, it doesn&apos;t really care what the
 code looks like as long as it works correctly.
 
 For human readable format, we obviously write code in a lot more
-elaborate manner, so that it\'s easier for us to follow what the code is
+elaborate manner, so that it&apos;s easier for us to follow what the code is
 doing.
 
 When you actually deploy, you may wish to remove all the extraneous
@@ -14215,7 +14217,7 @@ Once your website is ready, you may want to compact those images so that
 you optimize the file sizes, so that their images will be minimum sized
 files to be deployed.
 
-Similarly, while you\'re doing development, you may be making
+Similarly, while you&apos;re doing development, you may be making
 modifications to, for example, your Sass files or your JavaScript code.
 
 When such modifications are done, you want to be able to automatically
@@ -14231,9 +14233,9 @@ automatically executed.
 This will free up a lot of our time from doing repetitive tasks
 manually.
 
-We\'ll look at some of this in more detail in the exercises that follow.
+We&apos;ll look at some of this in more detail in the exercises that follow.
 
-One other aspect, while you\'re doing your development, is to be able to
+One other aspect, while you&apos;re doing your development, is to be able to
 serve up your code and watch the code in your browser.
 
 We have seen the use of the live server in our previous development,
@@ -14246,7 +14248,7 @@ For this, we need server and livereload mechanism, and live server that
 we saw earlier is one such example of how we can achieve this.
 
 Finally, if you are writing code, you obviously need to carry out
-testing of your code, which, in Bootstrap\'s case, is a lot less of
+testing of your code, which, in Bootstrap&apos;s case, is a lot less of
 consideration.
 
 But as you go on to use various JavaScript frameworks, testing becomes
@@ -14260,16 +14262,16 @@ The steps involved in building up your site for deployment, what we call
 as building up the distribution files, is also an equally important
 task.
 
-We\'ll look at some of these through examples in the next exercise and
+We&apos;ll look at some of these through examples in the next exercise and
 also the next lesson where we will look at task runners.
 
 <h4>NPM Scripts</h4>
 
-As a first approach to automating our tasks, let\'s look at the example
+As a first approach to automating our tasks, let&apos;s look at the example
 of using NPM scripts. Indeed, we had already started using NPM scripts
 in this course in the earlier lessons.
 
-Let\'s quickly revisit our package.json file to see how we have used a
+Let&apos;s quickly revisit our package.json file to see how we have used a
 couple of NPM scripts in our package.json file to automate a couple of
 tasks.
 
@@ -14301,7 +14303,7 @@ transforming them into the corresponding CSS code.
 
 And to execute this, we typed NPM run SCSS at the command prompt.
 
-We\'ve already see that we have used a couple of NPM scripts to automate
+We&apos;ve already see that we have used a couple of NPM scripts to automate
 some tasks during our web development.
 
 To summarize, NPM scripts are supported through this scripts property in
@@ -14408,14 +14410,14 @@ changes to a file and automatically run tasks upon detecting changes.
 
 <h4>Exercise (Video): NPM Scripts Part 2</h4>
 
-We\'ll now continue our journey with NPM scripts in this next exercise.
+We&apos;ll now continue our journey with NPM scripts in this next exercise.
 
-Here, we\'re going to learn how to be able to build a distribution
+Here, we&apos;re going to learn how to be able to build a distribution
 folder which contains all the files for our project that we can simply
 deploy to a web server that hosts our website.
 
 Given the HTML, CSS, and JavaScript files that we have already prepared
-in our project folder, we\'re going to, from those, process them by
+in our project folder, we&apos;re going to, from those, process them by
 using the various tasks that we talked about.
 
 That is doing a CSS modification, concatenation, and JavaScript
@@ -14432,16 +14434,16 @@ files that you included here using this link tag here.
 Similarly, you have a set of scripts that you have included at the
 bottom of this page using the script tag.
 
-We\'ve included a set of JavaScript code.
+We&apos;ve included a set of JavaScript code.
 
-Now, what we\'re going to do in this exercise is to combine all these
+Now, what we&apos;re going to do in this exercise is to combine all these
 files into a single JavaScript file that will be delivered from our web
 server to a browser that is trying to view our website.
 
 This way, we minimize the number of downloads that the browser needs to
 do in order to render our website.
 
-Similarly, we\'re going to combine all the CSS code into one single CSS
+Similarly, we&apos;re going to combine all the CSS code into one single CSS
 file, so that it can be delivered.
 
 The combined CSS file will contain all the code for Bootstrap plus
@@ -14468,16 +14470,16 @@ To get these tasks to be completed, we need to use a certain set of NPM
 modules to accomplish this.
 
 Now, what we will end up doing is to build a folder in our projects
-file, and then we call that folder as dist, D-I-S-T. I\'m just randomly
+file, and then we call that folder as dist, D-I-S-T. I&apos;m just randomly
 naming that as a dist folder.
 
 In my case, what I mean by the dist folder is a distribution folder.
 
-At the end of the set of steps we\'re going to do, this folder will
+At the end of the set of steps we&apos;re going to do, this folder will
 contain all the files that can be simply copied to the web server that
 hosts our website.
 
-To get started, what we\'re going to do is to set up a set of scripts
+To get started, what we&apos;re going to do is to set up a set of scripts
 here that will help us to automate this process.
 
 First thing, we might prepare the distribution folder once then maybe we
@@ -14487,19 +14489,19 @@ distribution folder.
 First step, we would set up the script for cleaning out that
 distribution folder essentially meaning, delete the distribution folder.
 
-To do that, I\'m going to take the help of an NPM module called as
+To do that, I&apos;m going to take the help of an NPM module called as
 rimfraf.
 
 I will install npm \--save-dev rimfraf. This module helps us to clean
 out a folder completely. So once I have installed this, then I will set
 up a script in my package.json file to clean out all the files.
 
-Going to the package.json file, I\'m going to add in, so remember always
-that coma is very, very important in those scripts. Sometimes you\'ll
+Going to the package.json file, I&apos;m going to add in, so remember always
+that coma is very, very important in those scripts. Sometimes you&apos;ll
 run into problems just because you forgot the comma. So make sure you
 put those commas where necessary.
 
-The next descript that I\'m going to add is, clean, obviously as the
+The next descript that I&apos;m going to add is, clean, obviously as the
 name implies, this is going to clean out my folder.
 
 I will say rimraf dist.
@@ -14507,20 +14509,20 @@ I will say rimraf dist.
 What this means is that this, when executed, will clean out the
 distribution folder.
 
-I will add that in, and then I will put that comma there because I\'m
+I will add that in, and then I will put that comma there because I&apos;m
 going to add more scripts below this.
 
-Let me save the changes, the next step that I\'m going to do is to
+Let me save the changes, the next step that I&apos;m going to do is to
 install an npm module called copy files which are used to copy some font
 files from my node modules folder into my distribution folder.
 
 That when it is deployed, the font files also get deployed.
 
-Going to the terminal, the next package that I\'m going to install is
+Going to the terminal, the next package that I&apos;m going to install is
 npm -g, recall that this means that it should be installed globally.
 
 Since I am doing this on a Mac, I should say sudo npm -g, if you are
-doing it on Windows, you don\'t need the sudo. sudo npm -g install copy
+doing it on Windows, you don&apos;t need the sudo. sudo npm -g install copy
 files.
 
 And then once that is installed ,this NPM module will help me to copy
@@ -14528,7 +14530,7 @@ files from one folder to another folder.
 
 Now, let me introduce another NPM script here.
 
-Going to my package.json file, I\'m going to create a new scrip here
+Going to my package.json file, I&apos;m going to create a new scrip here
 name copyfonts.
 
 This script is going to enable me to copy all the fonts files from my
@@ -14538,18 +14540,18 @@ That when my website is rendered, all these fonts files can also be sent
 out, such that my webpages are rendered correctly with the Font Awesome
 fonts in place.
 
-To do that, I\'ll say, copy files -f, -f means it just simply copies the
+To do that, I&apos;ll say, copy files -f, -f means it just simply copies the
 files without the full of hierarchy and simply copies the files from one
 location to another location.
 
-I\'ll say copy files -f node_modules/font_awesome/fonts/star And
+I&apos;ll say copy files -f node_modules/font_awesome/fonts/star And
 dist/fonts, And then save the changes.
 
 Let me now illustrate how these two npm scripts work together.
 
 Going to my command window, I will type npm run copyfonts.
 
-When this runs, it\'s going to create a folder named dist in my project
+When this runs, it&apos;s going to create a folder named dist in my project
 folder hierarchy.
 
 And then inside the dist, there will be a subfolder named fonts, which
@@ -14565,7 +14567,7 @@ And inside there, all the fontawesome files have been copied.
 
 This is how the copyfonts script works.
 
-Now, I\'m going to show you how the clean script works.
+Now, I&apos;m going to show you how the clean script works.
 
 If I type in npm run clean, this is going to delete that distribution
 folder.
@@ -14578,7 +14580,7 @@ This is how the clean works.
 Now that we have these two scripts set up, we now need to be able to
 build up the remaining distribution files.
 
-In the next step, we\'re going to install a node module called
+In the next step, we&apos;re going to install a node module called
 imagemin-cli, which is the command line interface for the imagemin
 module.
 
@@ -14595,22 +14597,22 @@ If you are including images into your webpage, then imagemin task is
 something that you should learn in order tor reduce the size of your
 image files.
 
-To do that, I\'m going to install this imagemin node module as a global
+To do that, I&apos;m going to install this imagemin node module as a global
 module.
 
-I type in sudo, since I\'m using a Mac, npm -g install imagemin-cli, and
+I type in sudo, since I&apos;m using a Mac, npm -g install imagemin-cli, and
 then install this node module.
 
 Sometimes on a Mac, some of the imagemin plugins do not get installed
-correctly. So that\'s why I\'m giving these additional flags to the
-command, they\'re saying \--unsafe-perm=true and \--allow-root.
+correctly. So that&apos;s why I&apos;m giving these additional flags to the
+command, they&apos;re saying \--unsafe-perm=true and \--allow-root.
 
 Once that installation is complete, let me set up a script in order to
 do that magnification of my images.
 
-Going to package.json again, I\'m going to set up the next script here.
+Going to package.json again, I&apos;m going to set up the next script here.
 
-I would say imagemin is the script name that I\'m going to do, and I
+I would say imagemin is the script name that I&apos;m going to do, and I
 would say imagemin.
 
 And then since all my images are in the img folder, I would say img/\*,
@@ -14622,24 +14624,24 @@ copied into the distribution folder and into the image subfolder there.
 This completes my imagemin.
 
 Let me proceed forward with the remaining set up, and then we will see
-how we\'ll make use of thescripts that we have already set up there.
+how we&apos;ll make use of thescripts that we have already set up there.
 
-Now that I have the test folder in there, which I might create, I don\'t
+Now that I have the test folder in there, which I might create, I don&apos;t
 want to check in the dist folder into my Git repository.
 
-That\'s why into my .gitignore file, I\'m going to add in the dist
+That&apos;s why into my .gitignore file, I&apos;m going to add in the dist
 folder also.
 
 The dist folder will be ignored when I do my check into the Git
 repository.
 
-Let\'s save the changes, going back to package.json.
+Let&apos;s save the changes, going back to package.json.
 
-Now, what I\'m going to do next is to install three different node
+Now, what I&apos;m going to do next is to install three different node
 modules, which enable me to do the modifications to my index.html file
 and the remaining HTML files there.
 
-At the command prompt, type in npm install \--save dev. I\'m going to
+At the command prompt, type in npm install \--save dev. I&apos;m going to
 install a module called as usemin-cli.
 
 This usemin-cli is the one that allows me to do the transformation from
@@ -14658,12 +14660,12 @@ the cssmin, then uglifyjs, and htmlmin.
 
 I need to install these three node modules in addition to usemin-cli.
 
-And I\'m going to install this locally into my project, so that\'s why
+And I&apos;m going to install this locally into my project, so that&apos;s why
 npm install \--save-def.
 
 This way, they will be remembered in my package.json file.
 
-Let\'s go ahead and complete the installation.
+Let&apos;s go ahead and complete the installation.
 
 Now that I have installed the usemin and the related node modules, I
 need to do some transformation to my index.html file and the remaining
@@ -14678,13 +14680,13 @@ uglyfied, combined, and concatenated together.
 To help the usemin package work, I need to add in a little bit of code
 into my index.html file.
 
-Right before the first link there, I\'m going to add in a mark up here,
+Right before the first link there, I&apos;m going to add in a mark up here,
 which says !\-- build:css.
 
-Now, this !\--, as you\'ll recognize, is a comment from html
+Now, this !\--, as you&apos;ll recognize, is a comment from html
 perspective.
 
-Inside that comment, I\'m going to include that this particular line is
+Inside that comment, I&apos;m going to include that this particular line is
 going to be used by the use menu in order to recognize the block of code
 that specifies all the CSS files that need to be transferred.
 
@@ -14701,7 +14703,7 @@ Hyphen \--, okay, sorry.
 
 I forgot to include double dash at the end there.
 
-That\'s the reason why this was not turning colors.
+That&apos;s the reason why this was not turning colors.
 
 Sometimes you are happy that your editor is pointing out this potential
 mistakes that you might be committing.
@@ -14714,23 +14716,23 @@ treated as a unit for being combined by our usemin npm module there.
 Watch the syntax the usemin module uses there. I need to do the same
 transformation to contactus.html and aboutus.html also.
 
-I\'m going to copy this one here the lazy one that I am.
+I&apos;m going to copy this one here the lazy one that I am.
 
 I will simply just copy and paste into contactus.html and then also
 aboutus.html there.
 
-Similarly, going back to the index.html, I\'ll copy this inbuild and
+Similarly, going back to the index.html, I&apos;ll copy this inbuild and
 then also copy that into contactus.html and aboutus.html data.
 
-Okay, let\'s save the changes to all the files.
+Okay, let&apos;s save the changes to all the files.
 
-Then, going to back to index.html. I\'m going to repeat the same thing
-at the bottom for my JavaScript scripts that I\'ve included there.
+Then, going to back to index.html. I&apos;m going to repeat the same thing
+at the bottom for my JavaScript scripts that I&apos;ve included there.
 
 Going to the bottom here, what I need to do here, is to specify \<!\--
 build js, and I will say js/main.js. Double hyphen, slash.
 
-That\'s the starting of the block and then the ending is specified by,
+That&apos;s the starting of the block and then the ending is specified by,
 Build, okay?
 
 With these changes, now, my index.html file is ready, and I have to do
@@ -14748,7 +14750,7 @@ distribution folder.
 These files will remain as such, but then the transformed files will be
 put into the distribution folder created from these files.
 
-Now, once we complete that, let\'s set up some scripts.
+Now, once we complete that, let&apos;s set up some scripts.
 
 Going to package.json, I will set up my next script called usemin.
 
@@ -14759,12 +14761,12 @@ dist folder.
 And then I would say htmlmin, this is also going to minimize the HTML
 file.
 
-It\'ll remove all the extraneous spaces and comments from the HTML file.
+It&apos;ll remove all the extraneous spaces and comments from the HTML file.
 
 But they compress it down so that it contains the minimum number of
 characters there.
 
-We\'ll look at the result after we complete and do the transformation
+We&apos;ll look at the result after we complete and do the transformation
 there.
 
 That and then, not only that, and then htmlmin, and then say -o
@@ -14774,23 +14776,23 @@ this.
 Then I will say usemin then aboutus.html -d dist \--htmlmin -o
 dist/aboutus.html.
 
-That\'s the second one for transforming the aboutus.html file.
+That&apos;s the second one for transforming the aboutus.html file.
 
 And then &&, this is a long script, usemin index.html, we need to
 transform all the files.
 
-That\'s why I need to specify each one explicitly there. usemin doesn\'t
-take wild cards, so that\'s the reason why I have to specify the holding
+That&apos;s why I need to specify each one explicitly there. usemin doesn&apos;t
+take wild cards, so that&apos;s the reason why I have to specify the holding
 like \[INAUDIBLE\].
 
 And usemin index.html -d dist \--htmlmin -o dist/index.html.
 
-And then after that I put a comma because I\'m going to introduce the
+And then after that I put a comma because I&apos;m going to introduce the
 next script, which is, Called build.
 
 This build script will create my distribution folder.
 
-To create my distribution folder, the first thing that I\'m going to do
+To create my distribution folder, the first thing that I&apos;m going to do
 is npm run clean.
 
 And then npm run copyfonts.
@@ -14803,7 +14805,7 @@ And this particular script will build up my distribution folder, the
 contents of which can then be copied to my web server to solve up my
 pitch.
 
-Save the changes. Let\'s now see how we build up the website.
+Save the changes. Let&apos;s now see how we build up the website.
 
 At this point, to build up our website and the command prompt is simply
 type npm run build and then just execute.
@@ -14812,7 +14814,7 @@ That script, which in turn will execute a set of either scripts,which in
 turn will complete the entire set of tasks that have to be executed in
 order to prepare my distribution folder.
 
-Let\'s go ahead and run this thing and then this will run through all
+Let&apos;s go ahead and run this thing and then this will run through all
 the different scripts there.
 
 It takes a few minutes for it to complete, and when it is completed,
@@ -14834,7 +14836,7 @@ combined together into one single file.
 The image will contain the optimized images, and the fonts, obviously,
 you have seen earlier, contain the font files.
 
-Now, let\'s take a quick look at index.html that has been created here.
+Now, let&apos;s take a quick look at index.html that has been created here.
 
 When you look at the index.html that has been created here, you will
 notice that the whole thing is literally unreadable, because when you
@@ -14842,15 +14844,15 @@ did HTML min it has stripped off all the extraneous comments, it has
 stripped off all the spaces, and then created this whole running set of
 characters.
 
-To the computer it doesn\'t make any difference because it will render
+To the computer it doesn&apos;t make any difference because it will render
 this webpage just as well.
 
-To you and me, it makes a difference, because we can\'t read this
+To you and me, it makes a difference, because we can&apos;t read this
 easily.
 
 This is what minification causes to your HTML file.
 
-Let\'s take a look at the main.css.
+Let&apos;s take a look at the main.css.
 
 When you look at the main.css you see the whole thing is crunched up
 into one single unit, as you go to the bottom.
@@ -14860,20 +14862,20 @@ the, You will see hours specifically written CSS classes right down at
 the bottom here.
 
 Right there, you recognize carousel button, and other things,
-nabber-dark, and other things there, so it\'s all scrunched up into.
+nabber-dark, and other things there, so it&apos;s all scrunched up into.
 
-That\'s what minification, and costs. Main.js, same thing. Unreadable
+That&apos;s what minification, and costs. Main.js, same thing. Unreadable
 code there.
 
 Their computer, no difference.
 
 With this, our distribution folder is now complete.
 
-Let\'s check out our distribution folder.
+Let&apos;s check out our distribution folder.
 
 Fortunately, we have our light server already running.
 
-What I\'m going to do is to go to the browser, and then check out the
+What I&apos;m going to do is to go to the browser, and then check out the
 index ready CLM file in this distribution folder to see whether it is
 being rendered correctly or not.
 
@@ -15143,13 +15145,13 @@ This is where the task runners came into the picture.
 
 Grunt, Gulp, Cake, Brunch, Broccoli.
 
-What\'s this obsession with food?
+What&apos;s this obsession with food?
 
-Well when you\'re sitting in a single place for a long time, you develop
+Well when you&apos;re sitting in a single place for a long time, you develop
 a big appetite, Grunt and Gulp being the two most successful in this
 field.
 
-We\'ll look at both of them in more detail in this lesson.
+We&apos;ll look at both of them in more detail in this lesson.
 
 These enable us to double up automated tasks for executing and building
 and deploying our website.
@@ -15158,7 +15160,7 @@ As I mentioned, the JavaScript based task runners, the two of them in
 particular that we will deal with in this lesson are Grunt and Gulp.
 
 runt operates based on doing configuration whereas Gulp concentrates
-more on code. We\'ll look at the two of them in more detail as we go
+more on code. We&apos;ll look at the two of them in more detail as we go
 along.
 
 But both of them pretty much enable us to accomplish the same kind of
@@ -15172,7 +15174,7 @@ plugins that enable you to perform these kinds of tasks.
 So Grunt and Gulp together with their plugins enable us to configure and
 execute various tasks.
 
-If you ask me, is Grunt better or is Gulp better, that\'s a tough
+If you ask me, is Grunt better or is Gulp better, that&apos;s a tough
 question to answer.
 
 The Grunt people are grunting all over, saying that theirs is the best
@@ -15186,7 +15188,7 @@ their money.
 But, from my perspective, I look at any of these tools as just
 mechanisms to get my work done.
 
-So long as it gets my work done, I\'m happy with it.
+So long as it gets my work done, I&apos;m happy with it.
 
 If one makes it easier to accomplish a set of tasks that has, then I
 choose the one over the other for that particular project.
@@ -15195,10 +15197,10 @@ My take is event VM scripts satisfies you, stable them.
 
 If Grunt is the way to go, be my guest.
 
-If Gulp is worth satisfies you, take you a big gulp and you\'ll be
+If Gulp is worth satisfies you, take you a big gulp and you&apos;ll be
 satisfied.
 
-Having said that, let\'s take a look at both Grunt and Gulp.
+Having said that, let&apos;s take a look at both Grunt and Gulp.
 
 I will show you how you perform the same set of tasks that I did with
 the npm scripts in the previous lesson and the exercise.
@@ -15208,16 +15210,16 @@ tasks in the exercises that follow this lecture.
 
 <h4>Exercise (Video): Grunt Part 1</h4>
 
-Time to start Grunting. In this and the next exercise we\'re going to
+Time to start Grunting. In this and the next exercise we&apos;re going to
 repeat the same kind of setup as we did with the NPM scripts.
 
-In the first part, we\'re going to set up the conversion from SCSS to
+In the first part, we&apos;re going to set up the conversion from SCSS to
 CSS.
 
-Then we\'ll set up a watch task and also serve up the code using browser
+Then we&apos;ll set up a watch task and also serve up the code using browser
 sync.
 
-In the second part of the exercise, we\'ll make use of Usman and the
+In the second part of the exercise, we&apos;ll make use of Usman and the
 various tasks to prepare the distribution fold.
 
 These exercises are by no means the only way of implementing Grunt
@@ -15245,13 +15247,13 @@ Grunt minus minus save dev.
 Then install the Grunt locally.
 
 Once you have completed those two steps, the next step is to go to our
-project and then create a new file, and we\'ll name it as Gruntfile.js.
+project and then create a new file, and we&apos;ll name it as Gruntfile.js.
 
-Inside this Gruntfile.js, we\'ll set up the code for configuring our
+Inside this Gruntfile.js, we&apos;ll set up the code for configuring our
 Grunt tasks.
 
-In this file, the first step is to add \'use strict\' meaning, \'use
-strict\' JavaScript code.
+In this file, the first step is to add &apos;use strict&apos; meaning, &apos;use
+strict&apos; JavaScript code.
 
 Then you say module.exports = function (grunt).
 
@@ -15263,14 +15265,14 @@ We will install the various Grunt plug-ins for the various tasks and
 then configure them in our Grunt file.
 
 To do the configuration, we will add in the code here, saying:
-grunt.initConfig and inside this initConfig, we\'ll add in the
-configuration for the wheel\'s Grunt tasks.
+grunt.initConfig and inside this initConfig, we&apos;ll add in the
+configuration for the wheel&apos;s Grunt tasks.
 
-Once you complete this, let\'s save the changes. In our next step, we
+Once you complete this, let&apos;s save the changes. In our next step, we
 will set up a few Grunt plug-ins to enable us to convert SCSS code into
 CSS code.
 
-To do that, I\'ll install a NPM module called Grunt SASS \-- Grunt SASS,
+To do that, I&apos;ll install a NPM module called Grunt SASS \-- Grunt SASS,
 save def.
 
 In addition to this, I will set up two more Grunt modules called, NPM
@@ -15287,7 +15289,7 @@ whenever they are required within any application.
 The other alternative is to load in the various Grunt modules explicitly
 in your Grunt config file.
 
-I prefer to use the Jit Grunt so that it\'ll take care of loading in
+I prefer to use the Jit Grunt so that it&apos;ll take care of loading in
 whatever Grunt plug-ins that I need as may be required, as in when I
 make use of them in the code.
 
@@ -15303,17 +15305,17 @@ We will deal with the structure of node modules and why we use this
 approach in the server-side node modules course later on in the
 specialization.
 
-For the moment, just accept that that\'s how the code is written for
+For the moment, just accept that that&apos;s how the code is written for
 Grunt, because the Grunt file is itself a node module that is going to
 load in various Grunt plug-ins.
 
 After we do that, we are going to require a couple of Grunt plugins
 here.
 
-To do that, we\'ll say require(\'time- grunt\'), and we\'ll say grunt
+To do that, we&apos;ll say require(&apos;time- grunt&apos;), and we&apos;ll say grunt
 versus the configuration that we use for loading in the Time Grunt.
 
-To require, as you\'ll learn later when you learn about node modules, is
+To require, as you&apos;ll learn later when you learn about node modules, is
 a way of saying that load in the Time Grunt node module to be used
 within this particular node module.
 
@@ -15327,7 +15329,7 @@ doing various tasks.
 The alternative would be to manually load in each and every one of those
 Grunt plug-ins explicitly by using the required statement.
 
-I\'m saving myself a little bit of trouble by just using Jit Grunt,
+I&apos;m saving myself a little bit of trouble by just using Jit Grunt,
 which takes care of loading those node modules when required.
 
 Now moving into the configuration, as we understood, Grunt works on
@@ -15339,7 +15341,7 @@ This configuration basically is a JavaScript object basically. If you
 are familiar with JavaScript objects, you begin to understand the syntax
 very, very quickly.
 
-The first task that I\'m going to configure is SASS.
+The first task that I&apos;m going to configure is SASS.
 
 I type in SASS here, and then inside SASS, I say dist. Now you have to
 believe that this is how the configuration is done.
@@ -15357,18 +15359,18 @@ by saying "grunt.registerTask", and then I will call this task CSS,
 and then I will, in scribe brackets, say "SASS."
 
 Now, to understand the syntax here, this as you can see it says
-"grunt.registerTask" and this task\'s name is CSS.
+"grunt.registerTask" and this task&apos;s name is CSS.
 
 And what does this task involve? This task involves executing the SASS
 task which has already been configured here.
 
 This is how we read this syntax here.
 
-If you don\'t wish to, you don\'t need to configure this, because we\'ll
+If you don&apos;t wish to, you don&apos;t need to configure this, because we&apos;ll
 employ SASS together with the watch task for automatically running the
 SASS when our SCSS file is changed.
 
-With this, let\'s save the changes.
+With this, let&apos;s save the changes.
 
 Let me show you this particular task in action.
 
@@ -15377,7 +15379,7 @@ you can type "grunt.CSS" and then it will execute the task of
 converting the sass code to CSS code.
 
 Going to your command prompt, at the prompt, type in "grunt.CSS" and
-you\'ll see the SASS task executing and then converting styles.sess file
+you&apos;ll see the SASS task executing and then converting styles.sess file
 to styles.CSS file.
 
 Also, as you can see, the Time Grunt will print out statistics like this
@@ -15385,12 +15387,12 @@ to indicate how much time each of those tasks took.
 
 If that is of interest to you, then you can look at these details here.
 
-In our next step, we\'re going to configure the watch and the server, in
+In our next step, we&apos;re going to configure the watch and the server, in
 order to keep a watch on the SASS files and automatically convert them
-when they are changed, and then we\'ll set up the server, using
+when they are changed, and then we&apos;ll set up the server, using
 browserSync for serving up our website.
 
-To set up the Watch and Serve Tasks, I\'m going to install a couple of
+To set up the Watch and Serve Tasks, I&apos;m going to install a couple of
 more grunt plug-ins, so I will say npm install, grunt-contrib-watch
 minus save-dev.
 
@@ -15400,13 +15402,13 @@ Grunt plug-in which is a node module, so install that.
 
 The Watch plugin-in enables you to keep a watch on your various files.
 
-The next plug-in that I\'m going to install is grunt-browser-sync.
+The next plug-in that I&apos;m going to install is grunt-browser-sync.
 
-The browserSync module is the one that I\'m going to make use of, for
+The browserSync module is the one that I&apos;m going to make use of, for
 saving up the files from my project folder, so that I can see the
 website in a browser.
 
-Once I\'ve installed those two modules, it\'s time to go into my
+Once I&apos;ve installed those two modules, it&apos;s time to go into my
 grunt.initconfig, and then configure the two tasks.
 
 One for keeping a watch, the second one for serving up the files using
@@ -15417,16 +15419,16 @@ move onto the next line.
 
 Always remember to put this comma there.
 
-A missing comma causes a lot of headache when you\'re trying to run your
-grunt tasks. It\'s very difficult to identify that you\'ve missed a
+A missing comma causes a lot of headache when you&apos;re trying to run your
+grunt tasks. It&apos;s very difficult to identify that you&apos;ve missed a
 comma.
 
 It is important to pay attention to the syntax and make sure that you
-don\'t miss any of those commas.
+don&apos;t miss any of those commas.
 
-It\'ll come back to bite you at the wrong time.
+It&apos;ll come back to bite you at the wrong time.
 
-The next task, that I\'m going to configure is the watchTask.
+The next task, that I&apos;m going to configure is the watchTask.
 
 I say Watch and what do I want to watch? I want to watch these files,
 which is CSS/\*.SCSS.
@@ -15435,12 +15437,12 @@ This is the SCSS file that I want to watch.
 
 All the SCSS files in my CSS folder.
 
-If any of them are modified, then the corresponding task that I\'m going
+If any of them are modified, then the corresponding task that I&apos;m going
 to execute is, SASS.
 
-The SASS task which I\'ve already configured earlier.
+The SASS task which I&apos;ve already configured earlier.
 
-With this, I\'ve configured my watchTask, to keep a watch on the SCSS
+With this, I&apos;ve configured my watchTask, to keep a watch on the SCSS
 files and then automatically convert them by invoking the SASS.
 
 Now with the watchTask I can actually keep a watch on several files, and
@@ -15451,9 +15453,9 @@ automatically do JS hinting, when my files change.
 
 Or to do identification and so on.
 
-Now, the next one that I\'m going to configure is browserSync.
+Now, the next one that I&apos;m going to configure is browserSync.
 
-Again don\'t forget the comma after the watchTask, and then type in
+Again don&apos;t forget the comma after the watchTask, and then type in
 browserSync.
 
 I would say browserSync here and then for the browserSync, I would say
@@ -15467,7 +15469,7 @@ one of those plug-ins and then figure out how to configure those
 plug-ins.
 
 I have already read the documentation and I have figured out some basic
-setup for each of these tasks so that\'s why I\'m just typing them in.
+setup for each of these tasks so that&apos;s why I&apos;m just typing them in.
 
 Obviously if you want more flexibility, you may wish to read the
 corresponding documentation and then figure out other ways of
@@ -15480,16 +15482,16 @@ Here I specify the bsFiles, so this file specify which files need to be
 watched for by my browserSync and then when any of these files change,
 then my browserSync will cause the browser to be reloaded.
 
-I\'m going to watch all the files in my CSS folder, HTML files in my
+I&apos;m going to watch all the files in my CSS folder, HTML files in my
 project folder, and then all my JavaScript files in the JS folder.
 
-With this I have configured all those files on which I\'m going to keep
+With this I have configured all those files on which I&apos;m going to keep
 a watch, and then automatically cause a reload of my page when required.
 
 And then, the next configuration that I need to do is some more options,
 for my browserSync.
 
-The options that I\'m going to specify is, watchTask true, meaning that
+The options that I&apos;m going to specify is, watchTask true, meaning that
 there is a watchTask running, and the base directory for my server.
 
 I say baseDir, and then I specify, dot slash.
@@ -15497,14 +15499,14 @@ I say baseDir, and then I specify, dot slash.
 The current directory, as my base directory.
 
 With these changes, let me save the changes to my grunt file, and then
-I\'ll go down below and then configure another grunt task, here called
+I&apos;ll go down below and then configure another grunt task, here called
 default.
 
 I would specify the task as default.
 
 For this default task, what do I need to do?
 
-I need to execute browserSync and also second task that I\'m going to do
+I need to execute browserSync and also second task that I&apos;m going to do
 is watch.
 
 I will have to do the browserSync task first and then the watchTask
@@ -15522,15 +15524,15 @@ that you specify in this square brackets.
 With this, my project is now configured, to both keep a watch on my SASS
 files and serve it up whenever required.
 
-This completes my grunt file, let\'s go back to our terminal.
+This completes my grunt file, let&apos;s go back to our terminal.
 
-Going back to my terminal, I\'ve opened another tab and then in this
-tab, I\'m going to run the grunt task, which will also be keeping my
+Going back to my terminal, I&apos;ve opened another tab and then in this
+tab, I&apos;m going to run the grunt task, which will also be keeping my
 browserSync running and will serve up files and automatically reload the
 web page, if any of those files change.
 
 If you configure a task as a default task as we did in the exercise,
-then at the prompt, I just need to type grunt and then it\'ll
+then at the prompt, I just need to type grunt and then it&apos;ll
 automatically execute the default task.
 
 Once my grunt tasks starts running, you can see that it has started the
@@ -15540,7 +15542,7 @@ SCSS task.
 
 To demonstrate to you how the SCSS task will be triggered, whenever I
 make any changes to my styles.SCSS file, so I brought up the styles.SCSS
-file, and I\'m just simply going to save this file.
+file, and I&apos;m just simply going to save this file.
 
 And then you will notice that immediately, on the left side the SASS
 task is invoked and runs and then re-compiles and this also will cause
@@ -15743,43 +15745,43 @@ You were able to start a server with livereload to serve the web page.
 
 <h4>Exercise (Video): Grunt Part 2</h4>
 
-Let\'s continue our grunting.
+Let&apos;s continue our grunting.
 
 As we did in the second part of the NPM scripts exercise, in this second
-part of that grunt exercise, we\'re going to configure exactly the same
+part of that grunt exercise, we&apos;re going to configure exactly the same
 tasks.
 
-We\'re going to do cleaning up the distribution folder, copying the
+We&apos;re going to do cleaning up the distribution folder, copying the
 fonts to the distribution folder, then we will also do the minification
 of our images using imagemin, and then finally use the usemin task to
 build and prepare our distribution folder.
 
 Continuing with our exercise, I will install a couple of grunt modules.
 
-Let\'s install NPM, install-grunt-contrib-copy.
+Let&apos;s install NPM, install-grunt-contrib-copy.
 
 This is used for copying the files and then grunt-contrib-clean, and
 minus save-dev.
 
-And once these two are installed, then we\'ll go ahead and config the
+And once these two are installed, then we&apos;ll go ahead and config the
 corresponding tasks.
 
-Going to your grunt file, we\'ll add in the configuration for both the
+Going to your grunt file, we&apos;ll add in the configuration for both the
 copy and the clean tasks.
 
 Starting with the comma, always remember not to forget the comma.
 
-It\'ll come back to bite you at the wrong moments if you do that.
+It&apos;ll come back to bite you at the wrong moments if you do that.
 
-Let\'s set up the copy task.
+Let&apos;s set up the copy task.
 
 For the copy, usemin expects us to also keep our HTML files copied to
 the distribution folder so that it can do the manipulation on that.
 
-In this case, we\'re going to first copy the HTML files from our project
+In this case, we&apos;re going to first copy the HTML files from our project
 folder to the distribution folder.
 
-To do the copying, I\'m going to set up the HTML part of it.
+To do the copying, I&apos;m going to set up the HTML part of it.
 
 This is where we will use some of the grunt syntax for specifying the
 files that need to be copied.
@@ -15788,12 +15790,12 @@ I say files and also specify the right, left and right braces there so
 within this, I need to specify now certain configuration.
 
 I would say, expand true and dot true, then CWD, the current working
-directory is dot slash, and then after that, we\'ll configure the next
+directory is dot slash, and then after that, we&apos;ll configure the next
 one which is SRC, the source files, and then the source files are
 star.html, all the HTML files, and then we are going to copy them to the
 dist folder.
 
-That\'s why the destination is set to the distribution folder here.
+That&apos;s why the destination is set to the distribution folder here.
 
 With this set up, my copy task will copy all the HTML files to the
 distribution folder.
@@ -15807,20 +15809,20 @@ need to be copied and so we say files, and then these are some
 configuration parameters that you need to set up for the copy task.
 
 Now, if you need to understand, then by reading the documentation for
-the corresponding grunt plugin, you\'ll be able to figure this out and
+the corresponding grunt plugin, you&apos;ll be able to figure this out and
 so or you can just simply follow the example that I am giving here.
 
 So, dot true, and then CWD, the current working directory is node
 modules and font awesome.
 
-That is where I\'m going to copy the files from, and then the source of
+That is where I&apos;m going to copy the files from, and then the source of
 the files is the fontsstar.star, those are the files that I need to
 copy, and the destination is the distribution folder.
 
 With this, I have set up my copy task to copy both the HTML files and
 the fonts files into my distribution folder.
 
-Now, the next task that I\'m going to set up is the clean task.
+Now, the next task that I&apos;m going to set up is the clean task.
 
 Let me configure the clean task.
 
@@ -15830,10 +15832,10 @@ source is the distribution folder.
 Essentially specifying that the distribution folder should be cleaned
 up.
 
-Now we have set up the copy and the clean tasks so let\'s save the
+Now we have set up the copy and the clean tasks so let&apos;s save the
 changes.
 
-The next task that I\'m going to set up is the imagemin task.
+The next task that I&apos;m going to set up is the imagemin task.
 
 This is what we will use to compress and copy the images into the
 distribution folder.
@@ -15843,17 +15845,17 @@ corresponding grunt plugin.
 
 So, grunt-contrib-imagemin, minus minus save.dev.
 
-And once that is installed, then we\'ll go ahead and configure the
+And once that is installed, then we&apos;ll go ahead and configure the
 corresponding imagemin task.
 
-Going to our grunt file after the configuration for the clean task, I\'m
+Going to our grunt file after the configuration for the clean task, I&apos;m
 going to configure the imagemin task.
 
 I will say imagemin, and then right in there, I will specify dynamic,
 and inside there I will specify the files so you can see that the file
 specification would be similar.
 
-I\'d say, expand true, then CWD is the current directory.
+I&apos;d say, expand true, then CWD is the current directory.
 
 Then the source of the files is imagestar. and then within brackets,
 within braces, I specify PNG, GIF, and JPG.
@@ -15866,7 +15868,7 @@ destination, I set as the distribution folder.
 
 With this, we have configured our copy, clean and imagemin task.
 
-Let\'s configure a task here called build.
+Let&apos;s configure a task here called build.
 
 I would say, register task, grunt register task and then I will name the
 task as build, and then inside this, we will specify the set up steps to
@@ -15887,7 +15889,7 @@ These three tasks to be configured here.
 
 With this, let me save the changes.
 
-Let\'s see how this thing works.
+Let&apos;s see how this thing works.
 
 Now, going to the prompt if I type, grunt and build, you will see that
 it will first do the clean, then to do the copy and do the imagemin
@@ -15900,11 +15902,11 @@ And inside the distribution folder you can see that the fonts have been
 copied, the images have been copied and the three HTML files have been
 copied to the distribution folder.
 
-You\'re only halfway there.
+You&apos;re only halfway there.
 
 Now, we need to be able to process these files using the usemin plugin.
 
-Let\'s go to that next. Now, I\'m going to install a few NPM modules
+Let&apos;s go to that next. Now, I&apos;m going to install a few NPM modules
 that are useful for building the distribution folder.
 
 To do that, I would say NPM install.
@@ -15917,7 +15919,7 @@ grunt-contrib-htmlmin, then say, grunt-contrib-uglify.
 
 Then grunt-filerev.
 
-You\'ll see the reason for using filerev in a short while, and then
+You&apos;ll see the reason for using filerev in a short while, and then
 grunt-usemin, and save def and then, install all this grunt modules.
 
 Once all of them have been installed, the next step is to go and
@@ -15926,7 +15928,7 @@ accomplish the building of the distribution folder.
 
 Now, let's proceed ahead configuring the usemin task.
 
-Going back to the grunt file after imagemin, I\'m going to add in the
+Going back to the grunt file after imagemin, I&apos;m going to add in the
 next task for usemin to work with the grunt.
 
 The first task that I need to configure is called useminPrepare.
@@ -15935,14 +15937,14 @@ This useminPrepare task will prepare the files and then also configure
 the ConCache CSS min and Uglify and file ref plugins, so that they can
 do their work correctly.
 
-That\'s the reason for the useminPrepare.
+That&apos;s the reason for the useminPrepare.
 
 This is how the grant usemin plugin has been designed.
 
 Somewhat different from the way the usemin that we used with the end
 game scripts wooks.
 
-In the useminPrepare, just some random name that I\'m going to use and
+In the useminPrepare, just some random name that I&apos;m going to use and
 then say destination is dist.
 
 And then I would specify the source as all the html files here.
@@ -15998,7 +16000,7 @@ Apparently I need to supply this in order for my cssmin task to
 currently handle the font awesome modification and inclusion in the
 concatenated file.
 
-If I don\'t do this, it seems to break the font awesome and this is
+If I don&apos;t do this, it seems to break the font awesome and this is
 something that I figured out, by doing a little bit of research on stack
 overflow and some of these places and figured out that their problem
 that is being caused with font awesome can be fixed by including this
@@ -16008,7 +16010,7 @@ Again I have just looked up the suggestions from some people that have
 tried and to fix the problem.
 
 If you run into problems like this, this is one way of solving issues
-that might arise when you\'re working with these various tools.
+that might arise when you&apos;re working with these various tools.
 
 Let me add in the next task for Concat. I will specify some things here
 and options.
@@ -16022,14 +16024,14 @@ We can leave most of it blank there, and then that would be reconfigured
 by the useminPrepare.
 
 The next one is uglify. Inside uglify also I just need to specify this
-dist as empty. If I don\'t specify these, then the usemin task doesn\'t
+dist as empty. If I don&apos;t specify these, then the usemin task doesn&apos;t
 work correctly.
 
-That\'s why I need to specify all of these things explicitly.
+That&apos;s why I need to specify all of these things explicitly.
 
 For cssmin also I would say dist empty.
 
-And then, the next task that I\'m going to configure is called filerev.
+And then, the next task that I&apos;m going to configure is called filerev.
 
 You saw me installing the filerev plugin for Grunt.
 
@@ -16041,7 +16043,7 @@ name, so that when you prepare a new version of your website and upload
 it to the web page, in case somebody has seen your Website earlier, then
 their browser might have cashed the main.css and main.js files.
 
-If you don\'t attach this filerev what happens is that, the browser
+If you don&apos;t attach this filerev what happens is that, the browser
 beneath downloads the new version of your web page.
 
 It may not download the main.js and main.css file because it finds them
@@ -16052,12 +16054,12 @@ Your web page may not be rendered correctly.
 To deal with the problem, what we do is every time we prepare a new
 distribution folder, we will add a file revision.
 
-That\'s what the filerev stands for, the file revision number, as a
+That&apos;s what the filerev stands for, the file revision number, as a
 additional extension to the name of those css and js file.
 
 The main.ss and main.js files the pre-prepared.
 
-That\'s what the filerev does.
+That&apos;s what the filerev does.
 
 Now how does this filerev can compute this value?
 
@@ -16065,7 +16067,7 @@ It takes the contents of these files and then does some processing and
 then generates an md5 compressed 20 characters number which will be
 attached to the main file.
 
-I\'m going to configure that part here.
+I&apos;m going to configure that part here.
 
 In the options, I specify here saying how it is supposed to compute this
 number there.
@@ -16073,7 +16075,7 @@ number there.
 I say encoding utf8, and then I say algorithm that it used to compute
 this hash, what we call as the hash is md5.
 
-Now, it\'ll become more clearer when we actually run the usemin task and
+Now, it&apos;ll become more clearer when we actually run the usemin task and
 then see what it does, length 20.
 
 I will come back and explain what this thing does when we actually run
@@ -16088,7 +16090,7 @@ I would say filerev files.
 
 Inside here file.
 
-You\'re beginning to see a pattern in the way things are specified here.
+You&apos;re beginning to see a pattern in the way things are specified here.
 
 When you specify the files here, you will say the source, and then in
 there you will specify dist CSS and then star dot CSS, and then the next
@@ -16116,11 +16118,11 @@ options for this here.
 
 The options I will specify "assetsDirs."
 
-This is where all the assets that I\'m using exist.
+This is where all the assets that I&apos;m using exist.
 
 The CSS and the JavaScript files exist.
 
-I\'ll specify "dist/css" and "dist/js." With this, you have
+I&apos;ll specify "dist/css" and "dist/js." With this, you have
 completed configuring the "usemin" task. Next, we configure the
 "htmlmin" task.
 
@@ -16128,7 +16130,7 @@ For the "htmlmin" task, we specified the target which is "dist", the
 distribution folder, and the "htmlmin" to be performed on all the HTML
 files that are in that distribution folder.
 
-The options that we specify for this state that, we\'ll say,
+The options that we specify for this state that, we&apos;ll say,
 "collapsedWhitespace: True" meaning that all the white space in the
 HTML files would all be collapsed, such that the \[inaudible\] contain
 only the minimum HTML code there.
@@ -16177,7 +16179,7 @@ To specify to that, I would say "useminPrepare" and say
 "useminPrepare" is going to be handled by the "grunt-usemin" plugin
 there.
 
-Finally, let\'s reconfigure the "build" task at the bottom.
+Finally, let&apos;s reconfigure the "build" task at the bottom.
 
 Going down to that "build" task after "imagemin."
 
@@ -16191,7 +16193,7 @@ You see that we have to do them in a certain set of steps.
 Once the "cssmin" and "uglify" run, then the main ".css" and the
 main ".js" files would be created.
 
-At this point, I\'m going to run the "filerev" and then finally I run
+At this point, I&apos;m going to run the "filerev" and then finally I run
 the "usemin" task.
 
 You see the secrets: "clean", "copy", "imagemin",
@@ -16201,14 +16203,14 @@ are ready.
 
 I can do the "filerev" on them and then finally run the "usemin."
 
-But this, let\'s save the changes and then go and see how the "build"
+But this, let&apos;s save the changes and then go and see how the "build"
 task actually prepares the distribution.
 
 Going to our terminal, at the prompt I type "grunt build" and then
 wait for all the tasks to be executed.
 
-You would see that it\'ll run through all the set of tasks, and then
-finally when it is done, it\'s going to simply specify that all the
+You would see that it&apos;ll run through all the set of tasks, and then
+finally when it is done, it&apos;s going to simply specify that all the
 tasks are done.
 
 If you want to go back and look at the sequence of the tasks that have
@@ -16226,7 +16228,7 @@ And then our distribution folder should now be ready.
 Going to our editor, you now see that the distribution folder has been
 prepared.
 
-Let\'s specifically look at the main ".css" and main ".js" files.
+Let&apos;s specifically look at the main ".css" and main ".js" files.
 
 Note the names of these files.
 
@@ -16241,17 +16243,17 @@ might have cached the main ".css" and main ".js" has become
 invalidated because we have a new version of the main ".css" and main
 ".js".
 
-The browser will re-download these things. I didn\'t show the
+The browser will re-download these things. I didn&apos;t show the
 "filerev" with the NPM scripts, but I just added it in here just to
 show you how it is done with the Grunt.
 
-With this, we complete this exercise. Let\'s take a quick look at the
+With this, we complete this exercise. Let&apos;s take a quick look at the
 site in our browser.
 
 Going to your browser, you can see that I am now loading in
 "dist/index.html".
 
-This is from the distribution folder, so I\'m checking out and it looks
+This is from the distribution folder, so I&apos;m checking out and it looks
 just fine.
 
 The "aboutus.html" also looks just fine, just like before.
@@ -16260,7 +16262,7 @@ And the contact page also looks well prepared for deployment.
 
 With this, we complete this exercise.
 
-After all the grunting, I\'m sure you need to catch your breath.
+After all the grunting, I&apos;m sure you need to catch your breath.
 
 Before you do that, make sure to do a good comment with the message
 "Grunt Part two."
@@ -16425,7 +16427,7 @@ $ npm install grunt-usemin@3.1.1 --save-dev
      // Concat
      concat: {
       options: {
-        separator: ';\'
+        separator: ';&apos;
       },
     // dist configuration is provided by useminPrepare
     dist: {}
@@ -16488,13 +16490,13 @@ your web project.
 
 <h4>Exercise (Video): Gulp Part 1</h4>
 
-Now that we have granted enough, it\'s time to Gulp.
+Now that we have granted enough, it&apos;s time to Gulp.
 
-We\'ll try to perform the same kind of tasks that we\'ve performed with
-both NPM Scripts and Grunt, but now we\'ll try to do the same using Gulp
+We&apos;ll try to perform the same kind of tasks that we&apos;ve performed with
+both NPM Scripts and Grunt, but now we&apos;ll try to do the same using Gulp
 and Gulp Plug-ins.
 
-To get started, let\'s first install Gulp as a global module.
+To get started, let&apos;s first install Gulp as a global module.
 
 To do that, at the prompt, type npm -g install gulp, this will install
 Gulp as a global module and make it available for use on the command
@@ -16505,7 +16507,7 @@ project.
 
 To do that, at the prompt, type npm install gulp \--save-dev.
 
-Once we have completed these two, it\'s time to go ahead and configure
+Once we have completed these two, it&apos;s time to go ahead and configure
 our Gulp tasks.
 
 Before we do that, our next step, we will install the Gulp Sass plug-in
@@ -16514,22 +16516,22 @@ file.
 
 To go ahead and do that, type npm install gulp sass \--save-dev.
 
-Also while we\'re at it, we might as well install the Browser Sync Gulp
+Also while we&apos;re at it, we might as well install the Browser Sync Gulp
 Task too, so that we can configure both this one after another.
 
-I\'ll install, npm install browser-sync \--save-dev.
+I&apos;ll install, npm install browser-sync \--save-dev.
 
-Once these two are installed, then let\'s go ahead and create our Gulp
+Once these two are installed, then let&apos;s go ahead and create our Gulp
 file and then configure our Gulp Tasks here.
 
-Going to our project folder, let\'s create a new file and then name it
-gulpfile.js, and in this file, we\'re going to configure our Gulp Tasks.
+Going to our project folder, let&apos;s create a new file and then name it
+gulpfile.js, and in this file, we&apos;re going to configure our Gulp Tasks.
 
 Once the gulpfile.js is ready, well configure the Gulp Tasks here by
-first beginning with \'use strict\' and then var gulp.
+first beginning with &apos;use strict&apos; and then var gulp.
 
-We need to require the gulp node modules, and also while we\'re at it,
-we\'ll require the sass node module.
+We need to require the gulp node modules, and also while we&apos;re at it,
+we&apos;ll require the sass node module.
 
 As I mentioned in the previous exercise, it will become more clearer to
 you why the code is written like this, once you understand more about
@@ -16544,28 +16546,28 @@ Gulp is a code-based on way of configuring tasks unlike Grunt which
 relies more on configuration of the tasks.
 
 In case of Gulp, the baby will set up our tasks to type gulp.task and
-then let\'s set up a task name \'sass\', and then for this task, we\'ll
+then let&apos;s set up a task name &apos;sass&apos;, and then for this task, we&apos;ll
 set this up as a function, and this is how the code is prepared.
 
 Gulp Tasks Sass function and in here, we are setting up the Gulp Tasks,
-so we\'ll type return gulp.src(\'./css/\*.scss\')
+so we&apos;ll type return gulp.src(&apos;./css/\*.scss&apos;)
 
 As we learnt, Gulp is a tool-based around code over configuration.
 
-We\'ll prepare this task as such.
+We&apos;ll prepare this task as such.
 
 You see that we have specified Gulp source pipe sass on, and then here,
 error.
 
-If an error occurs, we\'ll use the Sass way to log the error and then
-pipe this through gulp.dest(\'./css\'), and that completes the
+If an error occurs, we&apos;ll use the Sass way to log the error and then
+pipe this through gulp.dest(&apos;./css&apos;), and that completes the
 configuration of the Gulp Sass Tasks.
 
 You must be wondering why we write the code like this. It says gulp
 source and then specify something there, and then the next one says pipe
 and then the next one says pipe.
 
-Let\'s understand the Gulp way of doing things in a little more detail.
+Let&apos;s understand the Gulp way of doing things in a little more detail.
 
 To help explain why we configure Tasks like that, I have an explanation
 of what we call Gulp Streams.
@@ -16585,10 +16587,10 @@ set of functions one after another in order to transform these files.
 And then finally, the resulting transformed files can be put into a
 destination location.
 
-That\'s why we specify Gulp source, then we specify pipe.
+That&apos;s why we specify Gulp source, then we specify pipe.
 
 The pipe allows the stream to be piped through a function, and so,
-that\'s why we said dot pipe, and then we said gulp.
+that&apos;s why we said dot pipe, and then we said gulp.
 
 And then we said sass on error.
 
@@ -16597,7 +16599,7 @@ And then the next one says Pipe Gulp Dest.
 And so, the gulp dest specifies the destination of the files that have
 been processed.
 
-That\'s how a typical task is specified in gulp because but gulp
+That&apos;s how a typical task is specified in gulp because but gulp
 operates on streams.
 
 Your stream files through the pipes until they are transferred and then
@@ -16611,14 +16613,14 @@ streams and how the gulp task uses the pipe to process files through a
 set of function, and it becomes more clear to you why we set up this
 sass task as seen in this code here.
 
-The next task that we are going to configure is called gulp, and we\'ll
+The next task that we are going to configure is called gulp, and we&apos;ll
 configure this task as sass watch.
 
 This is a watch task that we are going to configure, and then you would
 specify function.
 
 And so in here, the gulp sass watch task, what we do is specify the
-files that we\'re going to be watching.
+files that we&apos;re going to be watching.
 
 We use the gulp watch task to watch the file. So, the watch is already
 built into gulp.
@@ -16626,12 +16628,12 @@ built into gulp.
 It will take gulp watch and then we specify the files there \*.SCSS.
 
 As you can see, the gulp watch will watch these files and then when any
-changes to these files occur, then it\'ll run that sass task, which we
+changes to these files occur, then it&apos;ll run that sass task, which we
 have specified earlier.
 
-That\'s how that sass watch task is set up.
+That&apos;s how that sass watch task is set up.
 
-Now that we have done these two, let\'s set up that browser sync task
+Now that we have done these two, let&apos;s set up that browser sync task
 next.
 
 Close that with the semicolon and then the next task that we will set up
@@ -16645,13 +16647,13 @@ Again, note the structure in which we write the code, gulp task and then
 you specify something that followed but with a function.
 
 Now again as I said, we learn node modules in the last course of this
-specialization, it\'ll become more clearer to you why not modules
+specialization, it&apos;ll become more clearer to you why not modules
 written with this structure, and why the functions are written like
 this.
 
 We say gulp task browser sync.
 
-Here, I\'m going to define a variable, a JavaScript variable called
+Here, I&apos;m going to define a variable, a JavaScript variable called
 files, which is nothing but in array, and that inside those files array
 I would specify all the files that if modified the browser sync needs to
 cause the reloading or the file.
@@ -16669,7 +16671,7 @@ We have to initialize the browser sync, and so, the first parameter to
 that is the files that will need to be watched, and then the second
 parameter specifies the options that we are giving to the browser.
 
-The option that I\'m specifying is for the server.
+The option that I&apos;m specifying is for the server.
 
 I will specify the base directory as the current directory, and then
 that completes the specification of the browser sync task.
@@ -16682,7 +16684,7 @@ parameter.
 
 The second parameter is the options for the browser sync plugin.
 
-Then finally, we\'ll schedule or we\'ll configure the task called
+Then finally, we&apos;ll schedule or we&apos;ll configure the task called
 default.
 
 Just like me have the default task in Grunt, we can also have a similar
@@ -16690,7 +16692,7 @@ default task defined for gulp.
 
 Here we say gulp task default browser sync, and then specify function.
 
-And inside there we\'ll specify gulp start.
+And inside there we&apos;ll specify gulp start.
 
 This specifies that I should start this other task that sass watch task.
 
@@ -16714,7 +16716,7 @@ gulp.
 Then we specified the browser sync task and then finally reschedule the
 default task with the browser Sync and the gulp start with sass watch.
 
-Now, let\'s see the changes, and then we\'ll go ahead and execute the
+Now, let&apos;s see the changes, and then we&apos;ll go ahead and execute the
 gulp file add, and the prompt type gulp.
 
 You will see that gulp starts up with browser sync and the sass watch
@@ -17114,8 +17116,8 @@ development tasks.
 
 <h4>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h4>
 
-As we come to the conclusion of this course, it\'s time to look back and
-reflect about what we\'ve covered in this course so far.
+As we come to the conclusion of this course, it&apos;s time to look back and
+reflect about what we&apos;ve covered in this course so far.
 
 And what is the way forward from this course towards the other courses
 of this specialization.
@@ -17147,19 +17149,19 @@ And learned how to set up NPM scripts for automating frequently
 performed tasks in web development.
 
 As we move towards the next course of the specialization, in the next
-course we\'ll be concentrating on Javascript frameworks.
+course we&apos;ll be concentrating on Javascript frameworks.
 
 This is the other piece of the puzzle on front-end.
 
 Together with UI frameworks, the Javascript frameworks facilitate
 development of dynamic websites, especially the front-end.
 
-We\'ll look at the remaining parts, including hybrid development and
+We&apos;ll look at the remaining parts, including hybrid development and
 server-side, in the remaining courses of the specialization.
 
 I hope you enjoyed going through this course.
 
-And I hope I\'ll see you back again in the next course of the
+And I hope I&apos;ll see you back again in the next course of the
 specialization.
 
 <h4>Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions</h4>
@@ -17242,4 +17244,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!-- last updated: 5/18/2023 at 10:47am -->
+<!-- last updated: 6/20/2023 at 8:41pm -->
