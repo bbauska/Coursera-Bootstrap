@@ -10,7 +10,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/coursera-logo.png?raw=true"
+<img src="./images/coursera-logo.webp?raw=true"
   width="35%"
   alt="Coursera logo." />
 </p>
@@ -18,7 +18,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~ 01. hong kong university of science and technology logo (01) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image001.webp?raw=true"
   width="65%"
   alt="Hong Kong University of Science and Technology logo." />
 </p>
@@ -28,7 +28,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~ 02. front end and back end tools and technology (01) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+<img src="./images/image002.webp?raw=true"
   width="50%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
@@ -226,7 +226,7 @@ development.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. front end and back end (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image002.png?raw=true"
+<img src="/images/image002.webp?raw=true"
   alt="Front-end and back-end."
   width="50%" />
 </p>
@@ -253,7 +253,7 @@ Development.
 <!--~~~~~~~~~~~~~~~~~~ 03. three-tier architecture - presentation layer (05) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image003.png?raw=true"
+<img src="/images/image003.webp?raw=true"
   alt="Three-tier architecture: presentation."
   width="75%" />
 </p>
@@ -272,7 +272,7 @@ presentation layer.
 <!--~~~~~~~~~~~~~~~~~ 04. three-tier architecture - business logic layer (06) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image004.png?raw=true"
+<img src="/images/image004.webp?raw=true"
   alt="Three-tier architecture: business logic."
   width="75%" />
 </p>
@@ -288,7 +288,7 @@ the data access layer</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~ 05. three-tier architecture - data access (06) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image005.png?raw=true"
+<img src="/images/image005.webp?raw=true"
   alt="Three-tier architecture: data access."
   width="75%" />
 </p>
@@ -304,7 +304,7 @@ traditional web development in each of these three layers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. data layer: database and api (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image006.png?raw=true"
+<img src="/images/image.006.webp?raw=true"
   alt="Data Access Layer: Databsse and API."
   width="75%" />
 </p>
@@ -316,7 +316,7 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <!--~~~~~~~~~~~~~~ 07. business logic layer: ruby, python, java, c++ & php (07) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image007.png?raw=true"
+<img src="/images/image007.webp?raw=true"
   alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
   width="75%" />
 </p>
@@ -334,7 +334,7 @@ rendering these days.
 <!-------------------- 08. traditional web development: html, css & js (08) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image008.png?raw=true"
+<img src="/images/image008.webp?raw=true"
   alt="Traditional Web Development: HTML, CSS & JS."
   width="75%" />
 </p>
@@ -356,7 +356,7 @@ database management system.
 <!-------------------------- 09. full stack javascript development (08) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image009.png?raw=true"
+<img src="/images/image009.webp?raw=true"
   alt="Full stack javascript development."
   width="75%" />
 </p>
@@ -382,7 +382,7 @@ We will cover these technologies as part of this specialization.
 <!------------- 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ---------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image010.png?raw=true"
+<img src="/images/image010.webp?raw=true"
   alt="full stack web dev: bootstrap 4 and angular or reactfull."
   width="75%" />
 </p>
@@ -476,7 +476,7 @@ the repository at the end of each exercise.
 <!------------------------------ 10a. online git repository (11) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image010a.png?raw=true"
+<img src="/images/image010a.webp?raw=true"
   alt="Online Git repository."
   width="50%" />
 </p>
@@ -528,7 +528,7 @@ why we need Git for this specialization.
 <!---------------------------------------- 11. git (12) ------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image011.png?raw=true"
+<img src="/images/image011.webp?raw=true"
   alt="Git."
   width="50%" />
 </p>
@@ -552,7 +552,7 @@ Let&apos;s now run through a few quick steps to set up Git on your computer.
 <!------------------------------------ 12. git-scm.com (13) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image012.png?raw=true"
+<img src="/images/image012.webp?raw=true"
   alt="Git-scm.com."
   width="85%" />
 </p>
@@ -586,7 +586,7 @@ notice that there is a book here called Pro Git.
 <!----------------------- 13. getting started: about version control (14) ------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image013.png?raw=true"
+<img src="/images/image013.webp?raw=true"
   alt="Getting started: About version control."
   width="85%" />
 </p>
