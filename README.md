@@ -30,7 +30,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
   width="50%"
-  alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
+  alt="Front-end (client side) and back-end (server side) tools and technology used." />
 </p>
 <!-- {width="5.0in" height="2.0638298337707788in"} -->
 
