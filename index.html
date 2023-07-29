@@ -1436,6 +1436,9 @@ end of this exercise, you will be able to:</p>
   <li>Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  {
     "name": "git-test",
     "version": "1.0.0",
@@ -1457,6 +1460,8 @@ end of this exercise, you will be able to:</p>
     "lite-server": "^2.2.2"
     }
   }</pre>
+
+</details>
 
 <ul>
   <li>Next, start the development server by typing the following at the prompt:</li>
@@ -3471,6 +3476,9 @@ do this in this part of the exercise.</p>
   <li>Create a folder named <em><b>css</b></em>. Then create a file named <em>styles.css</em> in the <em><b>css</b></em> folder. Open this file to edit the contents. Add the following CSS code to the file:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  .row-header{
     margin:0px auto;
     padding:0px;
@@ -3486,6 +3494,8 @@ do this in this part of the exercise.</p>
     margin:0px auto;
     padding: 20px 0px 20px 0px;
   }</pre>
+
+</details>
 
 <ul>
   <li>Include the <em>styles.css</em> file into the head of the <em>index.html</em> file as follows:</li>
@@ -4432,6 +4442,9 @@ build into a web page using the Navbar in Bootstrap.</p>
   <li>We will now add a simple navigation bar to the web page so that it provides links to the other pages on the website. Start by adding the following code to the body just above the header jumbotron.</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"&gt;
     &lt;div class="container"&gt;
       &lt;a class="navbar-brand" href="#"&gt;Ristorante Con Fusion&lt;/a&gt;
@@ -4443,6 +4456,8 @@ build into a web page using the Navbar in Bootstrap.</p>
         &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/nav&gt;</pre>
+
+</details>
 
 <p>In the above code, we can see the use of the nav element to specify
 the navigation information for the website. This nav element is styled
@@ -4783,6 +4798,9 @@ installed, then the font icons are not showing up in their browser.</p>
   <li>Finally, let us use the bootstrap-social CSS classes to create the social buttons in the footer in both index.html and aboutus.html, by replacing the social sites' links with the following code:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div class="text-center"&gt;
     &lt;a class="btn btn-social-icon btn-google" href="http://google.com/+"&gt;&lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;&lt;/a&gt;
     &lt;a class="btn btn-social-icon btn-facebook”
@@ -4796,6 +4814,8 @@ installed, then the font icons are not showing up in their browser.</p>
     &lt;a class="btn btn-social-icon" 
       href="mailto:"&gt;&lt;i class="fa fa-envelope-o"&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/div&gt;</pre>
+
+</details>
 
 <ul>
   <li>Save all the changes and commit to your Git repository with the message "Icon Fonts".</li>
@@ -5730,21 +5750,27 @@ will be able to:</p>
   <li>We will add a simple form to the page at the location identified by "Form goes here". Add the following code to page to create a simple horizontal form with two fields:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;form&gt;
     &lt;div class="form-group row"&gt;
       &lt;label for="firstname" class="col-md-2 col-form-label"&gt;First Name&lt;/label&gt;
       &lt;div class="col-md-10"&gt;
-        &lt;input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"&gt;
+        &lt;input type="text" class="form-control" id="firstname" name="firstname" 
+	      placeholder="First Name"&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class="form-group row"&gt;
       &lt;label for="lastname" class="col-md-2 col-form-label"&gt;Last Name&lt;/label&gt;
       &lt;div class="col-md-10"&gt;
-        &lt;input type="text" class="form-
-control" id="lastname" name="lastname" placeholder="Last Name"&gt;
+        &lt;input type="text" class="form-control" id="lastname" 
+          name="lastname" placeholder="Last Name"&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/form&gt;</pre>
+
+</details>
 
 <p>This creates a form with two elements in the form. Note that the
 class <em>row</em> in the form enables us to use the Bootstrap grid
@@ -5754,6 +5780,9 @@ appropriate.</p>
 <ul>
   <li>Let us add fields to seek user's telephone number and email:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="form-group row">
     &lt;label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.&lt;/label>
@@ -5771,11 +5800,16 @@ appropriate.</p>
       &lt;/div>
   &lt;/div></pre>
 
+</details>
+
 <h3>Adding a Checkbox and Select</h3>
 
 <ul>
   <li>We now see the addition of a checkbox and a select element to the form. Note the styling of these elements using Bootstrap classes:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="form-group row">
 
@@ -5794,6 +5828,8 @@ appropriate.</p>
       &lt;/select>
     &lt;/div>
   &lt;/div></pre>
+
+</details>
 
 <h3>Adding a textarea</h3>
 
@@ -6177,6 +6213,9 @@ displaying content.</p>
   <li>Inside the first column of this row, insert the table as follows:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div class="table-responsive"&gt;
     &lt;table class="table table-striped"&gt;
       &lt;thead class="thead-dark"&gt;
@@ -6216,6 +6255,8 @@ displaying content.</p>
     &lt;/table&gt;
   &lt;/div&gt;</pre>
 
+</details>
+
 <p>Note the use of <em>table-responsive</em> class to create a
 responsive table, and the <em>table-striped</em> and
 <em>thead-inverse</em> classes for styling the table.</p>
@@ -6225,6 +6266,9 @@ responsive table, and the <em>table-striped</em> and
 <ul>
   <li>Next we add a card to the second div in the first content row as follows, updating the div first by adding the classes col-12 col-sm-6 to it and then adding the card:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="col-12 col-sm-6"&gt;
     &lt;div class="card"&gt;
@@ -6244,9 +6288,14 @@ responsive table, and the <em>table-striped</em> and
     &lt;/div&gt;
   &lt;/div&gt;</pre>
 
+</details>
+
 <ul>
   <li>Next, we add a Bootstrap card and include a quotation in the card using the blockquote typography style:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="col-12"&gt;
     &lt;div class="card card-body bg-light"&gt;
@@ -6259,6 +6308,8 @@ responsive table, and the <em>table-striped</em> and
       &lt;/blockquote&gt;
     &lt;/div&gt;
   &lt;/div&gt;</pre>
+
+</details>
 
 <p>Note the use of the <em><blockquote></em> tag to create a block
 quote in the card. We can use a <em><footer></em> inside the block
@@ -6562,6 +6613,9 @@ objects. At the end of this exercise you will be able to:</p>
   <li>Go to the first content row, and replace the content in the second column containing the description of Uthappizza with the following code:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div class="media"&gt;
     &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
       src="img/uthappizza.png" alt="Uthappizza"&gt;
@@ -6574,11 +6628,16 @@ objects. At the end of this exercise you will be able to:</p>
     &lt;/div&gt;
   &lt;/div&gt;</pre>
 
+</details>
+
 <p>Note the use of the <em>media</em> class and the related Bootstrap classes to style the content.</p>
 
 <ul>
   <li>Next, we will go to the third row and replace the contents of the second column containing the description about Alberto with the following content:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="media"&gt;
     &lt;img class="d-flex mr-3 img-thumbnail align-self-center"
@@ -6593,6 +6652,8 @@ objects. At the end of this exercise you will be able to:</p>
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;</pre>
+
+</details>
 
 <ul>
   <li>Finally, do a Git commit with a message "Images and Media".</li>
@@ -7367,6 +7428,9 @@ to:</p>
   <li>Right after the Corporate Leadership heading, introduce the following code to set up the tabbed navigation:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;ul class="nav nav-tabs"&gt;
     &lt;li class="nav-item"&gt;
       &lt;a class="nav-link active" href="#peter"
@@ -7385,6 +7449,8 @@ to:</p>
         data-toggle="tab"&gt;Alberto Somayya, Exec. Chef&lt;/a&gt;
     &lt;/li&gt;
   &lt;/ul&gt;</pre>
+
+</details>
 
 <p>Note the use of the <em>&lt;ul&gt;</em> tag with the <em>nav</em> and
 <em>nav-tabs</em> classes to set up the tab navigation. Each list item
@@ -7705,6 +7771,9 @@ in a web page. At the end of this exercise, you will be able to:</p>
   <li>Then, convert the first tab-pane into a card such that the name appears as a card heading, and the &lt;p&gt; will be in the card body. Use the structure of the code as shown below:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div class="card"&gt;
     &lt;div class="card-header" role="tab" id="peterhead"&gt;
       &lt;h3 class="mb-0"&gt;
@@ -7720,9 +7789,14 @@ in a web page. At the end of this exercise, you will be able to:</p>
     &lt;/div&gt;
   &lt;/div&gt;</pre>
 
+</details>
+
 <ul>
   <li>For the remaining three leaders, use the same structure as above, with the appropriate ids set up for the cards, as shown in the code structure below:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  &lt;div class="card"&gt;
     &lt;div class="card-header" role="tab" id="dannyhead"&gt;
@@ -7764,6 +7838,8 @@ in a web page. At the end of this exercise, you will be able to:</p>
     &lt;div class="card-body"&gt;
       &lt;p class="d-none d-sm-block"&gt;. . .&lt;/em&gt;&lt;/p&gt;
     &lt;/div&gt;</pre>
+
+</details>
 
 <ul>
   <li>After completing the update, check the behavior of the accordion on the web page,</li>
@@ -8128,6 +8204,9 @@ tag in order to introduce a tooltip.</p>
   <li>In the next step we introduce the modal to the web page. To set up the modal, add the following code right after the navbar at the top of the page:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div id="loginModal" class="modal fade" role="dialog"&gt;
     &lt;div class="modal-dialog modal-lg" role="content"&gt;
       &lt;!-- Modal content--&gt;
@@ -8164,6 +8243,8 @@ tag in order to introduce a tooltip.</p>
     &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;</pre>
+
+</details>
 
 <ul>
   <li>Next we introduce another link on the right side of the navbar in order to trigger the display of the modal. To do this, add the following code in the navbar afterwards:</li>
@@ -8349,6 +8430,9 @@ allows us to manually scroll the carousel.</p>
   <li>Next add the content inside the carousel as follows:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  &lt;div class="carousel-inner" role="listbox"&gt;
     &lt;div class="carousel-item active"&gt;
       &lt;img class="d-block img-fluid"
@@ -8366,6 +8450,8 @@ allows us to manually scroll the carousel.</p>
     &lt;/div&gt;
   &lt;/div&gt;</pre>
 
+</details>
+
 <p>Note that the first item has been set up partially. Fill in the
 remaining parts from the content rows below.</p>
 
@@ -8374,6 +8460,9 @@ remaining parts from the content rows below.</p>
 <ul>
   <li>Add the following CSS classes to the <em>styles.css</em> file:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  .carousel {
     background:#512DA8;
@@ -8387,6 +8476,8 @@ remaining parts from the content rows below.</p>
     left: 0;
     min-height: 300px;
   }</pre>
+
+</details>
 
 <h3>Adding Carousel Controls</h3>
 
@@ -9327,6 +9418,9 @@ based on the current behavior of the carousel.</p>
   <li>Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  $("#carouselButton").click(function(){
     if ($("#carouselButton").children("span").hasClass('fa-pause')) {
       $("#mycarousel").carousel('pause');
@@ -9339,6 +9433,8 @@ based on the current behavior of the carousel.</p>
       $("#carouselButton").children("span").addClass('fa-pause');
     }
   });</pre>
+
+</details>
 
 <ul>
   <li>Do a Git commit with the message "More Bootstrap JQuery".</li>
@@ -9667,6 +9763,9 @@ use of these variables while defining the classes.</p>
   <li>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  address {
     font-size:80%;
     margin:0px;
@@ -9701,6 +9800,8 @@ use of these variables while defining the classes.</p>
   .row-header{
     .zero-margin();</pre>
 
+</details>
+
 <p>Note the use of the variables and the mixin with various parameters
 in defining the classes.</p>
 
@@ -9709,6 +9810,9 @@ in defining the classes.</p>
 <ul>
   <li>Next we add a carousel class to illustrate the use of nesting of classes in Less, as follows:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  .carousel {
     background:@background-dark;
@@ -9729,6 +9833,8 @@ in defining the classes.</p>
     bottom: 0px;
     z-index: 1;
   }</pre>
+
+</details>
 
 <h3>Installing and using the lessc Compiler</h3>
 
@@ -9900,6 +10006,9 @@ use of these variables while defining the classes.</p>
   <li>Using the variables and Mixin class that we defined earlier, add the following row classes to the file:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  .row-header{
     @include zero-margin(0px,0px);
   }
@@ -9934,6 +10043,8 @@ use of these variables while defining the classes.</p>
     border-right: 1px solid $lt-gray;
     border-bottom: 1px solid $lt-gray;</pre>
 
+</details>
+
 <p>Note the use of the variables and the mixin with various parameters in defining the classes.</p>
 
 <h3>Nesting Selectors</h3>
@@ -9941,6 +10052,9 @@ use of these variables while defining the classes.</p>
 <ul>
   <li>Next we add a carousel class to illustrate the use of nesting of classes in Scss, as follows:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>  .carousel {
     background:$background-dark;
@@ -9962,6 +10076,8 @@ use of these variables while defining the classes.</p>
     bottom: 0px;
     z-index: 1;
   }</pre>
+
+</details>
 
 <h3>Installing and using the node-sass module</h3>
 
@@ -10326,10 +10442,8 @@ order to do the building and deployment of our website.</p>
   <li>Then, add the following two script items to <em>package.json</em> if you are doing the exercise on a MacOS computer or a Linux computer:</li>
 </ul>
 
-<pre>
-  "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-  "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
-</pre>
+<pre>  "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+  "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"</pre>
 
 <ul>
   <li><b>NOTE:</b> If you are doing the exercise on a Windows computer, please use the following two script items instead of the above:</li>
@@ -11252,6 +11366,9 @@ downloaded Grunt modules when needed for the tasks.</p>
   <li>Now, configure the SASS task in the Gruntfile as follows, by including the code inside the function in <em>Gruntfile.js</em>:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>  'use strict';
 
   module.exports = function (grunt) {
@@ -11275,6 +11392,8 @@ downloaded Grunt modules when needed for the tasks.</p>
   grunt.registerTask('css', ['sass']);
   };</pre>
 
+</details>
+
 <ul>
   <li>Now you can run the grunt SASS task by typing the following at the prompt:</li>
 </ul>
@@ -11293,6 +11412,9 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
 <ul>
   <li>After this, we will configure the browser-sync and watch tasks by adding the following code to the Grunt file:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>,
   watch: {
@@ -11316,6 +11438,8 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
       }
     }
   }</pre>
+
+</details>
 
 <ul>
   <li>Then add the following task to the Grunt file:</li>
@@ -11714,6 +11838,9 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev</pre>
   <li>You will now add the code to perform the copying of files to the dist folder, and cleaning up the dist folder. To do this, add the following code to <em>Gruntfile.js</em>. This should be added right after the configuration of the SASS task.:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>,
   copy: {
     html: {
@@ -11746,6 +11873,8 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev</pre>
     }
   }</pre>
 
+</details>
+
 <ul>
   <li>Remember to add the comma after the end of the SASS task.</li>
 </ul>
@@ -11762,6 +11891,9 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev</pre>
   <li>Then, configure the imagemin task as shown below in the Gruntfile:</li>
 </ul>
 
+<details open>
+  <summary>javascript source</summary>
+
 <pre>,
   imagemin: {
     dynamic: {
@@ -11773,6 +11905,8 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev</pre>
       }]
     }
   }</pre>
+
+</details>
 
 <h3>Preparing the Distribution Folder and Files</h3>
 
@@ -11790,6 +11924,9 @@ $ npm install grunt-usemin@3.1.1 --save-dev</pre>
 <ul>
   <li>Next, update the task configuration within the Gruntfile.js with the following additional code to introduce the new tasks:</li>
 </ul>
+
+<details open>
+  <summary>javascript source</summary>
 
 <pre>,
   useminPrepare: {
@@ -11828,18 +11965,22 @@ $ npm install grunt-usemin@3.1.1 --save-dev</pre>
   // Uglify
   uglify: {</pre>
 
+</details>
+
 <ul>
   <li>Next, update the jit-grunt configuration as follows, to inform it that useminPrepare task depends on the usemin package:</li>
 </ul>
 
 <pre>  require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin'
-  });
-</pre>
+  });</pre>
 
 <ul>
   <li>Next, update the Grunt build task as follows:</li>
 </ul>
+
+<details open>
+  <summary>grunt source</summary>
 
 <pre>  grunt.registerTask('build', [
     'clean',
@@ -11853,6 +11994,8 @@ $ npm install grunt-usemin@3.1.1 --save-dev</pre>
     'usemin',
     'htmlmin'
   ]);</pre>
+
+</details>
 
 <ul>
   <li>Now if you run Grunt, it will create a dist folder with the files structured correctly to be distributed to a server to host your website. To do this, type the following at the prompt:</li>
@@ -12106,6 +12249,9 @@ web project. At the end of this exercise, you will be able to:</p>
   <li>Next, we will add the code for the SASS task, the Browser-Sync task and the default task as follows:</li>
 </ul>
 
+<details open>
+  <summary>gulp source</summary>
+
 <pre>  gulp.task('sass', function () {
   return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
@@ -12135,6 +12281,8 @@ web project. At the end of this exercise, you will be able to:</p>
   gulp.task('default', ['browser-sync'], function() {
     gulp.start('sass:watch');
   });</pre>
+
+</details>
 
 <ul>
   <li>Save the Gulp file</li>
@@ -12186,6 +12334,9 @@ build and serve your web project.</p>
   <li>Next, we will add the code for the Clean task and the copyfonts task as follows:</li>
 </ul>
 
+<details open>
+  <summary>gulp source</summary>
+
 <pre>  // Clean
   gulp.task('clean', function() {
     return del(['dist']);
@@ -12195,6 +12346,8 @@ build and serve your web project.</p>
     gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
       .pipe(gulp.dest('./dist/fonts'));
   });</pre>
+
+</details>
 
 <h3>Compressing and Minifying Images</h3>
 
@@ -12211,6 +12364,9 @@ build and serve your web project.</p>
   <li>Next, we create the <em>imagemin</em> task as follows:</li>
 </ul>
 
+<details open>
+  <summary>gulp source</summary>
+
 <pre>  // Images
   gulp.task('imagemin', function() {
     return gulp.src('img/*.{png,jpg,gif}')
@@ -12218,11 +12374,16 @@ build and serve your web project.</p>
       .pipe(gulp.dest('dist/img'));
   });</pre>
 
+</details>
+
 <h4>Preparing the Distribution Folder and Files</h4>
 
 <ul>
   <li>We now install the gulp-usemin and other related Gulp plugins and require them as follows:</li>
 </ul>
+
+<details open>
+  <summary>gulp source</summary>
 
 <pre>$ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 
     gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
@@ -12235,10 +12396,15 @@ build and serve your web project.</p>
     flatmap = require('gulp-flatmap'),
     htmlmin = require('gulp-htmlmin');</pre>
 
+</details>
+
 <ul>
   <li>We configure the usemin and the build task as follows:</li>
 </ul>
 
+<details open>
+  <summary>gulp source</summary>
+  
 <pre>  gulp.task('usemin', function() {
   return gulp.src('./*.html')
     .pipe(flatmap(function(stream, file){
@@ -12256,6 +12422,8 @@ build and serve your web project.</p>
   gulp.task('build',['clean'], function() {
     gulp.start('copyfonts','imagemin','usemin');
   });</pre>
+
+</details>
 
 <ul>
   <li>Save the Gulp file</li>
