@@ -104,13 +104,13 @@ ul ul ul li::before {
 
   * html pre {
     padding-bottom: 2em;
-    font-size: 12px;
+    font-size: 10px;
     overflow: visible;
     overflow-x: auto; }
 
 pre {
   font-family: Consolas, Bahnschrift, serif, Helvetica;
-  font-size: 12px;
+  font-size: 10px;
   width: 40%;
   max-height: 30%;
   color: #444;
