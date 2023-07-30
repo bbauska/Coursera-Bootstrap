@@ -10193,10 +10193,10 @@ use of these variables while defining the classes.</p>
   <li>Next we add a mixin into the file as follows:</li>
 </ul>
 
-<pre>  @mixin zero-margin($pad-up-dn, $pad-left-right) {
-    margin:0px auto;
-    padding: $pad-up-dn $pad-left-right;
-  }</pre>
+<pre>@mixin zero-margin($pad-up-dn, $pad-left-right) {
+  margin:0px auto;
+  padding: $pad-up-dn $pad-left-right;
+}</pre>
 
 <p>We will make use of this to define several row classes next.</p>
 
@@ -10653,22 +10653,22 @@ order to do the building and deployment of our website.</p>
     are doing the exercise on a MacOS computer or a Linux computer:</li>
 </ul>
 
-<pre>  "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-  "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"</pre>
+<pre>"watch:scss": "onchange 'css/*.scss' -- npm run scss",
+"watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"</pre>
 
 <ul>
   <li><b>NOTE:</b> If you are doing the exercise on a Windows computer, please 
     use the following two script items instead of the above:</li>
 </ul>
 
-<pre>  "watch:scss": "onchange "css/*.scss" -- npm run scss",
-  "watch:all": "parallelshell "npm run watch:scss" "npm run lite""</pre>
+<pre>"watch:scss": "onchange "css/*.scss" -- npm run scss",
+"watch:all": "parallelshell "npm run watch:scss" "npm run lite""</pre>
 
 <ul>
   <li>You will also update the start script as follows:</li>
 </ul>
 
-<pre>  "start": "npm run watch:all",</pre>
+<pre>"start": "npm run watch:all",</pre>
 
 <ul>
   <li>Then, type the following at the prompt to start watching for changes to 
@@ -11063,7 +11063,7 @@ various NPM packages and scripts.</p>
   <li>Then, set up the following script:</li>
 </ul>
 
-<pre>  "clean": "rimraf dist",</pre>
+<pre>"clean": "rimraf dist",</pre>
 
 <h3>Copying Fonts</h3>
 
@@ -11079,7 +11079,7 @@ various NPM packages and scripts.</p>
   <li>Then set up the following script:</li>
 </ul>
 
-<pre>  "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",</pre>
+<pre>"copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",</pre>
 
 <h4>Compressing and Minifying Images</h4>
 
@@ -11099,7 +11099,7 @@ permissions on Mac. In that case try</p>
   <li>Then set up the following script:</li>
 </ul>
 
-<pre>  "imagemin": "imagemin img/* --out-dir='dist/img'",</pre>
+<pre>"imagemin": "imagemin img/* --out-dir='dist/img'",</pre>
 
 <h3>Preparing the Distribution Folder</h3>
 
@@ -11107,8 +11107,8 @@ permissions on Mac. In that case try</p>
   <li>Open <em>.gitignore</em> and update it as follows. We do not want the dist folder to be checked into the git repository.</li>
 </ul>
 
-<pre>  node_modules
-  dist</pre>
+<pre>node_modules
+dist</pre>
 
 <ul>
   <li>Then, install the <em>usemin-cli, cssmin, uglifyjs</em> and <em>htmlmin</em> NPM packages as follows:</li>
@@ -11120,33 +11120,33 @@ permissions on Mac. In that case try</p>
   <li>Add the following two scripts to the package.json file:</li>
 </ul>
 
-<pre>  "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && 
-    usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && 
-	usemin index.html -d dist --htmlmin -o dist/index.html",
-  "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"</pre>
+<pre>"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html &&
+  usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && 
+  usemin index.html -d dist --htmlmin -o dist/index.html",
+"build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"</pre>
 
 <ul>
   <li>Open <em>index.html</em> and surround the css links inclusion code as follows:</li>
 </ul>
 
-<pre>  &lt;!-- build:css css/main.css --&gt;
+<pre>&lt;!-- build:css css/main.css --&gt;
   &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
   &lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
   &lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
   &lt;link href="css/styles.css" rel="stylesheet"&gt;
-  &lt;!-- endbuild --&gt;</pre>
+&lt;!-- endbuild --&gt;</pre>
 
 <ul>
   <li>Do the same change in <em>aboutus.html</em> and <em>contactus.html</em></li>
   <li>Similarly, open <em>index.html</em> and surround the js script inclusion code as follows:</li>
 </ul>
 
-<pre>  &lt;!-- build:js js/main.js --&gt;
+<pre>&lt;!-- build:js js/main.js --&gt;
   &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
   &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
   &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
   &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
-  &lt;!-- endbuild --&gt;</pre>
+&lt;!-- endbuild --&gt;</pre>
 
 <ul>
   <li>Do the same change in <em>aboutus.html</em> and <em>contactus.html</em></li>
@@ -11574,7 +11574,7 @@ all projects.</p>
     configure Grunt tasks:</li>
 </ul>
 
-<pre>  'use strict';
+<pre>'use strict';
 
   module.exports = function (grunt) {
     // Define the configuration for all the tasks
@@ -11611,7 +11611,7 @@ downloaded Grunt modules when needed for the tasks.</p>
 <details open>
   <summary>javascript source</summary>
 
-<pre>  'use strict';
+<pre>'use strict';
 
   module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
@@ -11632,7 +11632,7 @@ downloaded Grunt modules when needed for the tasks.</p>
     });
 
   grunt.registerTask('css', ['sass']);
-  };</pre>
+};</pre>
 
 </details>
 
@@ -11683,7 +11683,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
         }
       }
     }
-  }</pre>
+  }</pre>
 
 </details>
 
@@ -11691,7 +11691,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
   <li>Then add the following task to the Grunt file:</li>
 </ul>
 
-<pre>  grunt.registerTask('default', ['browserSync', 'watch']);</pre>
+<pre>grunt.registerTask('default', ['browserSync', 'watch']);</pre>
 
 <ul>
   <li>Now if you type the following at the command prompt, it will start the 
@@ -12231,9 +12231,9 @@ $ npm install grunt-usemin@3.1.1 --save-dev</pre>
     useminPrepare task depends on the usemin package:</li>
 </ul>
 
-<pre>  require('jit-grunt')(grunt, {
-    useminPrepare: 'grunt-usemin'
-  });</pre>
+<pre>require('jit-grunt')(grunt, {
+  useminPrepare: 'grunt-usemin'
+});</pre>
 
 <ul>
   <li>Next, update the Grunt build task as follows:</li>
@@ -12242,18 +12242,18 @@ $ npm install grunt-usemin@3.1.1 --save-dev</pre>
 <details open>
   <summary>grunt source</summary>
 
-<pre>  grunt.registerTask('build', [
-    'clean',
-    'copy',
-    'imagemin',
-    'useminPrepare',
-    'concat',
-    'cssmin',
-    'uglify',
-    'filerev',
-    'usemin',
-    'htmlmin'
-  ]);</pre>
+<pre>grunt.registerTask('build', [
+  'clean',
+  'copy',
+  'imagemin',
+  'useminPrepare',
+  'concat',
+  'cssmin',
+  'uglify',
+  'filerev',
+  'usemin',
+  'htmlmin'
+]);</pre>
 
 </details>
 
@@ -12505,11 +12505,11 @@ web project. At the end of this exercise, you will be able to:</p>
   <li>Load in all the Gulp plugins by including the following code in the Gulp file:</li>
 </ul>
 
-<pre>  'use strict';
+<pre>'use strict';
 
-  var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    browserSync = require('browser-sync');</pre>
+var gulp = require('gulp'),
+  sass = require('gulp-sass'),
+  browserSync = require('browser-sync');</pre>
 
 <h3>Adding Gulp Tasks for SASS and Browser-Sync</h3>
 
@@ -12521,35 +12521,35 @@ web project. At the end of this exercise, you will be able to:</p>
 <details open>
   <summary>gulp source</summary>
 
-<pre>  gulp.task('sass', function () {
+<pre>gulp.task('sass', function () {
   return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
+});
+ 
+gulp.task('sass:watch', function () {
+  gulp.watch('./css/*.scss', ['sass']);
+});
+ 
+gulp.task('browser-sync', function () {
+  var files = [
+    './*.html',
+    './css/*.css',
+    './img/*.{png,jpg,gif}',
+    './js/*.js'
+  ];
+ 
+  browserSync.init(files, {
+    server: {
+      baseDir: "./"
+    }
   });
+});
  
-  gulp.task('sass:watch', function () {
-    gulp.watch('./css/*.scss', ['sass']);
-  });
- 
-  gulp.task('browser-sync', function () {
-    var files = [
-      './*.html',
-      './css/*.css',
-      './img/*.{png,jpg,gif}',
-      './js/*.js'
-    ];
- 
-    browserSync.init(files, {
-      server: {
-        baseDir: "./"
-      }
-    });
-  });
- 
-  // Default task
-  gulp.task('default', ['browser-sync'], function() {
-    gulp.start('sass:watch');
-  });</pre>
+// Default task
+gulp.task('default', ['browser-sync'], function() {
+  gulp.start('sass:watch');
+});</pre>
 
 </details>
 
@@ -12606,15 +12606,15 @@ build and serve your web project.</p>
 <details open>
   <summary>gulp source</summary>
 
-<pre>  // Clean
-  gulp.task('clean', function() {
-    return del(['dist']);
-  });
+<pre>// Clean
+gulp.task('clean', function() {
+  return del(['dist']);
+});
  
-  gulp.task('copyfonts', function() {
-    gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
-      .pipe(gulp.dest('./dist/fonts'));
-  });</pre>
+gulp.task('copyfonts', function() {
+  gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
+    .pipe(gulp.dest('./dist/fonts'));
+});</pre>
 
 </details>
 
@@ -12638,12 +12638,12 @@ build and serve your web project.</p>
 <details open>
   <summary>gulp source</summary>
 
-<pre>  // Images
-  gulp.task('imagemin', function() {
-    return gulp.src('img/*.{png,jpg,gif}')
-      .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-      .pipe(gulp.dest('dist/img'));
-  });</pre>
+<pre>// Images
+gulp.task('imagemin', function() {
+  return gulp.src('img/*.{png,jpg,gif}')
+    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+    .pipe(gulp.dest('dist/img'));
+});</pre>
 
 </details>
 
@@ -12676,23 +12676,23 @@ build and serve your web project.</p>
 <details open>
   <summary>gulp source</summary>
   
-<pre>  gulp.task('usemin', function() {
-  return gulp.src('./*.html')
-    .pipe(flatmap(function(stream, file){
-      return stream
-      .pipe(usemin({
-        css: [ rev() ],
-        html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
-        js: [ uglify(), rev() ],
-        inlinejs: [ uglify() ],
-        inlinecss: [ cleanCss(), 'concat' ]
-      }))
+<pre>gulp.task('usemin', function() {
+return gulp.src('./*.html')
+  .pipe(flatmap(function(stream, file){
+    return stream
+    .pipe(usemin({
+      css: [ rev() ],
+      html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+      js: [ uglify(), rev() ],
+      inlinejs: [ uglify() ],
+      inlinecss: [ cleanCss(), 'concat' ]
     }))
-    .pipe(gulp.dest('dist/'));
-  });
-  gulp.task('build',['clean'], function() {
-    gulp.start('copyfonts','imagemin','usemin');
-  });</pre>
+  }))
+  .pipe(gulp.dest('dist/'));
+});
+gulp.task('build',['clean'], function() {
+  gulp.start('copyfonts','imagemin','usemin');
+});</pre>
 
 </details>
 
