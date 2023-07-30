@@ -30,14 +30,15 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
   width="50%"
-  alt="Front-end (client side) and back-end (server side) tools and technology used." />
+  alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
 <!-- {width="5.0in" height="2.0638298337707788in"} -->
 
 <h6 align="center" width="100%">(coursera.org)</h6>
 
 <h3>Course Overview</h3>
-<p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
+<p>
+Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
 I&apos;m glad you decided to join this course to learn about the most
 popular front end Web UI Framework: Bootstrap.
@@ -304,7 +305,7 @@ traditional web development in each of these three layers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. data layer: database and api (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image.006.webp?raw=true"
+<img src="/images/image006.webp?raw=true"
   alt="Data Access Layer: Databsse and API."
   width="75%" />
 </p>
@@ -331,7 +332,7 @@ information to the front side, typically, in the form of server-side
 rendering these days.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 08. traditional web development: html, css & js (08) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~ 08. traditional web development: html, css & js (08) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.webp?raw=true"
@@ -353,7 +354,7 @@ technologies that is used for implementing the business logic and then
 you need a data specialist who will be well-versed in the relational
 database management system.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 09. full stack javascript development (08) -------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 09. full stack javascript development (08) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.webp?raw=true"
@@ -379,11 +380,11 @@ REST API endpoint.
 
 We will cover these technologies as part of this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------- 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ---------------->
+<!--~~~~~~~~~~~ 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.webp?raw=true"
-  alt="full stack web dev: bootstrap 4 and angular or reactfull."
+  alt="Full Stack Web Dev: Bootstrap 4 and Angular or Reactfull."
   width="75%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
@@ -401,9 +402,10 @@ implemented using MongoDB.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a><br/></li>
+</ul>
 
 <h4>Useful Links</h4>
 
@@ -473,7 +475,7 @@ the end of the exercises, unless otherwise instructed. You may wish to
 set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 10a. online git repository (11) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10a. online git repository (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010a.webp?raw=true"
@@ -482,7 +484,7 @@ the repository at the end of each exercise.
 </p>
 <!-- {width="5.0in" height="1.5908125546806648in"} -->
 
-<h4>Exercise: Setting up Git</h4>
+<h4>Exercise (Video): Setting up Git</h4>
 
 Git is a very popular version control system for software.
 
@@ -525,7 +527,7 @@ wider deployment in the real world, these days.
 That node ecosystem is very much tied into Git and that is the reason
 why we need Git for this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------------- 11. git (12) ------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. git (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.webp?raw=true"
@@ -549,7 +551,7 @@ this specialization.
 
 Let&apos;s now run through a few quick steps to set up Git on your computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ 12. git-scm.com (13) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. git-scm.com (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.webp?raw=true"
@@ -583,7 +585,7 @@ command line tools, that will also set up Git for you.
 On this site, gitscm.com, if you go to the documentation page you will
 notice that there is a book here called Pro Git.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 13. getting started: about version control (14) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~ 13. getting started: about version control (14) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.webp?raw=true"
@@ -602,10 +604,10 @@ to install Git on your specific platform.
 Download the installer and run through the set up to get Git on to your
 computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 14. command or powershell: more git (15) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. command or powershell: more git (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image014.png?raw=true"
+<img src="/images/image014.webp?raw=true"
   width="85%"
   alt="Git: download installer & run setup." />
 </p>
@@ -715,7 +717,7 @@ $ git config --global user.name "Your Name"
     prompt:
 
 ```
-$ git config --global user.email <your email address>
+$ git config --global user.email <your email address\>
 ```
 
 -   You can check your default Git global configuration, you can type
@@ -730,7 +732,7 @@ $ git config --list
 At the end of this exercise you should have Git available on the
 command-line of your computer.
 
-<h4>Exercise: Basic Git Commands</h4>
+<h4>Exercise (Video): Basic Git Commands</h4>
 
 Let us now explore some basic Git commands that are very useful for us
 in this specialization.
@@ -758,7 +760,7 @@ To do that at the command line type git init.
 
 Now, this folder has been initialized to be a git repository.
 
-This is our first git command that we have learnt, <b> &gt; git init</b>.
+This is our first git command that we have learnt, <b> \> git init</b>.
 
 This initializes the current folder as a git repository and when it
 initializes the folder, it will mark that folder as a master.
@@ -775,7 +777,7 @@ This would be marked as a master.
 
 Now this is the initial point of our repository.
 
-The next command that we&apos;re going to look at is <b> &gt; git status</b>.
+The next command that we&apos;re going to look at is <b> \> git status</b>.
 
 If you type git status in the command line, it&apos;ll tell you the current
 status of the folder.
@@ -798,25 +800,25 @@ now not been added to our git repository.
 
 Let&apos;s go ahead and add that file to the git repository.
 
-To do that, we say, <b>&gt; git add,</b> and you can simply say dot, which
+To do that, we say, <b>\> git add,</b> and you can simply say dot, which
 means that all the files in the current directory will be added to what
 is called as the staging area of my git repository.
 
-Now, if I again type <b>&gt; git status</b>, you will see that the file
+Now, if I again type <b>\> git status</b>, you will see that the file
 index.html is marked in green.
 
 And it says, changes to be committed there and then shows the file name
 and then so that means that this file is now ready to be committed to my
 git repository.
 
-The next command that we saw was <b>&gt; git add</b>.
+The next command that we saw was <b>\> git add</b>.
 
 By using git add you can add file or folders to that staging area.
 
 Once you add it to the staging area, then you can commit that snapshot
 of our folder status to our git repository.
 
-That means that when you do the <b>&gt; git commit</b>, what this command
+That means that when you do the <b>\> git commit</b>, what this command
 will do is commit the current state of our folders into our git
 repositories.
 
@@ -829,11 +831,11 @@ will now be changed to the first commit to the git repository.
 
 Let&apos;s go ahead and do that.
 
-Back at the command prompt, let&apos;s type <b>&gt; git commit</b>.
+Back at the command prompt, let&apos;s type <b>\> git commit</b>.
 
 And then we can even add a message to our commit.
 
-I&apos;m going to say <b>&gt; git commit -m "first commit"</b> because this is
+I&apos;m going to say <b>\> git commit -m "first commit"</b> because this is
 our commit to our git repository.
 
 When I do that, it says, okay, 1 file has been added to the git
@@ -847,7 +849,7 @@ What it means is that the current state of my working directory or
 working folder has been committed to the git repository, so a snapshot
 has been committed to my git repository.
 
-Now, I can type the next command called <b>&gt; git log \--oneline</b>, and
+Now, I can type the next command called <b>\> git log \--oneline</b>, and
 see that it shows a number there, an eight digit number there, and then
 also it shows the message that we put into our commit saying first
 commit.
@@ -855,7 +857,7 @@ commit.
 That is the log of all the commits that have been put into my git
 repository.
 
-Going back to our next git command, we saw that <b>&gt; git log
+Going back to our next git command, we saw that <b>\> git log
 \--oneline</b> will show us a brief log of all the commits.
 
 If you simply type <b>git log</b> display a lot more detailed information
@@ -875,9 +877,9 @@ folder, I&apos;m going to create another file name, test.html.
 <!--------------------------------- 15. basic git commands (20) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image015.png?raw=true"
+<img src="/images/image015.webp?raw=true"
   width="50%"
-  alt="Basic Git commands: git log -online and git checkout from older commit." />
+  alt="Basic Git commands." />
 </p>
 <!-- {width="5.0in" height="3.3701924759405073in"} -->
 
@@ -890,7 +892,7 @@ index.html into my test.html, and save the changes.
 Going back to the command line, let&apos;s now check out the status of our
 git repository and this folder.
 
-Type in <b>$ git status</b>, shows that the index status html file that we
+Type in <b>\> git status</b>, shows that the index status html file that we
 have already handed earlier to the repository has now been modified, so
 there is a newer version of the index.html file.
 
@@ -898,7 +900,7 @@ Also, it shows that there are some untracked files in this folder called
 templates.
 
 Let&apos;s add all these changes to the staging the area, so again, type
-<b>$ git add.</b>
+<b>\> git add.</b>
 
 And then all these files will be added to the staging area.
 
@@ -908,7 +910,7 @@ You now see that changes that have been added to the staging area.
 
 All these files have been added to the staging area.
 
-Let&apos;s do one more commit, so I would say <b>$ git commit -m</b>, second
+Let&apos;s do one more commit, so I would say <b>\> git commit -m</b>, second
 commit and then let&apos;s check out the log. If you check out the log,
 you&apos;ll now see that there are two commits in my git repository, the
 first and the second commit.
@@ -938,10 +940,10 @@ file has been modified.
 
 Let&apos;s add this to the staging area, and then do a third commit.
 
-Let&apos;s say, $ git add . , git status, now you see that the index.html the
+Let&apos;s say, \> git add., git status, now you see that the index.html the
 modified version has been added.
 
-Now we can say <b>$ git commit</b>. "third commit" and do <b>$ git log
+Now we can say <b>\> git commit</b>. "third commit" and do <b>\> git log
 \--oneline,</b> and you see there are three commits in our repository.
 
 Now our repository contains snapshots of three different points, at the
@@ -962,7 +964,7 @@ notice that it has an h1 and two ps.
 
 Let&apos;s now look at the next git command.
 
-The next git command that we are going to learn about is <b>$ git
+The next git command that we are going to learn about is <b>\> git
 checkout.</b>
 
 This checkout command allows us to check out a file from a previous
@@ -1069,7 +1071,7 @@ this specialization.
 <!-------------------------------------- 16. git reset (24) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image016.png?raw=true"
+<img src="/images/image016.webp?raw=true"
   width="50%"
   alt="Git reset." />
 </p>
@@ -1176,7 +1178,7 @@ $ git log --oneline
 
 -   <h4>Now, modify the index.html file as follows:</h4>
 
-<details open>
+<details>
   <summary>Modify index.html as follows!</summary>
 
 ```
@@ -1203,7 +1205,7 @@ $ git log --oneline
 
 -   Now, modify the <i>index.html</i> file as follows:
 
-<details open>
+<details>
   <summary>Modify index.html as follows!</summary>
 
 ```
@@ -1257,7 +1259,7 @@ At the end of this exercise you should have learnt some basic Git
 commands. Experiment with these commands until you fully understand how
 to use Git.
 
-<h4>Exercise: Online Git Repositories</h4>
+<h4>Exercise (Video): Online Git Repositories</h4>
 
 Online Git repositories enable you to store a copy of your Git
 repository online.
@@ -1483,9 +1485,9 @@ And then, Paste the URL of my Bitbucket repository here.
 <!------------------------------------- 17. git-test (31) ---------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image017.png?raw=true"
+<img src="/images/image017.webp?raw=true"
   alt="git-test."
-  width="70%" />
+  width="50%" />
 </p>
 <!-- {width="5.0in" height="1.1527777777777777in"} -->
 
@@ -1558,7 +1560,7 @@ $ git push -u origin master
 <!------------------------------------- 18. git-test (31) ---------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image018.png?raw=true"
+<img src="/images/image018.webp?raw=true"
   alt="git-test."
   width="50%" />
 </p>
@@ -1585,7 +1587,7 @@ the browser to the desktop.
 <!--------------------------------- 19. what is node.js? (33) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image019.png?raw=true"
+<img src="/images/image019.webp?raw=true"
   alt="What is Node.js?"
   width="50%" />
 </p>
@@ -1617,7 +1619,7 @@ last course of this specialization.
 <!--------------------------------- 20. node architecture (33) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image020.png?raw=true"
+<img src="/images/image020.webp?raw=true"
   alt="Node Architecture."
   width="50%" />
 </p>
@@ -1653,7 +1655,7 @@ JavaScript on the server side.
 <!-------------------------------- 21. node package manager (33) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image021.png?raw=true"
+<img src="/images/image021.webp?raw=true"
   alt="Node Package Manager."
   width="50%" />
 </p>
@@ -1673,7 +1675,7 @@ called package.json which is the manifest file for this Node module.
 We will look at how we can use the package.json file in more detail in
 the subsequent exercises.
 
-<h4>Exercise: Setting up Node.js and NPM</h4>
+<h4>Exercise (Video): Setting up Node.js and NPM</h4>
 
 In your browser, head over to nodejs.org and as you browse down, you&apos;ll
 see the download buttons for Node.js for your specific platform.
@@ -1687,7 +1689,7 @@ Click on that to download the installer package for your platform.
 <!---------------------------------- 22. install node.js (35) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image022.png?raw=true"
+<img src="/images/image022.webp?raw=true"
   alt="Install node.js."
   width="50%" />
 </p>
@@ -1789,10 +1791,10 @@ $ npm -v
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. verify install node.js (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 23. install node.js (38) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image023.png?raw=true"
+<img src="/images/image023.webp?raw=true"
   alt="Install node.js."
   width="50%" />
 </p>
@@ -1807,7 +1809,7 @@ At the end of this exercise, your machine is now ready with the Node
 installed for further development. We will examine web development tools
 next.
 
-<h4>Exercise: Basics of Node.js and NPM</h4>
+<h4>Exercise (Video): Basics of Node.js and NPM</h4>
 
 Now that you have Node.js on your computer, you&apos;re obviously wanting to
 immediately start using it.
@@ -1831,10 +1833,10 @@ The lite server is something that we&apos;re going to extensively use in
 this and future courses, to be able to see the changes in real time in a
 browser window as you edit the files of your project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. install package.json (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------- 24. install package.json (39) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image024.png?raw=true"
+<img src="/images/image024.webp?raw=true"
   alt="Install package.json."
   width="50%" />
 </p>
@@ -1847,10 +1849,10 @@ What exactly is this package.json file that we&apos;re going to setup?
 Here, I have some information from the npmjs.org site which specifies
 what exactly is the role of the package.json file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. initializing package.json (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------- 25. initializing package.json (39) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image025.png?raw=true"
+<img src="/images/image025.webp?raw=true"
   alt="Initializing package.json."
   width="50%" />
 </p>
@@ -2003,7 +2005,7 @@ Going to my git-test folder, if you&apos;re going to the node modules
 folder, you would see, as I said, a whole bunch of subfolders there.
 
 Normally you don&apos;t need to be venturing into the node modules folder.
-They just exist there because they are needed for the &lsqb;INAUDIBLE&rsqb;.
+They just exist there because they are needed for the \[INAUDIBLE\].
 
 As you browse through, you should notice a folder named lite-server
 here.
@@ -2320,7 +2322,7 @@ $ npm install lite-server --save-dev
 -   Next, open package.json in your editor and modify it as shown below.
     Note the addition of two lines, line 7 and line 9.
 
-<details open>
+<details>
   <summary>Modify package.json!</summary>
 
 ```
@@ -2456,10 +2458,10 @@ familiar with Bootstrap.
 Front-end Web UI Frameworks are becoming their go-to approach for
 designing and implementing their recent websites.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 26. front-end web ui frameworks: overview (50) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------- 26. front-end web ui frameworks: overview (50) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image026.png?raw=true"
+<img src="/images/image026.webp?raw=true"
   alt="Front-End Web UI Frameworks overview."
   width="50%" />
 </p>
@@ -2468,10 +2470,10 @@ designing and implementing their recent websites.
 Let&apos;s ask ourselves what exactly are front-end Web UI Frameworks, and
 learn a little more details about them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 27. what are front-end ui frameworks? (51) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------- 27. what are front-end ui frameworks? (51) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image027.png?raw=true"
+<img src="/images/image027.webp?raw=true"
   alt="What are Front-End UI Frameworks?"
   width="50%" />
 </p>
@@ -2528,10 +2530,10 @@ that you can use for your entire website design.
 
 And enables you to quickly scaffold out a website or the pitch.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. popular front-end ui frameworks (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------- 28. popular front-end ui frameworks (52) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image028.png?raw=true"
+<img src="/images/image028.webp?raw=true"
   alt="Popular Front-End UI Frameworks."
   width="50%" />
 </p>
@@ -2555,10 +2557,10 @@ The remaining among this list may vary, but you would often find
 Semantic-UI, Foundation by Zerp, Materialize, Material UI, and some of
 these others appearing in many of those top-end lists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 29. why front-end web ui frameworks? (53) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------- 29. why front-end web ui frameworks? (53) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image029.png?raw=true"
+<img src="/images/image029.webp?raw=true"
   alt="Why Front-End Web UI Frameworks?"
   width="50%" />
 </p>
@@ -2635,10 +2637,10 @@ end web UI framework.
 Let me do a quick introduction to Bootstrap before we go on to learn how
 to make use of Bootstrap in designing our website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. bootstrap overview (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 30. bootstrap overview (54) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image030.png?raw=true"
+<img src="/images/image030.webp?raw=true"
   alt="Bootstrap overview."
   width="50%" />
 </p>
@@ -2651,10 +2653,10 @@ first websites.
 
 Indeed, Bootstrap stands up to its claim as the most popular framework.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. more bootstrap overview (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 31. more bootstrap overview (55) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image031.png?raw=true"
+<img src="/images/image031.webp?raw=true"
   alt="More Bootatrap."
   width="50%" />
 </p>
@@ -2673,10 +2675,10 @@ approach.
 
 We will talk more about this in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. bootstrap history (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 32. bootstrap history (55) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image032.png?raw=true"
+<img src="/images/image032.webp?raw=true"
   alt="Bootstrap history."
   width="50%" />
 </p>
@@ -2701,16 +2703,16 @@ with Bootstrap 3.3.7 in the earlier Bootstrap course.
 Now, it&apos;s time to move on to our first exercise where we will get our
 hands dirty with Bootstrap.
 
-<h4>Exercise: Getting Started with Bootstrap</h4>
+<h4>Exercise (Video): Getting Started with Bootstrap</h4>
 
 Strap on your boots, and let&apos;s get started with Bootstrap.
 
 I&apos;m sure your fingers are itching to get your hands around Bootstrap.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 33. setting up the project folder (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------- 33. setting up the project folder (56) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image033.png?raw=true"
+<img src="/images/image033.webp?raw=true"
   alt="Setting up the project folder."
   width="50%" />
 </p>
@@ -2719,11 +2721,11 @@ I&apos;m sure your fingers are itching to get your hands around Bootstrap.
 First step, go to the exercise instructions that follow this exercise in
 your Bootstrap course page on Coursera.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. bootstrap exercise (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 34. bootstrap exercise (57) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image034.png?raw=true"
+<img src="/images/image034.webp?raw=true"
   alt="Getting started with bootstrap 4."
   width="50%" />
 </p>
@@ -3064,7 +3066,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
 ```
 
 -   This will fetch the Bootstrap files and store is in your
-    node_modules folder in a bootstrap folder. The bootstrap-&gt;dist
+    node_modules folder in a bootstrap folder. The bootstrap-\>dist
     folder contains the precompiled Bootstrap CSS and JS files for use
     within your project.
 
@@ -3085,7 +3087,7 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save
     you can open the project folder in the editor and then view
     index.html.
 
--   Insert the following code in the <i>&lt;head&gt;</i> of <i>index.html</i> file
+-   Insert the following code in the <i><head\></i> of <i>index.html</i> file
     before the title.
 
 ```
@@ -3130,6 +3132,7 @@ Bootstrap&apos;s grid system.
 <h4>Introduction to Bootstrap: Additional Resources</h4>
 
 <h4>PDFs of the Presentations</h4>
+
 <ul>
   <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/03-Web-UI-Frameworks.pdf">03-Web-UI-Frameworks.pdf (5 slides)</a><br/></li>
   <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/04-Intro-Bootstrap.pdf">04-Intro-Bootstrap.pdf (5 slides)</a><br/></li>
@@ -3139,7 +3142,9 @@ Bootstrap&apos;s grid system.
 
 -   (required for the exercise)
 
-<h4><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/Bootstrap4-starter.zip">Bootstrap4-starter.zip</a></h4>
+```
+  Bootstrap4-starter.zip
+```
 
 <h4>Bootstrap Official Resources</h4>
 
@@ -3190,10 +3195,10 @@ Your obvious question is going to be why consider responsive design?
 To help us understand this, let&apos;s consider how people access websites
 these days?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. why responsive design (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------- 35. why responsive design (65) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image035.png?raw=true"
+<img src="/images/image035.webp?raw=true"
   alt="Why responsive design?"
   width="50%" />
 </p>
@@ -3208,10 +3213,10 @@ a computer with different screen sizes and screen resolutions.
 How do we render our websites consistently on devices of different
 screen sizes?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. why responsive design #2 (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 36. why responsive design #2 (66) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image036.png?raw=true"
+<img src="/images/image036.webp?raw=true"
   alt="Why responsive design, #2."
   width="50%" />
 </p>
@@ -3226,10 +3231,10 @@ your website to the size of the screen on which it is being viewed.
 This is where we have to take an approach to adapt to the user&apos;s view
 port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. why responsive design #3 (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 37. why responsive design #3 (66) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image037.png?raw=true"
+<img src="/images/image037.webp?raw=true"
   alt="Why responsive design, #3."
   width="50%" />
 </p>
@@ -3280,10 +3285,10 @@ SE, and you see how the website has change the way it is being rendered.
 Hopefully, this example has illustrated to you how and why we need
 responsive web design.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. mobile first design (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 39. mobile first design (67) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image038.png?raw=true"
+<img src="/images/image038.webp?raw=true"
   alt="Mobile first design."
   width="50%" />
 </p>
@@ -3325,10 +3330,10 @@ There are several concepts that are built in to your frame time web UI
 frameworks that come to the aid when you need to do responsive web
 design.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 40. foundation for responsive design (68) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------- 40. foundation for responsive design (68) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image040.png?raw=true"
+<img src="/images/image040.webp?raw=true"
   alt="Foundation for responsive design."
   width="50%" />
 </p>
@@ -3342,10 +3347,10 @@ the next lecture.
 That we&apos;ll understand exactly how we can leverage that to be able to do
 responsive web design.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 41. foundation for responsive design #2 (69) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------- 41. foundation for responsive design #2 (69) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image041.png?raw=true"
+<img src="/images/image041.webp?raw=true"
   alt="Foundation for responsive design #2."
   width="50%" />
 </p>
@@ -3354,10 +3359,10 @@ responsive web design.
 The second aspect is fluid images, so that your images that you include
 in your website will automatically adapt itself to the screen size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 42. foundation for responsive design #3 (69) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------- 42. foundation for responsive design #3 (69) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image042.png?raw=true"
+<img src="/images/image042.webp?raw=true"
   alt="Foundation for responsive design #3."
   width="50%" />
 </p>
@@ -3375,10 +3380,10 @@ Let&apos;s look at that next.
 
 Media queries are supported in CSS like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. media queries (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 43. media queries (70) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image043.png?raw=true"
+<img src="/images/image043.webp?raw=true"
   alt="Media queries."
   width="50%" />
 </p>
@@ -3388,7 +3393,7 @@ The technology allows you to do a media query to specify the minimum
 width of the screen under which this particular set of CSS classes will
 be active.
 
-This would be specified in your CSS file as &commat;media, and then within
+This would be specified in your CSS file as \@media, and then within
 bracket, you specify for example, min-width.
 
 There are a lot more options to the media queries than what I&apos;m showing
@@ -3397,10 +3402,10 @@ here.
 This is just one example of how you would build a media query in your
 CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 44. how to build a media query in your CSS code (70) ~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------- 44. how to build a media query in your CSS code (70) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image044.png?raw=true"
+<img src="/images/image044.webp?raw=true"
   alt="How to build a media query in your CSS code."
   width="50%" />
 </p>
@@ -3409,7 +3414,7 @@ CSS code.
 Taking a look at Bootstrap&apos;s CSS code itself, let&apos;s go in and see how
 media queries are being used by Bootstrap.
 
-Here you see an example of a media query where it says, &commat;media and
+Here you see an example of a media query where it says, \@media and
 min-width 576 pixels.
 
 And then it specifies that those particular CSS class call container,
@@ -3431,10 +3436,10 @@ kind of device you&apos;re rendering your website on.
 And correspondingly adjust the CSS classes to fit that particular
 devices screen size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. how do we do this? (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 45. how do we do this? (71) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image045.png?raw=true"
+<img src="/images/image045.webp?raw=true"
   alt="How do we do this?"
   width="50%" />
 </p>
@@ -3471,10 +3476,10 @@ I briefly referred to this particular line in the code then.
 
 Let&apos;s try to understand why we use this in our index.html page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. viewport (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------------- 46. viewport (72) --------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image046.png?raw=true"
+<img src="/images/image046.webp?raw=true"
   alt="Viewport."
   width="50%" />
 </p>
@@ -3493,10 +3498,10 @@ web page is correctly rendered for that particular screen size.
 This is where the Bootstrap grid system comes to our rescue and enables
 us to design responsive websites.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. bootstrap grid (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 47. bootstrap grid (72) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image047.png?raw=true"
+<img src="/images/image047.webp?raw=true"
   alt="Bootstrap grid."
   width="50%" />
 </p>
@@ -3509,10 +3514,10 @@ You have already seen what this means in the previous lecture, and
 mobile first, which we have already discussed in the previous lecture
 and then fluid, automatically adapting to the screen width.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. css flexbox (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------- 48. css flexbox (73) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image048.png?raw=true"
+<img src="/images/image048.webp?raw=true"
   alt="CSS Flexbox."
   width="50%" />
 </p>
@@ -3532,10 +3537,10 @@ Earlier Bootstrap had its own grid system which was predating the CSS
 flexbox layout, but the latest version of Bootstrap has made the CSS
 flexbox layout as the standard for the Bootstrap grid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. why flexbox for bootstrap? (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------- 49. why flexbox for bootstrap? (73) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image049.png?raw=true"
+<img src="/images/image049.webp?raw=true"
   alt="Why flexbox for bootstrap?"
   width="50%" />
 </p>
@@ -3566,10 +3571,10 @@ that are laid out in the same row.
 Let&apos;s now talk a little more details about the Bootstrap grid and how
 it actually works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. bootstrap grid (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 50. bootstrap grid (74) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image050.png?raw=true"
+<img src="/images/image050.webp?raw=true"
   alt="Bootstrap grid."
   width="50%" />
 </p>
@@ -3600,10 +3605,10 @@ the size of the screen.
 But the fixed width container, fixes the size of the actual layout
 width.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. bootstrap grid #2 (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 51. bootstrap grid #2 (75) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image051.png?raw=true"
+<img src="/images/image051.webp?raw=true"
   alt="Bootstrap grid #2."
   width="50%" />
 </p>
@@ -3616,10 +3621,10 @@ the row class.
 
 The content itself will be vertically divided into multiple rows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. bootstrap grid #3 (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 52. bootstrap grid #3 (75) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image052.png?raw=true"
+<img src="/images/image052.webp?raw=true"
   alt="Bootstrap grid #3."
   width="50%" />
 </p>
@@ -3651,10 +3656,10 @@ How exactly do we layout the content?
 
 We&apos;ll talk about that in the next few slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. how to layout the grid (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 53. how to layout the grid (76) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image053.png?raw=true"
+<img src="/images/image053.webp?raw=true"
   alt="How to layout the grid."
   width="50%" />
 </p>
@@ -3700,10 +3705,10 @@ How does this work?
 
 We&apos;ll see that in the next slide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. auto-layout columns (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 54. auto-layout columns (77) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image054.png?raw=true"
+<img src="/images/image054.webp?raw=true"
   alt="Auto-layout columns."
   width="50%" />
 </p>
@@ -3712,10 +3717,10 @@ We&apos;ll see that in the next slide.
 Going back to our Bootstrap Grid, suppose we have a piece of content and
 we want to lay out the peace of content.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. bootstrap grid (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 55. bootstrap grid (78) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image055.png?raw=true"
+<img src="/images/image055.webp?raw=true"
   alt="Bootstrap grid."
   width="50%" />
 </p>
@@ -3745,10 +3750,10 @@ five columns.
 
 There are still seven more columns left.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. bootstrap grid #2 (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 56. bootstrap grid #2 (78) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image056.png?raw=true"
+<img src="/images/image056.webp?raw=true"
   alt="Bootstrap grid #2."
   width="50%" />
 </p>
@@ -3766,10 +3771,10 @@ entire 12 column width.
 This is how we can specify and the work with the 12 columns in defining
 the layout of the current tier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. auto-layout columns (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 57. auto-layout columns (79) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image057.png?raw=true"
+<img src="/images/image057.webp?raw=true"
   alt="Auto-layout columns."
   width="50%" />
 </p>
@@ -3786,10 +3791,10 @@ bootstrap grid will automatically position these contents inside those
 divs, side by side, so, that each one of them gets one third of the
 total width.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. auto-layout columns #2 (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 58. auto-layout columns #2 (79) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image058.png?raw=true"
+<img src="/images/image058.webp?raw=true"
   alt="Auto-layout columns #2."
   width="50%" />
 </p>
@@ -3801,10 +3806,10 @@ each.
 And this is automatically taken care of by the bootstraps layout
 mechanism.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. auto-layout columns #3 (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 59. auto-layout columns #3 (80) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image059.png?raw=true"
+<img src="/images/image059.webp?raw=true"
   alt="Auto-layout columns #3."
   width="50%" />
 </p>
@@ -3813,10 +3818,10 @@ mechanism.
 Now, we can explicitly specify the number of columns a particular piece
 of content occupy.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. auto-layout columns #4 (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 60. auto-layout columns #4 (80) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image060.png?raw=true"
+<img src="/images/image060.webp?raw=true"
   alt="Auto-layout columns #4."
   width="50%" />
 </p>
@@ -3842,10 +3847,10 @@ In the exercise, we will see various combinations of use of these kind
 of specifications of how many columns each piece of content will occupy
 in color layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. bootstrap grid details (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 61. bootstrap grid details (81) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image061.png?raw=true"
+<img src="/images/image061.webp?raw=true"
   alt="Bootstrap grid details."
   width="50%" />
 </p>
@@ -3946,10 +3951,10 @@ Also, it supports offsets.
 
 We will see the use of offsets also in some examples later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. using column classes (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------- 62. using column classes (83) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image062.png?raw=true"
+<img src="/images/image062.webp?raw=true"
   alt="Using column classes."
   width="50%" />
 </p>
@@ -3982,10 +3987,10 @@ to extra-large screen sizes.
 
 This is how we would specify content layout for different screen sizes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. reordering content (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 63. reordering content (84) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image063.png?raw=true"
+<img src="/images/image063.webp?raw=true"
   alt="Reordering content."
   width="50%" />
 </p>
@@ -4013,10 +4018,10 @@ the row.
 
 We will see an example of this also in the exercise.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. vertical alignment (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 64. vertical alignment (84) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image064.png?raw=true"
+<img src="/images/image064.webp?raw=true"
   alt="Vertical alignment."
   width="50%" />
 </p>
@@ -4035,10 +4040,10 @@ of doing vertical alignment.
 If you wanted the content to be vertically-centered, then to the row,
 you would apply the class called "align items center".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. vertical alignment #2 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 65. vertical alignment #2 (85) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.png?raw=true"
+<img src="./images/image065.webp?raw=true"
   width="50%"
   alt="Vertical alignment #2." />
 </p>
@@ -4052,10 +4057,10 @@ the remaining ones will be aligned when it is laid out in that row or if
 you pre-specify the height of the row, then all the content will be
 centered vertically within that particular row there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. horizontal alignment (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------- 66. horizontal alignment (86) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.png?raw=true"
+<img src="./images/image066.webp?raw=true"
   width="50%"
   alt="Horizontal alignment." />
 </p>
@@ -4066,10 +4071,10 @@ content.
 
 Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. horizontal alignment #2 (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 67. horizontal alignment #2 (86) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image067.webp?raw=true"
   width="50%"
   alt="Horizontal alignment #2." />
 </p>
@@ -4085,10 +4090,10 @@ And the right one says div class column 3. So in this case, what we are
 specifying is that the left and the rightmost pieces of content will
 occupy three columns each.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. horizontal alignment #3 (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 68. horizontal alignment #3 (87) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image068.png?raw=true"
+<img src="./images/image068.webp?raw=true"
   width="50%"
   alt="Horizontal alignment #3." />
 </p>
@@ -4120,10 +4125,10 @@ couple of other options.
 
 Details are in the bootstraps documentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69. column offsets (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 69. column offsets (88) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.png?raw=true"
+<img src="./images/image069.webp?raw=true"
   width="50%"
   alt="Column offsets." />
 </p>
@@ -4135,10 +4140,10 @@ How does this work?
 
 Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. column offsets #2 (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 70. column offsets #2 (88) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.png?raw=true"
+<img src="./images/image070.webp?raw=true"
   width="50%"
   alt="Column offsets #2." />
 </p>
@@ -4153,10 +4158,10 @@ of content should be right-shifted by one column.
 When this content is laid out, as you can see, the leftmost one column
 is left blank and the content is shifted right by one column.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. column offsets #3 (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--------------------------------- 71. column offsets #3 (89) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
+<img src="./images/image071.webp?raw=true"
   width="50%"
   alt="column offsets #3." />
 </p>
@@ -4175,10 +4180,10 @@ horizontal alignment, the offset, the push and the pull, and flex first
 and flex last, we are able to get a lot of control on how we lay out
 contents for different screen widths and different screen sizes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. nesting offsets (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!---------------------------------- 72. nesting offsets (89) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.png?raw=true"
+<img src="./images/image072.webp?raw=true"
   width="50%"
   alt="Nesting offsets." />
 </p>
@@ -4198,10 +4203,10 @@ column.
 Nesting like this, brings you even more flexibility in the way you lay
 out content in your pitch.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 73. exercise: responsive design & bootstrap grid system (90) ~~~~~~~~~~~~~~~~-->
+<!---------------- 73. exercise: responsive design & bootstrap grid system (90) ------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.png?raw=true"
+<img src="./images/image073.webp?raw=true"
   width="50%"
   alt="Exercise: responsive design & bootstrap grid system." />
 </p>
@@ -4216,7 +4221,7 @@ to do the layout of the content inside or index.html page.
 
 We will also use some custom CSS classes.
 
-<h4>Exercise: Responsive Design and Bootstrap Grid System Part 1</h4>
+<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 1</h4>
 
 In the previous lectures, we have learnt about responsive design and the
 bootstrap grid system.
@@ -4647,7 +4652,7 @@ a row, all adding up to 12 or a multiple thereof.
     to use the container-fluid class to make the content automatically
     to span the full width of the screen. We will discuss further about
     this when we discuss the Bootstrap grid system in the next lecture.
-    Add the container class to the first div right after the &lt;/header&gt;
+    Add the container class to the first div right after the </header\>
     in the file as follows.
 
 ```
@@ -4731,7 +4736,7 @@ responsive design layout.
 <div class="col col-sm order-sm-first col-md"> ... </div>
 ```
 
--   For the div containing the &lt;ul&gt; with the site links, update the
+-   For the div containing the <ul\> with the site links, update the
     class as follows:
 
 ```
@@ -4747,7 +4752,7 @@ responsive design layout.
 In this exercise, we reviewed responsive design and the Bootstrap grid
 system.
 
-<h4>Exercise: Responsive Design and Bootstrap Grid System Part 2</h4>
+<h4>Exercise (Video): Responsive Design and Bootstrap Grid System Part 2</h4>
 
 We&apos;ll continue with the bootstrap grid exercise that we started out in
 the previous exercise.
@@ -5019,24 +5024,24 @@ do this in this part of the exercise.
     <i>styles.css</i> in the <b><i>css</i></b> folder. Open this file to edit the
     contents. Add the following CSS code to the file:
 
-<details open>
+<details>
   <summary>Create styles.css in css folder and add!</summary>
 
 ```
 .row-header{
-  margin:0px auto;
-  padding:0px;
+    margin:0px auto;
+    padding:0px;
 }
 .row-content {
-  margin:0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
-  min-height:400px;
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
 }
 .footer{
-  background-color: #D1C4E9;
-  margin:0px auto;
-  padding: 20px 0px 20px 0px;
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
 }
 ```
 
@@ -5046,16 +5051,16 @@ do this in this part of the exercise.
     as follows:
 
 ```
-<link href="[css/styles.css]" rel="stylesheet">
+<link href="[css/styles.css]{.underline}" rel="stylesheet">
 ```
 
 -   Then add these classes to the corresponding rows in the <i>index.html</i>
     file as follows. See the difference in the <i>index.html</i> file in the
-    browser. The first one is for the row in the &lt;header&gt;, the next
+    browser. The first one is for the row in the <header\&gt;, the next
     three for the rows in the content, and the last one directly to the
-    &lt;footer&gt; tag.
+    &lt;footer\&gt; tag.
 
-<details open>
+<details>
   <summary>Add these classes to corresponding rows in index.html!</summary>
 
 ```
@@ -5072,20 +5077,20 @@ do this in this part of the exercise.
 -   Our next set of customization is to the jumbotron and the address.
     Add the following to <i>styles.css</i> file:
 
-<details open>
+<details>
   <summary>Add to styles.css!</summary>
 
 ```
 .jumbotron {
-  padding:70px 30px 70px 30px;
-  margin:0px auto;
-  background: #9575CD ;
-  color:floralwhite;
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
 }
 address{
-  font-size:80%;
-  margin:0px;
-  color:#0f0f0f;
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
 }
 ```
 
@@ -5135,11 +5140,11 @@ classes.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-2.pdf">05-Responsive-Design-Bootstrap-Grid-part-2.pdf (17 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-1.pdf">05-Responsive-Design-Bootstrap-Grid-part-1.pdf (6 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-ResponsiveDesign-Bootstrap-Grid-part-2.pdf">05-Responsive-Design-Bootstrap-Grid-part-2.pdf (17 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/05-Bootstrap-Grid.pdf">05-Bootstrap-Grid.pdf (17 slides)</a><br/></li>
+</ul>
 
 <h4>Bootstrap Official Documentation</h4>
 
@@ -5199,10 +5204,10 @@ then you can view the page in your browser by typing
 localhost:3000/aboutus.html and your light server build server up the
 aboutus.html page, so this is the only way you can get to view the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. aboutus.html (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 74. aboutus.html (108) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.png?raw=true"
+<img src="./images/image074.webp?raw=true"
   width="50%"
   alt="Aboutus.html." />
 </p>
@@ -5215,10 +5220,10 @@ Now your job is to go through three tasks in order to format this page.
 
 Let&apos;s look at the three tasks in more detail.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. first task (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ 75. first task (108) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image075.webp?raw=true"
   width="50%"
   alt="First task." />
 </p>
@@ -5231,10 +5236,10 @@ and JavaScript classes, the header and footer will automatically get
 formatted correctly, because I have simply copied the header in the
 footer from the index.html page into this page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. second task (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 76. second task (109) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
+<img src="./images/image076.webp?raw=true"
   width="50%"
   alt="Second task." />
 </p>
@@ -5247,10 +5252,10 @@ Now, as the second task, you&apos;re going to apply the Bootstraps Flexbox
 grid including the Container, the rows and the column classes to this
 content or the page so that you can style it properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. third task (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------ 77. third task (110) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image077.webp?raw=true"
   width="50%"
   alt="Third task." />
 </p>
@@ -5273,10 +5278,10 @@ in this page.
 When you complete the second task, your page will end up being styled
 like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. aboutus (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------------- 78. aboutus (111) --------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image078.webp?raw=true"
   width="50%"
   alt="Aboutus and history." />
 </p>
@@ -5286,10 +5291,10 @@ You can see that the aboutus page exists in its own.
 Then Our History part, notice that on a small to large screen size, the
 Our History will occupy only half the screen width.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. our history (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!----------------------------------- 79. our history (111) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image079.webp?raw=true"
   width="50%"
   alt="Our history." />
 </p>
@@ -5298,10 +5303,10 @@ Our History will occupy only half the screen width.
 Then the Corporate Leadership part occupies the entire screen width in
 this case.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. ristorante con fusion (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 81. ristorante con fusion (112) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image081.webp?raw=true"
   width="50%"
   alt="Ristorante con Fusion." />
 </p>
@@ -5309,10 +5314,10 @@ this case.
 
 This is the second task that you need to complete in your assignment.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. task 3 (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-------------------------------------- 82. task 3 (112) ---------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
+<img src="./images/image082.webp?raw=true"
   width="50%"
   alt="Task 3." />
 </p>
@@ -5322,10 +5327,10 @@ For the third task as you can see, this content layout looks fine for
 larger screen sizes, but when you go to the extra small screen size
 especially like this,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. corporate leadership (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 83. corporate leadership (113) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image083.webp?raw=true"
   width="50%"
   alt="Corporate leadership." />
 </p>
@@ -5346,10 +5351,10 @@ When you apply the classes to this corporate leadership part, the same
 content will now be laid out without the description, so it will be
 hidden in the extra small screens size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. corporate leadership #2 (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 84. corporate leadership #2 (114) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image084.png?raw=true"
+<img src="./images/image084.webp?raw=true"
   width="50%"
   alt="Corporate leadership #2." />
 </p>
@@ -5392,16 +5397,16 @@ Git Repository with the Message Assignment One.
 
 <h4>Assignment 1 Screenshots</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. assignment 1 (116/117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------- 85/86. assignment 1 (116/117) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image085.webp?raw=true"
   width="20%"
   alt="Assignment 1." />
 </p>
 <!-- {width="2.0in" height="7.825243875765529in"} -->
 <p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
+<img src="./images/image086.webp?raw=true"
   width="50%"
   alt="Assignment #1, continued." />
 </p>
@@ -5537,7 +5542,7 @@ And how do you we provide navigation information on your website?
 These are the question that we will try to answer In this particular
 lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. why website navigation? (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------ 87. why website navigation? (120) ------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
@@ -5719,7 +5724,7 @@ SchrollSpy, and Affix.
 We&apos;ll look at some of these in a bit more detail as we go through the
 various lessons in the modules that follow this particular lesson.
 
-<h4>Exercise: Navbar and Breadcrumbs</h4>
+<h4>Exercise (Video): Navbar and Breadcrumbs</h4>
 
 We just completed a discussion on the importance of providing navigation
 in your website.
@@ -6295,36 +6300,38 @@ exercise, you will be able to:
     provides links to the other pages on the website. Start by adding
     the following code to the body just above the header jumbotron.
 
-<details open>
+<details>
   <summary>Insert the following:</summary>
 
 ```
-<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="[./aboutus.html]{.underline}">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>            
+      </div>
+  </nav>
 ```
 
 </details>
 
-<p>In the above code, we can see the use of the nav element to specify the
+In the above code, we can see the use of the nav element to specify the
 navigation information for the website. This nav element is styled by
 the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</i>
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the <i><a class="navbar-brand"&gt;</i> tag.</p>
-<p>In addition the inner <i>ul</i> is used to specify the items to be put in the navigation 
-bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to specify that the items 
-should be displayed inline inside the navigation bar.</p>
-<p>We also use the container class inside the navigation bar.</p>
+logo for the website. This is created by the <i>&lt;a class="navbar-brand"&gt;</i> 
+tag. 
+
+In addition the inner <i>ul</i> is used to specify the items to be put 
+in the navigation bar. This <i>ul</i> is styled with <i>navbar-nav</i> class to 
+specify that the items should be displayed inline inside the navigation bar. 
+We also use the container class inside the navigation bar.
 
 <h4>Creating a responsive navigation bar</h4>
 
@@ -6381,11 +6388,11 @@ toggle button.
 
 ```
 body{
-  padding:50px 0px 0px 0px;
-  z-index:0;
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
 .navbar-dark {
-  background-color: #512DA8;
+     background-color: #512DA8;
 }
 ```
 
@@ -6402,10 +6409,10 @@ body{
     containing the About Us title in <i>aboutus.html</i>.
 
 ```
-  <ol class="col-12 breadcrumb">
-    <li class="breadcrumb-item"><a href="[./index.html]{.underline}">Home</a></li>
-    <li class="breadcrumb-item active">About Us</li>
-  </ol>
+   <ol class="col-12 breadcrumb">
+      <li class="breadcrumb-item"><a href="[./index.html]{.underline}">Home</a></li>
+      <li class="breadcrumb-item active">About Us</li>
+   </ol>
 ```
 
 -   Save all the changes and commit to your Git repository with a
@@ -6505,7 +6512,7 @@ bootstrap-social.css file that I provide on the exercise instructions
 that you should download and include in your confusion project and make
 use of it in the exercise.
 
-<h4>Exercise: Icon Fonts</h4>
+<h4>Exercise (Video): Icon Fonts</h4>
 
 Let&apos;s now move on to our next exercise, where we will learn more about
 Icon fonts.
@@ -6622,7 +6629,7 @@ specifying the Font Awesome icons.
 Font Awesome website uses I but I&apos;m showing you two possible ways of
 doing these things.
 
-I say fa fa-tel, I&apos;m sorry fa-phone and close the &lt;i&gt; tag here.
+I say fa fa-tel, I&apos;m sorry fa-phone and close the <i\> tag here.
 
 And for fax, I&apos;m going to simply copy this, and then for fax if it is
 fa-fax, and for email it is fa-envelope and save changes.
@@ -6638,7 +6645,7 @@ with the social media buttons.
 To get that done, we&apos;ll go to the footer and then replace each of these
 with their corresponding icons there.
 
-I would say, i class Font Awesome fa-google-plus and close the &lt;i&gt; tag
+I would say, i class Font Awesome fa-google-plus and close the <i\> tag
 there. And then I&apos;m simply going to copy this and then apply the same
 to the remaining ones.
 
@@ -6755,7 +6762,7 @@ $ npm install bootstrap-social@5.1.1 --save
     social buttons in the footer in both index.html and aboutus.html, by
     replacing the social sites&apos; links with the following code:
 
-<details open>
+<details>
   <summary>Insert the following:</summary>
 
 ```
@@ -6787,9 +6794,10 @@ We learnt about using icon fonts in a web project.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Navigation.pdf">06-Navigation.pdf (8 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/06-Icon-Fonts.pdf">06-Icon-Fonts.pdf (6 slides)</a><br/></li>
+</ul>
 
 <h4>Official Bootstrap Resources</h4>
 
@@ -6947,12 +6955,12 @@ form information being canceled.
 
 A button outside a form could have other ways of providing interaction.
 
-Similarly, the &lt; a > tag that we have traditionally associated with
+Similarly, the \< a > tag that we have traditionally associated with
 hyperlinks could also be hijacked to be styled and presented in the form
 of a button.
 
 Here we will see how bootstrap provides classes that can be used to
-format the &lt;a> tag into a button to be presented on your website.
+format the \<a> tag into a button to be presented on your website.
 
 We&apos;ll also look at various form elements, like the input elements,
 select, the button and also the text AD elements, and how we make use of
@@ -6964,7 +6972,7 @@ bootstrap support for styling buttons, and also look at how various form
 elements can be enhanced using bootstrap classes to present classic
 Bootstrap forms.
 
-<h4>Exercise: Buttons</h4>
+<h4>Exercise (Video): Buttons</h4>
 
 In this exercise, we&apos;re going to look at Bootstrap&apos;s support for
 buttons and forms.
@@ -7536,7 +7544,7 @@ And look at the class applied to this.
 It says class="form-control" to the select. And then you give the
 options in the select here.
 
-So &lt;option>Tel., Email and so on.
+So \<option>Tel., Email and so on.
 
 This is how you specify the options for your select field in your form
 here.
@@ -7597,10 +7605,10 @@ After a div, on the text area, I&apos;m going to paste in the code for the
 Submit button here.
 
 Pasting in the code for the Submit button again, looking at the code,
-you see that this is a div class ="form-group row"&gt;, which you
+you see that this is a div class ="form-group row"\>, which you
 already know from before.
 
-And then this says, div class="offset-md-2 col-md-10"&gt;.
+And then this says, div class="offset-md-2 col-md-10"\>.
 
 You understand what that is and then, inside this div, you see a button
 being enclosed here. Now since we have seen the construction of a button
@@ -7709,17 +7717,17 @@ Download file
 
 ```
 <div class="btn-group" role="group">
-  <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>
-  <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-  <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>
+    <a role="button" class="btn btn-primary" href="[tel:+85212345678]{.underline}"><i class="fa fa-phone"></i> Call</a>
+    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+    <a role="button" class="btn btn-success" href="[mailto:confusion@food.net]{.underline}"><i class="fa fa-envelope-o"></i> Email</a>
 </div>
 ```
 
 Note how we define the button bar using the <i>btn-group</i> class, and then
-add the three buttons using the <i>&lt;a&gt;</i> tag. In this case, the three
+add the three buttons using the <i>\<a\></i> tag. In this case, the three
 buttons are hyperlinks that cause an action and have an <i>href</i>
-associated with them. So we decided to use the <i>&lt;a&gt;</i> tag instead of
-the <i>&lt;button&gt;</i> tag. Note how the <i>&lt;a&gt;</i> tags have been styled using
+associated with them. So we decided to use the <i>\<a\></i> tag instead of
+the <i>\<button\></i> tag. Note how the <i>\<a\></i> tags have been styled using
 the <i>btn</i> class.
 
 -   Remember to do a Git commit with the message "Buttons".
@@ -7728,7 +7736,7 @@ the <i>btn</i> class.
 
 -   We have learnt how to add buttons and button groups to a web page.
 
-<h4>Exercise: Forms</h4>
+<h4>Exercise (Video): Forms</h4>
 
 Now that we have seen how to add buttons to our web page.
 
@@ -8119,7 +8127,7 @@ This is a good time for you to do a good comment with the message forms.
 
 <h4>Exercise (Instructions): Forms</h4>
 
-<h4>Exercise: Forms</h4>
+# Exercise: Forms
 
 <h4>Objectives and Outcomes</h4>
 
@@ -8136,23 +8144,23 @@ be able to:
     "Form goes here". Add the following code to page to create a
     simple horizontal form with two fields:
 
-<details open>
+<details>
   <summary>Insert the following:</summary>
 
 ```
 <form>
-  <div class="form-group row">
-    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-    <div class="col-md-10">
-      <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-    <div class="col-md-10">
-      <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-    </div>
-  </div>
+   <div class="form-group row">
+      <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+      <div class="col-md-10">
+         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+      </div>
+   </div>
+   <div class="form-group row">
+      <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+      <div class="col-md-10">
+         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+      </div>
+   </div>
 </form>
 ```
 
@@ -8164,24 +8172,24 @@ can style the contents using the column classes as appropriate.
 
 -   Let us add fields to seek user&apos;s telephone number and email:
 
-<details open>
+<details>
   <summary>Add the following:</summary>
 
 ```
 <div class="form-group row">
-  <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-  <div class="col-5 col-md-3">
-    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-  </div>
-  <div class="col-7 col-md-7">
-    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-  </div>
+   <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+   <div class="col-5 col-md-3">
+      <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+   </div>
+   <div class="col-7 col-md-7">
+      <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+   </div>
 </div>
 <div class="form-group row">
-  <label for="emailid" class="col-md-2 col-form-label">Email</label>
-  <div class="col-md-10">
-    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-  </div>
+   <label for="emailid" class="col-md-2 col-form-label">Email</label>
+   <div class="col-md-10">
+      <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+   </div>
 </div>
 ```
 
@@ -8192,25 +8200,25 @@ can style the contents using the column classes as appropriate.
 -   We now see the addition of a checkbox and a select element to the
     form. Note the styling of these elements using Bootstrap classes:
 
-<details open>
+<details>
   <summary>Insert the following:</summary>
 
 ```
 <div class="form-group row">
-  <div class="col-md-6 offset-md-2">
-    <div class="form-check">
-      <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-      <label class="form-check-label" for="approve">
-        <strong>May we contact you?</strong>
-      </label>
-    </div>
-  </div>
-  <div class="col-md-3 offset-md-1">
-    <select class="form-control">
-      <option>Tel.</option>
-      <option>Email</option>
-    </select>
-  </div>
+   <div class="col-md-6 offset-md-2">
+      <div class="form-check">
+         <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+         <label class="form-check-label" for="approve">
+            <strong>May we contact you?</strong>
+         </label>
+      </div>
+   </div>
+   <div class="col-md-3 offset-md-1">
+      <select class="form-control">
+         <option>Tel.</option>
+         <option>Email</option>
+      </select>
+   </div>
 </div>
 ```
 
@@ -8223,10 +8231,10 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-  <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-  <div class="col-md-10">
-    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-  </div>
+   <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+      <div class="col-md-10">
+         <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+      </div>
 </div>
 ```
 
@@ -8236,9 +8244,9 @@ can style the contents using the column classes as appropriate.
 
 ```
 <div class="form-group row">
-  <div class="offset-md-2 col-md-10">
-    <button type="submit" class="btn btn-primary">Send Feedback</button>
-  </div>
+   <div class="offset-md-2 col-md-10">
+      <button type="submit" class="btn btn-primary">Send Feedback</button>
+   </div>
 </div>
 ```
 
@@ -8255,7 +8263,9 @@ classes.
 
 <h4>PDFs of Presentations
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/07-User-Input.pdf">07-User-Input.pdf (5 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/07-User-Input.pdf">07-User-Input.pdf (5 slides)</a></li>
+</ul>
 
 <h4>Exercise Resources</h4>
 
@@ -8375,7 +8385,7 @@ Card is a very important company that can be effectively used for
 displaying content. It&apos;s time to move on to the next exercise where we
 will use tables and cards to display some content in our web page.
 
-<h4>Exercise: Displaying Content: Tables and Cards</h4>
+<h4>Exercise (Video): Displaying Content: Tables and Cards</h4>
 
 Our next exercise looks at ways of displaying content on our web page.
 
@@ -8711,57 +8721,57 @@ displaying content. At the end of this exercise, you will be able to:
 
 ```
 <div class="row row-content">
-  <div class="col-12 col-sm-9">
-    <h2>Facts &amp; Figures</h2>
-  </div>
-  <div class="col-12 col-sm-3">
-  </div>
+   <div class="col-12 col-sm-9">
+      <h2>Facts &amp; Figures</h2>
+   </div>
+   <div class="col-12 col-sm-3">
+   </div>
 </div>
 ```
 
 -   Inside the first column of this row, insert the table as follows:
 
-<details open>
+<details>
   <summary>Insert the following:</summary>
 
 ```
 <div class="table-responsive">
-  <table class="table table-striped">
-    <thead class="thead-dark">
-      <tr>
-        <th>&nbsp;</th>
-        <th>2013</th>
-        <th>2014</th>
-        <th>2015</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>Employees</th>
-        <td>15</td>
-        <td>30</td>
-        <td>40</td>
-      </tr>
-      <tr>
-        <th>Guests Served</th>
-        <td>15000</td>
-        <td>45000</td>
-        <td>100,000</td>
-      </tr>
-      <tr>
-        <th>Special Events</th>
-        <td>3</td>
-        <td>20</td>
-        <td>45</td>
-      </tr>
-      <tr>
-        <th>Annual Turnover</th>
-        <td>$251,325</td>
-        <td>$1,250,375</td>
-        <td>~$3,000,000</td>
-      </tr>
-    </tbody>
-  </table>
+   <table class="table table-striped">
+      <thead class="thead-dark">
+         <tr>
+            <th>&nbsp;</th>
+            <th>2013</th>
+            <th>2014</th>
+            <th>2015</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th>Employees</th>
+            <td>15</td>
+            <td>30</td>
+            <td>40</td>
+         </tr>
+         <tr>
+            <th>Guests Served</th>
+            <td>15000</td>
+            <td>45000</td>
+            <td>100,000</td>
+         </tr>
+         <tr>
+            <th>Special Events</th>
+            <td>3</td>
+            <td>20</td>
+            <td>45</td>
+            </tr>
+         <tr>
+            <th>Annual Turnover</th>
+            <td>$251,325</td>
+            <td>$1,250,375</td>
+            <td>~$3,000,000</td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 ```
 
@@ -8777,26 +8787,26 @@ table.
     follows, updating the div first by adding the classes col-12
     col-sm-6 to it and then adding the card:
 
-<details open>
+<details>
   <summary>Bootstrap card:</summary>
 
 ```
 <div class="col-12 col-sm-6">
-  <div class="card">
-    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
-    <div class="card-body">
-      <dl class="row">
-        <dt class="col-6">Started</dt>
-        <dd class="col-6">3 Feb. 2013</dd>
-        <dt class="col-6">Major Stake Holder</dt>
-        <dd class="col-6">HK Fine Foods Inc.</dd>
-        <dt class="col-6">Last Year's Turnover</dt>
-        <dd class="col-6">$1,250,375</dd>
-        <dt class="col-6">Employees</dt>
-        <dd class="col-6">40</dd>
-      </dl>
-    </div>
-  </div>
+   <div class="card">
+   <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+      <div class="card-body">
+         <dl class="row">
+            <dt class="col-6">Started</dt>
+            <dd class="col-6">3 Feb. 2013</dd>
+            <dt class="col-6">Major Stake Holder</dt>
+            <dd class="col-6">HK Fine Foods Inc.</dd>
+            <dt class="col-6">Last Year's Turnover</dt>
+            <dd class="col-6">$1,250,375</dd>
+            <dt class="col-6">Employees</dt>
+            <dd class="col-6">40</dd>
+         </dl>
+      </div>
+   </div>
 </div>
 ```
 
@@ -8805,19 +8815,19 @@ table.
 -   Next, we add a Bootstrap card and include a quotation in the card
     using the blockquote typography style:
 
-<details open>
+<details>
   <summary>Bootstrap card:</summary>
 
 ```
 <div class="col-12">
    <div class="card card-body bg-light">
       <blockquote class="blockquote">
-        <p class="mb-0">You better cut the pizza in four pieces because
-          I'm not hungry enough to eat six.</p>
-        <footer class="blockquote-footer">Yogi Berra,
-          <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
-            P. Pepe, Diversion Books, 2014</cite>
-        </footer>
+         <p class="mb-0">You better cut the pizza in four pieces because
+            I'm not hungry enough to eat six.</p>
+            <footer class="blockquote-footer">Yogi Berra,
+               <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
+               P. Pepe, Diversion Books, 2014</cite>
+            </footer>
       </blockquote>
    </div>
 </div>
@@ -8825,8 +8835,8 @@ table.
 
 </details>
 
-Note the use of the <i>&lt;blockquote&gt;</i> tag to create a block quote in the
-card. We can use a <i>&lt;footer&gt;</i> inside the block quote to specify the
+Note the use of the <i>\<blockquote\></i> tag to create a block quote in the
+card. We can use a <i>\<footer\></i> inside the block quote to specify the
 attribution of the quote to its origin.
 
 -   Remember to commit the changes to your Git repository with the
@@ -8847,9 +8857,10 @@ content.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Tables.pdf">08-Boostrap-Tables.pdf (6 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-Cards.pdf">08-Bootstrap-Cards.pdf (4 slides)</a><br/></li>
+</ul>
 
 <h4>Bootstrap Classes</h4>
 
@@ -8886,7 +8897,7 @@ Computer science professors are an exception.
 At this stage, you are probably expecting me to say this, but that&apos;s
 not what I&apos;m going to say.
 
-I&apos;m going to say that, &#34;A picture is worth &dollar;12 on iStockPhoto.com&#34;.
+I&apos;m going to say that, "A picture is worth \$12 on iStockPhoto.com.
 
 Bootstrap provides extensive support for including images and various
 kinds of media in your websites and your web pages.
@@ -8978,7 +8989,7 @@ the webpage or the website that we have been working on.
 We&apos;ll make some changes to the index.html page by including some images
 and content using the media object.
 
-<h4>Exercise: Images and Media</h4>
+<h4>Exercise (Video): Images and Media</h4>
 
 Time to move onto the next exercise.
 
@@ -9186,11 +9197,11 @@ At the end of this exercise you will be able to:
 
 -   We will now add the restaurant logo to the Jumbotron. In index.html
     go to the header row inside the jumbotron and replace the second
-    &lt;div&gt; column with the following code:
+    \<div\> column with the following code:
 
 ```
 <div class="col-12 col-sm align-self-center">
-  <img src="[img/logo.png]{.underline}" class="img-fluid">
+   <img src="[img/logo.png]{.underline}" class="img-fluid">
 </div>
 ```
 
@@ -9199,11 +9210,11 @@ jumbotron.
 
 -   Next, we will add the logo to the navbar where we display the
     restaurant brand. Go to the navbar and replace the code there for
-    the &lt;a&gt; tag with the "navbar-brand"            
+    the \<a\> tag with the "navbar-brand"            
 
 ```
 <a class="navbar-brand mr-auto" href="#"><img src="[img/logo.png]{.underline}" height="30" width="41"></a>
-  Note the inclusion of the logo in the navbar.
+Note the inclusion of the logo in the navbar.
 ```
 
 -   Repeat the above two steps for the <i>aboutus.html</i> and the
@@ -9218,21 +9229,21 @@ jumbotron.
     column containing the description of Uthappizza with the following
     code:
 
-<details open>
+<details>
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media">
-  <img class="d-flex mr-3 img-thumbnail align-self-center"
-    src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-  <div class="media-body">
-    <h2 class="mt-0">Uthappizza</h2>
-    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-       Italian pizza, topped with Cerignola olives, ripe vine
-       cherry tomatoes, Vidalia onion, Guntur chillies and
-       Buffalo Paneer.</p>
-  </div>
-</div>
+<div class="media"&gt;
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
+   <div class="media-body"&gt;
+   <h2 class="mt-0"&gt;Uthappizza</h2&gt;
+   <p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
+      Italian pizza, topped with Cerignola olives, ripe vine
+      cherry tomatoes, Vidalia onion, Guntur chillies and
+      Buffalo Paneer.</p&gt;
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -9244,23 +9255,23 @@ style the content.
     second column containing the description about Alberto with the
     following content:
 
-<details open>
+<details>
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media">
-  <img class="d-flex mr-3 img-thumbnail align-self-center"
-    src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
-  <div class="media-body">
-    <h2 class="mt-0">Alberto Somayya</h2>
-    <h4>Executive Chef</h4>
-    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-      International experience having worked closely with
-      whos-who in the culinary world, he specializes in
-      creating mouthwatering Indo-Italian fusion experiences.
-    </p>
-  </div>
-</div>
+<div class="media"&gt;
+   <img class="d-flex mr-3 img-thumbnail align-self-center"
+      src="[img/alberto.png]{.underline}" alt="Alberto Somayya"&gt;
+   <div class="media-body"&gt;
+      <h2 class="mt-0"&gt;Alberto Somayya</h2&gt;
+      <h4&gt;Executive Chef</h4&gt;
+      <p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
+         International experience having worked closely with
+         whos-who in the culinary world, he specializes in
+         creating mouthwatering Indo-Italian fusion experiences.
+      </p&gt;
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -9268,7 +9279,7 @@ style the content.
 -   Finally, do a Git commit with a message "Images and Media".
 
 ```
-$ git commit "Images and Media"
+git commit "Images and Media"
 ```
 
 <b>Conclusions</b>
@@ -9418,7 +9429,7 @@ Now that we have looked at various ways of alerting users, let&apos;s do a
 simple exercise next and use badges in our web page to draw the
 attention of users.
 
-<h4>Exercise: Alerting Users</h4>
+<h4>Exercise (Video): Alerting Users</h4>
 
 In this short exercise, we&apos;re going to make use of badges to add badges
 to our web page, so that we can highlight some information for our
@@ -9466,17 +9477,17 @@ alerting users. At the end of this exercise, you will be able to:
 -   We will continue to edit the <i>index.html</i> file. In this file, we
     will add a badge <i>HOT</i> next to the name of the dish Uthappizza in
     the first content row. To do this, add the following code inside the
-    <i>&lt;h2></i> containing the name of the dish:
+    <i>\<h2\></i> containing the name of the dish:
 
 ```
-<span class="badge badge-danger">HOT</span>
+<span class="badge badge-danger"&gt;HOT</span&gt;
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
-    tag in the web page. Add the following code to the <i>&lt;h2&gt;</i> tag:
+    tag in the web page. Add the following code to the <i>\<h2\></i> tag:
 
 ```
-<span class="badge badge-pill badge-secondary">$4.99</span>
+<span class="badge badge-pill badge-secondary"&gt;$4.99</span&gt;
 ```
 
 -   Remember to commit the changes to the Git repository with message
@@ -9490,7 +9501,9 @@ In this short exercise, we learnt how to add badges to our web page.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Alerting-Users.pdf">08-Alerting-Users.pdf (8 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Alerting-Users.pdf">08-Alerting-Users.pdf (8 slides)</a></li>
+</ul>
 
 Bootstrap Resources
 
@@ -9605,7 +9618,7 @@ You can use the column classes to adjust these things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. assignment 2 (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.png?raw=true"
+<img src="./images/image088.webp?raw=true"
   width="50%"
   alt="Assignment 2." />
 </p>
@@ -9614,7 +9627,7 @@ You can use the column classes to adjust these things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. assignment 2, continued (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
+<img src="./images/image089.webp?raw=true"
   width="50%"
   alt="Assignment 2, continued." />
 </p>
@@ -9775,7 +9788,7 @@ These components have two parts, the CSS classes, and the JavaScript
 support. In this module we will learn about using the JS components
 without writing any JavaScript Code.
 
-This is possible using the data-&ast; attributes that Bootstrap provides
+This is possible using the data-\* attributes that Bootstrap provides
 for us to control the components.
 
 At the end of this module, you will be able to:
@@ -9783,7 +9796,7 @@ At the end of this module, you will be able to:
 -   Understand the various Bootstrap components that require JavaScript
     support in order to function
 
--   Use the data-&lt;/i> attributes that Bootstrap&apos;s JS API provides for you
+-   Use the data-\</i> attributes that Bootstrap&apos;s JS API provides for you
     to control the JS components without writing a single line of JS
     code
 
@@ -9927,7 +9940,7 @@ couple of these attributes.
 
 There we designed the button for the extra small screens.
 
-Now, it is time for us to &lsqb;inaudible&rsqb; why we did it in the previous
+Now, it is time for us to \[inaudible\] why we did it in the previous
 module.
 
 We will explore this approach in great detail in this module, looking at
@@ -9944,7 +9957,9 @@ functionality to your JavaScript-based Bootstrap components.
 
 <h4>PDFs of Presentations</h4>
 
--	<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-JS.pdf">08-Bootstrap_JS.pdf (7 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Bootstrap-JS.pdf">08-Bootstrap_JS.pdf (7 slides)</a></li>
+</ul>
 
 <b>Bootstrap Resources</b>
 
@@ -10039,7 +10054,7 @@ That is what we&apos;re going to explore in the exercise next.
 We will use tabbed navigation and then use tab content and tab panes to
 organize the actual content that will be displayed in our web page.
 
-<h4>Exercise: Tabs</h4>
+<h4>Exercise (Video): Tabs</h4>
 
 In this exercise, we&apos;re going to explore Bootstrap&apos;s tab-based
 navigation, Bootstrap&apos;s support for tabs, and how tabs can be used to
@@ -10297,38 +10312,38 @@ content. At the end of this exercise you will be able to:
 -   Right after the Corporate Leadership heading, introduce the
     following code to set up the tabbed navigation:
 
-<details open>
+<details>
   <summary>Tab Navigation Elements:</summary>
 
 ```
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" href="#peter"
-      role="tab" data-toggle="tab">Peter Pan, CEO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#danny" role="tab"
-      data-toggle="tab">Danny Witherspoon, CFO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#agumbe"role="tab"
-      data-toggle="tab">Agumbe Tang, CTO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#alberto" role="tab"
-      data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-  </li>
-</ul>
+<ul class="nav nav-tabs"&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link active" href="#peter"
+        role="tab" data-toggle="tab"&gt;Peter Pan, CEO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#danny" role="tab"
+        data-toggle="tab"&gt;Danny Witherspoon, CFO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#agumbe"role="tab"
+        data-toggle="tab"&gt;Agumbe Tang, CTO</a&gt;
+    </li&gt;
+    <li class="nav-item"&gt;
+        <a class="nav-link" href="#alberto" role="tab"
+        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef</a&gt;
+    </li&gt;
+</ul&gt;
 ```
 
 </details>
 
-Note the use of the <i>&lt;ul&gt;</i> tag with the <i>nav</i> and <i>nav-tabs</i> classes
+Note the use of the <i>\<ul\></i> tag with the <i>nav</i> and <i>nav-tabs</i> classes
 to set up the tab navigation. Each list item within the list acts as the
-tab element. Within each list item, note that we set up the <i>&lt;a&gt;</i> tags
+tab element. Within each list item, note that we set up the <i>\<a\></i> tags
 with the <i>href</i> pointing to the <i>id</i> of the tab pane of content to be
-introduced later. Also note that the <i>&lt;a&gt;</i> tag contains the
-<i>data-toggle=tab</i> attribute. The first list element&apos;s <i>&lt;a&gt;</i> tag
+introduced later. Also note that the <i>\<a\></i> tag contains the
+<i>data-toggle=tab</i> attribute. The first list element&apos;s <i>\<a\></i> tag
 contains the class <i>active</i>. This tab will be the open tab when we view
 the web page. We can switch to the other tabs using the tabbed
 navigation that we just set up.
@@ -10341,24 +10356,24 @@ navigation that we just set up.
     specified below:
 
 ```
-<div class="tab-content">
+<div class="tab-content"&gt;
     ...
-</div>
+</div&gt;
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-<div role="tabpanel" class="tab-pane fade show active" id="peter">
-  <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-  <p> ... </p>
-</div>
+<div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
+  <h3&gt;Peter Pan <small&gt;Chief Epicurious Officer</small&gt;</h3&gt;
+  <p&gt; ... </p&gt;
+</div&gt;
 ```
 
 Note the use of the <i>tab-pane, fade, show,</i> and <i>active</i> classes and
 with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
-<i>&lt;a&gt;</i> link in the navigation.
+<i>\<a\></i> link in the navigation.
 
 -   The remaining content is also similarly enclosed inside appropriate
     divs with the correct ids and the classes specified as above. Only
@@ -10371,7 +10386,7 @@ with <i>peter</i> as the id. This is the same id used as the <i>href</i> in the
 -   We now modify the CSS styles for the tab-content class in the
     <i>mystyles.css</i> file as follows:
 
-<details open>
+<details>
   <summary>Modify tab-content in mystyles.css!</summary>
 
 ```
@@ -10401,7 +10416,9 @@ in a page.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Tabs-Pills-Navigation.pdf">08-Tabs-Pills-Navigation.pdf (3 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/08-Tabs-Pills-Navigation.pdf">08-Tabs-Pills-Navigation.pdf (3 slides)</a></li>
+</ul>
 
 <h4>Bootstrap Resources</h4>
 
@@ -10541,7 +10558,7 @@ Although, of course, the Coursera page actually doesn&apos;t use Bootstrap.
 We&apos;ll move to the next exercise where we will see how we construct the
 Accordion for showing our corporate leadership information.
 
-<h4>Exercise: Accordion</h4>
+<h4>Exercise (Video): Accordion</h4>
 
 Accordions are one of those annoying instruments that some of you may
 have seen already.
@@ -10722,40 +10739,40 @@ in a web page. At the end of this exercise, you will be able to:
 
 <h4>Converting Tabs to Accordion</h4>
 
--   First delete the &lt;ul&gt; class that was introduced for the tabbed
+-   First delete the \<ul\> class that was introduced for the tabbed
     navigation.
 
 -   Then the turn the <i>tab-content</i> div into a <i>accordion</i> div. Use the
     code structure as shown below:
 
 ```
-<div id="accordion">
+<div id="accordion"&gt;
     . . .
-</div>
+</div&gt;
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
-    appears as a card heading, and the &lt;p&gt; will be in the card body.
+    appears as a card heading, and the \<p\> will be in the card body.
     Use the structure of the code as shown below:
 
-<details open>
+<details>
   <summary>Convert first tab-pane into card!</summary>
 
 ```
-<div class="card">
-    <div class="card-header" role="tab" id="peterhead">
-    <h3 class="mb-0">
-       <a data-toggle="collapse" data-target="#peter">
-          Peter Pan <small>Chief Epicurious Officer</small>
-       </a>
-    </h3>
-    </div>
-    <div class="collapse show" id="peter" data-parent="#accordion">
-       <div class="card-body">
-          <p class="d-none d-sm-block">. . .</p>
-       </div>
-    </div>
-</div>
+<div class="card"&gt;
+    <div class="card-header" role="tab" id="peterhead"&gt;
+    <h3 class="mb-0"&gt;
+       <a data-toggle="collapse" data-target="#peter"&gt;
+          Peter Pan <small&gt;Chief Epicurious Officer</small&gt;
+       </a&gt;
+    </h3&gt;
+    </div&gt;
+    <div class="collapse show" id="peter" data-parent="#accordion"&gt;
+       <div class="card-body"&gt;
+          <p class="d-none d-sm-block"&gt;. . .</p&gt;
+       </div&gt;
+    </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -10764,50 +10781,50 @@ in a web page. At the end of this exercise, you will be able to:
     with the appropriate ids set up for the cards, as shown in the code
     structure below:
 
-<details open>
+<details>
   <summary>Show leaders:</summary>
 
 ```
-<div class="card">
-  <div class="card-header" role="tab" id="dannyhead">
-    <h3 class="mb-0">
-      <a class="collapsed" data-toggle="collapse" data-target="#brian">
-        Brian Bauska <small>Chief Information Officer</small>
-      </a>
-    </h3>
-  </div>
-  <div class="collapse" id="brian" data-parent="#accordion">
-    <div class="card-body">
-      <p class="d-none d-sm-block">. . .</em></p>
-    </div>
-  </div>
-</div>
-<div class="card">
-  <div class="card-header" role="tab" id="agumbehead">
-    <h3 class="mb-0">
-      <a class="collapsed" data-toggle="collapse" data-target="#lance">
-        Silus Lance <small>Chief Software Engineer</small>
-      </a>
-    </h3>
-  </div>
-    <div class="collapse" id="lance" data-parent="#accordion">
-      <div class="card-body">
-        <p class="d-none d-sm-block">. . .</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="albertohead">
-      <h3 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-target="#alberto">
-          Alberto Somayya <small>Executive Chef</small>
-        </a>
-      </h3>
-    </div>
-  <div class="collapse" id="alberto" data-parent="#accordion">
-  <div class="card-body">
-  <p class="d-none d-sm-block">. . .</em></p>
-</div>
+<div class="card"&gt;
+<div class="card-header" role="tab" id="dannyhead"&gt;
+   <h3 class="mb-0"&gt;
+   <a class="collapsed" data-toggle="collapse" data-target="#brian"&gt;
+      Brian Bauska <small&gt;Chief Information Officer</small&gt;
+   </a&gt;
+   </h3&gt;
+</div&gt;
+<div class="collapse" id="brian" data-parent="#accordion"&gt;
+   <div class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
+   </div&gt;
+</div&gt;
+</div&gt;
+<div class="card"&gt;
+   <div class="card-header" role="tab" id="agumbehead"&gt;
+   <h3 class="mb-0"&gt;
+      <a class="collapsed" data-toggle="collapse" data-target="#lance"&gt;
+         Silus Lance <small&gt;Chief Software Engineer</small&gt;
+      </a&gt;
+   </h3&gt;
+   </div&gt;
+   <div class="collapse" id="lance" data-parent="#accordion"&gt;
+      <d iv class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</p&gt;
+   </div&gt;
+   </div&gt;
+   </div&gt;
+   <div class="card"&gt;
+      <div class="card-header" role="tab" id="albertohead"&gt;
+      <h3 class="mb-0"&gt;
+         <a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
+         Alberto Somayya <small&gt;Executive Chef</small&gt;
+         </a&gt;
+      </h3&gt;
+      </div&gt;
+      <div class="collapse" id="alberto" data-parent="#accordion"&gt;
+      <div class="card-body"&gt;
+      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
+</div&gt;
 ```
 
 </details>
@@ -10826,7 +10843,9 @@ together with the card component.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Collapse.pdf">09-Collapse.pdf (3 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Collapse.pdf">09-Collapse.pdf (3 slides)</a></li>
+</ul>
 
 <b>Bootstrap Resources</b>
 
@@ -10968,7 +10987,7 @@ index.html page.
 We&apos;ll also create a modal that allows the user to type in information
 for logging in into our web page.
 
-<h4>Exercise: Tooltips and Modals</h4>
+<h4>Exercise (Video): Tooltips and Modals</h4>
 
 In the lecture before, we saw several ways of revealing content to the
 users.
@@ -11273,36 +11292,36 @@ exercise, you will be able to:
 
 -   Let us now switch to the <i>index.html</i> page. We will now add a
     tooltip to this page. The tooltip will be added to the "Reserve
-    Table" button that is in the jumbotron. We will update the <i>&lt;a&gt;</i>
+    Table" button that is in the jumbotron. We will update the <i>\<a\></i>
     tag for the button as follows:
 
-<details open>
+<details>
   <summary>Add tooltip!</summary>
 
 ```
 <a role="button" class="btn btn-block nav-link btn-warning"
-  data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-  data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
+   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br&gt;<strong&gt;+852 12345678</strong&gt;"
+   data-placement="bottom" href="[#reserveform]{.underline}"&gt;Reserve Table</a&gt;
 ```
 
 </details>
 
 As you can see from the code, we add a <i>data-toggle</i>, <i>data-placement</i>
-and a <i>title</i> attribute to the <a&gt; tag in order to introduce a
+and a <i>title</i> attribute to the <a\> tag in order to introduce a
 tooltip.
 
 -   The tooltip needs to be activated by adding a small Javascript code
     to the bottom of the page as follows:
 
-<details open>
+<details>
   <summary>Activate tooltip!</summary>
 
 ```
-<script>
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-  });
-</script>
+<script&gt;
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script&gt;
 ```
 
 </details>
@@ -11316,68 +11335,68 @@ bootstrap.min.js file.
     the modal, add the following code right after the navbar at the top
     of the page.
 
-<details open>
+<details>
   <summary>Introduce modal to web page!</summary>
 
 ```
-<div id="loginModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg" role="content">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Login </h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-sm-4">
-              <label class="sr-only" for="exampleInputEmail3">Email address</label>
-              <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-            </div>
-            <div class="form-group col-sm-4">
-              <label class="sr-only" for="exampleInputPassword3">Password</label>
-              <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-            </div>
-            <div class="col-sm-auto">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox">
-                <label class="form-check-label"> Remember me
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+<div id="loginModal" class="modal fade" role="dialog"&gt;
+    <div class="modal-dialog modal-lg" role="content"&gt;
+        <!-- Modal content--&gt;
+        <div class="modal-content"&gt;
+            <div class="modal-header"&gt;
+                <h4 class="modal-title"&gt;Login </h4&gt;
+                <button type="button" class="close" data-dismiss="modal"&gt;&times;</button&gt;
+            </div&gt;
+            <div class="modal-body"&gt;
+                <form&gt;
+                    <div class="form-row"&gt;
+                        <div class="form-group col-sm-4"&gt;
+                                <label class="sr-only" for="exampleInputEmail3"&gt;Email address</label&gt;
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
+                        </div&gt;
+                        <div class="form-group col-sm-4"&gt;
+                            <label class="sr-only" for="exampleInputPassword3"&gt;Password</label&gt;
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
+                        </div&gt;
+                        <div class="col-sm-auto"&gt;
+                            <div class="form-check"&gt;
+                                <input class="form-check-input" type="checkbox"&gt;
+                                <label class="form-check-label"&gt; Remember me
+                                </label&gt;
+                            </div&gt;
+                        </div&gt;
+                    </div&gt;
+                    <div class="form-row"&gt;
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel</button&gt;
+                        <button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in</button&gt;
+                    </div&gt;
+                </form&gt;
+            </div&gt;
+        </div&gt;
+    </div&gt;
+</div&gt;
 ```
 
 </details>
 
 -   Next we introduce another link on the right side of the navbar in
     order to trigger the display of the modal. To do this, add the
-    following code in the navbar after the &lt;/ul&gt;:
+    following code in the navbar after the \</ul\>:
 
-<details open>
+<details>
   <summary>Introduce another link!</summary>
 
 ```
-<span class="navbar-text">
-  <a data-toggle="modal" data-target="#loginModal">
-  <span class="fa fa-sign-in"></span> Login</a>
-</span>
+<span class="navbar-text"&gt;
+  <a data-toggle="modal" data-target="#loginModal"&gt;
+  <span class="fa fa-sign-in"&gt;</span&gt; Login</a&gt;
+</span&gt;
 ```
 
 </details>
 
 We are introducing another link to the right of the navbar using the
-<i>navbar-text</i>. This contains a link with an <i>&lt;a&gt;</i> tag with the
+<i>navbar-text</i>. This contains a link with an <i>\<a\></i> tag with the
 <i>data-toggle="modal"</i> and <i>data-target="#loginModal"</i> attributes.
 
 -   Save all the changes and do a Git commit with the message "Tooltip
@@ -11392,7 +11411,9 @@ revealing content for the user upon clicking on a button or a link.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Tooltips-Popovers-Modals.pdf">09-Tooltips-Popovers-Modals.pdf (4 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Tooltips-Popovers-Modals.pdf">09-Tooltips-Popovers-Modals.pdf (4 slides)</a></li>
+</ul>
 
 <h4>Bootstrap Resources</h4>
 
@@ -11458,7 +11479,7 @@ That is what we&apos;re going to examine in this next exercise, where we
 will add a carousel to our web page, the index.html page and then create
 the manual controls for it.
 
-<h4>Exercise: Carousel</h4>
+<h4>Exercise (Video): Carousel</h4>
 
 We just learnt about the carousel component in the previous lecture.
 
@@ -11676,16 +11697,16 @@ able to:
 
 <h4>Adding a row for the carousel</h4>
 
--   The carousel will be added to the <i>index.html</i> page. In this page,
+-   The carousel will be added to the <i&gt;index.html</i&gt; page. In this page,
     go to the top of the container div that contains the content of the
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
 
 ```
-<div class="row row-content">
-   <div class="col">
-   </div>
-</div>
+<div class="row row-content"&gt;
+   <div class="col"&gt;
+   </div&gt;
+</div&gt;
 ```
 
 <h4>Adding a Carousel</h4>
@@ -11694,34 +11715,34 @@ able to:
     just added as follows:
 
 ```
-<div id="mycarousel" class="carousel slide" data-ride="carousel">
-</div>
+<div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
+</div&gt;
 ```
 
 <h4>Adding Carousel Content</h4>
 
 -   Next add the content inside the carousel as follows:
 
-<details open>
+<details>
   <summary>Add content inside carousel!</summary>
 
 ```
-<div class="carousel-inner" role="listbox">
-  <div class="carousel-item active">
-    <img class="d-block img-fluid"
-      src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
-    <div class="carousel-caption d-none d-md-block">
-      <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
-      . . .
-    </div>
-  </div>
-  <div class="carousel-item">
-    . . .
-  </div>
-  <div class="carousel-item">
-    . . .
-  </div>
-</div>
+<div class="carousel-inner" role="listbox"&gt;
+   <div class="carousel-item active"&gt;
+      <img class="d-block img-fluid"
+         src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
+      <div class="carousel-caption d-none d-md-block"&gt;
+         <h2&gt;Uthappizza <span class="badge badge-danger"&gt;HOT</span&gt; <span class="badge badge-pill badge-default"&gt;$4.99</span&gt;</h2&gt;
+         . . .
+      </div&gt;
+   </div&gt;
+   <div class="carousel-item"&gt;
+   . . .
+   </div&gt;
+   <div class="carousel-item"&gt;
+   . . .
+   </div&gt;
+</div&gt;
 ```
 
 </details>
@@ -11733,12 +11754,12 @@ remaining parts from the content rows below.
 
 -   Add the following CSS classes to the <i>styles.css</i> file:
 
-<details open>
+<details>
   <summary>Add following CSS classes to styles.css!</summary>
 
 ```
 .carousel {
-  background:#512DA8;
+    background:#512DA8;
 }
  
 .carousel-item {
@@ -11746,10 +11767,10 @@ remaining parts from the content rows below.
 }
  
 .carousel-item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 ```
 
@@ -11764,15 +11785,15 @@ remaining parts from the content rows below.
 
 -   Add manual controls to carousel!
 
-<details open>
+<details>
   <summary>Add manual controls to carousel!</summary>
 
 ```
-<ol class="carousel-indicators">
-  <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-  <li data-target="#mycarousel" data-slide-to="1"></li>
-  <li data-target="#mycarousel" data-slide-to="2"></li>
-</ol>
+<ol class="carousel-indicators"&gt;
+   <li data-target="#mycarousel" data-slide-to="0" class="active"&gt;</li&gt;
+   <li data-target="#mycarousel" data-slide-to="1"&gt;</li&gt;
+   <li data-target="#mycarousel" data-slide-to="2"&gt;</li&gt;
+</ol&gt;
 ```
 
 </details>
@@ -11782,16 +11803,16 @@ remaining parts from the content rows below.
 
 -   Add this to the bottom of the carousel div:
 	
-<details open>
+<details>
   <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
-<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-  </a>
-<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
-  <span class="carousel-control-next-icon"></span>
-  </a>
+<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"&gt;
+   <span class="carousel-control-prev-icon"&gt;</span&gt;
+   </a&gt;
+<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"&gt;
+   <span class="carousel-control-next-icon"&gt;</span&gt;
+   </a&gt;
 ```
 
 </details>
@@ -11813,7 +11834,9 @@ We also learnt about introducing manual controls to the carousel.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Carousel.pdf">09-Carousel.pdf (3 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Carousel.pdf">09-Carousel.pdf (3 slides)</a></li>
+</ul>
 
 Open file
 
@@ -11889,14 +11912,11 @@ Hope you enjoyed creating this new variation of the index.html page.
 <!--~~~~~~~~~~~~~ 90. reserve a table, task 1 - smoking/non-smoking, task 2 (237) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image090.webp?raw=true"
   width="50%"
   alt="Task 2, smoking/non-smoking section." />
 </p>
-<!-- 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/\_dc9QC3MEeiTdA5yoE99Fg_86c5aee1ba2cc998964af3d5e281d4bd_assignment3.png?expiry=1641168000000&hmac=RR80L4QeWz5QXsMXSR3Jcm5z-49F1Vb5r9f1sFIO4E4](images/image090.png)
-{width="5.0in" height="4.461420603674541in"} 
--->
+<!-- {width="5.0in" height="4.461420603674541in"} -->
 
 <h4>Bootstrap Resources</h4>
 
@@ -11939,7 +11959,7 @@ Many of these plugins are written in jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. bootstrap and javascript (238) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.png?raw=true"
+<img src="./images/image091.webp?raw=true"
   width="50%"
   alt="Bootstrap and javascript." />
 </p>
@@ -11952,7 +11972,7 @@ been including all the Bootstrap&apos;s JavaScript plugins into our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 92. bootstrap and javascript components (239) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.png?raw=true"
+<img src="./images/image092.webp?raw=true"
   width="50%"
   alt="Bootstrap and javascript components." />
 </p>
@@ -11968,7 +11988,7 @@ and make it easy for us to make use of them in our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. bootstrap js components (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image093.webp?raw=true"
   width="50%"
   alt="Bootstrap JS components." />
 </p>
@@ -11985,7 +12005,7 @@ enable many of our Bootstrap&apos;s JavaScript-based components.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. bootstrap js components #2 (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image094.webp?raw=true"
   width="50%"
   alt="Bootstrap JS components #2." />
 </p>
@@ -12003,7 +12023,7 @@ We&apos;re going to explore that in a little more detail in this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. jquery (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image095.webp?raw=true"
   width="50%"
   alt="JQuery." />
 </p>
@@ -12051,7 +12071,7 @@ something that started with a dollar sign.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. jquery syntax (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png?raw=true"
+<img src="./images/image096.webp?raw=true"
   width="50%"
   alt="JQuery syntax." />
 </p>
@@ -12078,7 +12098,7 @@ Now that you select an HTML element, what kind of an action you want to
 be performed on that element, so that is the third part that you will
 see.
 
-As an example you can specify a jQuery statement like &dollar;("p") within
+As an example you can specify a jQuery statement like \$("p") within
 codes, and then .hide.
 
 In this case what it implies is that, select all those HTML elements
@@ -12107,7 +12127,7 @@ Let&apos;s take a look at Bootstrap jQuery example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. jquery syntax #2 (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.png?raw=true"
+<img src="./images/image097.webp?raw=true"
   width="50%"
   alt="JQuery syntax #2." />
 </p>
@@ -12119,14 +12139,14 @@ we introduce the tooltip.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. bootstrap jquery example (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image098.webp?raw=true"
   width="50%"
   alt="Bootstrap JQuery example." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 When we introduce the tooltip, we specified script and then inside the
-script, we said &dollar;(document).
+script, we said \$(document).
 
 In this case the document means the entire document.
 
@@ -12142,13 +12162,13 @@ as a parameter for this ready action there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. bootstrap jquery example #2 (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image099.webp?raw=true"
   width="50%"
   alt="Bootstrap JQuery example #2." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
-The function that we saw being used for the tooltip specified it as &dollar;,
+The function that we saw being used for the tooltip specified it as \$,
 and then within brackets, it said, data-toggle=" tooltip".
 
 Now here we are specifying that select those elements for which there is
@@ -12172,7 +12192,7 @@ Let&apos;s look at the various ways of specifying selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. jquery syntax, again (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image100.webp?raw=true"
   width="50%"
   alt="JQuery syntax, again." />
 </p>
@@ -12187,7 +12207,7 @@ selectors?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. jquery selectors (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.png?raw=true"
+<img src="./images/image101.webp?raw=true"
   width="50%"
   alt="JQuery selectors." />
 </p>
@@ -12245,7 +12265,7 @@ all those elements for which the data-toggle tooltip attribute has been
 applied.
 
 Also, selecting the current element for which you want to do something
-by saying &dollar;(this).
+by saying \$(this).
 
 Meaning, for the current element that has already been selected, for
 this, do something.
@@ -12255,10 +12275,10 @@ And a lot more other possibilities.
 These are some examples, so you will see me using some of these in the
 examples and the exercise that follows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 102. jquery events (246) ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. jquery events (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.png?raw=true"
+<img src="./images/image102.webp?raw=true"
   width="50%"
   alt="JQuery events." />
 </p>
@@ -12286,10 +12306,10 @@ We can even talk about the entire document.
 Upon the loading of the document, upon resizing the document, upon
 scrolling or unloading the document, you can respond to those events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 103. jquery events #2 (247) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. jquery events #2 (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image103.webp?raw=true"
   width="65%"
   alt="JQuery events #2." />
 </p>
@@ -12301,10 +12321,10 @@ click, dblclick, mousedown, on, and so on.
 These are all the event methods that will be executed upon occurrence of
 any of these events there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 104. example: bootstrap carousel (247) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104. example: bootstrap carousel (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image104.webp?raw=true"
   width="65%"
   alt="Example: Bootstrap carousel." />
 </p>
@@ -12323,10 +12343,10 @@ says data-ride+"carousel".
 And then we&apos;ve specified data interval, the interval for the sliding
 action to take place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 105. example: carousel (248) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. example: carousel (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image105.webp?raw=true"
   width="65%"
   alt="Example: Carousel." />
 </p>
@@ -12335,7 +12355,7 @@ action to take place.
 For the carousel you can do things like, for example, you can specify
 JavaScript based controls.
 
-You can see &dollar;, and within brackets specify to select those elements,
+You can see \$, and within brackets specify to select those elements,
 the carousels, that are included in your page by specifying .carousel.
 
 Meaning all those elements for which the carousel class has been
@@ -12358,10 +12378,10 @@ controls.
 For example, you can say carousel(&apos;cycle&apos;), meaning start cycling the
 items from left to right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 106. example: carousel #2 (249) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. example: carousel #2 (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.png?raw=true"
+<img src="./images/image106.webp?raw=true"
   width="65%"
   alt="Example: Carousel #2." />
 </p>
@@ -12386,7 +12406,7 @@ And based on the occurrence of these events, you can respond.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. example: carousel #3 (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
+<img src="./images/image107.webp?raw=true"
   width="65%"
   alt="Example: Carousel #3." />
 </p>
@@ -12403,14 +12423,14 @@ completed the slide transition to the next item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel #4 (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image108.webp?raw=true"
   width="65%"
   alt="Example: Carousel #4." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
 Within your code you can specify something like
-&dollar;("#myCarousel").on(&apos;slide.bs.carousel&apos;.
+\$("#myCarousel").on(&apos;slide.bs.carousel&apos;.
 
 Meaning that when that slide action starts, then invoke this function,
 and then do something inside that function there.
@@ -12421,7 +12441,7 @@ are caused by your carousel&apos;s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (250) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
+<img src="./images/image109.webp?raw=true"
   width="65%"
   alt="Exercise: Bootstrap and JQuery." />
 </p>
@@ -12437,7 +12457,7 @@ which will be used to control the sliding action of the carousel.
 Which means that we can pause and resume the sliding action of our
 carousel. And we&apos;ll activate these buttons from JavaScript.
 
-<h4>Exercise: Bootstrap and JQuery (9)</h4>
+<h4>Exercise (Video): Bootstrap and JQuery (9)</h4>
 
 Many of the Bootstrap&apos;s JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -12528,7 +12548,7 @@ here.
 This script should contain some JavaScript code written in jQuery
 syntax.
 
-I&apos;m going to say, &dollar;(document).ready(function), And this function
+I&apos;m going to say, \$(document).ready(function), And this function
 should contain a couple of functions here to activate the buttons.
 
 I would say, mycarousel.
@@ -12712,7 +12732,7 @@ here.
 So this script should contain some JavaScript code written in jQuery
 syntax.
 
-So I&apos;m going to say, &dollar;(document).ready(function), And this function
+So I&apos;m going to say, \$(document).ready(function), And this function
 should contain a couple of functions here to activate the buttons.
 
 So I would say, mycarousel.
@@ -12804,7 +12824,7 @@ able to control our Bootstrap JavaScript-based components.
 This is a good time to do a comment of your code with the message
 Bootstrap jQuery.
 
-<h4>Exercise: More Bootstrap and JQuery</h4>
+<h4>Exercise (Video): More Bootstrap and JQuery</h4>
 
 In the previous exercise, we saw how we can leverage the
 JavaScript-based controls that are provided for the Bootstrap JavaScript
@@ -12916,7 +12936,7 @@ Then, in addition, we want now to be able to flip that icon from a pause
 icon to a play icon.
 
 What we will do is, we will say right there after this, we&apos;ll say
-&dollar;carouselButton.children span, and then we&apos;ll say, removeClass.
+\$carouselButton.children span, and then we&apos;ll say, removeClass.
 
 We&apos;re going to remove the pause class. So notice how this works. We&apos;re
 going to remove the pause class from that, and then, we&apos;re going to add
@@ -13022,13 +13042,13 @@ to:
 
 -   Modify carousel control button!
 
-<details open>
+<details>
   <summary>Modify carousel control button!</summary>
 
 ```
-<button class="btn btn-danger btn-sm" id="carouselButton">
-  <span id="carousel-button-icon" class="fa fa-pause"></span>
-</button>
+<button class="btn btn-danger btn-sm" id="carouselButton"&gt;
+   <span id="carousel-button-icon" class="fa fa-pause"&gt;</span&gt;
+</button&gt;
 ```
 
 </details>
@@ -13041,21 +13061,21 @@ based on the current behavior of the carousel.
 
 -   Finally we modify the JavaScript code to control the behavior of the carousel and also show the appropriate button:
 
-<details open>
+<details>
   <summary>We modify the JavaScript code:</summary>
 
 ```
 $("#carouselButton").click(function(){
-  if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+   if ($("#carouselButton").children("span").hasClass('fa-pause')) {
       $("#mycarousel").carousel('pause');
       $("#carouselButton").children("span").removeClass('fa-pause');
       $("#carouselButton").children("span").addClass('fa-play');
-  }
-  else if ($("#carouselButton").children("span").hasClass('fa-play')){
-      $("#mycarousel").carousel('cycle');
+   }
+   else if ($("#carouselButton").children("span").hasClass('fa-play')){
+      $("#mycarousel").carousel('cycle');
       $("#carouselButton").children("span").removeClass('fa-play');
       $("#carouselButton").children("span").addClass('fa-pause');
-  }
+   }
 });
 ```
 
@@ -13073,7 +13093,9 @@ the behavior of a Bootstrap JS component.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Bootstrap-JQuery.pdf">09-Bootstrap-JQuery.pdf (14 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/09-Bootstrap-JQuery.pdf">09-Bootstrap-JQuery.pdf (14 slides)</a></li>
+</ul>
 
 <h4>Bootstrap Resources</h4>
 
@@ -13217,7 +13239,7 @@ Suppose you have a group of variables that summed up together declare a
 set of CSS declarations, that is where we make use of mixins.
 
 In Less you define a mixin by giving it a name, and in Sass you simply
-precede that with an &commat;mixin in front of the name of the mixin
+precede that with an \@mixin in front of the name of the mixin
 declaration.
 
 And inside a mixin, you can define a bunch of CSS declarations that can
@@ -13443,7 +13465,7 @@ of this exercise you will be able to:
 
 -   Add the following Less variables into the file:
 
-<details open>
+<details>
   <summary>Add these Less variables!</summary>
 
 ```
@@ -13464,13 +13486,13 @@ of these variables while defining the classes.
 
 -   Next we add a mixin into the file as follows:
 
-<details open>
+<details>
   <summary>Add mixin to styles.css!</summary>
 
 ```
 .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
-  margin:0px auto;
-  padding: @pad-up-dn @pad-left-right;
+    margin:0px auto;
+    padding: @pad-up-dn @pad-left-right;
 }
 ```
 </details>
@@ -13480,45 +13502,43 @@ We will make use of this to define several row classes next.
 -   Using the variables and Mixin class that we defined earlier, add the
     following row classes to the file:
 
-<details open>
+<details>
   <summary>Add row class to styles.css!</summary>
 
 ```
 address{
-  font-size:80%;
-  margin:0px;
-  color:#0f0f0f;
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
 }
 body{
-  padding:50px 0px 0px 0px;
-  z-index:0;
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
 .navbar-dark {
-  background-color: @background-dark;
+     background-color: @background-dark;
 }
 .tab-content {
-  border-left: 1px solid @lt-gray;
-  border-right: 1px solid @lt-gray;
-  border-bottom: 1px solid @lt-gray;
-  color:floralwhite;
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    color:floralwhite;
 }
 .jumbotron {
-  .zero-margin(70px,30px);
-  background: @background-light ;
+    .zero-margin(70px,30px);
+    background: @background-light ;
 }
 .footer{
-  background-color: @background-pale;
-  .zero-margin(20px, 0px);
-  min-height:400px;
+    background-color: @background-pale;
+    .zero-margin(20px, 0px);
+    min-height:400px;
 }
-  .zero-margin(50px,0px);
-  border-bottom: 1px ridge;
+    .zero-margin(50px,0px);
+    border-bottom: 1px ridge;
 }
 .row-content {
-  .row-header{
-    .zero-margin();
-  }
-}
+.row-header{
+    .zero-margin();
 ```
 
 </details>
@@ -13531,29 +13551,29 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Less, as follows:
 
-<details open>
+<details>
   <summary>Add the carousel class!</summary>
 
 ```
-  .carousel {
+.carousel {
     background:@background-dark;
  
     .carousel-item {
-       height: @carousel-item-height;
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-height: 300px;
-      }
+        height: @carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
     }
-  }
+}
  
 #carouselButton {
-  right:0px;
-  position: absolute;
-  bottom: 0px;
-  z-index: 1;
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
 ```
 
@@ -13738,7 +13758,7 @@ of this exercise you will be able to:
 
 -   Add the following SCSS variables into the file:
 
-<details open>
+<details>
   <summary>Add the following:</summary>
 
 ```
@@ -13760,7 +13780,7 @@ of these variables while defining the classes.
 
 -   Next, add a mixin into the file:
 
-<details open>
+<details>
   <summary>Add the following:</summary>
 
 ```
@@ -13777,7 +13797,7 @@ We will make use of this to define several row classes next.
 -   Using the variables and Mixin class that we defined earlier, add the
     following row classes to the file:
 
-<details open>
+<details>
   <summary>Add the following row classes:</summary>
 
 ```
@@ -13815,7 +13835,6 @@ We will make use of this to define several row classes next.
     border-left: 1px solid $lt-gray;
     border-right: 1px solid $lt-gray;
     border-bottom: 1px solid $lt-gray;
-  }
 ```
 
 </details>
@@ -13828,29 +13847,29 @@ defining the classes.
 -   Next we add a carousel class to illustrate the use of nesting of
     classes in Scss, as follows:
 
-<details open>
+<details>
   <summary>Add carousel class:</summary>
 
 ```
 .carousel {
-  background:$background-dark;
+    background:$background-dark;
  
-  .carousel-item {
-    height: $carousel-item-height;
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px;
+    .carousel-item {
+        height: $carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
     }
-  }
 }
  
 #carouselButton {
-  right:0px;
-  position: absolute;
-  bottom: 0px;
-  z-index: 1;
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
 ```
 
@@ -13895,7 +13914,9 @@ generating the CSS file by compiling the Scss code.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-CSS-Preprocessors.pdf">10-CSS-Preprocessors.pdf (11 slides)</a>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-CSS-Preprocessors.pdf">10-CSS-Preprocessors.pdf (11 slides)</a></li>
+</ul>
 
 <h4>Less and Sass Resources</h4>
 
@@ -13985,7 +14006,7 @@ to save your changes with the message assignment four.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. reserve a table (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
+<img src="./images/image110.webp?raw=true"
   width="50%"
   alt="Reserve a table." />
 </p>
@@ -13994,7 +14015,7 @@ to save your changes with the message assignment four.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. login (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.png?raw=true"
+<img src="./images/image111.webp?raw=true"
   width="50%"
   alt="Login." />
 </p>
@@ -14300,7 +14321,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-<script src="[js/scripts.js]{.underline}"></script>
+<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
 ```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
@@ -14354,7 +14375,7 @@ $ npm start
 In this exercise, you learnt how to set up a watch task to watch for
 changes to a file and automatically run tasks upon detecting changes.
 
-<h4>Exercise: NPM Scripts Part 2</h4>
+<h4>Exercise (Video): NPM Scripts Part 2</h4>
 
 We&apos;ll now continue our journey with NPM scripts in this next exercise.
 
@@ -14561,7 +14582,7 @@ Going to package.json again, I&apos;m going to set up the next script here.
 I would say imagemin is the script name that I&apos;m going to do, and I
 would say imagemin.
 
-And then since all my images are in the img folder, I would say img/&ast;,
+And then since all my images are in the img folder, I would say img/\*,
 and then then many files are going to be copied to dist image.
 
 The original image files from the image folder that I have will be
@@ -14675,7 +14696,7 @@ Okay, let&apos;s save the changes to all the files.
 Then, going to back to index.html. I&apos;m going to repeat the same thing
 at the bottom for my JavaScript scripts that I&apos;ve included there.
 
-Going to the bottom here, what I need to do here, is to specify &lt;!\--
+Going to the bottom here, what I need to do here, is to specify \<!\--
 build js, and I will say js/main.js. Double hyphen, slash.
 
 That&apos;s the starting of the block and then the ending is specified by,
@@ -14729,7 +14750,7 @@ transform all the files.
 
 That&apos;s why I need to specify each one explicitly there. usemin doesn&apos;t
 take wild cards, so that&apos;s the reason why I have to specify the holding
-like &lsqb;INAUDIBLE&rsqb;.
+like \[INAUDIBLE\].
 
 And usemin index.html -d dist \--htmlmin -o dist/index.html.
 
@@ -14946,13 +14967,11 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
 
 -   Add the following two scripts to the package.json file:
 
-<details open>
+<details>
   <summary>Add the following to package.json:</summary>
 
 ```
-"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && 
-  usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin 
-  index.html -d dist --htmlmin -o dist/index.html",
+"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
 "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
 ```
 
@@ -14960,16 +14979,16 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
 
 -   Open <i>index.html</i> and surround the css links inclusion code as follows:
 
-<details open>
+<details>
   <summary>Surround the css links inclusion code as follows:</summary>
 
 ```
-<!-- build:css css/main.css -->
-<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}">
-<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}">
-<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}">
-<link href="[css/styles.css]{.underline}" rel="stylesheet">
-<!-- endbuild -->
+<!-- build:css css/main.css --&gt;
+<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"&gt;
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"&gt;
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"&gt;
+<link href="[css/styles.css]{.underline}" rel="stylesheet"&gt;
+<!-- endbuild --&gt;
 ```
 
 </details>
@@ -14978,16 +14997,16 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
 
 -   Similarly, open <i>index.html</i> and surround the js script inclusion code as follows:
 
-<details open>
+<details>
   <summary>Surround the js script inclusion code as follows:</summary>
 
 ```
-<!-- build:js js/main.js -->
-<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"></script>
-<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"></script>
-<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"></script>
-<script src="[js/scripts.js]{.underline}"></script>
-<!-- endbuild -->
+<!-- build:js js/main.js --&gt;
+<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"&gt;</script&gt;
+<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"&gt;</script&gt;
+<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"&gt;</script&gt;
+<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
+<!-- endbuild --&gt;
 ```
 
 </details>
@@ -15017,9 +15036,10 @@ deployment using NPM scripts.
 
 <h4>PDFs of Presentations</h4>
 
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a><br/>
-
-> <a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a><br/>
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-Building-Deployment.pdf">10-Building-Deployment.pdf (5 slides)</a></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/10-NPM-Scripts.pdf">10-NPM-Scripts.pdf (3 slides)</a></li>
+</ul>
 
 <h4>Additional Resources</h4>
 
@@ -15065,7 +15085,7 @@ these tools. At the end of this lesson, you will be able to:
 
 As we understood from the previous lesson building and deployment of
 websites involves a lot of steps. And we looked at the use of
-&lsqb;INAUDIBLE&rsqb; scripts for doing the building and deployment tasks.
+\[INAUDIBLE\] scripts for doing the building and deployment tasks.
 
 In this lesson, we will concentrate on task renders.
 
@@ -15155,7 +15175,7 @@ the npm scripts in the previous lesson and the exercise.
 By showing you the Grunt and the Gulp way of doing the same sort of
 tasks in the exercises that follow this lecture.
 
-<h4>Exercise: Grunt Part 1</h4>
+<h4>Exercise (Video): Grunt Part 1</h4>
 
 Time to start Grunting. In this and the next exercise we&apos;re going to
 repeat the same kind of setup as we did with the NPM scripts.
@@ -15378,7 +15398,7 @@ It&apos;ll come back to bite you at the wrong time.
 The next task, that I&apos;m going to configure is the watchTask.
 
 I say Watch and what do I want to watch? I want to watch these files,
-which is CSS/&ast;.SCSS.
+which is CSS/\*.SCSS.
 
 This is the SCSS file that I want to watch.
 
@@ -15547,7 +15567,7 @@ This will install local per-project Grunt to use within your project.
 -   Next, add the following code to Gruntfile.js to set up the file to
     configure Grunt tasks:
 
-<details open>
+<details>
   <summary>Add to Gruntfile.js!</summary>
 
 ```
@@ -15585,7 +15605,7 @@ downloaded Grunt modules when needed for the tasks.
 -   Now, configure the SASS task in the Gruntfile as follows, by
     including the code inside the function in <i>Gruntfile.js</i>:
 
-<details open>
+<details>
   <summary>Add following SASS task to Gruntfile.js!</summary>
 
 ```
@@ -15599,16 +15619,18 @@ downloaded Grunt modules when needed for the tasks.
  
     // Define the configuration for all the tasks
     grunt.initConfig({
-      sass: {
-        dist: {
-          files: {
-            'css/styles.css': 'css/styles.scss'
-          }
+        sass: {
+            dist: {
+                files: {
+                    'css/styles.css': 'css/styles.scss'
+                }
+            }
         }
-      }
     });
-     grunt.registerTask('css', ['sass']);
-  };
+ 
+    grunt.registerTask('css', ['sass']);
+ 
+};
 ```
 
 </details>
@@ -15635,32 +15657,32 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
 -   After this, we will configure the browser-sync and watch tasks by
     adding the following code to the Grunt file:
 
-<details open>
+<details>
   <summary>Add to Grunt file!</summary>
 
 ```
 ,
-  watch: {
-      files: 'css/*.scss',
-      tasks: ['sass']
-  },
-  browserSync: {
-    dev: {
-      bsFiles: {
-        src : [
-          'css/*.css',
-          '*.html',
-          'js/*.js'
-        ]
-      },
-      options: {
-        watchTask: true,
-        server: {
-          baseDir: "./"
+    watch: {
+        files: 'css/*.scss',
+        tasks: ['sass']
+    },
+    browserSync: {
+        dev: {
+            bsFiles: {
+                src : [
+                    'css/*.css',
+                    '*.html',
+                    'js/*.js'
+                ]
+            },
+            options: {
+                watchTask: true,
+                server: {
+                    baseDir: "./"
+                }
+            }
         }
-      }
     }
-  }
 ```
 
 </details>
@@ -15688,7 +15710,7 @@ perform several tasks.
 
 You were able to start a server with livereload to serve the web page.
 
-<h4>Exercise: Grunt Part 2</h4>
+<h4>Exercise (Video): Grunt Part 2</h4>
 
 Let&apos;s continue our grunting.
 
@@ -16039,7 +16061,7 @@ You&apos;re beginning to see a pattern in the way things are specified here.
 
 When you specify the files here, you will say the source, and then in
 there you will specify dist CSS and then star dot CSS, and then the next
-one dist js&ast;.js.
+one dist js\*.js.
 
 With this, you have configured the filerev.
 
@@ -16077,7 +16099,7 @@ files that are in that distribution folder.
 
 The options that we specify for this state that, we&apos;ll say,
 "collapsedWhitespace: True" meaning that all the white space in the
-HTML files would all be collapsed, such that the &lsqb;inaudible&rsqb; contain
+HTML files would all be collapsed, such that the \[inaudible\] contain
 only the minimum HTML code there.
 
 The modification essentially removes all the extraneous characters from
@@ -16089,7 +16111,7 @@ be configured.
 This is specified as destination, colon, source.
 
 We specify "dist/index.html" : "dist/index.html", meaning that the
-"index.html" in the distribution folder will be &lsqb;inaudible&rsqb; and then
+"index.html" in the distribution folder will be \[inaudible\] and then
 put back into the "index.html" file, also in the distribution folder.
 
 Similarly, the "contactus.html" specified there and then the
@@ -16111,7 +16133,7 @@ completed its work.
 Once all these are configured, then one little step that I need to do is
 to go back up here, and then where we specify for the "jit-grunt", we
 need to specify that this "jit-grunt", you recall that we introduced
-something called the "useminPrepare" &lsqb;inaudible&rsqb; so you need to
+something called the "useminPrepare" \[inaudible\] so you need to
 inform the "jit-grunt" saying that the "useminPrepare" configuration
 that we introduced is going to be handled by that "grunt-usemin"
 plugin itself.
@@ -16243,7 +16265,7 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev
     following code to <i>Gruntfile.js</i>. This should be added right after
     the configuration of the SASS task.:
 
-<details open>
+<details>
   <summary>Add to Gruntfile.js after SASS configuration!</summary>
 
 ```
@@ -16294,7 +16316,7 @@ $ npm install grunt-contrib-imagemin@2.0.1 --save-dev
 
 -   Then, configure the imagemin task as shown below in the Gruntfile:
 
-<details open>
+<details>
   <summary>Configure imagemin task in Gruntfile.js!</summary>
 
 ```
@@ -16321,7 +16343,7 @@ $ npm install grunt-contrib-imagemin@2.0.1 --save-dev
     distribution folder. To do this, install the following Grunt modules:</li>
 </ul>
 
-<details open>
+<details>
   <summary>Install the following Grunt modules!</summary>
 
 ```
@@ -16338,7 +16360,7 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 -   Next, update the task configuration within the Gruntfile.js with the
     following additional code to introduce the new tasks:
 
-<details open>
+<details>
   <summary>Add to Gruntfile.js!</summary>
 
 ```
@@ -16386,7 +16408,7 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 -   Next, update the jit-grunt configuration as follows, to inform it
     that useminPrepare task depends on the usemin package:
 
-<details open>
+<details>
   <summary>Update jit-grunt configuration!</summary>
 
 ```
@@ -16399,7 +16421,7 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 
 -   Next, update the Grunt build task as follows:
 
-<details open>
+<details>
   <summary>Update Grunt build task!</summary>
 
 ```
@@ -16433,7 +16455,7 @@ In this exercise you have learnt how to configure a Grunt file to
 perform several tasks. You were able to build a distribution folder for
 your web project.
 
-<h4>Exercise: Gulp Part 1</h4>
+<h4>Exercise (Video): Gulp Part 1</h4>
 
 Now that we have granted enough, it&apos;s time to Gulp.
 
@@ -16495,7 +16517,7 @@ then let&apos;s set up a task name &apos;sass&apos;, and then for this task, we&
 set this up as a function, and this is how the code is prepared.
 
 Gulp Tasks Sass function and in here, we are setting up the Gulp Tasks,
-so we&apos;ll type return gulp.src(&apos;./css/&ast;.scss&apos;)
+so we&apos;ll type return gulp.src(&apos;./css/\*.scss&apos;)
 
 As we learnt, Gulp is a tool-based around code over configuration.
 
@@ -16570,7 +16592,7 @@ files that we&apos;re going to be watching.
 We use the gulp watch task to watch the file. So, the watch is already
 built into gulp.
 
-It will take gulp watch and then we specify the files there &ast;.SCSS.
+It will take gulp watch and then we specify the files there \*.SCSS.
 
 As you can see, the gulp watch will watch these files and then when any
 changes to these files occur, then it&apos;ll run that sass task, which we
@@ -16741,7 +16763,7 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 -   Load in all the Gulp plugins by including the following code in the
     Gulp file:
 
-<details open>
+<details>
   <summary>Add the following Gulp plugins!</summary>
 
 ```
@@ -16758,7 +16780,7 @@ $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev
 -   Next, we will add the code for the SASS task, the Browser-Sync task
     and the default task as follows:
 
-<details open>
+<details>
   <summary>Add code for SASS task, Browser-Sync task & default task!</summary>
 
 ```
@@ -16812,7 +16834,7 @@ In this exercise, you learnt to use Gulp, install Gulp plugins,
 configure the gulpfile.js and then use Gulp to automate the web
 development tasks.
 
-<h4>Exercise: Gulp Part 2</h4>
+<h4>Exercise (Video): Gulp Part 2</h4>
 
 <h4>Objectives and Outcomes</h4>
 
@@ -16871,7 +16893,7 @@ $ npm install gulp-imagemin@4.1.0 --save-dev
 
 -   Next, we create the <i>imagemin</i> task as follows:
 
-<details open>
+<details>
   <summary>Create the imagemin task!</summary>
 
 ```
@@ -16890,7 +16912,7 @@ $ npm install gulp-imagemin@4.1.0 --save-dev
 -   We now install the gulp-usemin and other related Gulp plugins and
     require them as follows:
 
-<details open>
+<details>
   <summary>Install the following!</summary>
 
 ```
@@ -17113,11 +17135,9 @@ specialization.
 
 <h4>PDFs of Presentations</h4>
 
-```
-<a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a>
-```
-
-<!-- was at https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf -->
+<ul>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/11-Conclusion.pdf">11-Conclusion.pdf (4 slides)</a></li>
+</ul>
 
 <h4>Project Implementation: Objectives and Outcomes</h4>
 
@@ -17191,4 +17211,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!-- last updated: 6/20/2023 at 6:54pm -->
+<!-- last updated: 6/29/2023 at 11:01pm -->
