@@ -1,3 +1,3 @@
 Sitemap: http://coursera-bootstrap.bauska.org/sitemap.xml
 User-agent: *
-Disallow: /img.zip, /pdf-files/*
+Disallow: /img.zip, /pdf-files/*, oldshit-readme.md
