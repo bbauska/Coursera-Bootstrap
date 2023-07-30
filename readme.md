@@ -6355,7 +6355,7 @@ the <i>navbar</i> that declares it as a navigation bar, and the <i>navbar-dark</
 class to specify that the page should use the dark navigation bar. You
 will now notice the addition of a link with the name of the restaurant.
 This is the brand name for the website. You can replace this with the
-logo for the website. This is created by the <i><a class="navbar-brand"></i> 
+logo for the website. This is created by the <i>&lt;a class="navbar-brand"&gt;</i> 
 tag. 
 
 In addition the inner <i>ul</i> is used to specify the items to be put 
@@ -17244,4 +17244,4 @@ In particular, this section should contain:
     your project.
 
 ...the end
-<!-- last updated: 6/20/2023 at 8:41pm -->
+<!-- last updated: 6/29/2023 at 11:01pm -->
