@@ -9233,17 +9233,17 @@ Note the inclusion of the logo in the navbar.
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media"&gt;
+<div class="media">
    <img class="d-flex mr-3 img-thumbnail align-self-center"
-      src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
-   <div class="media-body"&gt;
-   <h2 class="mt-0"&gt;Uthappizza</h2&gt;
-   <p class="d-none d-sm-block"&gt;A unique combination of Indian Uthappam (pancake) and
+      src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+   <div class="media-body">
+   <h2 class="mt-0">Uthappizza</h2>
+   <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
       Italian pizza, topped with Cerignola olives, ripe vine
       cherry tomatoes, Vidalia onion, Guntur chillies and
-      Buffalo Paneer.</p&gt;
-   </div&gt;
-</div&gt;
+      Buffalo Paneer.</p>
+   </div>
+</div>
 ```
 
 </details>
@@ -9259,19 +9259,19 @@ style the content.
   <summary>Replace contents of second column:</summary>
 
 ```
-<div class="media"&gt;
+<div class="media">
    <img class="d-flex mr-3 img-thumbnail align-self-center"
-      src="[img/alberto.png]{.underline}" alt="Alberto Somayya"&gt;
-   <div class="media-body"&gt;
-      <h2 class="mt-0"&gt;Alberto Somayya</h2&gt;
-      <h4&gt;Executive Chef</h4&gt;
-      <p class="d-none d-sm-block"&gt;Award winning three-star Michelin chef with wide
+      src="[img/alberto.png]{.underline}" alt="Alberto Somayya">
+   <div class="media-body">
+      <h2 class="mt-0">Alberto Somayya</h2>
+      <h4>Executive Chef</h4>
+      <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
          International experience having worked closely with
          whos-who in the culinary world, he specializes in
          creating mouthwatering Indo-Italian fusion experiences.
-      </p&gt;
-   </div&gt;
-</div&gt;
+      </p>
+   </div>
+</div>
 ```
 
 </details>
@@ -9480,14 +9480,14 @@ alerting users. At the end of this exercise, you will be able to:
     <i>\<h2\></i> containing the name of the dish:
 
 ```
-<span class="badge badge-danger"&gt;HOT</span&gt;
+<span class="badge badge-danger">HOT</span>
 ```
 
 -   Next we will add a badge as a badge-pill right next to the earlier
     tag in the web page. Add the following code to the <i>\<h2\></i> tag:
 
 ```
-<span class="badge badge-pill badge-secondary"&gt;$4.99</span&gt;
+<span class="badge badge-pill badge-secondary">$4.99</span>
 ```
 
 -   Remember to commit the changes to the Git repository with message
@@ -10316,24 +10316,24 @@ content. At the end of this exercise you will be able to:
   <summary>Tab Navigation Elements:</summary>
 
 ```
-<ul class="nav nav-tabs"&gt;
-    <li class="nav-item"&gt;
+<ul class="nav nav-tabs">
+    <li class="nav-item">
         <a class="nav-link active" href="#peter"
-        role="tab" data-toggle="tab"&gt;Peter Pan, CEO</a&gt;
-    </li&gt;
-    <li class="nav-item"&gt;
+        role="tab" data-toggle="tab">Peter Pan, CEO</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#danny" role="tab"
-        data-toggle="tab"&gt;Danny Witherspoon, CFO</a&gt;
-    </li&gt;
-    <li class="nav-item"&gt;
+        data-toggle="tab">Danny Witherspoon, CFO</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#agumbe"role="tab"
-        data-toggle="tab"&gt;Agumbe Tang, CTO</a&gt;
-    </li&gt;
-    <li class="nav-item"&gt;
+        data-toggle="tab">Agumbe Tang, CTO</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#alberto" role="tab"
-        data-toggle="tab"&gt;Alberto Somayya, Exec. Chef</a&gt;
-    </li&gt;
-</ul&gt;
+        data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+    </li>
+</ul>
 ```
 
 </details>
@@ -10356,19 +10356,19 @@ navigation that we just set up.
     specified below:
 
 ```
-<div class="tab-content"&gt;
+<div class="tab-content">
     ...
-</div&gt;
+</div>
 ```
 
 -   Then we take the name and description of the CEO of the company and
     enclose it within a tab-pane as follows
 
 ```
-<div role="tabpanel" class="tab-pane fade show active" id="peter"&gt;
-  <h3&gt;Peter Pan <small&gt;Chief Epicurious Officer</small&gt;</h3&gt;
-  <p&gt; ... </p&gt;
-</div&gt;
+<div role="tabpanel" class="tab-pane fade show active" id="peter">
+  <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+  <p> ... </p>
+</div>
 ```
 
 Note the use of the <i>tab-pane, fade, show,</i> and <i>active</i> classes and
@@ -10746,9 +10746,9 @@ in a web page. At the end of this exercise, you will be able to:
     code structure as shown below:
 
 ```
-<div id="accordion"&gt;
+<div id="accordion">
     . . .
-</div&gt;
+</div>
 ```
 
 -   Then, convert the first tab-pane into a card such that the name
@@ -10759,20 +10759,20 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Convert first tab-pane into card!</summary>
 
 ```
-<div class="card"&gt;
-    <div class="card-header" role="tab" id="peterhead"&gt;
-    <h3 class="mb-0"&gt;
-       <a data-toggle="collapse" data-target="#peter"&gt;
-          Peter Pan <small&gt;Chief Epicurious Officer</small&gt;
-       </a&gt;
-    </h3&gt;
-    </div&gt;
-    <div class="collapse show" id="peter" data-parent="#accordion"&gt;
-       <div class="card-body"&gt;
-          <p class="d-none d-sm-block"&gt;. . .</p&gt;
-       </div&gt;
-    </div&gt;
-</div&gt;
+<div class="card">
+    <div class="card-header" role="tab" id="peterhead">
+    <h3 class="mb-0">
+       <a data-toggle="collapse" data-target="#peter">
+          Peter Pan <small>Chief Epicurious Officer</small>
+       </a>
+    </h3>
+    </div>
+    <div class="collapse show" id="peter" data-parent="#accordion">
+       <div class="card-body">
+          <p class="d-none d-sm-block">. . .</p>
+       </div>
+    </div>
+</div>
 ```
 
 </details>
@@ -10785,46 +10785,46 @@ in a web page. At the end of this exercise, you will be able to:
   <summary>Show leaders:</summary>
 
 ```
-<div class="card"&gt;
-<div class="card-header" role="tab" id="dannyhead"&gt;
-   <h3 class="mb-0"&gt;
-   <a class="collapsed" data-toggle="collapse" data-target="#brian"&gt;
-      Brian Bauska <small&gt;Chief Information Officer</small&gt;
-   </a&gt;
-   </h3&gt;
-</div&gt;
-<div class="collapse" id="brian" data-parent="#accordion"&gt;
-   <div class="card-body"&gt;
-      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
-   </div&gt;
-</div&gt;
-</div&gt;
-<div class="card"&gt;
-   <div class="card-header" role="tab" id="agumbehead"&gt;
-   <h3 class="mb-0"&gt;
-      <a class="collapsed" data-toggle="collapse" data-target="#lance"&gt;
-         Silus Lance <small&gt;Chief Software Engineer</small&gt;
-      </a&gt;
-   </h3&gt;
-   </div&gt;
-   <div class="collapse" id="lance" data-parent="#accordion"&gt;
-      <d iv class="card-body"&gt;
-      <p class="d-none d-sm-block"&gt;. . .</p&gt;
-   </div&gt;
-   </div&gt;
-   </div&gt;
-   <div class="card"&gt;
-      <div class="card-header" role="tab" id="albertohead"&gt;
-      <h3 class="mb-0"&gt;
-         <a class="collapsed" data-toggle="collapse" data-target="#alberto"&gt;
-         Alberto Somayya <small&gt;Executive Chef</small&gt;
-         </a&gt;
-      </h3&gt;
-      </div&gt;
-      <div class="collapse" id="alberto" data-parent="#accordion"&gt;
-      <div class="card-body"&gt;
-      <p class="d-none d-sm-block"&gt;. . .</em&gt;</p&gt;
-</div&gt;
+<div class="card">
+<div class="card-header" role="tab" id="dannyhead">
+   <h3 class="mb-0">
+   <a class="collapsed" data-toggle="collapse" data-target="#brian">
+      Brian Bauska <small>Chief Information Officer</small>
+   </a>
+   </h3>
+</div>
+<div class="collapse" id="brian" data-parent="#accordion">
+   <div class="card-body">
+      <p class="d-none d-sm-block">. . .</em></p>
+   </div>
+</div>
+</div>
+<div class="card">
+   <div class="card-header" role="tab" id="agumbehead">
+   <h3 class="mb-0">
+      <a class="collapsed" data-toggle="collapse" data-target="#lance">
+         Silus Lance <small>Chief Software Engineer</small>
+      </a>
+   </h3>
+   </div>
+   <div class="collapse" id="lance" data-parent="#accordion">
+      <d iv class="card-body">
+      <p class="d-none d-sm-block">. . .</p>
+   </div>
+   </div>
+   </div>
+   <div class="card">
+      <div class="card-header" role="tab" id="albertohead">
+      <h3 class="mb-0">
+         <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+         Alberto Somayya <small>Executive Chef</small>
+         </a>
+      </h3>
+      </div>
+      <div class="collapse" id="alberto" data-parent="#accordion">
+      <div class="card-body">
+      <p class="d-none d-sm-block">. . .</em></p>
+</div>
 ```
 
 </details>
@@ -11300,8 +11300,8 @@ exercise, you will be able to:
 
 ```
 <a role="button" class="btn btn-block nav-link btn-warning"
-   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br&gt;<strong&gt;+852 12345678</strong&gt;"
-   data-placement="bottom" href="[#reserveform]{.underline}"&gt;Reserve Table</a&gt;
+   data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+   data-placement="bottom" href="[#reserveform]{.underline}">Reserve Table</a>
 ```
 
 </details>
@@ -11317,11 +11317,11 @@ tooltip.
   <summary>Activate tooltip!</summary>
 
 ```
-<script&gt;
+<script>
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
     });
-</script&gt;
+</script>
 ```
 
 </details>
@@ -11339,42 +11339,42 @@ bootstrap.min.js file.
   <summary>Introduce modal to web page!</summary>
 
 ```
-<div id="loginModal" class="modal fade" role="dialog"&gt;
-    <div class="modal-dialog modal-lg" role="content"&gt;
-        <!-- Modal content--&gt;
-        <div class="modal-content"&gt;
-            <div class="modal-header"&gt;
-                <h4 class="modal-title"&gt;Login </h4&gt;
-                <button type="button" class="close" data-dismiss="modal"&gt;&times;</button&gt;
-            </div&gt;
-            <div class="modal-body"&gt;
-                <form&gt;
-                    <div class="form-row"&gt;
-                        <div class="form-group col-sm-4"&gt;
-                                <label class="sr-only" for="exampleInputEmail3"&gt;Email address</label&gt;
-                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"&gt;
-                        </div&gt;
-                        <div class="form-group col-sm-4"&gt;
-                            <label class="sr-only" for="exampleInputPassword3"&gt;Password</label&gt;
-                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"&gt;
-                        </div&gt;
-                        <div class="col-sm-auto"&gt;
-                            <div class="form-check"&gt;
-                                <input class="form-check-input" type="checkbox"&gt;
-                                <label class="form-check-label"&gt; Remember me
-                                </label&gt;
-                            </div&gt;
-                        </div&gt;
-                    </div&gt;
-                    <div class="form-row"&gt;
-                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"&gt;Cancel</button&gt;
-                        <button type="submit" class="btn btn-primary btn-sm ml-1"&gt;Sign in</button&gt;
-                    </div&gt;
-                </form&gt;
-            </div&gt;
-        </div&gt;
-    </div&gt;
-</div&gt;
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="content">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Login </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                        </div>
+                        <div class="col-sm-auto">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label"> Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 ```
 
 </details>
@@ -11387,10 +11387,10 @@ bootstrap.min.js file.
   <summary>Introduce another link!</summary>
 
 ```
-<span class="navbar-text"&gt;
-  <a data-toggle="modal" data-target="#loginModal"&gt;
-  <span class="fa fa-sign-in"&gt;</span&gt; Login</a&gt;
-</span&gt;
+<span class="navbar-text">
+  <a data-toggle="modal" data-target="#loginModal">
+  <span class="fa fa-sign-in"></span> Login</a>
+</span>
 ```
 
 </details>
@@ -11697,16 +11697,16 @@ able to:
 
 <h4>Adding a row for the carousel</h4>
 
--   The carousel will be added to the <i&gt;index.html</i&gt; page. In this page,
+-   The carousel will be added to the <i>index.html</i> page. In this page,
     go to the top of the container div that contains the content of the
     page and add a new content row and an inner div spanning all the 12
     columns as follows:
 
 ```
-<div class="row row-content"&gt;
-   <div class="col"&gt;
-   </div&gt;
-</div&gt;
+<div class="row row-content">
+   <div class="col">
+   </div>
+</div>
 ```
 
 <h4>Adding a Carousel</h4>
@@ -11715,8 +11715,8 @@ able to:
     just added as follows:
 
 ```
-<div id="mycarousel" class="carousel slide" data-ride="carousel"&gt;
-</div&gt;
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+</div>
 ```
 
 <h4>Adding Carousel Content</h4>
@@ -11727,22 +11727,22 @@ able to:
   <summary>Add content inside carousel!</summary>
 
 ```
-<div class="carousel-inner" role="listbox"&gt;
-   <div class="carousel-item active"&gt;
+<div class="carousel-inner" role="listbox">
+   <div class="carousel-item active">
       <img class="d-block img-fluid"
-         src="[img/uthappizza.png]{.underline}" alt="Uthappizza"&gt;
-      <div class="carousel-caption d-none d-md-block"&gt;
-         <h2&gt;Uthappizza <span class="badge badge-danger"&gt;HOT</span&gt; <span class="badge badge-pill badge-default"&gt;$4.99</span&gt;</h2&gt;
+         src="[img/uthappizza.png]{.underline}" alt="Uthappizza">
+      <div class="carousel-caption d-none d-md-block">
+         <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
          . . .
-      </div&gt;
-   </div&gt;
-   <div class="carousel-item"&gt;
+      </div>
+   </div>
+   <div class="carousel-item">
    . . .
-   </div&gt;
-   <div class="carousel-item"&gt;
+   </div>
+   <div class="carousel-item">
    . . .
-   </div&gt;
-</div&gt;
+   </div>
+</div>
 ```
 
 </details>
@@ -11789,11 +11789,11 @@ remaining parts from the content rows below.
   <summary>Add manual controls to carousel!</summary>
 
 ```
-<ol class="carousel-indicators"&gt;
-   <li data-target="#mycarousel" data-slide-to="0" class="active"&gt;</li&gt;
-   <li data-target="#mycarousel" data-slide-to="1"&gt;</li&gt;
-   <li data-target="#mycarousel" data-slide-to="2"&gt;</li&gt;
-</ol&gt;
+<ol class="carousel-indicators">
+   <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+   <li data-target="#mycarousel" data-slide-to="1"></li>
+   <li data-target="#mycarousel" data-slide-to="2"></li>
+</ol>
 ```
 
 </details>
@@ -11807,12 +11807,12 @@ remaining parts from the content rows below.
   <summary>Add this to the bottom of the carousel div:</summary>
 
 ```
-<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev"&gt;
-   <span class="carousel-control-prev-icon"&gt;</span&gt;
-   </a&gt;
-<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next"&gt;
-   <span class="carousel-control-next-icon"&gt;</span&gt;
-   </a&gt;
+<a class="carousel-control-prev" href="[#mycarousel]{.underline}" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+   </a>
+<a class="carousel-control-next" href="[#mycarousel]{.underline}" role="button" data-slide="next">
+   <span class="carousel-control-next-icon"></span>
+   </a>
 ```
 
 </details>
@@ -13046,9 +13046,9 @@ to:
   <summary>Modify carousel control button!</summary>
 
 ```
-<button class="btn btn-danger btn-sm" id="carouselButton"&gt;
-   <span id="carousel-button-icon" class="fa fa-pause"&gt;</span&gt;
-</button&gt;
+<button class="btn btn-danger btn-sm" id="carouselButton">
+  <span id="carousel-button-icon" class="fa fa-pause"></span>
+</button>
 ```
 
 </details>
@@ -13066,16 +13066,16 @@ based on the current behavior of the carousel.
 
 ```
 $("#carouselButton").click(function(){
-   if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+  if ($("#carouselButton").children("span").hasClass('fa-pause')) {
       $("#mycarousel").carousel('pause');
       $("#carouselButton").children("span").removeClass('fa-pause');
       $("#carouselButton").children("span").addClass('fa-play');
-   }
-   else if ($("#carouselButton").children("span").hasClass('fa-play')){
+  }
+  else if ($("#carouselButton").children("span").hasClass('fa-play')){
       $("#mycarousel").carousel('cycle');
       $("#carouselButton").children("span").removeClass('fa-play');
       $("#carouselButton").children("span").addClass('fa-pause');
-   }
+  }
 });
 ```
 
@@ -13490,11 +13490,12 @@ of these variables while defining the classes.
   <summary>Add mixin to styles.css!</summary>
 
 ```
-.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+  .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
     margin:0px auto;
     padding: @pad-up-dn @pad-left-right;
 }
 ```
+
 </details>
 
 We will make use of this to define several row classes next.
@@ -13506,38 +13507,38 @@ We will make use of this to define several row classes next.
   <summary>Add row class to styles.css!</summary>
 
 ```
-address{
+  address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
-}
-body{
+  }
+  body{
     padding:50px 0px 0px 0px;
     z-index:0;
-}
-.navbar-dark {
-     background-color: @background-dark;
-}
-.tab-content {
+  }
+  .navbar-dark {
+    background-color: @background-dark;
+  }
+  .tab-content {
     border-left: 1px solid @lt-gray;
     border-right: 1px solid @lt-gray;
     border-bottom: 1px solid @lt-gray;
     color:floralwhite;
-}
-.jumbotron {
+  }
+  .jumbotron {
     .zero-margin(70px,30px);
     background: @background-light ;
-}
-.footer{
+  }
+  .footer{
     background-color: @background-pale;
     .zero-margin(20px, 0px);
     min-height:400px;
-}
+  }
     .zero-margin(50px,0px);
     border-bottom: 1px ridge;
-}
-.row-content {
-.row-header{
+  }
+  .row-content {
+    .row-header{
     .zero-margin();
 ```
 
@@ -13555,19 +13556,19 @@ defining the classes.
   <summary>Add the carousel class!</summary>
 
 ```
-.carousel {
-    background:@background-dark;
+  .carousel {
+    background:@background-dark;
  
-    .carousel-item {
-        height: @carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
+    .carousel-item {
+      height: @carousel-item-height;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+      }
     }
-}
+  }
  
 #carouselButton {
     right:0px;
@@ -13851,19 +13852,19 @@ defining the classes.
   <summary>Add carousel class:</summary>
 
 ```
-.carousel {
+  .carousel {
     background:$background-dark;
  
-    .carousel-item {
-        height: $carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
-    }
-}
+    .carousel-item {
+      height: $carousel-item-height;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          min-height: 300px;
+        }
+      }
+  }
  
 #carouselButton {
     right:0px;
@@ -14321,7 +14322,7 @@ In this exercise, you will learn to set up NPM scripts by modifying the
     by adding the following line:
 
 ```
-<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
+<script src="[js/scripts.js]{.underline}"></script>
 ```
 
 -   Add the same line to the scripts block in <i>aboutus.html</i> and
@@ -14971,7 +14972,9 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Add the following to package.json:</summary>
 
 ```
-"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+"usemin": "usemin contactus.html -d dist --htmlmin -o 
+  dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o 
+  dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
 "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
 ```
 
@@ -14983,12 +14986,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the css links inclusion code as follows:</summary>
 
 ```
-<!-- build:css css/main.css --&gt;
-<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]{.underline}"&gt;
-<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]{.underline}"&gt;
-<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]{.underline}"&gt;
-<link href="[css/styles.css]{.underline}" rel="stylesheet"&gt;
-<!-- endbuild --&gt;
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="[node_modules/bootstrap/dist/css/bootstrap.min.css]">
+<link rel="stylesheet" href="[node_modules/font-awesome/css/font-awesome.min.css]">
+<link rel="stylesheet" href="[node_modules/bootstrap-social/bootstrap-social.css]">
+<link href="[css/styles.css]" rel="stylesheet">
+<!-- endbuild -->
 ```
 
 </details>
@@ -15001,12 +15004,12 @@ $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htm
   <summary>Surround the js script inclusion code as follows:</summary>
 
 ```
-<!-- build:js js/main.js --&gt;
-<script src="[node_modules/jquery/dist/jquery.slim.min.js]{.underline}"&gt;</script&gt;
-<script src="[node_modules/popper.js/dist/umd/popper.min.js]{.underline}"&gt;</script&gt;
-<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]{.underline}"&gt;</script&gt;
-<script src="[js/scripts.js]{.underline}"&gt;</script&gt;
-<!-- endbuild --&gt;
+<!-- build:js js/main.js -->
+<script src="[node_modules/jquery/dist/jquery.slim.min.js]"></script>
+<script src="[node_modules/popper.js/dist/umd/popper.min.js]"></script>
+<script src="[node_modules/bootstrap/dist/js/bootstrap.min.js]"></script>
+<script src="[js/scripts.js]"></script>
+<!-- endbuild -->
 ```
 
 </details>
@@ -15619,18 +15622,16 @@ downloaded Grunt modules when needed for the tasks.
  
     // Define the configuration for all the tasks
     grunt.initConfig({
-        sass: {
-            dist: {
-                files: {
-                    'css/styles.css': 'css/styles.scss'
-                }
-            }
+      sass: {
+        dist: {
+          files: {
+            'css/styles.css': 'css/styles.scss'
+          }
         }
+      }
     });
- 
-    grunt.registerTask('css', ['sass']);
- 
-};
+    grunt.registerTask('css', ['sass']);
+  };
 ```
 
 </details>
@@ -15662,27 +15663,27 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev
 
 ```
 ,
-    watch: {
-        files: 'css/*.scss',
-        tasks: ['sass']
-    },
-    browserSync: {
-        dev: {
-            bsFiles: {
-                src : [
-                    'css/*.css',
-                    '*.html',
-                    'js/*.js'
-                ]
-            },
-            options: {
-                watchTask: true,
-                server: {
-                    baseDir: "./"
-                }
-            }
+  watch: {
+    files: 'css/*.scss',
+    tasks: ['sass']
+  },
+  browserSync: {
+    dev: {
+      bsFiles: {
+        src : [
+          'css/*.css',
+          '*.html',
+          'js/*.js'
+        ]
+      },
+      options: {
+        watchTask: true,
+        server: {
+          baseDir: "./"
         }
+      }
     }
+  }
 ```
 
 </details>
@@ -16272,33 +16273,33 @@ $ npm install grunt-contrib-clean@1.1.0 --save-dev
 ,
   copy: {
     html: {
-        files: [
-        {
-          //for html
-          expand: true,
-          dot: true,
-          cwd: './',
-          src: ['*.html'],
-          dest: 'dist'
-        }]                
+      files: [
+        {
+          //for html
+          expand: true,
+          dot: true,
+          cwd: './',
+          src: ['*.html'],
+          dest: 'dist'
+        }]                
     },
     fonts: {
-        files: [
+      files: [
         {
           //for font-awesome
-          expand: true,
-          dot: true,
-          cwd: 'node_modules/font-awesome',
-          src: ['fonts/*.*'],
-          dest: 'dist'
-        }]
-      }
+          expand: true,
+          dot: true,
+          cwd: 'node_modules/font-awesome',
+          src: ['fonts/*.*'],
+          dest: 'dist'
+      }]
+    }
   },
-    clean: {
-      build: {
-        src: [ 'dist/']
-      }
+  clean: {
+    build: {
+      src: [ 'dist/']
     }
+  }
 ```
 
 </details>
@@ -16365,38 +16366,38 @@ $ npm install grunt-usemin@3.1.1 --save-dev
 
 ```
 ,
-    useminPrepare: {
-            foo: {
-             dest: 'dist',
-             src: ['contactus.html','aboutus.html','index.html']
-             },
-               options: {
-                 flow: {
-                   steps: {
-                     css: ['cssmin'],
-                     js:['uglify']
-                   },
-                   post: {
-                      css: [{
-                        name: 'cssmin',
-                        createConfig: function (context, block) {
-                          var generated = context.options.generated;
-                          generated.options = {
-                            keepSpecialComments: 0, rebase: false
-                          };
-                        }
-                     }]
-                   }
-                 }
-               }
-    },
+  useminPrepare: {
+    foo: {
+      dest: 'dist',
+      src: ['contactus.html','aboutus.html','index.html']
+    },
+    options: {
+      flow: {
+        steps: {
+          css: ['cssmin'],
+          js:['uglify']
+        },
+        post: {
+          css: [{
+            name: 'cssmin',
+            createConfig: function (context, block) {
+              var generated = context.options.generated;
+              generated.options = {
+                keepSpecialComments: 0, rebase: false
+              };
+            }
+          }]
+        }
+      }
+    }
+  },
  
-     // Concat
-     concat: {
-      options: {
-        separator: ';&apos;
-      },
-    // dist configuration is provided by useminPrepare
+  // Concat
+  concat: {
+    options: {
+      separator: ';&apos;
+    },
+    // dist configuration is provided by useminPrepare
     dist: {}
   },
   // Uglify
@@ -16425,7 +16426,7 @@ $ npm install grunt-usemin@3.1.1 --save-dev
   <summary>Update Grunt build task!</summary>
 
 ```
-grunt.registerTask('build', [
+  grunt.registerTask('build', [
     'clean',
     'copy',
     'imagemin',
@@ -16436,7 +16437,7 @@ grunt.registerTask('build', [
     'filerev',
     'usemin',
     'htmlmin'
-]);
+  ]);
 ```
 
 </details>
@@ -16858,7 +16859,7 @@ At the end of this exercise, you will be able to:
 $ npm install del@3.0.0 --save-dev
 
 var ...
-    del = require('del'),
+  del = require('del'),
     ...
 ```
 
@@ -16916,7 +16917,8 @@ $ npm install gulp-imagemin@4.1.0 --save-dev
   <summary>Install the following!</summary>
 
 ```
-$ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
+$ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 
+  gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
  
 var ...
     uglify = require('gulp-uglify'),
