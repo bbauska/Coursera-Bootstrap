@@ -620,17 +620,24 @@ The next command that we're going to look at is <i>$ git status</i>.
 If you type git status in the command line, it'll tell you the current status of the folder.
 Let's do that at the command line and see what it shows.</p>
 
-<p>At the command line, type git status and read the information that is tapped out on the command window.
+<p>At the command line, type git status and read the information that is tapped 
+out on the command window.
 You see that it says on branch master, so that is the master branch that we add on.
 And it says, untracked files, and then shows index.html in red.
-On your specific computer, it may be using different colors or represent this differently or this is what it shows on my Mac.</p>
+On your specific computer, it may be using different colors or represent this 
+differently or this is what it shows on my Mac.</p>
 
-<p>Now, this index.html file that we have just created in this folder is now not been added to our git repository.
+<p>Now, this index.html file that we have just created in this folder is now 
+not been added to our git repository.
 Let's go ahead and add that file to the git repository.
-To do that, we say, <i>$ git add,</i> and you can simply say dot, which means that all the files in the current directory will be added to what is called as the staging area of my git repository.</p>
+To do that, we say, <i>$ git add,</i> and you can simply say dot, which means 
+that all the files in the current directory will be added to what is called as 
+the staging area of my git repository.</p>
 
-<p>Now, if I again type <i>$ git status</i>, you will see that the file index.html is marked in green.
-And it says, changes to be committed there and then shows the file name and then so that means that this file is now ready to be committed to my git repository.</p>
+<p>Now, if I again type <i>$ git status</i>, you will see that the file index.html 
+is marked in green.
+And it says, changes to be committed there and then shows the file name and then 
+so that means that this file is now ready to be committed to my git repository.</p>
 
 <p>The next command that we saw was <i>$ git add</i>.
 By using git add you can add file or folders to that staging area.
@@ -677,67 +684,124 @@ to create another file name, test.html.</p>
   style="width:350;"
   alt="Setting up git." />
 
-<p>This is just to show you how git can commit entire folder hierarchy into its repository.</p>
-<p>With test.html now there, I'm just going to copy everything from my index.html into my test.html, and save the changes.</p>
-<p>Going back to the command line, let's now check out the status of our git repository and this folder.</p>
-<p>Type in <i>$ git status</i>, shows that the index status html file that we have already handed earlier to the repository has now been modified, so there is a newer version of the index.html file.</p>
-<p>Also, it shows that there are some untracked files in this folder called templates.</p>
-<p>Let's add all these changes to the staging area, so again, type <i>$ git add .</i></p>
-<p>Then all these files will be added to the staging area.</p>
-<p>Again, checking out the status.</p>
-<p>You now see that changes that have been added to the staging area.</p>
-<p>All these files have been added to the staging area.</p>
-<p>Let's do one more commit, so I would say <i>$ git commit -m</i>, second commit and then let's check out the log. If you check out the log, you'll now see that there are two commits in my git repository, the first and the second commit.</p>
-<p>And note that each one of them is given a different number there.</p>
-<p>If you want to see their full details of the log, you can type simply, <i>$ git log</i> and then you'll receive more details in there.</p>
-<p>Then what you would be interested in.</p>
-<p>Notice that the oneline commit only gives the first few characters of my commit number there.</p>
-<p>That is sufficient enough for us to operate with.</p>
-<p>Let me now go back again to my Visual Studio, and then add one more.</p>
-<p>One more line to my index.html file.</p>
-<p>Now my index.html file has been modified.</p>
-<p>And let's save the changes.</p>
-<p>Going back to the command line, doing <i>$ git status</i> shows that index.html file has been modified.</p>
-<p>Let's add this to the staging area, and then do a third commit.</p>
-<p>Let's say, <i>$ git add . </i>, <i>$ git status</i>, now you see that the index.html the modified version has been added.</p>
-<p>Now we can say <i>$ git commit . "third commit"</i> and do <i>$ git log --oneline,</i> and you see there are three commits in our repository.</p>
-<p>Now our repository contains snapshots of three different points, at the end of the first commit, at the end of the second commit, and at the end of the third commit.</p>
-<p>Now, we also can roll back changes, we can revert the repository to a previous version.</p>
-<p>We can pull out a file from an older commit, and then replace the existing directory from the old commit.</p>
-<p>Let's see how we can operate with these things by learning a couple of more commands.</p>
-<p>At this stage, our index.html file is in the current state. So you can notice that it has an h1 and two p's.</p>
-<p>Let's now look at the next git command.</p>
-<p>The next git command that we are going to learn about is <i>$ git checkout.</i></p>
-<p>This checkout command allows us to check out a file from a previous commit in our git repository.</p>
-<p>If we don't like the current file that we have in our folder and we want to go back to your previous version of the file, we can always check out the file from a previous commit or from the current commit and then continue to work with that file.</p>
-<p>Let's make use of this and see some further changes to our git repository.</p>
-<p>Going back to our command line, we remember that, between the second and the third commit, I made changes to my index.html file.</p>
-<p>Suppose I want to revert back to the index.html file from my second commit.</p>
-<p>Then, I can simply say, <i>git checkout 900cfcf</i>.</p>
-<p>That is commit identify the number that identifies the particular commit, and then I can say index.html, and what you would notice is that, that older file will now be checked out into my current working directory.</p>
-<p>Going to my Visual Studio Code, you'll now notice that my index.html file has reverted to the previous working so, the change that I made before the third commit it is now gone.</p>
-<p>My index.html file has been restored to its state at the end of the second commit.</p>
-<p>Now, at the command line, if I try git status, you'll notice that this index.html file which was reverted to what it was at the end of the second commit, it has now already been staged.</p>
-<p>Using this git checkout, we'll pull out an older version of the file, and then replace what is in the current directory, and then it'll also check it into the staging area.</p>
-<p>Now if I do that and then I realize that this is what I want, I can simply do another commit at this point. And then that file can be committed as the fourth commit.</p>
-<p>But suppose I don't like this, I want to double to back to the index.html file at the end of the third commit then all I can do is say git reset, HEAD and index.html.</p>
-<p>At this point, what happens is that the index.html, the modified version that I had checked out is still there but this file has been unstaged from the staging area.</p>
-<p>If you go back and look at the index.html in your editor, it will still show the state at the end of the second commit.</p>
-<p>Because we had pulled out the file using checkout for that.</p>
-<p>Now, if you want to revert it back to what it was at the end of the third commit, then we do one more checkout from the third commit going to our command window, type git status and you would notice that the
-index.html is marked as modified.</p>
-<p>But it also shows this particular statement here. It says git checkout -- and the file name, to discard the changes in the working directories.</p>
-<p>That's one way you can discard the changes that you have made to a particular file corresponding to the previous comment.</p>
-<p>Let me just restore that index.html back to what it was at the end of the third commit.</p>
-<p>To do that, I could simply say <i>$ git checkout -- index.html</i> and then, if I do <i>$ git status</i>, it shows that my directory is clean.</p>
-<p>And basically my directory has been restored to the state at the end of the third commit.</p>
-<p>Going to the file in my Virtual Studio Code, I see that their file has been restored back to what it was at the end of the third cap.</p>
-<p>This is one way you can, if you have made changes to your file after the commit and you want to just discard those changes, you can simply check out the file from the last commit, and then all your changes that
+<p>This is just to show you how git can commit entire folder hierarchy into its repository.
+With test.html now there, I'm just going to copy everything from my index.html into my 
+test.html, and save the changes.
+Going back to the command line, let's now check out the status of our git repository 
+and this folder.
+Type in <i>$ git status</i>, shows that the index status html file that we have already 
+handed earlier to the repository has now been modified, so there is a newer version of 
+the index.html file.</p>
+
+<p>Also, it shows that there are some untracked files in this folder called templates.
+Let's add all these changes to the staging area, so again, type <i>$ git add .</i>
+Then all these files will be added to the staging area.</p>
+
+<p>Again, checking out the status.
+You now see that changes that have been added to the staging area.
+All these files have been added to the staging area.</p>
+
+<p>Let's do one more commit, so I would say <i>$ git commit -m</i>, second commit and 
+then let's check out the log. If you check out the log, you'll now see that there are 
+two commits in my git repository, the first and the second commit.
+And note that each one of them is given a different number there.
+If you want to see their full details of the log, you can type simply, <i>$ git log</i> 
+and then you'll receive more details in there.
+Then what you would be interested in.</p>
+
+<p>Notice that the oneline commit only gives the first few characters of my commit number there.
+That is sufficient enough for us to operate with.</p>
+
+<p>Let me now go back again to my Visual Studio, and then add one more.
+One more line to my index.html file.</p>
+
+<p>Now my index.html file has been modified.
+And let's save the changes.</p>
+
+<p>Going back to the command line, doing <i>$ git status</i> shows that index.html file 
+has been modified.
+Let's add this to the staging area, and then do a third commit.
+Let's say, <i>$ git add . </i>, <i>$ git status</i>, now you see that the index.html 
+the modified version has been added.</p>
+
+<p>Now we can say <i>$ git commit . "third commit"</i> and do <i>$ git log --oneline,</i> 
+and you see there are three commits in our repository.</p>
+<p>Now our repository contains snapshots of three different points, at the end of the 
+first commit, at the end of the second commit, and at the end of the third commit.</p>
+
+<p>Now, we also can roll back changes, we can revert the repository to a previous version.
+We can pull out a file from an older commit, and then replace the existing directory 
+from the old commit.</p>
+
+<p>Let's see how we can operate with these things by learning a couple of more commands.
+At this stage, our index.html file is in the current state. So you can notice that it has an h1 and two p's.</p>
+
+<p>Let's now look at the next git command.
+The next git command that we are going to learn about is <i>$ git checkout.</i>
+This checkout command allows us to check out a file from a previous commit in our git 
+repository.  If we don't like the current file that we have in our folder and we want 
+to go back to your previous version of the file, we can always check out the file from 
+a previous commit or from the current commit and then continue to work with that file.
+Let's make use of this and see some further changes to our git repository.</p>
+
+<p>Going back to our command line, we remember that, between the second and the third 
+commit, I made changes to my index.html file.
+Suppose I want to revert back to the index.html file from my second commit.
+Then, I can simply say, <i>git checkout 900cfcf</i>.
+That is commit identify the number that identifies the particular commit, and then 
+I can say index.html, and what you would notice is that, that older file will now 
+be checked out into my current working directory.</p>
+
+<p>Going to my Visual Studio Code, you'll now notice that my index.html file has 
+reverted to the previous working so, the change that I made before the third 
+commit it is now gone.
+My index.html file has been restored to its state at the end of the second commit.
+Now, at the command line, if I try git status, you'll notice that this index.html 
+file which was reverted to what it was at the end of the second commit, it has 
+now already been staged.  Using this git checkout, we'll pull out an older version 
+of the file, and then replace what is in the current directory, and then it'll also 
+check it into the staging area.  Now if I do that and then I realize that this is 
+what I want, I can simply do another commit at this point. And then that file can 
+be committed as the fourth commit.</p>
+
+<p>But suppose I don't like this, I want to double to back to the index.html file 
+at the end of the third commit then all I can do is say git reset, HEAD and index.html.
+At this point, what happens is that the index.html, the modified version that I had 
+checked out is still there but this file has been unstaged from the staging area.
+If you go back and look at the index.html in your editor, it will still show the 
+state at the end of the second commit.  Because we had pulled out the file using 
+checkout for that.</p>
+
+<p>Now, if you want to revert it back to what it was at the end of the third commit, 
+then we do one more checkout from the third commit going to our command window, type 
+git status and you would notice that the index.html is marked as modified.
+But it also shows this particular statement here. It says git checkout -- and the 
+file name, to discard the changes in the working directories.
+That's one way you can discard the changes that you have made to a particular file 
+corresponding to the previous comment.</p>
+
+<p>Let me just restore that index.html back to what it was at the end of the third 
+commit.  To do that, I could simply say <i>$ git checkout -- index.html</i> and then, 
+if I do <i>$ git status</i>, it shows that my directory is clean.  And basically my 
+directory has been restored to the state at the end of the third commit.</p>
+
+<p>Going to the file in my Virtual Studio Code, I see that their file has been restored 
+back to what it was at the end of the third cap.  This is one way you can, if you have 
+made changes to your file after the commit and you want to just discard those changes, 
+you can simply check out the file from the last commit, and then all your changes that
 you've done after the last commit will be discarded on the spot.</p>
-<p>These are some basic commands that are very useful for you as you go through the courses in this specialization because you may want to commit at the end of each exercise.</p>
-<p>And as you proceed forward, you would still have a guided vision of the state of your folder at the end of the previous exercise.</p>
-<p>That way, if you're carrying out a new exercise and you've discovered that you've made mistakes and you want to revert back to the previous commit, you always have a way of doing that using the commands that we have just let.</p>
-<p>With this basic understanding of this few git commands, you'll be able to proceed forward with understanding and using git in the courses of this specialization.</p>
+
+<p>These are some basic commands that are very useful for you as you go through the 
+courses in this specialization because you may want to commit at the end of each 
+exercise.</p>
+
+<p>And as you proceed forward, you would still have a guided vision of the state 
+of your folder at the end of the previous exercise.
+That way, if you're carrying out a new exercise and you've discovered that you've 
+made mistakes and you want to revert back to the previous commit, you always have a 
+way of doing that using the commands that we have just let.
+With this basic understanding of this few git commands, you'll be able to proceed 
+forward with understanding and using git in the courses of this specialization.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. more basic git commands (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -746,21 +810,26 @@ you've done after the last commit will be discarded on the spot.</p>
   style="width:35%;"
   alt="More basic git commands." />
 
-<p>Now, we have reviewed the git reset for a specific file or git reset in general.</p>
-<p>If you simply type git reset, it'll restore you back to the last commit.</p>
-<p>It will reset the staging area to the last commit, without disturbing the changes that you have done to your working directory.</p>
-<p>Once you reset, then you can check out the previous version of the file that you have committed in the previous commit.</p>
-<p>This week, you can restore your folder back to the where you were at the starting point of the previous commit.</p>
-<p>Sometimes when you are going through an exercise and you realize you missed a cue.</p>
-<p>Always have a way of reverting back to a previous version.</p>
-<p>With these commands, I think you're all set to go ahead to use git in the courses of this specialization.</p>
+<p>Now, we have reviewed the git reset for a specific file or git reset in general.
+If you simply type git reset, it'll restore you back to the last commit.
+It will reset the staging area to the last commit, without disturbing the changes that you have done to your working directory.
+Once you reset, then you can check out the previous version of the file that you have committed in the previous commit.</p>
+
+<p>This week, you can restore your folder back to the where you were at the starting point of the previous commit.
+Sometimes when you are going through an exercise and you realize you missed a cue.
+Always have a way of reverting back to a previous version.</p>
+
+<p>With these commands, I think you're all set to go ahead to use git in the courses 
+of this specialization.</p>
+
 <p>At the end of this exercise, did you Git it?</p>
 
 <h3>Exercise (Instructions): Basic Git Commands</h3>
 
 <h3>Objectives and Outcomes</h3>
 
-<p>In this exercise you will get familiar with some basic Git commands. At the end of this exercise you will be able to:</p>
+<p>In this exercise you will get familiar with some basic Git commands. At the end 
+of this exercise you will be able to:</p>
 
 <ul>
   <li>Set up a folder as a Git repository,</li>
@@ -772,7 +841,8 @@ you've done after the last commit will be discarded on the spot.</p>
 <ul>
   <li>At a convenient location on your computer, create a folder named <i>$ git-test</i>,</li>
   <li>Open this git-test folder in your favorite editor,</li>
-  <li>Add a file named <em>index.html</em> to this folder, and add the following HTML code to this file:</li>
+  <li>Add a file named <em>index.html</em> to this folder, and add the following 
+    HTML code to this file:</li>
 </ul>
 
 <pre>&lt;!DOCTYPE html&gt;
@@ -786,7 +856,8 @@ you've done after the last commit will be discarded on the spot.</p>
 <h4>Initializing the folder as a Git repository</h4>
 
 <ul>
-  <li>Go to the git-test folder in your cmd window/terminal and type the following at the prompt to initialize the folder as a Git repository:</li>
+  <li>Go to the git-test folder in your cmd window/terminal and type the following 
+    at the prompt to initialize the folder as a Git repository:</li>
 </ul>
 
 <pre>$ git init</pre>
@@ -839,7 +910,9 @@ you've done after the last commit will be discarded on the spot.</p>
 </pre>
 
 <ul>
-  <li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and then add a file named <em>test.html</em> to the templates folder. Then set the contents of this file to be the same as the <em>index.html</em> file above,</li>
+  <li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and 
+    then add a file named <em>test.html</em> to the templates folder. Then set 
+	the contents of this file to be the same as the <em>index.html</em> file above,</li>
   <li>Then check the status and add all the files to the staging area,</li>
   <li>Then do the second commit to your repository,</li>
   <li>Now, modify the <em>index.html</em> file as follows:</li>
@@ -862,7 +935,8 @@ you've done after the last commit will be discarded on the spot.</p>
 <h4>Checking out a file from an earlier commit</h4>
 
 <ul>
-  <li>To check out the index.html from the second commit, find the number of the second commit using the git log, and then type the following at the prompt:</li>
+  <li>To check out the index.html from the second commit, find the number of the 
+    second commit using the git log, and then type the following at the prompt:</li>
 </ul>
 
 <pre>$ git checkout &lt;second commit's number&gt; index.html</pre>
@@ -882,85 +956,98 @@ you've done after the last commit will be discarded on the spot.</p>
 <pre>$ git checkout -- index.html</pre>
 
 <ul>
-  <li>ou can also use <em>git reset</em> to reset the staging area to the last commit without disturbing the working directory.</li>
+  <li>ou can also use <em>git reset</em> to reset the staging area to the last 
+    commit without disturbing the working directory.</li>
 </ul>
 
 <h3>Conclusions</h3>
 
-<p>At the end of this exercise you should have learnt some basic Git commands. Experiment with these commands until you fully understand how to use Git.</p>
+<p>At the end of this exercise you should have learnt some basic Git commands. 
+Experiment with these commands until you fully understand how to use Git.</p>
 
 <h3>Exercise: Online Git Repositories</h3>
 
-<p>Online Git repositories enable you to store a copy of your Git repository online.</p>
-<p>And It can easily be shared among multiple computers and multiple users.</p>
+<p>Online Git repositories enable you to store a copy of your Git repository online.
+And It can easily be shared among multiple computers and multiple users.</p>
+
 <p>Let’s learn about two of the online Git repository service providers,
-GitHub and Bitbucket, in a little bit more detail.</p>
-<p>We’ll look at how we can set up our local Git repository to be
+GitHub and Bitbucket, in a little bit more detail.
+We’ll look at how we can set up our local Git repository to be
 mirrored in an online Git repository.</p>
-<p>There are several online Git repository service providers.</p>
-<p>Two of the most popular ones are GitHub and Bitbucket.</p>
-<p>I will go through in more detail about how you can set up your Git
+
+<p>There are several online Git repository service providers.
+Two of the most popular ones are GitHub and Bitbucket.
+I will go through in more detail about how you can set up your Git
 repository that you prepared in the previous exercise to be made out on
 an online Git repository on Bitbucket.</p>
+
 <p>To set up in online Git repository, go to one of these online service
-providers and then sign up for an account.</p>
-<p>Here, I have signed up into my Bitbucket account, and I have my
-homepage open here.</p>
-<p>And so I'm going to create a new repository online on my Bitbucket
-repository.</p>
-<p>I just click on the Create repository, and then this would come up
+providers and then sign up for an account.
+Here, I have signed up into my Bitbucket account, and I have my
+homepage open here.
+And so I'm going to create a new repository online on my Bitbucket
+repository.
+I just click on the Create repository, and then this would come up
 with some details.</p>
-<p>Now, this varies with the repository service provider.</p>
-<p>Here, I will specify the name of the repository as git-test, and I'm
+
+<p>Now, this varies with the repository service provider.
+Here, I will specify the name of the repository as git-test, and I'm
 going to mark this as a private repository.</p>
+
 <p>For this course and all the remaining courses in this specialization,
 I would bly advise you to keep your repositories as private
 repositories, because you don't want somebody else to be copying the
-code that you might save in your online Git repository.</p>
-<p>Please, make sure that you only use private repositories in this
+code that you might save in your online Git repository.
+Please, make sure that you only use private repositories in this
 specialization.</p>
+
 <p>I will sign up as a get private repository, and then simply click on
-create repository.</p>
-<p>And then it'll do some setup, and then be ready for me, okay?</p>
+create repository.
+And then it'll do some setup, and then be ready for me, okay?</p>
+
 <p>Now, what I need to do is to copy this particular URL format
-repository.</p>
-<p>You will see a URL for the repository in the home page of the
-repository.</p>
-<p>Just copy that URL for the repository, because we would need that in
-order to synchronize our local Git repository with this repository.</p>
-<p>I'm going to copy that.</p>
+repository.
+You will see a URL for the repository in the home page of the
+repository.
+Just copy that URL for the repository, because we would need that in
+order to synchronize our local Git repository with this repository.
+I'm going to copy that.</p>
+
 <p>And since I have already created my local Git repository, I'm going
 to go in there and set that up to be mirrored in this online Git
-repository.</p>
-<p>For that, we need to use a couple of Git commands that enable us to
-do this.</p>
-<p>Going to the command prompt in my Git repository folder I will type,
-git remote add origin.</p>
-<p>And then paste the URL for my Bitbucket repository that I've just
+repository.
+For that, we need to use a couple of Git commands that enable us to
+do this.
+Going to the command prompt in my Git repository folder I will type,
+git remote add origin.
+And then paste the URL for my Bitbucket repository that I've just
 created, and hit the return.</p>
+
 <p>Now, my local Git repository's remote origin is set to the Bitbucket
-repository.</p>
-<p>Now, I want to be able to push the entire contents of my local Git
-repository to my online Git repository.</p>
-<p>Reviewing the commands for setting up the online Git repository, the
+repository.
+Now, I want to be able to push the entire contents of my local Git
+repository to my online Git repository.
+Reviewing the commands for setting up the online Git repository, the
 first one that we just did, git remote add origin and the repository
-URL.</p>
-<p>And so this will add the online repository as the remote repository
+URL.
+And so this will add the online repository as the remote repository
 for my local Git repository.</p>
+
 <p>Once I do that, then I need to push my contents to my online
-repository.</p>
-<p>For that, I do git push -u origin master. And this command would push
-the local Git repository to the online repository.</p>
-<p>Let's type that at the command prompt. So once I type this at the
+repository.
+For that, I do git push -u origin master. And this command would push
+the local Git repository to the online repository.
+Let's type that at the command prompt. So once I type this at the
 command prompt and hit the return, it's going to set up my Git
 repository. Sometimes it may ask you to type in your credentials
 including your password on your Bitbucket account. So you may have to do
 that. I had already done that previously, so that's why it didn't ask me
 again for the password. But once I had typed that in, then the contents
 of my local depository will be pushed to the server's site.</p>
+
 <p>Now, the data on my local Git repository is now matched on the
-server.</p>
-<p>Let's go to Bitbucket to see the status of my online Git repository
+server.
+Let's go to Bitbucket to see the status of my online Git repository
 now.</p>
 <p>Going to my Bitbucket and then reviewing the online Git repository,
 you would see that there has been a branch, the master branch, that has
@@ -1083,8 +1170,13 @@ online repository. At the end of this exercise, you will be able to:</p>
 <h3>Setting up an Online Git repository</h3>
 
 <ul>
-  <li>Sign up for an account either at Bitbucket (<a href="https://bitbucket.org/" target="_blank" rel="noopener noreferrer">https://bitbucket.org</a>) or GitHub (<a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com</a>).</li>
-  <li>Then set up an online Git repository named <b>git-test</b>. Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.</li>
+  <li>Sign up for an account either at Bitbucket (<a href="https://bitbucket.org/" 
+    target="_blank" rel="noopener noreferrer">https://bitbucket.org</a>) or GitHub 
+	(<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+	https://github.com</a>).</li>
+  <li>Then set up an online Git repository named <b>git-test</b>. Note the URL 
+    of your online Git repository. Note that private repositories on GitHub 
+	requires a paid account, and is not available for free accounts.</li>
 </ul>
 
 <h3>Set the local Git repository to set its remote origin</h3>
@@ -1138,12 +1230,15 @@ from the browser to the desktop.</p>
   style="width:35%;"
   alt="What is node.js?" />
 
-<p>Let's now learn a little bit about what Node.js is and what role does NPM, the Node Package Manager, play in the context of Node.js. Node.js, as I mentioned earlier, allows us to bring the power of JavaScript to the desktop.</p>
-<p>Node js is based on the JavaScript runtime engine that has been built for the Chrome browser.</p>
-<p>The Chrome V8 JavaScript Engine has been ported from the browser to run on the desktop and support the execution of JavaScript programs on the desktop.</p>
-<p>Node.js is built around an event-driven, non-blocking I/O model which makes it very efficient to run JavaScript programs on the desktop, asynchronous JavaScript on the desktop. Now this is where Node finds its true polish.</p>
-<p>Right now we will examine Node.js in the context its use as a JavaScript runtime.</p>
-<p>We will look at the server side application of Node.js in detail in
+<p>Let's now learn a little bit about what Node.js is and what role does NPM, the Node 
+Package Manager, play in the context of Node.js. Node.js, as I mentioned earlier, 
+allows us to bring the power of JavaScript to the desktop.
+Node js is based on the JavaScript runtime engine that has been built for the Chrome browser.</p>
+
+<p>The Chrome V8 JavaScript Engine has been ported from the browser to run on the desktop and support the execution of JavaScript programs on the desktop.
+Node.js is built around an event-driven, non-blocking I/O model which makes it very efficient to run JavaScript programs on the desktop, asynchronous JavaScript on the desktop. Now this is where Node finds its true polish.
+Right now we will examine Node.js in the context its use as a JavaScript runtime.
+We will look at the server side application of Node.js in detail in
 the last course of this specialization.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. node.js typical architecture (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
