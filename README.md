@@ -11,7 +11,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/coursera-logo.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Coursera logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19,7 +19,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Hong Kong University of Science and Technology logo." />
 </p>
 <!-- {width="5.0in" height="2.202991032370954in"} -->
@@ -29,7 +29,7 @@ Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
 <!-- {width="5.0in" height="2.0638298337707788in"} -->
@@ -229,7 +229,7 @@ development.
 <p align="center" width="100%">
 <img src="/images/image002.webp?raw=true"
   alt="Front-end and back-end."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
@@ -256,7 +256,7 @@ Development.
 <p align="center" width="100%">
 <img src="/images/image003.webp?raw=true"
   alt="Three-tier architecture: presentation."
-  width="35%" />
+  width="45%" />
 </p>
 
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
@@ -275,7 +275,7 @@ presentation layer.
 <p align="center" width="100%">
 <img src="/images/image004.webp?raw=true"
   alt="Three-tier architecture: business logic."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
@@ -291,7 +291,7 @@ the data access layer</b>.
 <p align="center" width="100%">
 <img src="/images/image005.webp?raw=true"
   alt="Three-tier architecture: data access."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
@@ -307,7 +307,7 @@ traditional web development in each of these three layers.
 <p align="center" width="100%">
 <img src="/images/image006.webp?raw=true"
   alt="Data Access Layer: Databsse and API."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -319,7 +319,7 @@ technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
 <p align="center" width="100%">
 <img src="/images/image007.webp?raw=true"
   alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -337,7 +337,7 @@ rendering these days.
 <p align="center" width="100%">
 <img src="/images/image008.webp?raw=true"
   alt="Traditional Web Development: HTML, CSS & JS."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -359,7 +359,7 @@ database management system.
 <p align="center" width="100%">
 <img src="/images/image009.webp?raw=true"
   alt="Full stack javascript development."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -385,7 +385,7 @@ We will cover these technologies as part of this specialization.
 <p align="center" width="100%">
 <img src="/images/image010.webp?raw=true"
   alt="Full Stack Web Dev: Bootstrap 4 and Angular or Reactfull."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
@@ -480,7 +480,7 @@ the repository at the end of each exercise.
 <p align="center" width="100%">
 <img src="/images/image010a.webp?raw=true"
   alt="Online Git repository."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.5908125546806648in"} -->
 
@@ -532,7 +532,7 @@ why we need Git for this specialization.
 <p align="center" width="100%">
 <img src="/images/image011.webp?raw=true"
   alt="Git."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
@@ -878,7 +878,7 @@ folder, I&apos;m going to create another file name, test.html.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image015.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Basic Git commands." />
 </p>
 <!-- {width="5.0in" height="3.3701924759405073in"} -->
@@ -1072,7 +1072,7 @@ this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image016.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Git reset." />
 </p>
 <!-- {width="5.0in" height="2.2222222222222223in"} -->
@@ -1487,7 +1487,7 @@ And then, Paste the URL of my Bitbucket repository here.
 <p align="center" width="100%">
 <img src="/images/image017.webp?raw=true"
   alt="git-test."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.1527777777777777in"} -->
 
@@ -1562,7 +1562,7 @@ $ git push -u origin master
 <p align="center" width="100%">
 <img src="/images/image018.webp?raw=true"
   alt="git-test."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.2676279527559056in"} -->
 
@@ -1589,7 +1589,7 @@ the browser to the desktop.
 <p align="center" width="100%">
 <img src="/images/image019.webp?raw=true"
   alt="What is Node.js?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9198720472440944in"} -->
 
@@ -1621,7 +1621,7 @@ last course of this specialization.
 <p align="center" width="100%">
 <img src="/images/image020.webp?raw=true"
   alt="Node Architecture."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0769225721784776in"} -->
 
@@ -1657,7 +1657,7 @@ JavaScript on the server side.
 <p align="center" width="100%">
 <img src="/images/image021.webp?raw=true"
   alt="Node Package Manager."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0769225721784776in"} -->
 
@@ -1691,7 +1691,7 @@ Click on that to download the installer package for your platform.
 <p align="center" width="100%">
 <img src="/images/image022.webp?raw=true"
   alt="Install node.js."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="3.6212609361329835in"} -->
 
@@ -1796,7 +1796,7 @@ $ npm -v
 <p align="center" width="100%">
 <img src="/images/image023.webp?raw=true"
   alt="Install node.js."
-  width="35%" />
+  width="45%" />
 </p>
 <!--
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0](images/image025.png)
@@ -1838,7 +1838,7 @@ browser window as you edit the files of your project.
 <p align="center" width="100%">
 <img src="/images/image024.webp?raw=true"
   alt="Install package.json."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0929483814523184in"} -->
 
@@ -1854,7 +1854,7 @@ what exactly is the role of the package.json file.
 <p align="center" width="100%">
 <img src="/images/image025.webp?raw=true"
   alt="Initializing package.json."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9540594925634296in"} -->
 
@@ -2463,7 +2463,7 @@ designing and implementing their recent websites.
 <p align="center" width="100%">
 <img src="/images/image026.webp?raw=true"
   alt="Front-End Web UI Frameworks overview."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.474359142607174in"} -->
 
@@ -2475,7 +2475,7 @@ learn a little more details about them.
 <p align="center" width="100%">
 <img src="/images/image027.webp?raw=true"
   alt="What are Front-End UI Frameworks?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.961003937007874in"} -->
 
@@ -2535,7 +2535,7 @@ And enables you to quickly scaffold out a website or the pitch.
 <p align="center" width="100%">
 <img src="/images/image028.webp?raw=true"
   alt="Popular Front-End UI Frameworks."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.155983158355206in"} -->
 
@@ -2562,7 +2562,7 @@ these others appearing in many of those top-end lists.
 <p align="center" width="100%">
 <img src="/images/image029.webp?raw=true"
   alt="Why Front-End Web UI Frameworks?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.155983158355206in"} -->
 
@@ -2642,7 +2642,7 @@ to make use of Bootstrap in designing our website.
 <p align="center" width="100%">
 <img src="/images/image030.webp?raw=true"
   alt="Bootstrap overview."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.5753204286964129in"} -->
 
@@ -2658,7 +2658,7 @@ Indeed, Bootstrap stands up to its claim as the most popular framework.
 <p align="center" width="100%">
 <img src="/images/image031.webp?raw=true"
   alt="More Bootatrap."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9086537620297463in"} -->
 
@@ -2680,7 +2680,7 @@ We will talk more about this in the next lesson.
 <p align="center" width="100%">
 <img src="/images/image032.webp?raw=true"
   alt="Bootstrap history."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9994663167104112in"} -->
 
@@ -2714,7 +2714,7 @@ I&apos;m sure your fingers are itching to get your hands around Bootstrap.
 <p align="center" width="100%">
 <img src="/images/image033.webp?raw=true"
   alt="Setting up the project folder."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9722222222222223in"} -->
 
@@ -2726,7 +2726,7 @@ your Bootstrap course page on Coursera.
 <p align="center" width="100%">
 <img src="/images/image034.webp?raw=true"
   alt="Getting started with bootstrap 4."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9722222222222223in"} -->
 
@@ -3199,7 +3199,7 @@ these days?
 <p align="center" width="100%">
 <img src="/images/image035.webp?raw=true"
   alt="Why responsive design?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.1180555555555556in"} -->
 
@@ -3217,7 +3217,7 @@ screen sizes?
 <p align="center" width="100%">
 <img src="/images/image036.webp?raw=true"
   alt="Why responsive design, #2."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.561431539807524in"} -->
 
@@ -3235,7 +3235,7 @@ port.
 <p align="center" width="100%">
 <img src="/images/image037.webp?raw=true"
   alt="Why responsive design, #3."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.223290682414698in"} -->
 
@@ -3289,7 +3289,7 @@ responsive web design.
 <p align="center" width="100%">
 <img src="/images/image038.webp?raw=true"
   alt="Mobile first design."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.735042650918635in"} -->
 
@@ -3334,7 +3334,7 @@ design.
 <p align="center" width="100%">
 <img src="/images/image040.webp?raw=true"
   alt="Foundation for responsive design."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.208867016622922in"} -->
 
@@ -3351,7 +3351,7 @@ responsive web design.
 <p align="center" width="100%">
 <img src="/images/image041.webp?raw=true"
   alt="Foundation for responsive design #2."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.7852559055118111in"} -->
 
@@ -3363,7 +3363,7 @@ in your website will automatically adapt itself to the screen size.
 <p align="center" width="100%">
 <img src="/images/image042.webp?raw=true"
   alt="Foundation for responsive design #3."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.178418635170604in"} -->
 
@@ -3384,7 +3384,7 @@ Media queries are supported in CSS like this.
 <p align="center" width="100%">
 <img src="/images/image043.webp?raw=true"
   alt="Media queries."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.077457349081365in"} -->
 
@@ -3406,7 +3406,7 @@ CSS code.
 <p align="center" width="100%">
 <img src="/images/image044.webp?raw=true"
   alt="How to build a media query in your CSS code."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.839744094488189in"} -->
 
@@ -3440,7 +3440,7 @@ devices screen size.
 <p align="center" width="100%">
 <img src="/images/image045.webp?raw=true"
   alt="How do we do this?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.1180555555555556in"} -->
 
@@ -3480,7 +3480,7 @@ Let&apos;s try to understand why we use this in our index.html page.
 <p align="center" width="100%">
 <img src="/images/image046.webp?raw=true"
   alt="Viewport."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.086538713910761in"} -->
 
@@ -3502,7 +3502,7 @@ us to design responsive websites.
 <p align="center" width="100%">
 <img src="/images/image047.webp?raw=true"
   alt="Bootstrap grid."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.959935476815398in"} -->
 
@@ -3518,7 +3518,7 @@ and then fluid, automatically adapting to the screen width.
 <p align="center" width="100%">
 <img src="/images/image048.webp?raw=true"
   alt="CSS Flexbox."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.959935476815398in"} -->
 
@@ -3541,7 +3541,7 @@ flexbox layout as the standard for the Bootstrap grid.
 <p align="center" width="100%">
 <img src="/images/image049.webp?raw=true"
   alt="Why flexbox for bootstrap?"
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.2729702537182854in"} -->
 
@@ -3575,7 +3575,7 @@ it actually works.
 <p align="center" width="100%">
 <img src="/images/image050.webp?raw=true"
   alt="Bootstrap grid."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.0096150481189852in"} -->
 
@@ -3609,7 +3609,7 @@ width.
 <p align="center" width="100%">
 <img src="/images/image051.webp?raw=true"
   alt="Bootstrap grid #2."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3625,7 +3625,7 @@ The content itself will be vertically divided into multiple rows.
 <p align="center" width="100%">
 <img src="/images/image052.webp?raw=true"
   alt="Bootstrap grid #3."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3660,7 +3660,7 @@ We&apos;ll talk about that in the next few slides.
 <p align="center" width="100%">
 <img src="/images/image053.webp?raw=true"
   alt="How to layout the grid."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.171474190726159in"} -->
 
@@ -3709,7 +3709,7 @@ We&apos;ll see that in the next slide.
 <p align="center" width="100%">
 <img src="/images/image054.webp?raw=true"
   alt="Auto-layout columns."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.678418635170604in"} -->
 
@@ -3721,7 +3721,7 @@ we want to lay out the peace of content.
 <p align="center" width="100%">
 <img src="/images/image055.webp?raw=true"
   alt="Bootstrap grid."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3754,7 +3754,7 @@ There are still seven more columns left.
 <p align="center" width="100%">
 <img src="/images/image056.webp?raw=true"
   alt="Bootstrap grid #2."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3775,7 +3775,7 @@ the layout of the current tier.
 <p align="center" width="100%">
 <img src="/images/image057.webp?raw=true"
   alt="Auto-layout columns."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3795,7 +3795,7 @@ total width.
 <p align="center" width="100%">
 <img src="/images/image058.webp?raw=true"
   alt="Auto-layout columns #2."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3810,7 +3810,7 @@ mechanism.
 <p align="center" width="100%">
 <img src="/images/image059.webp?raw=true"
   alt="Auto-layout columns #3."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3822,7 +3822,7 @@ of content occupy.
 <p align="center" width="100%">
 <img src="/images/image060.webp?raw=true"
   alt="Auto-layout columns #4."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="1.9439107611548556in"} -->
 
@@ -3851,7 +3851,7 @@ in color layout.
 <p align="center" width="100%">
 <img src="/images/image061.webp?raw=true"
   alt="Bootstrap grid details."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.834935476815398in"} -->
 
@@ -3955,7 +3955,7 @@ We will see the use of offsets also in some examples later.
 <p align="center" width="100%">
 <img src="/images/image062.webp?raw=true"
   alt="Using column classes."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
 
@@ -3991,7 +3991,7 @@ This is how we would specify content layout for different screen sizes.
 <p align="center" width="100%">
 <img src="/images/image063.webp?raw=true"
   alt="Reordering content."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
 
@@ -4022,7 +4022,7 @@ We will see an example of this also in the exercise.
 <p align="center" width="100%">
 <img src="/images/image064.webp?raw=true"
   alt="Vertical alignment."
-  width="35%" />
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
 
@@ -4043,7 +4043,7 @@ you would apply the class called "align items center".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Vertical alignment #2." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4060,7 +4060,7 @@ centered vertically within that particular row there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Horizontal alignment." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4074,7 +4074,7 @@ Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Horizontal alignment #2." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4093,7 +4093,7 @@ occupy three columns each.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Horizontal alignment #3." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4128,7 +4128,7 @@ Details are in the bootstraps documentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Column offsets." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4143,7 +4143,7 @@ Let&apos;s look at an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Column offsets #2." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4161,7 +4161,7 @@ is left blank and the content is shifted right by one column.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="column offsets #3." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4183,7 +4183,7 @@ contents for different screen widths and different screen sizes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Nesting offsets." />
 </p>
 <!-- {width="5.0in" height="2.0544870953630796in"} -->
@@ -4206,7 +4206,7 @@ out content in your pitch.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Exercise: responsive design & bootstrap grid system." />
 </p>
 <!-- {width="5.0in" height="1.8327996500437445in"} -->
@@ -5207,7 +5207,7 @@ aboutus.html page, so this is the only way you can get to view the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Aboutus.html." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5223,7 +5223,7 @@ Let&apos;s look at the three tasks in more detail.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="First task." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5239,7 +5239,7 @@ footer from the index.html page into this page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Second task." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5255,7 +5255,7 @@ content or the page so that you can style it properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Third task." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5281,7 +5281,7 @@ like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Aboutus and history." />
 </p>
 
@@ -5294,7 +5294,7 @@ Our History will occupy only half the screen width.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Our history." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5306,7 +5306,7 @@ this case.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Ristorante con Fusion." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5317,7 +5317,7 @@ This is the second task that you need to complete in your assignment.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Task 3." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5330,7 +5330,7 @@ especially like this,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Corporate leadership." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5354,7 +5354,7 @@ hidden in the extra small screens size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Corporate leadership #2." />
 </p>
 <!-- {width="5.0in" height="2.6875in"} -->
@@ -5406,7 +5406,7 @@ Git Repository with the Message Assignment One.
 <!-- {width="2.0in" height="7.825243875765529in"} -->
 <p align="center" width="100%">
 <img src="./images/image086.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Assignment #1, continued." />
 </p>
 <!-- {width="4.0in" height="4.4736843832021in"} -->
@@ -5545,7 +5545,7 @@ lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
-  width="35%"
+  width="45%"
   alt="Why website navigation?" />
 </p>
 <!-- {width="5.0in" height="2.7804483814523184in"} -->
@@ -9618,7 +9618,7 @@ You can use the column classes to adjust these things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Assignment 2." />
 </p>
 <!-- {width="5.0in" height="8.86311789151356in"} -->
@@ -9627,7 +9627,7 @@ You can use the column classes to adjust these things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Assignment 2, continued." />
 </p>
 <!-- {width="3.100546806649169in" height="20.775930664916885in"} -->
@@ -11912,7 +11912,7 @@ Hope you enjoyed creating this new variation of the index.html page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Task 2, smoking/non-smoking section." />
 </p>
 <!-- {width="5.0in" height="4.461420603674541in"} -->
@@ -11959,7 +11959,7 @@ Many of these plugins are written in jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap and javascript." />
 </p>
 <!-- {width="5.0in" height="1.726496062992126in"} -->
@@ -11972,7 +11972,7 @@ been including all the Bootstrap&apos;s JavaScript plugins into our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap and javascript components." />
 </p>
 <!-- {width="5.0in" height="3.046474190726159in"} -->
@@ -11988,7 +11988,7 @@ and make it easy for us to make use of them in our webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap JS components." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12005,7 +12005,7 @@ enable many of our Bootstrap&apos;s JavaScript-based components.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap JS components #2." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12023,7 +12023,7 @@ We&apos;re going to explore that in a little more detail in this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12071,7 +12071,7 @@ something that started with a dollar sign.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery syntax." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12127,7 +12127,7 @@ Let&apos;s take a look at Bootstrap jQuery example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery syntax #2." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12139,7 +12139,7 @@ we introduce the tooltip.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap JQuery example." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12162,7 +12162,7 @@ as a parameter for this ready action there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="Bootstrap JQuery example #2." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12192,7 +12192,7 @@ Let&apos;s look at the various ways of specifying selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery syntax, again." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12207,7 +12207,7 @@ selectors?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery selectors." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12278,7 +12278,7 @@ examples and the exercise that follows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
-  width="35%"
+  width="45%"
   alt="JQuery events." />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
@@ -12309,7 +12309,7 @@ scrolling or unloading the document, you can respond to those events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="JQuery events #2." />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
@@ -12324,7 +12324,7 @@ any of these events there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Example: Bootstrap carousel." />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
@@ -12346,7 +12346,7 @@ action to take place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Example: Carousel." />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
@@ -12381,7 +12381,7 @@ items from left to right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Example: Carousel #2." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
@@ -12406,7 +12406,7 @@ And based on the occurrence of these events, you can respond.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Example: Carousel #3." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
@@ -12423,7 +12423,7 @@ completed the slide transition to the next item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Example: Carousel #4." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
@@ -12441,7 +12441,7 @@ are caused by your carousel&apos;s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image109.webp?raw=true"
-  width="65%"
+  width="45%"
   alt="Exercise: Bootstrap and JQuery." />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
@@ -14007,7 +14007,7 @@ to save your changes with the message assignment four.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp?raw=true"
-  width="35%"
+  width="65%"
   alt="Reserve a table." />
 </p>
 <!-- {width="5.0in" height="4.163497375328084in"} -->
@@ -14016,7 +14016,7 @@ to save your changes with the message assignment four.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp?raw=true"
-  width="35%"
+  width="65%"
   alt="Login." />
 </p>
 <!-- {width="5.0in" height="4.349809711286089in"} -->
