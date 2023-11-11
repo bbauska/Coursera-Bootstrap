@@ -1,10 +1,20 @@
-  .displayed {
-text-align: center;
+img {
+  width: 400px;
 }
+  .displayed {
+    display: block;
+    margin: 0 auto; 
+  }
   .border {
-    border-width: 1px;
-    border-color: #778899;  /* dark grayish blue */
-    border-style: solid; }
+    border-width: 1px solid #778899;
+  }
+
+blockquote {
+  margin: .5em 0 .5em .85em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;  /* very light gray */
+  color: #606060;  /* very dark gray */
+}
 
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -12,14 +22,16 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   p { font-size: 15px;
       font-family: Bahnschrift, Inter, Helvetic, sans-serif;
       text-align: left; 
-      margin-left: 5px; }
+      margin-left: 5px; 
+    }
+  
   pre, code {
     font-family: monospace, monospace;
-    font-size: 10px; }
+    font-size: 10px; 
+  }
 
   pre {
     overflow: auto; }
-
   pre > code {
     display: block;
     padding: 1rem;
@@ -29,7 +41,6 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   a {
     text-decoration: none; 
   }
-
   a[href]:hover {
     text-decoration: underline; 
   }
@@ -65,7 +76,6 @@ details {
   font: 11px Inter, sans-serif, Bahnschrift, Calibri;
   width: 45%;
 }
-
 details > summary {
   padding: 2px 6px;
   width: 12em;
@@ -74,7 +84,6 @@ details > summary {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -82,16 +91,13 @@ details > p {
   margin: 0;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
-
 details[open] > summary {
   background-color: yellow;
 }
-
 details.test {
     position: relative;
     padding: 5px 0;
 }
-
 details.test[open]>summary::after {
     display: inline-block;
     content: "close";
@@ -99,6 +105,7 @@ details.test[open]>summary::after {
     right: 0;
     bottom: 0;
 }
+
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
