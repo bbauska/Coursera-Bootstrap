@@ -1,5 +1,5 @@
 ---
-Coursera-bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
+Coursera-boot: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
