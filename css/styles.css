@@ -19,6 +19,10 @@ blockquote {
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
+  li {
+    line-height:140%;
+  }
+
   p { font-size: 15px;
       font-family: Bahnschrift, Inter, Helvetic, sans-serif;
       text-align: left; 
