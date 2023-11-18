@@ -92,7 +92,7 @@ details > p {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
 details[open] > summary {
-  background-color: yellow;
+  background-color: #ffff00;  /* yellow */
 }
 details.test {
     position: relative;
@@ -115,5 +115,5 @@ body {
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin-left: 15px;
+  margin: 15px;
 }
