@@ -29,14 +29,15 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image001a.webp?raw=true"
-  style="width:45%;"
+  style="width:35%;"
   alt="Course title: Front-End Web UI Frameworks and Tools: Bootstrap 4." />
+<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/coursera-logo.webp?raw=true"
-  style="width:35%;"
+  style="width:15%;"
   alt="Coursera logo." />
 <br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -80,13 +81,13 @@ more detail.</p>
 website, then you may wish to rethink again.  This Specialization concentrates on 
 the development building and deployment of website and web pages, a purely technical 
 knowledge on using the HTML, CSS, and JavaScript-based skills for actual website 
-development.  You're also probably wondering about what is meant by full stack 
-web development.  We'll look at more details of full stack web development in 
-the next lesson.</p>
+development.</p>
 
-<p>In particular, if you're looking at how this course is positioned in the general 
-context of full stack web development, in this course, we are dealing with front 
-end web UI development.  In particular, the <b>UI Framework Bootstrap 4</b>.</p>
+<p>You're also probably wondering about what is meant by full stack 
+web development.  We'll look at more details of full stack web development in 
+the next lesson. In particular, if you're looking at how this course is positioned 
+in the general context of full stack web development, in this course, we are dealing 
+with front end web UI development.  In particular, the <b>UI Framework Bootstrap 4</b>.</p>
 
 <ul>
   <li>We'll be looking at the remaining aspects of full stack web development in 
@@ -2013,183 +2014,198 @@ in your Bootstrap course page on Coursera.</p>
   style="width:45%"
   alt="Getting started with Bootstrap." />
 
-<p>And then in the instructions, you will see a link to this file
-Bootstrap4-starter.zip.</p>
-<p>Download the zip file to your computer.</p>
-<p>Also, the step-by-step instructions that are illustrated in this
-module will be given in the exercise instructions that follow.</p>
-<p>There, you will have access to any of the code snippets that you need
-for this exercise.</p>
-<p>This would be the case for all the exercises in the future, too.</p>
+<p>And then in the instructions, you will see a link to this file Bootstrap4-starter.zip. 
+Download the zip file to your computer. Also, the step-by-step instructions 
+that are illustrated in this module will be given in the exercise instructions 
+that follow. There, you will have access to any of the code snippets that you need
+for this exercise. This would be the case for all the exercises in the future, too.</p>
+
 <p>Should you need to get hold of the code snippets, that is where you
 will find them. Once you download the zip file, move that zip file to a
-convenient location on your computer.</p>
-<p>Here, I have moved it to a folder named Coursera on my computer, and
-then I have the zip file with this long name there.</p>
-<p>Just unzip the file.</p>
-<p>Once you unzip the file, you will find a folder named Bootstrap4
+convenient location on your computer. Here, I have moved it to a folder named Coursera 
+on my computer, and then I have the zip file with this long name there.
+Just unzip the file. Once you unzip the file, you will find a folder named Bootstrap4
 created in your computer.</p>
+
 <p>Inside the Bootstrap4 folder, you will see another folder named
-conFusion, there.</p>
-<p>Go into the conFusion folder and you would see two files there,
-index.html and package.json file.</p>
-<p>Now, open a command window or a terminal and then move to this folder
-in your command window or terminal.</p>
-<p>At the command prompt, type npm install.</p>
-<p>Note that I already have the package.json file in there.</p>
-<p>The package.json file is configured so that the lite-server
+conFusion, there. Go into the conFusion folder and you would see two files there,
+index.html and package.json file. Now, open a command window or a terminal and 
+then move to this folder in your command window or terminal.</p>
+
+<p>At the command prompt, type npm install.
+Note that I already have the package.json file in there.
+The package.json file is configured so that the lite-server
 development dependency would be installed if I type npm install.</p>
+
 <p>Once you type npm install, you will see that the lite-server will be
-installed in your node_modules folder each.</p>
-<p>Once this is complete, open this folder in your favorite editor.</p>
-<p>Once you have the folder open in your editor, create a .gitignore
-file and then put node_modules into the gitignore file and save.</p>
-<p>This is to ensure that when you do a git commit, the node_modules
-folder will not be committed.</p>
-<p>After that, it is time to go and fetch Bootstrap for use in our
-project.</p>
-<p>Before we fetch Bootstrap, let's do a commit of the current state of
+installed in your node_modules folder each.
+Once this is complete, open this folder in your favorite editor.
+Once you have the folder open in your editor, create a .gitignore
+file and then put node_modules into the gitignore file and save.
+This is to ensure that when you do a git commit, the node_modules
+folder will not be committed.
+After that, it is time to go and fetch Bootstrap for use in our
+project.
+Before we fetch Bootstrap, let's do a commit of the current state of
 the file.</p>
-<p>Do git init and initialize your git repository.</p>
-<p>Then you can check git status, and you would see that these files
+
+<p>Do git init and initialize your git repository.
+Then you can check git status, and you would see that these files
 need to be committed, add all the files, git commit -m "Initial
-Setup".</p>
-<p>This is the starting point of your folder at this moment.</p>
-<p>With this, your starting point of your web project has been now
+Setup".
+This is the starting point of your folder at this moment.
+With this, your starting point of your web project has been now
 committed to git.</p>
+
 <p>Now you can set up this git to synchronize with an online repository,
-just like we talked about in the git exercises.</p>
-<p>You can set up a repository either on Bitbucket or on Github and then
+just like we talked about in the git exercises.
+You can set up a repository either on Bitbucket or on Github and then
 synchronize this project to that git repository.</p>
-<p>Our next step is to go and fetch Bootstrap.</p>
-<p>To do that, add the prompt type npm install bootstrap@4.0.0 and also
---save, and let the Bootstrap be installed.</p>
-<p>Once Bootstrap is installed, we realize that we also need to install
+
+<p>Our next step is to go and fetch Bootstrap.
+To do that, add the prompt type npm install bootstrap@4.0.0 and also
+--save, and let the Bootstrap be installed.
+Once Bootstrap is installed, we realize that we also need to install
 its peer, which is jQuery as well as Popper.js.</p>
+
 <p>Let's go ahead and install both jQuery and Popper.js into this
-project folder.</p>
-<p>To do that, add the prompt type npm install jquery@3.3.1 and
-Popper.js@1.12.9 --save.</p>
-<p>Now, whenever I install any of the npm packages, I am explicitly
-specifying the version of the package that you should install.</p>
-<p>The reason for this is that I want to make sure that as you go
-through this exercise, all the steps will work correctly.</p>
-<p>I am specifying the exact version of the npm modules to be
-installed.</p>
-<p>Here, we are installing the jQuery version 3.3.1 and Popper.js
+project folder.
+To do that, add the prompt type npm install jquery@3.3.1 and
+Popper.js@1.12.9 --save.
+Now, whenever I install any of the npm packages, I am explicitly
+specifying the version of the package that you should install.
+The reason for this is that I want to make sure that as you go
+through this exercise, all the steps will work correctly.
+I am specifying the exact version of the npm modules to be
+installed.
+Here, we are installing the jQuery version 3.3.1 and Popper.js
 version 1.12.9.</p>
+
 <p>Subsequently, also, I will specify the exact versions of the modules
-to be installed. So let's go ahead and install these.</p>
-<p>And once they are installed, we can go to the next step.</p>
-<p>Going back to our project folder, you would see that if you go into
-node_modules, you will see a folder in there named Bootstrap.</p>
-<p>And inside the folder named Bootstrap, you'll find a folder named
+to be installed. So let's go ahead and install these.
+And once they are installed, we can go to the next step.
+Going back to our project folder, you would see that if you go into
+node_modules, you will see a folder in there named Bootstrap.
+And inside the folder named Bootstrap, you'll find a folder named
 dist.</p>
-<p>Inside dist folder, you'll find two sub-folders named CSS and js.</p>
-<p>If you go into the CSS folder, you'll find a whole bunch of
-precompiled CSS files here.</p>
-<p>The one that is of interest to us at the start is Bootstrap
-min.css.</p>
-<p>That's the file that we are going to include into our index.html file
-in order to make use of Bootstrap in our project.</p>
-<p>Similarly, going to the js folder, you would see that there is a
-Bootstrap min.js file.</p>
-<p>We're going to include that also into our index.htm.</p>
-<p>That'll be the next step that you will see me doing.</p>
-<p>Before we go to the next step, let's start up our lite-server so that
+
+<p>Inside dist folder, you'll find two sub-folders named CSS and js.
+If you go into the CSS folder, you'll find a whole bunch of
+precompiled CSS files here.
+The one that is of interest to us at the start is Bootstrap
+min.css.
+That's the file that we are going to include into our index.html file
+in order to make use of Bootstrap in our project.
+Similarly, going to the js folder, you would see that there is a
+Bootstrap min.js file.
+We're going to include that also into our index.htm.</p>
+
+<p>That'll be the next step that you will see me doing.
+Before we go to the next step, let's start up our lite-server so that
 we can see the changes that we make to the index.html immediately
-reflected into our web page in real time.</p>
-<p>Let's start up lite-servers.</p>
-<p>Type the prompt type npm start, and then that should start up your
-lite-server.</p>
-<p>You can now see, on the screen, my editor on the left and the current
-version of the index.html page on the right.</p>
-<p>As you can see, I have already configured the index.html page with
-some content.</p>
-<p>This web page looks like the typical web page of a computer science
+reflected into our web page in real time.
+Let's start up lite-servers.</p>
+
+<p>At the prompt type npm start, and then that should start up your
+lite-server.
+You can now see, on the screen, my editor on the left and the current
+version of the index.html page on the right.
+As you can see, I have already configured the index.html page with
+some content.
+This web page looks like the typical web page of a computer science
 professor.</p>
-<p>Let's now open the index.html page in our editor.</p>
-<p>And then in the head part of the index.html page, right before the
-title, I'm going to paste in a little bit of code.</p>
-<p>This code snippet is given to you in the instructions.</p>
-<p>You can simply copy and paste this code snippet, and I'll walk you
-through what this code snippet is trying to do.</p>
-<p>You will notice that I have three meta tags here.</p>
-<p>The first one says charset="utf-8".</p>
-<p>This is the unicode that is going to be used. The second line which
+
+<p>Let's now open the index.html page in our editor.
+And then in the head part of the index.html page, right before the
+title, I'm going to paste in a little bit of code.
+This code snippet is given to you in the instructions.
+You can simply copy and paste this code snippet, and I'll walk you
+through what this code snippet is trying to do.
+You will notice that I have three meta tags here.
+The first one says charset="utf-8".
+This is the unicode that is going to be used. The second line which
 says meta name="viewport",</p>
+
 <p>I'm going to come back and explain this particular line to you in the
-next lesson when we will look at responsive web design.</p>
-<p>Now, let me draw your attention to this particular line which says
+next lesson when we will look at responsive web design.
+Now, let me draw your attention to this particular line which says
 link rel="stylesheet", and then href. Note that I am specifying href as
 "node_modules/bootstrap/dist/css/bootstrap.min.css".</p>
+
 <p>What I am specifying is that the bootstrap.min.css file, which
 contains the CSS classes corresponding to Bootstrap that we have
 downloaded using NPM to our node_modules folder, I'm going to include
-that into the head of my index.html page.</p>
-<p>You need to include the CSS classes provided by Bootstrap.</p>
-<p>You also need to include the JavaScript classes provided by
+that into the head of my index.html page.
+You need to include the CSS classes provided by Bootstrap.
+You also need to include the JavaScript classes provided by
 Bootstrap, which we're going to do at the bottom of this page.</p>
+
 <p>Going to the bottom of this page, note, just before the closing body
-tag, I'm going to paste in the code to include all the scripts.</p>
-<p>To do that, paste in the three lines for the script to include the jQuery, Popper.js, and Bootstrap min.js.</p>
-<p>Note the order in which I have included this. So the Bootstrap is at the bottom.</p>
-<p>Then, since Bootstrap is dependent upon both jQuery and Popper in
+tag, I'm going to paste in the code to include all the scripts.
+To do that, paste in the three lines for the script to include the jQuery, Popper.js, and Bootstrap min.js.
+Note the order in which I have included this. So the Bootstrap is at the bottom.
+Then, since Bootstrap is dependent upon both jQuery and Popper in
 that order, I will first input jQuery. Then, we input Popper, and then finally, Bootstrap min.js at the bottom of the
 index.html file.</p>
-<p>Now, this is included at the bottom of the page.</p>
-<p>Because when you are loading the page from a web server, you want the
+
+<p>Now, this is included at the bottom of the page.
+Because when you are loading the page from a web server, you want the
 CSS classes to be loaded immediately so that as the page starts
 rendering, when the JavaScript is fetched, the JavaScript needs to
 execute in order to make changes to your page with the JavaScript code,
 and that will take a little bit of time.</p>
+
 <p>You don't want the user to be waiting for the entire page to be
-loaded before they see something in their browser window.</p>
-<p>That's why we normally load the JavaScript classes towards the end of
-our html page just before the body tech.</p>
-<p>After making these changes, let's save the file.</p>
+loaded before they see something in their browser window.
+That's why we normally load the JavaScript classes towards the end of
+our html page just before the body tech.
+After making these changes, let's save the file.</p>
+
 <p>Now, the reason why I am showing the index.html file in my editor and
 also the browser right next to it is, the moment you save the changes
 that you have made to the index.html file, note how the browser
 rendering of that file immediately updates and see Bootstrap already in
-action on the page.</p>
-<p>Right now, you'll see that your page is using Times New Roman to
-render all the content.</p>
-<p>The moment I save the web page, you notice that the fonts being used
+action on the page.  Right now, you'll see that your page is using Times New Roman 
+to render all the content.
+The moment I save the web page, you notice that the fonts being used
 on your web page have changed.</p>
+
 <p>Now, your web page is set up to make use of the Bootstrap classes,
 and it is using Bootstraps default typography to render all the
-content.</p>
-<p>Bootstrap by default uses Helvetica Neue for the font.</p>
-<p>You can change the default font for bootstrap and so on, but that
+content.
+Bootstrap by default uses Helvetica Neue for the font.
+You can change the default font for bootstrap and so on, but that
 will be beyond the scope of our discussion right now.</p>
+
 <p>Once you set up your index.html page and save it, you will
-immediately see Bootstrap coming into action in our web page.</p>
-<p>This is how I'm going to keep illustrating, as we add various
+immediately see Bootstrap coming into action in our web page.
+This is how I'm going to keep illustrating, as we add various
 bootstraps, CSS classes, and components to our web page, how the
-rendering of it in our browser will keep changing.</p>
-<p>Now, obviously, the rendering of the page in our browser is still
-terrible.</p>
-<p>It's better than the typical computer science professors web page,
+rendering of it in our browser will keep changing.
+Now, obviously, the rendering of the page in our browser is still
+terrible.
+It's better than the typical computer science professors web page,
 but definitely not readable.</p>
+
 <p>We need to now bring into action the various CSS classes and the
 JavaScript components that our Bootstrap web UI framework provides in
-order to design our web page.</p>
-<p>We will do that step by step as we go through this exercise.</p>
-<p>This may be a convenient time for you to do a git commit of the
+order to design our web page.
+We will do that step by step as we go through this exercise.
+This may be a convenient time for you to do a git commit of the
 changes that you have made so that at the end of this exercise, your
 state of your project folder will be saved to your git repository.</p>
+
 <p>Going to my conFusion folder in another tab of my terminal window, if
 I type git status, I now see that my index.html file and the package of
-JSON file have been modified.</p>
-<p>I'm going to do a commit.</p>
-<p>Now, my status of the folder at the end of this exercise has been
-committed to my git repository.</p>
-<p>You can synchronize that with your online repository so that the
-state of your project will be saved at this point.</p>
-<p>With this, we complete our first Bootstrap exercise. You have now
-seen how we can configure Bootstrap to be used in our web project.</p>
-<p>As we proceed to the next few exercises, we're going to employee the
+JSON file have been modified.
+I'm going to do a commit.
+Now, my status of the folder at the end of this exercise has been
+committed to my git repository.
+You can synchronize that with your online repository so that the
+state of your project will be saved at this point.
+With this, we complete our first Bootstrap exercise. You have now
+seen how we can configure Bootstrap to be used in our web project.
+As we proceed to the next few exercises, we're going to employ the
 Bootstrap classes to design our web pages.</p>
 
 <h3>Exercise (Instructions): Getting Started with Bootstrap</h3>
@@ -2247,16 +2263,26 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
 $ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
 
 <ul>
-  <li>This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.</li>
-  <li>Open your project folder in your editor, and then open the index.html file in the <em>conFusion</em> folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.</li>
-  <li>Start your lite-server by typing <em>$ npm start</em> at the prompt. The <em>index.html</em> file should now be loaded into your default browser.</li>
+  <li>This will fetch the Bootstrap files and store is in your node_modules folder 
+    in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap 
+	CSS and JS files for use within your project.</li>
+  <li>Open your project folder in your editor, and then open the index.html file 
+    in the <em>conFusion</em> folder. This is your starting web page for the project. 
+	We have already created the web page with some content to get you started. We 
+	will use Bootstrap to style this web page, and learn Bootstrap features, classes 
+	and components along the way.</li>
+  <li>Start your lite-server by typing <em>$ npm start</em> at the prompt. The 
+    <em>index.html</em> file should now be loaded into your default browser.</li>
 </ul>
 
 <h3>Getting your Web page Bootstrap ready</h3>
 
 <ul>
-  <li>Open the <em>index.html</em> file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.</li>
-  <li>Insert the following code in the <em>&lt;head&gt;</em> of <em>index.html</em> file before the title.</li>
+  <li>Open the <em>index.html</em> file in your favourite text editor. If you are 
+    using Visual Studio Code, Brackets, Sublime Text or similar editors, you can 
+	open the project folder in the editor and then view index.html.</li>
+  <li>Insert the following code in the <em>&lt;head&gt;</em> of <em>index.html</em> 
+    file before the title.</li>
 </ul>
 
 <pre>  &lt;!-- Required meta tags always come first --&gt;
@@ -2268,8 +2294,15 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
   &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;</pre>
 
 <ul>
-  <li>This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.</li>
-  <li>At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.</li>
+  <li>This will include Bootstrap CSS into your web page. Note the subtle change 
+    in the fonts of the content of the web page. This is the Bootstrap typography 
+	effect coming into play. The default Bootstrap typography sets the font to 
+	Helvetica Neue and selects the appropriate font size based on the choice of 
+	the heading style and paragraph style for the content.</li>
+  <li>At the bottom of the page, just before the end of the body tag, add the 
+    following code to include the JQuery library, popper.js library and Bootstrap's 
+	Javascript plugins. Bootstrap by default uses the JQuery Javascript library for 
+	its Javascript plugins. Hence the need to include JQuery library in the web page.</li>
 </ul>
 
 <pre>  &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;
@@ -2283,9 +2316,9 @@ $ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
 
 <h3>Conclusion</h3>
 
-<p>We have now understood how to set up a web project to use Bootstrap.
-In the next lecture, we will explore further on responsive design and
-Bootstrap's grid system.</p>
+<p>We have now understood how to set up a web project to use Bootstrap. In the 
+next lecture, we will explore further on responsive design and Bootstrap's grid 
+system.</p>
 
 <h3>Introduction to Bootstrap: Additional Resources</h3>
 
@@ -2321,10 +2354,10 @@ Bootstrap's grid system.</p>
 
 <h3>Responsive Design and Bootstrap Grid System: Objectives and Outcomes</h3>
 
-<p>In this lesson, you will be given an overview of responsive web
-design and an introduction to the Bootstrap grid system. The exercises
-will concentrate on enhancing your web project using the Bootstrap grid
-in order to make it responsive.</p>
+<p>In this lesson, you will be given an overview of responsive web design and an 
+introduction to the Bootstrap grid system. The exercises will concentrate on enhancing 
+your web project using the Bootstrap grid in order to make it responsive.</p>
+
 <p>At the end of this lesson, you will be able to:</p>
 
 <ul>
@@ -2335,11 +2368,10 @@ in order to make it responsive.</p>
 
 <h3>Responsive Design</h3>
 
-<p>These days in web development world, we often hear people mentioning
-the terms responsive design and mobile first approach.</p>
-<p>Let's try and understand what is meant by these terms, and how they
-affect the way you design your websites and your web applications.</p>
-<p>Your obvious question is going to be why consider responsive
+<p>These days in web development world, we often hear people mentioning the terms 
+responsive design and mobile first approach. Let's try and understand what is meant 
+by these terms, and how they affect the way you design your websites and your web 
+applications. Your obvious question is going to be why consider responsive
 design?</p>
 <p>To help us understand this, let's consider how people access websites
 these days?</p>
@@ -2355,8 +2387,8 @@ these days?</p>
 much assume that people will be browsing your websites from a
 computer.</p>
 <p>These days your websites could be visited from a smartphone, a tablet
-or a computer with different screen sizes and screen resolutions.</p>
-<p>How do we render our websites consistently on devices of different
+or a computer with different screen sizes and screen resolutions.
+How do we render our websites consistently on devices of different
 screen sizes?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. why responsive design, ii (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2367,8 +2399,8 @@ screen sizes?</p>
   alt="Why Responsive Design, continued." />
 
 <p>The one size fits all approach that traditional website designers
-have taken no longer fixed bill.</p>
-<p>We need a better approach, an approach that will automatically adapt
+have taken no longer fixed bill.
+We need a better approach, an approach that will automatically adapt
 your website to the size of the screen on which it is being viewed.</p>
 <p>This is where we have to take an approach to adapt to the user's view
 port.</p>
