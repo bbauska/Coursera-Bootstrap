@@ -27,14 +27,14 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image001a.webp?raw=true"
-  style="width:400;"
+  style="width:60%;"
   alt="Course title: Front-End Web UI Frameworks and Tools: Bootstrap 4." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/coursera-logo.webp?raw=true"
-  style="width:250;"
+  style="width:40%;"
   alt="Coursera logo." />
 <br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -42,13 +42,13 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image001.webp?raw=true"
-  style="width:400;"
+  style="width:20%;"
   alt="Hong Kong University of Science & Technology logo." />
 <!-- style="width:550px;" -->
 
 <h6 style="text-align:center;">(coursera.org)</h6>
 
-<h3>Course Overview</h3>
+<h3 style=>Course Overview</h3>
 
 <p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.<br>
 I'm glad you decided to join this course to learn about the most popular front 
@@ -12535,34 +12535,23 @@ your web project.</p>
 
 <h3>Exercise: Gulp Part 1</h3>
 
-<p>Now that we have granted enough, it's time to Gulp.</p>
-<p>We'll try to perform the same kind of tasks that we've performed with
-both NPM Scripts and Grunt, but now we'll try to do the same using Gulp
-and Gulp Plug-ins.</p>
-<p>To get started, let's first install Gulp as a global module.</p>
-<p>To do that, at the prompt, type npm -g install gulp, this will
-install Gulp as a global module and make it available for use on the
-command line.</p>
-<p>After we complete this, the next step is to install Gulp locally in
-our project.</p>
-<p>To do that, at the prompt, type npm install gulp --save-dev.</p>
-<p>Once we have completed these two, it's time to go ahead and configure
-our Gulp tasks.</p>
-<p>Before we do that, our next step, we will install the Gulp Sass
-plug-in so that we can configure the Sass to see as conversion task in
-our Gulp file.</p>
-<p>To go ahead and do that, type npm install gulp sass --save-dev.</p>
-<p>Also while we're at it, we might as well install the Browser Sync
-Gulp Task too, so that we can configure both this one after another.</p>
-<p>I'll install, npm install browser-sync --save-dev.</p>
-<p>Once these two are installed, then let's go ahead and create our Gulp
-file and then configure our Gulp Tasks here.</p>
-<p>Going to our project folder, let's create a new file and then name it
-gulpfile.js, and in this file, we're going to configure our Gulp
-Tasks.</p>
-<p>Once the gulpfile.js is ready, well configure the Gulp Tasks here by
-first beginning with 'use strict' and then var gulp.</p>
-<p>We need to require the gulp node modules, and also while we're at it,
+<p>Now that we have granted enough, it's time to <b><i>Gulp</i></b>. We'll try to perform the same kind
+of tasks that we've performed with both NPM Scripts and Grunt, but now we'll try to do the same using
+Gulp and Gulp Plug-ins.</p>
+
+<p>To get started, let's first install Gulp as a global module. To do that, at the prompt, type </p>
+<pre>$ npm -g install gulp</pre><p>this will install Gulp as a global module and make it available for use on the command line. After we
+complete this, the next step is to install Gulp locally in our project. To do that, at the prompt, type
+<pre>npm install gulp --save-dev.</pre></p>
+
+<p>Once we have completed these two, it's time to go ahead and configure our Gulp tasks. Before we do
+that, our next step, we will install the Gulp Sass plug-in so that we can configure the Sass to see as conversion task in our Gulp file. To go ahead and do that, type</p><pre>npm install gulp sass --save-dev</pre></p>
+<p>Also while we're at it, we might as well install the Browser Sync Gulp Task too, so that we can
+configure both this one after another. I'll install,</p><pre>npm install browser-sync --save-dev.</pre></p>
+<p>Once these two are installed, then let's go ahead and create our Gulp file and then configure our Gulp Tasks here. Going to our project folder, let's create a new file and then name it gulpfile.js, and
+in this file, we're going to configure our Gulp Tasks.</p>
+<p>Once the gulpfile.js is ready, we'll configure the Gulp Tasks here by first beginning with 'use
+strict' and then var gulp. We need to require the gulp node modules, and also while we're at it,
 we'll require the sass node module.</p>
 <p>As I mentioned in the previous exercise, it will become more clearer
 to you why the code is written like this, once you understand more about
@@ -12570,144 +12559,97 @@ node modules in a later course. browserSync, so what we have done is to
 include the Gulp Contrast and bowserSync node modules into our Gulp
 file.</p>
 <p>And once you have done that, it is time to configure our Gulp Tasks.
-As we learnt previously,</p>
-<p>Gulp is a code-based on way of configuring tasks unlike Grunt which
-relies more on configuration of the tasks.</p>
-<p>In case of Gulp, the baby will set up our tasks to type gulp.task and
-then let's set up a task name 'sass', and then for this task, we'll set
-this up as a function, and this is how the code is prepared.</p>
-<p>Gulp Tasks Sass function and in here, we are setting up the Gulp
-Tasks, so we'll type return gulp.src('./css/*.scss')</p>
-<p>As we learnt, Gulp is a tool-based around code over
-configuration.</p>
-<p>We'll prepare this task as such.</p>
-<p>You see that we have specified Gulp source pipe sass on, and then
-here, error.</p>
-<p>If an error occurs, we'll use the Sass way to log the error and then
-pipe this through gulp.dest('./css'), and that completes the
-configuration of the Gulp Sass Tasks.</p>
-<p>You must be wondering why we write the code like this. It says gulp
-source and then specify something there, and then the next one says pipe
-and then the next one says pipe.</p>
-<p>Let's understand the Gulp way of doing things in a little more
-detail.</p>
-<p>To help explain why we configure Tasks like that, I have an
-explanation of what we call Gulp Streams.</p>
-<p>The way Gulp works is like you take a set of files and you specify
-the set of files by saying gulp source as we did with the Sass Tasks
-there.</p>
-<p>Here, this is the function that takes the files.</p>
-<p>You could even specify the files using the globbing patterns that we
-learnt in Grunt, and then it creates a stream of objects that represents
-these files.</p>
-<p>Now, once the stream is created, then the stream can be piped through
-a set of functions one after another in order to transform these
-files.</p>
-<p>And then finally, the resulting transformed files can be put into a
-destination location.</p>
-<p>That's why we specify Gulp source, then we specify pipe.</p>
-<p>The pipe allows the stream to be piped through a function, and so,
-that's why we said dot pipe, and then we said gulp.</p>
-<p>And then we said sass on error.</p>
-<p>And then the next one says Pipe Gulp Dest.</p>
-<p>And so, the gulp dest specifies the destination of the files that
-have been processed.</p>
-<p>That's how a typical task is specified in gulp because but gulp
-operates on streams.</p>
-<p>Your stream files through the pipes until they are transferred and
-then they will be deposited at specified destination.</p>
-<p>You will see similar structure for many of the gulp tasks that we
-would configure in this exercise and the next exercise.</p>
-<p>Now that you have understood a little bit about how gulp works with
-streams and how the gulp task uses the pipe to process files through a
-set of function, and it becomes more clear to you why we set up this
-sass task as seen in this code here.</p>
-<p>The next task that we are going to configure is called gulp, and
-we'll configure this task as sass watch.</p>
-<p>This is a watch task that we are going to configure, and then you
-would specify function.</p>
-<p>And so in here, the gulp sass watch task, what we do is specify the
-files that we're going to be watching.</p>
-<p>We use the gulp watch task to watch the file. The watch is already built into gulp.</p>
-<p>It will take gulp watch and then we specify the files there
-*.SCSS.</p>
-<p>As you can see, the gulp watch will watch these files and then when
-any changes to these files occur, then it'll run that sass task, which
-we have specified earlier.</p>
-<p>That's how that sass watch task is set up.</p>
-<p>Now that we have done these two, let's set up that browser sync task
-next.</p>
-<p>Close that with the semicolon and then the next task that we will set
-up is the browser sync task.</p>
-<p>I will specify browser sync task there.</p>
-<p>And then for the browser sync task, I will specify that function.</p>
-<p>Again, note the structure in which we write the code, gulp task and
-then you specify something that followed but with a function.</p>
-<p>Now again as I said, we learn node modules in the last course of this
-specialization, it'll become more clearer to you why not modules written
-with this structure, and why the functions are written like this.</p>
-<p>We say gulp task browser sync.</p>
-<p>Here, I'm going to define a variable, a JavaScript variable called
-files, which is nothing but in array, and that inside those files array
-I would specify all the files that if modified the browser sync needs to
-cause the reloading or the file.</p>
-<p>So, html files, the CSS files in the CSS folder, and then similarly I
-will also watch the image files, and the JavaScript files. All these
-files if any of them change.</p>
-<p>After this, I will configure the browser sync here.</p>
-<p>I will say browser sync. We have already defined this variable called
-browser sync earlier.</p>
-<p>We have to initialize the browser sync, and so, the first parameter
-to that is the files that will need to be watched, and then the second
-parameter specifies the options that we are giving to the browser.</p>
-<p>The option that I'm specifying is for the server.</p>
-<p>I will specify the base directory as the current directory, and then
-that completes the specification of the browser sync task.</p>
-<p>With this, we have completed specifying the browser sync task
-here.</p>
-<p>You can see that how we configured browser sync task, we specified
-the files and then save browser sync in it and supply the files as the
-first parameter.</p>
-<p>The second parameter is the options for the browser sync plugin.</p>
-<p>Then finally, we'll schedule or we'll configure the task called
-default.</p>
-<p>Just like me have the default task in Grunt, we can also have a
-similar default task defined for gulp.</p>
-<p>Here we say gulp task default browser sync, and then specify
-function.</p>
-<p>And inside there we'll specify gulp start.</p>
-<p>This specifies that I should start this other task that sass watch
-task.</p>
-<p>The sass watch task needs to be started.</p>
-<p>Make sure that the browser sync task is running before the sass watch
-task is started.</p>
-<p>This is the syntax for specifying that in gulp.</p>
-<p>With this, we have configured everything that we need in gulp
-file.</p>
-<p>Again going back, there are steps that we did.</p>
-<p>We first used require to include all their gulp plugins there, then
-we configured the sass task, and then specified sass watch task.</p>
-<p>This is where we use the gulp watch that is available to us like from
+As we learnt previously, Gulp is a code-based on way of configuring tasks unlike Grunt which
+relies more on configuration of the tasks. In case of Gulp, the baby will set up our tasks to type
+gulp.task and then let's set up a task name 'sass', and then for this task, we'll set this up as a
+function, and this is how the code is prepared.</p>
+
+<p>Gulp Tasks Sass function and in here, we are setting up the Gulp Tasks, so we'll type return
+gulp.src('./css/*.scss').  As we learnt, Gulp is a tool-based around code over configuration.
+We'll prepare this task as such. You see that we have specified Gulp source pipe sass on, and then
+here, error. If an error occurs, we'll use the Sass way to log the error and then pipe this through
+gulp.dest('./css'), and that completes the configuration of the Gulp Sass Tasks.</p>
+
+<p>You must be wondering why we write the code like this. It says gulp source and then specify something
+there, and then the next one says pipe and then the next one says pipe. Let's understand the Gulp way of
+doing things in a little more detail.</p>
+
+<p>To help explain why we configure Tasks like that, I have an explanation of what we call Gulp Streams. The way Gulp works is like you take a set of files and you specify the set of files by saying gulp
+source as we did with the Sass Tasks there. Here, this is the function that takes the files.
+You could even specify the files using the globbing patterns that we learnt in Grunt, and then it
+creates a stream of objects that represents these files.</p>
+
+<p>Now, once the stream is created, then the stream can be piped through a set of functions one after
+another in order to transform these files. And then finally, the resulting transformed files can be put
+into a destination location. That's why we specify Gulp source, then we specify pipe. The pipe allows
+the stream to be piped through a function, and so, that's why we said dot pipe, and then we said
+gulp. And then we said sass on error. And then the next one says Pipe Gulp Dest. And so, the gulp dest
+specifies the destination of the files that have been processed. That's how a typical task is specified
+in gulp because but gulp operates on streams. Your stream files through the pipes until they are
+transferred and then they will be deposited at specified destination. You will see similar structure for
+many of the gulp tasks that we would configure in this exercise and the next exercise.</p>
+
+<p>Now that you have understood a little bit about how gulp works with streams and how the gulp task
+uses the pipe to process files through a set of function, and it becomes more clear to you why we set up
+this sass task as seen in this code here.</p>
+
+<p>The next task that we are going to configure is called gulp, and we'll configure this task as sass
+watch. This is a watch task that we are going to configure, and then you would specify function. And so
+in here, the gulp sass watch task, what we do is specify the files that we're going to be watching.
+We use the gulp watch task to watch the file. The watch is already built into gulp. It will take gulp
+watch and then we specify the files there *.SCSS.</p>
+
+<p>As you can see, the gulp watch will watch these files and then when any changes to these files occur,
+then it'll run that sass task, which we have specified earlier. That's how that sass watch task is set 
+up. Now that we have done these two, let's set up that browser sync task next. Close that with the
+semicolon and then the next task that we will set up is the browser sync task. I will specify browser
+sync task there.</p>
+
+<p>And then for the browser sync task, I will specify that function. Again, note the structure in which
+we write the code, gulp task and then you specify something that followed but with a function. Now again
+as I said, we learn node modules in the last course of this specialization, it'll become more clearer to
+you why not modules written with this structure, and why the functions are written like this. We say
+gulp task browser sync.</p>
+
+<p>Here, I'm going to define a variable, a JavaScript variable called files, which is nothing but in
+array, and that inside those files array I would specify all the files that if modified the browser sync
+needs to cause the reloading or the file. So, html files, the CSS files in the CSS folder, and then
+similarly I will also watch the image files, and the JavaScript files. All these files if any of them
+change. After this, I will configure the browser sync here. I will say browser sync. We have already
+defined this variable called browser sync earlier.</p>
+
+<p>We have to initialize the browser sync, and so, the first parameter to that is the files that will
+need to be watched, and then the second parameter specifies the options that we are giving to the
+browser. The option that I'm specifying is for the server. I will specify the base directory as the
+current directory, and then that completes the specification of the browser sync task. With this, we
+have completed specifying the browser sync task here.</p>
+
+<p>You can see that how we configured browser sync task, we specified the files and then save browser
+sync in it and supply the files as the first parameter. The second parameter is the options for the
+browser sync plugin. Then finally, we'll schedule or we'll configure the task called default.
+Just like me have the default task in Grunt, we can also have a similar default task defined for
+gulp. Here we say gulp task default browser sync, and then specify function. And inside there we'll
+specify gulp start.  This specifies that I should start this other task that sass watch task.</p>
+
+<p>The sass watch task needs to be started. Make sure that the browser sync task is running before the
+sass watch task is started. This is the syntax for specifying that in gulp. With this, we have
+configured everything that we need in gulp file. Again going back, there are steps that we did.
+We first used require to include all their gulp plugins there, then we configured the sass task, and
+then specified sass watch task. This is where we use the gulp watch that is available to us like from
 gulp.</p>
-<p>Then we specified the browser sync task and then finally reschedule
-the default task with the browser Sync and the gulp start with sass
-watch.</p>
-<p>Now, let's see the changes, and then we'll go ahead and execute the
-gulp file add, and the prompt type gulp.</p>
-<p>You will see that gulp starts up with browser sync and the sass watch
-task starting up, and then your browser sync will start serving up the
-files.</p>
-<p>If you view your website using a browser, you will be able to see the
-website being served up in the browser.</p>
-<p>Let me also illustrate the functioning of the watch task.</p>
-<p>I will pull up the style.css and just try to save the change and you
-will notice that on the left side, the sass task is immediately invoked
-and it will recompile the style.scss file into the CSS files.</p>
-<p>And then that browser will reload at this point.</p>
-<p>With this we complete the first part of the gulp exercise.</p>
-<p>In the second part, we will prepare the distribution folder.</p>
-<p>This is a good time for you to do a git-commit with the message Gulp
-part 1.</p>
+
+<p>Then we specified the browser sync task and then finally reschedule the default task with the browser
+Sync and the gulp start with sass watch. Now, let's see the changes, and then we'll go ahead and execute
+the gulp file add, and the prompt type gulp. You will see that gulp starts up with browser sync and the
+sass watch task starting up, and then your browser sync will start serving up the files.</p>
+
+<p>If you view your website using a browser, you will be able to see the website being served up in the
+browser. Let me also illustrate the functioning of the watch task. I will pull up the style.css and just
+try to save the change and you will notice that on the left side, the sass task is immediately invoked
+and it will recompile the style.scss file into the CSS files. And then that browser will reload at this
+point. With this we complete the first part of the gulp exercise.</p>
+
+<p>In the second part, we will prepare the distribution folder. This is a good time for you to do a git-commit with the message Gulp part 1.</p>
 
 <h3>Exercise (Instructions): Gulp Part 1</h3>
 
@@ -13059,24 +13001,27 @@ development tasks.</p>
 
 <h3>Front-End Web UI Frameworks: Bootstrap 4: Conclusions</h3>
 
-<p>As we come to the conclusion of this course, it's time to look back and reflect about what we've covered in this course so far.</p>
-<p>And what is the way forward from this course towards the other courses of this specialization.</p>
-<p>Looking back at the big picture view of full stack web development.</p>
-<p>We have started out our journey by looking at the front-end web UI frameworks, in particular, Bootstrap 4, in this course.</p>
-<p>We will cover the remaining parts of the full stack web development stack in the rest of the courses of this specialization.</p>
-<p>In this course, we covered Bootstrap in great detail.</p>
-<p>We looked at responsive web design and how the Bootstrap grid system enables us to achieve responsive websites.</p>
-<p>We also looked at various Bootstrap CSS and JavaScript components.</p>
-<p>Along the way, we learned how to operate within the Node ecosystem for doing development.</p>
-<p>We learned web tools like Git, and we installed Node and learned about the NPM package manager.</p>
-<p>We also learned about task runners like Grunt and Gulp.</p>
-<p>And learned how to set up NPM scripts for automating frequently performed tasks in web development.</p>
-<p>As we move towards the next course of the specialization, in the next course we'll be concentrating on Javascript frameworks.</p>
-<p>This is the other piece of the puzzle on front-end.</p>
-<p>Together with UI frameworks, the Javascript frameworks facilitate development of dynamic websites, especially the front-end.</p>
-<p>We'll look at the remaining parts, including hybrid development and server-side, in the remaining courses of the specialization.</p>
-<p>I hope you enjoyed going through this course.</p>
-<p>And I hope I'll see you back again in the next course of the specialization.</p>
+<p>As we come to the conclusion of this course, it's time to look back and reflect about what
+we've covered in this course so far. And what is the way forward from this course towards the
+other courses of this specialization.</p>
+<p>Looking back at the big picture view of full stack web development. We have started out our
+journey by looking at the front-end web UI frameworks, in particular, Bootstrap 4, in this
+course. We will cover the remaining parts of the full stack web development stack in the rest of
+the courses of this specialization.</p>
+<p>In this course, we covered Bootstrap in great detail. We looked at responsive web design and
+how the Bootstrap grid system enables us to achieve responsive websites. We also looked at
+various Bootstrap CSS and JavaScript components.</p>
+<p>Along the way, we learned how to operate within the Node ecosystem for doing development. We
+learned web tools like Git, and we installed Node and learned about the NPM package manager. We
+also learned about task runners like <b><i>Grunt</i></b> and <b><i>Gulp</i></b>. And learned how
+to set up <b><i>NPM scripts</i></b> for automating frequently performed tasks in web development.</p>
+<p>As we move towards the next course of the specialization, in the next course we'll be concentrating
+on Javascript frameworks. This is the other piece of the puzzle on front-end. Together with UI
+frameworks, the Javascript frameworks facilitate development of dynamic websites, especially the
+front-end.</p>
+<p>We'll look at the remaining parts, including hybrid development and server-side, in the remaining
+courses of the specialization. I hope you enjoyed going through this course. And I hope I'll see you
+back again in the next course of the specialization.</p>
 
 <h3>Front-End Web UI Frameworks and Tools: Bootstrap 4: Conclusions</h3>
 
@@ -13154,10 +13099,11 @@ reaching the final goal.</p>
 </ul>
 
 <p>…the end</p>
+
 <footer>
-<h4>Last Updated 8/8/23 at 3:18am by bbauska</h4>
+  <h6>Last Updated 11/17/23 at 4:16pm by bbauska</h6>
 </footer>
+
 </body>
 
-<!-- last updated 8/8/23 11:01pm -->
 </html>
