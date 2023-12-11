@@ -9,8 +9,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="title" content="Coursera Bootstrap 4" >
-  <meta name="description" content="Front-End Web User-Interface Frameworks and Tools: Bootstrap 4.">
-  <meta name="author" content="Brian Bauska (bbauska)" >
+  <meta name="description" content="Front-End Web User-Interface Frameworks and Tools: Bootstrap 4."/>
+  <meta name="author" content="Brian Bauska (bbauska)" />
   <link rel="canonical" href="https://coursera-boot.bauska.org">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta property="fb:admins" content="https://www.facebook.com/help/211813265517027/?helpref=uf_share" />
@@ -51,7 +51,7 @@
 
 <h6 style="text-align:center;">taught by Jogesh K. Muppala on Coursera.org</h6>
 
-<h3 style=>Course Overview</h3>
+<h3>Course Overview</h3>
 
 <p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.<br>
 I'm glad you decided to join this course to learn about the most popular front 
@@ -523,7 +523,7 @@ And to insure that this information has been configured, we can type;</p>
 <pre>$ git config --list</pre>
 
 <p>And it will list out a bunch of configurations that we have. Done.</p>
-Some of these are automatically set up for you.
+<p>Some of these are automatically set up for you.
 But if you want to, you can set them up as you require.</p>
 
 <p>Here I have my core editor value set to vi, which is what I use to do command 
@@ -3466,7 +3466,11 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 <h3>Using a Container class</h3>
 
 <ul>
-  <li>We use the container class to keep content within a fixed width on the screen, determined by the size of the screen. The alternative is to use the container-fluid class to make the content automatically to span the full width of the screen. We will discuss further about this when we discuss the Bootstrap grid system in the next lecture. Add the container class to the first div right after the </header> in the file as follows:</li>
+  <li>We use the container class to keep content within a fixed width on the screen, determined 
+    by the size of the screen. The alternative is to use the container-fluid class to make the 
+    content automatically to span the full width of the screen. We will discuss further about 
+    this when we discuss the Bootstrap grid system in the next lecture. Add the container class 
+    to the first div right after the &lt;/header&gt; in the file as follows:</li>
 </ul>
 
 <pre>&lt;div class="container"&gt; ...</pre>
@@ -3474,7 +3478,9 @@ within a row, all adding up to 12 or a multiple thereof.</p>
 <h3>Dividing the content into rows</h3>
 
 <ul>
-  <li>Let us now add the class <em>row</em> to the first-level inner <em>div</em> elements inside the container. This organizes the page into rows of content. In the next exercise, we will see how we can add other classes to the rows.</li>
+  <li>Let us now add the class <em>row</em> to the first-level inner <em>div</em> elements inside 
+    the container. This organizes the page into rows of content. In the next exercise, we will see 
+    how we can add other classes to the rows.</li>
 </ul>
 
 <pre>&lt;div class="row"&gt; ...</pre>
@@ -5182,52 +5188,77 @@ and Forms classes.</p>
 <h3>User Input</h3>
 
 <p>Gone are the days when websites were purely used for delivering information to the users.</p>
-<p>These days on most websites, users will be able to interact with the website to supply information, for example by clicking buttons or by filling in forms and by typing something into search boxes, and so on.</p>
+<p>These days on most websites, users will be able to interact with the website to supply 
+information, for example by clicking buttons or by filling in forms and by typing something 
+into search boxes, and so on.</p>
 <p>How do we support these kinds of interactions with the users?</p>
 <p>That is what we're going to deal with in this particular lecture and the exercise that follows.</p>
-<p>As an example, if you visit the Coursera website, you will see that you have buttons at the top here that you could click to reach different places.</p>
-<p>You could have a search box, into which you can type in information, to search for, say for example, full stack web development and, so on.</p>
-<p>What we notice is that user interaction needs to be supported on websites using many different approaches including buttons, forms, text boxes, check boxes, and many others.</p>
+<p>As an example, if you visit the Coursera website, you will see that you have buttons at the top 
+here that you could click to reach different places.</p>
+<p>You could have a search box, into which you can type in information, to search for, say for 
+example, full stack web development and, so on.</p>
+<p>What we notice is that user interaction needs to be supported on websites using many different 
+approaches including buttons, forms, text boxes, check boxes, and many others.</p>
 <p>Early interactions with websites were provided mainly through hyperlinks.</p>
-<p>You could click on a hyperlink and go on to other places and so on, but this is obviously, hyperlink is just one of the many methods of interacting with your website.</p>
-<p>You could have buttons included on the website which when clicked, will result in some action being taken on the website.</p>
+<p>You could click on a hyperlink and go on to other places and so on, but this is obviously, 
+hyperlink is just one of the many methods of interacting with your website.</p>
+<p>You could have buttons included on the website which when clicked, will result in some 
+action being taken on the website.</p>
 <p>You could have forms that you fill out to supply information to the website.</p>
-<p>When you look at how you would include such user Interaction features into your website, you will see that you could use something like the a tags that are useful for providing hyperlinks, then you have the button tags that enable you to include buttons in your website.</p>
-<p>Now what we're going to look at is how do we format with a tags on the button tags using bootstrap classes so that you can style them to fake the general theme of bootstrap.</p>
+<p>When you look at how you would include such user Interaction features into your website, 
+you will see that you could use something like the a tags that are useful for providing 
+hyperlinks, then you have the button tags that enable you to include buttons in your website.</p>
+<p>Now what we're going to look at is how do we format with a tags on the button tags using 
+bootstrap classes so that you can style them to fake the general theme of bootstrap.</p>
 <p>HTML already includes the form elements and the input elements in there.</p>
-<p>Now, we can look at how bootstrap enhances these elements by providing styling features for forms, and various elements that go into the forms.</p>
+<p>Now, we can look at how bootstrap enhances these elements by providing styling features 
+for forms, and various elements that go into the forms.</p>
 <p>Buttons obviously provide a simple way of interacting with your website.</p>
-<p>When you have a button on your website, you might hover on the button, you might click on the button and expect something to happen in the process.</p>
+<p>When you have a button on your website, you might hover on the button, you might click on 
+the button and expect something to happen in the process.</p>
 <p>The button behavior depends upon where it is positioned in bootstrap.</p>
-<p>If the button is inside a form, for example, typically the button clicking will result in the form being submitted to a server, or the form information being canceled.</p>
+<p>If the button is inside a form, for example, typically the button clicking will result in 
+the form being submitted to a server, or the form information being canceled.</p>
 <p>A button outside a form could have other ways of providing interaction.</p>
-<p>Similarly, the < a > tag that we have traditionally associated with hyperlinks could also be hijacked to be styled and presented in the form of a button.</p>
-<p>Here we will see how bootstrap provides classes that can be used to format the &lt;a&gt; tag into a button to be presented on your website.</p>
-<p>We'll also look at various form elements, like the input elements, select, the button and also the text AD elements, and how we make use of them within our forms to design and construct a form that can be included in our website.</p>
-<p>The exercise that follows this particular lecture will introduce you to bootstrap support for styling buttons, and also look at how various form elements can be enhanced using bootstrap classes to present classic Bootstrap forms.</p>
+<p>Similarly, the < a > tag that we have traditionally associated with hyperlinks could also 
+be hijacked to be styled and presented in the form of a button.</p>
+<p>Here we will see how bootstrap provides classes that can be used to format the &lt;a&gt; 
+tag into a button to be presented on your website.</p>
+<p>We'll also look at various form elements, like the input elements, select, the button and 
+also the text AD elements, and how we make use of them within our forms to design and construct 
+a form that can be included in our website.</p>
+<p>The exercise that follows this particular lecture will introduce you to bootstrap support for 
+styling buttons, and also look at how various form elements can be enhanced using bootstrap classes 
+to present classic Bootstrap forms.</p>
 
 <h3>Exercise: Buttons</h3>
 
 <p>In this exercise, we're going to look at Bootstrap's support for buttons and forms.</p>
 <p>We're going to include a few buttons and button group in our webpage.</p>
 <p>And we also look at designing forms and styling the forms using Bootstrap classes.</p>
-<p>To get you started, go to the instructions page and download the contactus.html.zip file that we have provided there.</p>
+<p>To get you started, go to the instructions page and download the contactus.html.zip file that 
+we have provided there.</p>
 <p>Right click on that, and then save this link into your conFusion folder.</p>
 <p>As, contactus.html.zip file.</p>
 <p>Once the zip file is downloaded, unzip the file to get contactus.html page.</p>
 <p>Then you can delete the zip file.</p>
-<p>Once you've unzipped the file and get contactus.html page, you would notice that when you load this page in your browser using localhost:3000/contactus.html, then you would see that this page is
+<p>Once you've unzipped the file and get contactus.html page, you would notice that when you load 
+this page in your browser using localhost:3000/contactus.html, then you would see that this page is
 already pre-formatted with some content.</p>
 <p>You can notice that you already have the navigation bar there.</p>
-<p>We have the jumbotron already formatted for us. And you would notice that I have the breadcrumbs and the contact us heading here formatted.</p>
+<p>We have the jumbotron already formatted for us. And you would notice that I have the breadcrumbs 
+and the contact us heading here formatted.</p>
 <p>Then you will see some additional information, the address here.</p>
 <p>You will notice that the footer is already formatted.</p>
-<p>But you will notice two things here, you'll notice that there is a line here that says button groups go here and then one more line here that says form goes here.</p>
+<p>But you will notice two things here, you'll notice that there is a line here that says button 
+groups go here and then one more line here that says form goes here.</p>
 <p>We're going to replace these two with a button group and a form.</p>
 <p>And along the way, learn Bootstrap's support for buttons and forms.</p>
-<p>Before we proceed forward, now that we have three pages in our website, it is a good idea for us to link them up together, both in the navigation bar and in the links in the footer.</p>
+<p>Before we proceed forward, now that we have three pages in our website, it is a good idea for 
+us to link them up together, both in the navigation bar and in the links in the footer.</p>
 <p>Let's modify those two so that we can navigate between these three pages easily.</p>
-<p>Going to the contactus.html page, you will notice that in the navigation bar, I already have the links to index.html set up correctly.</p>
+<p>Going to the contactus.html page, you will notice that in the navigation bar, I already have 
+the links to index.html set up correctly.</p>
 <p>And you would notice that at the bottom here you have the contact link here.</p>
 <p>But the link corresponding to the about has not been configured properly.</p>
 <p>Go to this link here and then update that to aboutus.html.</p>
@@ -5295,17 +5326,14 @@ define the three buttons.</p>
 <p>In this case this button color is blue.</p>
 <p>This is the primary color in Bootstrap. btn-primary.</p>
 <p>And then after that, look at the use of the href here.</p>
-<p>Since this is an A tag, I can use an href attribute in that A
-tag.</p>
+<p>Since this is an A tag, I can use an href attribute in that A tag.</p>
 <p>The href attribute points to the telephone number.</p>
 <p>And then following that you notice that I am using a font icon here
 for the phone.</p>
-<p>That's why I have i class fa fa-phone and then after the word
-call.</p>
+<p>That's why I have i class fa fa-phone and then after the word call.</p>
 <p>This is what enables to construct this blue button, that is included
 in this button bar here.</p>
-<p>Similarly, the next one, you notice that this also says role
-button.</p>
+<p>Similarly, the next one, you notice that this also says role button.</p>
 <p>And then as you go through, you see that btn-info.</p>
 <p>Btn-info gives it a color of a light blue in color.</p>
 <p>By default btn-info refers to a light-blue colored button here.</p>
@@ -5328,22 +5356,19 @@ enclosed in side those div, which acts as the btn-group.</p>
 <p>If you just want single button, all that you need to do is include
 only one of these lines there.</p>
 <p>You could also use the button tag. If you use the button tag, then
-you don't need to specify the role, instead you just say type
-button.</p>
+you don't need to specify the role, instead you just say type button.</p>
 <p>Because a button could also act as a submit button there.</p>
 <p>Later on, in forms we will look at the use of the button tag, to
 create a button to be included in our form.</p>
 <p>Continuing with the exercise, our next step would be to start,
-developing the form that we're going to include in the contactus.html
-page.</p>
+developing the form that we're going to include in the contactus.html page.</p>
 <p>We'll do it step by step, so that in each step we learn a little bit
 of how you include some elements into their form.</p>
 <p>As a beginning, when you go to the contactus.html page, right there,
 you'll see this statement called, form goes here.</p>
 <p>Now, what I'm going to do is to change this from col-sm to col-md, so
 that for extra small to small screen sizes, my form will be laid out
-occupying the entire breadth of the screen, because it uses
-col-xs-12.</p>
+occupying the entire breadth of the screen, because it uses col-xs-12.</p>
 <p>But from medium size screen onwards, it'll occupy only 9 out the 12
 columns.</p>
 <p>Let's start constructing the form.</p>
@@ -5374,31 +5399,27 @@ occupied by the remaining part of the screen.</p>
 extra small screen size.</p>
 <p>Switching to the extra small screen size.</p>
 <p>We'll go to Galaxy S5.</p>
-<p>You notice, how the form is laid out in the extra small screen
-size.</p>
+<p>You notice, how the form is laid out in the extra small screen size.</p>
 <p>You'll see that the label is on top, and then the box itself, input
 box itself is the bottom, similarly for the last name.</p>
-<p>You notice that Bootstrap. by the way, it provides those form
-classes.</p>
+<p>You notice that Bootstrap. by the way, it provides those form classes.</p>
 <p>Automatically, makes your form responsive, so that when it is laid
 out on different screen sizes, the form will be appropriately laid out,
 so that it won't get all squashed up on small screen sizes.</p>
 <p>But for larger screen sizes, because you have larger real estate, you
-are able to stretch the form, to make use of the extra space that you
-have.</p>
-<p>Taking a look at that source code, and the form side by side,
-obviously the first thing that you notice, is that your form begins with
-the form tag here.</p>
+are able to stretch the form, to make use of the extra space that you have.</p>
+<p>Taking a look at that source code, and the form side by side, obviously the 
+first thing that you notice, is that your form begins with the form tag here.</p>
 <p>So, form and then the closing form, tag here. Inside there, you are
 describing the various parts of your form.</p>
 <p>Let's take a look at how the first name is constructed, the last name
 obviously as it looks like should be using a similar approach.</p>
-<p>In default, what you notice is that, there is a div here. Div element
-here, with the closing div here.</p>
+<p>In default, what you notice is that, there is a div here. Div element here, 
+with the closing div here.</p>
 <p>This div element has a class called form-group.</p>
 <p>And then followed by a row class.</p>
-<p>The form-group class essentially, says whatever is inside this div
-will be treated as a group of elements.</p>
+<p>The form-group class essentially, says whatever is inside this div will be 
+treated as a group of elements.</p>
 <p>And then they will be laid out accordingly.</p>
 <p>And the second part, you see the use of row here.</p>
 <p>You'd see that the Bootstrap group's row comes into play here.</p>
@@ -5678,8 +5699,7 @@ design forms, the Bootstrap movie.</p>
 <p>I'm going to comment the changes that I have done to the about,
 contactus and index.</p>
 <p>And then say Bootstrap buttons and forms, and then that would have
-committed to my git repository. With this, we complete this
-exercise.</p>
+committed to my git repository. With this, we complete this exercise.</p>
 <p>Here we have learned how we include buttons and form elements into
 our Bootstrap design pitch.</p>
 
@@ -7078,8 +7098,7 @@ our web page.</p>
 pill by adding in a badge with a club badge badge-pill, and then create
 a gray colored badge by using badge-secondary, and include the price of
 the dish into our web page.</p>
-<p>Let's save the changes and go and take a quick look at our web
-page.</p>
+<p>Let's save the changes and go and take a quick look at our web page.</p>
 <p>Going to our web page, you can see that by adding in the badges, we
 have created the red colored badge with the word HOT and then the badge
 pill with the price of the dish into our web page.</p>
@@ -7104,9 +7123,9 @@ alerting users. At the end of this exercise, you will be able to:</p>
 
 <ul>
   <li>We will continue to edit the <em>index.html</em> file. In this file, 
-    we will add a badge <em>HOT</em> next to the name of the dish Uthappizza 
-	in the first content row. To do this, add the following code inside the 
-	<em><h2></em> containing the name of the dish:</li>
+    we will add a badge <em>HOT</em> next to the name of the dish Uthap pizza 
+    in the first content row. To do this, add the following code inside the 
+    <em>&lt;h2&gt;</em> containing the name of the dish:</li>
 </ul>
 
 <pre>  &lt;span class="badge badge-danger"&gt;HOT&lt;/span&gt;</pre>
