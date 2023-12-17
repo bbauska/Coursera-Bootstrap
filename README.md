@@ -1,5 +1,5 @@
 ---
-Coursera-boot: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
+Coursera-Bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 ---
 
 <h2 align="center">Coursera - Front-End Web UI Frameworks and Tools: Bootstrap 4</h2>
@@ -11,7 +11,7 @@ Coursera-boot: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/coursera-logo.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Coursera logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19,7 +19,7 @@ Coursera-boot: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="Hong Kong University of Science and Technology logo." />
 </p>
 <!-- {width="5.0in" height="2.202991032370954in"} -->
@@ -29,7 +29,7 @@ Coursera-boot: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
 </p>
 <!-- {width="5.0in" height="2.0638298337707788in"} -->
