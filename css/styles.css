@@ -87,7 +87,7 @@ details {
 }
 details > summary {
   margin-left: 15px;  /* added 12/16/23 */
-  padding: 10px 6px;
+  padding: 0px 6px;
 /*  padding: 2px 6px; */
   width: 17em;
   background-color: #eee;  /* very light gray */
