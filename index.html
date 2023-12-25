@@ -512,12 +512,12 @@ comments as you will learn later, it will make use of this information.  To do
 that, at the prompt type <i>$ git config --global user.name “Username”</i>, 
 and then you can type in your user name.</p>
 
-<pre>$ git config –global user.Email brianbauska@gmail.com</pre>
+<pre>  $ git config –global user.Email brianbauska@gmail.com</pre>
 
 <p>The other parameter that I'm going to configure is my email.
 And to insure that this information has been configured, we can type;</p>
 
-<pre>$ git config --list</pre>
+<pre>  $ git config --list</pre>
 
 <p>And it will list out a bunch of configurations that we have. Done.</p>
 <p>Some of these are automatically set up for you.
@@ -567,25 +567,25 @@ rest of the course. At the end of this exercise, you would be able to:</p>
     by typing the following at the command prompt;</li>
 </ul>
 
-<pre>$ git --version</pre>
+<pre>  $ git --version</pre>
 
 <ul>
   <li>To configure your user name to be used by Git, type the following at the prompt:</li>
 </ul>
 
-<pre>$ git config --global user.name "Your Name"</pre>
+<pre>  $ git config --global user.name "Your Name"</pre>
 
 <ul>
   <li>To configure your email to be used by Git, type the following at the prompt:</li>
 </ul>
 
-<pre>$ git config --global user.email &lt;your email address&gt;</pre>
+<pre>  $ git config --global user.email &lt;your email address&gt;</pre>
 
 <ul>
   <li>You can check your default Git global configuration, you can type the following at the prompt:</li>
 </ul>
 
-<pre>$ git config --list</pre>
+<pre>  $ git config --list</pre>
 
 <h3>Conclusions</h3>
 
@@ -845,13 +845,13 @@ of this exercise you will be able to:</p>
     HTML code to this file:</li>
 </ul>
 
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;&lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;This is a Header&lt;/h1&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
+<pre>  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;This is a Header&lt;/h1&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;</pre>
 
 <h4>Initializing the folder as a Git repository</h4>
 
@@ -860,7 +860,7 @@ of this exercise you will be able to:</p>
     at the prompt to initialize the folder as a Git repository:</li>
 </ul>
 
-<pre>$ git init</pre>
+<pre>  $ git init</pre>
 
 <h4>Checking your Git repository status</h4>
 
@@ -868,7 +868,7 @@ of this exercise you will be able to:</p>
   <li>Type the following at the prompt to check your Git repository's status:</li>
 </ul>
 
-<pre>$ git status</pre>
+<pre>  $ git status</pre>
 
 <h4>Adding files to the staging area</h4>
 
@@ -876,7 +876,7 @@ of this exercise you will be able to:</p>
   <li>To add files to the staging area of your Git repository, type:</li>
 </ul>
 
-<pre>$ git add .</pre>
+<pre>  $ git add .</pre>
 
 <h4>Commiting to the Git repository</h4>
 
@@ -884,7 +884,7 @@ of this exercise you will be able to:</p>
   <li>To commit the current staging area to your Git repository, type:</li>
 </ul>
 
-<pre>$ git commit -m "first commit"</pre>
+<pre>  $ git commit -m "first commit"</pre>
 
 <h4>Checking the log of Git commits</h4>
 
@@ -892,22 +892,20 @@ of this exercise you will be able to:</p>
   <li>To check the log of the commits to your Git repository, type:</li>
 </ul>
 
-<pre>$ git log --oneline</pre>
+<pre>  $ git log --oneline</pre>
 
 <ul>
   <li>Now, modify the index.html file as follows:</li>
 </ul>
 
-<pre>
-  &lt;!DOCTYPE html&gt;
+<pre>  &lt;!DOCTYPE html&gt;
   &lt;html&gt;
     &lt;head&gt;&lt;/head&gt;
     &lt;body&gt;
       &lt;h1&gt;This is a Header&lt;/h1&gt;
       &lt;p&gt;This is a paragraph&lt;/p&gt;
     &lt;/body&gt;
-  &lt;/html&gt;
-</pre>
+  &lt;/html&gt;</pre>
 
 <ul>
   <li>Add a sub-folder named <b>templates</b> to your <b>git-test</b> folder, and 
@@ -939,7 +937,7 @@ of this exercise you will be able to:</p>
     second commit using the git log, and then type the following at the prompt:</li>
 </ul>
 
-<pre>$ git checkout &lt;second commit's number&gt; index.html</pre>
+<pre>  $ git checkout &lt;second commit's number&gt; index.html</pre>
 
 <h4>Resetting the Git repository</h4>
 
@@ -947,13 +945,13 @@ of this exercise you will be able to:</p>
   <li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
 </ul>
 
-<pre>$ git reset HEAD index.html</pre>
+<pre>  $ git reset HEAD index.html</pre>
 
 <ul>
   <li>Then type the following at the prompt:</li>
 </ul>
 
-<pre>$ git checkout -- index.html</pre>
+<pre>  $ git checkout -- index.html</pre>
 
 <ul>
   <li>ou can also use <em>git reset</em> to reset the staging area to the last 
@@ -1185,7 +1183,7 @@ online repository. At the end of this exercise, you will be able to:</p>
   <li>At the prompt, type the following to set up your local repository to link to your online Git repository:</li>
 </ul>
 
-<pre>$ git remote add origin &lt;repository URL&gt;</pre>
+<pre>  $ git remote add origin &lt;repository URL&gt;</pre>
 
 <h3>Pushing your commits to the online repository</h3>
 
@@ -1193,7 +1191,7 @@ online repository. At the end of this exercise, you will be able to:</p>
   <li>At the prompt, type the following to push the commits to the online repository:</li>
 </ul>
 
-<pre>$ git push -u origin master</pre>
+<pre>  $ git push -u origin master</pre>
 
 <h3>Cloning an online repository</h3>
 
@@ -1208,7 +1206,7 @@ online repository. At the end of this exercise, you will be able to:</p>
   style="width:35%;"
   alt="Online git repository commands." />
 
-<pre>$ git clone &lt;repository URL&gt;</pre>
+<pre>  $ git clone &lt;repository URL&gt;</pre>
 
 <h3>Conclusions</h3>
 
@@ -1344,7 +1342,7 @@ subsequent course.</p>
   <li>To ensure that your NodeJS setup is working correctly, type the following at the command prompt to check for the version of <b>Node</b> and <b>NPM</b></li>
 </ul>
 
-<pre>$ node -v
+<pre>  $ node -v
 
 $ npm -v</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1624,7 +1622,7 @@ and then the two new files, .gitignore and package.json.</p>
 your commit.</p>
 <p>Let's do a git commit.</p>
 
-<pre>$ git commit -m "fourth commit"</pre>
+<pre>  $ git commit -m "fourth commit"</pre>
 
 <p>And the files are committed.</p>
 <p>Let's push the new commit to our online repository. So, to do that
@@ -1675,7 +1673,7 @@ end of this exercise, you will be able to:</p>
   <li>At the command prompt in your <b>git-test</b> folder, type</li>
 </ul>
 
-<pre>$ npm init</pre>
+<pre>  $ npm init</pre>
 
 <ul>
   <li>Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html</li>
@@ -1688,7 +1686,7 @@ end of this exercise, you will be able to:</p>
   <li>Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install lite-server --save-dev</pre>
+<pre>  $ npm install lite-server --save-dev</pre>
 
 <ul>
   <li>You can check out more documentation on lite-server <a href="https://github.com/johnpapa/lite-server" target="_blank" rel="noopener noreferrer">here</a>.</li>
@@ -1726,7 +1724,7 @@ end of this exercise, you will be able to:</p>
   <li>Next, start the development server by typing the following at the prompt:</li>
 </ul>
 
-<pre>$ npm start</pre>
+<pre>  $ npm start</pre>
 
 <ul>
   <li>This should open your <em>index.html</em> page in your default browser.</li>
@@ -2236,14 +2234,14 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
   <li>At the prompt type:</li>
 </ul>
 
-<pre>$ npm install</pre>
+<pre>  $ npm install</pre>
 
 <ul>
   <li>This will install the lite-server node module to your project,</li>
   <li>Next, initialize a Git repository in the project folder ("$ git init"), and set up a .gitignore file with the contents as shown below:</li>
 </ul>
 
-<pre>node_modules</pre>
+<pre>  node_modules</pre>
 
 <ul>
   <li>Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain all files of each exercise,</li>
@@ -2256,8 +2254,8 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
   <li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
 </ul>
 
-<pre>$ npm install bootstrap@4.0.0 --save
-$ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
+<pre>  $ npm install bootstrap@4.0.0 --save
+  $ npm install jquery@3.3.1 popper.js@1.12.9 --save</pre>
 
 <ul>
   <li>This will fetch the Bootstrap files and store is in your node_modules folder 
@@ -3470,7 +3468,7 @@ within a row, all adding up to 12 or a multiple thereof.</p>
     to the first div right after the &lt;/header&gt; in the file as follows:</li>
 </ul>
 
-<pre>&lt;div class="container"&gt; ...</pre>
+<pre>  &lt;div class="container"&gt; ...</pre>
 
 <h3>Dividing the content into rows</h3>
 
@@ -3739,7 +3737,7 @@ At the end of this exercise, you will be able to:</p>
   <li>You can use several list styles to display lists in different formats. In this exercise, we will use the unordered list style <em>list-unstyled</em> to display the links at the bottom of the page without the bullets. To do this, go to the links in the footer and update the ul as follows:</li>
 </ul>
 
-<pre>&lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;</pre>
+<pre>  &lt;ul class="list-unstyled"&gt; ... &lt;/ul&gt;</pre>
 
 <h3>Using Custom CSS classes</h3>
 
@@ -5039,13 +5037,13 @@ installed, then the font icons are not showing up in their browser.</p>
   <li>One of the most popular icon font toolkit is Font Awesome. Go to its website <a href="http://fontawesome.io/" target="_blank" rel="noopener noreferrer">Font Awesome</a> to check out more details about this icon font. You can get Font Awesome using npm by typing the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install font-awesome@4.7.0 --save</pre>
+<pre>  $ npm install font-awesome@4.7.0 --save</pre>
 
 <ul>
   <li>Another module that we install is Bootstrap Social that enables the addition of Social buttons to our site. You can find more information about it at <a href="https://lipis.github.io/bootstrap-social/" target="_blank" rel="noopener noreferrer">Bootstrap Social</a>. To install it using npm, type the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install bootstrap-social@5.1.1 --save</pre>
+<pre>  $ npm install bootstrap-social@5.1.1 --save</pre>
 
 <ul>
   <li>We now need to include the CSS files for font awesome and bootstrap-social in the index.html file. Add the following code to the head of the file after the links for importing Bootstrap CSS classes. Do the same change to aboutus.html file:</li>
@@ -5058,7 +5056,7 @@ installed, then the font icons are not showing up in their browser.</p>
   <li>Let us now use some font icons in our web page and decorate it. Update the navbar's ul list items as follows in index.html:</li>
 </ul>
 
-<pre>&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
+<pre>  &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-address-card fa-lg"&gt;&lt;/span&gt; Contact&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item active"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-home fa-lg"&gt;&lt;/span&gt; Home&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="./aboutus.html"&gt;&lt;span class="fa fa-info fa-lg"&gt;&lt;/span&gt; About&lt;/a&gt;&lt;/li&gt;
   &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;&lt;span class="fa fa-list fa-lg"&gt;&lt;/span&gt; Menu&lt;/a&gt;&lt;/li&gt;</pre>
@@ -10314,7 +10312,7 @@ in defining the classes.</p>
     To do this, type the following at the command prompt:</li>
 </ul>
 
-<pre>$ npm install -g less@2.7.2</pre>
+<pre>  $ npm install -g less@2.7.2</pre>
 
 <p>This will install the <em>less</em> NPM module globally so that it
 can be used by any project. <b>Note:</b> if you are executing this on a
@@ -10330,7 +10328,7 @@ compiler for us so that we can compile Less files.</p>
   <li>Next type the following at the command prompt to compile the Less file into a CSS file:</li>
 </ul>
 
-<pre>$ lessc styles.less styles.css</pre>
+<pre>  $ lessc styles.less styles.css</pre>
 
 <ul>
   <li>You can now do a Git commit with the message "Less".</li>
@@ -10468,10 +10466,10 @@ use of these variables while defining the classes.</p>
   <li>Next we add a mixin into the file as follows:</li>
 </ul>
 
-<pre>@mixin zero-margin($pad-up-dn, $pad-left-right) {
-  margin:0px auto;
-  padding: $pad-up-dn $pad-left-right;
-}</pre>
+<pre>  @mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin:0px auto;
+    padding: $pad-up-dn $pad-left-right;
+  }</pre>
 
 <p>We will make use of this to define several row classes next.</p>
 
@@ -10560,7 +10558,7 @@ use of these variables while defining the classes.</p>
     file to a CSS file. To do this, type the following at the command prompt:</li>
 </ul>
 
-<pre>$ npm install --save-dev node-sass@4.7.2</pre>
+<pre>  $ npm install --save-dev node-sass@4.7.2</pre>
 
 <p>This will install the <em>node-sass</em> NPM module into your project
 and also add it as a development dependency in your package.json
@@ -10578,7 +10576,7 @@ file.</p>
   <li>In order to transform the Scss file to a CSS file, type the following at the prompt:</li>
 </ul>
 
-<pre>$ npm run scss</pre>
+<pre>  $ npm run scss</pre>
 
 <ul>
   <li>You can now do a Git commit with the message "Sass".</li>
@@ -10912,15 +10910,15 @@ order to do the building and deployment of our website.</p>
   <li>First, we install two NPM packages <em>onchange</em> and <em>parallelshell</em> as follows:</li>
 </ul>
 
-<pre>$ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2</pre>
+<pre>  $ npm install --save-dev onchange@3.3.0 parallelshell@3.0.2</pre>
 
 <ul>
   <li>Then, add the following two script items to <em>package.json</em> if you 
     are doing the exercise on a MacOS computer or a Linux computer:</li>
 </ul>
 
-<pre>"watch:scss": "onchange 'css/*.scss' -- npm run scss",
-"watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"</pre>
+<pre>  "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+  "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"</pre>
 
 <ul>
   <li><b>NOTE:</b> If you are doing the exercise on a Windows computer, please 
@@ -11323,13 +11321,13 @@ various NPM packages and scripts.</p>
   <li>Install the <em>rimraf</em> npm module by typing the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install --save-dev rimraf@2.6.2</pre>
+<pre>  $ npm install --save-dev rimraf@2.6.2</pre>
 
 <ul>
   <li>Then, set up the following script:</li>
 </ul>
 
-<pre>"clean": "rimraf dist",</pre>
+<pre>  "clean": "rimraf dist",</pre>
 
 <h3>Copying Fonts</h3>
 
@@ -11337,7 +11335,7 @@ various NPM packages and scripts.</p>
   <li>Your project uses font-awesome fonts. These need to be copied to the distribution folder. To help us do this, install the <em>copyfiles</em> NPM module globally as follows:</li>
 </ul>
 
-<pre>$ npm -g install copyfiles@2.0.0</pre>
+<pre>  $ npm -g install copyfiles@2.0.0</pre>
 
 <p>Remember to use <em>sudo</em> on mac and Linux.</p>
 
@@ -11345,7 +11343,7 @@ various NPM packages and scripts.</p>
   <li>Then set up the following script:</li>
 </ul>
 
-<pre>"copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",</pre>
+<pre>  "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",</pre>
 
 <h4>Compressing and Minifying Images</h4>
 
@@ -11353,20 +11351,20 @@ various NPM packages and scripts.</p>
   <li>We use the <em>imagemin-cli</em> NPM module to help us to compress our images to reduce the size of the images being used in our project. Install the <em>imagemin-cli</em> module as follows:</li>
 </ul>
 
-<pre>$ npm -g install imagemin-cli@3.0.0</pre>
+<pre>  $ npm -g install imagemin-cli@3.0.0</pre>
 
 <p>Remember to use <em>sudo</em> on mac and Linux.
 <b>NOTE:</b> Some students have encountered issues with imagemin-cli not installing 
 its plugins due to issues with global permissions on Mac.<br>
 In that case try;</p>
 
-<pre>$ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root</pre>
+<pre>  $ sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root</pre>
 
 <ul>
   <li>Then set up the following script;</li>
 </ul>
 
-<pre>"imagemin": "imagemin img/* --out-dir='dist/img'",</pre>
+<pre>  "imagemin": "imagemin img/* --out-dir='dist/img'",</pre>
 
 <h3>Preparing the Distribution Folder</h3>
 
@@ -11375,54 +11373,54 @@ In that case try;</p>
     folder to be checked into the git repository.</li>
 </ul>
 
-<pre>node_modules
-dist</pre>
+<pre>  node_modules
+  dist</pre>
 
 <ul>
   <li>Then, install the <em>usemin-cli, cssmin, uglifyjs</em> and <em>htmlmin</em> 
     NPM packages as follows;</li>
 </ul>
 
-<pre>$ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7</pre>
+<pre>  $ npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7</pre>
 
 <ul>
   <li>Add the following two scripts to the package.json file:</li>
 </ul>
 
-<pre>"usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html &&
-  usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && 
-  usemin index.html -d dist --htmlmin -o dist/index.html",
-"build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"</pre>
+<pre>  "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html &&
+    usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && 
+    usemin index.html -d dist --htmlmin -o dist/index.html",
+  "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"</pre>
 
 <ul>
   <li>Open <em>index.html</em> and surround the css links inclusion code as follows:</li>
 </ul>
 
-<pre>&lt;!-- build:css css/main.css --&gt;
-  &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
-  &lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
-  &lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
-  &lt;link href="css/styles.css" rel="stylesheet"&gt;
-&lt;!-- endbuild --&gt;</pre>
+<pre>  &lt;!-- build:css css/main.css --&gt;
+    &lt;link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"&gt;
+    &lt;link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"&gt;
+    &lt;link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"&gt;
+    &lt;link href="css/styles.css" rel="stylesheet"&gt;
+  &lt;!-- endbuild --&gt;</pre>
 
 <ul>
   <li>Do the same change in <em>aboutus.html</em> and <em>contactus.html</em></li>
   <li>Similarly, open <em>index.html</em> and surround the js script inclusion code as follows:</li>
 </ul>
 
-<pre>&lt;!-- build:js js/main.js --&gt;
-  &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
-  &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
-  &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
-  &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
-&lt;!-- endbuild --&gt;</pre>
+<pre>  &lt;!-- build:js js/main.js --&gt;
+    &lt;script src="node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
+    &lt;script src="node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
+    &lt;script src="node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+  &lt;!-- endbuild --&gt;</pre>
 
 <ul>
   <li>Do the same change in <em>aboutus.html</em> and <em>contactus.html</em></li>
   <li>To build the distribution folder, you can type the following at the prompt;</li>
 </ul>
 
-<pre>$ npm run build</pre>
+<pre>  $ npm run build</pre>
 
 <ul>
   <li>This will build the <em>dist</em> folder containing the files that are 
@@ -11819,7 +11817,7 @@ your web project. At the end of this exercise, you will be able to:</p>
   <li>At the command prompt, type the following to install Grunt command-line interface (CLI):</li>
 </ul>
 
-<pre>$ npm install -g grunt-cli@1.2.0</pre>
+<pre>  $ npm install -g grunt-cli@1.2.0</pre>
 
 <p>This will install the Grunt CLI globally so that you can use them in 
 all projects.</p>
@@ -11829,7 +11827,7 @@ all projects.</p>
     <em>conFusion</em> folder and type the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install grunt@1.0.2 --save-dev</pre>
+<pre>  $ npm install grunt@1.0.2 --save-dev</pre>
 
 <p>This will install local per-project Grunt to use within your project.</p>
 
@@ -11843,7 +11841,7 @@ all projects.</p>
     configure Grunt tasks:</li>
 </ul>
 
-<pre>'use strict';
+<pre>  'use strict';
 
   module.exports = function (grunt) {
     // Define the configuration for all the tasks
@@ -11863,9 +11861,9 @@ inside the function above.</p>
 	by typing the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install grunt-sass@2.1.0 --save-dev
-$ npm install time-grunt@1.4.0 --save-dev
-$ npm install jit-grunt@0.10.0 --save-dev</pre>
+<pre>  $ npm install grunt-sass@2.1.0 --save-dev
+  $ npm install time-grunt@1.4.0 --save-dev
+  $ npm install jit-grunt@0.10.0 --save-dev</pre>
 
 <p>The first one installs the Grunt module for SCSS to CSS conversion.
 The time-grunt module generates time statistics about how much time each
@@ -11880,7 +11878,7 @@ downloaded Grunt modules when needed for the tasks.</p>
 <details open>
   <summary>sass source</summary>
 
-<pre>'use strict';
+<pre>  'use strict';
 
   module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
@@ -11900,8 +11898,8 @@ downloaded Grunt modules when needed for the tasks.</p>
       }
     });
 
-  grunt.registerTask('css', ['sass']);
-};</pre>
+    grunt.registerTask('css', ['sass']);
+  };</pre>
 
 </details>
 
@@ -11909,7 +11907,7 @@ downloaded Grunt modules when needed for the tasks.</p>
   <li>Now you can run the grunt SASS task by typing the following at the prompt:</li>
 </ul>
 
-<pre>$ grunt css</pre>
+<pre>  $ grunt css</pre>
 
 <h3>Watch and Serve Tasks</h3>
 
@@ -11920,8 +11918,8 @@ downloaded Grunt modules when needed for the tasks.</p>
 	following grunt modules:</li>
 </ul>
 
-<pre>$ npm install grunt-contrib-watch@1.0.0 --save-dev
-$ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
+<pre>  $ npm install grunt-contrib-watch@1.0.0 --save-dev
+  $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
 
 <ul>
   <li>After this, we will configure the browser-sync and watch tasks by adding 
@@ -11931,7 +11929,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
 <details open>
   <summary>grunt source</summary>
 
-<pre>,
+<pre>  ,
   watch: {
     files: 'css/*.scss',
     tasks: ['sass']
@@ -11960,7 +11958,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
   <li>Then add the following task to the Grunt file:</li>
 </ul>
 
-<pre>grunt.registerTask('default', ['browserSync', 'watch']);</pre>
+<pre>  grunt.registerTask('default', ['browserSync', 'watch']);</pre>
 
 <ul>
   <li>Now if you type the following at the command prompt, it will start the 
@@ -11970,7 +11968,7 @@ $ npm install grunt-browser-sync@2.2.0 --save-dev</pre>
 	the browser (livereload)</li>
 </ul>
 
-<pre>$ grunt</pre>
+<pre>  $ grunt</pre>
 
 <ul>
   <li>Do a Git commit with the message "Grunt Part 1".</li>
@@ -12410,7 +12408,7 @@ looks just fine.</p>
     the images. To install this module type at the prompt:</li>
 </ul>
 
-<pre>$ npm install grunt-contrib-imagemin@2.0.1 --save-dev</pre>
+<pre>  $ npm install grunt-contrib-imagemin@2.0.1 --save-dev</pre>
 
 <ul>
   <li>Then, configure the imagemin task as shown below in the Gruntfile:</li>
@@ -12511,18 +12509,18 @@ looks just fine.</p>
 <details open>
   <summary>grunt source</summary>
 
-<pre>grunt.registerTask('build', [
-  'clean',
-  'copy',
-  'imagemin',
-  'useminPrepare',
-  'concat',
-  'cssmin',
-  'uglify',
-  'filerev',
-  'usemin',
-  'htmlmin'
-]);</pre>
+<pre>  grunt.registerTask('build', [
+    'clean',
+    'copy',
+    'imagemin',
+    'useminPrepare',
+    'concat',
+    'cssmin',
+    'uglify',
+    'filerev',
+    'usemin',
+    'htmlmin'
+  ]);</pre>
 
 </details>
 
@@ -12532,7 +12530,7 @@ looks just fine.</p>
 	To do this, type the following at the prompt:</li>
 </ul>
 
-<pre>$ grunt build</pre>
+<pre>  $ grunt build</pre>
 
 <h3>Conclusions</h3>
 
@@ -12546,10 +12544,12 @@ your web project.</p>
 of tasks that we've performed with both NPM Scripts and Grunt, but now we'll try to do the same using
 Gulp and Gulp Plug-ins.</p>
 
-<p>To get started, let's first install Gulp as a global module. To do that, at the prompt, type </p>
-<pre>$ npm -g install gulp</pre><p>this will install Gulp as a global module and make it available for use on the command line. After we
+<p>To get started, let's first install Gulp as a global module. To do that, at the prompt, type</p>
+<pre>  $ npm -g install gulp</pre>
+<p>this will install Gulp as a global module and make it available for use on the command line. After we
 complete this, the next step is to install Gulp locally in our project. To do that, at the prompt, type
-<pre>  $ npm install gulp --save-dev.</pre></p>
+
+<pre>  $ npm install gulp --save-dev.</pre>
 
 <p>Once we have completed these two, it's time to go ahead and configure our Gulp tasks. Before we do
 that, our next step, we will install the Gulp Sass plug-in so that we can configure the Sass to see as conversion task in our Gulp file. To go ahead and do that, type</p>
@@ -12686,7 +12686,7 @@ web project. At the end of this exercise, you will be able to:</p>
     (CLI) globally:</li>
 </ul>
 
-<pre>$ npm install -g gulp-cli@2.0.1</pre>
+<pre>  $ npm install -g gulp-cli@2.0.1</pre>
 
 <p>This will install the Gulp globally so that you can use it in all projects.</p>
 
@@ -12695,7 +12695,7 @@ web project. At the end of this exercise, you will be able to:</p>
     <em>conFusion</em> folder and type the following at the prompt:</li>
 </ul>
 
-<pre>$ npm install gulp@3.9.1 --save-dev</pre>
+<pre>  $ npm install gulp@3.9.1 --save-dev</pre>
 
 <p>This will install local per-project Gulp to use within your project.</p>
 
@@ -12706,7 +12706,7 @@ web project. At the end of this exercise, you will be able to:</p>
     To do this, type the following at the command prompt:</li>
 </ul>
 
-<pre>$ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev</pre>
+<pre>  $ npm install gulp-sass@3.1.0  browser-sync@2.23.6 --save-dev</pre>
 
 <h3>Creating a Gulp File</h3>
 
@@ -12722,7 +12722,7 @@ web project. At the end of this exercise, you will be able to:</p>
   <li>Load in all the Gulp plugins by including the following code in the Gulp file:</li>
 </ul>
 
-<pre>'use strict';
+<pre>  'use strict';
 
 var gulp = require('gulp'),
   sass = require('gulp-sass'),
@@ -12738,35 +12738,35 @@ var gulp = require('gulp'),
 <details open>
   <summary>gulp source</summary>
 
-<pre>gulp.task('sass', function () {
-  return gulp.src('./css/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
-});
- 
-gulp.task('sass:watch', function () {
-  gulp.watch('./css/*.scss', ['sass']);
-});
- 
-gulp.task('browser-sync', function () {
-  var files = [
-    './*.html',
-    './css/*.css',
-    './img/*.{png,jpg,gif}',
-    './js/*.js'
-  ];
- 
-  browserSync.init(files, {
-    server: {
-      baseDir: "./"
-    }
+<pre>  gulp.task('sass', function () {
+    return gulp.src('./css/*.scss')
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest('./css'));
   });
-});
  
-// Default task
-gulp.task('default', ['browser-sync'], function() {
-  gulp.start('sass:watch');
-});</pre>
+  gulp.task('sass:watch', function () {
+    gulp.watch('./css/*.scss', ['sass']);
+  });
+ 
+  gulp.task('browser-sync', function () {
+    var files = [
+      './*.html',
+      './css/*.css',
+      './img/*.{png,jpg,gif}',
+      './js/*.js'
+    ];
+ 
+    browserSync.init(files, {
+      server: {
+        baseDir: "./"
+      }
+    });
+  });
+ 
+  // Default task
+  gulp.task('default', ['browser-sync'], function() {
+    gulp.start('sass:watch');
+  });</pre>
 
 </details>
 
@@ -12780,7 +12780,7 @@ gulp.task('default', ['browser-sync'], function() {
   <li>At the command prompt, if you type <em>gulp</em> it will run the default task:</li>
 </ul>
 
-<pre>$ gulp</pre>
+<pre>  $ gulp</pre>
 
 <ul>
   <li>Do a Git commit with the message "Gulp Part 1".</li>
@@ -12823,15 +12823,15 @@ your web project.</p>
 <details open>
   <summary>Gulp Clean &amp; Font Tasks</summary>
 
-<pre>// Clean
-gulp.task('clean', function() {
-  return del(['dist']);
-});
+<pre>  // Clean
+  gulp.task('clean', function() {
+    return del(['dist']);
+  });
  
-gulp.task('copyfonts', function() {
-  gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
-    .pipe(gulp.dest('./dist/fonts'));
-});</pre>
+  gulp.task('copyfonts', function() {
+    gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
+      .pipe(gulp.dest('./dist/fonts'));
+  });</pre>
 
 </details>
 
@@ -12855,12 +12855,12 @@ gulp.task('copyfonts', function() {
 <details open>
   <summary>Gulp Minimize Image Task</summary>
 
-<pre>// Images
-gulp.task('imagemin', function() {
-  return gulp.src('img/*.{png,jpg,gif}')
-    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('dist/img'));
-});</pre>
+<pre>  // Images
+  gulp.task('imagemin', function() {
+    return gulp.src('img/*.{png,jpg,gif}')
+      .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+      .pipe(gulp.dest('dist/img'));
+  });</pre>
 
 </details>
 
@@ -12873,7 +12873,7 @@ gulp.task('imagemin', function() {
 <details open>
   <summary>Gulp Install Plugins</summary>
 
-<pre>$ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 
+<pre>  $ npm install gulp-uglify@3.0.0 gulp-usemin@0.3.29 gulp-rev@8.1.1 
     gulp-clean-css@3.9.3 gulp-flatmap@1.0.2 gulp-htmlmin@4.0.0 --save-dev
  
   var ...
@@ -12893,23 +12893,23 @@ gulp.task('imagemin', function() {
 <details open>
   <summary>Gulp Configure Tasks</summary>
   
-<pre>gulp.task('usemin', function() {
-return gulp.src('./*.html')
-  .pipe(flatmap(function(stream, file){
-    return stream
-    .pipe(usemin({
-      css: [ rev() ],
-      html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
-      js: [ uglify(), rev() ],
-      inlinejs: [ uglify() ],
-      inlinecss: [ cleanCss(), 'concat' ]
-    }))
-  }))
-  .pipe(gulp.dest('dist/'));
-});
-gulp.task('build',['clean'], function() {
-  gulp.start('copyfonts','imagemin','usemin');
-});</pre>
+<pre>  gulp.task('usemin', function() {
+  return gulp.src('./*.html')
+    .pipe(flatmap(function(stream, file){
+      return stream
+      .pipe(usemin({
+        css: [ rev() ],
+        html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+        js: [ uglify(), rev() ],
+        inlinejs: [ uglify() ],
+        inlinecss: [ cleanCss(), 'concat' ]
+      }))
+    }))
+    .pipe(gulp.dest('dist/'));
+  });
+  gulp.task('build',['clean'], function() {
+    gulp.start('copyfonts','imagemin','usemin');
+  });</pre>
 
 </details>
 
