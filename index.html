@@ -10927,21 +10927,21 @@ order to do the building and deployment of our website.</p>
     use the following two script items instead of the above:</li>
 </ul>
 
-<pre>"watch:scss": "onchange "css/*.scss" -- npm run scss",
-"watch:all": "parallelshell "npm run watch:scss" "npm run lite""</pre>
+<pre>  "watch:scss": "onchange "css/*.scss" -- npm run scss",
+  "watch:all": "parallelshell "npm run watch:scss" "npm run lite""</pre>
 
 <ul>
   <li>You will also update the start script as follows:</li>
 </ul>
 
-<pre>"start": "npm run watch:all",</pre>
+<pre>  "start": "npm run watch:all",</pre>
 
 <ul>
   <li>Then, type the following at the prompt to start watching for changes to 
     the SCSS file, compile it to CSS, and run the server:</li>
 </ul>
 
-<pre>$ npm start</pre>
+<pre>  $ npm start</pre>
 
 <ul>
   <li>Now, whenever you make any changes to <em>styles.scss</em> file, it will 
