@@ -38,6 +38,7 @@ pre, code {
   font-size: 10px; 
 }
 pre {
+  margin-left: 15px;
   overflow: auto; }
 pre > code {
   display: block;
@@ -86,7 +87,8 @@ details {
 }
 details > summary {
   margin-left: 15px;  /* added 12/16/23 */
-  padding: 2px 6px;
+  padding: 10px 6px;
+/*  padding: 2px 6px; */
   width: 12em;
   background-color: #eee;  /* very light gray */
   border: none;
