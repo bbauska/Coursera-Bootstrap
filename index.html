@@ -803,13 +803,15 @@ forward with understanding and using git in the courses of this specialization.<
   alt="More basic git commands." />
 
 <p>Now, we have reviewed the git reset for a specific file or git reset in general.
-If you simply type git reset, it'll restore you back to the last commit.
-It will reset the staging area to the last commit, without disturbing the changes that you have done to your working directory.
-Once you reset, then you can check out the previous version of the file that you have committed in the previous commit.</p>
+If you simply type git reset, it'll restore you back to the last commit. It will 
+reset the staging area to the last commit, without disturbing the changes that you 
+have done to your working directory. Once you reset, then you can check out the 
+previous version of the file that you have committed in the previous commit.</p>
 
-<p>This week, you can restore your folder back to the where you were at the starting point of the previous commit.
-Sometimes when you are going through an exercise and you realize you missed a cue.
-Always have a way of reverting back to a previous version.</p>
+<p>This week, you can restore your folder back to the where you were at the starting 
+point of the previous commit. Sometimes when you are going through an exercise and 
+you realize you missed a cue. Always have a way of reverting back to a previous 
+version.</p>
 
 <p>With these commands, I think you're all set to go ahead to use git in the courses 
 of this specialization.</p>
@@ -935,7 +937,8 @@ of this specialization.</p>
 <h4>Resetting the Git repository</h4>
 
 <ul>
-  <li>To discard the effect of the previous operation and restore index.html to its state at the end of the third commit, type:</li>
+  <li>To discard the effect of the previous operation and restore index.html to 
+    its state at the end of the third commit, type:</li>
 </ul>
 
 <pre>  $ git reset HEAD index.html</pre>
@@ -961,58 +964,45 @@ Experiment with these commands until you fully understand how to use Git.</p>
 <p>Online Git repositories enable you to store a copy of your Git repository online.
 And It can easily be shared among multiple computers and multiple users.</p>
 
-<p>Let’s learn about two of the online Git repository service providers,
-GitHub and Bitbucket, in a little bit more detail.
-We’ll look at how we can set up our local Git repository to be
-mirrored in an online Git repository.</p>
+<p>Let’s learn about two of the online Git repository service providers, GitHub 
+and Bitbucket, in a little bit more detail. We’ll look at how we can set up our 
+local Git repository to be mirrored in an online Git repository.</p>
 
-<p>There are several online Git repository service providers.
-Two of the most popular ones are GitHub and Bitbucket.
-I will go through in more detail about how you can set up your Git
-repository that you prepared in the previous exercise to be made out on
-an online Git repository on Bitbucket.</p>
+<p>There are several online Git repository service providers. Two of the most 
+popular ones are GitHub and Bitbucket. I will go through in more detail about 
+how you can set up your Git repository that you prepared in the previous exercise 
+to be made out on an online Git repository on Bitbucket.</p>
 
-<p>To set up in online Git repository, go to one of these online service
-providers and then sign up for an account.
-Here, I have signed up into my Bitbucket account, and I have my
-homepage open here.
-And so I'm going to create a new repository online on my Bitbucket
-repository.
-I just click on the Create repository, and then this would come up
-with some details.</p>
+<p>To set up in online Git repository, go to one of these online service providers 
+and then sign up for an account. Here, I have signed up into my Bitbucket account, 
+and I have my homepage open here. And so I'm going to create a new repository online 
+on my Bitbucket repository. I just click on the Create repository, and then this 
+would come up with some details.</p>
 
-<p>Now, this varies with the repository service provider.
-Here, I will specify the name of the repository as git-test, and I'm
-going to mark this as a private repository.</p>
+<p>Now, this varies with the repository service provider. Here, I will specify 
+the name of the repository as git-test, and I'm going to mark this as a private 
+repository.</p>
 
-<p>For this course and all the remaining courses in this specialization,
-I would bly advise you to keep your repositories as private
-repositories, because you don't want somebody else to be copying the
-code that you might save in your online Git repository.
-Please, make sure that you only use private repositories in this
+<p>For this course and all the remaining courses in this specialization, I would 
+advise you to keep your repositories as private repositories, because you don't 
+want somebody else to be copying the code that you might save in your online Git 
+repository. Please, make sure that you only use private repositories in this
 specialization.</p>
 
-<p>I will sign up as a get private repository, and then simply click on
-create repository.
-And then it'll do some setup, and then be ready for me, okay?</p>
+<p>I will sign up as a get private repository, and then simply click on create 
+repository. And then it'll do some setup, and then be ready for me, okay?</p>
 
-<p>Now, what I need to do is to copy this particular URL format
-repository.
-You will see a URL for the repository in the home page of the
-repository.
-Just copy that URL for the repository, because we would need that in
-order to synchronize our local Git repository with this repository.
-I'm going to copy that.</p>
+<p>Now, what I need to do is to copy this particular URL format repository. You 
+will see a URL for the repository in the home page of the repository. Just copy 
+that URL for the repository, because we would need that in order to synchronize 
+our local Git repository with this repository. I'm going to copy that.</p>
 
-<p>And since I have already created my local Git repository, I'm going
-to go in there and set that up to be mirrored in this online Git
-repository.
-For that, we need to use a couple of Git commands that enable us to
-do this.
-Going to the command prompt in my Git repository folder I will type,
-git remote add origin.
-And then paste the URL for my Bitbucket repository that I've just
-created, and hit the return.</p>
+<p>And since I have already created my local Git repository, I'm going to go in 
+there and set that up to be mirrored in this online Git repository. For that, 
+we need to use a couple of Git commands that enable us to do this. Going to 
+the command prompt in my Git repository folder I will type, git remote add origin.
+And then paste the URL for my Bitbucket repository that I've just created, and 
+hit the return.</p>
 
 <p>Now, my local Git repository's remote origin is set to the Bitbucket
 repository.
@@ -1125,10 +1115,10 @@ clone.</p>
 <p>And then, Paste the URL of my Bitbucket repository here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. git-test (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image017.webp?raw=true"
   style="width:35%;"
+  title="git-test"
   alt="git-test." />
 
 <p>Then you would see that that repository will now get cloned into a
@@ -1195,10 +1185,10 @@ online repository.</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 18. online git repository commands (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image018.webp?raw=true"
   style="width:35%;"
+  title="Online git repository commands"
   alt="Online git repository commands." />
 
 <pre>  $ git clone &lt;repository URL&gt;</pre>
@@ -1217,10 +1207,10 @@ has seen deployment far beyond the browser.</p>
 from the browser to the desktop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. what is node.js? (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image019.webp?raw=true"
   style="width:35%;"
+  title="What is node.js?"
   alt="What is node.js?" />
 
 <p>Let's now learn a little bit about what Node.js is and what role does NPM, the Node 
@@ -1235,10 +1225,10 @@ We will look at the server side application of Node.js in detail in
 the last course of this specialization.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. node.js typical architecture (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image020.webp?raw=true"
   style="width:35%;"
+  title="Typical node.js architecture"
   alt="Typical node.js architecture." />
 
 <p>This is the typical architecture of Node.js.</p>
@@ -1253,10 +1243,10 @@ the last course of this specialization.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. node package manager (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image021.webp?raw=true"
   style="width:35%;"
+  title="Node Package Manager"
   alt="Node Package Manager." />
   
 <p>Together with Node you often hear people talking about the Node
@@ -1279,10 +1269,10 @@ in the subsequent exercises.</p>
 <p>Click on that to download the installer package for your platform.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. node js installer (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image022.webp?raw=true"
   style="width:35%;"
+  title="Node JS installer"
   alt="Node JS installer." />
 
 <p>Once you get hold of the installer package, double click on it to start installing Node.js.</p>
@@ -1343,21 +1333,23 @@ subsequent course.</p>
 $ npm -v</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. more node js installer (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image023.webp?raw=true"
   style="width:35%"
+  title="More node JS installer"
   alt="More node JS installer." />
   
 <!-- alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&amp;hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0" -->
 
 <h3>Conclusions</h3>
 
-<p>At the end of this exercise, your machine is now ready with the Node installed for further development. We will examine web development tools next.</p>
+<p>At the end of this exercise, your machine is now ready with the Node installed 
+for further development. We will examine web development tools next.</p>
 
 <h3>Exercise: Basics of Node.js and NPM</h3>
 
-<p>Now that you have Node.js on your computer, you're obviously wanting to immediately start using it.</p>
+<p>Now that you have Node.js on your computer, you're obviously wanting to 
+immediately start using it.</p>
 <p>In this exercise, we will start using Node.</p>
 <p>We will set up a packaged, or adjacent, file for our Git test folder that we have been working with so far.</p>
 <p>Then, we will setup a node module called as lite server that will serve up the contents of our get test folder.</p>
@@ -1366,21 +1358,22 @@ $ npm -v</pre>
 <p>The lite server is something that we're going to extensively use in this and future courses, to be able to see the changes in real time in a browser window as you edit the files of your project.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. package.json defined (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image024.webp"
   style="width:45%"
+  title="What is package.json?"
   alt="What is package.json?" />
 
-<p>As I mentioned, we want to set up the package.json file.</p>
-<p>What exactly is this package.json file that we're going to setup?</p>
-<p>Here, I have some information from the npmjs.org site which specifies what exactly is the role of the package.json file.</p>
+<p>As I mentioned, we want to set up the package.json file. What exactly is this 
+package.json file that we're going to setup? Here, I have some information from 
+the npmjs.org site which specifies what exactly is the role of the package.json 
+file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. initializing package.json (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image025.webp"
   style="width:45%"
+  title="How to initialize package.json"
   alt="How to initialize package.json." />
     
 <p>The package.json file serves as the documentation on what all other packages that your project is dependent upon.</p>
