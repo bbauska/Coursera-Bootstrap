@@ -37,41 +37,37 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<body>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <script>
-  <!-- get the button -->
-  var mybutton = document.getElementById("myBtn");
+    <!-- get the button -->
+    var mybutton = document.getElementById("myBtn");
+    <!-- when the user scrolls down 10px from the top of the document, show the button -->
+    window.onscroll = function() {scrollFunction()};
 
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
     }
-  }
 
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
+    <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
+    <!-- to table of contents (approx ###), if applicable was; 315 -->
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
   <header id="title-block-header">
     <h1 style="text-align:center;" class="title">Front-End Web UI Frameworks and Tools: Bootstrap 4</h1>
     <h6 style="text-align:center;">(by Jogesh Muppala, Lecturer - Hong Kong University of Science &amp; Technology 
     <span class="citation" data-cites="HKUST">@HK-US&amp;T</span>)</h6>
   </header>
-  
-  <h1 style="text-align:center;">Front-End Web UI Frameworks and Tools: Bootstrap 4</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 01/02. coursera & hong kong university of science & technology logos (01) ~~~~~~~~~-->
 <img class="displayed"
@@ -86,14 +82,12 @@
   alt="Hong Kong University of Science & Technology logo." />
 <p style="clear: both;"></p>
 
-<h6 style="text-align:center;">taught by Jogesh K. Muppala on Coursera.org</h6>
-
 <h3>Course Overview</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~ 03. course overview; front-end web ui frameworks and tools: bootstrap 4 (01) ~~~~~~~~-->
 <img class="displayed"
   src="/images/image003.webp?raw=true"
-  style="width:45%;"
+  style="width:35%;"
   title="Course Overview; Front-end Web UI Frameworks and Tools: Bootstrap 4"
   alt="Course Overview; Front-end Web UI Frameworks and Tools: Bootstrap 4." />
 
@@ -13279,7 +13273,6 @@ working project, but also summarize the process of reaching the final goal.</p>
 <footer>
   <h6>Previous Updated 12/25/23 at 5:28pm by bbauska</h6>
   <h6>Last Updated 3/04/24 at 11:18pm by bbauska</h6>
-  <h6>Last Updated 5/27/24 at 5:12pm by bbauska</h6>
 </footer>
 
 </body>
