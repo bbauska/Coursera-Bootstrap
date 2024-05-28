@@ -128,3 +128,22 @@ body {
   padding: 10px;
   margin: 15px;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 11px;
+  border: none;
+  outline: none;
+  background-color: #8b0000;  /* dark red */
+  color: #fdfeff;  /* Very pale (mostly white) blue */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 1px;
+}
+#myBtn:hover {
+  background-color: #555555;  /* very dark gray */
+}
