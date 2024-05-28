@@ -7,7 +7,7 @@
 <!--~~~~~~~~~~~~~~~~~ index.html in https://github.com/bbauska/coursera-boot ~~~~~~~~~~~~~~~~~~~-->
 <head>
   <meta charset="utf-8" />
-  <meta name="title" content="Coursera Bootstrap 4" >
+  <meta name="title" content="Coursera/HKUST Bootstrap 4" >
   <meta name="description" content="Front-End Web User-Interface Frameworks and Tools: Bootstrap 4."/>
   <meta name="author" content="Brian Bauska (bbauska)" />
   <link rel="canonical" href="https://coursera-boot.bauska.org">
@@ -17,8 +17,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Front-End Web UI Frameworks and Tools: Bootstrap 4</title>
   <link rel="stylesheet" href="./css/styles.css"/>
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+<body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
+  <!-- to table of contents (approx ###), if applicable was; 315 -->
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+  <header id="title-block-header">
+    <h1 style="text-align:center;" class="title">Front-End Web UI Frameworks and Tools: Bootstrap 4</h1>
+    <h6 style="text-align:center;">(by Jogesh Muppala, Lecturer - Hong Kong University of Science &amp; Technology 
+    <span class="citation" data-cites="HKUST">@HK-US&amp;T</span>)</h6>
+  </header>
+  
   <h1 style="text-align:center;">Front-End Web UI Frameworks and Tools: Bootstrap 4</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 01/02. coursera & hong kong university of science & technology logos (01) ~~~~~~~~~-->
@@ -137,10 +189,10 @@ corresponding to one week of work.</p>
   </ol>
   </li>
   <li>The <mark><b>fourth (and last)</b></mark> module deals with <b>Bootstrap</b> 
-    and the <b>JQuery</b> and various <b>dev tools</b>.
+    and the <b>jQuery</b> and various <b>dev tools</b>.
   <ol type="a">
-    <li>We'll look at how Bootstrap and JQuery interact and how you can write 
-	  JQuery and JavaScript code in order to control your Bootstrap JavaScript 
+    <li>We'll look at how Bootstrap and jQuery interact and how you can write 
+	  jQuery and JavaScript code in order to control your Bootstrap JavaScript 
 	  component,</li>
     <li>We look at the various methods that are supported by the Bootstrap 
 	  JavaScript components, which can be leveraged to write JavaScript code 
@@ -1334,8 +1386,6 @@ $ npm -v</pre>
   style="width:35%"
   title="More node JS installer"
   alt="More node JS installer." />
-  
-<!-- alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WEMeUTcTEeiKpA6ZQCE7wA_939f7b1f0b392761130fa54ab68e6b54_nodejs-org.png?expiry=1641081600000&amp;hmac=8szb0VlCoxW1kyunxrK9mICYrj997hT_i1cBgrFCBl0" -->
 
 <h3>Conclusions</h3>
 
@@ -2237,7 +2287,7 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
 <h3>Downloading Bootstrap</h3>
 
 <ul>
-  <li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
+  <li>You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install jQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:</li>
 </ul>
 
 <pre>  $ npm install bootstrap@4.0.0 --save
@@ -2281,9 +2331,9 @@ create in this exercise. DO NOT DELETE the files at the end of the exercise.</h5
 	Helvetica Neue and selects the appropriate font size based on the choice of 
 	the heading style and paragraph style for the content.</li>
   <li>At the bottom of the page, just before the end of the body tag, add the 
-    following code to include the JQuery library, popper.js library and Bootstrap's 
-	Javascript plugins. Bootstrap by default uses the JQuery Javascript library for 
-	its Javascript plugins. Hence the need to include JQuery library in the web page.</li>
+    following code to include the jQuery library, popper.js library and Bootstrap's 
+	Javascript plugins. Bootstrap by default uses the jQuery Javascript library for 
+	its Javascript plugins. Hence the need to include jQuery library in the web page.</li>
 </ul>
 
 <pre>  &lt;!-- jQuery first, then Popper.js, then Bootstrap JS. --&gt;
@@ -7479,14 +7529,14 @@ flexibility and enables you to do lot of interesting things.</p>
 designing your website.</p>
 <p>Now, I look at JavaScript as a big sumo wrestler with a lot of
 capability, a lot of power, but untamed.</p>
-<p>Now, JQuery as a library that is built on top of JavaScript,
+<p>Now, jQuery as a library that is built on top of JavaScript,
 essentially takes the sumo wrestler and then packages it in a better
 manner to make this hundred lbs gorilla into a more manageable size,
 more easier to approach and more easier to include and make use off in
 your website design.</p>
-<p>If you are using JQuery library directly, you can definitely leverage
-many of the JQuery components and make use of them in your webpage.</p>
-<p>Now, that is an approach that you can always take because JQuery is
+<p>If you are using jQuery library directly, you can definitely leverage
+many of the jQuery components and make use of them in your webpage.</p>
+<p>Now, that is an approach that you can always take because jQuery is
 already going to be included in your Bootstrap webpage, if you are going
 to leverage the JavaScript-based components.</p>
 <p>Bootstrap takes this one step further, and then looking at the
@@ -7495,7 +7545,7 @@ him into a box.</p>
 <p>Essentially standing for packaging your JavaScript plugins into a
 component that you can more easily use in your webpages.</p>
 <p>The Bootstrap JavaScript-based components essentially take
-JQuery-based support, but then package them in a way that you can employ
+jQuery-based support, but then package them in a way that you can employ
 them in your webpage even without writing a single line of JavaScript
 code.</p>
 <p>This is where the Bootstrap JavaScript component can be used without
@@ -7515,7 +7565,7 @@ at several Bootstrap components that leverage JavaScript support.</p>
 <p>Of course, you can leverage the full JavaScript API that is available
 for all these components by actually writing JavaScript code.</p>
 <p>We will defer this to the next module, where we will examine how you
-can write simple JavaScript code based upon the JQuery syntax to add
+can write simple JavaScript code based upon the jQuery syntax to add
 more functionality to your JavaScript-based Bootstrap components.</p>
 
 <h3>Bootstrap JavaScript Components: Additional Resources</h3>
@@ -9062,9 +9112,9 @@ for your model.</p>
     rel="noopener noreferrer">Bootstrap Forms</a></li>
 </ul>
 
-<h3>Bootstrap and JQuery: Objectives and Outcomes (week 4)</h3>
+<h3>Bootstrap and jQuery: Objectives and Outcomes (week 4)</h3>
 
-<p>In this lesson we examine the use of Bootstrap, JQuery and JavaScript
+<p>In this lesson we examine the use of Bootstrap, jQuery and JavaScript
 together to control Bootstrap JS components. Many of the Bootstrap's JS
 components provide JavaScript methods and events to control the
 behavior.</p>
@@ -9072,13 +9122,13 @@ behavior.</p>
 <h4>At the end of this lesson, you will be able to:</h4>
 
 <ul>
-  <li>Understand how to use JQuery and JavaScript and Bootstrap's JS component methods to 
+  <li>Understand how to use jQuery and JavaScript and Bootstrap's JS component methods to 
     control the behavior of the components,</li>
   <li>Write JavaScript code taking advantage of the Bootstrap's JS component methods and 
-    JQuery methods for controlling Bootstrap JS components.</li>
+    jQuery methods for controlling Bootstrap JS components.</li>
 </ul>
 
-<h3>Bootstrap and JQuery</h3>
+<h3>Bootstrap and jQuery</h3>
 
 <p>Let us now spend some time trying to understand how Bootstrap and
 jQuery work together to support the Bootstrap's JavaScript
@@ -9226,8 +9276,8 @@ selectors.</p>
 <img class="displayed"
   src="./images/image098.webp"
   style="width:45%"
-  title="Bootstrap JQuery Example"
-  alt="Bootstrap JQuery Example." />
+  title="Bootstrap jQuery Example"
+  alt="Bootstrap jQuery Example." />
 
 <p>We'll go back to the previous example that we have seen earlier,
 where we introduce the tooltip.</p>
@@ -9236,8 +9286,8 @@ where we introduce the tooltip.</p>
 <img class="displayed"
   src="./images/image099.webp"
   style="width:45%"
-  title="Bootstrap JQuery Example, 1 of 2"
-  alt="Bootstrap JQuery Example, 1 of 2." />
+  title="Bootstrap jQuery Example, 1 of 2"
+  alt="Bootstrap jQuery Example, 1 of 2." />
 
 <p>When we introduce the tooltip, we specified script and then inside the script, 
 we said $(document). In this case the document means the entire document.
@@ -9333,8 +9383,8 @@ the examples and the exercise that follows.</p>
 <img class="displayed"
   src="./images/image103.webp"
   style="width:45%"
-  title="JQuery Events: User Interaction on a web page causing DOM events"
-  alt="JQuery Events: User Interaction on a web page causing DOM events." />
+  title="jQuery Events: User Interaction on a web page causing DOM events"
+  alt="jQuery Events: User Interaction on a web page causing DOM events." />
 
 <p>Not only that, you can also specify jQuery events, events based on
 which you respond.</p>
@@ -9365,11 +9415,11 @@ ready, click, dblclick, mousedown, on, and so on.</p>
 <p>These are all the event methods that will be executed upon occurrence
 of any of these events there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 104. example bootstrap carousel: data attributes (246) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 105. example bootstrap carousel: data attributes (246) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image104.webp"
+  src="./images/image105.webp"
   style="width:65%"
+  title="Example: Bootstrap Carousel: Data Attributes"
   alt="Example: Bootstrap Carousel: Data Attributes." />
 
 <p>Let's take an example of the Bootstrap's Carousel to see how
@@ -9382,11 +9432,11 @@ says data-ride+"carousel".</p>
 <p>And then we've specified data interval, the interval for the sliding
 action to take place.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 105. example: carousel: javascript based control (247) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 106. example: carousel: javascript based control (247) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image105.webp"
+  src="./images/image106.webp"
   style="width:45%"
+  title="Example: Carousel: JavaScript based control"
   alt="Example: Carousel: JavaScript based control." />
 
 <p>For the carousel you can do things like, for example, you can specify
@@ -9409,11 +9459,11 @@ controls.</p>
 <p>For example, you can say carousel('cycle'), meaning start cycling the
 items from left to right.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 106. example: carousel: other controls (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 107. example: carousel: other controls (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image106.webp"
+  src="./images/image107.webp"
   style="width:45%"
+  title="Example: Carousel: Other Controls"
   alt="Example: Carousel: Other Controls." />
 
 <p>You can say carousel('pause'), to pause the sliding action of the
@@ -9427,12 +9477,12 @@ previous item and the next item in my carousel.</p>
 causes various events.</p>
 <p>And based on the occurrence of these events, you can respond.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 107. example: carousel: event: slide.bs.carousel (248) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel: events (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image107.webp"
+  src="./images/image108.webp"
   style="width:45%"
-  alt="Example: Carousel Event: slide.bs.carousel." />
+  title="Example: Carousel Events"
+  alt="Example: Carousel Events." />
 
 <p>For example, you can say slide.bs.carousel.</p>
 <p>This particular event will be fired when the slide instance method is
@@ -9440,12 +9490,12 @@ invoked.</p>
 <p>Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel events (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. example: carousel events; mycarousel (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image108.webp"
+  src="./images/image109.webp"
   style="width:65%"
-  alt="Example: Carousel: Events." />
+  title="Example: Carousel: Events; myCarousel"
+  alt="Example: Carousel: Events; myCarousel." />
 
 <p>Within your code you can specify something like $("#myCarousel").on('slide.bs.carousel'.</p>
 <p>Meaning that when that slide action starts, then invoke this function, and then do 
@@ -9453,12 +9503,12 @@ something inside that function there.</p>
 <p>This kind of code can be returned also for responding to the events that are caused 
 by your carousel's behavior.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (249) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. exercise: bootstrap and jquery (249) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image109.webp"
+  src="./images/image110.webp"
   style="width:65%"
-  alt="Exercise: Bootstrap and JQuery." />
+  title="Exercise: Bootstrap and jQuery"
+  alt="Exercise: Bootstrap and jQuery." />
 
 <p>Having considered some of these examples, we'll go on to an exercise
 where we will actually write some JavaScript based code to control our
@@ -9469,7 +9519,7 @@ carousel.</p>
 <p>Which means that we can pause and resume the sliding action of our
 carousel. And we'll activate these buttons from JavaScript.</p>
 
-<h3>Exercise: Bootstrap and JQuery (9)</h3>
+<h3>Exercise: Bootstrap and jQuery (9)</h3>
 
 <p>Many of the Bootstrap's JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -9599,7 +9649,7 @@ able to control our Bootstrap JavaScript-based components.</p>
 <p>This is a good time to do a comment of your code with the message
 Bootstrap jQuery.</p>
 
-<h3>Exercise (Instructions): Bootstrap and JQuery</h3>
+<h3>Exercise (Instructions): Bootstrap and jQuery</h3>
 
 <p>Many of the Bootstrap's JavaScript-based components provide us with a
 mechanism to control some of the features of these components by writing
@@ -9728,7 +9778,7 @@ able to control our Bootstrap JavaScript-based components.</p>
 <p>This is a good time to do a comment of your code with the message
 Bootstrap jQuery.</p>
 
-<h3>Exercise: More Bootstrap and JQuery</h3>
+<h3>Exercise: More Bootstrap and jQuery</h3>
 
 <p>In the previous exercise, we saw how we can leverage the
 JavaScript-based controls that are provided for the Bootstrap JavaScript
@@ -9867,18 +9917,18 @@ behavior as pertinent in this particular case.</p>
 <p>With this, we complete this exercise. It's time for you to do a Git
 commit with the message more Bootstrap and jQuery.</p>
 
-<h3>Exercise (Instructions): More Bootstrap and JQuery</h3>
+<h3>Exercise (Instructions): More Bootstrap and jQuery</h3>
 
 <h3>Objectives and Outcomes</h3>
 
 <p>In this exercise we extend the previous exercise of controlling the
-carousel by using more JQuery and JavaScript to write JavaScript code to
+carousel by using more jQuery and JavaScript to write JavaScript code to
 control the JS component.</p>
 
 <h4>At the end of this exercise you will be able to:</h4>
 
 <ul>
-  <li>Use Bootstrap's JS component methods together with JQuery and Javascript, and</li>
+  <li>Use Bootstrap's JS component methods together with jQuery and Javascript, and</li>
   <li>Use JS code to control the Bootstrap JS component.</li>
 </ul>
 
@@ -9926,22 +9976,22 @@ based on the current behavior of the carousel.</p>
 </details>
 
 <ul>
-  <li>Do a Git commit with the message "More Bootstrap JQuery".</li>
+  <li>Do a Git commit with the message "More Bootstrap jQuery".</li>
 </ul>
 
 <h3>Conclusions</h3>
 
 <p>In this exercise we learnt more about Bootstrap's JS component
-methods and how they can be used together with JQuery and JavaScript to
+methods and how they can be used together with jQuery and JavaScript to
 control the behavior of a Bootstrap JS component.</p>
 
-<h3>Bootstrap and JQuery: Additional Resources</h3>
+<h3>Bootstrap and jQuery: Additional Resources</h3>
 
 <h3>PDFs of Presentations</h3>
 
 <ul>
-  <li><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/09-Bootstrap-JQuery.pdf" 
-    target="_blank" rel="noopener noreferrer">09-Bootstrap-JQuery.pdf</a></li>
+  <li><a href="https://github.com/bbauska/Coursera-Bootstrap/blob/main/pdf-files/09-Bootstrap-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">09-Bootstrap-jQuery.pdf</a></li>
 </ul>
 
 <h3>Bootstrap Resources</h3>
@@ -9951,12 +10001,12 @@ control the behavior of a Bootstrap JS component.</p>
     target="_blank" rel="noopener noreferrer">Bootstrap Carousel Methods</a></li>
 </ul>
 
-<h3>JQuery</h3>
+<h3>jQuery</h3>
 
 <ul>
-  <li><a href="http://jquery.com/" target="_blank" rel="noopener noreferrer">JQuery</a></li>
+  <li><a href="http://jquery.com/" target="_blank" rel="noopener noreferrer">jQuery</a></li>
   <li><a href="http://www.w3schools.com/jquery/default.asp" target="_blank" 
-    rel="noopener noreferrer">W3Schools JQuery</a></li>
+    rel="noopener noreferrer">W3Schools jQuery</a></li>
 </ul>
 
 <h3>CSS Preprocessors: Objectives and Outcomes</h3>
@@ -10635,10 +10685,10 @@ generating the CSS file by compiling the Scss code.</p>
   <li><a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="noopener noreferrer">Node-sass NPM package</a></li>
 </ul>
 
-<h3>Assignment 4: Bootstrap, JQuery and Sass</h3>
+<h3>Assignment 4: Bootstrap, jQuery and Sass</h3>
 
 <p>We come to the final assignment of this course. In this fourth
-assignment, you're going to work with bootstraps, JQuery support and
+assignment, you're going to work with bootstraps, jQuery support and
 also a little bit of Sass. This assignment consists of four tasks.</p>
 
 <p>Your <b>first</b> task would be to remove all that data-attributes from both 
@@ -10683,18 +10733,18 @@ comment to save your changes with the message assignment four.</p>
 
 <h3>Screenshots</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. form - reserve a table (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
-  src="./images/image110.webp"
-  style="width:45%"
-  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&amp;hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA" />
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. login e-mail and password (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. form - reserve a table (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image111.webp"
   style="width:45%"
+  title="Form - Reserve a Table"
+  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WlZXAjcCEeiKpA6ZQCE7wA_ac6081cd1c3c7e2abe81d45b9fb4e657_Assignment4-1.png?expiry=1641168000000&amp;hmac=mDwVmvgBY1LFUj3xcI0GFTe9HRCK7alVbliQMzTebvA" />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. login e-mail and password (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image112.webp"
+  style="width:45%"
+  title="Forms - Enter e-mail and password"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/aATXmTcCEeinvxKfGmYdOg_c62c8dae6fdf7fc76d35c1a6cba6e3b7_Assignment4-2.png?expiry=1641168000000&amp;hmac=JTXoFOb4BwWhsYNy4p_lGtRto3tcHoUAvLYE5eZn_R4" />
 
 <h3>Bootstrap Documentation</h3>
@@ -10927,7 +10977,7 @@ order to do the building and deployment of our website.</p>
 <ul>
   <li>Create a folder named <em>js</em> and in that folder create a file named 
     <em>scripts.js</em>.</li>
-  <li>Open <em>index.html</em> and from this file cut out all the JQuery script 
+  <li>Open <em>index.html</em> and from this file cut out all the jQuery script 
     that we added to it and move the code to the <em>scripts.js</em> file that 
 	we created above.</li>
   <li>Then, update the <em>index.html</em> file to include the <em>scripts.js</em> 
@@ -13229,6 +13279,7 @@ working project, but also summarize the process of reaching the final goal.</p>
 <footer>
   <h6>Previous Updated 12/25/23 at 5:28pm by bbauska</h6>
   <h6>Last Updated 3/04/24 at 11:18pm by bbauska</h6>
+  <h6>Last Updated 5/27/24 at 5:12pm by bbauska</h6>
 </footer>
 
 </body>
