@@ -14,8 +14,6 @@ Coursera-Bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <img src="./images/image001.webp?raw=true"
   style="width:35%"
   alt="Hong Kong University of Science and Technology logo." />
-</p>
-<p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
   style="width:45%"
   alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
