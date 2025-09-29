@@ -13,168 +13,148 @@ Coursera-Bootstrap: "Front-End Web UI Frameworks and Tools: Bootstrap 4"
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
   style="width:35%"
-  alt="Hong Kong University of Science and Technology logo." />
+  alt="Hong Kong University of Science and Technology logo."
+  title="Hong Kong University of Science and Technology logo" />
 <img src="./images/image002.webp?raw=true"
   style="width:35%"
-  alt="Front-end (client side) and back-end (server side) tools and technolgy used." />
+  alt="Front-end (client side) and back-end (server side) tools and technolgy used."
+  title="Front-end (client side) and back-end (server side) tools and technolgy used" />
 </p>
 
 <h6 align="center" width="100%">(coursera.org)</h6>
 
 <h3>Course Overview</h3>
-<p>
-Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.
 
-I&apos;m glad you decided to join this course to learn about the most
-popular front end Web UI Framework: Bootstrap.
+<p>Welcome to Front End Web UI Frameworks and Tools: Bootstrap 4.</p>
 
-We&apos;ll look at various aspects of <b>Bootstrap</b>. Through several
-examples, you will learn by doing exercises as part of this course.
+I&apos;m glad you decided to join this course to learn about the most popular front end Web UI 
+Framework: Bootstrap.
 
-Let&apos;s look at some details next. Before you begin this course, please
-make sure that you have sufficient background to be able to succeed in
-this course.
+We&apos;ll look at various aspects of <b>Bootstrap</b>. Through several examples, you will learn 
+by doing exercises as part of this course.
 
-You should have a good knowledge of HTML, CSS, and JavaScript before you
-start the course.
+Let&apos;s look at some details next. Before you begin this course, please make sure that you have 
+sufficient background to be able to succeed in this course.
 
-From my perspective, web design and development consists of two aspects:
-one is the design of the website and the web page, the second one is the
-actual building and deployment of the web page itself.
+You should have a good knowledge of HTML, CSS, and JavaScript before you start the course.
 
-From the design perspective, what I mean is the design of the user
-interface and the user experience, the visual design, the prototyping,
-the elements of colors, graphics and animation that might be of
-interest.
+From my perspective, web design and development consists of two aspects: one is the design of the 
+website and the web page, the second one is the actual building and deployment of the web page 
+itself.
 
-In this Specialization, we are not looking at this aspect of web
-development.
+From the design perspective, what I mean is the design of the user interface and the user 
+experience, the visual design, the prototyping, the elements of colors, graphics and animation 
+that might be of interest.
 
-Instead, we are looking at that second aspect, which is the
-<b>development, building, and deployment of websites and web pages</b>,
-using technologies like the front end web UI frameworks like Bootstrap,
-maybe JavaScript framework like Angular or a Library like React and
-hybrid mobile frameworks to design mobile applications and also
-server-side development using Node, Express, MongoDB, the main stack in
-more detail.
+In this Specialization, we are not looking at this aspect of web development.
 
-If you are looking at the Specialization, thinking about the design
-aspect of website, then you may wish to rethink again.
+Instead, we are looking at that second aspect, which is the <b>development, building, and 
+deployment of websites and web pages</b>, using technologies like the front end web UI 
+frameworks like Bootstrap, maybe JavaScript framework like Angular or a Library like React 
+and hybrid mobile frameworks to design mobile applications and also server-side development 
+using Node, Express, MongoDB, the main stack in more detail.
 
-This Specialization concentrates on the development building and
-deployment of website and web pages, a purely technical knowledge on
-using the HTML, CSS, and JavaScript-based skills for actual website
-development.
+If you are looking at the Specialization, thinking about the design aspect of website, then you 
+may wish to rethink again.
 
-You&apos;re also probably wondering about what is meant by full stack web
-development.
+This Specialization concentrates on the development building and deployment of website and web 
+pages, a purely technical knowledge on using the HTML, CSS, and JavaScript-based skills for actual 
+website development.
 
-We&apos;ll look at more details of full stack web development in the next
-lesson.
+You&apos;re also probably wondering about what is meant by full stack web development.
 
-In particular, if you&apos;re looking at how this course is positioned in
-the general context of full stack web development, in this course, we
-are dealing with front end web UI development.
+We&apos;ll look at more details of full stack web development in the next lesson.
+
+In particular, if you&apos;re looking at how this course is positioned in the general context of 
+full stack web development, in this course, we are dealing with front end web UI development.
 
 In particular, the <b>UI Framework Bootstrap 4</b>.
 
--   We&apos;ll be looking at the remaining aspects of full stack web
-    development in the rest of this specialization.
+-   We&apos;ll be looking at the remaining aspects of full stack web development in the rest of 
+    this specialization.
 
--   This course looks at Bootstrap in great detail. We will also look at
-    responsive web design and how Bootstrap supports responsive web
-    design through the Bootstrap Grid system.
+-   This course looks at Bootstrap in great detail. We will also look at responsive web design and 
+    how Bootstrap supports responsive web design through the Bootstrap Grid system.
 
--   We&apos;ll look at the CSS and JavaScript-based components in Bootstrap
-    and how you can make use of them in building your website and your
-    web pages.
+-   We&apos;ll look at the CSS and JavaScript-based components in Bootstrap and how you can make 
+    use of them in building your website and your web pages.
 
--   Along the way, we&apos;ll learn about that web development using the
-    command line.
+-   Along the way, we&apos;ll learn about that web development using the command line.
 
--   We&apos;ll learn a lot of web tools that are based on the command line
-    and the Node.js ecosystem.
+-   We&apos;ll learn a lot of web tools that are based on the command line and the Node.js 
+    ecosystem.
 
--   We&apos;ll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js
-    based tools including task runners like <b>Grunt</b> and <b>Gulp</b>.
+-   We&apos;ll briefly review <b>Git</b>, add <b>Node.js</b> and look at Noje.js based tools 
+    including task runners like <b>Grunt</b> and <b>Gulp</b>.
 
 This course, itself, is structured into four modules.
 
 Each module roughly corresponding to one week of work.
 
-1.  In the <b><i>first</i></b> module, we&apos;ll get the big picture view of full
-    stack web development, then you&apos;ll get a quick introduction to
-    <b><i>Git</i></b> and <b><i>Node.js</i>.</b>
+1.  In the <b><i>first</i></b> module, we&apos;ll get the big picture view of full stack web 
+    development, then you&apos;ll get a quick introduction to <b><i>Git</i></b> and <b><i>Node.js</i>.</b>
 
-    a.  Then we&apos;ll introduce you to the <b><i>Bootstrap</i></b> and then review
-        the <b><i>Bootstrap Grid</i></b> system.
+    a.  Then we&apos;ll introduce you to the <b><i>Bootstrap</i></b> and then review the 
+	    <b><i>Bootstrap Grid</i></b> system.
 
     b.  That will lead you up to the first assignment in this course.
 
 2.  The <b><i>second</i></b> module deals with <b>Bootstrap CSS</b> components.
 
-    a.  We&apos;ll look at the design of the Bootstrap navigation bar and
-        how we can make use of it to support navigation.
+    a.  We&apos;ll look at the design of the Bootstrap navigation bar and how we can make use of it 
+	    to support navigation.
 
-    b.  We&apos;ll look at user input through buttons and forms then we&apos;ll
-        look at how we can display content using tables and cards.
+    b.  We&apos;ll look at user input through buttons and forms then we&apos;ll look at how we can 
+	    display content using tables and cards.
 
-    c.  Then we&apos;ll look at how we can include images and media into our
-        Web page using images, thumbnails, and media objects.
+    c.  Then we&apos;ll look at how we can include images and media into our Web page using images, 
+	    thumbnails, and media objects.
 
-    d.  And then, finally, we look at how we alert users using tags,
-        alerts and progress bars.
+    d.  And then, finally, we look at how we alert users using tags, alerts and progress bars.
 
     e.  This should lead you up to your second assignment.
 
-3.  The <b><i>third</i></b> module deals with <b>Bootstrap JavaScript</b>
-    components.
+3.  The <b><i>third</i></b> module deals with <b>Bootstrap JavaScript</b> components.
 
-    a.  We&apos;ll look at the big picture view of how Bootstrap JavaScript
-        components work, we&apos;ll review tabs, pills and tabbed
-        navigation, then we&apos;ll look at how collapse and accordion can
+    a.  We&apos;ll look at the big picture view of how Bootstrap JavaScript components work, we&apos;ll 
+	    review tabs, pills and tabbed navigation, then we&apos;ll look at how collapse and accordion can
         be used to show and hide content.
 
-    b.  And then we&apos;ll look at the use of tooltips, popovers and modals
-        to reveal content to be displayed in your page.
+    b.  And then we&apos;ll look at the use of tooltips, popovers and modals to reveal content to 
+	    be displayed in your page.
 
-    c.  And then we&apos;ll look at the carousel component, which allows you
-        to display sliding information on your web page.
+    c.  And then we&apos;ll look at the carousel component, which allows you to display sliding 
+	    information on your web page.
 
     d.  This will lead you up to the third assignment in this course.
 
-4.  The <b><i>fourth (and last)</i></b> module deals with <b>Bootstrap</b> and the
-    <b>JQuery</b> and various <b>dev tools</b>.
+4.  The <b><i>fourth (and last)</i></b> module deals with <b>Bootstrap</b> and the <b>JQuery</b> 
+    and various <b>dev tools</b>.
 
-	a.  We&apos;ll, in particular, look at how Bootstrap and JQuery interact and
-		how you can write JQuery and JavaScript code in order to control
-		your Bootstrap JavaScript component.
+	a.  We&apos;ll, in particular, look at how Bootstrap and JQuery interact and how you can write 
+	    JQuery and JavaScript code in order to control your Bootstrap JavaScript component.
 
-	b.  We look at the various methods that are supported by the Bootstrap
-		> JavaScript components, which can be leveraged to write JavaScript
-		> code to control the behavior of these components.
+	b.  We look at the various methods that are supported by the Bootstrap JavaScript components, 
+	    which can be leveraged to write JavaScript code to control the behavior of these components.
 
-	c.  Then we&apos;ll review CSS pre-processing language is like <b>LESS</b> and
-		<b>Sass</b>.
+	c.  Then we&apos;ll review CSS pre-processing language is like <b>LESS</b> and <b>Sass</b>.
 
-	d.  Then, <b>finally</b>, we&apos;ll look at how we can build and deploy our
-		website using <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b>
-		and <b>Gulp</b>.
+	d.  Then, <b>finally</b>, we&apos;ll look at how we can build and deploy our website using 
+	    <b>NPM scripts</b> or <b>task runners</b> like <b>Grunt</b> and <b>Gulp</b>.
 
-This should take you all the way to the final assignment in this
-course. I hope you will have a lot of fun doing the various parts of
-this course and also enjoy the exercises that you&apos;ll encounter at
-each stage that enable you to better understand various aspects of the
-Bootstrap web UI framework.</p>
+This should take you all the way to the final assignment in this course. I hope you will have a lot 
+of fun doing the various parts of this course and also enjoy the exercises that you&apos;ll 
+encounter at each stage that enable you to better understand various aspects of the Bootstrap 
+web UI framework.</p>
 
 <h2>Welcome to Front-End Web UI Frameworks and Tools: Bootstrap 4: Additional Resources</h2>
 
 <h2>Bootstrap Resources</h2>
 
 <h3 align="left">
-    <a href="http://bootstrap.com/">Bootstrap Site (http)</a>
-	<br/>
-    <a href="https://bootstrap.com/">Bootstrap Site (https)</a>
+  <a href="http://bootstrap.com/">Bootstrap Site (http)</a>
+  <br/>
+  <a href="https://bootstrap.com/">Bootstrap Site (https)</a>
 </h3>
 
 <h2>Coursera Resources</h2>
@@ -192,204 +172,182 @@ Bootstrap web UI framework.</p>
 
 <h2>Full Stack Web Development: The Big Picture: Objectives and Outcomes (week 1)</h2>
 
-This lesson gives you a big picture view of the Full Stack Web
-Development. The lecture gives you an overview of full stack web
-development. 
+This lesson gives you a big picture view of the Full Stack Web Development. The lecture gives you 
+an overview of full stack web development. 
 
 <h3>At the end of this lesson, you will be able to:</h3>
 
--   Understand what is meant by full stack in the context of web
-    development
+-   Understand what is meant by full stack in the context of web development
 
--   Distinguish between front-end, back-end and full stack web
-    development
+-   Distinguish between front-end, back-end and full stack web development
 
--   Understand the position of this course in the context of this
-    specialization.
+-   Understand the position of this course in the context of this specialization.
 
 <h2>What is Full-Stack Web Development?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. front end and back end (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.webp?raw=true"
   alt="Front-end and back-end."
+  title="Front-end and back-end"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
-Let me clarify to you a few terms so that we started a common
-understanding of full stack web development as applied in this special
-session.
+Let me clarify to you a few terms so that we started a common understanding of full stack web 
+development as applied in this special session.
 
 We often hear people talking about the front end and back end.
 
-The front end is where we are delivering the content to the user,
-typically, in a browser where they use accesses the information, and
-this is where we use technologies like HTML, CSS and JavaScript to
-render the content for to the user.
+The front end is where we are delivering the content to the user, typically, in a browser where 
+they use accesses the information, and this is where we use technologies like HTML, CSS and 
+JavaScript to render the content for to the user.
 
-This information delivery is supported behind the scenes by a back end
-support which is typically implemented these days using technologies
-like PHP, Java, ASP.NET, Ruby, Python or NodeJS.
+This information delivery is supported behind the scenes by a back end support which is typically 
+implemented these days using technologies like PHP, Java, ASP.NET, Ruby, Python or NodeJS.
 
-We often hear people talking about the three tier architecture for Web
-Development.
+We often hear people talking about the three tier architecture for Web Development.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 03. three-tier architecture - presentation layer (05) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.webp?raw=true"
   alt="Three-tier architecture: presentation."
+  title="Three-tier architecture: presentation"
   width="45%" />
 </p>
 
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
-In this approach, the entire web application is organized into three
-different layers.
+In this approach, the entire web application is organized into three different layers.
 
-The <b>presentation layer</b>, which is concerned with delivering to the
-user.
+The <b>presentation layer</b>, which is concerned with delivering to the user.
 
-This is usually the UI-related concerns that are dealt with at the
-presentation layer.
+This is usually the UI-related concerns that are dealt with at the presentation layer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 04. three-tier architecture - business logic layer (06) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.webp?raw=true"
   alt="Three-tier architecture: business logic."
+  title="Three-tier architecture: business logic"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571587926509185in"} -->
 
-The <b>business logic layer</b>, on the other hand, is concerned more about
-the data, the data validation, the dynamic content processing, and
-generating the content to be delivered to the user.
+The <b>business logic layer</b>, on the other hand, is concerned more about the data, the data 
+validation, the dynamic content processing, and generating the content to be delivered to the user.
 
-This is backed up behind the scenes with the <b>data persistence layer or
-the data access layer</b>.
+This is backed up behind the scenes with the <b>data persistence layer or the data access layer</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 05. three-tier architecture - data access (06) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.webp?raw=true"
   alt="Three-tier architecture: data access."
+  title="Three-tier architecture: data access"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0571576990376204in"} -->
 
-This is concerned with how we store and interact with the data,
-typically, in the form of a database and access this data through an
-API.
+This is concerned with how we store and interact with the data, typically, in the form of a 
+database and access this data through an API.
 
-Exploring this further, let us see what is implemented typically in the
-traditional web development in each of these three layers.
+Exploring this further, let us see what is implemented typically in the traditional web development 
+in each of these three layers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. data layer: database and api (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.webp?raw=true"
   alt="Data Access Layer: Databsse and API."
+  title="Data Access Layer: Databsse and API"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
-The Business Logic Layer is usually implemented these days using
-technologies like Ruby, Python, PHP, JAVA, C++ or ASP.NET.
+The Business Logic Layer is usually implemented these days using technologies like Ruby, Python, 
+PHP, JAVA, C++ or ASP.NET.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 07. business logic layer: ruby, python, java, c++ & php (07) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image007.webp?raw=true"
-  alt="Business Logic Layer: Ruby, Python, Java, C++ & PHP."
+  alt="Business Logic Layer: Ruby, Python, Java, C++ &amp; PHP."
+  title="Business Logic Layer: Ruby, Python, Java, C++ &amp; PHP"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
-This Business Logic Layer is interacting behind the scenes with the
-persistent data typically stored in a relational database and accessed
-by the Business Logic Layer.
+This Business Logic Layer is interacting behind the scenes with the persistent data typically 
+stored in a relational database and accessed by the Business Logic Layer.
 
-The Business Logic Layer is also concerned with the rendering of
-information to the front side, typically, in the form of server-side
-rendering these days.
-
+The Business Logic Layer is also concerned with the rendering of information to the front side, 
+typically, in the form of server-side rendering these days.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 08. traditional web development: html, css & js (08) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.webp?raw=true"
-  alt="Traditional Web Development: HTML, CSS & JS."
+  alt="Traditional Web Development: HTML, CSS &amp; JS."
+  title="Traditional Web Development: HTML, CSS &amp; JS"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
-The HTML, CSS and JavaScript is generated on the server-side and then
-sent over to the client side in the form of a web page.
+The HTML, CSS and JavaScript is generated on the server-side and then sent over to the client side 
+in the form of a web page.
 
 In this approach, we need specialists in each of these three layers.
 
-Front end specialists, typically, would be well-versed in HTML, CSS, and
-JavaScript.
+Front end specialists, typically, would be well-versed in HTML, CSS, and JavaScript.
 
-The business logic specialist would be well-versed in one of the
-technologies that is used for implementing the business logic and then
-you need a data specialist who will be well-versed in the relational
-database management system.
+The business logic specialist would be well-versed in one of the technologies that is used for 
+implementing the business logic and then you need a data specialist who will be well-versed in 
+the relational database management system.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 09. full stack javascript development (08) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.webp?raw=true"
   alt="Full stack javascript development."
+  title="Full stack javascript development"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
-There is an increasing trend towards using a single language to
-implement the entire stack, this being JavaScript so you could have the
-front end implemented, for example, as a single page application using
-frameworks like Angular or React.
+There is an increasing trend towards using a single language to implement the entire stack, this 
+being JavaScript so you could have the front end implemented, for example, as a single page 
+application using frameworks like Angular or React.
 
-You have the server-side or the Business Logic Layer being implemented
-using technologies like NodeJS, which is also dependent on and
-JavaScript and then you have the data storage, itself, being implemented
-using technologies like MongoDB, which stores data in the form of JSON
+You have the server-side or the Business Logic Layer being implemented using technologies like 
+NodeJS, which is also dependent on and JavaScript and then you have the data storage, itself, 
+being implemented using technologies like MongoDB, which stores data in the form of JSON 
 documents.
 
-And the information exchange between the server side and the client side
-is usually done using JSON as the format and the server side supports a
-REST API endpoint.
+And the information exchange between the server side and the client side is usually done using 
+JSON as the format and the server side supports a REST API endpoint.
 
 We will cover these technologies as part of this specialization.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 10. full stack web dev: bootstrap 4 and angular or reactfull (09) ~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.webp?raw=true"
   alt="Full Stack Web Dev: Bootstrap 4 and Angular or Reactfull."
+  title="Full Stack Web Dev: Bootstrap 4 and Angular or Reactfull"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="2.4770297462817146in"} -->
 
-As you go through the specialization, you will see that on the
-presentation layer side, we will cover Bootstrap four and Angular or
-Reactfull for implementing front end applications while on the Business
-Logic Layer we will be using NodeJS and NodeJS modules and express for
-implementing the Business Logic Layer.
+As you go through the specialization, you will see that on the presentation layer side, we will 
+cover Bootstrap four and Angular or Reactfull for implementing front end applications while on the 
+Business Logic Layer we will be using NodeJS and NodeJS modules and express for implementing the 
+Business Logic Layer.
 
-We will also consider back end as a service and then the data support
-implemented using MongoDB.
+We will also consider back end as a service and then the data support implemented using MongoDB.
 
 <h4>Full Stack Web Development: Additional Resources</h4>
 
 <h4>PDFs of Presentations</h4>
 
 <ul>
-  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">00-Course-Overview.pdf (9 slides)</a><br/></li>
-  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">00-FSWD-BigPicture.pdf (6 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-Course-Overview.pdf">
+    00-Course-Overview.pdf (9 slides)</a><br/></li>
+  <li><a href="https://github.com/bbauska/Coursera-web/blob/main/pdf-files/00-FSWD-BigPicture.pdf">
+    00-FSWD-BigPicture.pdf (6 slides)</a><br/></li>
 </ul>
 
 <h4>Useful Links</h4>
@@ -461,10 +419,10 @@ set up your exercise folder as a Git repository and commit the files to
 the repository at the end of each exercise.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10a. online git repository (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image010a.webp?raw=true"
+<img src="/images/image010a.png?raw=true"
   alt="Online Git repository."
+  title="Online Git repository"
   width="45%" />
 </p>
 <!-- {width="5.0in" height="1.5908125546806648in"} -->
@@ -12163,139 +12121,122 @@ called enable tooltips for those elements.
 
 And we close the function there.
 
-This specifies that this particular script will be activated for those
-elements for which you have applied the data-toggle tooltip.
+This specifies that this particular script will be activated for those elements for which you have 
+applied the data-toggle tooltip.
 
-Basically for those HTML elements on which you have defined tooltips,
-you want the tooltip to be enabled there.
+Basically for those HTML elements on which you have defined tooltips, you want the tooltip to be 
+enabled there.
 
 This is how we interpret this syntax of this jQuery example here.
 
 Let&apos;s look at the various ways of specifying selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. jquery syntax, again (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
-  width="45%"
-  alt="JQuery syntax, again." />
+  alt="jQuery syntax, again."
+  title="jQuery syntax, again"
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
-As we realize from the jQuery statement syntax, we always follow dollar
-and then, within brackets, we specify a selector.
+As we realize from the jQuery statement syntax, we always follow dollar and then, within brackets, 
+we specify a selector.
 
-How do we specify selectors, what are the various ways you can specify
-selectors?
+How do we specify selectors, what are the various ways you can specify selectors?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. jquery selectors (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
-  width="45%"
-  alt="JQuery selectors." />
+  alt="jQuery selectors."
+  title="jQuery selectors"
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
 Here are some possibilities.
 
-You can specify a selector by specifying any specific HTML element by
-specifying the tag.
+You can specify a selector by specifying any specific HTML element by specifying the tag.
 
 You can say p, button, h4, h3, or any of the HTML tags directly.
 
-And so in that case the HTML tag name is specified within quotes and
-that&apos;ll form your selector.
+And so in that case the HTML tag name is specified within quotes and that&apos;ll form your selector.
 
-When you apply a selector like this, you&apos;re saying all the elements
-that match this criteria will be selected.
+When you apply a selector like this, you&apos;re saying all the elements that match this criteria 
+will be selected.
 
-Then you can also specify a specific HTML DOM element by specifying the
-ID of that element by using the #id.
+Then you can also specify a specific HTML DOM element by specifying the ID of that element by using 
+the #id.
 
 For example, we use #myCarousel.
 
-In this case you&apos;re saying select that particular HTML element for
-which the ID is myCarousel.
+In this case you&apos;re saying select that particular HTML element for which the ID is myCarousel.
 
 That&apos;s the other way of selecting, by specifying an ID for an element.
 
-The third possibility is to select elements by the classes which have
-applied to that.
+The third possibility is to select elements by the classes which have applied to that.
 
-For example, you can see within brackets if you say .btn, meaning all
-the HTML DOM elements for which you have applied the button class will
-be selected.
+For example, you can see within brackets if you say .btn, meaning all the HTML DOM elements for 
+which you have applied the button class will be selected.
 
-Or you can even further qualify by specifying a group of classes by
-saying .btn.btn-default, meaning that those elements for which button
-class and the button default class have both been applied.
-
-That&apos;s another way, by using the classes that are applied to the HTML
-element.
-
-The other possibility is to specify an attribute that has been applied
-to HTML element.
-
-For example, you can say attributes are specified within square brackets
-here.
-
-You can see within square brackets href, and include it in the quotation
-so which means that all those HTML elements for which href attribute has
-been applied.
-
-Similarly, you can say data-toggle="tooltip", which essentially saves
-all those elements for which the data-toggle tooltip attribute has been
+Or you can even further qualify by specifying a group of classes by saying .btn.btn-default, 
+meaning that those elements for which button class and the button default class have both been 
 applied.
 
-Also, selecting the current element for which you want to do something
-by saying \$(this).
+That&apos;s another way, by using the classes that are applied to the HTML element.
 
-Meaning, for the current element that has already been selected, for
-this, do something.
+The other possibility is to specify an attribute that has been applied to HTML element.
+
+For example, you can say attributes are specified within square brackets here.
+
+You can see within square brackets href, and include it in the quotation so which means that all 
+those HTML elements for which href attribute has been applied.
+
+Similarly, you can say data-toggle="tooltip", which essentially saves all those elements for which 
+the data-toggle tooltip attribute has been applied.
+
+Also, selecting the current element for which you want to do something by saying \$(this).
+
+Meaning, for the current element that has already been selected, for this, do something.
 
 And a lot more other possibilities.
 
-These are some examples, so you will see me using some of these in the
-examples and the exercise that follows.
+These are some examples, so you will see me using some of these in the examples and the exercise 
+that follows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. jquery events (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
-  width="45%"
-  alt="JQuery events." />
+  alt="jQuery events."
+  title="jQuery events"
+  width="45%" />
 </p>
 <!-- {width="5.0in" height="2.0592946194225723in"} -->
 
-Not only that, you can also specify jQuery events, events based on which
-you respond.
+Not only that, you can also specify jQuery events, events based on which you respond.
 
-For example, the user interactions with various elements on your webpage
-will cause DOM events.
+For example, the user interactions with various elements on your webpage will cause DOM events.
 
 For example, with a mouse, the user may click at a particular location.
 
-Or double-click, or when the mouse enters and leaves a specific
-location.
+Or double-click, or when the mouse enters and leaves a specific location.
 
 For keyboard you can respond to key presses, keydown and keyup.
 
-Events for forms, when the form is submitted, when there is a change in
-a particular input element value, and when a particular element is
-focused upon, and so on.
+Events for forms, when the form is submitted, when there is a change in a particular input element 
+ value, and when a particular element is focused upon, and so on.
 
 We can even talk about the entire document.
 
-Upon the loading of the document, upon resizing the document, upon
-scrolling or unloading the document, you can respond to those events.
+Upon the loading of the document, upon resizing the document, upon scrolling or unloading the 
+document, you can respond to those events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. jquery events #2 (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
-  width="45%"
-  alt="JQuery events #2." />
+  alt="jQuery events #2."
+  title="jQuery events #2"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
@@ -12306,11 +12247,11 @@ These are all the event methods that will be executed upon occurrence of
 any of these events there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104. example: bootstrap carousel (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.webp?raw=true"
-  width="45%"
-  alt="Example: Bootstrap carousel." />
+  alt="Example: Bootstrap carousel."
+  title="Example: Bootstrap carousel"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
@@ -12328,11 +12269,11 @@ And then we&apos;ve specified data interval, the interval for the sliding
 action to take place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. example: carousel (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.webp?raw=true"
-  width="45%"
-  alt="Example: Carousel." />
+  alt="Example: Carousel."
+  title="Example: Carousel"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.6770833333333335in"} -->
 
@@ -12363,11 +12304,11 @@ For example, you can say carousel(&apos;cycle&apos;), meaning start cycling the
 items from left to right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. example: carousel #2 (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.webp?raw=true"
-  width="45%"
-  alt="Example: Carousel #2." />
+  alt="Example: Carousel #2."
+  title="Example: Carousel #2"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12388,11 +12329,11 @@ causes various events.
 And based on the occurrence of these events, you can respond.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. example: carousel #3 (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.webp?raw=true"
-  width="45%"
-  alt="Example: Carousel #3." />
+  alt="Example: Carousel #3."
+  title="Example: Carousel #3"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12405,11 +12346,11 @@ Similarly, slid.bs.carousel means this event is fired when it has
 completed the slide transition to the next item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. example: carousel #4 (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.webp?raw=true"
-  width="45%"
-  alt="Example: Carousel #4." />
+  alt="Example: Carousel #4."
+  title="Example: Carousel #4"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -12423,11 +12364,11 @@ This kind of code can be returned also for responding to the events that
 are caused by your carousel&apos;s behavior.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. exercise: bootstrap and jquery (250) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image109.webp?raw=true"
-  width="45%"
-  alt="Exercise: Bootstrap and JQuery." />
+  alt="Exercise: Bootstrap and jQuery."
+  title="Exercise: Bootstrap and jQuery"
+  width="45%" />
 </p>
 <!-- {width="6.5in" height="2.8555555555555556in"} -->
 
@@ -13989,20 +13930,20 @@ to save your changes with the message assignment four.
 <h4>Screenshots</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. reserve a table (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp?raw=true"
   width="65%"
-  alt="Reserve a table." />
+  alt="Reserve a table"
+  title="Reserve a table." />
 </p>
 <!-- {width="5.0in" height="4.163497375328084in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. login (279) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp?raw=true"
   width="65%"
-  alt="Login." />
+  alt="Login."
+  title="Login" />
 </p>
 <!-- {width="5.0in" height="4.349809711286089in"} -->
 
@@ -17198,3 +17139,4 @@ In particular, this section should contain:
 
 ...the end
 <!-- last updated: 6/29/2023 at 11:01pm -->
+
