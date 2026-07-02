@@ -1,6 +1,8 @@
 {
- "name": "App",
- "icons": [
+  "name": "Coursera Bootstrap",
+  "short_name": "Boot", 
+  "start_url": "coursera-boot.bauska.org",
+  "display": "standalone",  "icons": [
   {
    "src": "\/images/android-icon-36x36.png",
    "sizes": "36x36",
